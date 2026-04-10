@@ -1,10 +1,6 @@
-# ── Trained model weights (too large for git) ─────────────────────────────────
-models/*.pth
-models/*.joblib
-models/xgb_classifier.json
-
-# ── Encoder pickle (regenerated on first run) ──────────────────────────────────
-encoders.pkl
+# ── Intermediate training checkpoints (not needed to run the app) ─────────────
+models/*_current.pth
+models/*_previous.pth
 
 # ── Python cache ──────────────────────────────────────────────────────────────
 __pycache__/
