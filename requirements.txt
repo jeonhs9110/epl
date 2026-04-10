@@ -1,0 +1,22 @@
+# Core Data Science
+pandas
+numpy
+scipy
+matplotlib
+scikit-learn
+joblib
+
+# Deep Learning
+torch
+
+# Web Application
+flask
+
+# Web Scraping
+selenium
+webdriver-manager
+beautifulsoup4
+
+# Gradient Boosting
+xgboost
+lightgbm

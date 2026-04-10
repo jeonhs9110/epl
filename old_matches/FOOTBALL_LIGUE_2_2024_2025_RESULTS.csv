@@ -1,0 +1,309 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Ligue 2 2024 2025,Regular Season,26/05/,ClermontWinner,Boulogne,1,2,2,g_1_0nyK2R9D,1.92,3.71,4.08,1.15,1.73
+football,Ligue 2 2024 2025,Regular Season,21/05/,Boulogne,Clermont,1,3,2,g_1_vXnB4mu1,2.36,3.26,3.51,0.84,1.57
+football,Ligue 2 2024 2025,Round 34,11/05/,Annecy,Grenoble,3,1,0,g_1_4bnCspT6,2.16,3.39,3.6,0.63,0.62
+football,Ligue 2 2024 2025,Round 34,11/05/,Bastia,Caen,2,1,0,g_1_EeU4mFaS,1.49,4.72,6.55,2.13,0.21
+football,Ligue 2 2024 2025,Round 34,11/05/,Laval,Metz,2,3,2,g_1_rBKzrgNk,1.82,4.16,4.06,1.72,1.59
+football,Ligue 2 2024 2025,Round 34,11/05/,Lorient,Martigues,5,1,0,g_1_WW0V3zp9,1.33,5.69,9.21,3.47,0.74
+football,Ligue 2 2024 2025,Round 34,11/05/,Paris FC,AC Ajaccio,2,0,0,g_1_boHBq6bf,1.4,5.17,7.76,1.35,0.52
+football,Ligue 2 2024 2025,Round 34,11/05/,Pau FC,Guingamp,1,3,2,g_1_QXI3oSTs,4.15,3.84,1.87,0.54,0.73
+football,Ligue 2 2024 2025,Round 34,11/05/,Red Star,Dunkerque,1,1,1,g_1_COkKuOcJ,3.08,2.95,2.69,0.74,1.15
+football,Ligue 2 2024 2025,Round 34,11/05/,Rodez,Clermont,1,1,1,g_1_4Q8qtXi2,2.23,3.74,3.12,1.17,0.28
+football,Ligue 2 2024 2025,Round 34,11/05/,Troyes,Amiens,1,0,0,g_1_rTgIXJpe,1.52,4.62,6.16,1.1,1.85
+football,Ligue 2 2024 2025,Round 33,03/05/,AC Ajaccio,Lorient,2,1,0,g_1_dS7uynxP,5.15,3.86,1.72,0.73,1.08
+football,Ligue 2 2024 2025,Round 33,03/05/,Amiens,Pau FC,4,2,0,g_1_SYzjQUN6,2.75,3.57,2.55,1.78,1.86
+football,Ligue 2 2024 2025,Round 33,03/05/,Caen,Red Star,1,1,1,g_1_WKMFtj8m,2.9,3.37,2.54,0.6,0.7
+football,Ligue 2 2024 2025,Round 33,03/05/,Clermont,Annecy,3,2,0,g_1_zkypnCpQ,2.27,3.34,3.37,0.45,0.62
+football,Ligue 2 2024 2025,Round 33,03/05/,Dunkerque,Laval,0,0,1,g_1_SnGOvUx0,1.86,3.72,4.34,0.82,1.79
+football,Ligue 2 2024 2025,Round 33,03/05/,Grenoble,Troyes,3,1,0,g_1_Q75zi2n9,3.3,3.41,2.27,3.08,1.99
+football,Ligue 2 2024 2025,Round 33,03/05/,Guingamp,Bastia,2,2,1,g_1_zavbO8hJ,1.81,3.61,4.89,1.93,1.12
+football,Ligue 2 2024 2025,Round 33,03/05/,Martigues,Paris FC,1,1,1,g_1_6JnsSjgf,4.63,4.01,1.75,0.48,1.38
+football,Ligue 2 2024 2025,Round 33,03/05/,Metz,Rodez,3,3,1,g_1_bgqZTCOs,1.66,4.35,4.92,4.44,1.7
+football,Ligue 2 2024 2025,Round 32,27/04/,Lorient,Caen,4,0,0,g_1_pUsP2zQr,1.25,6.37,12.7,1.66,0.89
+football,Ligue 2 2024 2025,Round 32,27/04/,Pau FC,Metz,2,1,0,g_1_zFKzLZoR,4.44,4.2,1.74,3.38,1.95
+football,Ligue 2 2024 2025,Round 32,26/04/,Rodez,Paris FC,1,1,1,g_1_E9ZuahP7,3.3,3.48,2.24,1.78,0.64
+football,Ligue 2 2024 2025,Round 32,26/04/,Annecy,AC Ajaccio,2,0,0,g_1_SCaFDiv1,2.11,3.41,3.71,1.44,0.3
+football,Ligue 2 2024 2025,Round 32,26/04/,Bastia,Grenoble,2,3,2,g_1_Knd7FD9l,1.46,4.64,7.22,1.24,1.29
+football,Ligue 2 2024 2025,Round 32,26/04/,Guingamp,Martigues,2,1,0,g_1_UHHSMeHE,1.43,4.61,8.19,1.84,1.26
+football,Ligue 2 2024 2025,Round 32,26/04/,Laval,Amiens,1,0,0,g_1_GYuAZY0K,1.64,4.0,5.64,1.58,1.02
+football,Ligue 2 2024 2025,Round 32,26/04/,Red Star,Clermont,1,1,1,g_1_OvgOBV8D,2.48,3.35,2.99,0.42,1.94
+football,Ligue 2 2024 2025,Round 32,26/04/,Troyes,Dunkerque,1,0,0,g_1_KAIlTbf2,2.95,3.09,2.68,1.09,1.13
+football,Ligue 2 2024 2025,Round 31,22/04/,Annecy,Lorient,0,0,1,g_1_Y9pJ6qRG,6.15,4.31,1.56,0.35,0.67
+football,Ligue 2 2024 2025,Round 31,20/04/,Metz,Red Star,2,2,1,g_1_Q7Pca1Jj,1.48,4.64,6.98,1.11,0.57
+football,Ligue 2 2024 2025,Round 31,19/04/,Paris FC,Bastia,1,0,0,g_1_Wpl2ARRi,2.04,3.44,3.91,0.66,0.62
+football,Ligue 2 2024 2025,Round 31,19/04/,AC Ajaccio,Pau FC,1,1,1,g_1_vBiA85d4,2.46,3.28,3.08,2.34,1.35
+football,Ligue 2 2024 2025,Round 31,19/04/,Amiens,Guingamp,3,2,0,g_1_jkBFnOZp,4.28,3.7,1.88,2.15,2.37
+football,Ligue 2 2024 2025,Round 31,19/04/,Caen,Martigues,0,3,2,g_1_K6KqhpCN,1.61,4.16,5.72,1.91,0.82
+football,Ligue 2 2024 2025,Round 31,19/04/,Clermont,Troyes,0,2,2,g_1_beUuVKPk,3.38,3.43,2.23,1.4,1.18
+football,Ligue 2 2024 2025,Round 31,19/04/,Dunkerque,Grenoble,2,0,0,g_1_6NrR4NeT,1.61,4.15,5.74,1.93,0.18
+football,Ligue 2 2024 2025,Round 31,19/04/,Laval,Rodez,2,1,0,g_1_hEHqN4Bc,3.01,3.42,2.43,0.54,0.65
+football,Ligue 2 2024 2025,Round 30,15/04/,Bastia,Laval,5,2,0,g_1_044rf6sB,1.71,3.95,5.06,2.24,0.74
+football,Ligue 2 2024 2025,Round 30,13/04/,Grenoble,Paris FC,1,2,2,g_1_t0XHwocU,3.94,3.89,1.9,0.77,2.52
+football,Ligue 2 2024 2025,Round 30,12/04/,Guingamp,Lorient,1,2,2,g_1_KW3zR7DO,3.8,3.9,1.94,0.49,1.36
+football,Ligue 2 2024 2025,Round 30,12/04/,Amiens,Dunkerque,1,0,0,g_1_WOCRclrn,4.21,3.57,1.93,1.08,1.6
+football,Ligue 2 2024 2025,Round 30,12/04/,Martigues,Metz,1,4,2,g_1_SxR1sTc5,6.46,4.65,1.5,0.76,2.93
+football,Ligue 2 2024 2025,Round 30,12/04/,Pau FC,Clermont,2,2,1,g_1_Kpq9u7SH,2.03,3.63,3.74,3.03,0.53
+football,Ligue 2 2024 2025,Round 30,12/04/,Red Star,Annecy,0,1,2,g_1_Sj6zdSCb,2.01,3.3,4.23,0.97,0.2
+football,Ligue 2 2024 2025,Round 30,12/04/,Rodez,Caen,2,2,1,g_1_WAXhqkTh,1.91,3.87,3.92,0.85,1.63
+football,Ligue 2 2024 2025,Round 30,12/04/,Troyes,AC Ajaccio,0,0,1,g_1_SCwAzs2S,1.84,3.48,4.86,1.31,0.87
+football,Ligue 2 2024 2025,Round 29,08/04/,Dunkerque,Guingamp,3,1,0,g_1_Iu9iRG77,2.86,3.38,2.56,1.48,1.05
+football,Ligue 2 2024 2025,Round 29,06/04/,Lorient,Pau FC,5,0,0,g_1_Wry4zLpL,1.28,6.25,10.9,3.96,1.08
+football,Ligue 2 2024 2025,Round 29,06/04/,Troyes,Red Star,2,2,1,g_1_Wpp1x3XF,1.79,3.52,5.18,0.8,1.18
+football,Ligue 2 2024 2025,Round 29,05/04/,Caen,Metz,2,2,1,g_1_4zEBWBqm,4.31,3.88,1.83,1.3,1.47
+football,Ligue 2 2024 2025,Round 29,05/04/,AC Ajaccio,Amiens,2,1,0,g_1_GGCzVb8r,2.16,3.09,4.01,1.69,0.65
+football,Ligue 2 2024 2025,Round 29,05/04/,Annecy,Bastia,1,1,1,g_1_OtGrTxwe,3.7,3.19,2.21,0.61,0.25
+football,Ligue 2 2024 2025,Round 29,05/04/,Laval,Grenoble,1,2,2,g_1_AZewkKaE,2.18,3.1,3.93,1.38,1.4
+football,Ligue 2 2024 2025,Round 29,05/04/,Paris FC,Clermont,2,0,0,g_1_C0HJUkEa,1.41,4.59,9.19,1.4,0.14
+football,Ligue 2 2024 2025,Round 29,05/04/,Rodez,Martigues,1,0,0,g_1_ddRJUUd2,1.4,5.17,7.76,0.93,0.43
+football,Ligue 2 2024 2025,Round 28,01/04/,Paris FC,Caen,4,2,0,g_1_MFUlRejA,1.49,4.49,7.02,1.29,1.69
+football,Ligue 2 2024 2025,Round 28,30/03/,Guingamp,Laval,2,0,0,g_1_OrTBWjSk,1.7,3.73,5.55,3.79,0.45
+football,Ligue 2 2024 2025,Round 28,29/03/,Grenoble,Lorient,1,2,2,g_1_zaWtTHLc,5.34,3.95,1.68,0.83,2.51
+football,Ligue 2 2024 2025,Round 28,29/03/,Bastia,Dunkerque,2,0,0,g_1_dYrXwZZF,2.29,3.29,3.4,1.04,0.67
+football,Ligue 2 2024 2025,Round 28,29/03/,Clermont,Amiens,1,1,1,g_1_IsOcPZKM,2.11,3.35,3.79,1.73,1.4
+football,Ligue 2 2024 2025,Round 28,29/03/,Martigues,AC Ajaccio,2,0,0,g_1_Au3xIiDd,3.06,3.19,2.53,0.94,1.48
+football,Ligue 2 2024 2025,Round 28,29/03/,Metz,Troyes,2,1,0,g_1_bXogvP23,1.77,3.53,5.35,0.63,0.83
+football,Ligue 2 2024 2025,Round 28,29/03/,Pau FC,Annecy,1,0,0,g_1_zJfOue53,2.1,3.47,3.68,0.71,0.74
+football,Ligue 2 2024 2025,Round 28,29/03/,Red Star,Rodez,1,1,1,g_1_4bnuxD4S,2.7,3.29,2.76,0.34,1.56
+football,Ligue 2 2024 2025,Round 27,16/03/,Lorient,Bastia,4,0,0,g_1_f3gf5ETj,1.83,3.49,4.96,1.62,0.55
+football,Ligue 2 2024 2025,Round 27,15/03/,Dunkerque,Metz,2,3,2,g_1_nPADhypo,3.53,3.44,2.17,0.69,2.18
+football,Ligue 2 2024 2025,Round 27,15/03/,Laval,Paris FC,3,0,0,g_1_fuB7EI64,4.4,3.48,1.92,1.39,1.02
+football,Ligue 2 2024 2025,Round 27,15/03/,AC Ajaccio,Red Star,2,1,0,g_1_EV2aGvxh,2.69,2.96,3.06,1.36,0.58
+football,Ligue 2 2024 2025,Round 27,15/03/,Amiens,Caen,2,1,0,g_1_OK2OAz6T,3.09,3.3,2.45,0.48,0.66
+football,Ligue 2 2024 2025,Round 27,15/03/,Annecy,Rodez,1,1,1,g_1_SzbuBq0C,3.43,3.46,2.2,0.98,1.0
+football,Ligue 2 2024 2025,Round 27,15/03/,Clermont,Grenoble,0,0,1,g_1_KAfXC5Va,2.25,3.41,3.35,1.35,1.81
+football,Ligue 2 2024 2025,Round 27,15/03/,Martigues,Pau FC,2,2,1,g_1_08vWER0m,3.44,3.38,2.22,0.61,2.39
+football,Ligue 2 2024 2025,Round 27,15/03/,Troyes,Guingamp,0,1,2,g_1_bsk7GLAd,2.59,3.28,2.9,0.84,1.06
+football,Ligue 2 2024 2025,Round 26,11/03/,Rodez,Dunkerque,5,1,0,g_1_lUADdpoJ,3.02,3.52,2.38,4.1,0.41
+football,Ligue 2 2024 2025,Round 26,09/03/,Metz,Annecy,5,1,0,g_1_t475b6G6,1.5,4.37,7.22,1.52,0.56
+football,Ligue 2 2024 2025,Round 26,08/03/,Paris FC,Lorient,3,2,0,g_1_f7ZH7AgK,2.83,2.93,2.93,2.04,2.16
+football,Ligue 2 2024 2025,Round 26,08/03/,Bastia,Martigues,1,0,0,g_1_EiGl2lHs,1.43,4.56,8.6,1.92,0.6
+football,Ligue 2 2024 2025,Round 26,08/03/,Caen,Laval,0,1,2,g_1_6ogNoTW0,2.03,3.43,4.0,0.65,1.02
+football,Ligue 2 2024 2025,Round 26,08/03/,Grenoble,AC Ajaccio,2,2,1,g_1_KlJd0Sof,2.28,3.11,3.63,1.65,0.87
+football,Ligue 2 2024 2025,Round 26,08/03/,Guingamp,Clermont,3,1,0,g_1_YJuGmk2l,1.61,4.16,5.72,3.08,0.45
+football,Ligue 2 2024 2025,Round 26,08/03/,Pau FC,Troyes,0,2,2,g_1_jHoaIstp,2.99,3.23,2.55,0.45,1.46
+football,Ligue 2 2024 2025,Round 26,08/03/,Red Star,Amiens,2,0,0,g_1_4xg0KmwQ,1.85,3.59,4.62,2.81,0.5
+football,Ligue 2 2024 2025,Round 25,04/03/,AC Ajaccio,Dunkerque,1,2,2,g_1_SIz2tYfL,4.4,2.97,2.12,1.31,1.01
+football,Ligue 2 2024 2025,Round 25,02/03/,Lorient,Rodez,3,1,0,g_1_Kfv6MC3k,1.61,4.31,5.47,2.25,0.48
+football,Ligue 2 2024 2025,Round 25,01/03/,Amiens,Metz,1,2,2,g_1_tM0yeX9E,6.18,4.02,1.6,0.92,1.96
+football,Ligue 2 2024 2025,Round 25,01/03/,Red Star,Guingamp,3,1,0,g_1_b1RXzCIr,2.79,3.36,2.63,1.68,1.56
+football,Ligue 2 2024 2025,Round 25,01/03/,Annecy2,Paris FC,2,3,2,g_1_63ngrfQ8,4.14,3.21,2.07,0.24,1.93
+football,Ligue 2 2024 2025,Round 25,01/03/,Clermont,Caen,0,1,2,g_1_ln4qgBvR,2.63,3.16,2.94,0.29,2.25
+football,Ligue 2 2024 2025,Round 25,01/03/,Laval,Martigues,0,1,2,g_1_h0KtZkme,1.69,3.73,5.67,1.5,0.61
+football,Ligue 2 2024 2025,Round 25,01/03/,Pau FC,Grenoble,1,0,0,g_1_vcf7KjY1,2.18,3.54,3.38,1.91,0.61
+football,Ligue 2 2024 2025,Round 25,01/03/,Troyes,Bastia,2,0,0,g_1_6qASN3IM,3.13,2.71,2.87,1.32,0.7
+football,Ligue 2 2024 2025,Round 24,23/02/,Metz,AC Ajaccio,0,1,2,g_1_OnizWPzn,1.49,4.4,7.33,1.12,0.83
+football,Ligue 2 2024 2025,Round 24,22/02/,Caen,Pau FC,2,2,1,g_1_hSriSszB,2.18,3.6,3.34,2.16,2.2
+football,Ligue 2 2024 2025,Round 24,22/02/,Lorient,Laval,0,1,2,g_1_fXGQBMkU,1.43,4.66,8.27,1.19,0.39
+football,Ligue 2 2024 2025,Round 24,22/02/,Bastia,Red Star,1,0,0,g_1_l8HYvLJG,1.94,3.31,4.59,2.03,0.2
+football,Ligue 2 2024 2025,Round 24,22/02/,Dunkerque,Clermont,3,0,0,g_1_htOPtsk4,1.82,3.42,5.2,1.05,0.66
+football,Ligue 2 2024 2025,Round 24,22/02/,Grenoble,Guingamp,1,1,1,g_1_lfx0QL4N,3.13,3.24,2.45,0.87,2.68
+football,Ligue 2 2024 2025,Round 24,22/02/,Martigues,Annecy,2,0,0,g_1_pGKHr3Ki,3.57,3.42,2.16,1.38,1.13
+football,Ligue 2 2024 2025,Round 24,22/02/,Paris FC,Troyes,1,0,0,g_1_bJ6KPPmA,1.81,3.57,4.92,0.5,0.65
+football,Ligue 2 2024 2025,Round 24,22/02/,Rodez,Amiens,1,1,1,g_1_4KsVKaSp,1.54,4.26,6.5,1.43,0.34
+football,Ligue 2 2024 2025,Round 23,18/02/,Annecy,Caen,1,0,0,g_1_l6OTIIu0,2.36,3.31,3.23,0.8,0.37
+football,Ligue 2 2024 2025,Round 23,16/02/,Guingamp,Metz,0,3,2,g_1_QiP9F4j5,2.98,2.95,2.67,1.52,2.38
+football,Ligue 2 2024 2025,Round 23,15/02/,Dunkerque,Paris FC,1,0,0,g_1_ALCxHdAC,3.29,2.98,2.52,0.94,0.46
+football,Ligue 2 2024 2025,Round 23,15/02/,AC Ajaccio,Laval,3,0,0,g_1_dCXhJnit,2.78,2.83,3.09,1.58,0.6
+football,Ligue 2 2024 2025,Round 23,15/02/,Amiens,Grenoble,1,4,2,g_1_ttLLKvBm,2.54,2.8,3.52,2.2,1.75
+football,Ligue 2 2024 2025,Round 23,15/02/,Clermont,Bastia,1,1,1,g_1_YHSHDrLH,3.35,2.99,2.48,1.52,1.39
+football,Ligue 2 2024 2025,Round 23,15/02/,Pau FC,Rodez,0,5,2,g_1_CA2cQ0mQ,2.38,3.2,3.3,1.51,3.66
+football,Ligue 2 2024 2025,Round 23,15/02/,Red Star,Martigues,1,0,0,g_1_IoGpFzuP,1.68,4.05,5.19,2.01,0.56
+football,Ligue 2 2024 2025,Round 23,15/02/,Troyes,Lorient,0,1,2,g_1_vHjJRoJc,4.5,3.12,2.03,1.24,0.49
+football,Ligue 2 2024 2025,Round 22,11/02/,Caen,Dunkerque,0,2,2,g_1_GOIf6udf,2.85,3.39,2.56,0.26,2.84
+football,Ligue 2 2024 2025,Round 22,09/02/,Metz,Clermont,3,1,0,g_1_2HMJ4SKk,1.59,3.96,6.4,2.51,0.57
+football,Ligue 2 2024 2025,Round 22,08/02/,AC Ajaccio,Guingamp,0,3,2,g_1_f9Uo81Rs,3.5,2.98,2.42,1.09,1.37
+football,Ligue 2 2024 2025,Round 22,08/02/,Lorient,Amiens,3,1,0,g_1_rXumAlcS,1.4,4.66,9.31,1.89,0.49
+football,Ligue 2 2024 2025,Round 22,08/02/,Grenoble,Red Star,0,0,1,g_1_OlM24JQ6,2.34,3.34,3.22,0.7,0.7
+football,Ligue 2 2024 2025,Round 22,08/02/,Laval,Annecy,0,1,2,g_1_KGFB2ceJ,2.16,3.49,3.49,0.64,0.36
+football,Ligue 2 2024 2025,Round 22,08/02/,Martigues,Troyes,1,2,2,g_1_nN3X3rRj,4.17,3.34,2.02,1.52,1.56
+football,Ligue 2 2024 2025,Round 22,08/02/,Paris FC,Pau FC,3,1,0,g_1_zVKR26k2,1.59,4.32,5.65,0.4,1.02
+football,Ligue 2 2024 2025,Round 22,08/02/,Rodez,Bastia,0,2,2,g_1_jw3EQ9s9,2.43,3.33,3.08,0.53,0.54
+football,Ligue 2 2024 2025,Round 21,02/02/,Guingamp,Paris FC,0,1,2,g_1_dtRVpYTG,3.54,3.18,2.28,0.23,1.11
+football,Ligue 2 2024 2025,Round 21,01/02/,Red Star,Lorient,1,2,2,g_1_zmEcaXrA,4.44,3.91,1.8,0.85,0.83
+football,Ligue 2 2024 2025,Round 21,01/02/,Troyes,Caen,3,0,0,g_1_SxN0943T,2.1,3.47,3.68,1.35,1.66
+football,Ligue 2 2024 2025,Round 21,01/02/,Amiens,Annecy,1,0,0,g_1_nRX2wjMj,2.14,3.63,3.42,0.68,0.55
+football,Ligue 2 2024 2025,Round 21,01/02/,Bastia,Metz,1,1,1,g_1_8f1pjT5d,3.26,3.26,2.37,1.88,1.01
+football,Ligue 2 2024 2025,Round 21,01/02/,Clermont,AC Ajaccio,0,1,2,g_1_z1gWDWc3,1.93,3.15,4.99,0.99,2.1
+football,Ligue 2 2024 2025,Round 21,01/02/,Dunkerque,Martigues,0,1,2,g_1_SMAk1gEc,1.57,4.09,6.55,0.82,0.49
+football,Ligue 2 2024 2025,Round 21,01/02/,Grenoble,Rodez,2,1,0,g_1_GrsXrCbT,3.19,3.51,2.29,1.3,2.1
+football,Ligue 2 2024 2025,Round 21,01/02/,Pau FC,Laval,1,1,1,g_1_GdM5cBDM,2.22,3.38,3.44,2.23,0.65
+football,Ligue 2 2024 2025,Round 20,28/01/,Annecy,Dunkerque,0,2,2,g_1_S0ZElGUi,3.21,3.01,2.55,0.16,1.13
+football,Ligue 2 2024 2025,Round 20,26/01/,Lorient,Clermont,3,2,0,g_1_tpBXywon,1.7,3.96,5.13,2.86,1.73
+football,Ligue 2 2024 2025,Round 20,25/01/,Paris FC,Red Star,4,1,0,g_1_OSSNnfa4,1.62,4.16,5.68,1.78,0.97
+football,Ligue 2 2024 2025,Round 20,25/01/,Bastia,Pau FC,1,1,1,g_1_GM5dWYEN,1.95,3.59,4.1,1.85,0.53
+football,Ligue 2 2024 2025,Round 20,25/01/,Caen,Guingamp,0,1,2,g_1_YL25Y3vf,3.21,3.33,2.36,0.94,0.37
+football,Ligue 2 2024 2025,Round 20,25/01/,Laval,Troyes,1,0,0,g_1_KCJhBQYG,2.9,3.12,2.69,0.83,0.82
+football,Ligue 2 2024 2025,Round 20,25/01/,Martigues,Amiens,3,0,0,g_1_AP2lYfpB,3.89,3.59,2.0,1.12,0.55
+football,Ligue 2 2024 2025,Round 20,25/01/,Metz,Grenoble,3,0,0,g_1_fyiEWs96,1.61,3.85,6.41,2.93,0.46
+football,Ligue 2 2024 2025,Round 20,25/01/,Rodez,AC Ajaccio,1,2,2,g_1_0fsTQCxo,1.88,3.59,4.44,1.67,0.24
+football,Ligue 2 2024 2025,Round 19,21/01/,Troyes,Annecy,0,1,2,g_1_bcVqDn44,2.26,3.29,3.46,2.05,0.54
+football,Ligue 2 2024 2025,Round 19,19/01/,Dunkerque,Lorient,0,1,2,g_1_SKciRnXQ,3.14,3.03,2.58,0.52,1.54
+football,Ligue 2 2024 2025,Round 19,18/01/,Clermont,Laval,1,1,1,g_1_KIxWJ4P0,1.93,3.45,4.38,1.22,0.96
+football,Ligue 2 2024 2025,Round 19,18/01/,Metz,Paris FC,3,1,0,g_1_EHVvIrfD,2.34,3.22,3.37,0.72,0.5
+football,Ligue 2 2024 2025,Round 19,18/01/,AC Ajaccio,Caen,2,1,0,g_1_QeaczQ9s,2.44,3.14,3.25,1.24,0.77
+football,Ligue 2 2024 2025,Round 19,18/01/,Amiens,Bastia,1,0,0,g_1_KffqT82E,3.46,3.21,2.3,1.07,1.49
+football,Ligue 2 2024 2025,Round 19,18/01/,Grenoble,Martigues,1,0,0,g_1_tCk455A7,1.4,4.87,8.62,0.73,1.04
+football,Ligue 2 2024 2025,Round 19,18/01/,Guingamp,Rodez,3,0,0,g_1_8bid7Rue,2.14,3.62,3.42,1.55,0.97
+football,Ligue 2 2024 2025,Round 19,18/01/,Red Star,Pau FC,1,3,2,g_1_ChZNLQfl,2.8,3.32,2.65,2.76,2.86
+football,Ligue 2 2024 2025,Round 18,12/01/,Lorient,Metz,0,0,1,g_1_KKwz2W3F,2.02,3.51,3.92,0.43,0.25
+football,Ligue 2 2024 2025,Round 18,11/01/,Bastia,AC Ajaccio,4,0,0,g_1_8pCNhSQ1,1.7,3.64,5.78,1.9,0.58
+football,Ligue 2 2024 2025,Round 18,11/01/,Caen2,Grenoble,0,1,2,g_1_juGsdtGd,2.13,3.44,3.63,0.37,3.61
+football,Ligue 2 2024 2025,Round 18,11/01/,Paris FC,Amiens,1,0,0,g_1_CIIEfldk,1.69,3.73,5.64,1.5,0.65
+football,Ligue 2 2024 2025,Round 18,11/01/,Annecy,Guingamp,1,4,2,g_1_KYI8GVI8,2.5,3.3,3.0,0.53,1.42
+football,Ligue 2 2024 2025,Round 18,11/01/,Laval,Red Star,1,1,1,g_1_CWcm9mBr,2.17,3.37,3.6,1.38,1.09
+football,Ligue 2 2024 2025,Round 18,11/01/,Martigues,Clermont,0,1,2,g_1_GnXr0AYR,5.05,3.76,1.74,0.56,2.08
+football,Ligue 2 2024 2025,Round 18,11/01/,Pau FC,Dunkerque,1,1,1,g_1_tl7HE9mL,2.6,3.38,2.81,2.0,1.93
+football,Ligue 2 2024 2025,Round 18,11/01/,Rodez,Troyes,2,1,0,g_1_h0SyF8Zi,2.53,3.47,2.84,1.95,1.38
+football,Ligue 2 2024 2025,Round 17,05/01/,Laval,Lorient,2,0,0,g_1_lEf1GA1B,4.52,3.75,1.83,1.47,1.21
+football,Ligue 2 2024 2025,Round 17,04/01/,Guingamp,Dunkerque,1,1,1,g_1_ANZR1BnI,2.19,3.55,3.34,0.46,0.71
+football,Ligue 2 2024 2025,Round 17,04/01/,Metz,Pau FC,0,0,1,g_1_OW2B7FIt,1.9,3.63,4.25,2.31,0.87
+football,Ligue 2 2024 2025,Round 17,04/01/,AC Ajaccio,Annecy,1,2,2,g_1_2cWJ3XH5,3.02,2.94,2.75,2.52,0.86
+football,Ligue 2 2024 2025,Round 17,04/01/,Amiens,Troyes,0,3,2,g_1_xhpki5so,3.02,3.12,2.6,0.83,1.09
+football,Ligue 2 2024 2025,Round 17,04/01/,Caen,Clermont,0,1,2,g_1_G0dgIWWb,2.24,3.39,3.39,0.87,1.28
+football,Ligue 2 2024 2025,Round 17,04/01/,Grenoble,Bastia,3,2,0,g_1_dp1J5gmg,3.71,3.05,2.28,1.9,1.03
+football,Ligue 2 2024 2025,Round 17,04/01/,Paris FC,Martigues,1,2,2,g_1_p6X0mCXO,1.25,6.55,12.5,2.24,0.78
+football,Ligue 2 2024 2025,Round 17,04/01/,Rodez,Red Star,0,2,2,g_1_WxOz0kHU,1.76,4.33,4.22,1.43,1.76
+football,Ligue 2 2024 2025,Round 16,17/12/,Dunkerque,Caen,3,1,0,g_1_ATxxgG3m,2.06,3.41,3.91,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,15/12/,Annecy,Metz,0,0,1,g_1_jqd5bxtQ,3.41,3.2,2.33,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Lorient,Paris FC,2,0,0,g_1_fiTgtwKs,2.1,3.35,3.8,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Red Star,Grenoble,3,1,0,g_1_GQupifYa,2.64,3.38,2.77,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Amiens,Laval,1,3,2,g_1_xtUhkY2C,2.17,3.28,3.7,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Bastia,Guingamp,3,1,0,g_1_2NFAxeJ6,2.64,3.05,3.05,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Clermont,Rodez,1,1,1,g_1_G6H2vHlf,2.55,3.47,2.81,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Pau FC,AC Ajaccio,1,0,0,g_1_bk9JzZmJ,1.6,4.1,5.94,0.0,0.0
+football,Ligue 2 2024 2025,Round 16,14/12/,Troyes,Martigues,4,0,0,g_1_65NH9DcC,1.44,4.74,7.65,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,10/12/,Metz,Dunkerque,2,0,0,g_1_lvMmpnLF,1.9,3.75,4.11,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,08/12/,AC Ajaccio,Paris FC,0,2,2,g_1_0IugO4bd,4.21,3.35,2.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Grenoble,Amiens,0,2,2,g_1_tGPiQQTq,2.12,3.49,3.61,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Annecy,Clermont,2,0,0,g_1_SOXvn8j3,2.35,3.52,3.07,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Laval,Caen,1,0,0,g_1_80fyOe4D,2.38,3.79,2.84,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Lorient,Troyes,2,0,0,g_1_AwU8BZSa,1.54,5.04,5.31,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Martigues,Guingamp,0,1,2,g_1_lIpDX8yA,5.07,4.38,1.64,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Red Star,Bastia,0,0,1,g_1_fwlLRw5l,3.42,3.63,2.14,0.0,0.0
+football,Ligue 2 2024 2025,Round 15,07/12/,Rodez,Pau FC,1,0,0,g_1_ppvMVn6M,2.61,3.62,2.66,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,04/12/,AC Ajaccio,Bastia,0,0,1,g_1_Wplzx9A5,3.4,3.1,2.34,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,26/11/,Dunkerque,AC Ajaccio,1,0,0,g_1_WtEnHmiT,1.89,3.36,4.82,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,24/11/,Bastia2,Lorient,0,0,1,g_1_MToc6WxB,3.19,3.59,2.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Paris FC,Annecy,0,0,1,g_1_zFKwJ9MG,1.65,4.11,5.4,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Caen,Rodez,3,3,1,g_1_6ZSMMiNi,2.4,3.58,2.94,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Clermont,Metz,1,1,1,g_1_ERQyalVp,3.45,3.14,2.34,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Guingamp,Amiens,3,0,0,g_1_21MVKVi4,2.01,3.61,3.82,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Martigues,Laval,0,3,2,g_1_ths5ZU6c,3.83,3.37,2.09,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Pau FC,Red Star,4,1,0,g_1_0d4IBREj,1.91,3.61,4.23,0.0,0.0
+football,Ligue 2 2024 2025,Round 14,23/11/,Troyes,Grenoble,0,0,1,g_1_xCG1Debm,2.26,3.28,3.48,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,10/11/,Metz,Caen,1,0,0,g_1_hlftAEwn,1.63,4.09,5.68,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Lorient,Guingamp,3,1,0,g_1_Q1hl8h8b,1.86,3.92,4.12,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Pau FC,Paris FC,0,0,1,g_1_Ym9ohtI0,3.3,3.59,2.2,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,AC Ajaccio,Clermont,2,0,0,g_1_8QLNiXNH,3.08,2.95,2.69,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Amiens,Martigues,1,1,1,g_1_UF2fjKnD,1.5,4.35,7.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Grenoble,Dunkerque,0,1,2,g_1_voU6eFOh,2.77,3.18,2.77,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Laval,Bastia,2,2,1,g_1_nBXEggg5,3.47,3.08,2.36,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Red Star,Troyes,0,3,2,g_1_hvuVIHzQ,2.44,3.49,2.95,0.0,0.0
+football,Ligue 2 2024 2025,Round 13,09/11/,Rodez,Annecy,5,1,0,g_1_KrE5cyft,2.11,3.5,3.61,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,05/11/,AC Ajaccio,Metz,0,1,2,g_1_4WNXteh2,4.16,3.29,2.03,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,03/11/,Guingamp,Grenoble,3,0,0,g_1_W6sFgYy8,1.77,3.89,4.7,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Caen,Bastia,2,0,0,g_1_2RkbcGxq,2.24,3.23,3.56,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Annecy,Pau FC,2,0,0,g_1_lrCa1peE,2.58,3.3,2.89,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Clermont,Lorient,2,1,0,g_1_hh4S2xFL,3.43,3.38,2.23,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Dunkerque,Amiens,3,1,0,g_1_tjU6aOPQ,2.47,3.33,3.02,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Martigues,Red Star,0,1,2,g_1_QN5wf2ml,3.63,3.34,2.17,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Paris FC,Rodez,3,3,1,g_1_bgq7ef7e,1.76,3.86,4.79,0.0,0.0
+football,Ligue 2 2024 2025,Round 12,02/11/,Troyes,Laval,0,0,1,g_1_QXnqeErJ,1.98,3.36,4.28,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Amiens,Paris FC,0,0,1,g_1_K4kBwMoA,3.65,3.01,2.33,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Bastia,Rodez,2,2,1,g_1_hImJy0GM,2.23,3.21,3.64,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Grenoble,Annecy,0,0,1,g_1_UD9kUH8d,1.98,3.44,4.17,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Guingamp,AC Ajaccio,1,0,0,g_1_Mm6sWwvp,1.74,3.59,5.39,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Laval,Clermont,1,2,2,g_1_CYrglw0S,2.63,3.1,3.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Lorient,Dunkerque,4,2,0,g_1_A9nxhL03,1.42,5.18,7.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Martigues,Caen,0,3,2,g_1_Oxd2urHc,4.44,3.59,1.88,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Red Star,Metz,1,0,0,g_1_IZkpjaVF,3.72,3.52,2.07,0.0,0.0
+football,Ligue 2 2024 2025,Round 11,30/10/,Troyes,Pau FC,3,0,0,g_1_U5gzczE6,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Caen,Troyes,0,1,2,g_1_dheSbdqf,2.01,3.6,3.85,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Paris FC,Grenoble,2,1,0,g_1_25dJuiBt,1.58,4.15,6.19,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Annecy,Laval,2,0,0,g_1_dW3GHvPj,2.28,3.11,3.63,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Clermont,Martigues,0,1,2,g_1_OvR8LmQO,1.79,3.9,4.5,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Dunkerque,Red Star,2,0,0,g_1_xrirzmuI,2.4,3.58,2.94,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Metz,Guingamp,1,0,0,g_1_8rypRidm,2.04,3.45,3.68,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Pau FC,Amiens,0,2,2,g_1_zJfRwVug,2.11,3.5,3.42,0.0,0.0
+football,Ligue 2 2024 2025,Round 10,26/10/,Rodez,Lorient,3,3,1,g_1_xOS0N9eC,3.97,3.76,1.93,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,23/10/,Pau FC,Bastia,1,1,1,g_1_f5f1oGre,2.35,3.13,3.44,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,22/10/,Troyes,Paris FC,0,3,2,g_1_2g2J0IEs,4.55,3.64,1.85,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,20/10/,Lorient,Annecy,4,2,0,g_1_GWGWJzkK,1.49,4.61,6.86,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Amiens,AC Ajaccio,3,1,0,g_1_xlCidXdD,1.93,3.32,4.64,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Bastia,Clermont,0,0,1,g_1_lbfDWDYP,2.14,3.33,3.74,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Grenoble,Metz,2,0,0,g_1_d47R8AtJ,3.76,3.54,2.05,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Guingamp,Pau FC,0,1,2,g_1_4zEqbgS0,1.94,3.67,4.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Laval,Dunkerque,3,2,0,g_1_8UeBChsf,2.26,3.23,3.5,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Martigues,Rodez,0,2,2,g_1_88Kz0Fcl,4.67,3.77,1.8,0.0,0.0
+football,Ligue 2 2024 2025,Round 9,19/10/,Red Star,Caen,2,2,1,g_1_nF72EECs,2.45,3.5,2.93,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,06/10/,Metz,Amiens,3,2,0,g_1_fPQD76ac,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,AC Ajaccio2,Martigues,1,1,1,g_1_jXmAqfD7,1.99,3.17,4.59,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Caen,Lorient,1,2,2,g_1_ETmRq37j,3.1,3.93,2.18,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Clermont,Guingamp,4,1,0,g_1_rocekPqT,3.34,3.39,2.26,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Annecy,Red Star,1,0,0,g_1_GAud7c5E,2.11,3.49,3.62,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Dunkerque,Troyes,2,1,0,g_1_WABm6viK,2.2,3.38,3.5,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Paris FC,Laval,1,0,0,g_1_xQT45yzR,1.72,3.92,4.98,0.0,0.0
+football,Ligue 2 2024 2025,Round 8,05/10/,Rodez,Grenoble,2,1,0,g_1_MidgmxEr,2.53,3.48,2.84,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,01/10/,Guingamp,Caen,3,1,0,g_1_nJ3nioFG,2.24,3.4,3.38,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,29/09/,Troyes,Metz,2,1,0,g_1_jFY0ryaD,4.21,3.69,1.9,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Red Star,Paris FC,1,3,2,g_1_8SrDxn0N,3.88,3.46,2.05,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Amiens,Rodez,2,1,0,g_1_8nRerjWo,2.46,3.35,3.02,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Bastia,Annecy,2,2,1,g_1_t0P3tU0b,2.06,3.16,4.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Grenoble,Clermont,3,0,0,g_1_Sh9mvvKU,2.32,3.44,3.18,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Laval,Pau FC,3,1,0,g_1_h0KqXPNp,2.57,3.15,3.05,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Lorient,AC Ajaccio,3,0,0,g_1_K6CVfTFi,1.54,4.46,6.11,0.0,0.0
+football,Ligue 2 2024 2025,Round 7,28/09/,Martigues,Dunkerque,1,1,1,g_1_02u5v8VA,3.16,3.06,2.55,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,AC Ajaccio,Grenoble,2,0,0,g_1_Aw6Go4Lt,2.7,3.0,3.0,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Annecy,Troyes,1,0,0,g_1_rkVhpcU0,1.82,3.75,4.53,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Caen,Amiens,2,1,0,g_1_pUN9kDME,1.99,3.63,3.87,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Clermont,Red Star,1,1,1,g_1_bDHWsMK5,1.93,3.6,4.16,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Dunkerque,Bastia,2,1,0,g_1_65aPqrjg,3.12,3.02,2.6,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Metz,Martigues,6,0,0,g_1_CrvjVry0,1.4,4.95,8.33,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Paris FC,Guingamp,2,0,0,g_1_baxbTM5C,2.31,3.29,3.34,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Pau FC,Lorient,1,0,0,g_1_fRV6R0zP,3.66,3.85,1.99,0.0,0.0
+football,Ligue 2 2024 2025,Round 6,25/09/,Rodez,Laval,1,3,2,g_1_KS5ut0kI,2.44,3.3,3.09,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Metz,Lorient,1,1,1,g_1_WQczyE7L,2.51,3.49,2.85,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Amiens,Clermont,1,0,0,g_1_d8sFTVae,2.64,2.94,3.15,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Bastia,Paris FC,2,1,0,g_1_tM09MEhS,3.16,3.06,2.55,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Caen,AC Ajaccio,1,0,0,g_1_ULuNR9U7,2.09,3.41,3.81,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Dunkerque,Pau FC,3,2,0,g_1_r5HuFWp2,2.95,3.21,2.6,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Guingamp,Annecy,2,2,1,g_1_xhnuHhGk,1.8,3.76,4.67,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Martigues,Grenoble,0,4,2,g_1_pf70OzOF,3.49,2.89,2.48,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Red Star,Laval,0,3,2,g_1_AB9Rxzw9,2.58,3.19,2.98,0.0,0.0
+football,Ligue 2 2024 2025,Round 5,21/09/,Troyes,Rodez,0,3,2,g_1_OnFinJal,2.5,3.31,3.01,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,17/09/,Grenoble,Caen,3,1,0,g_1_4GNqcbPG,2.89,3.21,2.65,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Paris FC,Metz,1,2,2,g_1_CtRiexfT,2.37,3.26,3.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Annecy,Amiens,3,0,0,g_1_WjsR9y9M,2.39,3.18,3.29,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Bastia,Troyes,0,0,1,g_1_SGTLiuxR,1.92,3.51,4.36,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Clermont,Dunkerque,0,1,2,g_1_jyOc4FWq,1.95,3.27,4.57,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Laval,AC Ajaccio,1,1,1,g_1_xU3hQdg3,2.49,2.96,3.38,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Lorient,Red Star,2,1,0,g_1_dYQ52g1d,1.73,3.88,4.98,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Pau FC,Martigues,3,0,0,g_1_bwqJBcvA,2.27,3.17,3.58,0.0,0.0
+football,Ligue 2 2024 2025,Round 4,14/09/,Rodez,Guingamp,1,2,2,g_1_2BkADJ9c,3.6,3.5,2.12,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Amiens,Lorient,1,0,0,g_1_zoZtwwYp,4.58,3.7,1.83,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Metz,Laval,1,1,1,g_1_8lUzaKf4,1.72,3.41,6.25,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,AC Ajaccio,Troyes,2,1,0,g_1_WlzDg17E,2.11,3.1,4.16,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Caen,Annecy,1,1,1,g_1_IoCT4kRP,2.05,3.41,3.93,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Clermont,Paris FC,0,1,2,g_1_zyWS0tQi,3.28,3.26,2.36,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Dunkerque,Rodez,1,0,0,g_1_06FhaTlm,2.61,3.28,2.88,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Grenoble,Pau FC,1,1,1,g_1_UPVYr846,2.3,3.41,3.26,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Guingamp,Red Star,3,4,2,g_1_8WI0c7Ja,1.86,3.26,5.17,0.0,0.0
+football,Ligue 2 2024 2025,Round 3,31/08/,Martigues,Bastia,0,1,2,g_1_QiPssnZI,3.75,3.09,2.24,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,27/08/,Red Star,AC Ajaccio,1,0,0,g_1_0pvInj5s,1.87,3.28,5.1,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Lorient,Grenoble,2,0,0,g_1_2yXIHV57,1.5,4.44,6.88,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Annecy,Martigues,2,4,2,g_1_GM5aU8kD,1.81,3.62,4.8,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Bastia,Amiens,1,0,0,g_1_r97iWUK0,2.44,2.94,3.5,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Laval,Guingamp,0,1,2,g_1_MaSQpUZg,3.44,3.09,2.38,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Paris FC,Dunkerque,3,2,0,g_1_WUmnhCsK,1.73,3.82,5.09,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Pau FC2,Caen,1,0,0,g_1_nsErYjjl,2.79,3.35,2.64,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Rodez,Metz,1,3,2,g_1_UsP4uZcE,2.99,3.25,2.54,0.0,0.0
+football,Ligue 2 2024 2025,Round 2,24/08/,Troyes,Clermont,0,1,2,g_1_4rrRVcF7,3.6,3.4,2.15,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,20/08/,Martigues,Lorient,0,1,2,g_1_OA5YizjL,4.76,3.7,1.8,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,20/08/,Metz,Bastia,1,1,1,g_1_lEQmcVR0,2.22,3.28,3.56,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Caen,Paris FC,0,2,2,g_1_dvUee9dD,2.74,3.37,2.68,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,AC Ajaccio,Rodez,1,0,0,g_1_EeC5phre,2.86,3.18,2.7,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Amiens,Red Star,3,0,0,g_1_2Hh06Z4E,2.54,3.17,3.06,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Clermont,Pau FC,2,2,1,g_1_6V8cnEDr,2.16,3.42,3.57,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Dunkerque,Annecy,0,2,2,g_1_zB0ErWC7,2.9,3.28,2.59,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Grenoble,Laval,2,1,0,g_1_dGo94DZQ,2.37,3.16,3.37,0.0,0.0
+football,Ligue 2 2024 2025,Round 1,17/08/,Guingamp,Troyes,4,0,0,g_1_b15XX7Nt,1.71,3.81,5.29,0.0,0.0

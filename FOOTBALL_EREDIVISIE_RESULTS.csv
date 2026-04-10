@@ -1,0 +1,221 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Eredivisie,Round 21,02/02/,FC Volendam,G.A. Eagles,1,1,1,g_1_lKZrHln9,3.93,3.73,1.97,1.14,0.93
+football,Eredivisie,Round 21,02/02/,Heerenveen,Utrecht,1,1,1,g_1_2kd24B23,1.76,4.04,4.68,1.75,0.84
+football,Eredivisie,Round 21,01/02/,Heracles,Sittard,2,1,0,g_1_xWScgof2,2.34,3.49,3.17,2.3,0.58
+football,Eredivisie,Round 21,01/02/,PSV,Feyenoord,3,0,0,g_1_l6fA2kXF,1.66,4.46,4.89,2.02,0.35
+football,Eredivisie,Round 21,01/02/,Excelsior,Ajax,2,2,1,g_1_AZNiFSGL,4.14,3.93,1.87,0.77,0.73
+football,Eredivisie,Round 21,01/02/,Sparta Rotterdam,Groningen,2,0,0,g_1_MgJFt8Ad,2.4,3.69,2.91,1.63,0.34
+football,Eredivisie,Round 21,01/02/,Zwolle,Telstar,4,1,0,g_1_pYmJ0T1S,2.29,3.62,3.16,2.68,1.77
+football,Eredivisie,Round 21,01/02/,AZ Alkmaar,Nijmegen,1,3,2,g_1_tIEN96vq,1.98,3.96,3.66,1.42,1.22
+football,Eredivisie,Round 21,31/01/,NAC Breda,Twente,2,2,1,g_1_t4Zle7Pk,3.58,3.5,2.14,1.29,1.57
+football,Eredivisie,Round 20,26/01/,Feyenoord,Heracles,4,2,0,g_1_0QkYTUQj,1.25,7.7,10.3,1.47,1.84
+football,Eredivisie,Round 20,26/01/,Utrecht,Sparta Rotterdam,0,1,2,g_1_SWsKiYIc,0.0,0.0,0.0,1.33,0.59
+football,Eredivisie,Round 20,25/01/,Groningen,Sittard,1,2,2,g_1_fqZzljIM,1.52,4.27,6.59,2.31,1.0
+football,Eredivisie,Round 20,25/01/,Telstar,AZ Alkmaar,0,1,2,g_1_U1soueZi,3.48,3.56,2.17,1.02,1.07
+football,Eredivisie,Round 20,25/01/,Twente,Excelsior,0,0,1,g_1_MVzTkCmA,1.3,6.08,10.6,1.34,0.91
+football,Eredivisie,Round 20,25/01/,PSV,NAC Breda,2,2,1,g_1_2FugwZ34,1.41,5.33,7.49,1.76,1.46
+football,Eredivisie,Round 20,25/01/,Nijmegen,Zwolle,2,1,0,g_1_8SAgyDYG,1.52,4.82,6.04,1.39,1.03
+football,Eredivisie,Round 20,25/01/,Ajax,FC Volendam,2,0,0,g_1_ETF7rUup,1.31,5.92,9.2,3.24,0.32
+football,Eredivisie,Round 16,22/01/,AZ Alkmaar,Excelsior,1,1,1,g_1_dGeMhK2b,1.36,5.64,8.64,2.16,1.05
+football,Eredivisie,Round 19,19/01/,Feyenoord,Sparta Rotterdam,3,4,2,g_1_trtAwrbm,1.53,4.54,6.38,1.7,1.61
+football,Eredivisie,Round 19,18/01/,FC Volendam,Utrecht,2,1,0,g_1_nuqIyMSa,4.4,3.76,1.86,0.49,1.11
+football,Eredivisie,Round 19,18/01/,Heracles,Twente,0,2,2,g_1_U3CiL0rJ,6.43,4.57,1.53,0.73,2.53
+football,Eredivisie,Round 19,18/01/,Heerenveen,Groningen,0,2,2,g_1_Q5WRQ4Es,1.94,3.46,4.45,1.59,1.93
+football,Eredivisie,Round 19,18/01/,NAC Breda,Nijmegen,3,4,2,g_1_YyJrNMD6,2.58,3.61,2.74,0.93,1.19
+football,Eredivisie,Round 19,18/01/,Excelsior,Telstar,2,2,1,g_1_8fXQZacC,2.3,3.46,3.26,1.58,1.83
+football,Eredivisie,Round 19,18/01/,Sittard,PSV,1,2,2,g_1_Mcawq4zQ,5.34,4.82,1.57,0.38,2.78
+football,Eredivisie,Round 19,18/01/,Zwolle,AZ Alkmaar,3,1,0,g_1_nLKzPrqf,5.86,4.73,1.54,1.78,0.63
+football,Eredivisie,Round 19,18/01/,Ajax,G.A. Eagles,2,2,1,g_1_EgabHiso,1.65,4.06,5.61,3.14,0.94
+football,Eredivisie,Round 18,12/01/,Sparta Rotterdam,Heracles,2,0,0,g_1_no4Rc6pe,1.84,3.76,4.5,2.46,0.41
+football,Eredivisie,Round 18,11/01/,G.A. Eagles,Sittard,2,2,1,g_1_QiigC5al,1.85,3.98,4.19,1.63,1.06
+football,Eredivisie,Round 18,11/01/,Telstar,Ajax,2,3,2,g_1_EX5JaSFr,4.01,3.97,1.89,0.76,1.74
+football,Eredivisie,Round 18,11/01/,Heerenveen,Feyenoord,2,2,1,g_1_6mKSepF7,3.0,3.82,2.3,1.12,1.09
+football,Eredivisie,Round 18,11/01/,Groningen,NAC Breda,0,0,1,g_1_vFc98NbD,1.68,3.88,5.65,1.83,0.82
+football,Eredivisie,Round 18,11/01/,PSV,Excelsior,5,1,0,g_1_YgCEJm7E,1.18,8.24,16.3,2.64,0.68
+football,Eredivisie,Round 18,11/01/,Twente,Zwolle,1,1,1,g_1_61a1AqU0,1.34,5.66,9.31,2.03,0.39
+football,Eredivisie,Round 18,11/01/,AZ Alkmaar,FC Volendam,1,0,0,g_1_fNudWQjK,1.19,8.06,15.4,2.3,0.54
+football,Eredivisie,Round 17,22/12/,FC Volendam,Sparta Rotterdam,0,1,2,g_1_6Rrhq7V1,2.94,3.78,2.35,0.92,2.7
+football,Eredivisie,Round 17,22/12/,Sittard,AZ Alkmaar,4,3,0,g_1_6TNB3yHG,4.89,4.11,1.72,1.38,4.06
+football,Eredivisie,Round 17,21/12/,Feyenoord,Twente,1,1,1,g_1_0UupoT0k,1.94,3.99,3.77,0.62,2.64
+football,Eredivisie,Round 17,21/12/,G.A. Eagles,Groningen,1,1,1,g_1_YFP35cn4,3.6,3.6,2.1,1.15,1.27
+football,Eredivisie,Round 17,21/12/,Utrecht,PSV,1,2,2,g_1_nNLv7AN8,4.19,4.08,1.83,1.34,1.38
+football,Eredivisie,Round 17,21/12/,NAC Breda,Telstar,0,1,2,g_1_08hwkx2N,1.8,4.0,4.45,0.74,1.82
+football,Eredivisie,Round 17,21/12/,Nijmegen,Ajax,2,2,1,g_1_ptU9qGPp,2.26,4.25,2.84,1.92,2.06
+football,Eredivisie,Round 17,21/12/,Excelsior,Zwolle,2,1,0,g_1_fmPn5lhL,2.2,3.68,3.28,2.13,1.2
+football,Eredivisie,Round 17,21/12/,Heracles,Heerenveen,0,3,2,g_1_xlWf7JHi,0.0,0.0,0.0,0.48,1.99
+football,Eredivisie,Round 16,15/12/,NAC Breda,Utrecht,1,1,1,g_1_xCxbhjiI,2.8,3.45,2.61,1.43,0.67
+football,Eredivisie,Round 16,14/12/,Ajax,Feyenoord,2,0,0,g_1_hrkVjbXA,3.26,4.07,2.09,1.27,1.91
+football,Eredivisie,Round 16,14/12/,Twente,G.A. Eagles,2,0,0,g_1_pxt6jULU,1.46,4.75,7.55,3.61,0.33
+football,Eredivisie,Round 16,14/12/,Sparta Rotterdam,Heerenveen,0,3,2,g_1_lUUubfNt,2.77,3.89,2.43,0.61,1.55
+football,Eredivisie,Round 16,14/12/,Zwolle,Sittard,1,0,0,g_1_GdlkfCM5,2.49,3.68,2.8,1.6,0.92
+football,Eredivisie,Round 16,14/12/,PSV,Heracles,4,3,0,g_1_8WpsdYig,1.11,13.8,16.5,3.28,2.77
+football,Eredivisie,Round 16,14/12/,Groningen,FC Volendam,3,0,0,g_1_O2cEftYo,0.0,0.0,0.0,3.21,0.22
+football,Eredivisie,Round 16,14/12/,Telstar,Nijmegen,2,2,1,g_1_YHfWwixP,3.25,4.11,2.09,1.83,2.8
+football,Eredivisie,Round 15,08/12/,Sparta Rotterdam,NAC Breda,1,0,0,g_1_2iJikQv9,2.52,3.5,2.88,2.42,2.26
+football,Eredivisie,Round 15,07/12/,AZ Alkmaar,G.A. Eagles,2,2,1,g_1_xj1NuD7C,1.33,6.01,8.88,2.0,1.54
+football,Eredivisie,Round 15,07/12/,FC Volendam,Nijmegen,2,3,2,g_1_hp4ykHpQ,4.63,4.32,1.71,2.14,1.29
+football,Eredivisie,Round 15,07/12/,Utrecht,Twente,1,1,1,g_1_8A96qe8m,2.41,3.59,2.97,0.82,1.54
+football,Eredivisie,Round 15,07/12/,Feyenoord,Zwolle,6,1,0,g_1_xxMlRDhJ,1.19,8.89,12.9,3.4,0.97
+football,Eredivisie,Round 15,07/12/,Heracles,Telstar,1,1,1,g_1_8dUXUegf,2.28,3.87,2.99,2.21,0.75
+football,Eredivisie,Round 15,07/12/,Sittard,Ajax,1,3,2,g_1_4ONtTZN6,3.88,3.69,1.99,2.72,1.01
+football,Eredivisie,Round 15,07/12/,Heerenveen,PSV,0,2,2,g_1_MuWPWHOs,3.7,4.48,1.86,0.82,0.77
+football,Eredivisie,Round 15,06/12/,Excelsior,Groningen,0,2,2,g_1_UPcFsZx0,3.69,3.69,2.05,2.01,3.89
+football,Eredivisie,Round 14,02/12/,Ajax,Groningen,2,0,0,g_1_zoR5RMn2,2.04,3.68,3.57,1.52,1.96
+football,Eredivisie,Round 14,01/12/,Twente,AZ Alkmaar,1,0,0,g_1_rmnRY4fS,2.3,3.87,2.95,1.03,1.3
+football,Eredivisie,Round 14,30/11/,G.A. Eagles,Utrecht,2,2,1,g_1_tOkAxme3,3.07,3.58,2.35,0.88,1.8
+football,Eredivisie,Round 14,30/11/,Telstar,Feyenoord,1,2,2,g_1_jJhqOmtA,5.74,4.26,1.61,1.55,1.55
+football,Eredivisie,Round 14,30/11/,PSV,FC Volendam,3,0,0,g_1_OWjiMRAM,1.12,10.9,22.0,1.7,0.53
+football,Eredivisie,Round 14,30/11/,Nijmegen,Sparta Rotterdam,3,1,0,g_1_0SCNEq3d,1.69,4.46,4.65,2.78,1.7
+football,Eredivisie,Round 14,30/11/,Sittard,Heracles,1,1,1,g_1_llgIzRPF,1.98,3.89,3.73,1.84,0.57
+football,Eredivisie,Round 14,30/11/,Excelsior,NAC Breda,1,0,0,g_1_vJXdTrIk,2.42,3.61,2.94,0.93,1.57
+football,Eredivisie,Round 14,29/11/,Zwolle,Heerenveen,2,1,0,g_1_h29FG5Yq,3.65,4.04,1.97,1.61,1.93
+football,Eredivisie,Round 13,24/11/,Groningen,Zwolle,2,2,1,g_1_Sp7l26Jj,1.51,4.48,6.89,2.56,0.76
+football,Eredivisie,Round 13,23/11/,Feyenoord,Nijmegen,2,4,2,g_1_xGS99lRG,1.48,4.88,6.76,2.82,2.26
+football,Eredivisie,Round 13,23/11/,Telstar,Utrecht,1,1,1,g_1_MwJRdBsB,3.97,3.82,1.94,1.31,0.87
+football,Eredivisie,Round 13,23/11/,Heerenveen,AZ Alkmaar,3,1,0,g_1_hSh6kTZp,2.75,4.0,2.4,3.14,1.17
+football,Eredivisie,Round 13,23/11/,Heracles,G.A. Eagles,4,2,0,g_1_tlZ0BAd4,2.61,3.78,2.61,2.63,0.88
+football,Eredivisie,Round 13,23/11/,Sparta Rotterdam,Sittard,1,1,1,g_1_rg7zekCN,1.91,3.69,4.21,1.85,1.17
+football,Eredivisie,Round 13,23/11/,Ajax,Excelsior,1,2,2,g_1_fiazQ9Bc,1.33,6.27,8.36,1.45,0.51
+football,Eredivisie,Round 13,23/11/,FC Volendam,Twente,1,1,1,g_1_rDVH7SeT,4.59,4.08,1.76,1.39,2.61
+football,Eredivisie,Round 13,23/11/,NAC Breda,PSV,0,1,2,g_1_8zygDWRi,8.65,6.61,1.31,1.27,0.56
+football,Eredivisie,Round 12,10/11/,G.A. Eagles,Feyenoord,2,1,0,g_1_EDFJbXCb,6.73,5.37,1.44,1.67,2.68
+football,Eredivisie,Round 12,10/11/,AZ Alkmaar,PSV,1,5,2,g_1_IoMA0grn,3.51,4.48,1.91,0.28,2.39
+football,Eredivisie,Round 12,09/11/,Nijmegen,Groningen,2,0,0,g_1_SIAagxyJ,2.04,3.97,3.46,1.57,1.38
+football,Eredivisie,Round 12,09/11/,Utrecht,Ajax,2,1,0,g_1_n92ieb66,3.02,3.69,2.34,1.39,0.64
+football,Eredivisie,Round 12,09/11/,Zwolle,Sparta Rotterdam,1,0,0,g_1_vqaqcKyf,2.74,3.68,2.54,1.04,0.93
+football,Eredivisie,Round 12,09/11/,Sittard,Heerenveen,2,0,0,g_1_ITAzat7s,3.34,3.57,2.22,1.83,1.49
+football,Eredivisie,Round 12,09/11/,FC Volendam,NAC Breda2,2,1,0,g_1_noK442qK,2.91,3.68,2.41,1.91,0.59
+football,Eredivisie,Round 12,09/11/,Excelsior,Heracles,1,2,2,g_1_82FPtaiD,1.68,3.96,3.79,2.03,1.34
+football,Eredivisie,Round 12,08/11/,Twente,Telstar,0,0,1,g_1_zkHHrLM0,1.35,5.8,8.32,1.75,0.63
+football,Eredivisie,Round 11,03/11/,Utrecht,Nijmegen,1,0,0,g_1_vNN8pshl,2.25,3.57,3.27,1.51,2.14
+football,Eredivisie,Round 11,02/11/,Groningen,Twente,1,1,1,g_1_8vXxj3UQ,3.08,3.46,2.39,3.33,1.45
+football,Eredivisie,Round 11,02/11/,Sparta Rotterdam,AZ Alkmaar,0,1,2,g_1_nPrUiPaE,4.22,4.32,1.78,0.56,2.62
+football,Eredivisie,Round 11,02/11/,Heracles,Zwolle,8,2,0,g_1_MoirUL77,2.63,3.71,2.63,4.51,1.14
+football,Eredivisie,Round 11,02/11/,Telstar,Excelsior,2,2,1,g_1_h6aRX38r,2.25,3.72,3.15,3.21,3.45
+football,Eredivisie,Round 11,02/11/,Feyenoord,FC Volendam,3,1,0,g_1_YLIfwQpL,1.12,10.2,24.0,4.82,0.97
+football,Eredivisie,Round 11,02/11/,NAC Breda,G.A. Eagles,1,0,0,g_1_0f5munG8,2.32,3.76,3.0,0.63,0.39
+football,Eredivisie,Round 11,02/11/,Ajax,Heerenveen,1,1,1,g_1_QJcZVswe,1.59,4.61,5.37,1.11,1.06
+football,Eredivisie,Round 11,01/11/,PSV,Sittard,5,2,0,g_1_IVu3XZd2,1.14,10.5,18.5,2.2,0.73
+football,Eredivisie,Round 10,27/10/,G.A. Eagles,Excelsior,2,0,0,g_1_I7cGtvzG,2.1,3.95,3.3,1.81,0.53
+football,Eredivisie,Round 10,27/10/,AZ Alkmaar,Utrecht,4,1,0,g_1_A5xeZeSk,1.55,4.61,5.93,3.59,0.98
+football,Eredivisie,Round 10,26/10/,Feyenoord,PSV,2,3,2,g_1_jLeOvI4S,2.31,4.0,2.88,1.14,1.16
+football,Eredivisie,Round 10,26/10/,Twente,Ajax,2,3,2,g_1_O847r053,2.51,3.58,2.83,2.74,0.99
+football,Eredivisie,Round 10,26/10/,Zwolle,Nijmegen,2,2,1,g_1_d2CLKdDd,4.09,3.88,1.89,1.87,0.77
+football,Eredivisie,Round 10,26/10/,FC Volendam,Heracles,3,0,0,g_1_UmduuRbB,1.98,4.07,3.56,1.54,1.16
+football,Eredivisie,Round 10,26/10/,Sparta Rotterdam,Telstar,1,0,0,g_1_zmOCMIrp,1.77,4.19,4.43,1.79,0.63
+football,Eredivisie,Round 10,25/10/,Sittard,Groningen,1,2,2,g_1_AotvsmUb,2.9,3.28,2.63,1.2,1.77
+football,Eredivisie,Round 10,25/10/,Heerenveen,NAC Breda,3,3,1,g_1_xYsWr9an,1.54,4.41,6.43,2.31,1.44
+football,Eredivisie,Round 9,19/10/,Heracles,Feyenoord,0,7,2,g_1_MsgFHW0m,7.05,5.67,1.41,0.19,2.76
+football,Eredivisie,Round 9,19/10/,Excelsior,Sittard,1,0,0,g_1_js9DQRqI,2.2,3.46,3.49,1.08,1.16
+football,Eredivisie,Round 9,19/10/,Groningen,Sparta Rotterdam,0,2,2,g_1_xK2cU9pg,1.83,3.89,4.39,1.22,0.88
+football,Eredivisie,Round 9,19/10/,Telstar,Heerenveen,2,3,2,g_1_URK4SmF5,3.28,3.69,2.2,2.58,2.69
+football,Eredivisie,Round 9,19/10/,Ajax,AZ Alkmaar,0,2,2,g_1_th9lWVFt,2.03,3.98,3.49,1.24,2.24
+football,Eredivisie,Round 9,19/10/,NAC Breda,Zwolle,2,2,1,g_1_QuZvCSUO,1.79,4.04,4.43,2.48,1.46
+football,Eredivisie,Round 9,19/10/,PSV,G.A. Eagles,2,1,0,g_1_rcsOFAVa,1.25,7.88,9.5,3.49,0.42
+football,Eredivisie,Round 9,19/10/,Utrecht,FC Volendam,3,1,0,g_1_UDuWDl0C,1.42,5.39,7.18,2.54,0.46
+football,Eredivisie,Round 9,18/10/,Nijmegen,Twente,3,3,1,g_1_b7CLO5EU,2.66,3.79,2.56,0.69,1.99
+football,Eredivisie,Round 8,06/10/,G.A. Eagles,Nijmegen,1,1,1,g_1_ja2qNhwQ,2.46,4.15,2.61,0.75,0.95
+football,Eredivisie,Round 8,05/10/,AZ Alkmaar,Telstar,2,1,0,g_1_ziKdakoJ,1.41,5.38,7.32,3.96,1.01
+football,Eredivisie,Round 8,05/10/,Feyenoord,Utrecht,3,2,0,g_1_2wMl1BG6,1.46,4.92,7.09,3.42,0.48
+football,Eredivisie,Round 8,05/10/,Twente,Heracles,2,1,0,g_1_8vTu3Xof,1.33,5.88,9.2,1.35,0.51
+football,Eredivisie,Round 8,05/10/,Heerenveen,Excelsior,2,1,0,g_1_0EPX4gHs,1.76,4.24,4.43,2.04,0.84
+football,Eredivisie,Round 8,05/10/,Zwolle,PSV,0,4,2,g_1_Gtl1AFgK,6.62,5.6,1.43,0.14,2.15
+football,Eredivisie,Round 8,05/10/,Sittard,FC Volendam,1,0,0,g_1_lzdFnC1D,1.75,4.09,4.63,1.58,0.84
+football,Eredivisie,Round 8,04/10/,Sparta Rotterdam,Ajax,3,3,1,g_1_rNQElYW0,4.66,4.19,1.73,2.14,1.71
+football,Eredivisie,Round 8,04/10/,NAC Breda,Groningen,1,2,2,g_1_A9S6jf2l,2.84,3.42,2.59,0.72,1.46
+football,Eredivisie,Round 7,28/09/,Telstar,G.A. Eagles,4,2,0,g_1_G8AY82IF,3.04,3.81,2.28,2.36,1.82
+football,Eredivisie,Round 7,28/09/,Groningen,Feyenoord,0,1,2,g_1_SS5dzrCj,4.71,3.36,1.92,0.98,1.17
+football,Eredivisie,Round 7,28/09/,Utrecht,Heerenveen,2,2,1,g_1_8r7QAOm3,1.85,4.1,4.1,1.99,1.31
+football,Eredivisie,Round 7,28/09/,Nijmegen,AZ Alkmaar,2,1,0,g_1_MkRVlsRq,3.57,4.21,1.95,1.81,0.38
+football,Eredivisie,Round 7,28/09/,Heracles,Sparta Rotterdam,3,0,0,g_1_SnUwmLed,2.55,3.85,2.64,1.33,1.5
+football,Eredivisie,Round 7,28/09/,Excelsior,PSV,1,2,2,g_1_25paf33M,7.5,5.86,1.38,2.17,2.67
+football,Eredivisie,Round 7,28/09/,FC Volendam,Zwolle,2,1,0,g_1_UinidPY9,2.5,3.57,2.86,1.96,1.03
+football,Eredivisie,Round 7,27/09/,Ajax,NAC Breda,2,1,0,g_1_YPhrbo4c,1.32,6.06,9.49,1.87,1.55
+football,Eredivisie,Round 7,27/09/,Twente,Sittard,3,2,0,g_1_reUPu4lT,1.47,4.87,6.84,2.9,0.47
+football,Eredivisie,Round 3,25/09/,AZ Alkmaar,Zwolle,2,2,1,g_1_l4FgteMj,1.32,5.9,9.6,2.49,0.92
+football,Eredivisie,Round 6,21/09/,AZ Alkmaar,Feyenoord,3,3,1,g_1_zVQHsQJG,2.64,3.8,2.57,1.21,1.91
+football,Eredivisie,Round 6,21/09/,Heerenveen,Nijmegen,3,2,0,g_1_6kZ0o8Ki,2.53,3.57,2.82,2.81,0.94
+football,Eredivisie,Round 6,21/09/,PSV,Ajax,2,2,1,g_1_v3X8qnk4,1.66,4.67,4.69,3.45,2.19
+football,Eredivisie,Round 6,21/09/,Zwolle,G.A. Eagles,0,2,2,g_1_6axFN4Sp,2.69,3.49,2.69,0.49,2.07
+football,Eredivisie,Round 6,21/09/,NAC Breda,Heracles,2,1,0,g_1_zHoqTQ4N,0.0,0.0,0.0,2.49,1.09
+football,Eredivisie,Round 6,21/09/,Sittard,Utrecht,1,0,0,g_1_E1czVnzB,3.43,3.46,2.22,1.16,0.96
+football,Eredivisie,Round 6,21/09/,Groningen,Telstar,2,0,0,g_1_6yfSW85b,1.56,4.28,6.37,1.79,0.84
+football,Eredivisie,Round 6,20/09/,FC Volendam,Excelsior,1,2,2,g_1_nZwRYUzn,2.25,3.68,3.17,1.48,1.77
+football,Eredivisie,Round 6,20/09/,Sparta Rotterdam,Twente,1,5,2,g_1_WM3HERkU,2.97,3.69,2.36,1.11,2.59
+football,Eredivisie,Round 3,18/09/,Feyenoord,Sittard,2,0,0,g_1_zeA8GmLH,1.3,5.73,10.4,2.12,0.29
+football,Eredivisie,Round 5,14/09/,Telstar,Sittard,1,3,2,g_1_SU60I9j5,2.07,3.63,3.53,1.7,1.14
+football,Eredivisie,Round 5,14/09/,Heracles,AZ Alkmaar,1,2,2,g_1_0IFqMiit,5.33,4.39,1.6,0.76,3.18
+football,Eredivisie,Round 5,14/09/,Utrecht,Groningen,0,1,2,g_1_6FIiKVLh,1.69,3.73,5.56,1.24,1.69
+football,Eredivisie,Round 5,14/09/,Excelsior,Sparta Rotterdam,0,1,2,g_1_p8MZURID,2.7,3.72,2.49,1.56,1.59
+football,Eredivisie,Round 5,14/09/,Feyenoord,Heerenveen,1,0,0,g_1_KrUmvWeR,1.34,5.58,8.54,0.9,1.17
+football,Eredivisie,Round 5,14/09/,Twente,NAC Breda,2,2,1,g_1_CfORWml1,1.52,4.56,6.08,2.21,0.62
+football,Eredivisie,Round 5,14/09/,G.A. Eagles,FC Volendam,3,0,0,g_1_bTuuthRE,1.53,4.83,5.59,2.14,1.31
+football,Eredivisie,Round 5,14/09/,Nijmegen,PSV,3,5,2,g_1_WMmgIlZ7,5.33,4.39,1.6,2.01,2.23
+football,Eredivisie,Round 5,13/09/,Ajax,Zwolle,3,1,0,g_1_zefpKA4e,1.32,5.82,9.11,2.59,0.53
+football,Eredivisie,Round 4,31/08/,NAC Breda,AZ Alkmaar,0,1,2,g_1_2sdxMWZr,4.53,4.1,1.74,1.96,2.82
+football,Eredivisie,Round 4,31/08/,Sparta Rotterdam,Feyenoord,0,4,2,g_1_x0CcTEs9,3.85,3.96,1.89,0.55,2.52
+football,Eredivisie,Round 4,31/08/,Zwolle,Utrecht,0,2,2,g_1_pQF5RhCL,3.63,3.55,2.06,1.01,1.14
+football,Eredivisie,Round 4,31/08/,Sittard,Nijmegen,3,2,0,g_1_d4ZA5Bk2,3.1,3.95,2.15,1.33,1.9
+football,Eredivisie,Round 4,31/08/,Excelsior,Twente,1,0,0,g_1_lvW27XKk,3.77,3.83,1.94,0.36,2.52
+football,Eredivisie,Round 4,31/08/,PSV,Telstar,0,2,2,g_1_6JSwDgcS,1.11,11.3,18.3,1.73,1.47
+football,Eredivisie,Round 4,31/08/,Heerenveen,G.A. Eagles,2,2,1,g_1_Y5UVEFSF,2.09,4.07,3.16,2.73,1.19
+football,Eredivisie,Round 4,30/08/,FC Volendam,Ajax,1,1,1,g_1_xvyNGyb3,9.11,5.86,1.31,0.77,1.39
+football,Eredivisie,Round 4,30/08/,Groningen,Heracles,4,0,0,g_1_AXrygY5d,1.7,4.03,4.92,1.79,0.46
+football,Eredivisie,Round 3,24/08/,Ajax,Heracles,2,0,0,g_1_lIfSffyp,1.24,6.79,13.2,2.66,0.16
+football,Eredivisie,Round 3,24/08/,Nijmegen,NAC Breda,3,0,0,g_1_xQel2xqA,1.59,4.45,5.67,4.2,0.45
+football,Eredivisie,Round 3,24/08/,Utrecht,Excelsior,4,1,0,g_1_Yikc0GDM,1.47,4.9,6.78,1.78,1.32
+football,Eredivisie,Round 3,24/08/,Heerenveen,Twente,1,2,2,g_1_4Cct4bEc,2.86,3.62,2.47,2.39,2.02
+football,Eredivisie,Round 3,24/08/,Telstar,FC Volendam,2,2,1,g_1_4EhMb3xI,2.24,3.91,3.04,1.83,0.47
+football,Eredivisie,Round 3,24/08/,PSV,Groningen,4,2,0,g_1_ra4D0P75,1.22,7.49,13.5,2.48,1.32
+football,Eredivisie,Round 3,23/08/,G.A. Eagles,Sparta Rotterdam,0,3,2,g_1_zZ052owg,2.0,4.01,3.57,2.6,1.71
+football,Eredivisie,Round 2,18/08/,NAC Breda,Sittard,2,1,0,g_1_v77d478t,2.42,3.31,3.16,1.89,0.75
+football,Eredivisie,Round 2,17/08/,FC Volendam,AZ Alkmaar,2,2,1,g_1_OfXnp4NO,6.49,5.14,1.46,0.45,1.4
+football,Eredivisie,Round 2,17/08/,Sparta Rotterdam,Utrecht,2,1,0,g_1_MVzWmnOa,2.69,3.58,2.63,1.35,1.27
+football,Eredivisie,Round 2,17/08/,Twente,PSV,0,2,2,g_1_UevvnQhC,5.13,4.87,1.58,0.91,1.72
+football,Eredivisie,Round 2,17/08/,G.A. Eagles,Ajax,2,2,1,g_1_0GnNk8gm,4.01,4.12,1.86,0.66,1.76
+football,Eredivisie,Round 2,17/08/,Groningen,Heerenveen,2,1,0,g_1_WQw5Zn96,2.3,3.38,3.33,0.8,2.16
+football,Eredivisie,Round 2,17/08/,Heracles,Nijmegen,1,4,2,g_1_UXeieUVP,0.0,0.0,0.0,1.33,3.05
+football,Eredivisie,Round 2,17/08/,Excelsior,Feyenoord,1,2,2,g_1_4vxDXQwJ,5.89,5.08,1.5,1.07,2.51
+football,Eredivisie,Round 2,16/08/,Telstar,Zwolle,0,2,2,g_1_zapdy9vf,2.62,3.47,2.7,0.85,2.36
+football,Eredivisie,Round 1,10/08/,Utrecht,Heracles,4,0,0,g_1_Is4rWIZ1,1.54,4.41,6.43,2.35,0.87
+football,Eredivisie,Round 1,10/08/,Ajax,Telstar,2,0,0,g_1_t2A4w1sS,1.22,7.1,14.9,1.67,1.26
+football,Eredivisie,Round 1,10/08/,AZ Alkmaar,Groningen,4,1,0,g_1_dSFZXv5k,1.34,5.56,9.58,1.56,1.49
+football,Eredivisie,Round 1,10/08/,Zwolle,Twente,1,0,0,g_1_pzHeuNCF,3.53,3.68,2.1,0.88,1.17
+football,Eredivisie,Round 1,10/08/,PSV,Sparta Rotterdam,6,1,0,g_1_CMImsqr3,1.2,7.97,14.6,1.73,1.21
+football,Eredivisie,Round 1,10/08/,Heerenveen,FC Volendam,1,1,1,g_1_dEz1Jujd,1.63,4.4,5.33,1.16,0.47
+football,Eredivisie,Round 1,10/08/,Feyenoord,NAC Breda,2,0,0,g_1_AcxgL1Lq,1.38,5.64,7.56,2.44,0.25
+football,Eredivisie,Round 1,09/08/,Nijmegen,Excelsior,5,0,0,g_1_QP0MQNcM,1.69,4.2,4.71,2.49,1.03
+football,Eredivisie,Round 1,09/08/,Sittard,G.A. Eagles,2,2,1,g_1_IacESqT9,2.77,3.61,2.55,2.34,1.17
+football,Eredivisie,Round 22,08/02/,Sittard,Sparta Rotterdam,2,2,1,g_1_INDcg6Ba,3.29,3.53,2.26,0.98,1.31
+football,Eredivisie,Round 22,08/02/,Twente,Heerenveen,5,0,0,g_1_KnAEkOAO,1.65,4.57,4.84,3.19,0.3
+football,Eredivisie,Round 22,08/02/,Zwolle,FC Volendam,1,2,2,g_1_xp8W7p9e,1.67,3.91,5.64,0.71,1.89
+football,Eredivisie,Round 22,08/02/,Nijmegen,Heracles,4,1,0,g_1_j9cHDzcE,1.42,4.99,7.31,2.56,1.16
+football,Eredivisie,Round 22,07/02/,NAC Breda,Excelsior,0,2,2,g_1_Ac6v6Ow8,1.9,3.71,4.22,1.28,0.92
+football,Eredivisie,Round 22,09/02/,Groningen,PSV,1,2,2,g_1_zapO9Ret,4.45,4.62,1.7,0.89,2.74
+football,Eredivisie,Round 22,08/02/,AZ Alkmaar,Ajax,1,1,1,g_1_WQwX75Qh,2.34,3.77,2.95,1.67,0.97
+football,Eredivisie,Round 22,08/02/,G.A. Eagles,Telstar,1,1,1,g_1_d8PleStm,1.85,3.98,4.19,2.28,1.58
+football,Eredivisie,Round 22,08/02/,Utrecht,Feyenoord,0,1,2,g_1_QmH5iptC,3.64,3.66,2.07,1.06,0.95
+football,Eredivisie,Round 18,12/02/,Nijmegen,Utrecht,1,3,2,g_1_f90NHRyR,1.68,4.0,5.39,1.99,1.78
+football,Eredivisie,Round 20,12/02/,G.A. Eagles,Heerenveen,1,3,2,g_1_GhE1Zj3T,2.53,3.82,2.68,0.77,1.82
+football,Eredivisie,Round 23,14/02/,FC Volendam,PSV,2,1,0,g_1_tv6MIMvB,9.88,6.52,1.29,1.17,1.69
+football,Eredivisie,Round 23,15/02/,Groningen,Utrecht,1,2,2,g_1_ny9UG09N,1.98,3.56,4.06,0.78,2.44
+football,Eredivisie,Round 23,15/02/,Ajax,Sittard,4,1,0,g_1_bFxmZsPi,1.32,5.66,10.4,1.17,0.84
+football,Eredivisie,Round 23,15/02/,Excelsior,AZ Alkmaar,1,2,2,g_1_W8p1BvXp,3.23,3.58,2.26,0.75,2.01
+football,Eredivisie,Round 23,15/02/,Heracles,NAC Breda,0,1,2,g_1_CbE5M4un,2.93,3.46,2.5,1.12,1.26
+football,Eredivisie,Round 23,15/02/,Heerenveen,Zwolle,4,2,0,g_1_YXre21fU,1.71,4.18,4.85,1.58,1.19
+football,Eredivisie,Round 23,15/02/,Telstar,Twente,1,1,1,g_1_visu6qe5,5.85,4.61,1.56,1.32,2.04
+football,Eredivisie,Round 23,15/02/,Feyenoord,G.A. Eagles,1,0,0,g_1_pCCDKrAb,1.41,5.23,7.82,2.99,0.12
+football,Eredivisie,Round 23,18/02/,Sparta Rotterdam,Nijmegen,1,1,1,g_1_06Vm4NPH,2.48,3.64,2.75,1.69,0.99
+football,Eredivisie,Round 24,22/02/,Ajax,Nijmegen,1,1,1,g_1_EPuKN8M7,1.89,4.3,3.71,1.48,1.16
+football,Eredivisie,Round 24,22/02/,NAC Breda,FC Volendam,1,0,0,g_1_SfU3VaOG,1.67,4.08,5.34,1.39,0.52
+football,Eredivisie,Round 24,22/02/,PSV,Heerenveen,3,1,0,g_1_fsWeXLg4,1.29,6.83,9.51,3.27,1.28
+football,Eredivisie,Round 24,21/02/,Sittard,Excelsior,2,1,0,g_1_IuyyOHGj,2.28,3.52,3.26,2.08,1.24
+football,Eredivisie,Round 24,23/02/,Feyenoord,Telstar,2,1,0,g_1_byENoL8c,1.22,7.49,12.8,2.36,1.49
+football,Eredivisie,Round 24,23/02/,AZ Alkmaar,Sparta Rotterdam,3,1,0,g_1_IcnBPUie,2.03,3.67,3.76,1.37,1.01
+football,Eredivisie,Round 24,22/02/,G.A. Eagles,Heracles,4,0,0,g_1_ncp5TwgT,1.93,3.79,4.04,2.66,0.75
+football,Eredivisie,Round 24,22/02/,Utrecht,Zwolle,1,1,1,g_1_61HVqawA,1.63,4.19,5.65,2.26,1.07
+football,Eredivisie,Round 24,22/02/,Twente,Groningen,2,1,0,g_1_ppl3RjNr,1.55,4.47,6.19,0.78,0.93
+football,Eredivisie,Round 25,01/03/,Nijmegen,Sittard,2,3,2,g_1_8n1gx8y1,1.43,5.33,7.11,1.46,2.45
+football,Eredivisie,Round 25,01/03/,Heracles,PSV,1,3,2,g_1_t0a1zn6D,8.25,6.71,1.32,1.21,3.27
+football,Eredivisie,Round 25,01/03/,Heerenveen,Sparta Rotterdam,2,1,0,g_1_2oMEqjqR,2.05,3.9,3.49,1.27,0.83
+football,Eredivisie,Round 25,28/02/,Telstar,NAC Breda,3,0,0,g_1_tWX5oCEE,2.61,3.89,2.56,1.28,0.44

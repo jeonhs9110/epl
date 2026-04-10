@@ -1,0 +1,215 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Champions League 2023 2024,Regular Season,02/06/,Dortmund,Real MadridWinner,0,2,2,g_1_hMwfbhsh,5.03,4.03,1.71,2.1,1.24
+football,Champions League 2023 2024,Regular Season,09/05/,Real MadridAdvancing to next round,Bayern Munich,2,1,0,g_1_Uu0NBn8C,0.0,0.0,0.0,3.29,0.41
+football,Champions League 2023 2024,Regular Season,08/05/,PSG,DortmundAdvancing to next round,0,1,2,g_1_OxQUhaIM,1.53,5.29,5.33,3.22,0.76
+football,Champions League 2023 2024,Regular Season,02/05/,Dortmund,PSG,1,0,0,g_1_GCMMfLmA,2.98,3.69,2.36,1.21,1.45
+football,Champions League 2023 2024,Regular Season,01/05/,Bayern Munich,Real Madrid,2,2,1,g_1_rP1FD8w0,2.31,3.8,2.99,1.7,2.08
+football,Champions League 2023 2024,Regular Season,18/04/,Bayern MunichAdvancing to next round,Arsenal,1,0,0,g_1_EPyHMdqk,2.58,3.5,2.8,1.44,0.6
+football,Champions League 2023 2024,Regular Season,18/04/,Manchester City,Real MadridAdvancing to next round,1,2,2,g_1_MmYCtIzL,1.64,4.45,5.13,2.59,1.43
+football,Champions League 2023 2024,Regular Season,17/04/,Barcelona,PSGAdvancing to next round,1,4,2,g_1_zuQPKzE1,2.19,4.07,3.05,0.87,2.83
+football,Champions League 2023 2024,Regular Season,17/04/,DortmundAdvancing to next round,Atl. Madrid,4,2,0,g_1_2oIBrv68,2.3,3.64,3.12,1.56,1.78
+football,Champions League 2023 2024,Regular Season,11/04/,Atl. Madrid,Dortmund,2,1,0,g_1_lrUTJfT7,1.88,3.83,4.21,2.16,0.95
+football,Champions League 2023 2024,Regular Season,11/04/,PSG,Barcelona,2,3,2,g_1_hGzLLGbe,2.06,3.9,3.48,1.23,1.78
+football,Champions League 2023 2024,Regular Season,10/04/,Arsenal,Bayern Munich,2,2,1,g_1_pjXCNxUr,1.72,4.3,4.63,1.18,2.09
+football,Champions League 2023 2024,Regular Season,10/04/,Real Madrid,Manchester City,3,3,1,g_1_txHFsbLE,2.48,3.46,2.95,0.66,0.89
+football,Champions League 2023 2024,Regular Season,14/03/,Atl. MadridAdvancing to next round,Inter,3,1,0,g_1_dtFxhqQO,3.05,3.46,2.42,2.09,1.36
+football,Champions League 2023 2024,Regular Season,14/03/,DortmundAdvancing to next round,PSV,2,0,0,g_1_8KreAQug,2.13,4.01,3.39,1.59,1.64
+football,Champions League 2023 2024,Regular Season,13/03/,ArsenalAdvancing to next round,FC Porto,2,0,0,g_1_0fumCnBt,1.31,6.11,11.4,1.08,0.59
+football,Champions League 2023 2024,Regular Season,13/03/,BarcelonaAdvancing to next round,Napoli,3,1,0,g_1_lGBUg5eC,1.87,4.16,4.16,2.61,1.23
+football,Champions League 2023 2024,Regular Season,07/03/,Manchester CityAdvancing to next round,FC Copenhagen,3,1,0,g_1_lUj384A5,1.16,9.45,21.0,0.67,1.15
+football,Champions League 2023 2024,Regular Season,07/03/,Real MadridAdvancing to next round,RB Leipzig,1,1,1,g_1_MskB6ruI,1.59,4.62,5.85,0.68,1.03
+football,Champions League 2023 2024,Regular Season,06/03/,Bayern MunichAdvancing to next round,Lazio,3,0,0,g_1_d0cLcmdm,1.31,6.53,10.2,2.99,0.46
+football,Champions League 2023 2024,Regular Season,06/03/,Real Sociedad,PSGAdvancing to next round,1,2,2,g_1_UDeTeRQa,2.33,3.6,3.24,0.81,1.43
+football,Champions League 2023 2024,Regular Season,22/02/,FC Porto,Arsenal,1,0,0,g_1_bogLGS2P,5.78,4.08,1.63,1.23,0.53
+football,Champions League 2023 2024,Regular Season,22/02/,Napoli,Barcelona,1,1,1,g_1_APCQfot6,2.86,3.57,2.5,0.95,0.74
+football,Champions League 2023 2024,Regular Season,21/02/,Inter,Atl. Madrid,1,0,0,g_1_rwBYhPAI,1.67,4.08,5.37,2.33,0.61
+football,Champions League 2023 2024,Regular Season,21/02/,PSV,Dortmund,1,1,1,g_1_UTqiB6Qn,2.14,3.88,3.26,1.53,0.9
+football,Champions League 2023 2024,Regular Season,15/02/,Lazio,Bayern Munich,1,0,0,g_1_rcgHbTts,5.05,3.88,1.74,1.83,1.09
+football,Champions League 2023 2024,Regular Season,15/02/,PSG,Real Sociedad,2,0,0,g_1_jNdPd7Bg,1.75,3.66,5.36,1.61,0.57
+football,Champions League 2023 2024,Regular Season,14/02/,FC Copenhagen,Manchester City,1,3,2,g_1_jqYa9pea,13.6,6.61,1.24,0.23,3.53
+football,Champions League 2023 2024,Regular Season,14/02/,RB Leipzig,Real Madrid,0,1,2,g_1_rij77OPB,3.13,3.69,2.27,1.24,1.42
+football,Champions League 2023 2024,Round 6,14/12/,Antwerp,Barcelona,3,2,0,g_1_jDXxeb19,5.41,4.35,1.63,1.47,1.15
+football,Champions League 2023 2024,Round 6,14/12/,Atl. Madrid,Lazio,2,0,0,g_1_69i7GBSg,1.61,4.27,5.74,1.06,0.57
+football,Champions League 2023 2024,Round 6,14/12/,Celtic,Feyenoord,2,1,0,g_1_O4x6yD4J,3.38,3.88,2.1,2.18,1.95
+football,Champions League 2023 2024,Round 6,14/12/,Dortmund,PSG,1,1,1,g_1_EeWkRStC,3.83,4.43,1.84,1.21,2.68
+football,Champions League 2023 2024,Round 6,14/12/,FC Porto,Shakhtar Donetsk,5,3,0,g_1_zomvzcPq,1.61,4.1,6.06,2.32,1.87
+football,Champions League 2023 2024,Round 6,14/12/,Newcastle,AC Milan,1,2,2,g_1_rVzfQndI,1.9,4.1,3.85,2.06,1.66
+football,Champions League 2023 2024,Round 6,14/12/,Crvena zvezda,Manchester City,2,3,2,g_1_tOR4LcAj,5.35,4.35,1.63,0.75,1.08
+football,Champions League 2023 2024,Round 6,14/12/,RB Leipzig,Young Boys,2,1,0,g_1_zJCKt8ta,1.26,6.62,11.4,0.55,1.24
+football,Champions League 2023 2024,Round 6,13/12/,FC Copenhagen,Galatasaray,1,0,0,g_1_O63IimvI,2.63,3.87,2.54,2.02,2.04
+football,Champions League 2023 2024,Round 6,13/12/,Inter,Real Sociedad,0,0,1,g_1_vyupXFcR,1.9,3.6,4.42,0.74,0.73
+football,Champions League 2023 2024,Round 6,13/12/,Manchester Utd,Bayern Munich,0,1,2,g_1_rBWv9l9h,3.17,4.43,2.05,0.25,1.11
+football,Champions League 2023 2024,Round 6,13/12/,Napoli,Braga,2,0,0,g_1_MynhZpNc,1.56,4.86,5.45,1.72,1.02
+football,Champions League 2023 2024,Round 6,13/12/,Salzburg,Benfica,1,3,2,g_1_Q9YROi57,3.67,4.08,1.95,1.55,3.19
+football,Champions League 2023 2024,Round 6,13/12/,Union Berlin,Real Madrid,2,3,2,g_1_COaoCEL1,4.0,3.6,1.99,0.93,2.94
+football,Champions League 2023 2024,Round 6,13/12/,Lens,Sevilla,2,1,0,g_1_Sx51CNFp,1.9,3.85,4.1,1.16,1.43
+football,Champions League 2023 2024,Round 6,13/12/,PSV,Arsenal,1,1,1,g_1_tt95BsVj,2.95,3.39,2.52,1.78,1.18
+football,Champions League 2023 2024,Round 5,30/11/,Arsenal,Lens,6,0,0,g_1_4v0MLRhb,1.38,5.64,7.74,2.59,0.38
+football,Champions League 2023 2024,Round 5,30/11/,Bayern Munich,FC Copenhagen,0,0,1,g_1_WW2Mj7gO,1.21,7.96,12.4,0.82,0.66
+football,Champions League 2023 2024,Round 5,30/11/,Benfica,Inter,3,3,1,g_1_ILjyZyTE,2.5,3.47,2.93,1.83,3.38
+football,Champions League 2023 2024,Round 5,30/11/,Braga,Union Berlin,1,1,1,g_1_romlzR7i,1.89,3.84,4.13,1.33,0.64
+football,Champions League 2023 2024,Round 5,30/11/,Real Madrid,Napoli,4,2,0,g_1_MZ6YEGyq,1.73,4.41,4.41,3.04,1.38
+football,Champions League 2023 2024,Round 5,30/11/,Real Sociedad,Salzburg,0,0,1,g_1_WnZNPXk1,1.53,4.25,7.0,1.32,0.5
+football,Champions League 2023 2024,Round 5,30/11/,Galatasaray,Manchester Utd,3,3,1,g_1_ITOi6ngB,2.89,3.71,2.41,1.55,1.78
+football,Champions League 2023 2024,Round 5,30/11/,Sevilla,PSV,2,3,2,g_1_MFAHM7wh,2.67,3.67,2.61,1.84,1.31
+football,Champions League 2023 2024,Round 5,29/11/,AC Milan,Dortmund,1,3,2,g_1_viJBrUBn,2.05,3.69,3.69,2.19,1.48
+football,Champions League 2023 2024,Round 5,29/11/,Barcelona,FC Porto,2,1,0,g_1_rm8asuX9,1.47,4.7,7.32,1.64,1.15
+football,Champions League 2023 2024,Round 5,29/11/,Feyenoord,Atl. Madrid,1,3,2,g_1_A1CWMDkQ,2.74,3.58,2.58,0.83,1.05
+football,Champions League 2023 2024,Round 5,29/11/,Manchester City,RB Leipzig,3,2,0,g_1_fRB1eVvg,1.31,5.85,10.3,1.66,0.38
+football,Champions League 2023 2024,Round 5,29/11/,PSG,Newcastle,1,1,1,g_1_z5XoS8R5,1.66,4.14,5.28,4.38,1.4
+football,Champions League 2023 2024,Round 5,29/11/,Young Boys,Crvena zvezda,2,0,0,g_1_2XS0Mwep,2.06,3.88,3.48,1.78,1.61
+football,Champions League 2023 2024,Round 5,29/11/,Lazio,Celtic,2,0,0,g_1_djWQ1X1P,1.63,4.11,5.8,2.29,0.3
+football,Champions League 2023 2024,Round 5,29/11/,Shakhtar Donetsk,Antwerp,1,0,0,g_1_2iF9g995,1.92,3.69,4.18,1.16,1.13
+football,Champions League 2023 2024,Round 4,09/11/,Arsenal,Sevilla,2,0,0,g_1_C43UJ5NA,1.26,6.43,12.7,1.2,0.03
+football,Champions League 2023 2024,Round 4,09/11/,Bayern Munich,Galatasaray,2,1,0,g_1_zoTWAAvt,1.19,8.89,12.7,2.97,0.56
+football,Champions League 2023 2024,Round 4,09/11/,FC Copenhagen,Manchester Utd,4,3,0,g_1_h0W33pwU,4.63,3.89,1.79,2.13,3.37
+football,Champions League 2023 2024,Round 4,09/11/,PSV,Lens,1,0,0,g_1_rPBDNmOo,1.81,3.86,4.6,0.9,1.27
+football,Champions League 2023 2024,Round 4,09/11/,Real Madrid,Braga,3,0,0,g_1_CQv5Wr7G,1.25,7.7,10.3,2.3,0.95
+football,Champions League 2023 2024,Round 4,09/11/,Salzburg,Inter,0,1,2,g_1_GvDSNgzK,5.26,3.91,1.71,0.69,2.15
+football,Champions League 2023 2024,Round 4,09/11/,Napoli,Union Berlin,1,1,1,g_1_U1k0XOiA,1.42,4.71,8.82,1.53,1.2
+football,Champions League 2023 2024,Round 4,09/11/,Real Sociedad,Benfica,3,1,0,g_1_xlEOOZKD,1.91,3.61,4.34,3.45,0.87
+football,Champions League 2023 2024,Round 4,08/11/,AC Milan,PSG,2,1,0,g_1_MLZcP6BO,3.19,3.74,2.3,1.34,1.58
+football,Champions League 2023 2024,Round 4,08/11/,Atl. Madrid,Celtic,6,0,0,g_1_pf3bIXcs,1.4,5.43,8.55,3.36,0.01
+football,Champions League 2023 2024,Round 4,08/11/,Crvena zvezda,RB Leipzig,1,2,2,g_1_Uq4erLH3,5.08,4.63,1.66,1.59,2.34
+football,Champions League 2023 2024,Round 4,08/11/,FC Porto,Antwerp,2,0,0,g_1_xA73tanG,1.33,5.89,10.6,2.88,0.7
+football,Champions League 2023 2024,Round 4,08/11/,Lazio,Feyenoord,1,0,0,g_1_dbpKD9CC,2.69,3.62,2.73,1.3,1.06
+football,Champions League 2023 2024,Round 4,08/11/,Manchester City,Young Boys,3,0,0,g_1_E9BOuSe5,1.08,16.5,38.0,3.41,0.0
+football,Champions League 2023 2024,Round 4,08/11/,Dortmund,Newcastle,2,0,0,g_1_htrsTlCa,2.54,3.49,2.86,1.31,0.44
+football,Champions League 2023 2024,Round 4,08/11/,Shakhtar Donetsk,Barcelona,1,0,0,g_1_rmUUdKWd,9.2,6.61,1.3,0.82,0.95
+football,Champions League 2023 2024,Round 3,26/10/,Antwerp,FC Porto,1,4,2,g_1_MwTYevn3,4.23,3.38,2.01,0.59,1.23
+football,Champions League 2023 2024,Round 3,26/10/,Celtic,Atl. Madrid,2,2,1,g_1_A1lOCTRI,4.49,4.04,1.78,0.91,2.28
+football,Champions League 2023 2024,Round 3,26/10/,Newcastle,Dortmund,0,1,2,g_1_OQDtljlP,1.59,4.45,5.64,1.05,1.99
+football,Champions League 2023 2024,Round 3,26/10/,PSG,AC Milan,3,0,0,g_1_vwvwUUdg,1.69,4.07,5.2,1.14,0.53
+football,Champions League 2023 2024,Round 3,26/10/,RB Leipzig,Crvena zvezda,3,1,0,g_1_8WASvnBB,1.25,7.2,10.7,2.53,1.11
+football,Champions League 2023 2024,Round 3,26/10/,Young Boys,Manchester City,1,3,2,g_1_nLEjq12c,16.8,6.78,1.22,0.39,3.97
+football,Champions League 2023 2024,Round 3,26/10/,Barcelona,Shakhtar Donetsk,2,1,0,g_1_pG4EhTOB,1.2,8.2,17.5,2.75,0.81
+football,Champions League 2023 2024,Round 3,26/10/,Feyenoord,Lazio,3,1,0,g_1_baIhciAt,1.94,3.96,4.07,1.99,2.42
+football,Champions League 2023 2024,Round 3,25/10/,Benfica,Real Sociedad,0,1,2,g_1_dUtBSZ5r,2.2,3.38,3.58,0.44,1.14
+football,Champions League 2023 2024,Round 3,25/10/,Braga,Real Madrid,1,2,2,g_1_4InXZHD8,7.12,5.6,1.41,1.65,0.76
+football,Champions League 2023 2024,Round 3,25/10/,Lens,PSV,1,1,1,g_1_je2YIPxH,2.64,3.57,2.7,1.12,0.67
+football,Champions League 2023 2024,Round 3,25/10/,Manchester Utd,FC Copenhagen,1,0,0,g_1_llXzAUgn,1.3,6.17,9.84,1.28,1.12
+football,Champions League 2023 2024,Round 3,25/10/,Sevilla,Arsenal,1,2,2,g_1_f9IVb4oo,4.76,4.07,1.74,0.77,1.78
+football,Champions League 2023 2024,Round 3,25/10/,Union Berlin,Napoli,0,1,2,g_1_jFbkBYz8,3.87,3.56,2.04,0.37,0.21
+football,Champions League 2023 2024,Round 3,25/10/,Galatasaray,Bayern Munich,1,3,2,g_1_CjOe568H,6.14,4.88,1.51,2.41,1.75
+football,Champions League 2023 2024,Round 3,25/10/,Inter,Salzburg,2,1,0,g_1_zLuFRgLl,1.27,6.27,12.2,2.52,0.5
+football,Champions League 2023 2024,Round 2,05/10/,Celtic,Lazio,1,2,2,g_1_EZfFEkc6,2.87,3.5,2.53,0.99,0.95
+football,Champions League 2023 2024,Round 2,05/10/,Crvena zvezda,Young Boys,2,2,1,g_1_llB5fkfa,2.23,3.66,3.23,3.05,2.85
+football,Champions League 2023 2024,Round 2,05/10/,Dortmund,AC Milan,0,0,1,g_1_GzDcdBPn,2.6,3.46,2.8,0.96,1.4
+football,Champions League 2023 2024,Round 2,05/10/,FC Porto,Barcelona,0,1,2,g_1_U7nrZGvj,4.61,3.94,1.78,0.5,1.0
+football,Champions League 2023 2024,Round 2,05/10/,Newcastle,PSG,4,1,0,g_1_pUJ7qAdt,2.62,3.64,2.67,1.0,0.83
+football,Champions League 2023 2024,Round 2,05/10/,RB Leipzig,Manchester City,1,3,2,g_1_MZEWw6QH,5.79,4.06,1.63,0.27,1.82
+football,Champions League 2023 2024,Round 2,05/10/,Antwerp,Shakhtar Donetsk,2,3,2,g_1_trjnYzfd,1.93,3.68,4.14,1.81,2.51
+football,Champions League 2023 2024,Round 2,05/10/,Atl. Madrid,Feyenoord,3,2,0,g_1_zqdBFVs0,1.62,4.11,5.93,0.81,1.91
+football,Champions League 2023 2024,Round 2,04/10/,FC Copenhagen,Bayern Munich,1,2,2,g_1_vwQm7Sw5,12.0,7.2,1.24,0.68,0.81
+football,Champions League 2023 2024,Round 2,04/10/,Inter,Benfica,1,0,0,g_1_IqVJQDze,1.59,4.31,5.9,3.82,0.26
+football,Champions League 2023 2024,Round 2,04/10/,Lens,Arsenal,2,1,0,g_1_AcIZG37T,6.16,4.08,1.61,0.69,1.27
+football,Champions League 2023 2024,Round 2,04/10/,Manchester Utd,Galatasaray,2,3,2,g_1_AN1QkR8U,1.48,4.86,6.65,2.1,2.68
+football,Champions League 2023 2024,Round 2,04/10/,Napoli,Real Madrid,2,3,2,g_1_WCvuvU9I,3.01,3.67,2.35,2.09,1.18
+football,Champions League 2023 2024,Round 2,04/10/,PSV,Sevilla,2,2,1,g_1_W6JVHqhN,1.86,4.11,4.0,2.18,1.17
+football,Champions League 2023 2024,Round 2,04/10/,Salzburg,Real Sociedad,0,2,2,g_1_rmrqwlPO,3.09,3.33,2.46,0.34,1.25
+football,Champions League 2023 2024,Round 2,04/10/,Union Berlin,Braga,2,3,2,g_1_Gd6xEzik,2.1,3.65,3.58,2.21,1.09
+football,Champions League 2023 2024,Round 1,21/09/,Arsenal,PSV,4,0,0,g_1_llkzuAfC,0.0,0.0,0.0,2.56,0.63
+football,Champions League 2023 2024,Round 1,21/09/,Bayern Munich,Manchester Utd,4,3,0,g_1_AcjWuju6,1.5,5.16,5.93,2.73,0.85
+football,Champions League 2023 2024,Round 1,21/09/,Benfica,Salzburg,0,2,2,g_1_0pttYerL,1.5,4.92,6.21,1.63,3.37
+football,Champions League 2023 2024,Round 1,21/09/,Braga,Napoli,1,2,2,g_1_fm5tDf6e,4.63,4.11,1.75,1.38,1.54
+football,Champions League 2023 2024,Round 1,21/09/,Real Sociedad,Inter,1,1,1,g_1_40XVNBKD,3.17,3.18,2.5,1.37,0.37
+football,Champions League 2023 2024,Round 1,21/09/,Sevilla,Lens,1,1,1,g_1_Is4QKo84,2.05,3.49,3.9,0.52,1.19
+football,Champions League 2023 2024,Round 1,21/09/,Galatasaray,FC Copenhagen,2,2,1,g_1_M1Vr88Ob,1.7,4.07,5.14,0.8,0.68
+football,Champions League 2023 2024,Round 1,21/09/,Real Madrid,Union Berlin,1,0,0,g_1_jBjdY4x4,1.41,5.13,7.98,3.54,0.2
+football,Champions League 2023 2024,Round 1,20/09/,Barcelona,Antwerp,5,0,0,g_1_G067uJ1M,1.15,9.39,17.6,2.64,0.3
+football,Champions League 2023 2024,Round 1,20/09/,Feyenoord,Celtic2,2,0,0,g_1_SIh3HiDm,1.58,4.48,5.68,1.44,0.29
+football,Champions League 2023 2024,Round 1,20/09/,Lazio,Atl. Madrid,1,1,1,g_1_2eyAzXJP,3.31,3.25,2.38,0.61,0.93
+football,Champions League 2023 2024,Round 1,20/09/,Manchester City,Crvena zvezda,3,1,0,g_1_IsIFslRh,1.08,16.6,23.0,4.64,0.57
+football,Champions League 2023 2024,Round 1,20/09/,PSG,Dortmund,2,0,0,g_1_6PuVVjSt,1.77,4.3,4.3,2.15,0.54
+football,Champions League 2023 2024,Round 1,20/09/,Shakhtar Donetsk,FC Porto,1,3,2,g_1_U3WtfIGF,5.73,3.84,1.68,0.47,1.89
+football,Champions League 2023 2024,Round 1,20/09/,AC Milan,Newcastle,0,0,1,g_1_pGvZUAsm,2.48,3.28,3.1,2.05,0.19
+football,Champions League 2023 2024,Round 1,20/09/,Young Boys,RB Leipzig,1,3,2,g_1_8UFnpsmi,5.05,3.92,1.73,0.4,1.94
+football,Champions League 2023 2024,Round 1,31/08/,AEK Athens (Gre),Antwerp (Bel)Advancing to next round,1,2,2,g_1_SKTSgL5j,1.7,3.87,5.41,1.13,2.08
+football,Champions League 2023 2024,Round 1,31/08/,FC Copenhagen (Den)Advancing to next round,Rakow (Pol),1,1,1,g_1_QNgGWeFg,1.7,4.07,5.14,1.48,0.9
+football,Champions League 2023 2024,Round 1,31/08/,PSV (Ned)Advancing to next round,Rangers (Sco),5,1,0,g_1_WMmik1Rk,1.51,4.61,6.53,2.93,0.75
+football,Champions League 2023 2024,Round 1,30/08/,Galatasaray (Tur)Advancing to next round,Molde (Nor),2,1,0,g_1_Ue07YHps,1.55,4.86,5.5,1.5,0.69
+football,Champions League 2023 2024,Round 1,30/08/,Panathinaikos (Gre),Braga (Por)Advancing to next round,0,1,2,g_1_Que8bKMg,2.48,3.62,2.85,1.54,1.33
+football,Champions League 2023 2024,Round 1,30/08/,Young Boys (Sui)Winner,Maccabi Haifa (Isr),3,0,0,g_1_fDzsysWb,1.76,3.96,4.75,0.46,1.39
+football,Champions League 2023 2024,Round 1,24/08/,Braga (Por),Panathinaikos (Gre),2,1,0,g_1_rH53a07m,1.68,3.7,6.08,1.47,1.57
+football,Champions League 2023 2024,Round 1,24/08/,Maccabi Haifa (Isr),Young Boys (Sui),0,0,1,g_1_GMywxNGh,2.15,3.84,3.28,0.36,0.17
+football,Champions League 2023 2024,Round 1,24/08/,Molde (Nor),Galatasaray (Tur),2,3,2,g_1_CGDuwbxQ,3.48,3.35,2.25,1.67,0.8
+football,Champions League 2023 2024,Round 1,23/08/,Antwerp (Bel),AEK Athens (Gre),1,0,0,g_1_lUUOf1jp,2.31,3.39,3.29,0.84,2.17
+football,Champions League 2023 2024,Round 1,23/08/,Rakow (Pol),FC Copenhagen (Den),0,1,2,g_1_ra4BXy0m,3.43,3.53,2.19,0.74,0.17
+football,Champions League 2023 2024,Round 1,23/08/,Rangers (Sco),PSV (Ned),2,2,1,g_1_hWlmjsCq,3.23,3.48,2.3,1.19,1.29
+football,Champions League 2023 2024,Round 1,20/08/,AEK Athens (Gre)Advancing to next round,Din. Zagreb (Cro),2,2,1,g_1_t2t7CvRp,1.96,3.59,4.15,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Marseille (Fra),Panathinaikos (Gre)Advancing to next round,2,2,1,g_1_YymVBfZ8,1.46,4.7,7.39,3.39,1.21
+football,Champions League 2023 2024,Round 1,16/08/,Servette (Sui),Rangers (Sco)Advancing to next round,1,1,1,g_1_I7Vfb6uN,3.32,3.95,2.1,0.99,1.98
+football,Champions League 2023 2024,Round 1,16/08/,Sturm Graz (Aut),PSV (Ned)Advancing to next round,1,3,2,g_1_Gzu5szbJ,3.6,3.68,2.08,0.97,1.84
+football,Champions League 2023 2024,Round 1,16/08/,Din. Zagreb (Cro),AEK Athens (Gre),1,2,2,g_1_r7KkyO3o,2.37,3.14,3.45,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Galatasaray (Tur)Advancing to next round,O. Ljubljana (Slo),1,0,0,g_1_U9PRvz1N,1.3,5.96,10.4,0.71,0.78
+football,Champions League 2023 2024,Round 1,16/08/,TSC (Srb),Braga (Por)Advancing to next round,1,4,2,g_1_8AycqdT6,4.98,4.51,1.65,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Aris (Cyp),Rakow (Pol)Advancing to next round,0,1,2,g_1_nHIQXMRd,2.29,3.43,3.32,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Maccabi Haifa (Isr)Advancing to next round,Slovan Bratislava (Svk),3,1,0,g_1_dGo463Xq,1.62,4.33,5.48,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Molde (Nor)Advancing to next round,Klaksvik (Fai),2,0,0,g_1_UTqC4s2d,1.26,6.79,11.7,0.0,0.0
+football,Champions League 2023 2024,Round 1,16/08/,Sparta Prague (Cze),FC Copenhagen (Den)Advancing to next round,3,4,2,g_1_C47wvrgF,2.37,3.29,3.29,1.84,1.65
+football,Champions League 2023 2024,Round 1,10/08/,Rangers (Sco),Servette (Sui),2,1,0,g_1_OpWjanQG,1.51,5.14,5.76,2.97,0.91
+football,Champions League 2023 2024,Round 1,10/08/,Slovan Bratislava (Svk),Maccabi Haifa (Isr),1,2,2,g_1_KffxBqPS,2.86,3.07,2.81,1.16,0.73
+football,Champions League 2023 2024,Round 1,10/08/,Panathinaikos (Gre),Marseille (Fra),1,0,0,g_1_KYrRCzK2,4.21,3.16,2.1,0.66,0.41
+football,Champions League 2023 2024,Round 1,09/08/,Braga (Por),TSC (Srb),3,0,0,g_1_UJxgpxE0,1.27,6.27,12.2,0.0,0.0
+football,Champions League 2023 2024,Round 1,09/08/,O. Ljubljana (Slo),Galatasaray (Tur),0,3,2,g_1_jJQNuGoH,4.78,3.59,1.84,0.0,0.0
+football,Champions League 2023 2024,Round 1,09/08/,Klaksvik (Fai),Molde (Nor),2,1,0,g_1_jwo85Nnj,4.94,3.92,1.74,0.0,0.0
+football,Champions League 2023 2024,Round 1,09/08/,PSV (Ned),Sturm Graz (Aut),4,1,0,g_1_xpt1rGrD,1.57,4.15,6.62,0.0,0.0
+football,Champions League 2023 2024,Round 1,09/08/,FC Copenhagen (Den),Sparta Prague (Cze),0,0,1,g_1_WhjtuOw9,2.02,3.5,4.02,0.0,0.0
+football,Champions League 2023 2024,Round 1,09/08/,Rakow (Pol),Aris (Cyp),2,1,0,g_1_pCvr9wkd,1.86,3.89,4.2,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Galatasaray (Tur)Advancing to next round,Zalgiris (Ltu),1,0,0,g_1_r7SxGTIC,1.14,9.36,21.0,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,FC Copenhagen (Den)Advancing to next round,Breidablik (Ice),6,3,0,g_1_YX8j8zHJ,1.32,6.71,8.25,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Genk (Bel),Servette (Sui)Advancing to next round,2,3,2,g_1_ATOanUjh,1.53,4.47,6.59,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Hacken (Swe),Klaksvik (Fai)Advancing to next round,3,4,2,g_1_phxtNHs5,1.38,5.68,7.66,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Maccabi Haifa (Isr)Advancing to next round,Sheriff Tiraspol (Mda),4,1,0,g_1_MiCQiG93,1.46,4.87,7.19,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Molde (Nor)Advancing to next round,HJK (Fin),2,0,0,g_1_G84P3SRi,1.23,7.1,12.9,0.0,0.0
+football,Champions League 2023 2024,Round 1,03/08/,Qarabag (Aze),Rakow (Pol)Advancing to next round,1,1,1,g_1_hIulLeCH,2.03,3.4,3.75,0.0,0.0
+football,Champions League 2023 2024,Round 1,02/08/,FC Astana (Kaz),Din. Zagreb (Cro)Advancing to next round,0,2,2,g_1_EXTdJZtU,4.21,3.62,1.94,0.0,0.0
+football,Champions League 2023 2024,Round 1,02/08/,Slovan Bratislava (Svk)Advancing to next round,Zrinjski (Bih),2,2,1,g_1_Kxy1CAMG,2.2,3.53,3.41,0.0,0.0
+football,Champions League 2023 2024,Round 1,02/08/,BATE (Blr),Aris (Cyp)Advancing to next round,3,5,2,g_1_jX3slY8S,3.52,3.99,2.02,0.0,0.0
+football,Champions League 2023 2024,Round 1,02/08/,O. Ljubljana (Slo)Advancing to next round,Ludogorets (Bul),2,1,0,g_1_thP9AliT,2.87,3.46,2.54,0.0,0.0
+football,Champions League 2023 2024,Round 1,02/08/,Panathinaikos (Gre)Advancing to next round,Dnipro-1 (Ukr),2,2,1,g_1_rsN7p8L4,1.63,4.24,5.56,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/07/,Klaksvik (Fai),Hacken (Swe),0,0,1,g_1_2TnyOcSb,4.16,3.75,1.91,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/07/,Ludogorets (Bul),O. Ljubljana (Slo),1,1,1,g_1_21Q5BUyN,1.39,4.68,10.3,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/07/,Rakow (Pol),Qarabag (Aze),3,2,0,g_1_OrypMycB,2.08,3.41,3.9,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/07/,Aris (Cyp),BATE (Blr),6,2,0,g_1_dA4wkEgM,1.57,4.1,6.66,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/07/,Sheriff Tiraspol (Mda),Maccabi Haifa (Isr),1,0,0,g_1_ERCMhdfc,3.87,3.16,2.19,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Breidablik (Ice),FC Copenhagen (Den),0,2,2,g_1_WSU7qivJ,4.48,3.93,1.81,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Zrinjski (Bih),Slovan Bratislava (Svk),0,1,2,g_1_82XdDj7A,2.78,3.2,2.78,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Servette (Sui),Genk (Bel),1,1,1,g_1_hhUfmAyn,3.17,3.63,2.28,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Din. Zagreb (Cro),FC Astana (Kaz),4,0,0,g_1_W8vhKFRN,1.38,4.84,10.4,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Dnipro-1 (Ukr),Panathinaikos (Gre),1,3,2,g_1_lKN3ol6b,3.57,3.17,2.3,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,HJK (Fin),Molde (Nor),1,0,0,g_1_4Y0L48Co,4.82,3.92,1.76,0.0,0.0
+football,Champions League 2023 2024,Round 1,26/07/,Zalgiris (Ltu),Galatasaray (Tur),2,2,1,g_1_lpTYG936,6.74,4.66,1.5,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Larne (Nir),HJK (Fin)Advancing to next round,2,2,1,g_1_vLCZl8k0,3.64,3.26,2.23,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Hesperange (Lux),Slovan Bratislava (Svk)Advancing to next round,0,2,2,g_1_rTZZH6Jn,3.64,3.73,2.05,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Ludogorets (Bul)Advancing to next round,FC Ballkani (Kos),4,0,0,g_1_8EqPaP3I,1.49,5.12,6.15,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Dinamo Tbilisi (Geo),FC Astana (Kaz)Advancing to next round,1,2,2,g_1_Wf9RjUKm,2.39,3.32,3.22,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Ferencvaros (Hun),Klaksvik (Fai)Advancing to next round,0,3,2,g_1_vZi8374g,1.28,5.83,13.3,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Qarabag (Aze)Advancing to next round,Lincoln Red Imps (Gib),4,0,0,g_1_ncl4NSeP,1.17,10.2,13.6,0.0,0.0
+football,Champions League 2023 2024,Round 1,20/07/,Valmiera (Lat),O. Ljubljana (Slo)Advancing to next round,1,2,2,g_1_C6dg9xyF,4.29,3.65,1.83,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Breidablik (Ice)Advancing to next round,Shamrock Rovers (Irl),2,1,0,g_1_rJCwm6xh,1.91,3.89,4.01,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,BATE (Blr)Advancing to next round,Partizani (Alb),2,0,0,g_1_nLWjEOIB,2.68,2.95,3.14,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,TNS (Wal),Hacken (Swe)Advancing to next round,0,2,2,g_1_W8l05TZt,5.01,4.18,1.69,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Zrinjski (Bih)Advancing to next round,Urartu (Arm),3,3,1,g_1_StgUAkCJ,1.7,3.9,5.4,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Flora (Est),Rakow (Pol)Advancing to next round,0,3,2,g_1_veTrGpla,5.36,3.92,1.7,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Maccabi Haifa (Isr)Advancing to next round,Hamrun (Mlt),2,1,0,g_1_8zLaC2mO,1.16,8.81,17.5,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Sheriff Tiraspol (Mda)Advancing to next round,Farul Constanta (Rou),3,0,0,g_1_zm6rmnKC,1.92,3.37,4.69,0.0,0.0
+football,Champions League 2023 2024,Round 1,19/07/,Struga (Mkd),Zalgiris (Ltu)Advancing to next round,1,2,2,g_1_0ltH1oZ5,3.03,3.1,2.64,0.0,0.0
+football,Champions League 2023 2024,Round 1,13/07/,Slovan Bratislava (Svk),Hesperange (Lux),1,1,1,g_1_l6zWIn4t,1.33,5.86,9.47,0.0,0.0
+football,Champions League 2023 2024,Round 1,13/07/,Farul Constanta (Rou),Sheriff Tiraspol (Mda),1,0,0,g_1_IBBwlS46,2.56,2.97,3.31,0.0,0.0
+football,Champions League 2023 2024,Round 1,13/07/,Hacken (Swe),TNS (Wal),3,1,0,g_1_QRBX99RP,1.33,5.55,10.5,0.0,0.0
+football,Champions League 2023 2024,Round 1,13/07/,HJK (Fin),Larne (Nir),1,0,0,g_1_pbDVklzf,1.58,3.64,8.29,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,FC Astana (Kaz),Dinamo Tbilisi (Geo),1,1,1,g_1_lWJMiA5s,1.8,3.54,4.63,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,FC Ballkani (Kos),Ludogorets (Bul),2,0,0,g_1_EipL05lC,4.21,3.28,2.05,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Klaksvik (Fai),Ferencvaros (Hun),0,0,1,g_1_Aam44mkm,5.32,3.48,1.8,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Partizani (Alb),BATE (Blr),1,1,1,g_1_IoSnF435,2.29,3.18,3.6,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Shamrock Rovers (Irl),Breidablik (Ice),0,1,2,g_1_4SDZmnNo,2.04,3.5,3.94,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Hamrun (Mlt),Maccabi Haifa (Isr),0,4,2,g_1_QBVfDrYH,7.78,4.64,1.46,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,O. Ljubljana (Slo),Valmiera (Lat),2,1,0,g_1_4tckAIL8,1.33,6.13,8.81,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Rakow (Pol),Flora (Est),1,0,0,g_1_dWwvHQYh,1.29,6.28,10.8,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Zalgiris (Ltu),Struga (Mkd),0,0,1,g_1_IPjC2RJa,1.84,3.22,5.7,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Lincoln Red Imps (Gib),Qarabag (Aze),1,2,2,g_1_n5rTbqJO,7.7,4.48,1.48,0.0,0.0
+football,Champions League 2023 2024,Round 1,12/07/,Urartu (Arm),Zrinjski (Bih),0,1,2,g_1_Ew5nn6ZI,3.08,3.06,2.49,0.0,0.0
+football,Champions League 2023 2024,Round 1,01/07/,Buducnost (Mne),Breidablik (Ice)Winner,0,5,2,g_1_02Nz3kn0,4.53,5.05,1.63,0.0,0.0
+football,Champions League 2023 2024,Round 1,28/06/,Tre Penne (San),Breidablik (Ice)Advancing to next round,1,7,2,g_1_QPlm48Np,34.0,12.0,1.05,0.0,0.0
+football,Champions League 2023 2024,Round 1,27/06/,Atletic Escaldes (And),Buducnost (Mne)Advancing to next round,0,3,2,g_1_EurVSi0o,4.32,4.11,1.8,0.0,0.0

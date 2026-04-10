@@ -1,0 +1,25 @@
+# ── Trained model weights (too large for git) ─────────────────────────────────
+models/*.pth
+models/*.joblib
+models/xgb_classifier.json
+
+# ── Encoder pickle (regenerated on first run) ──────────────────────────────────
+encoders.pkl
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Scraper browser/debug artefacts ───────────────────────────────────────────
+*.html
+*.png
+
+# ── OS / editor noise ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Sensitive / personal ──────────────────────────────────────────────────────
+.env

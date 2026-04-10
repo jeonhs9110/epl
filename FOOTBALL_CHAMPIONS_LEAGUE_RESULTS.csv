@@ -1,0 +1,253 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Champions League,Round 8,29/01/,Ajax,Olympiacos Piraeus,1,2,2,g_1_bBQm4aAM,3.15,3.76,2.24,1.88,0.53
+football,Champions League,Round 8,29/01/,Arsenal,Kairat Almaty,3,2,0,g_1_xtloE3Ft,1.03,17.0,41.0,3.94,1.11
+football,Champions League,Round 8,29/01/,Ath Bilbao,Sporting CP,2,3,2,g_1_v52WqyOE,0.0,0.0,0.0,0.57,1.76
+football,Champions League,Round 8,29/01/,Atl. Madrid,Bodo/Glimt,1,2,2,g_1_bF0yPKTb,1.28,7.21,9.27,2.18,1.88
+football,Champions League,Round 8,29/01/,Barcelona,FC Copenhagen,4,1,0,g_1_I3uVjzIF,1.13,10.9,19.8,3.18,1.05
+football,Champions League,Round 8,29/01/,Bayer Leverkusen,Villarreal,3,0,0,g_1_roP9qhAk,1.7,4.19,4.86,1.93,0.25
+football,Champions League,Round 8,29/01/,Benfica,Real Madrid2,4,2,0,g_1_jJG2pJxg,4.49,4.32,1.74,3.01,1.51
+football,Champions League,Round 8,29/01/,Club Brugge KV,Marseille,3,0,0,g_1_A9IraDSP,2.88,3.7,2.42,1.41,1.03
+football,Champions League,Round 8,29/01/,Dortmund,Inter,0,2,2,g_1_pdzEQOoK,2.86,3.57,2.5,0.84,0.99
+football,Champions League,Round 8,29/01/,Eintracht Frankfurt,Tottenham,0,2,2,g_1_fLIvsE6s,5.06,4.25,1.67,0.87,1.28
+football,Champions League,Round 8,29/01/,Liverpool,Qarabag,6,0,0,g_1_jgkGGsJl,1.11,12.1,19.8,5.92,0.21
+football,Champions League,Round 8,29/01/,Manchester City,Galatasaray,2,0,0,g_1_hOjKb9c3,1.25,7.7,9.78,1.78,0.26
+football,Champions League,Round 8,29/01/,Monaco,Juventus,0,0,1,g_1_OxS8nzqK,4.07,3.56,1.98,1.04,0.17
+football,Champions League,Round 8,29/01/,Napoli,Chelsea,2,3,2,g_1_nLbmBb4N,3.5,3.7,2.11,0.97,2.01
+football,Champions League,Round 8,29/01/,Pafos,Slavia Prague,4,1,0,g_1_l2ATLOyP,3.16,3.47,2.34,1.4,1.73
+football,Champions League,Round 8,29/01/,PSG,Newcastle,1,1,1,g_1_KxXrUchC,1.59,4.86,5.12,2.52,1.07
+football,Champions League,Round 8,29/01/,PSV,Bayern Munich,1,2,2,g_1_2gA2Bns9,4.85,4.59,1.65,0.61,1.97
+football,Champions League,Round 8,29/01/,Royale Union SG,Atalanta,1,0,0,g_1_SWJOFy8r,3.09,3.67,2.3,1.0,0.83
+football,Champions League,Round 7,22/01/,Atalanta,Ath Bilbao,2,3,2,g_1_8nwhLcpL,1.71,3.84,5.38,2.02,1.74
+football,Champions League,Round 7,22/01/,Bayern Munich,Royale Union SG,2,0,0,g_1_z78A9QBL,1.14,11.0,16.5,3.09,0.88
+football,Champions League,Round 7,22/01/,Chelsea,Pafos,1,0,0,g_1_ripJ5xSp,1.11,11.7,21.0,1.85,0.14
+football,Champions League,Round 7,22/01/,Juventus,Benfica,2,0,0,g_1_6qIt5QxQ,1.69,4.0,5.32,1.36,1.44
+football,Champions League,Round 7,22/01/,Marseille,Liverpool,0,3,2,g_1_fN3pM3eR,3.68,4.02,1.96,0.87,1.46
+football,Champions League,Round 7,22/01/,Newcastle,PSV,3,0,0,g_1_jVt39fn2,1.34,5.77,8.91,2.4,0.34
+football,Champions League,Round 7,22/01/,Slavia Prague,Barcelona,2,4,2,g_1_pjsNhdm3,8.13,6.11,1.34,0.99,1.47
+football,Champions League,Round 7,22/01/,Galatasaray,Atl. Madrid,1,1,1,g_1_nuZOFGjo,3.45,3.8,2.1,0.5,1.43
+football,Champions League,Round 7,22/01/,Qarabag,Eintracht Frankfurt,3,2,0,g_1_r3QdyAzJ,3.46,3.97,2.04,1.78,1.21
+football,Champions League,Round 7,21/01/,FC Copenhagen,Napoli,1,1,1,g_1_jqMyOg1e,4.1,3.49,2.0,1.38,1.54
+football,Champions League,Round 7,21/01/,Inter,Arsenal,1,3,2,g_1_fonXCaID,2.9,3.38,2.56,1.36,2.14
+football,Champions League,Round 7,21/01/,Olympiacos Piraeus,Bayer Leverkusen,2,0,0,g_1_tvUA8aqI,2.34,3.68,3.02,1.13,2.58
+football,Champions League,Round 7,21/01/,Real Madrid,Monaco,6,1,0,g_1_C6QQvF6U,1.32,6.13,9.14,3.86,1.4
+football,Champions League,Round 7,21/01/,Sporting CP,PSG,2,1,0,g_1_nPYzWJNa,4.57,4.3,1.73,0.89,1.42
+football,Champions League,Round 7,21/01/,Tottenham,Dortmund,2,0,0,g_1_GdQgIFBj,2.74,3.66,2.54,1.96,0.38
+football,Champions League,Round 7,21/01/,Villarreal,Ajax,1,2,2,g_1_zcNWDFxe,1.37,5.85,7.68,1.36,0.91
+football,Champions League,Round 7,21/01/,Bodo/Glimt,Manchester City,3,1,0,g_1_0U3Yz65d,7.06,5.87,1.39,1.59,1.23
+football,Champions League,Round 7,21/01/,Kairat Almaty,Club Brugge KV,1,4,2,g_1_d6jWk9kC,6.23,5.19,1.48,0.28,2.54
+football,Champions League,Round 6,11/12/,Ath Bilbao,PSG,0,0,1,g_1_vumpSyNO,4.73,4.0,1.75,0.52,2.22
+football,Champions League,Round 6,11/12/,Bayer Leverkusen,Newcastle,2,2,1,g_1_EiSI6wEU,3.19,3.86,2.18,1.2,2.07
+football,Champions League,Round 6,11/12/,Benfica,Napoli,2,0,0,g_1_vZLAwKrh,2.85,3.21,2.72,2.22,0.64
+football,Champions League,Round 6,11/12/,Club Brugge KV,Arsenal,0,3,2,g_1_bLLpo5of,7.11,5.33,1.43,1.1,2.99
+football,Champions League,Round 6,11/12/,Dortmund,Bodo/Glimt,2,2,1,g_1_bupNNylT,1.37,5.91,7.71,3.19,1.38
+football,Champions League,Round 6,11/12/,Juventus,Pafos,2,0,0,g_1_rskMOWjD,1.21,7.42,15.0,2.65,1.19
+football,Champions League,Round 6,11/12/,Real Madrid,Manchester City,1,2,2,g_1_dfQVQXu3,3.18,3.99,2.15,1.5,2.61
+football,Champions League,Round 6,11/12/,Qarabag,Ajax,2,4,2,g_1_boscVy9L,2.13,3.83,3.34,1.1,1.6
+football,Champions League,Round 6,11/12/,Villarreal,FC Copenhagen,2,3,2,g_1_29bRZdaE,1.44,5.39,6.67,2.08,1.36
+football,Champions League,Round 6,10/12/,Atalanta,Chelsea,2,1,0,g_1_rT1WEt5b,3.7,3.58,2.08,1.72,1.37
+football,Champions League,Round 6,10/12/,Barcelona,Eintracht Frankfurt,2,1,0,g_1_CrAdxy3M,1.16,10.1,14.7,1.52,0.76
+football,Champions League,Round 6,10/12/,Inter,Liverpool,0,1,2,g_1_WYqK4sP0,2.05,3.79,3.58,0.44,1.42
+football,Champions League,Round 6,10/12/,Monaco,Galatasaray,1,0,0,g_1_xMyIqmoT,2.03,4.0,3.49,3.69,1.29
+football,Champions League,Round 6,10/12/,PSV,Atl. Madrid,2,3,2,g_1_KUlpNbbB,3.1,3.87,2.22,2.67,2.23
+football,Champions League,Round 6,10/12/,Royale Union SG,Marseille,2,3,2,g_1_25z3zOjI,3.23,3.58,2.26,0.66,1.45
+football,Champions League,Round 6,10/12/,Tottenham,Slavia Prague,3,0,0,g_1_jRbbgrd4,1.46,4.63,7.71,2.75,0.77
+football,Champions League,Round 6,10/12/,Bayern Munich,Sporting CP,3,1,0,g_1_noSFmqk2,1.22,7.49,13.5,2.1,0.28
+football,Champions League,Round 6,10/12/,Kairat Almaty,Olympiacos Piraeus,0,1,2,g_1_KMICP6x0,7.26,4.87,1.46,0.2,2.28
+football,Champions League,Round 5,27/11/,Arsenal,Bayern Munich,3,1,0,g_1_vLO7k5Kk,2.06,3.78,3.57,3.11,0.65
+football,Champions League,Round 5,27/11/,Atl. Madrid,Inter,2,1,0,g_1_xABHKByK,2.53,3.57,2.82,0.98,1.43
+football,Champions League,Round 5,27/11/,Eintracht Frankfurt,Atalanta,0,3,2,g_1_QmufsNpJ,0.0,0.0,0.0,0.96,2.85
+football,Champions League,Round 5,27/11/,Liverpool,PSV,1,4,2,g_1_0OAyOPQE,1.26,7.88,9.41,2.5,2.17
+football,Champions League,Round 5,27/11/,Olympiacos Piraeus,Real Madrid,3,4,2,g_1_vgSItyxI,4.73,4.62,1.66,1.69,1.68
+football,Champions League,Round 5,27/11/,PSG,Tottenham,5,3,0,g_1_jcuSXugm,1.42,5.09,7.76,1.85,1.79
+football,Champions League,Round 5,27/11/,Sporting CP,Club Brugge KV,3,0,0,g_1_fsfFgijm,1.56,4.61,5.85,1.84,0.81
+football,Champions League,Round 5,27/11/,FC Copenhagen,Kairat Almaty,3,2,0,g_1_p27NHXdC,0.0,0.0,0.0,3.27,1.88
+football,Champions League,Round 5,27/11/,Pafos,Monaco,2,2,1,g_1_neNmvR8j,5.78,4.85,1.54,1.22,1.54
+football,Champions League,Round 5,26/11/,Bodo/Glimt,Juventus,2,3,2,g_1_jZWEQhM0,3.28,3.8,2.17,1.74,3.44
+football,Champions League,Round 5,26/11/,Chelsea,Barcelona,3,0,0,g_1_rFrq3Umd,0.0,0.0,0.0,1.89,0.8
+football,Champions League,Round 5,26/11/,Dortmund,Villarreal,4,0,0,g_1_Uah6RJl4,1.95,3.69,4.05,4.03,0.83
+football,Champions League,Round 5,26/11/,Manchester City,Bayer Leverkusen,0,2,2,g_1_bcaqcdMb,1.41,5.13,8.1,1.78,0.51
+football,Champions League,Round 5,26/11/,Marseille,Newcastle,2,1,0,g_1_6wsfxpM5,3.14,3.54,2.33,2.0,1.46
+football,Champions League,Round 5,26/11/,Napoli,Qarabag,2,0,0,g_1_fHSSPFWr,1.21,7.25,15.8,3.45,0.48
+football,Champions League,Round 5,26/11/,Slavia Prague,Ath Bilbao,0,0,1,g_1_hzHKNp7C,3.12,3.23,2.5,0.57,1.32
+football,Champions League,Round 5,26/11/,Ajax,Benfica,0,2,2,g_1_pniBybD4,4.21,3.69,1.91,0.96,1.16
+football,Champions League,Round 5,26/11/,Galatasaray,Royale Union SG,0,1,2,g_1_8b3hpZgU,1.74,4.19,4.57,1.18,1.63
+football,Champions League,Round 4,06/11/,Ajax,Galatasaray,0,3,2,g_1_IyZlXcv9,3.67,3.9,1.99,0.87,2.61
+football,Champions League,Round 4,06/11/,Benfica,Bayer Leverkusen,0,1,2,g_1_40DIsWv2,1.94,3.78,3.98,1.61,0.75
+football,Champions League,Round 4,06/11/,Club Brugge KV,Barcelona,3,3,1,g_1_dGoTWEQq,5.95,5.08,1.5,2.14,2.4
+football,Champions League,Round 4,06/11/,Inter,Kairat Almaty,2,1,0,g_1_GOl4B7b6,1.03,24.0,64.0,2.38,0.15
+football,Champions League,Round 4,06/11/,Manchester City,Dortmund,4,1,0,g_1_4tHpL29s,1.4,5.64,7.18,1.97,1.03
+football,Champions League,Round 4,06/11/,Marseille,Atalanta,0,1,2,g_1_zZvpNJF8,2.22,3.57,3.34,0.9,1.25
+football,Champions League,Round 4,06/11/,Newcastle,Ath Bilbao,2,0,0,g_1_8tp1mVo4,1.37,5.36,8.66,1.2,0.58
+football,Champions League,Round 4,06/11/,Pafos,Villarreal,1,0,0,g_1_byhzYzUQ,9.63,6.18,1.31,0.75,1.78
+football,Champions League,Round 4,06/11/,Qarabag,Chelsea,2,2,1,g_1_MZlbTuKi,8.32,5.8,1.35,1.63,1.26
+football,Champions League,Round 4,05/11/,Atl. Madrid,Royale Union SG,3,1,0,g_1_SfhhLxTN,1.29,6.63,9.67,2.3,1.11
+football,Champions League,Round 4,05/11/,Bodo/Glimt,Monaco,0,1,2,g_1_xbkwtSMt,2.31,4.1,2.82,1.66,1.29
+football,Champions League,Round 4,05/11/,Juventus,Sporting CP,1,1,1,g_1_f7w6SEil,1.93,3.52,4.36,1.53,0.21
+football,Champions League,Round 4,05/11/,Liverpool,Real Madrid,1,0,0,g_1_U7OwPBAF,2.57,3.89,2.61,2.51,0.45
+football,Champions League,Round 4,05/11/,Olympiacos Piraeus,PSV,1,1,1,g_1_hENu6LuA,2.78,3.76,2.47,0.93,0.35
+football,Champions League,Round 4,05/11/,PSG,Bayern Munich,1,2,2,g_1_jH34ACeM,2.52,3.67,2.77,1.95,1.53
+football,Champions League,Round 4,05/11/,Tottenham,FC Copenhagen,4,0,0,g_1_vVoNIbPF,1.55,4.47,6.19,3.32,0.35
+football,Champions League,Round 4,05/11/,Napoli,Eintracht Frankfurt,0,0,1,g_1_jmCmuhyf,1.63,4.3,5.37,1.84,0.36
+football,Champions League,Round 4,05/11/,Slavia Prague,Arsenal,0,3,2,g_1_nH8yf0UO,12.5,7.0,1.24,0.48,1.8
+football,Champions League,Round 3,23/10/,Atalanta,Slavia Prague,0,0,1,g_1_KQAaF7d2,1.33,5.77,9.45,2.59,0.73
+football,Champions League,Round 3,23/10/,Bayern Munich,Club Brugge KV,4,0,0,g_1_fmmyeRdS,1.12,11.4,19.3,4.21,0.25
+football,Champions League,Round 3,23/10/,Chelsea,Ajax,5,1,0,g_1_jg5vDKZA,1.33,5.88,9.2,3.65,1.05
+football,Champions League,Round 3,23/10/,Eintracht Frankfurt,Liverpool,1,5,2,g_1_YHIk0MY7,5.45,4.86,1.56,0.32,3.21
+football,Champions League,Round 3,23/10/,Monaco,Tottenham,0,0,1,g_1_bX1OGxfS,3.26,3.58,2.25,2.46,0.88
+football,Champions League,Round 3,23/10/,Real Madrid,Juventus,1,0,0,g_1_U3Sgnu8t,1.46,5.14,6.49,2.7,0.59
+football,Champions League,Round 3,23/10/,Sporting CP,Marseille,2,1,0,g_1_r1eje4Ri,2.28,3.67,3.13,1.11,0.54
+football,Champions League,Round 3,23/10/,Ath Bilbao,Qarabag,3,1,0,g_1_CEjhkiHi,1.34,5.9,8.61,3.46,0.53
+football,Champions League,Round 3,23/10/,Galatasaray,Bodo/Glimt,3,1,0,g_1_bDwnv6ig,1.58,4.66,5.45,3.87,1.42
+football,Champions League,Round 3,22/10/,Arsenal,Atl. Madrid,4,0,0,g_1_W6545ZW8,1.59,4.2,6.14,2.2,0.67
+football,Champions League,Round 3,22/10/,Bayer Leverkusen,PSG,2,7,2,g_1_KEldw2VP,5.23,4.04,1.69,2.49,2.86
+football,Champions League,Round 3,22/10/,FC Copenhagen,Dortmund,2,4,2,g_1_4I6lvcY9,4.85,3.69,1.81,0.82,1.65
+football,Champions League,Round 3,22/10/,Newcastle,Benfica,3,0,0,g_1_C07iHTRk,1.66,4.13,5.43,2.62,0.33
+football,Champions League,Round 3,22/10/,PSV,Napoli,6,2,0,g_1_j95SdH2d,3.27,3.57,2.25,2.89,1.16
+football,Champions League,Round 3,22/10/,Royale Union SG,Inter,0,4,2,g_1_CjrD9oTI,5.44,3.84,1.7,0.98,4.55
+football,Champions League,Round 3,22/10/,Villarreal,Manchester City,0,2,2,g_1_KCmheziB,5.17,3.99,1.7,1.28,1.35
+football,Champions League,Round 3,22/10/,Barcelona,Olympiacos Piraeus,6,1,0,g_1_UsazVhed,1.26,7.21,9.86,2.57,1.0
+football,Champions League,Round 3,22/10/,Kairat Almaty,Pafos,0,0,1,g_1_zH3r08V9,3.25,3.46,2.3,1.26,1.76
+football,Champions League,Round 2,02/10/,Arsenal,Olympiacos Piraeus,2,0,0,g_1_jkFSeMaC,1.18,7.74,17.6,2.9,0.5
+football,Champions League,Round 2,02/10/,Barcelona,PSG,1,2,2,g_1_xfFhJtvf,1.67,4.6,4.66,1.27,1.67
+football,Champions League,Round 2,02/10/,Bayer Leverkusen,PSV,1,1,1,g_1_pCz2ALE5,1.94,3.97,3.77,1.74,0.49
+football,Champions League,Round 2,02/10/,Dortmund,Ath Bilbao,4,1,0,g_1_8jDutJ3c,1.75,3.78,5.1,1.18,0.95
+football,Champions League,Round 2,02/10/,Monaco,Manchester City,2,2,1,g_1_ljpTdmSF,8.21,5.64,1.37,1.45,1.54
+football,Champions League,Round 2,02/10/,Napoli,Sporting CP,2,1,0,g_1_dnUW7sBc,1.9,3.58,4.47,0.87,1.35
+football,Champions League,Round 2,02/10/,Villarreal,Juventus,2,2,1,g_1_IyHKcrVa,2.51,3.37,2.98,1.72,1.59
+football,Champions League,Round 2,02/10/,Qarabag,FC Copenhagen,2,0,0,g_1_G6m9o9GG,3.74,3.42,2.13,1.9,0.98
+football,Champions League,Round 2,02/10/,Royale Union SG,Newcastle,0,4,2,g_1_235z2U0c,4.49,3.71,1.86,0.88,2.76
+football,Champions League,Round 2,01/10/,Atl. Madrid,Eintracht Frankfurt,5,1,0,g_1_xS8Ca40m,1.44,5.39,6.67,4.44,0.59
+football,Champions League,Round 2,01/10/,Bodo/Glimt,Tottenham,2,2,1,g_1_Ctm7iMQG,3.38,3.68,2.16,2.53,1.46
+football,Champions League,Round 2,01/10/,Chelsea,Benfica,1,0,0,g_1_MDDNG2zn,1.68,3.87,5.61,0.93,0.85
+football,Champions League,Round 2,01/10/,Galatasaray,Liverpool,1,0,0,g_1_nLrPELm1,5.46,4.62,1.58,1.33,1.81
+football,Champions League,Round 2,01/10/,Inter,Slavia Prague,3,0,0,g_1_nqcmFkas,1.29,6.08,11.1,3.98,0.11
+football,Champions League,Round 2,01/10/,Marseille,Ajax,4,0,0,g_1_ShD3X0Zp,1.59,4.31,5.9,1.14,0.8
+football,Champions League,Round 2,01/10/,Pafos,Bayern Munich,1,5,2,g_1_4xRY34Zr,24.0,10.1,1.12,0.39,4.54
+football,Champions League,Round 2,01/10/,Atalanta,Club Brugge KV,2,1,0,g_1_INynqqG6,1.73,4.19,4.66,2.96,0.86
+football,Champions League,Round 2,01/10/,Kairat Almaty,Real Madrid,0,5,2,g_1_jXeyaIin,29.0,14.1,1.08,0.43,3.54
+football,Champions League,Round 1,19/09/,Eintracht Frankfurt,Galatasaray,5,1,0,g_1_O0AewW56,2.33,3.74,2.9,1.2,1.09
+football,Champions League,Round 1,19/09/,Manchester City,Napoli,2,0,0,g_1_42APxSzp,1.56,4.25,6.04,2.12,0.17
+football,Champions League,Round 1,19/09/,Newcastle,Barcelona,1,2,2,g_1_EVYwkEnS,2.46,3.78,2.7,1.47,1.31
+football,Champions League,Round 1,19/09/,Sporting CP,Kairat Almaty,4,1,0,g_1_b9PqMXV7,1.08,14.2,23.0,3.81,0.72
+football,Champions League,Round 1,19/09/,Club Brugge KV,Monaco,4,1,0,g_1_27cNiVKa,2.23,3.54,3.23,3.15,1.45
+football,Champions League,Round 1,19/09/,FC Copenhagen,Bayer Leverkusen,2,2,1,g_1_hIcTQtan,3.33,3.28,2.29,1.89,1.21
+football,Champions League,Round 1,18/09/,Ajax,Inter,0,2,2,g_1_rBjdDTTg,5.28,4.14,1.64,1.26,1.23
+football,Champions League,Round 1,18/09/,Bayern Munich,Chelsea,3,1,0,g_1_ri0dCYQ9,1.83,4.07,4.03,2.07,0.73
+football,Champions League,Round 1,18/09/,Liverpool,Atl. Madrid,3,2,0,g_1_C2Ut2r4e,1.47,4.56,7.09,2.71,0.61
+football,Champions League,Round 1,18/09/,PSG,Atalanta,4,0,0,g_1_vJB9FbwJ,1.39,5.08,8.02,3.48,0.55
+football,Champions League,Round 1,18/09/,Olympiacos Piraeus,Pafos,0,0,1,g_1_OfP3RS7m,0.0,0.0,0.0,1.52,0.29
+football,Champions League,Round 1,18/09/,Slavia Prague,Bodo/Glimt,2,2,1,g_1_4hsopvJj,1.97,3.94,3.56,3.98,2.52
+football,Champions League,Round 1,17/09/,Benfica,Qarabag,2,3,2,g_1_hCfJZyrH,1.21,7.79,11.9,1.39,1.52
+football,Champions League,Round 1,17/09/,Juventus,Dortmund,4,4,1,g_1_jFtFPcJG,2.0,3.5,3.9,1.92,1.7
+football,Champions League,Round 1,17/09/,Real Madrid,Marseille,2,1,0,g_1_bqKArc75,1.38,5.33,7.56,3.74,0.74
+football,Champions League,Round 1,17/09/,Tottenham,Villarreal,1,0,0,g_1_dCBuCg77,1.86,3.74,4.19,0.54,0.49
+football,Champions League,Round 1,17/09/,Ath Bilbao,Arsenal,0,2,2,g_1_bexfCspg,5.93,3.55,1.69,0.34,1.28
+football,Champions League,Round 1,17/09/,PSV,Royale Union SG,1,3,2,g_1_UFhfBGHk,1.83,3.84,4.26,2.52,3.34
+football,Champions League,Round 1,28/08/,Benfica (Por),Fenerbahce (Tur),1,0,0,g_1_IBop45XF,1.74,3.88,4.59,1.32,0.38
+football,Champions League,Round 1,28/08/,Club Brugge KV (Bel),Rangers (Sco),6,0,0,g_1_r7lF69Hs,1.54,4.61,5.38,4.26,0.12
+football,Champions League,Round 1,28/08/,FC Copenhagen (Den),Basel (Sui),2,0,0,g_1_8GdUoKNO,1.61,4.02,5.52,1.55,1.39
+football,Champions League,Round 1,28/08/,Qarabag (Aze)Winner,Ferencvaros (Hun),2,3,2,g_1_8OMeddYo,2.16,3.68,3.14,1.86,3.05
+football,Champions League,Round 1,27/08/,Pafos (Cyp),Crvena zvezda (Srb),1,1,1,g_1_MP1spptp,3.46,3.86,1.98,0.6,0.88
+football,Champions League,Round 1,27/08/,Sturm Graz (Aut),Bodo/Glimt (Nor),2,1,0,g_1_U9BJ69B7,2.5,3.73,2.59,1.67,1.06
+football,Champions League,Round 1,27/08/,Kairat Almaty (Kaz),Celtic (Sco),1,0,0,g_1_ptf6909e,5.85,4.41,1.53,0.59,1.22
+football,Champions League,Round 1,21/08/,Basel (Sui),FC Copenhagen (Den),1,1,1,g_1_Cl3LmtgC,2.66,3.54,2.58,1.38,1.07
+football,Champions League,Round 1,21/08/,Bodo/Glimt (Nor),Sturm Graz (Aut),5,0,0,g_1_rgDB8Vte,1.47,4.91,6.2,2.03,0.78
+football,Champions League,Round 1,21/08/,Celtic (Sco),Kairat Almaty (Kaz),0,0,1,g_1_lE0cBMvq,1.14,8.46,19.1,0.56,0.55
+football,Champions League,Round 1,21/08/,Fenerbahce (Tur),Benfica (Por),0,0,1,g_1_Aorx6R23,2.86,3.37,2.5,0.4,0.32
+football,Champions League,Round 1,20/08/,Crvena zvezda (Srb),Pafos (Cyp),1,2,2,g_1_v5bIk6IM,1.53,4.4,6.1,2.38,1.85
+football,Champions League,Round 1,20/08/,Ferencvaros (Hun),Qarabag (Aze),1,3,2,g_1_SU4mhpMU,2.07,3.46,3.64,1.09,0.77
+football,Champions League,Round 1,20/08/,Rangers (Sco),Club Brugge KV (Bel),1,3,2,g_1_OIysPHX8,3.06,3.66,2.24,1.26,1.0
+football,Champions League,Round 1,13/08/,Benfica (Por),Nice (Fra),2,0,0,g_1_d0mFTz4m,1.52,4.61,5.89,1.7,0.64
+football,Champions League,Round 1,13/08/,Crvena zvezda (Srb),Lech Poznan (Pol),1,1,1,g_1_KdHf1B9O,1.54,4.6,5.62,0.0,0.0
+football,Champions League,Round 1,13/08/,Ferencvaros (Hun),Ludogorets (Bul),3,0,0,g_1_zmvp3CNE,1.52,4.2,6.66,1.54,0.71
+football,Champions League,Round 1,13/08/,Slovan Bratislava (Svk),Kairat Almaty (Kaz),1,1,1,g_1_8QyCu9Yg,1.63,4.26,5.08,1.68,1.03
+football,Champions League,Round 1,13/08/,Club Brugge KV (Bel),Salzburg (Aut),3,2,0,g_1_SxDZmez1,1.73,4.27,4.27,2.76,0.95
+football,Champions League,Round 1,13/08/,FC Copenhagen (Den),Malmo FF (Swe),5,0,0,g_1_OnqLPXCG,1.76,3.35,5.59,0.69,0.71
+football,Champions League,Round 1,13/08/,Fenerbahce (Tur),Feyenoord (Ned),5,2,0,g_1_OCvWPh3C,1.54,4.6,5.62,1.73,1.37
+football,Champions League,Round 1,13/08/,Pafos (Cyp),Dyn. Kyiv (Ukr),2,0,0,g_1_hS4tqiWr,3.14,3.45,2.28,0.0,0.0
+football,Champions League,Round 1,13/08/,Plzen (Cze),Rangers (Sco),2,1,0,g_1_pYsfiUtg,1.78,4.33,3.92,3.3,1.15
+football,Champions League,Round 1,13/08/,Qarabag (Aze),Shkendija (Mkd),5,1,0,g_1_dbvhBFEr,1.34,5.55,8.08,0.0,0.0
+football,Champions League,Round 1,07/08/,Feyenoord (Ned),Fenerbahce (Tur),2,1,0,g_1_2cjNREYa,2.52,3.59,2.7,0.78,0.8
+football,Champions League,Round 1,07/08/,Nice (Fra),Benfica (Por),0,2,2,g_1_xG6rZdtQ,2.9,3.68,2.33,0.67,1.87
+football,Champions League,Round 1,07/08/,Lech Poznan (Pol),Crvena zvezda (Srb),1,3,2,g_1_OUNo3XvC,2.72,3.71,2.54,0.0,0.0
+football,Champions League,Round 1,07/08/,Ludogorets (Bul),Ferencvaros (Hun),0,0,1,g_1_fi1cu9V7,3.17,3.15,2.51,0.52,1.78
+football,Champions League,Round 1,07/08/,Salzburg (Aut),Club Brugge KV (Bel),0,1,2,g_1_WAJQkH5l,2.78,3.64,2.43,1.82,1.4
+football,Champions League,Round 1,07/08/,Kairat Almaty (Kaz),Slovan Bratislava (Svk),1,0,0,g_1_zDw4sV3s,2.24,3.42,3.42,0.0,0.0
+football,Champions League,Round 1,06/08/,Rangers (Sco),Plzen (Cze),3,0,0,g_1_x8vngjCt,2.08,3.64,3.44,0.0,0.0
+football,Champions League,Round 1,06/08/,Dyn. Kyiv (Ukr),Pafos (Cyp),0,1,2,g_1_Mur91anA,1.6,3.92,5.98,0.0,0.0
+football,Champions League,Round 1,06/08/,Shkendija (Mkd),Qarabag (Aze),0,1,2,g_1_vsbLGyiL,4.81,3.74,1.75,0.0,0.0
+football,Champions League,Round 1,06/08/,Malmo FF (Swe),FC Copenhagen (Den),0,0,1,g_1_2XfCRgr4,3.24,3.18,2.37,0.11,0.58
+football,Champions League,Round 1,31/07/,Servette (Sui),Plzen (Cze),1,3,2,g_1_Ii9IpGHq,4.25,4.2,1.76,1.28,1.81
+football,Champions League,Round 1,31/07/,Salzburg (Aut),Brann (Nor),1,1,1,g_1_2Ldon8yi,1.57,4.51,5.46,1.28,0.32
+football,Champions League,Round 1,31/07/,Breidablik (Ice),Lech Poznan (Pol),0,1,2,g_1_6mldmMXj,2.78,3.85,2.37,0.0,0.0
+football,Champions League,Round 1,31/07/,Ferencvaros (Hun),Noah (Arm),4,3,0,g_1_h0SG763F,1.44,4.76,7.29,2.27,0.79
+football,Champions League,Round 1,31/07/,Maccabi Tel Aviv (Isr),Pafos (Cyp),0,1,2,g_1_lxJnjxfM,2.02,3.61,3.73,0.0,0.0
+football,Champions League,Round 1,31/07/,Panathinaikos (Gre),Rangers (Sco),1,1,1,g_1_WWM6gjqH,1.73,4.31,4.31,1.65,0.72
+football,Champions League,Round 1,31/07/,FCSB (Rou),Shkendija (Mkd),1,2,2,g_1_QVXF7jJ5,1.23,6.63,13.4,0.0,0.0
+football,Champions League,Round 1,31/07/,Ludogorets (Bul),Rijeka (Cro)2,3,1,0,g_1_rq44z9tP,1.82,3.17,5.62,0.0,0.0
+football,Champions League,Round 1,31/07/,Malmo FF (Swe),RFS (Lat),1,0,0,g_1_bXaQLfJ0,1.42,4.71,8.0,0.0,0.0
+football,Champions League,Round 1,31/07/,Qarabag (Aze),Shelbourne (Irl),1,0,0,g_1_EDBs8S04,1.19,6.68,19.5,0.0,0.0
+football,Champions League,Round 1,30/07/,Crvena zvezda (Srb),Lincoln Red Imps (Gib),5,1,0,g_1_MRxCUHXR,1.05,17.0,36.0,0.0,0.0
+football,Champions League,Round 1,30/07/,Zrinjski (Bih),Slovan Bratislava (Svk),2,2,1,g_1_2BaO1GFd,2.69,3.46,2.62,0.0,0.0
+football,Champions League,Round 1,30/07/,Drita (Kos),FC Copenhagen (Den),0,1,2,g_1_4QzRgUgU,6.63,4.56,1.49,0.41,0.77
+football,Champions League,Round 1,30/07/,Dyn. Kyiv (Ukr),Hamrun (Mlt),3,0,0,g_1_IkxyL6hT,1.19,7.04,16.5,0.0,0.0
+football,Champions League,Round 1,30/07/,Kairat Almaty (Kaz),KuPS (Fin),3,0,0,g_1_6ZKoTxRQ,1.4,5.16,7.5,0.0,0.0
+football,Champions League,Round 1,24/07/,Shelbourne (Irl),Qarabag (Aze),0,3,2,g_1_hbNY9lWi,5.76,3.98,1.61,0.0,0.0
+football,Champions League,Round 1,24/07/,Brann (Nor),Salzburg (Aut),1,4,2,g_1_hnBFiUDT,2.68,3.67,2.49,0.41,2.32
+football,Champions League,Round 1,23/07/,Rangers (Sco),Panathinaikos (Gre),2,0,0,g_1_O6JbeCE4,1.85,3.68,4.29,0.0,0.0
+football,Champions League,Round 1,23/07/,Rijeka (Cro),Ludogorets (Bul),0,0,1,g_1_zJ0dxVBC,2.46,3.05,3.21,0.0,0.0
+football,Champions League,Round 1,23/07/,Lech Poznan (Pol),Breidablik (Ice),7,1,0,g_1_CnWN5UmI,1.4,5.04,7.43,0.0,0.0
+football,Champions League,Round 1,23/07/,Slovan Bratislava (Svk),Zrinjski (Bih),4,0,0,g_1_dEdG3xop,1.58,4.03,5.94,0.0,0.0
+football,Champions League,Round 1,23/07/,Shkendija (Mkd),FCSB (Rou),1,0,0,g_1_4Gq79Clg,5.23,3.66,1.72,0.0,0.0
+football,Champions League,Round 1,23/07/,FC Copenhagen (Den),Drita (Kos),2,0,0,g_1_WCxJejPH,1.13,9.28,19.8,0.0,0.0
+football,Champions League,Round 1,23/07/,Hamrun (Mlt),Dyn. Kyiv (Ukr),0,3,2,g_1_dzlSMSNG,7.82,5.04,1.39,0.0,0.0
+football,Champions League,Round 1,23/07/,Pafos (Cyp),Maccabi Tel Aviv (Isr),1,1,1,g_1_KdRVgKfc,2.54,3.3,2.85,0.0,0.0
+football,Champions League,Round 1,23/07/,Plzen (Cze),Servette (Sui),0,1,2,g_1_hAPwhbP9,1.44,5.08,6.42,2.0,0.34
+football,Champions League,Round 1,23/07/,RFS (Lat),Malmo FF (Swe),1,4,2,g_1_QJ1INGll,4.05,3.53,1.94,0.0,0.0
+football,Champions League,Round 1,23/07/,Lincoln Red Imps (Gib),Crvena zvezda (Srb),0,1,2,g_1_2PMAWw3F,14.3,9.84,1.14,0.0,0.0
+football,Champions League,Round 1,23/07/,Noah (Arm),Ferencvaros (Hun),1,2,2,g_1_pzP89SY2,3.29,3.44,2.21,0.0,0.0
+football,Champions League,Round 1,23/07/,KuPS (Fin),Kairat Almaty (Kaz),2,0,0,g_1_b9HwVbdE,2.58,3.0,3.06,0.0,0.0
+football,Champions League,Round 1,17/07/,Din. Minsk (Blr),Ludogorets (Bul),2,2,1,g_1_K2IaK5jt,4.39,3.87,1.8,0.0,0.0
+football,Champions League,Round 1,17/07/,Linfield (Nir),Shelbourne (Irl),1,1,1,g_1_lrAGGNk5,3.0,3.47,2.38,0.0,0.0
+football,Champions League,Round 1,16/07/,Breidablik (Ice),Egnatia (Alb),5,0,0,g_1_hh2qIF9C,1.64,4.05,5.41,0.0,0.0
+football,Champions League,Round 1,16/07/,Buducnost (Mne),Noah (Arm),2,2,1,g_1_OCQjIzR9,3.43,3.47,2.17,0.0,0.0
+football,Champions League,Round 1,16/07/,Zrinjski (Bih),Virtus (San),2,1,0,g_1_0vuddg4j,1.06,15.0,33.0,0.0,0.0
+football,Champions League,Round 1,16/07/,Inter Escaldes (And),FCSB (Rou),2,1,0,g_1_CYtA3GfJ,6.83,5.11,1.43,0.0,0.0
+football,Champions League,Round 1,16/07/,Differdange (Lux),Drita (Kos),2,3,2,g_1_IB5EEt3K,2.5,3.18,3.06,0.0,0.0
+football,Champions League,Round 1,16/07/,Shkendija (Mkd),TNS (Wal),2,1,0,g_1_61Nhv0R7,1.61,4.36,5.21,0.0,0.0
+football,Champions League,Round 1,16/07/,Hamrun (Mlt),Zalgiris (Ltu),3,0,0,g_1_K4mShat1,2.26,3.42,3.26,0.0,0.0
+football,Champions League,Round 1,16/07/,Malmo FF (Swe),Iberia 1999 (Geo),3,1,0,g_1_hf3m0slR,1.26,6.02,12.6,0.0,0.0
+football,Champions League,Round 1,16/07/,Milsami (Mda),KuPS (Fin),0,0,1,g_1_xMVyrrSr,2.94,3.47,2.42,0.0,0.0
+football,Champions League,Round 1,16/07/,RFS (Lat),Levadia (Est),1,0,0,g_1_voSNAhJq,1.55,4.36,5.92,0.0,0.0
+football,Champions League,Round 1,16/07/,Lincoln Red Imps (Gib),Vikingur (Fai),1,0,0,g_1_A9pg7bef,1.87,3.95,3.93,0.0,0.0
+football,Champions League,Round 1,16/07/,Kairat Almaty (Kaz),O. Ljubljana (Slo),2,0,0,g_1_OCASLcAm,2.2,3.32,3.5,0.0,0.0
+football,Champions League,Round 1,10/07/,Shelbourne (Irl),Linfield (Nir),1,0,0,g_1_hGG7IqLh,0.0,0.0,0.0,0.0,0.0
+football,Champions League,Round 1,10/07/,FCSB (Rou),Inter Escaldes (And),3,1,0,g_1_IZm15xQ6,1.14,8.46,19.1,0.0,0.0
+football,Champions League,Round 1,10/07/,Ludogorets (Bul),Din. Minsk (Blr),1,0,0,g_1_v90iGgvP,1.43,4.46,8.09,0.0,0.0
+football,Champions League,Round 1,10/07/,Zalgiris (Ltu),Hamrun (Mlt),2,0,0,g_1_OxfJfLBl,1.6,3.82,6.25,0.0,0.0
+football,Champions League,Round 1,09/07/,Egnatia (Alb),Breidablik (Ice),1,0,0,g_1_WxEzKyu0,2.1,3.27,4.0,0.0,0.0
+football,Champions League,Round 1,09/07/,Virtus (San),Zrinjski (Bih),0,2,2,g_1_tjSNE1KH,25.0,9.88,1.13,0.0,0.0
+football,Champions League,Round 1,09/07/,Drita (Kos),Differdange (Lux),1,0,0,g_1_hIoziwBD,1.7,3.43,6.59,0.0,0.0
+football,Champions League,Round 1,09/07/,TNS (Wal),Shkendija (Mkd),0,0,1,g_1_AZTqtMde,1.97,3.72,3.93,0.0,0.0
+football,Champions League,Round 1,09/07/,Vikingur (Fai),Lincoln Red Imps (Gib),2,3,2,g_1_lfdp9KQs,1.94,3.55,4.29,0.0,0.0
+football,Champions League,Round 1,09/07/,O. Ljubljana (Slo),Kairat Almaty (Kaz),1,1,1,g_1_4STeRJnQ,2.02,3.69,3.8,0.0,0.0
+football,Champions League,Round 1,09/07/,Levadia (Est),RFS (Lat),0,1,2,g_1_dQObGEeM,4.1,3.68,1.94,0.0,0.0
+football,Champions League,Round 1,09/07/,Iberia 1999 (Geo),Malmo FF (Swe),1,3,2,g_1_WvFv23JE,4.85,3.72,1.8,0.0,0.0
+football,Champions League,Round 1,09/07/,Noah (Arm),Buducnost (Mne),1,0,0,g_1_SpXsKddc,1.22,7.76,12.1,0.0,0.0
+football,Champions League,Round 1,09/07/,KuPS (Fin),Milsami (Mda),1,0,0,g_1_rLD30jrA,1.32,5.65,10.7,0.0,0.0
+football,Champions League,Regular Season,18/02/,Benfica,Real Madrid,0,1,2,g_1_WxePtoiU,3.35,3.76,2.14,0.47,0.89
+football,Champions League,Regular Season,18/02/,Dortmund,Atalanta,2,0,0,g_1_lAk3BddL,2.03,3.47,4.02,2.09,0.46
+football,Champions League,Regular Season,18/02/,Monaco,PSG,2,3,2,g_1_SbwsaS6b,6.66,4.87,1.48,1.2,3.09
+football,Champions League,Regular Season,18/02/,Galatasaray,Juventus,5,2,0,g_1_jJa9kFZ1,3.1,3.39,2.42,2.92,1.12
+football,Champions League,Regular Season,19/02/,Bodo/Glimt,Inter,3,1,0,g_1_8xucep6N,4.63,4.16,1.74,1.2,1.56
+football,Champions League,Regular Season,19/02/,Club Brugge KV,Atl. Madrid,3,3,1,g_1_SIqs4Ele,4.02,3.78,1.93,2.32,2.33
+football,Champions League,Regular Season,19/02/,Olympiacos Piraeus,Bayer Leverkusen,0,2,2,g_1_C6ZT9qLG,2.42,3.46,3.05,0.87,1.95
+football,Champions League,Regular Season,19/02/,Qarabag,Newcastle,1,6,2,g_1_WEIEDRLi,7.74,5.64,1.38,0.46,5.69
+football,Champions League,Regular Season,25/02/,Bayer Leverkusen,Olympiacos Piraeus,0,0,1,g_1_rgd1iy5k,1.74,4.11,4.74,0.69,0.21
+football,Champions League,Regular Season,25/02/,Inter,Bodo/Glimt,1,2,2,g_1_vLVSkOTp,1.23,8.52,10.0,2.29,1.74
+football,Champions League,Regular Season,25/02/,Newcastle,Qarabag,3,2,0,g_1_4tWLB5j4,1.18,8.58,15.1,2.66,1.3
+football,Champions League,Regular Season,25/02/,Atl. Madrid,Club Brugge KV,4,1,0,g_1_0Wsk2hJ7,1.42,5.39,7.18,2.09,1.74
+football,Champions League,Regular Season,26/02/,Juventus,Galatasaray,3,2,0,g_1_GdieDIR8,1.52,5.41,5.34,5.2,2.01
+football,Champions League,Regular Season,26/02/,PSG,Monaco,2,2,1,g_1_0Cykc6yB,1.29,6.83,9.42,2.21,1.33
+football,Champions League,Regular Season,26/02/,Real Madrid,Benfica,2,1,0,g_1_M1zZ0lxn,1.8,3.99,4.47,1.11,1.64
+football,Champions League,Regular Season,26/02/,Atalanta,Dortmund,4,1,0,g_1_KhtZ5zKr,2.29,3.87,2.98,2.61,0.93

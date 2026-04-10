@@ -1,0 +1,270 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Europa League 2024 2025,Regular Season,22/05/,TottenhamWinner,Manchester Utd,1,0,0,g_1_CQQaJNbm,3.44,3.34,2.28,1.03,0.97
+football,Europa League 2024 2025,Regular Season,09/05/,Bodo/Glimt,TottenhamAdvancing to next round,0,2,2,g_1_Is88zTJb,2.62,4.0,2.51,0.43,0.77
+football,Europa League 2024 2025,Regular Season,09/05/,Manchester UtdAdvancing to next round,Ath Bilbao,4,1,0,g_1_b3blVXsJ,1.83,3.8,4.56,2.19,0.81
+football,Europa League 2024 2025,Regular Season,02/05/,Ath Bilbao,Manchester Utd,0,3,2,g_1_xlAuXgD6,2.32,3.19,3.5,1.11,2.55
+football,Europa League 2024 2025,Regular Season,02/05/,Tottenham,Bodo/Glimt,3,1,0,g_1_OrFaxkkn,1.3,6.08,10.6,3.06,0.26
+football,Europa League 2024 2025,Regular Season,18/04/,Ath BilbaoAdvancing to next round,Rangers,2,0,0,g_1_pOdNWTU6,1.36,5.36,9.18,2.7,0.37
+football,Europa League 2024 2025,Regular Season,18/04/,Eintracht Frankfurt,TottenhamAdvancing to next round,0,1,2,g_1_lQKCJPgc,2.41,3.76,2.86,1.06,1.71
+football,Europa League 2024 2025,Regular Season,18/04/,Lazio,Bodo/GlimtAdvancing to next round,3,2,0,g_1_d4qHTa8T,1.48,5.1,6.38,3.03,1.42
+football,Europa League 2024 2025,Regular Season,18/04/,Manchester UtdAdvancing to next round,Lyon,5,4,0,g_1_MibgW2w3,1.7,4.19,4.86,3.25,2.58
+football,Europa League 2024 2025,Regular Season,11/04/,Lyon,Manchester Utd,2,2,1,g_1_fo678aod,3.34,3.33,2.32,1.76,1.22
+football,Europa League 2024 2025,Regular Season,11/04/,Rangers,Ath Bilbao,0,0,1,g_1_jP3EYk0f,4.37,3.58,1.91,0.16,2.37
+football,Europa League 2024 2025,Regular Season,11/04/,Tottenham,Eintracht Frankfurt,1,1,1,g_1_WljSBDzi,1.62,4.62,5.13,0.62,0.36
+football,Europa League 2024 2025,Regular Season,11/04/,Bodo/Glimt,Lazio,2,0,0,g_1_lvt9VLwH,3.17,3.55,2.31,2.88,0.34
+football,Europa League 2024 2025,Regular Season,14/03/,LyonAdvancing to next round,FCSB,4,0,0,g_1_fNs0Ugx8,1.39,5.13,8.55,2.81,0.52
+football,Europa League 2024 2025,Regular Season,14/03/,Manchester UtdAdvancing to next round,Real Sociedad,4,1,0,g_1_ARXaUEg5,1.94,3.46,4.4,4.25,1.05
+football,Europa League 2024 2025,Regular Season,14/03/,RangersAdvancing to next round,Fenerbahce,1,2,2,g_1_QsjqYywq,2.98,3.69,2.36,0.97,2.01
+football,Europa League 2024 2025,Regular Season,14/03/,TottenhamAdvancing to next round,AZ Alkmaar,3,1,0,g_1_dlaiYdft,1.5,4.59,6.91,2.23,1.19
+football,Europa League 2024 2025,Regular Season,14/03/,Ath BilbaoAdvancing to next round,AS Roma,3,1,0,g_1_lIhZrE8b,2.0,3.58,3.99,1.84,1.15
+football,Europa League 2024 2025,Regular Season,14/03/,Eintracht FrankfurtAdvancing to next round,Ajax,4,1,0,g_1_IeFhzpQQ,1.74,4.46,4.29,2.45,0.56
+football,Europa League 2024 2025,Regular Season,14/03/,LazioAdvancing to next round,Plzen,1,1,1,g_1_AgfXS1I0,1.54,4.44,6.68,0.9,0.64
+football,Europa League 2024 2025,Regular Season,14/03/,Olympiacos Piraeus,Bodo/GlimtAdvancing to next round,2,1,0,g_1_v7PGQWhU,1.61,4.45,5.39,2.98,0.46
+football,Europa League 2024 2025,Regular Season,07/03/,Ajax,Eintracht Frankfurt,1,2,2,g_1_CbCpx6eE,2.16,3.65,3.42,1.66,1.6
+football,Europa League 2024 2025,Regular Season,07/03/,AS Roma,Ath Bilbao,2,1,0,g_1_G4fRpzvn,2.42,3.34,3.14,1.2,1.19
+football,Europa League 2024 2025,Regular Season,07/03/,Bodo/Glimt,Olympiacos Piraeus,3,0,0,g_1_WtM8ShOH,2.61,3.27,2.94,2.23,1.99
+football,Europa League 2024 2025,Regular Season,07/03/,Plzen,Lazio2,1,2,2,g_1_2TjPUNml,4.66,3.51,1.88,1.31,1.25
+football,Europa League 2024 2025,Regular Season,07/03/,AZ Alkmaar,Tottenham,1,0,0,g_1_6LmtRumD,3.43,3.46,2.22,1.61,0.44
+football,Europa League 2024 2025,Regular Season,07/03/,FCSB,Lyon,1,3,2,g_1_M9qhWF7e,4.78,3.37,1.9,1.3,1.31
+football,Europa League 2024 2025,Regular Season,07/03/,Fenerbahce,Rangers,1,3,2,g_1_G84DwbFL,1.66,3.88,5.93,1.8,1.82
+football,Europa League 2024 2025,Regular Season,07/03/,Real Sociedad,Manchester Utd,1,1,1,g_1_21UiWzPh,2.42,3.16,3.31,1.46,1.16
+football,Europa League 2024 2025,Regular Season,21/02/,AjaxAdvancing to next round,Royale Union SG,1,2,2,g_1_xlUlCKKF,2.22,3.5,3.4,1.7,4.29
+football,Europa League 2024 2025,Regular Season,21/02/,Anderlecht,FenerbahceAdvancing to next round,2,2,1,g_1_WAkOQJZ8,2.81,3.5,2.57,2.43,1.26
+football,Europa League 2024 2025,Regular Season,21/02/,PlzenAdvancing to next round,Ferencvaros,3,0,0,g_1_Yu7lqMjT,1.74,3.84,5.13,2.14,0.54
+football,Europa League 2024 2025,Regular Season,21/02/,Real SociedadAdvancing to next round,Midtjylland,5,2,0,g_1_xzkGcL5M,1.51,4.59,6.63,4.6,1.17
+football,Europa League 2024 2025,Regular Season,21/02/,AS RomaAdvancing to next round,FC Porto,3,2,0,g_1_UmAXn4i4,1.88,3.51,4.66,2.86,0.59
+football,Europa League 2024 2025,Regular Season,21/02/,Bodo/GlimtAdvancing to next round,Twente,5,2,0,g_1_Uo9T4xDk,2.0,3.85,3.69,2.05,1.18
+football,Europa League 2024 2025,Regular Season,21/02/,FCSBAdvancing to next round,PAOK,2,0,0,g_1_lSmfjwbd,2.76,3.33,2.71,1.36,0.91
+football,Europa League 2024 2025,Regular Season,21/02/,Galatasaray,AZ AlkmaarAdvancing to next round,2,2,1,g_1_8fca136c,1.77,4.31,4.27,0.99,3.3
+football,Europa League 2024 2025,Regular Season,14/02/,AZ Alkmaar,Galatasaray,4,1,0,g_1_UBhKw0Ej,2.25,3.47,3.37,3.49,0.52
+football,Europa League 2024 2025,Regular Season,14/02/,FC Porto,AS Roma,1,1,1,g_1_8YLOlQMi,2.69,3.28,2.82,0.75,1.29
+football,Europa League 2024 2025,Regular Season,14/02/,PAOK,FCSB,1,2,2,g_1_8IunhaTq,1.77,3.69,5.13,0.29,1.84
+football,Europa League 2024 2025,Regular Season,14/02/,Twente,Bodo/Glimt,2,1,0,g_1_pEXdAbkS,1.92,3.69,4.17,1.57,0.45
+football,Europa League 2024 2025,Regular Season,14/02/,Fenerbahce,Anderlecht,3,0,0,g_1_G27y3Gs2,1.54,4.41,6.36,1.46,0.63
+football,Europa League 2024 2025,Regular Season,14/02/,Ferencvaros,Plzen,1,0,0,g_1_xEDuorMG,2.69,3.38,2.76,0.99,1.29
+football,Europa League 2024 2025,Regular Season,14/02/,Midtjylland,Real Sociedad,1,2,2,g_1_GK07asyA,3.28,3.3,2.37,1.06,1.27
+football,Europa League 2024 2025,Regular Season,14/02/,Royale Union SG,Ajax,0,2,2,g_1_tMztEtj3,2.1,3.49,3.71,0.61,1.31
+football,Europa League 2024 2025,Round 8,31/01/,Ajax,Galatasaray,2,1,0,g_1_AstlYgxB,2.43,3.89,2.76,1.44,2.71
+football,Europa League 2024 2025,Round 8,31/01/,Anderlecht,Hoffenheim,3,4,2,g_1_6ijyrEb6,2.19,3.68,3.3,1.36,1.78
+football,Europa League 2024 2025,Round 8,31/01/,AS Roma,Eintracht Frankfurt,2,0,0,g_1_ARTL6d9m,1.77,3.99,4.67,1.83,0.35
+football,Europa League 2024 2025,Round 8,31/01/,Ath Bilbao,Plzen,3,1,0,g_1_ATlF7I43,1.41,4.89,8.58,2.15,0.58
+football,Europa League 2024 2025,Round 8,31/01/,Braga,Lazio,1,0,0,g_1_Yy3O8w9a,2.55,3.69,2.71,0.67,0.83
+football,Europa League 2024 2025,Round 8,31/01/,Dyn. Kyiv,RFS,1,0,0,g_1_rujatt64,1.94,3.66,4.13,0.52,1.11
+football,Europa League 2024 2025,Round 8,31/01/,FCSB,Manchester Utd,0,2,2,g_1_Us5Yc1wp,5.6,3.69,1.72,0.55,2.84
+football,Europa League 2024 2025,Round 8,31/01/,Ferencvaros,AZ Alkmaar,4,3,0,g_1_INyTKw3m,2.41,3.31,3.18,1.68,0.8
+football,Europa League 2024 2025,Round 8,31/01/,Lyon,Ludogorets,1,1,1,g_1_WMRqoAjt,1.27,6.59,11.0,1.25,2.48
+football,Europa League 2024 2025,Round 8,31/01/,Maccabi Tel Aviv,FC Porto,0,1,2,g_1_t6tKRxcl,6.11,4.84,1.51,0.52,0.78
+football,Europa League 2024 2025,Round 8,31/01/,Midtjylland,Fenerbahce,2,2,1,g_1_t4JUtOKr,3.94,3.78,1.95,1.41,1.47
+football,Europa League 2024 2025,Round 8,31/01/,Nice,Bodo/Glimt,1,1,1,g_1_M78Koyrp,2.83,3.87,2.39,1.04,0.89
+football,Europa League 2024 2025,Round 8,31/01/,Olympiacos Piraeus,Qarabag,3,0,0,g_1_E9BmXS97,1.43,5.13,7.48,3.67,0.17
+football,Europa League 2024 2025,Round 8,31/01/,Rangers,Royale Union SG,2,1,0,g_1_O6T7au2K,2.09,3.77,3.5,1.57,2.29
+football,Europa League 2024 2025,Round 8,31/01/,Real Sociedad,PAOK,2,0,0,g_1_WS6QPPpp,1.77,3.59,5.34,1.7,1.17
+football,Europa League 2024 2025,Round 8,31/01/,Slavia Prague,Malmo FF,2,2,1,g_1_p4nJzYuJ,1.59,4.3,5.87,1.59,2.29
+football,Europa League 2024 2025,Round 8,31/01/,Tottenham,Elfsborg,3,0,0,g_1_vuNrEDTs,1.27,6.83,10.4,1.56,0.46
+football,Europa League 2024 2025,Round 8,31/01/,Twente,Besiktas,1,0,0,g_1_6T7liIyK,1.94,4.12,3.66,2.34,0.62
+football,Europa League 2024 2025,Round 7,24/01/,Eintracht Frankfurt,Ferencvaros,2,0,0,g_1_2HnO94y3,1.5,5.13,5.88,1.59,0.03
+football,Europa League 2024 2025,Round 7,24/01/,Elfsborg,Nice,1,0,0,g_1_hl82bZrm,2.65,3.57,2.68,0.77,1.61
+football,Europa League 2024 2025,Round 7,24/01/,Lazio,Real Sociedad,3,1,0,g_1_SOXNAavm,2.34,3.18,3.45,1.6,1.58
+football,Europa League 2024 2025,Round 7,24/01/,Ludogorets,Midtjylland,0,2,2,g_1_fNaGycJq,2.92,3.16,2.69,0.81,2.28
+football,Europa League 2024 2025,Round 7,24/01/,Manchester Utd,Rangers,2,1,0,g_1_bm03lFgJ,1.56,4.44,6.14,2.79,1.42
+football,Europa League 2024 2025,Round 7,24/01/,PAOK,Slavia Prague,2,0,0,g_1_OlbAxfB6,2.63,3.45,2.77,2.17,0.78
+football,Europa League 2024 2025,Round 7,24/01/,RFS,Ajax,1,0,0,g_1_ETRDlFMi,7.54,4.48,1.48,0.21,0.96
+football,Europa League 2024 2025,Round 7,24/01/,Royale Union SG,Braga,2,1,0,g_1_4CwwZTNc,1.92,3.71,4.16,0.85,1.57
+football,Europa League 2024 2025,Round 7,24/01/,AZ Alkmaar,AS Roma,1,0,0,g_1_Kdm4JZhg,3.92,3.36,2.09,0.96,0.63
+football,Europa League 2024 2025,Round 7,24/01/,Bodo/Glimt,Maccabi Tel Aviv,3,1,0,g_1_AHE14II6,1.61,4.34,5.65,2.9,0.7
+football,Europa League 2024 2025,Round 7,24/01/,FC Porto,Olympiacos Piraeus,0,1,2,g_1_ANklXbZQ,1.72,3.69,5.6,1.06,0.45
+football,Europa League 2024 2025,Round 7,24/01/,Fenerbahce,Lyon,0,0,1,g_1_zN2X0qCE,2.1,3.9,3.35,0.93,0.79
+football,Europa League 2024 2025,Round 7,24/01/,Hoffenheim,Tottenham,2,3,2,g_1_pxQjCibf,3.25,3.76,2.19,2.13,2.12
+football,Europa League 2024 2025,Round 7,24/01/,Malmo FF,Twente,2,3,2,g_1_2LUPRtiB,2.93,3.37,2.55,0.76,2.1
+football,Europa League 2024 2025,Round 7,24/01/,Plzen,Anderlecht,2,0,0,g_1_IZ1TqFCd,1.91,3.51,4.48,1.66,0.5
+football,Europa League 2024 2025,Round 7,24/01/,Qarabag,FCSB,2,3,2,g_1_OCQXfuLc,2.09,3.46,3.81,1.53,0.79
+football,Europa League 2024 2025,Round 7,23/01/,Besiktas,Ath Bilbao,4,1,0,g_1_dpLdoSm1,3.78,3.6,2.05,2.92,1.06
+football,Europa League 2024 2025,Round 7,22/01/,Galatasaray,Dyn. Kyiv,3,3,1,g_1_2mgzLYwR,1.23,7.49,12.2,3.21,0.98
+football,Europa League 2024 2025,Round 6,13/12/,Ajax,Lazio,1,3,2,g_1_QTlyIMUF,2.3,3.57,3.17,2.1,1.55
+football,Europa League 2024 2025,Round 6,13/12/,Bodo/Glimt,Besiktas,2,1,0,g_1_jPHlicKM,1.34,5.88,8.68,1.81,1.31
+football,Europa League 2024 2025,Round 6,13/12/,Elfsborg,Qarabag,1,0,0,g_1_U9TugJkA,2.56,3.58,2.77,1.52,1.02
+football,Europa League 2024 2025,Round 6,13/12/,FC Porto,Midtjylland,2,0,0,g_1_2LUSPGR0,1.31,5.74,10.9,2.17,0.97
+football,Europa League 2024 2025,Round 6,13/12/,Lyon,Eintracht Frankfurt,3,2,0,g_1_OWzX7r6F,2.05,3.7,3.66,2.39,1.1
+football,Europa League 2024 2025,Round 6,13/12/,Maccabi Tel Aviv,RFS,2,1,0,g_1_WW2A2dmJ,1.59,4.19,6.09,0.47,1.87
+football,Europa League 2024 2025,Round 6,13/12/,Rangers,Tottenham,1,1,1,g_1_rwV5uKAl,3.59,4.06,1.98,1.49,0.87
+football,Europa League 2024 2025,Round 6,13/12/,Real Sociedad,Dyn. Kyiv,3,0,0,g_1_SExRTg3F,1.3,5.56,12.1,2.98,0.17
+football,Europa League 2024 2025,Round 6,13/12/,Slavia Prague,Anderlecht,1,2,2,g_1_WC6xtTHb,1.48,4.82,6.8,1.39,0.77
+football,Europa League 2024 2025,Round 6,13/12/,AS Roma,Braga,3,0,0,g_1_OUgeLeOt,1.61,4.49,5.36,3.09,0.95
+football,Europa League 2024 2025,Round 6,13/12/,Hoffenheim,FCSB,0,0,1,g_1_2agKodas,1.59,4.3,5.84,0.62,0.69
+football,Europa League 2024 2025,Round 6,13/12/,Ludogorets,AZ Alkmaar,2,2,1,g_1_lzKCn2Am,3.3,3.39,2.3,0.95,2.49
+football,Europa League 2024 2025,Round 6,13/12/,Malmo FF,Galatasaray,2,2,1,g_1_zDZh8efL,3.99,3.7,1.96,2.34,0.81
+football,Europa League 2024 2025,Round 6,13/12/,Olympiacos Piraeus,Twente,0,0,1,g_1_byG7xOom,1.72,3.99,5.04,1.48,1.1
+football,Europa League 2024 2025,Round 6,13/12/,PAOK,Ferencvaros,5,0,0,g_1_p86CI8wH,1.89,3.71,4.32,3.06,0.72
+football,Europa League 2024 2025,Round 6,13/12/,Plzen,Manchester Utd,1,2,2,g_1_Ik6f5qoA,6.44,4.31,1.55,0.77,2.73
+football,Europa League 2024 2025,Round 6,13/12/,Royale Union SG,Nice,2,1,0,g_1_lI4jDsxI,1.78,3.96,4.66,3.78,0.87
+football,Europa League 2024 2025,Round 6,12/12/,Fenerbahce,Ath Bilbao,0,2,2,g_1_lUMxu2ke,2.94,3.27,2.6,0.38,1.4
+football,Europa League 2024 2025,Round 5,29/11/,Braga,Hoffenheim,3,0,0,g_1_QRRoX7hA,2.01,3.79,3.71,0.48,0.78
+football,Europa League 2024 2025,Round 5,29/11/,FCSB,Olympiacos Piraeus,0,0,1,g_1_f39Gz2Ga,3.18,3.48,2.34,0.48,1.08
+football,Europa League 2024 2025,Round 5,29/11/,Ferencvaros,Malmo FF,4,1,0,g_1_WldtaNtR,1.83,3.7,4.72,1.48,1.31
+football,Europa League 2024 2025,Round 5,29/11/,Manchester Utd,Bodo/Glimt,3,2,0,g_1_dzIo75Gc,1.24,7.0,12.3,2.95,0.77
+football,Europa League 2024 2025,Round 5,29/11/,Midtjylland,Eintracht Frankfurt,1,2,2,g_1_UXFB00bk,4.75,4.08,1.74,0.82,2.49
+football,Europa League 2024 2025,Round 5,29/11/,Nice,Rangers,1,4,2,g_1_CW1ejyP6,2.01,3.58,3.93,1.38,2.3
+football,Europa League 2024 2025,Round 5,29/11/,Real Sociedad,Ajax,2,0,0,g_1_EFnuzG7b,1.93,3.71,4.14,2.04,0.7
+football,Europa League 2024 2025,Round 5,29/11/,Slavia Prague,Fenerbahce,1,2,2,g_1_GOf2vGtf,2.18,3.4,3.59,2.14,0.73
+football,Europa League 2024 2025,Round 5,29/11/,Tottenham,AS Roma,2,2,1,g_1_6gNU4zv0,1.57,4.45,5.88,3.74,2.29
+football,Europa League 2024 2025,Round 5,29/11/,Twente,Royale Union SG,0,1,2,g_1_dr8bBL6U,2.1,3.31,3.96,0.8,2.07
+football,Europa League 2024 2025,Round 5,29/11/,Anderlecht,FC Porto,2,2,1,g_1_Kd1gtxCs,4.35,3.73,1.94,0.91,1.41
+football,Europa League 2024 2025,Round 5,29/11/,Ath Bilbao,Elfsborg,3,0,0,g_1_Q16AdDDa,1.24,7.12,14.3,1.43,0.27
+football,Europa League 2024 2025,Round 5,29/11/,AZ Alkmaar,Galatasaray,1,1,1,g_1_p8OthOnQ,3.0,4.02,2.31,1.67,2.1
+football,Europa League 2024 2025,Round 5,29/11/,Besiktas,Maccabi Tel Aviv,1,3,2,g_1_bwedQauQ,1.85,4.14,4.29,1.83,2.96
+football,Europa League 2024 2025,Round 5,29/11/,Dyn. Kyiv,Plzen,1,2,2,g_1_d2jsHPxg,2.86,3.39,2.7,0.88,1.06
+football,Europa League 2024 2025,Round 5,29/11/,Lazio,Ludogorets,0,0,1,g_1_t26W6HwC,0.0,0.0,0.0,1.11,0.16
+football,Europa League 2024 2025,Round 5,29/11/,Qarabag,Lyon,1,4,2,g_1_IwQiqlLh,3.33,4.06,2.13,2.51,2.35
+football,Europa League 2024 2025,Round 5,29/11/,RFS,PAOK,0,2,2,g_1_4bb4KU84,4.3,3.92,1.9,0.52,1.61
+football,Europa League 2024 2025,Round 4,08/11/,Ajax,Maccabi Tel Aviv,5,0,0,g_1_SblXyxwn,1.32,5.86,9.85,3.68,1.02
+football,Europa League 2024 2025,Round 4,08/11/,AZ Alkmaar,Fenerbahce,3,1,0,g_1_CMWEDMeK,4.03,3.56,1.99,2.83,2.32
+football,Europa League 2024 2025,Round 4,08/11/,Dyn. Kyiv,Ferencvaros,0,4,2,g_1_2XnCg14l,2.4,3.34,3.19,0.45,2.69
+football,Europa League 2024 2025,Round 4,08/11/,Hoffenheim,Lyon,2,2,1,g_1_nJH8u6KH,2.38,3.8,2.88,1.4,0.98
+football,Europa League 2024 2025,Round 4,08/11/,Lazio,FC Porto,2,1,0,g_1_2aghDwre,2.3,3.33,3.38,1.49,0.57
+football,Europa League 2024 2025,Round 4,08/11/,Manchester Utd,PAOK,2,0,0,g_1_n9MzkO0T,1.25,6.79,12.5,1.16,1.33
+football,Europa League 2024 2025,Round 4,08/11/,Plzen,Real Sociedad,2,1,0,g_1_lUQZRXXR,4.76,3.58,1.85,0.52,2.02
+football,Europa League 2024 2025,Round 4,08/11/,RFS,Anderlecht,1,1,1,g_1_v5WqBCSh,4.38,3.92,1.83,0.86,0.58
+football,Europa League 2024 2025,Round 4,08/11/,Bodo/Glimt,Qarabag,1,2,2,g_1_UV4G5dZF,1.66,4.58,4.75,2.76,0.74
+football,Europa League 2024 2025,Round 4,08/11/,Eintracht Frankfurt,Slavia Prague,1,0,0,g_1_vq1TmNEq,2.12,3.67,3.49,0.9,1.13
+football,Europa League 2024 2025,Round 4,08/11/,Elfsborg,Braga,1,1,1,g_1_CrQgVoNM,3.3,3.68,2.19,0.63,1.18
+football,Europa League 2024 2025,Round 4,08/11/,FCSB,Midtjylland,2,0,0,g_1_84roXyTj,2.81,3.37,2.65,1.75,0.89
+football,Europa League 2024 2025,Round 4,08/11/,Galatasaray,Tottenham,3,2,0,g_1_pv5AWLq9,2.12,4.18,3.13,3.13,2.01
+football,Europa League 2024 2025,Round 4,08/11/,Ludogorets,Ath Bilbao,1,2,2,g_1_0dY8VOin,6.0,3.93,1.64,0.58,1.66
+football,Europa League 2024 2025,Round 4,08/11/,Nice,Twente,2,2,1,g_1_S6vpthTI,1.81,3.93,4.48,1.34,1.06
+football,Europa League 2024 2025,Round 4,08/11/,Olympiacos Piraeus,Rangers,1,1,1,g_1_WCtMyxAD,1.78,3.7,5.06,0.71,1.16
+football,Europa League 2024 2025,Round 4,08/11/,Royale Union SG,AS Roma,1,1,1,g_1_bNGCFihI,3.28,3.17,2.44,0.83,0.63
+football,Europa League 2024 2025,Round 4,07/11/,Besiktas,Malmo FF,2,1,0,g_1_zZSXPKLN,1.65,4.19,5.36,0.91,2.31
+football,Europa League 2024 2025,Round 3,25/10/,Anderlecht,Ludogorets,2,0,0,g_1_8MyHT2Mb,1.81,3.62,4.92,2.15,0.83
+football,Europa League 2024 2025,Round 3,25/10/,Ath Bilbao,Slavia Prague,1,0,0,g_1_4Q4pv7nB,1.81,3.69,4.82,0.17,1.07
+football,Europa League 2024 2025,Round 3,25/10/,FC Porto,Hoffenheim,2,0,0,g_1_OQFNoblK,1.48,5.12,6.37,0.59,1.3
+football,Europa League 2024 2025,Round 3,25/10/,Fenerbahce,Manchester Utd,1,1,1,g_1_UTPaq2Oj,3.03,3.6,2.37,1.15,1.21
+football,Europa League 2024 2025,Round 3,25/10/,Lyon,Besiktas,0,1,2,g_1_E5J0sSk5,1.54,4.96,5.48,2.83,1.82
+football,Europa League 2024 2025,Round 3,25/10/,Malmo FF,Olympiacos Piraeus,0,1,2,g_1_SlgzeW1E,2.95,3.39,2.52,1.42,1.74
+football,Europa League 2024 2025,Round 3,25/10/,Rangers,FCSB,4,0,0,g_1_jHDnhcff,1.43,5.39,6.94,1.86,0.35
+football,Europa League 2024 2025,Round 3,25/10/,Tottenham,AZ Alkmaar,1,0,0,g_1_nqwpG0aS,1.47,4.87,6.94,1.87,0.41
+football,Europa League 2024 2025,Round 3,25/10/,Twente,Lazio,0,2,2,g_1_nuTcNxOh,2.5,3.4,2.97,0.33,2.82
+football,Europa League 2024 2025,Round 3,25/10/,AS Roma,Dyn. Kyiv,1,0,0,g_1_hAoCHDN5,1.33,5.46,10.4,2.35,0.76
+football,Europa League 2024 2025,Round 3,25/10/,Eintracht Frankfurt,RFS,1,0,0,g_1_2oEJbvT1,1.18,8.06,16.7,0.86,0.49
+football,Europa League 2024 2025,Round 3,25/10/,Ferencvaros,Nice,1,0,0,g_1_OnyLiuZ0,2.78,3.2,2.78,1.2,1.0
+football,Europa League 2024 2025,Round 3,25/10/,Maccabi Tel Aviv,Real Sociedad,1,2,2,g_1_xAy3SO5k,5.4,3.94,1.69,0.51,1.26
+football,Europa League 2024 2025,Round 3,25/10/,Midtjylland,Royale Union SG,1,0,0,g_1_zwJqsJeM,2.34,3.47,3.16,1.78,0.73
+football,Europa League 2024 2025,Round 3,25/10/,PAOK,Plzen,2,2,1,g_1_AwjxHe2C,1.98,3.68,3.95,1.53,2.72
+football,Europa League 2024 2025,Round 3,25/10/,Qarabag2,Ajax,0,3,2,g_1_revdWX6N,2.76,3.63,2.54,0.09,2.56
+football,Europa League 2024 2025,Round 3,23/10/,Braga,Bodo/Glimt,1,2,2,g_1_x6oiBQVj,1.74,3.88,5.03,2.37,0.88
+football,Europa League 2024 2025,Round 3,23/10/,Galatasaray,Elfsborg,4,3,0,g_1_fJ94Kbqo,1.24,6.61,13.7,3.34,2.29
+football,Europa League 2024 2025,Round 2,04/10/,Ath Bilbao,AZ Alkmaar,2,0,0,g_1_IFBTrK9C,1.61,4.14,5.91,1.81,0.32
+football,Europa League 2024 2025,Round 2,04/10/,Besiktas,Eintracht Frankfurt,1,3,2,g_1_Igd6MsL8,2.94,3.71,2.38,1.94,2.15
+football,Europa League 2024 2025,Round 2,04/10/,Elfsborg,AS Roma,1,0,0,g_1_6XsuADVo,4.67,3.85,1.8,1.07,1.12
+football,Europa League 2024 2025,Round 2,04/10/,FC Porto,Manchester Utd,3,3,1,g_1_A1EDKLkL,2.58,3.62,2.72,2.57,2.03
+football,Europa League 2024 2025,Round 2,04/10/,PAOK,FCSB,0,1,2,g_1_dYfdMjvh,1.66,4.15,5.37,2.26,0.59
+football,Europa League 2024 2025,Round 2,04/10/,Plzen,Ludogorets,0,0,1,g_1_hh0klz3k,1.78,3.59,5.31,1.04,0.87
+football,Europa League 2024 2025,Round 2,04/10/,Rangers,Lyon,1,4,2,g_1_j3YDwbu1,2.48,3.92,2.69,2.21,2.81
+football,Europa League 2024 2025,Round 2,04/10/,Royale Union SG,Bodo/Glimt,0,0,1,g_1_SCFyquR9,2.01,3.82,3.69,1.26,1.32
+football,Europa League 2024 2025,Round 2,04/10/,Twente,Fenerbahce,1,1,1,g_1_rTFowtK7,3.24,3.5,2.29,1.71,0.84
+football,Europa League 2024 2025,Round 2,04/10/,Ferencvaros,Tottenham,1,2,2,g_1_dIOFAvNk,3.75,3.94,1.96,1.15,1.86
+football,Europa League 2024 2025,Round 2,04/10/,Hoffenheim,Dyn. Kyiv,2,0,0,g_1_G636vKzH,1.88,4.04,3.97,2.06,0.46
+football,Europa League 2024 2025,Round 2,04/10/,Lazio,Nice,4,1,0,g_1_htzkPbgt,2.08,3.52,3.76,2.27,0.92
+football,Europa League 2024 2025,Round 2,04/10/,Maccabi Tel Aviv,Midtjylland,0,2,2,g_1_4KBg6vlf,3.53,3.74,2.08,2.01,2.03
+football,Europa League 2024 2025,Round 2,04/10/,Olympiacos Piraeus,Braga,3,0,0,g_1_pUJWzBAr,2.22,3.61,3.3,1.82,0.96
+football,Europa League 2024 2025,Round 2,04/10/,Qarabag,Malmo FF,1,2,2,g_1_ERCuaiH7,2.04,3.74,3.66,0.85,1.22
+football,Europa League 2024 2025,Round 2,04/10/,Real Sociedad,Anderlecht,1,2,2,g_1_KCH5MBek,1.57,4.02,6.94,1.89,0.45
+football,Europa League 2024 2025,Round 2,04/10/,RFS,Galatasaray,2,2,1,g_1_MP1jr2yh,0.0,0.0,0.0,0.99,1.32
+football,Europa League 2024 2025,Round 2,04/10/,Slavia Prague,Ajax,1,1,1,g_1_jLZnZK4E,2.02,3.73,3.73,1.49,1.59
+football,Europa League 2024 2025,Round 1,27/09/,Tottenham,Qarabag,3,0,0,g_1_hpIO8Ii2,1.16,9.4,20.0,1.2,2.01
+football,Europa League 2024 2025,Round 1,27/09/,Ajax,Besiktas,4,0,0,g_1_2uLSQBUp,1.97,3.85,3.83,2.41,0.05
+football,Europa League 2024 2025,Round 1,27/09/,AS Roma,Ath Bilbao,1,1,1,g_1_6mKKDVMU,2.25,3.28,3.56,0.48,0.62
+football,Europa League 2024 2025,Round 1,27/09/,Braga,Maccabi Tel Aviv2,2,1,0,g_1_l6vjl6S8,1.63,4.33,5.34,2.63,1.41
+football,Europa League 2024 2025,Round 1,27/09/,Eintracht Frankfurt,Plzen,3,3,1,g_1_AmZv6MzS,1.41,5.39,7.44,1.41,1.13
+football,Europa League 2024 2025,Round 1,27/09/,FCSB,RFS,4,1,0,g_1_zXPh9jc5,1.82,3.83,4.59,1.89,0.74
+football,Europa League 2024 2025,Round 1,27/09/,Lyon,Olympiacos Piraeus,2,0,0,g_1_I1WfUKfJ,1.87,3.91,4.15,1.25,0.77
+football,Europa League 2024 2025,Round 1,27/09/,Fenerbahce,Royale Union SG,2,1,0,g_1_dWsbnpcL,1.64,4.0,5.91,1.13,2.33
+football,Europa League 2024 2025,Round 1,27/09/,Malmo FF,Rangers,0,2,2,g_1_riAvfJPs,2.36,3.57,3.06,0.36,2.37
+football,Europa League 2024 2025,Round 1,26/09/,Anderlecht,Ferencvaros,2,1,0,g_1_dElSkJ3D,2.45,3.39,3.06,1.33,0.77
+football,Europa League 2024 2025,Round 1,26/09/,Dyn. Kyiv,Lazio,0,3,2,g_1_2Hfu5e8O,3.61,3.16,2.29,0.69,1.8
+football,Europa League 2024 2025,Round 1,26/09/,Galatasaray,PAOK,3,1,0,g_1_GxI9bmno,1.56,4.58,5.83,2.58,0.92
+football,Europa League 2024 2025,Round 1,26/09/,Ludogorets,Slavia Prague,0,2,2,g_1_zoDTskmn,4.05,3.78,1.93,0.42,1.92
+football,Europa League 2024 2025,Round 1,26/09/,Manchester Utd,Twente,1,1,1,g_1_QF923NFM,1.23,7.58,11.5,1.49,0.72
+football,Europa League 2024 2025,Round 1,26/09/,Midtjylland,Hoffenheim,1,1,1,g_1_CYdFxb5T,2.38,4.0,2.78,1.73,0.92
+football,Europa League 2024 2025,Round 1,26/09/,Nice,Real Sociedad,1,1,1,g_1_GvBEKkQ1,2.34,3.06,3.6,1.4,0.54
+football,Europa League 2024 2025,Round 1,26/09/,AZ Alkmaar,Elfsborg,3,2,0,g_1_MmIKptu0,1.55,4.61,5.87,2.47,0.16
+football,Europa League 2024 2025,Round 1,26/09/,Bodo/Glimt,FC Porto,3,2,0,g_1_AoYzOfdD,4.16,3.77,1.9,1.64,2.28
+football,Europa League 2024 2025,Round 1,30/08/,Borac Banja Luka (Bih),Ferencvaros (Hun)Advancing to next round,1,2,2,g_1_QBwTOJ25,6.92,3.38,1.65,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Shamrock Rovers (Irl),PAOK (Gre)Advancing to next round,0,2,2,g_1_42b2wJHb,6.89,4.41,1.48,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,SK Rapid (Aut),Braga (Por)Advancing to next round,2,2,1,g_1_I9jAaUMP,2.81,3.78,2.35,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,TSC (Srb),Maccabi Tel Aviv (Isr)Advancing to next round,1,5,2,g_1_Oj77u9Vg,3.61,4.0,1.92,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Hearts (Sco),Plzen (Cze)Advancing to next round,0,1,2,g_1_xURdjwA4,3.18,3.29,2.34,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,FCSB (Rou)Advancing to next round,LASK (Aut),1,0,0,g_1_vkjMm10f,2.03,3.54,3.67,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Ajax (Ned)Advancing to next round,Jagiellonia (Pol),3,0,0,g_1_IV7NjZjM,1.29,5.86,10.0,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Anderlecht (Bel)Winner,Din. Minsk (Blr),1,0,0,g_1_bcZeb3W8,1.38,4.81,8.93,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Besiktas (Tur)Advancing to next round,Lugano (Sui),5,1,0,g_1_veHni0Vb,1.49,4.55,6.54,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,APOEL (Cyp),RFS (Lat)Advancing to next round,2,2,1,g_1_GzaVkGkd,1.65,3.82,5.65,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Elfsborg (Swe)Advancing to next round,Molde (Nor),1,1,1,g_1_4A0O5jR8,2.27,3.75,2.94,0.0,0.0
+football,Europa League 2024 2025,Round 1,30/08/,Petrocub (Mda),Ludogorets (Bul)Advancing to next round,1,2,2,g_1_8UswpJaJ,4.59,3.48,1.85,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Braga (Por),SK Rapid (Aut),2,1,0,g_1_j3bOyRUI,1.61,4.07,5.54,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Ferencvaros (Hun),Borac Banja Luka (Bih),0,0,1,g_1_UqpKQuYh,1.22,6.34,14.9,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Din. Minsk (Blr),Anderlecht (Bel),0,1,2,g_1_63nAz0v2,6.3,3.73,1.61,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Jagiellonia (Pol),Ajax (Ned),1,4,2,g_1_dGJEheM9,4.58,4.08,1.71,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Lugano (Sui),Besiktas (Tur),3,3,1,g_1_WUDvgM0n,3.28,3.55,2.17,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Ludogorets (Bul),Petrocub (Mda),4,0,0,g_1_04vVouV6,1.4,4.76,8.31,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Maccabi Tel Aviv (Isr),TSC (Srb)2,3,0,0,g_1_SODbsV0s,1.57,3.92,6.51,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,PAOK (Gre),Shamrock Rovers (Irl),4,0,0,g_1_rmAguumn,1.16,8.19,15.8,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,LASK (Aut),FCSB (Rou),1,1,1,g_1_nsYEkNVs,1.94,3.67,3.87,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Molde (Nor),Elfsborg (Swe),0,1,2,g_1_CGDxrmZ1,1.65,4.33,4.81,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,Plzen (Cze),Hearts (Sco),1,0,0,g_1_U3Olhauh,1.41,4.8,7.75,0.0,0.0
+football,Europa League 2024 2025,Round 1,23/08/,RFS (Lat),APOEL (Cyp),2,1,0,g_1_8AeNixLq,2.61,3.55,2.61,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Borac Banja Luka (Bih)Advancing to next round,Klaksvik (Fai),3,1,0,g_1_ljvR0DXg,1.65,3.83,5.6,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Shamrock Rovers (Irl)Advancing to next round,Celje (Slo),3,1,0,g_1_fe7Cn9fo,2.83,3.59,2.41,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Lugano (Sui)Advancing to next round,Partizan (Srb),2,2,1,g_1_M5kcSbAU,1.58,4.41,5.35,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Maccabi Tel Aviv (Isr)Advancing to next round,FK Panevezys (Ltu),3,0,0,g_1_GSAWtbPN,1.22,6.78,13.0,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Servette (Sui),Braga (Por)Advancing to next round,1,2,2,g_1_hnD3PXtT,3.36,3.45,2.18,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Ajax (Ned)Advancing to next round,Panathinaikos (Gre),1,1,1,g_1_ShcoSTc3,1.62,4.31,5.05,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Cercle Brugge KSV (Bel),Molde (Nor)Advancing to next round,1,0,0,g_1_YXlJOfiB,2.35,3.96,2.7,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Elfsborg (Swe)Advancing to next round,Rijeka (Cro),2,0,0,g_1_zwPzwoCL,1.7,3.86,5.06,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Plzen (Cze)Advancing to next round,Kryvbas (Ukr),1,0,0,g_1_0fXKBMfJ,1.4,4.85,7.93,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,Lincoln Red Imps (Gib),Din. Minsk (Blr)Advancing to next round,2,1,0,g_1_nmJFptQb,3.48,3.87,1.99,0.0,0.0
+football,Europa League 2024 2025,Round 1,16/08/,SK Rapid (Aut)Advancing to next round,Trabzonspor (Tur),2,0,0,g_1_hK6N5e3M,2.08,3.44,3.64,0.0,0.0
+football,Europa League 2024 2025,Round 1,15/08/,RFS (Lat)Advancing to next round,UE Santa Coloma (And),7,0,0,g_1_hQctWtB5,1.21,6.7,14.9,0.0,0.0
+football,Europa League 2024 2025,Round 1,14/08/,TNS (Wal),Petrocub (Mda)Advancing to next round,0,0,1,g_1_KtXEsNCl,2.09,3.47,3.57,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Braga (Por),Servette (Sui),0,0,1,g_1_KYEeRgCG,1.46,4.85,6.38,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Din. Minsk (Blr),Lincoln Red Imps (Gib),2,0,0,g_1_jLP6n2en,1.36,6.08,6.87,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Celje (Slo),Shamrock Rovers (Irl),1,0,0,g_1_OCGthVWN,1.5,4.4,6.57,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Kryvbas (Ukr),Plzen (Cze),1,2,2,g_1_thHJDrQ6,4.69,4.07,1.7,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Panathinaikos (Gre),Ajax (Ned),0,1,2,g_1_0n5a4Q5d,2.37,3.37,3.05,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Partizan (Srb),Lugano (Sui),0,1,2,g_1_0j1lUKuI,3.06,3.58,2.27,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Rijeka (Cro),Elfsborg (Swe),1,1,1,g_1_rV6Tv7s9,1.92,3.59,4.03,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,UE Santa Coloma (And),RFS (Lat),0,2,2,g_1_db4XX2tg,6.27,4.42,1.51,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Klaksvik (Fai),Borac Banja Luka (Bih),2,1,0,g_1_drMJ2Z2s,2.39,3.35,3.03,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Molde (Nor),Cercle Brugge KSV (Bel),3,0,0,g_1_vZeAQGMb,1.69,3.9,5.05,0.0,0.0
+football,Europa League 2024 2025,Round 1,09/08/,Trabzonspor (Tur),SK Rapid (Aut),0,1,2,g_1_pf3F7HY9,1.88,3.85,3.95,0.0,0.0
+football,Europa League 2024 2025,Round 1,07/08/,Petrocub (Mda),TNS (Wal),1,0,0,g_1_A7oqmqkR,1.66,4.19,4.89,0.0,0.0
+football,Europa League 2024 2025,Round 1,07/08/,FK Panevezys (Ltu),Maccabi Tel Aviv (Isr),1,2,2,g_1_K0HNrKfB,8.22,6.23,1.31,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,SK Rapid (Aut)Advancing to next round,Wisla (Pol),6,1,0,g_1_t0LD6XUi,1.58,4.52,5.11,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Botev Plovdiv (Bul),Panathinaikos (Gre)Advancing to next round,0,4,2,g_1_Yqcveg0K,4.18,3.78,1.84,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Cercle Brugge KSV (Bel)Advancing to next round,Kilmarnock (Sco),1,0,0,g_1_ITdV7tqC,1.5,4.92,5.7,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Rijeka (Cro)Advancing to next round,Corvinul (Rou),1,0,0,g_1_bi85HnCb,1.42,5.06,6.93,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Vojvodina (Srb),Ajax (Ned)Advancing to next round,1,3,2,g_1_U7QmQNbt,3.95,3.85,1.87,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Maccabi Petah Tikva (Isr),Braga (Por)Advancing to next round,0,5,2,g_1_xdMdgsUI,7.85,5.44,1.36,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Trabzonspor (Tur)Advancing to next round,Ruzomberok (Svk),1,0,0,g_1_bcmftfTa,1.24,7.45,9.45,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Silkeborg (Den),Molde (Nor)Advancing to next round,3,2,0,g_1_lzjFBOqm,2.34,3.64,2.9,0.0,0.0
+football,Europa League 2024 2025,Round 1,02/08/,Elfsborg (Swe)Advancing to next round,Sheriff Tiraspol (Mda),2,0,0,g_1_M939cX3S,1.49,4.31,7.05,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Braga (Por),Maccabi Petah Tikva (Isr),2,0,0,g_1_tUSme3a6,1.09,10.8,26.0,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Ajax (Ned),Vojvodina (Srb),1,0,0,g_1_jsew6KDO,1.23,6.55,12.5,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Kilmarnock (Sco),Cercle Brugge KSV (Bel),1,1,1,g_1_M13M92Ea,3.66,3.55,2.03,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Panathinaikos (Gre),Botev Plovdiv (Bul),2,1,0,g_1_tjAhXk8D,1.35,4.84,9.97,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Corvinul (Rou),Rijeka (Cro),0,0,1,g_1_2PEdJ8sn,5.08,3.86,1.69,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Molde (Nor),Silkeborg (Den),3,1,0,g_1_42ErHpMP,1.67,4.05,4.96,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Sheriff Tiraspol (Mda),Elfsborg (Swe),0,1,2,g_1_Eq01agZF,3.25,3.55,2.18,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Ruzomberok (Svk),Trabzonspor (Tur),0,2,2,g_1_jXqnrGbm,5.54,4.41,1.57,0.0,0.0
+football,Europa League 2024 2025,Round 1,26/07/,Wisla (Pol),SK Rapid (Aut),1,2,2,g_1_EgTRrUxo,4.99,3.97,1.66,0.0,0.0
+football,Europa League 2024 2025,Round 1,19/07/,Maribor (Slo),Botev Plovdiv (Bul)Advancing to next round,2,2,1,g_1_8vypHaCl,1.51,4.7,5.74,0.0,0.0
+football,Europa League 2024 2025,Round 1,19/07/,Corvinul (Rou)Advancing to next round,Paks (Hun),0,2,2,g_1_Ms1JVbRs,2.8,3.63,2.41,0.0,0.0
+football,Europa League 2024 2025,Round 1,19/07/,Pafos (Cyp),Elfsborg (Swe)Advancing to next round,2,5,2,g_1_xz9wAr5L,2.26,3.94,2.86,0.0,0.0
+football,Europa League 2024 2025,Round 1,19/07/,Zira (Aze),Sheriff Tiraspol (Mda)Advancing to next round,1,3,2,g_1_ziS0DHBD,2.69,3.14,2.8,0.0,0.0
+football,Europa League 2024 2025,Round 1,19/07/,Tobol (Kaz),Ruzomberok (Svk)Advancing to next round,1,0,0,g_1_Gtd5OsKE,1.62,4.34,5.02,0.0,0.0
+football,Europa League 2024 2025,Round 1,18/07/,KF Llapi (Kos),Wisla (Pol)Advancing to next round,1,2,2,g_1_UXmI20ce,3.56,3.13,2.24,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Wisla (Pol),KF Llapi (Kos),2,0,0,g_1_dKkA4MSr,1.77,3.65,4.8,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Botev Plovdiv (Bul),Maribor (Slo),2,1,0,g_1_xdpEMLlR,2.62,3.76,2.51,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Elfsborg (Swe),Pafos (Cyp),3,0,0,g_1_U95VB4z9,1.75,3.86,4.64,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Paks (Hun),Corvinul (Rou),0,4,2,g_1_jaAmyL3K,1.31,6.36,7.98,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Ruzomberok (Svk),Tobol (Kaz),5,2,0,g_1_lz4J0vS7,2.95,3.05,2.63,0.0,0.0
+football,Europa League 2024 2025,Round 1,12/07/,Sheriff Tiraspol (Mda),Zira (Aze),0,1,2,g_1_2wUhFws1,1.62,4.07,5.41,0.0,0.0

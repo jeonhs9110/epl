@@ -1,0 +1,381 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Laliga 2024 2025,Round 38,26/05/,Ath Bilbao,Barcelona,0,3,2,g_1_4xBMgyvp,3.49,4.0,2.03,1.2,3.49
+football,Laliga 2024 2025,Round 38,25/05/,Villarreal,Sevilla,4,2,0,g_1_djfP9mUs,1.75,4.42,4.3,1.06,1.32
+football,Laliga 2024 2025,Round 38,25/05/,Girona,Atl. Madrid,0,4,2,g_1_Q9A5gSq1,3.48,3.57,2.16,0.05,2.92
+football,Laliga 2024 2025,Round 38,25/05/,Alaves,Osasuna,1,1,1,g_1_befPDdVF,3.46,3.29,2.28,1.51,1.62
+football,Laliga 2024 2025,Round 38,25/05/,Getafe,Celta Vigo,1,2,2,g_1_pCQ6i6ED,4.85,3.88,1.77,0.39,1.47
+football,Laliga 2024 2025,Round 38,25/05/,Rayo Vallecano,Mallorca,0,0,1,g_1_CIIhF96K,1.53,4.19,7.29,2.11,0.66
+football,Laliga 2024 2025,Round 38,25/05/,Espanyol,Las Palmas,2,0,0,g_1_nuc2SQDs,1.44,5.13,7.18,1.85,0.52
+football,Laliga 2024 2025,Round 38,25/05/,Leganes,Valladolid,3,0,0,g_1_hdCcelFl,1.36,5.6,8.65,2.15,0.37
+football,Laliga 2024 2025,Round 38,24/05/,Real Madrid,Real Sociedad,2,0,0,g_1_jVjHFI03,1.4,5.64,7.18,2.49,0.77
+football,Laliga 2024 2025,Round 38,24/05/,Betis,Valencia,1,1,1,g_1_AZDUiF8d,1.94,3.98,3.78,0.92,0.77
+football,Laliga 2024 2025,Round 37,19/05/,Atl. Madrid,Betis,4,1,0,g_1_lnM5Sbuo,1.57,4.44,5.9,4.76,0.91
+football,Laliga 2024 2025,Round 37,19/05/,Barcelona,Villarreal,2,3,2,g_1_2R3hj2Xi,1.7,4.6,4.41,1.26,1.75
+football,Laliga 2024 2025,Round 37,19/05/,Celta Vigo,Rayo Vallecano,1,2,2,g_1_zu20lt24,1.94,3.58,4.2,2.23,1.03
+football,Laliga 2024 2025,Round 37,19/05/,Las Palmas,Leganes,0,1,2,g_1_phUkacGM,3.11,3.57,2.33,0.57,1.56
+football,Laliga 2024 2025,Round 37,19/05/,Mallorca,Getafe,1,2,2,g_1_vXbHpb1T,2.62,2.95,3.23,0.37,1.61
+football,Laliga 2024 2025,Round 37,19/05/,Osasuna,Espanyol,2,0,0,g_1_jedXXnjK,1.99,3.37,4.3,1.3,0.89
+football,Laliga 2024 2025,Round 37,19/05/,Real Sociedad,Girona,3,2,0,g_1_O4zluxPj,1.77,3.69,5.13,1.92,2.15
+football,Laliga 2024 2025,Round 37,19/05/,Sevilla2,Real Madrid,0,2,2,g_1_GCxZ2uHc,3.35,3.8,2.13,0.55,2.07
+football,Laliga 2024 2025,Round 37,19/05/,Valencia,Ath Bilbao,0,1,2,g_1_W6e9nKWG,2.57,2.98,3.28,0.48,1.37
+football,Laliga 2024 2025,Round 37,19/05/,Valladolid,Alaves,0,1,2,g_1_CvWs1JoA,6.15,3.79,1.66,1.45,1.3
+football,Laliga 2024 2025,Round 36,16/05/,Espanyol,Barcelona,0,2,2,g_1_AaJpAqbD,8.11,5.91,1.35,1.3,0.72
+football,Laliga 2024 2025,Round 36,16/05/,Getafe,Ath Bilbao,0,2,2,g_1_l22rPPYh,3.34,2.66,2.81,0.4,0.84
+football,Laliga 2024 2025,Round 36,16/05/,Osasuna,Atl. Madrid,2,0,0,g_1_AHjiN335,3.77,3.49,2.09,0.59,1.28
+football,Laliga 2024 2025,Round 36,16/05/,Rayo Vallecano,Betis,2,2,1,g_1_IsfaLsYH,3.41,3.33,2.29,1.1,1.17
+football,Laliga 2024 2025,Round 36,15/05/,Real Madrid,Mallorca,2,1,0,g_1_lOwJy3Ib,1.46,4.87,7.01,2.56,0.49
+football,Laliga 2024 2025,Round 36,15/05/,Alaves,Valencia,1,0,0,g_1_dfpyRo4t,2.38,2.94,3.7,1.84,0.61
+football,Laliga 2024 2025,Round 36,15/05/,Villarreal,Leganes,3,0,0,g_1_I3VZXKHN,1.33,6.13,8.69,1.88,1.05
+football,Laliga 2024 2025,Round 36,14/05/,Sevilla,Las Palmas,1,0,0,g_1_dlsRZtmB,1.73,3.88,5.17,1.07,0.39
+football,Laliga 2024 2025,Round 36,14/05/,Real Sociedad,Celta Vigo,0,1,2,g_1_E9m8JL2U,2.3,3.33,3.38,1.73,1.1
+football,Laliga 2024 2025,Round 36,14/05/,Valladolid,Girona,0,1,2,g_1_ULNHwPmn,4.63,4.11,1.75,0.93,1.41
+football,Laliga 2024 2025,Round 35,12/05/,Betis,Osasuna,1,1,1,g_1_KAQY8Dre,1.65,4.19,5.36,0.39,2.23
+football,Laliga 2024 2025,Round 35,12/05/,Ath Bilbao,Alaves,1,0,0,g_1_rDwPJUdD,2.06,2.99,4.75,1.19,0.78
+football,Laliga 2024 2025,Round 35,11/05/,Barcelona,Real Madrid,4,3,0,g_1_ncSQAZDr,1.94,4.43,3.48,4.21,2.66
+football,Laliga 2024 2025,Round 35,11/05/,Leganes,Espanyol,3,2,0,g_1_2ZFxC5T0,2.42,3.29,3.19,1.75,1.54
+football,Laliga 2024 2025,Round 35,11/05/,Atl. Madrid,Real Sociedad,4,0,0,g_1_UunfGejL,1.78,3.62,5.18,1.33,0.49
+football,Laliga 2024 2025,Round 35,11/05/,Girona,Villarreal,0,1,2,g_1_rqCTUf5E,3.03,3.73,2.31,0.18,2.14
+football,Laliga 2024 2025,Round 35,11/05/,Mallorca,Valladolid,2,1,0,g_1_4b0xTYZQ,1.35,5.56,9.11,1.11,2.02
+football,Laliga 2024 2025,Round 35,10/05/,Celta Vigo,Sevilla,3,2,0,g_1_GxKs7iD7,1.89,3.66,4.41,0.72,2.24
+football,Laliga 2024 2025,Round 35,10/05/,Valencia,Getafe,3,0,0,g_1_AauHLjS0,2.01,3.17,4.61,2.72,0.56
+football,Laliga 2024 2025,Round 35,10/05/,Las Palmas,Rayo Vallecano,0,1,2,g_1_EXo8NCcl,2.7,3.19,2.88,0.63,1.22
+football,Laliga 2024 2025,Round 34,06/05/,Girona,Mallorca,1,0,0,g_1_I7LokJiM,2.1,3.34,3.91,1.56,0.48
+football,Laliga 2024 2025,Round 34,05/05/,Real Sociedad,Ath Bilbao,0,0,1,g_1_zqhC5vx3,2.65,2.98,3.16,0.71,0.17
+football,Laliga 2024 2025,Round 34,05/05/,Espanyol,Betis,1,2,2,g_1_67MTDRbl,3.49,3.16,2.34,1.28,1.04
+football,Laliga 2024 2025,Round 34,04/05/,Sevilla,Leganes,2,2,1,g_1_MFrnIHL8,1.68,3.81,5.84,2.76,1.04
+football,Laliga 2024 2025,Round 34,04/05/,Real Madrid,Celta Vigo,3,2,0,g_1_4OqT1dyS,1.38,5.86,7.5,2.12,1.96
+football,Laliga 2024 2025,Round 34,04/05/,Valladolid,Barcelona,1,2,2,g_1_WAoL3I6F,9.22,5.41,1.36,0.59,2.06
+football,Laliga 2024 2025,Round 34,04/05/,Las Palmas,Valencia,2,3,2,g_1_nNBHqcFq,2.62,3.18,2.98,1.69,1.34
+football,Laliga 2024 2025,Round 34,03/05/,Villarreal,Osasuna,4,2,0,g_1_tK5afET1,1.46,4.87,7.18,2.27,1.26
+football,Laliga 2024 2025,Round 34,03/05/,Alaves,Atl. Madrid,0,0,1,g_1_8x0Qsypd,4.15,3.34,2.04,0.7,0.54
+football,Laliga 2024 2025,Round 34,03/05/,Rayo Vallecano,Getafe,1,0,0,g_1_Yg2idzak,2.42,3.05,3.46,1.37,0.84
+football,Laliga 2024 2025,Round 26,27/04/,Villarreal,Espanyol,1,0,0,g_1_EgwRcF8j,1.43,5.39,6.91,1.5,1.23
+football,Laliga 2024 2025,Round 33,25/04/,Atl. Madrid,Rayo Vallecano,3,0,0,g_1_6sHwkbzP,1.53,4.23,7.06,2.53,0.58
+football,Laliga 2024 2025,Round 33,25/04/,Betis,Valladolid,5,1,0,g_1_ILpd7ujg,1.16,9.68,15.7,1.81,0.82
+football,Laliga 2024 2025,Round 33,25/04/,Leganes,Girona,1,1,1,g_1_MuSxiuN9,3.34,3.08,2.46,0.37,0.56
+football,Laliga 2024 2025,Round 33,25/04/,Osasuna,Sevilla,1,0,0,g_1_WjapokZj,2.35,3.07,3.58,0.35,0.76
+football,Laliga 2024 2025,Round 33,24/04/,Alaves,Real Sociedad,1,0,0,g_1_lSTUh1hc,2.41,3.16,3.34,0.61,0.85
+football,Laliga 2024 2025,Round 33,24/04/,Getafe,Real Madrid,0,1,2,g_1_n1xD3ckI,6.5,3.81,1.63,2.32,1.4
+football,Laliga 2024 2025,Round 33,24/04/,Ath Bilbao,Las Palmas,1,0,0,g_1_QX8VjK5C,1.42,5.13,7.7,2.02,1.1
+football,Laliga 2024 2025,Round 33,24/04/,Celta Vigo,Villarreal,3,0,0,g_1_Qol45JK5,2.43,3.57,2.96,3.05,0.39
+football,Laliga 2024 2025,Round 33,23/04/,Barcelona,Mallorca,1,0,0,g_1_Mgim91Lt,1.32,5.74,10.4,3.41,0.25
+football,Laliga 2024 2025,Round 33,23/04/,Valencia,Espanyol,1,1,1,g_1_AyybJmyR,2.01,3.39,4.21,0.79,0.36
+football,Laliga 2024 2025,Round 32,22/04/,Girona,Betis,1,3,2,g_1_EDNevsM6,2.81,3.39,2.64,0.87,1.54
+football,Laliga 2024 2025,Round 32,21/04/,Real Madrid,Ath Bilbao,1,0,0,g_1_Qmk8moaK,1.46,4.63,7.71,1.73,0.19
+football,Laliga 2024 2025,Round 32,21/04/,Sevilla,Alaves,1,1,1,g_1_dhHEf26m,2.09,3.05,4.45,1.66,1.06
+football,Laliga 2024 2025,Round 32,20/04/,Villarreal,Real Sociedad,2,2,1,g_1_Q9Qr0OrQ,1.7,4.18,4.9,2.06,2.02
+football,Laliga 2024 2025,Round 32,20/04/,Valladolid,Osasuna,2,3,2,g_1_nRL3xLjJ,5.6,3.58,1.74,1.85,2.34
+football,Laliga 2024 2025,Round 32,20/04/,Las Palmas,Atl. Madrid,1,0,0,g_1_ALQvrPMs,5.94,4.0,1.63,0.66,0.8
+football,Laliga 2024 2025,Round 32,20/04/,Mallorca,Leganes,0,0,1,g_1_I75Nhty0,1.89,3.09,5.66,0.96,0.88
+football,Laliga 2024 2025,Round 32,19/04/,Barcelona,Celta Vigo,4,3,0,g_1_4r4DR3x1,1.26,7.12,10.1,2.46,1.97
+football,Laliga 2024 2025,Round 32,19/04/,Rayo Vallecano,Valencia,1,1,1,g_1_0AcMPs7D,2.46,3.25,3.17,0.52,1.94
+football,Laliga 2024 2025,Round 32,19/04/,Espanyol,Getafe,1,0,0,g_1_GxrkL96E,2.82,2.69,3.28,0.38,0.5
+football,Laliga 2024 2025,Round 31,15/04/,Atl. Madrid,Valladolid,4,2,0,g_1_UqMsyH9c,1.09,9.0,26.0,3.62,1.33
+football,Laliga 2024 2025,Round 31,14/04/,Ath Bilbao,Rayo Vallecano,3,1,0,g_1_2wUeDDHj,1.88,3.2,5.37,1.7,1.56
+football,Laliga 2024 2025,Round 31,14/04/,Betis,Villarreal,1,2,2,g_1_OrFjZfvA,2.14,3.58,3.51,1.88,1.45
+football,Laliga 2024 2025,Round 31,13/04/,Alaves,Real Madrid,0,1,2,g_1_jcVWEQhe,5.2,3.91,1.71,0.68,0.68
+football,Laliga 2024 2025,Round 31,13/04/,Osasuna,Girona,2,1,0,g_1_vJBRz8FE,2.58,3.3,3.09,1.43,0.83
+football,Laliga 2024 2025,Round 31,13/04/,Leganes,Barcelona,0,1,2,g_1_bNYvD4N7,10.2,6.98,1.27,0.69,1.19
+football,Laliga 2024 2025,Round 31,13/04/,Celta Vigo,Espanyol,0,2,2,g_1_lWk3c6E7,1.67,3.83,5.89,0.92,1.21
+football,Laliga 2024 2025,Round 31,12/04/,Getafe,Las Palmas,1,3,2,g_1_fVyOGnOr,1.7,3.81,5.63,1.69,1.41
+football,Laliga 2024 2025,Round 31,12/04/,Real Sociedad,Mallorca,0,2,2,g_1_CpPYYopR,2.04,3.24,4.33,0.69,0.53
+football,Laliga 2024 2025,Round 31,12/04/,Valencia,Sevilla,1,0,0,g_1_WU55TP7l,2.33,3.16,3.5,1.26,0.75
+football,Laliga 2024 2025,Round 30,08/04/,Leganes,Osasuna,1,1,1,g_1_WY1k6dAN,2.88,2.95,2.9,2.03,2.25
+football,Laliga 2024 2025,Round 30,07/04/,Villarreal,Ath Bilbao,0,0,1,g_1_2HhL0zYp,2.41,3.36,3.14,1.74,0.73
+football,Laliga 2024 2025,Round 30,07/04/,Valladolid,Getafe,0,4,2,g_1_AukHKePG,4.61,3.17,2.01,0.61,1.96
+football,Laliga 2024 2025,Round 30,06/04/,Sevilla,Atl. Madrid,1,2,2,g_1_IPz8OwQi,3.77,3.24,2.19,0.73,1.26
+football,Laliga 2024 2025,Round 30,06/04/,Las Palmas,Real Sociedad,1,3,2,g_1_AJDt8IuB,3.17,3.35,2.49,2.05,2.56
+football,Laliga 2024 2025,Round 30,06/04/,Barcelona,Betis,1,1,1,g_1_Mq2QB0tn,1.38,5.95,7.08,1.31,0.31
+football,Laliga 2024 2025,Round 30,06/04/,Mallorca,Celta Vigo,1,2,2,g_1_jwZFMHf4,0.0,0.0,0.0,0.5,0.82
+football,Laliga 2024 2025,Round 30,05/04/,Real Madrid,Valencia,1,2,2,g_1_IBeZ9vBb,1.3,6.42,9.54,3.7,0.81
+football,Laliga 2024 2025,Round 30,05/04/,Girona,Alaves,0,1,2,g_1_I5hPIZgT,2.06,3.5,3.85,1.31,0.72
+football,Laliga 2024 2025,Round 30,05/04/,Rayo Vallecano,Espanyol,0,4,2,g_1_SG1faSqe,1.71,3.59,5.92,0.67,3.26
+football,Laliga 2024 2025,Round 29,01/04/,Celta Vigo,Las Palmas,1,1,1,g_1_GrDYvKBO,1.59,4.19,6.13,0.94,0.33
+football,Laliga 2024 2025,Round 29,31/03/,Betis,Sevilla,2,1,0,g_1_rVEQttsC,1.77,3.59,5.34,1.15,0.7
+football,Laliga 2024 2025,Round 29,31/03/,Ath Bilbao,Osasuna,0,0,1,g_1_t6I9pOsm,1.54,4.15,7.25,0.69,0.37
+football,Laliga 2024 2025,Round 29,31/03/,Valencia,Mallorca,1,0,0,g_1_A5Y7gJQH,2.04,3.28,4.27,0.68,0.58
+football,Laliga 2024 2025,Round 29,30/03/,Barcelona,Girona,4,1,0,g_1_lWLHr2Ca,1.32,6.13,9.14,2.63,0.49
+football,Laliga 2024 2025,Round 29,30/03/,Getafe,Villarreal,1,2,2,g_1_f9rqaNdt,3.42,3.18,2.37,1.01,1.27
+football,Laliga 2024 2025,Round 29,30/03/,Real Madrid,Leganes,3,2,0,g_1_6XRGiceU,1.22,7.1,14.9,2.95,2.87
+football,Laliga 2024 2025,Round 29,30/03/,Alaves,Rayo Vallecano,0,2,2,g_1_Olz0eud5,2.15,3.08,4.15,1.58,0.57
+football,Laliga 2024 2025,Round 29,30/03/,Espanyol,Atl. Madrid,1,1,1,g_1_Kjbn1lFr,5.94,3.8,1.67,0.94,0.64
+football,Laliga 2024 2025,Round 29,29/03/,Real Sociedad,Valladolid,2,1,0,g_1_2Zoic1Rh,1.38,4.83,10.1,0.83,0.73
+football,Laliga 2024 2025,Round 27,28/03/,Barcelona,Osasuna,3,0,0,g_1_pOrgJQRj,1.21,7.61,14.4,3.19,0.4
+football,Laliga 2024 2025,Round 28,17/03/,Atl. Madrid,Barcelona,2,4,2,g_1_tUjwjP2S,3.4,3.61,2.18,1.36,1.26
+football,Laliga 2024 2025,Round 28,17/03/,Osasuna,Getafe,1,2,2,g_1_lbrkskye,2.35,2.94,3.78,1.69,0.51
+football,Laliga 2024 2025,Round 28,17/03/,Rayo Vallecano,Real Sociedad,2,2,1,g_1_6BzIrse2,2.45,3.04,3.41,0.56,0.57
+football,Laliga 2024 2025,Round 28,17/03/,Sevilla,Ath Bilbao,0,1,2,g_1_lz02jgE8,2.69,3.15,2.94,0.46,1.3
+football,Laliga 2024 2025,Round 28,16/03/,Leganes,Betis,2,3,2,g_1_d03AlXrL,4.22,3.39,2.01,1.04,2.69
+football,Laliga 2024 2025,Round 28,16/03/,Girona,Valencia,1,1,1,g_1_0EX9p3Qk,1.94,3.77,3.97,0.92,1.09
+football,Laliga 2024 2025,Round 28,16/03/,Villarreal,Real Madrid,1,2,2,g_1_fBDkuT57,3.38,3.68,2.16,1.76,1.02
+football,Laliga 2024 2025,Round 28,16/03/,Mallorca,Espanyol,2,1,0,g_1_2FJLJdV9,1.88,3.5,4.7,2.49,0.22
+football,Laliga 2024 2025,Round 28,15/03/,Valladolid,Celta Vigo,0,1,2,g_1_GppsqB6r,5.05,3.88,1.74,0.67,1.56
+football,Laliga 2024 2025,Round 28,15/03/,Las Palmas,Alaves,2,2,1,g_1_MH5y3WcE,2.86,3.07,2.81,1.85,1.49
+football,Laliga 2024 2025,Round 27,11/03/,Espanyol,Girona,1,1,1,g_1_U1LDLI0c,3.34,3.26,2.36,0.27,1.6
+football,Laliga 2024 2025,Round 27,10/03/,Real Sociedad,Sevilla,0,1,2,g_1_EgXewnJM,2.43,3.17,3.3,0.75,0.62
+football,Laliga 2024 2025,Round 27,10/03/,Ath Bilbao,Mallorca,1,1,1,g_1_EuhNOn4T,1.71,3.56,6.09,0.56,0.59
+football,Laliga 2024 2025,Round 27,10/03/,Betis,Las Palmas,1,0,0,g_1_pEuusUJc,1.34,5.46,10.0,2.29,0.63
+football,Laliga 2024 2025,Round 27,10/03/,Real Madrid,Rayo Vallecano,2,1,0,g_1_8GhVioYF,1.31,5.74,10.9,1.6,1.02
+football,Laliga 2024 2025,Round 27,09/03/,Getafe,Atl. Madrid,2,1,0,g_1_ClaMg733,5.14,3.26,1.89,1.27,0.97
+football,Laliga 2024 2025,Round 27,09/03/,Valencia,Valladolid,2,1,0,g_1_pxORXPtp,1.45,4.64,7.94,1.79,0.89
+football,Laliga 2024 2025,Round 27,09/03/,Alaves2,Villarreal,1,0,0,g_1_6iCzW3Bd,3.23,3.2,2.45,1.08,2.64
+football,Laliga 2024 2025,Round 27,08/03/,Celta Vigo,Leganes,2,1,0,g_1_IRwmu8lA,1.6,4.09,6.15,0.98,1.06
+football,Laliga 2024 2025,Round 26,03/03/,Osasuna,Valencia,3,3,1,g_1_ANmUSwam,2.3,3.3,3.42,1.52,1.68
+football,Laliga 2024 2025,Round 26,03/03/,Mallorca,Alaves,1,1,1,g_1_hQ3EQ8ZG,2.53,3.08,3.23,1.33,1.71
+football,Laliga 2024 2025,Round 26,03/03/,Barcelona,Real Sociedad,4,0,0,g_1_QaFBAdqJ,1.28,6.27,11.5,2.92,0.0
+football,Laliga 2024 2025,Round 26,02/03/,Leganes,Getafe,1,0,0,g_1_Qcp5Ujzh,3.33,2.75,2.85,0.94,0.4
+football,Laliga 2024 2025,Round 26,02/03/,Atl. Madrid,Ath Bilbao,1,0,0,g_1_v3uoPebC,2.1,3.41,3.85,2.24,1.44
+football,Laliga 2024 2025,Round 26,02/03/,Betis,Real Madrid,2,1,0,g_1_t8cbYayQ,4.05,3.86,1.9,2.24,1.15
+football,Laliga 2024 2025,Round 26,02/03/,Rayo Vallecano,Sevilla,1,1,1,g_1_WxxwRHTa,2.74,3.06,2.94,2.58,0.57
+football,Laliga 2024 2025,Round 26,01/03/,Girona,Celta Vigo,2,2,1,g_1_Y3cJ6mro,2.21,3.34,3.59,0.71,1.99
+football,Laliga 2024 2025,Round 26,01/03/,Valladolid,Las Palmas,1,1,1,g_1_p006SU44,3.17,3.25,2.46,1.99,0.18
+football,Laliga 2024 2025,Round 25,25/02/,Sevilla,Mallorca,1,1,1,g_1_dKNfEvpf,1.94,3.31,4.67,1.4,2.37
+football,Laliga 2024 2025,Round 25,24/02/,Real Sociedad,Leganes,3,0,0,g_1_hnH3CIE6,1.63,3.8,6.59,0.75,0.23
+football,Laliga 2024 2025,Round 25,24/02/,Getafe,Betis,1,2,2,g_1_vLYGLMiK,3.14,2.98,2.66,1.11,2.07
+football,Laliga 2024 2025,Round 25,24/02/,Real Madrid,Girona,2,0,0,g_1_OhAmG0Fs,1.32,6.39,8.61,2.18,0.45
+football,Laliga 2024 2025,Round 25,23/02/,Ath Bilbao,Valladolid,7,1,0,g_1_Ii5Z8q8E,1.22,6.59,16.6,3.8,0.45
+football,Laliga 2024 2025,Round 25,23/02/,Las Palmas,Barcelona,0,2,2,g_1_CEtVcJaD,10.5,7.82,1.24,0.47,1.47
+football,Laliga 2024 2025,Round 25,23/02/,Valencia,Atl. Madrid,0,3,2,g_1_GnmMauV0,4.35,3.37,1.98,0.91,1.28
+football,Laliga 2024 2025,Round 25,23/02/,Rayo Vallecano,Villarreal,0,1,2,g_1_rZlE110l,2.82,3.33,2.66,0.61,0.5
+football,Laliga 2024 2025,Round 25,22/02/,Alaves,Espanyol,0,1,2,g_1_rBne3yoT,1.92,3.17,5.16,1.76,0.43
+football,Laliga 2024 2025,Round 25,22/02/,Celta Vigo,Osasuna,1,0,0,g_1_QH8s7NxR,1.74,3.8,5.13,1.96,1.03
+football,Laliga 2024 2025,Round 24,18/02/,Barcelona,Rayo Vallecano,1,0,0,g_1_vT6XhXHG,1.23,7.09,12.7,2.53,0.99
+football,Laliga 2024 2025,Round 24,17/02/,Betis,Real Sociedad2,3,0,0,g_1_U9m4zP1k,2.46,3.25,3.17,2.45,0.34
+football,Laliga 2024 2025,Round 24,17/02/,Mallorca,Las Palmas,3,1,0,g_1_UVOvm2oe,1.8,3.64,5.01,2.1,0.95
+football,Laliga 2024 2025,Round 24,17/02/,Valladolid,Sevilla,0,4,2,g_1_EcN7fpgL,4.27,3.49,1.96,0.47,1.08
+football,Laliga 2024 2025,Round 24,16/02/,Espanyol,Ath Bilbao,1,1,1,g_1_Mebn5cGG,5.34,3.69,1.74,0.74,0.77
+football,Laliga 2024 2025,Round 24,16/02/,Villarreal,Valencia,1,1,1,g_1_AT8wkOGr,1.74,3.87,5.1,1.34,1.06
+football,Laliga 2024 2025,Round 24,16/02/,Atl. Madrid,Celta Vigo,1,1,1,g_1_r1DOfgm4,1.43,4.64,8.69,0.53,1.51
+football,Laliga 2024 2025,Round 24,16/02/,Osasuna,Real Madrid,1,1,1,g_1_jPyDY2W1,6.76,4.88,1.48,1.76,1.53
+football,Laliga 2024 2025,Round 24,15/02/,Leganes,Alaves,3,3,1,g_1_xdSnotG7,3.54,3.07,2.37,1.81,1.65
+football,Laliga 2024 2025,Round 24,15/02/,Girona,Getafe,1,2,2,g_1_IVTbd6O8,1.93,3.18,5.07,0.8,0.62
+football,Laliga 2024 2025,Round 23,11/02/,Mallorca,Osasuna,1,1,1,g_1_AmXFRfJH,2.38,3.1,3.47,1.24,1.52
+football,Laliga 2024 2025,Round 23,10/02/,Sevilla,Barcelona,1,4,2,g_1_p6obvY2N,6.6,4.92,1.48,0.79,1.93
+football,Laliga 2024 2025,Round 23,10/02/,Real Sociedad,Espanyol,2,1,0,g_1_Umtu7Jo4,1.67,3.74,6.07,1.49,0.87
+football,Laliga 2024 2025,Round 23,10/02/,Valencia,Leganes,2,0,0,g_1_AmFGdFIi,1.78,3.56,5.33,1.8,0.46
+football,Laliga 2024 2025,Round 23,09/02/,Alaves,Getafe,0,1,2,g_1_GQgsrG3b,2.4,2.86,3.78,1.53,0.88
+football,Laliga 2024 2025,Round 23,09/02/,Real Madrid,Atl. Madrid,1,1,1,g_1_OjcktfYA,1.95,3.85,3.89,1.69,1.54
+football,Laliga 2024 2025,Round 23,09/02/,Las Palmas,Villarreal,1,2,2,g_1_Kb0YqxZo,5.64,4.1,1.64,1.6,1.01
+football,Laliga 2024 2025,Round 23,09/02/,Ath Bilbao,Girona,3,0,0,g_1_2NT7TGl5,1.74,3.69,5.34,3.56,0.06
+football,Laliga 2024 2025,Round 23,08/02/,Celta Vigo,Betis,3,2,0,g_1_fuXTYBQp,2.18,3.45,3.55,2.4,1.2
+football,Laliga 2024 2025,Round 23,08/02/,Rayo Vallecano,Valladolid,1,0,0,g_1_4nQOPYmU,1.45,4.44,8.86,2.53,0.42
+football,Laliga 2024 2025,Round 22,04/02/,Girona,Las Palmas,2,1,0,g_1_SM0qnskQ,1.54,4.62,6.17,2.04,1.29
+football,Laliga 2024 2025,Round 22,03/02/,Betis,Ath Bilbao,2,2,1,g_1_l0XvyHtP,3.09,3.4,2.42,1.11,1.22
+football,Laliga 2024 2025,Round 22,03/02/,Osasuna,Real Sociedad,2,1,0,g_1_CfxGtLCm,3.08,3.1,2.61,0.65,1.75
+football,Laliga 2024 2025,Round 22,03/02/,Valencia,Celta Vigo,2,1,0,g_1_YsxiXbkt,2.32,3.1,3.61,1.74,0.46
+football,Laliga 2024 2025,Round 22,02/02/,Barcelona,Alaves,1,0,0,g_1_t8uaVxKh,1.18,8.58,15.8,0.95,0.09
+football,Laliga 2024 2025,Round 22,02/02/,Espanyol,Real Madrid,1,0,0,g_1_YLnW8uHi,9.69,5.88,1.32,0.31,1.78
+football,Laliga 2024 2025,Round 22,02/02/,Atl. Madrid,Mallorca,2,0,0,g_1_6HFlQaS6,1.52,4.19,7.53,1.37,0.54
+football,Laliga 2024 2025,Round 22,02/02/,Villarreal,Valladolid,5,1,0,g_1_KKuOvas0,1.23,7.69,11.8,3.32,0.49
+football,Laliga 2024 2025,Round 22,01/02/,Getafe,Sevilla,0,0,1,g_1_2q9cOwcJ,2.88,2.88,2.97,0.68,0.84
+football,Laliga 2024 2025,Round 22,01/02/,Leganes,Rayo Vallecano,0,1,2,g_1_GnZWxwCC,3.53,3.08,2.37,0.96,2.33
+football,Laliga 2024 2025,Round 21,28/01/,Alaves,Celta Vigo,1,1,1,g_1_4QK5Q8Mk,2.38,3.19,3.37,0.95,0.13
+football,Laliga 2024 2025,Round 21,27/01/,Barcelona,Valencia,7,1,0,g_1_CSuRXjUF,1.25,7.0,11.8,4.38,1.43
+football,Laliga 2024 2025,Round 21,27/01/,Ath Bilbao,Leganes,0,0,1,g_1_4CuXB97d,1.41,4.61,9.75,2.14,0.86
+football,Laliga 2024 2025,Round 21,27/01/,Real Sociedad,Getafe,0,3,2,g_1_hn10njq9,1.94,2.98,5.62,0.98,1.22
+football,Laliga 2024 2025,Round 21,26/01/,Rayo Vallecano,Girona,2,1,0,g_1_xxOXTsTs,2.69,3.15,2.94,2.41,1.37
+football,Laliga 2024 2025,Round 21,26/01/,Valladolid,Real Madrid,0,3,2,g_1_Y3HtSLcf,13.0,6.79,1.24,0.19,1.9
+football,Laliga 2024 2025,Round 21,26/01/,Sevilla,Espanyol,1,1,1,g_1_tSapoxPp,1.77,3.59,5.34,1.26,0.69
+football,Laliga 2024 2025,Round 21,26/01/,Atl. Madrid,Villarreal,1,1,1,g_1_WIXIZCa3,2.01,3.58,3.95,1.55,2.23
+football,Laliga 2024 2025,Round 21,25/01/,Mallorca,Betis,0,1,2,g_1_CjODOni2,2.2,3.07,3.99,0.93,0.46
+football,Laliga 2024 2025,Round 21,25/01/,Las Palmas,Osasuna,1,1,1,g_1_ptvZVUbS,2.65,3.18,2.96,0.75,2.7
+football,Laliga 2024 2025,Round 20,21/01/,Villarreal,Mallorca,4,0,0,g_1_KbnqNZFc,1.7,3.77,5.63,2.27,0.52
+football,Laliga 2024 2025,Round 20,20/01/,Valencia,Real Sociedad,1,0,0,g_1_hCpiLDpA,3.24,2.96,2.6,1.64,0.81
+football,Laliga 2024 2025,Round 20,20/01/,Osasuna,Rayo Vallecano,1,1,1,g_1_6eM98z14,2.3,3.17,3.57,0.67,0.73
+football,Laliga 2024 2025,Round 20,20/01/,Real Madrid,Las Palmas,4,1,0,g_1_CE0hJiFM,1.19,7.58,17.6,5.81,1.18
+football,Laliga 2024 2025,Round 20,19/01/,Celta Vigo,Ath Bilbao,1,2,2,g_1_ChPH6EVG,3.46,3.38,2.24,0.59,1.83
+football,Laliga 2024 2025,Round 20,19/01/,Getafe,Barcelona,1,1,1,g_1_4j4daWNj,7.11,4.46,1.5,1.31,2.55
+football,Laliga 2024 2025,Round 20,19/01/,Betis,Alaves,1,3,2,g_1_rciODVxp,1.89,3.51,4.64,0.48,1.41
+football,Laliga 2024 2025,Round 20,19/01/,Leganes,Atl. Madrid,1,0,0,g_1_Y7DQ4h0T,7.15,4.22,1.57,0.41,2.52
+football,Laliga 2024 2025,Round 20,18/01/,Girona,Sevilla,1,2,2,g_1_ATS0AdWi,1.92,3.49,4.49,1.23,2.91
+football,Laliga 2024 2025,Round 20,18/01/,Espanyol,Valladolid,2,1,0,g_1_MsJDjb1N,1.86,3.32,5.16,1.03,1.24
+football,Laliga 2024 2025,Round 19,14/01/,Real Sociedad,Villarreal,1,0,0,g_1_Amk0hOA6,2.0,3.49,4.1,0.66,1.1
+football,Laliga 2024 2025,Round 19,13/01/,Atl. Madrid,Osasuna,1,0,0,g_1_Gldifptf,1.33,5.21,11.9,2.4,0.21
+football,Laliga 2024 2025,Round 19,12/01/,Las Palmas,Getafe,1,2,2,g_1_IZuFngvo,2.46,2.82,3.72,1.36,1.1
+football,Laliga 2024 2025,Round 19,12/01/,Sevilla,Valencia,1,1,1,g_1_r1m8j2uJ,2.15,3.28,3.84,0.44,0.58
+football,Laliga 2024 2025,Round 19,12/01/,Espanyol,Leganes,1,1,1,g_1_zRK5hKWA,2.24,2.93,4.13,0.61,1.86
+football,Laliga 2024 2025,Round 19,12/01/,Valladolid,Betis,1,0,0,g_1_QNoyfynB,5.1,3.73,1.77,1.14,0.62
+football,Laliga 2024 2025,Round 19,11/01/,Alaves,Girona,0,1,2,g_1_drfKcJnn,3.3,3.17,2.43,1.68,0.56
+football,Laliga 2024 2025,Round 19,11/01/,Rayo Vallecano,Celta Vigo,2,1,0,g_1_bkarhFGN,2.96,3.26,2.59,0.63,2.23
+football,Laliga 2024 2025,Round 12,04/01/,Valencia,Real Madrid,1,2,2,g_1_zHmSVfun,7.64,4.87,1.44,1.31,2.75
+football,Laliga 2024 2025,Round 18,23/12/,Betis,Rayo Vallecano,1,1,1,g_1_8lxzVTCr,1.74,3.84,5.12,1.7,0.62
+football,Laliga 2024 2025,Round 18,23/12/,Las Palmas,Espanyol,1,0,0,g_1_EBWdft2b,2.1,3.38,3.88,0.91,0.73
+football,Laliga 2024 2025,Round 18,23/12/,Leganes2,Villarreal,2,5,2,g_1_4UAHs7dl,4.43,3.56,1.9,1.25,1.51
+football,Laliga 2024 2025,Round 18,23/12/,Real Madrid,Sevilla,4,2,0,g_1_ppUpmTYQ,1.27,6.69,10.7,2.07,1.29
+football,Laliga 2024 2025,Round 18,22/12/,Valencia,Alaves,2,2,1,g_1_OjHC1SmK,2.06,3.3,4.1,1.44,1.75
+football,Laliga 2024 2025,Round 18,22/12/,Barcelona,Atl. Madrid,1,2,2,g_1_dpPQwPeD,2.03,3.8,3.65,2.54,0.63
+football,Laliga 2024 2025,Round 18,22/12/,Osasuna,Ath Bilbao,1,2,2,g_1_xr9PuoR0,4.52,3.19,2.02,0.6,1.18
+football,Laliga 2024 2025,Round 18,22/12/,Celta Vigo,Real Sociedad,2,0,0,g_1_4GVrT7se,2.85,3.05,2.84,1.29,0.32
+football,Laliga 2024 2025,Round 18,21/12/,Getafe,Mallorca,0,1,2,g_1_dOmjRoC7,2.45,2.6,4.2,0.78,1.9
+football,Laliga 2024 2025,Round 18,21/12/,Girona,Valladolid,3,0,0,g_1_xKQxkk4E,1.38,5.2,9.0,2.49,0.02
+football,Laliga 2024 2025,Round 13,19/12/,Espanyol,Valencia,1,1,1,g_1_jFGHcfig,2.56,3.08,3.18,1.88,2.08
+football,Laliga 2024 2025,Round 12,19/12/,Villarreal,Rayo Vallecano,1,1,1,g_1_YFePBifU,1.8,3.8,4.72,1.17,1.34
+football,Laliga 2024 2025,Round 17,16/12/,Barcelona,Leganes,0,1,2,g_1_Y79THMHd,1.12,10.4,23.0,2.67,0.43
+football,Laliga 2024 2025,Round 17,16/12/,Real Sociedad,Las Palmas,0,0,1,g_1_CIj4zjkL,1.34,5.46,9.96,0.6,0.85
+football,Laliga 2024 2025,Round 17,16/12/,Villarreal,Betis,1,2,2,g_1_IeVULjzS,2.01,3.9,3.63,2.01,0.6
+football,Laliga 2024 2025,Round 17,16/12/,Alaves,Ath Bilbao,1,1,1,g_1_MTyMNC5F,4.29,3.21,2.06,0.93,0.61
+football,Laliga 2024 2025,Round 17,15/12/,Atl. Madrid,Getafe,1,0,0,g_1_Qs6LJrmp,1.34,5.3,10.5,1.64,0.17
+football,Laliga 2024 2025,Round 17,15/12/,Rayo Vallecano,Real Madrid,3,3,1,g_1_lGwEPYz3,6.77,4.28,1.54,1.64,0.65
+football,Laliga 2024 2025,Round 17,15/12/,Sevilla,Celta Vigo,1,0,0,g_1_lvM0GUck,2.66,3.17,2.96,0.59,1.13
+football,Laliga 2024 2025,Round 17,15/12/,Mallorca,Girona,2,1,0,g_1_AgA9E8S1,2.9,3.18,2.7,1.14,0.68
+football,Laliga 2024 2025,Round 17,14/12/,Espanyol,Osasuna,0,0,1,g_1_6oTld2Xo,2.87,3.25,2.67,0.41,0.26
+football,Laliga 2024 2025,Round 17,14/12/,Valladolid,Valencia,1,0,0,g_1_GjcexCK8,3.35,3.22,2.37,0.55,0.81
+football,Laliga 2024 2025,Round 16,10/12/,Getafe,Espanyol,1,0,0,g_1_QiBthjLU,1.88,2.98,6.15,0.37,0.79
+football,Laliga 2024 2025,Round 16,09/12/,Atl. Madrid,Sevilla,4,3,0,g_1_6adcTeKt,1.4,4.86,9.21,2.11,0.39
+football,Laliga 2024 2025,Round 16,09/12/,Osasuna,Alaves,2,2,1,g_1_6ggmxi3B,2.22,3.14,3.82,1.85,1.54
+football,Laliga 2024 2025,Round 16,09/12/,Ath Bilbao,Villarreal,2,0,0,g_1_SYQn9hZO,1.85,3.68,4.59,1.29,0.53
+football,Laliga 2024 2025,Round 16,08/12/,Leganes,Real Sociedad,0,3,2,g_1_x4pVLVIU,5.71,3.12,1.87,0.64,1.73
+football,Laliga 2024 2025,Round 16,08/12/,Girona,Real Madrid,0,3,2,g_1_YBmEPDJ5,4.59,4.11,1.76,0.33,0.97
+football,Laliga 2024 2025,Round 16,08/12/,Valencia,Rayo Vallecano,0,1,2,g_1_bTkuvDYb,2.24,3.05,3.9,1.26,0.9
+football,Laliga 2024 2025,Round 16,08/12/,Betis,Barcelona,2,2,1,g_1_hGKvtZ3n,5.69,4.92,1.54,2.87,0.46
+football,Laliga 2024 2025,Round 16,07/12/,Las Palmas,Valladolid,2,1,0,g_1_txiMNilI,1.64,3.89,6.1,0.72,1.41
+football,Laliga 2024 2025,Round 16,07/12/,Celta Vigo,Mallorca,2,0,0,g_1_Cda5RZlg,1.92,3.33,4.79,0.81,0.84
+football,Laliga 2024 2025,Round 19,05/12/,Ath Bilbao,Real Madrid,2,1,0,g_1_8Ohqd6Bs,3.69,3.37,2.16,1.74,1.73
+football,Laliga 2024 2025,Round 19,04/12/,Mallorca,Barcelona,1,5,2,g_1_48cSecHb,5.74,4.21,1.62,0.92,4.93
+football,Laliga 2024 2025,Round 15,03/12/,Sevilla,Osasuna,1,1,1,g_1_fLSvBE4C,2.05,3.49,3.92,1.36,0.95
+football,Laliga 2024 2025,Round 15,02/12/,Real Sociedad,Betis,2,0,0,g_1_S4aiKIsQ,1.73,3.84,5.18,0.8,0.39
+football,Laliga 2024 2025,Round 15,02/12/,Rayo Vallecano,Ath Bilbao,1,2,2,g_1_4WDdbyL6,3.42,3.17,2.37,0.18,0.71
+football,Laliga 2024 2025,Round 15,02/12/,Real Madrid,Getafe,2,0,0,g_1_CxyOEd5m,1.33,5.37,11.2,2.58,0.4
+football,Laliga 2024 2025,Round 15,01/12/,Villarreal,Girona,2,2,1,g_1_bgZVCzz0,1.83,3.86,4.47,1.97,0.65
+football,Laliga 2024 2025,Round 15,01/12/,Valladolid,Atl. Madrid,0,5,2,g_1_0b75dFkJ,7.4,4.82,1.46,0.47,3.77
+football,Laliga 2024 2025,Round 15,01/12/,Espanyol,Celta Vigo,3,1,0,g_1_hvDYgCjI,3.63,3.33,2.2,0.85,1.53
+football,Laliga 2024 2025,Round 15,01/12/,Alaves,Leganes,1,1,1,g_1_WIFl0cjf,1.86,3.17,5.67,1.05,1.14
+football,Laliga 2024 2025,Round 15,30/11/,Barcelona,Las Palmas,1,2,2,g_1_KQGA7ubK,1.15,9.59,16.6,2.32,0.5
+football,Laliga 2024 2025,Round 15,30/11/,Mallorca,Valencia,2,1,0,g_1_j97t2JLs,2.24,2.86,4.26,0.69,1.28
+football,Laliga 2024 2025,Round 14,25/11/,Ath Bilbao,Real Sociedad,1,0,0,g_1_WpvagkwA,2.34,2.97,3.75,1.29,0.7
+football,Laliga 2024 2025,Round 14,25/11/,Leganes,Real Madrid,0,3,2,g_1_pl4Y7lh3,9.4,5.31,1.36,0.11,1.8
+football,Laliga 2024 2025,Round 14,25/11/,Sevilla,Rayo Vallecano,1,0,0,g_1_W4zGoby1,2.05,3.35,4.11,0.89,0.85
+football,Laliga 2024 2025,Round 14,24/11/,Osasuna,Villarreal,2,2,1,g_1_dSNwn7Vq,2.78,3.38,2.67,1.08,2.43
+football,Laliga 2024 2025,Round 14,24/11/,Celta Vigo,Barcelona,2,2,1,g_1_tGcs6SMF,4.71,4.19,1.73,2.6,1.72
+football,Laliga 2024 2025,Round 14,24/11/,Girona,Espanyol,4,1,0,g_1_buKPeYL5,1.69,3.78,5.82,3.36,0.42
+football,Laliga 2024 2025,Round 14,24/11/,Las Palmas,Mallorca,2,3,2,g_1_IsCnpo0d,2.94,3.0,2.8,1.2,1.7
+football,Laliga 2024 2025,Round 14,24/11/,Atl. Madrid,Alaves,2,1,0,g_1_vVwOqx6D,1.47,4.43,7.94,1.64,0.83
+football,Laliga 2024 2025,Round 14,23/11/,Valencia,Betis,4,2,0,g_1_C2KEmK6l,2.63,3.05,3.1,1.59,0.97
+football,Laliga 2024 2025,Round 14,23/11/,Getafe,Valladolid,2,0,0,g_1_SCX7iT7M,1.7,3.57,6.1,0.58,0.98
+football,Laliga 2024 2025,Round 13,11/11/,Real Sociedad,Barcelona,1,0,0,g_1_QP8QvjOG,4.15,3.8,1.9,1.85,0.64
+football,Laliga 2024 2025,Round 13,11/11/,Getafe,Girona,0,1,2,g_1_CMriQj9N,2.66,2.98,3.14,0.33,0.19
+football,Laliga 2024 2025,Round 13,11/11/,Valladolid,Ath Bilbao,1,1,1,g_1_MXB9rYOi,4.63,3.35,1.94,0.61,1.36
+football,Laliga 2024 2025,Round 13,11/11/,Mallorca,Atl. Madrid,0,1,2,g_1_Ia5ItCg4,3.54,3.02,2.4,0.58,0.63
+football,Laliga 2024 2025,Round 13,10/11/,Betis,Celta Vigo,2,2,1,g_1_4duqSCvB,2.18,3.23,3.8,1.38,1.25
+football,Laliga 2024 2025,Round 13,10/11/,Leganes,Sevilla,1,0,0,g_1_UwPNKUWp,3.34,3.1,2.45,1.05,0.56
+football,Laliga 2024 2025,Round 13,10/11/,Villarreal,Alaves,3,0,0,g_1_bXuieB8c,1.58,4.02,6.67,1.45,0.45
+football,Laliga 2024 2025,Round 13,09/11/,Real Madrid,Osasuna,4,0,0,g_1_nucZxUhT,1.27,6.27,12.0,2.91,0.05
+football,Laliga 2024 2025,Round 13,09/11/,Rayo Vallecano,Las Palmas,1,3,2,g_1_rPc4X7Gj,1.89,3.41,4.82,2.19,0.9
+football,Laliga 2024 2025,Round 12,05/11/,Celta Vigo,Getafe,1,0,0,g_1_zeCiJHet,2.08,3.1,4.41,1.92,0.54
+football,Laliga 2024 2025,Round 12,04/11/,Ath Bilbao,Betis,1,1,1,g_1_U5mYDMJ0,1.86,3.71,4.48,4.04,0.84
+football,Laliga 2024 2025,Round 12,04/11/,Sevilla,Real Sociedad,0,2,2,g_1_rsizUY9b,3.46,3.26,2.3,1.09,1.37
+football,Laliga 2024 2025,Round 12,04/11/,Barcelona,Espanyol,3,1,0,g_1_UaS8aGMt,1.15,8.81,19.5,1.83,0.97
+football,Laliga 2024 2025,Round 12,03/11/,Atl. Madrid,Las Palmas,2,0,0,g_1_QXtsC0lD,1.36,5.31,9.4,1.63,0.02
+football,Laliga 2024 2025,Round 12,03/11/,Girona,Leganes,4,3,0,g_1_dA00HeQh,1.72,3.53,6.06,1.79,0.39
+football,Laliga 2024 2025,Round 12,02/11/,Osasuna,Valladolid,1,0,0,g_1_4z48FZf5,1.72,3.69,5.57,2.41,0.23
+football,Laliga 2024 2025,Round 12,02/11/,Alaves,Mallorca,1,0,0,g_1_02cHDDPH,2.4,3.05,3.5,1.15,0.51
+football,Laliga 2024 2025,Round 11,29/10/,Mallorca,Ath Bilbao,0,0,1,g_1_E595Qvn9,2.66,3.14,2.97,0.64,0.59
+football,Laliga 2024 2025,Round 11,28/10/,Real Sociedad,Osasuna,0,2,2,g_1_jiAoNQdE,1.68,3.89,5.66,1.66,1.07
+football,Laliga 2024 2025,Round 11,28/10/,Betis,Atl. Madrid,1,0,0,g_1_842EOIGL,3.81,3.38,2.12,1.95,0.54
+football,Laliga 2024 2025,Round 11,28/10/,Getafe,Valencia,1,1,1,g_1_naHJ2yf2,2.06,2.95,4.88,2.46,0.6
+football,Laliga 2024 2025,Round 11,27/10/,Leganes,Celta Vigo,3,0,0,g_1_02sgHz9e,3.92,3.36,2.09,1.47,0.89
+football,Laliga 2024 2025,Round 11,27/10/,Real Madrid,Barcelona,0,4,2,g_1_4zlpJdvq,2.03,4.3,3.29,1.48,2.45
+football,Laliga 2024 2025,Round 11,27/10/,Las Palmas,Girona,1,0,0,g_1_8Sp1FEw8,2.67,3.28,2.85,0.87,0.6
+football,Laliga 2024 2025,Round 11,26/10/,Rayo Vallecano,Alaves,1,0,0,g_1_dhkQFrkl,2.03,3.19,4.48,1.71,1.09
+football,Laliga 2024 2025,Round 11,26/10/,Valladolid,Villarreal,1,2,2,g_1_x88gL4RQ,4.05,3.7,1.94,1.0,2.37
+football,Laliga 2024 2025,Round 11,26/10/,Espanyol,Sevilla,0,2,2,g_1_vymauDyP,2.98,3.28,2.57,1.17,0.66
+football,Laliga 2024 2025,Round 10,22/10/,Valencia,Las Palmas,2,3,2,g_1_QqTA4cPk,1.86,3.49,4.8,1.6,1.14
+football,Laliga 2024 2025,Round 10,21/10/,Barcelona,Sevilla,5,1,0,g_1_2Xrca2mA,1.3,6.48,9.04,4.17,0.92
+football,Laliga 2024 2025,Round 10,21/10/,Villarreal,Getafe,1,1,1,g_1_f1xuAJ1S,1.85,3.56,4.77,0.91,1.98
+football,Laliga 2024 2025,Round 10,20/10/,Atl. Madrid,Leganes,3,1,0,g_1_65kl1OIc,1.43,4.44,9.6,3.58,0.24
+football,Laliga 2024 2025,Round 10,20/10/,Mallorca,Rayo Vallecano,1,0,0,g_1_0SQqjbAd,2.11,3.19,4.11,2.37,0.59
+football,Laliga 2024 2025,Round 10,20/10/,Celta Vigo,Real Madrid,1,2,2,g_1_8Uo5ctIM,5.73,4.62,1.56,1.69,0.74
+football,Laliga 2024 2025,Round 10,20/10/,Girona,Real Sociedad,0,1,2,g_1_h2NyhKup,2.68,3.23,2.88,0.38,1.94
+football,Laliga 2024 2025,Round 10,19/10/,Osasuna,Betis,1,2,2,g_1_ll7vCuXF,2.45,3.32,3.11,2.0,2.49
+football,Laliga 2024 2025,Round 10,19/10/,Ath Bilbao,Espanyol,4,1,0,g_1_YNHbsZ6C,1.43,4.49,9.12,1.04,0.27
+football,Laliga 2024 2025,Round 10,19/10/,Alaves,Valladolid,2,3,2,g_1_Gz9WD123,1.61,3.96,6.32,0.49,2.5
+football,Laliga 2024 2025,Round 9,07/10/,Real Sociedad,Atl. Madrid,1,1,1,g_1_CvbDaBsg,2.97,3.18,2.64,0.93,0.39
+football,Laliga 2024 2025,Round 9,07/10/,Sevilla,Betis,1,0,0,g_1_YgnMckC5,2.76,3.27,2.76,1.7,0.79
+football,Laliga 2024 2025,Round 9,06/10/,Alaves,Barcelona,0,3,2,g_1_hzRnqjcC,4.65,4.37,1.7,0.83,1.65
+football,Laliga 2024 2025,Round 9,06/10/,Girona,Ath Bilbao,2,1,0,g_1_4Ef51XCt,2.47,3.37,3.04,2.29,2.34
+football,Laliga 2024 2025,Round 9,06/10/,Real Madrid,Villarreal,2,0,0,g_1_CQIvoCSa,1.27,6.98,10.0,0.48,0.51
+football,Laliga 2024 2025,Round 9,06/10/,Las Palmas,Celta Vigo2,0,1,2,g_1_KApUeTtI,4.07,3.72,1.94,1.64,0.75
+football,Laliga 2024 2025,Round 9,06/10/,Valladolid,Rayo Vallecano,1,2,2,g_1_EB22wLQj,3.65,3.09,2.31,2.04,1.88
+football,Laliga 2024 2025,Round 9,05/10/,Getafe,Osasuna,1,1,1,g_1_40FWnYcm,2.14,3.15,4.07,1.06,0.62
+football,Laliga 2024 2025,Round 9,05/10/,Espanyol,Mallorca,2,1,0,g_1_0AJjqex0,3.71,3.07,2.3,0.78,1.0
+football,Laliga 2024 2025,Round 9,05/10/,Leganes,Valencia,0,0,1,g_1_QmPfsURO,3.04,2.86,2.84,0.51,0.6
+football,Laliga 2024 2025,Round 8,01/10/,Villarreal,Las Palmas,3,1,0,g_1_YJVCWCD6,1.55,4.85,5.56,2.68,0.76
+football,Laliga 2024 2025,Round 8,30/09/,Atl. Madrid,Real Madrid,1,1,1,g_1_n37VJZT0,3.03,3.21,2.57,1.16,0.77
+football,Laliga 2024 2025,Round 8,30/09/,Betis,Espanyol,1,0,0,g_1_4rQsoH7m,1.54,4.19,7.15,2.4,0.44
+football,Laliga 2024 2025,Round 8,29/09/,Ath Bilbao,Sevilla,1,1,1,g_1_jyEMLeal,1.71,3.76,5.56,0.92,1.1
+football,Laliga 2024 2025,Round 8,29/09/,Celta Vigo,Girona,1,1,1,g_1_h0AwIDbD,2.65,3.58,2.67,0.75,0.65
+football,Laliga 2024 2025,Round 8,29/09/,Osasuna,Barcelona,4,2,0,g_1_4vvdzeEs,4.9,3.69,1.8,2.81,1.93
+football,Laliga 2024 2025,Round 8,29/09/,Real Sociedad,Valencia,3,0,0,g_1_YemQuHjK,1.83,3.35,5.37,2.34,0.41
+football,Laliga 2024 2025,Round 8,28/09/,Rayo Vallecano,Leganes,1,1,1,g_1_KSw0hfzQ,1.87,3.17,5.56,0.82,0.56
+football,Laliga 2024 2025,Round 8,28/09/,Getafe,Alaves,2,0,0,g_1_hMoEUjrJ,2.57,2.88,3.39,1.94,0.51
+football,Laliga 2024 2025,Round 8,28/09/,Valladolid,Mallorca,1,2,2,g_1_06X4YYrf,3.46,2.96,2.48,0.68,1.82
+football,Laliga 2024 2025,Round 7,27/09/,Celta Vigo,Atl. Madrid,0,1,2,g_1_pGrl7dpe,4.22,3.62,1.93,1.38,0.6
+football,Laliga 2024 2025,Round 7,27/09/,Espanyol,Villarreal,1,2,2,g_1_bqbA3PNE,3.63,3.58,2.1,0.57,1.11
+football,Laliga 2024 2025,Round 7,27/09/,Las Palmas,Betis,1,1,1,g_1_6VWd5zF7,3.9,3.36,2.1,0.75,1.96
+football,Laliga 2024 2025,Round 7,26/09/,Barcelona,Getafe,1,0,0,g_1_QDjsB5oT,1.22,7.49,13.3,1.83,0.4
+football,Laliga 2024 2025,Round 7,26/09/,Girona,Rayo Vallecano,0,0,1,g_1_ddsD5q9j,1.7,3.95,5.25,1.5,0.53
+football,Laliga 2024 2025,Round 7,25/09/,Real Madrid,Alaves,3,2,0,g_1_f5SjRHyR,1.18,8.06,16.7,1.4,0.76
+football,Laliga 2024 2025,Round 7,25/09/,Sevilla,Valladolid,2,1,0,g_1_rkN7RQV9,1.63,3.91,6.14,1.37,0.67
+football,Laliga 2024 2025,Round 7,25/09/,Valencia,Osasuna,0,0,1,g_1_bwZsTw7E,2.01,3.22,4.51,0.67,0.43
+football,Laliga 2024 2025,Round 6,24/09/,Betis,Mallorca,1,2,2,g_1_445r4WXo,1.86,3.27,5.35,1.59,1.15
+football,Laliga 2024 2025,Round 6,23/09/,Rayo Vallecano,Atl. Madrid,1,1,1,g_1_QiF6bS1N,5.72,3.58,1.74,1.29,0.67
+football,Laliga 2024 2025,Round 6,23/09/,Villarreal,Barcelona,1,5,2,g_1_pxdwg6Pp,4.09,3.89,1.89,2.49,3.63
+football,Laliga 2024 2025,Round 6,22/09/,Ath Bilbao,Celta Vigo,3,1,0,g_1_OAmz0KLU,1.84,3.46,5.01,0.75,1.09
+football,Laliga 2024 2025,Round 6,22/09/,Getafe,Leganes,1,1,1,g_1_dCNk2A2b,2.03,2.78,5.63,1.25,0.83
+football,Laliga 2024 2025,Round 6,22/09/,Real Madrid,Espanyol,4,1,0,g_1_ImLNuMV7,1.14,9.25,23.0,5.47,0.87
+football,Laliga 2024 2025,Round 6,22/09/,Valencia,Girona,2,0,0,g_1_xWrPG9Hi,2.54,3.39,3.07,0.69,0.75
+football,Laliga 2024 2025,Round 6,21/09/,Osasuna,Las Palmas,2,1,0,g_1_4b2YCRGG,1.82,3.69,4.77,1.57,1.05
+football,Laliga 2024 2025,Round 6,21/09/,Valladolid,Real Sociedad,0,0,1,g_1_dYbQEmn4,4.52,3.08,2.06,0.76,1.41
+football,Laliga 2024 2025,Round 6,21/09/,Alaves,Sevilla,2,1,0,g_1_IRBb0lXA,2.17,3.19,3.91,1.57,0.41
+football,Laliga 2024 2025,Round 7,20/09/,Leganes,Ath Bilbao,0,2,2,g_1_xjut9IFr,4.39,3.06,2.1,0.77,0.9
+football,Laliga 2024 2025,Round 3,19/09/,Betis,Getafe,2,1,0,g_1_8b5vHIeT,1.87,3.17,5.56,2.71,0.99
+football,Laliga 2024 2025,Round 7,18/09/,Mallorca,Real Sociedad,1,0,0,g_1_AyPaTn1c,3.08,2.62,3.08,1.27,0.58
+football,Laliga 2024 2025,Round 5,17/09/,Rayo Vallecano,Osasuna,3,1,0,g_1_fVeJ32M5,2.18,3.26,3.75,2.02,0.65
+football,Laliga 2024 2025,Round 5,16/09/,Atl. Madrid,Valencia,3,0,0,g_1_SdHeBgOE,1.39,4.6,10.5,3.2,0.15
+football,Laliga 2024 2025,Round 5,16/09/,Las Palmas,Ath Bilbao,2,3,2,g_1_dzUhmsxP,4.29,3.49,1.96,1.65,2.38
+football,Laliga 2024 2025,Round 5,15/09/,Girona,Barcelona,1,4,2,g_1_na927pNt,4.71,4.19,1.73,0.57,2.16
+football,Laliga 2024 2025,Round 5,15/09/,Celta Vigo,Valladolid,3,1,0,g_1_SfxxiPx0,1.65,3.92,5.88,1.58,0.55
+football,Laliga 2024 2025,Round 5,15/09/,Real Sociedad,Real Madrid,0,2,2,g_1_jckS1tiI,0.0,0.0,0.0,1.43,2.37
+football,Laliga 2024 2025,Round 5,15/09/,Sevilla,Getafe,1,0,0,g_1_8EcB5Oig,2.24,3.07,3.86,1.49,0.79
+football,Laliga 2024 2025,Round 5,14/09/,Espanyol,Alaves,3,2,0,g_1_CjIFsr1e,2.95,3.05,2.74,1.66,1.84
+football,Laliga 2024 2025,Round 5,14/09/,Mallorca,Villarreal,1,2,2,g_1_08zpk37C,2.46,3.3,3.12,0.39,1.45
+football,Laliga 2024 2025,Round 5,14/09/,Betis,Leganes,2,0,0,g_1_YeqTho8m,1.68,3.57,6.38,1.82,0.07
+football,Laliga 2024 2025,Round 4,02/09/,Real Madrid,Betis,2,0,0,g_1_YN50iYWr,1.24,6.79,13.0,2.26,0.7
+football,Laliga 2024 2025,Round 4,02/09/,Getafe,Real Sociedad,0,0,1,g_1_h4pRxZHk,3.29,2.8,2.7,0.71,0.01
+football,Laliga 2024 2025,Round 4,02/09/,Sevilla,Girona,0,2,2,g_1_n1v9mjW7,2.94,3.84,2.33,0.73,1.8
+football,Laliga 2024 2025,Round 4,02/09/,Alaves,Las Palmas,2,0,0,g_1_tQQLbGv9,1.78,3.72,4.99,2.05,0.94
+football,Laliga 2024 2025,Round 4,02/09/,Osasuna,Celta Vigo,3,2,0,g_1_vyy1kC1e,2.55,3.34,2.94,2.19,1.68
+football,Laliga 2024 2025,Round 4,01/09/,Leganes,Mallorca,0,1,2,g_1_xhKUdf9L,2.86,2.81,3.07,0.37,1.16
+football,Laliga 2024 2025,Round 4,01/09/,Valencia,Villarreal,1,1,1,g_1_EJYZzDn2,2.78,3.33,2.7,1.28,0.45
+football,Laliga 2024 2025,Round 4,01/09/,Espanyol,Rayo Vallecano,2,1,0,g_1_GOO6q4Wr,2.95,3.05,2.75,2.64,1.45
+football,Laliga 2024 2025,Round 4,01/09/,Ath Bilbao,Atl. Madrid,0,1,2,g_1_SM0npHPF,2.89,3.38,2.57,0.63,1.78
+football,Laliga 2024 2025,Round 4,01/09/,Barcelona,Valladolid,7,0,0,g_1_OlferefS,1.22,7.28,14.0,4.13,0.62
+football,Laliga 2024 2025,Round 3,30/08/,Las Palmas,Real Madrid,1,1,1,g_1_0ns5XwtA,8.88,5.54,1.36,0.81,2.74
+football,Laliga 2024 2025,Round 3,30/08/,Girona,Osasuna,4,0,0,g_1_CQ0ABdJj,1.7,4.04,5.09,2.42,0.07
+football,Laliga 2024 2025,Round 3,29/08/,Atl. Madrid,Espanyol,0,0,1,g_1_KhwykQ8L,1.28,5.79,13.6,2.67,0.5
+football,Laliga 2024 2025,Round 3,29/08/,Real Sociedad,Alaves,1,2,2,g_1_v1KiOZ2d,1.62,3.82,6.61,0.96,1.42
+football,Laliga 2024 2025,Round 3,29/08/,Ath Bilbao,Valencia,1,0,0,g_1_0Y1WIvRG,1.74,3.77,5.27,1.07,0.06
+football,Laliga 2024 2025,Round 3,29/08/,Valladolid,Leganes,0,0,1,g_1_f92vnwe3,2.17,3.09,4.05,0.58,0.09
+football,Laliga 2024 2025,Round 3,28/08/,Rayo Vallecano,Barcelona,1,2,2,g_1_8CpDVHAM,5.48,3.92,1.69,0.21,1.01
+football,Laliga 2024 2025,Round 3,28/08/,Mallorca,Sevilla,0,0,1,g_1_4KmdZaBc,2.38,3.33,3.23,1.38,1.0
+football,Laliga 2024 2025,Round 3,27/08/,Villarreal,Celta Vigo,4,3,0,g_1_hpMqQeYq,1.68,4.27,5.01,4.11,3.18
+football,Laliga 2024 2025,Round 2,26/08/,Atl. Madrid,Girona,3,0,0,g_1_ChPK4l66,1.52,4.61,6.43,1.23,0.51
+football,Laliga 2024 2025,Round 2,26/08/,Alaves,Betis,0,0,1,g_1_MNr3HRkC,2.58,3.06,3.17,0.12,1.37
+football,Laliga 2024 2025,Round 2,26/08/,Leganes,Las Palmas,2,1,0,g_1_hA5zaJZp,2.51,3.08,3.26,1.76,0.76
+football,Laliga 2024 2025,Round 2,26/08/,Real Madrid,Valladolid,3,0,0,g_1_IVonL9jm,1.14,10.1,19.7,1.87,0.77
+football,Laliga 2024 2025,Round 2,25/08/,Espanyol,Real Sociedad,0,1,2,g_1_OQqSjnv9,4.12,3.26,2.08,1.33,1.03
+football,Laliga 2024 2025,Round 2,25/08/,Getafe,Rayo Vallecano,0,0,1,g_1_YcAFQVSP,2.59,2.86,3.4,0.67,0.25
+football,Laliga 2024 2025,Round 2,25/08/,Barcelona,Ath Bilbao,2,1,0,g_1_WhAFMMRi,1.61,4.45,5.39,1.42,1.22
+football,Laliga 2024 2025,Round 2,25/08/,Osasuna,Mallorca,1,0,0,g_1_vJDNK0d4,2.42,3.28,3.22,1.52,0.35
+football,Laliga 2024 2025,Round 2,24/08/,Sevilla,Villarreal,1,2,2,g_1_QekfJmLa,2.3,3.68,3.09,1.41,1.16
+football,Laliga 2024 2025,Round 2,24/08/,Celta Vigo,Valencia,3,1,0,g_1_8KIT2SzJ,2.23,3.45,3.43,1.77,0.71
+football,Laliga 2024 2025,Round 1,20/08/,Villarreal,Atl. Madrid,2,2,1,g_1_E1Xs9lu2,3.62,3.66,2.08,0.87,0.97
+football,Laliga 2024 2025,Round 1,20/08/,Valladolid,Espanyol,1,0,0,g_1_ITdtTrn2,2.39,2.89,3.76,0.57,0.26
+football,Laliga 2024 2025,Round 1,19/08/,Mallorca,Real Madrid,1,1,1,g_1_M3h3GWnS,8.19,4.87,1.42,0.84,0.89
+football,Laliga 2024 2025,Round 1,19/08/,Real Sociedad,Rayo Vallecano,1,2,2,g_1_Eax2EqHs,1.78,3.38,5.84,1.55,1.5
+football,Laliga 2024 2025,Round 1,18/08/,Valencia,Barcelona,1,2,2,g_1_KbKTWiX8,4.55,3.76,1.83,0.95,2.75
+football,Laliga 2024 2025,Round 1,18/08/,Osasuna,Leganes,1,1,1,g_1_ruUIA1G6,1.86,3.29,5.32,1.61,1.0
+football,Laliga 2024 2025,Round 1,17/08/,Las Palmas,Sevilla,2,2,1,g_1_hnqZAAAk,2.71,3.37,2.74,0.86,1.67
+football,Laliga 2024 2025,Round 1,17/08/,Celta Vigo,Alaves,2,1,0,g_1_nDzACNof,2.11,3.18,4.14,0.61,0.8
+football,Laliga 2024 2025,Round 1,16/08/,Betis,Girona,1,1,1,g_1_QyafIhIF,2.34,3.47,3.16,1.44,1.41
+football,Laliga 2024 2025,Round 1,16/08/,Ath Bilbao,Getafe,1,1,1,g_1_hO0nKEm3,1.61,3.65,7.4,0.72,1.07

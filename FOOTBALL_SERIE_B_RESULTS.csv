@@ -1,0 +1,268 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Serie B,Round 22,02/02/,Padova,Monza,1,2,2,g_1_WxlQ14WO,4.86,3.68,1.74,2.46,1.37
+football,Serie B,Round 22,01/02/,Reggiana,Juve Stabia,1,1,1,g_1_2ByrKong,3.55,2.92,2.34,1.37,0.74
+football,Serie B,Round 22,01/02/,Sampdoria,Spezia,1,0,0,g_1_OQPjIPG5,2.23,3.04,3.64,0.59,0.9
+football,Serie B,Round 22,01/02/,Pescara,Mantova,2,2,1,g_1_A3JzM7Ht,1.97,3.63,3.73,1.12,1.72
+football,Serie B,Round 22,31/01/,Avellino,Cesena,3,1,0,g_1_Gtb1782m,3.1,3.1,2.45,1.62,1.08
+football,Serie B,Round 22,31/01/,Empoli,Modena,0,0,1,g_1_bPkI3Q1C,3.46,3.26,2.19,0.52,0.87
+football,Serie B,Round 22,31/01/,Entella,Frosinone,1,1,1,g_1_IoYILbNc,2.67,3.3,2.67,2.0,1.02
+football,Serie B,Round 22,31/01/,Sudtirol,Catanzaro,2,1,0,g_1_WjTbG3oI,2.24,2.95,3.76,0.43,1.23
+football,Serie B,Round 22,31/01/,Venezia,Carrarese,2,1,0,g_1_QioXceVj,1.38,5.07,7.6,2.08,0.69
+football,Serie B,Round 22,31/01/,Bari,Palermo,0,3,2,g_1_2cd95nXa,5.31,3.34,1.77,0.35,3.15
+football,Serie B,Round 21,26/01/,Catanzaro,Sampdoria,0,0,1,g_1_G6shtW3l,2.57,3.02,3.02,1.38,0.78
+football,Serie B,Round 21,25/01/,Sudtirol,Padova,3,0,0,g_1_W8MUCUvQ,1.94,3.15,4.57,3.04,1.04
+football,Serie B,Round 21,25/01/,Spezia,Avellino,1,0,0,g_1_42UrkRnJ,2.09,3.31,3.67,1.03,0.46
+football,Serie B,Round 21,25/01/,Modena,Palermo,0,0,1,g_1_zNxSh9mf,2.3,3.17,3.32,0.32,0.29
+football,Serie B,Round 21,24/01/,Cesena,Bari,1,2,2,g_1_MJChvAY0,1.65,3.69,5.74,1.18,0.5
+football,Serie B,Round 21,24/01/,Frosinone,Reggiana,1,0,0,g_1_UqG0xl3D,1.72,3.83,4.79,1.26,1.23
+football,Serie B,Round 21,24/01/,Juve Stabia,Entella,1,0,0,g_1_Augm0ieK,2.12,3.13,3.83,1.44,0.52
+football,Serie B,Round 21,24/01/,Mantova,Venezia,2,5,2,g_1_tOqJfVIs,5.37,3.83,1.65,0.47,2.61
+football,Serie B,Round 21,24/01/,Monza,Pescara,3,0,0,g_1_8zyzimI6,1.4,4.82,7.61,1.01,1.48
+football,Serie B,Round 21,24/01/,Carrarese,Empoli,3,0,0,g_1_KzdMohtR,2.37,3.23,3.13,1.51,0.86
+football,Serie B,Round 20,19/01/,Palermo,Spezia,1,0,0,g_1_zk1xn1zA,1.7,3.61,5.28,1.86,0.83
+football,Serie B,Round 20,18/01/,Pescara,Modena,0,2,2,g_1_UkJAThKr,4.15,3.8,1.83,0.7,2.62
+football,Serie B,Round 20,18/01/,Bari,Juve Stabia,0,1,2,g_1_Gvo3X1LG,3.35,2.84,2.49,0.24,2.57
+football,Serie B,Round 20,18/01/,Reggiana,Cesena,1,2,2,g_1_zmMIRWle,3.83,3.13,2.12,1.33,1.8
+football,Serie B,Round 20,17/01/,Avellino,Carrarese,1,2,2,g_1_8EseZNj4,2.27,3.13,3.43,0.65,0.78
+football,Serie B,Round 20,17/01/,Empoli,Sudtirol,0,1,2,g_1_xfZBVujT,0.0,0.0,0.0,0.45,0.23
+football,Serie B,Round 20,17/01/,Monza,Frosinone,2,2,1,g_1_nTKsQJDj,1.88,3.44,4.39,1.49,1.11
+football,Serie B,Round 20,17/01/,Padova,Mantova,1,2,2,g_1_2y3UmN5c,2.35,3.1,3.3,1.12,1.55
+football,Serie B,Round 20,17/01/,Venezia,Catanzaro,3,1,0,g_1_O82DmEBE,1.52,4.25,6.32,3.58,0.26
+football,Serie B,Round 20,17/01/,Sampdoria,Entella,1,1,1,g_1_d2ARPAJ7,1.93,3.14,4.62,0.54,0.39
+football,Serie B,Round 19,12/01/,Padova,Modena,2,0,0,g_1_EHPZEKhL,4.84,3.16,1.89,1.08,2.0
+football,Serie B,Round 19,11/01/,Mantova,Palermo,1,1,1,g_1_t4RRGtO8,4.03,3.47,1.94,0.3,2.04
+football,Serie B,Round 19,11/01/,Cesena,Empoli,0,1,2,g_1_EaEaD7HG,1.95,3.26,4.3,2.02,1.8
+football,Serie B,Round 19,11/01/,Juve Stabia,Pescara,2,2,1,g_1_tEUugwW1,1.68,3.62,5.54,2.26,1.13
+football,Serie B,Round 19,10/01/,Avellino,Sampdoria,2,1,0,g_1_nXfjHkIi,3.4,3.03,2.34,0.75,1.74
+football,Serie B,Round 19,10/01/,Carrarese,Bari,1,0,0,g_1_6ZAiFTn4,2.17,2.92,4.03,2.26,1.23
+football,Serie B,Round 19,10/01/,Entella,Monza,1,0,0,g_1_2sbN5GF7,3.97,3.36,1.98,1.38,1.1
+football,Serie B,Round 19,10/01/,Frosinone,Catanzaro,2,0,0,g_1_YmRXfa1k,2.11,3.31,3.61,1.39,0.77
+football,Serie B,Round 19,10/01/,Reggiana,Venezia,1,3,2,g_1_Y1669bGr,5.85,4.17,1.56,1.61,2.33
+football,Serie B,Round 19,10/01/,Sudtirol,Spezia,2,1,0,g_1_tS9E7xoe,2.21,3.11,3.61,0.7,1.37
+football,Serie B,Round 18,28/12/,Bari,Avellino,1,1,1,g_1_d0LT7QNt,2.38,3.02,3.32,1.33,0.68
+football,Serie B,Round 18,28/12/,Palermo,Padova,1,0,0,g_1_6DZG2j3b,1.59,3.95,5.83,1.28,0.82
+football,Serie B,Round 18,27/12/,Carrarese,Mantova,0,0,1,g_1_IF9x64hg,0.0,0.0,0.0,1.1,0.64
+football,Serie B,Round 18,27/12/,Catanzaro,Cesena,2,0,0,g_1_jsNq4rN5,2.48,3.03,3.14,1.98,0.58
+football,Serie B,Round 18,27/12/,Empoli,Frosinone,1,1,1,g_1_n9Gh2MiI,0.0,0.0,0.0,0.94,1.36
+football,Serie B,Round 18,27/12/,Juve Stabia,Sudtirol,1,0,0,g_1_KME000MU,2.11,3.03,4.03,0.77,0.79
+football,Serie B,Round 18,27/12/,Sampdoria,Reggiana,2,1,0,g_1_SSNP0UXA,1.83,3.5,4.5,1.07,1.59
+football,Serie B,Round 18,27/12/,Venezia,Entella,1,0,0,g_1_fw84gnQp,1.51,4.03,7.05,1.39,0.65
+football,Serie B,Round 18,27/12/,Spezia,Pescara,2,1,0,g_1_zgRXb82N,1.86,3.65,4.16,1.62,1.02
+football,Serie B,Round 18,27/12/,Modena,Monza,1,2,2,g_1_0GW84CYo,2.63,3.03,2.93,1.44,1.22
+football,Serie B,Round 17,22/12/,Mantova,Empoli,0,1,2,g_1_WIRyypgJ,2.54,3.14,2.94,1.25,0.58
+football,Serie B,Round 17,21/12/,Entella,Sudtirol,1,1,1,g_1_6ytKmNxP,2.34,2.96,3.47,0.61,0.7
+football,Serie B,Round 17,21/12/,Pescara,Reggiana,2,1,0,g_1_A9nBkq8C,2.37,3.23,3.13,1.99,0.56
+football,Serie B,Round 17,21/12/,Avellino,Palermo,2,2,1,g_1_xxhnadu9,4.58,3.66,1.78,1.74,1.78
+football,Serie B,Round 17,20/12/,Cesena,Juve Stabia,1,1,1,g_1_4j8SvSgf,2.29,3.06,3.46,1.1,0.72
+football,Serie B,Round 17,20/12/,Frosinone,Spezia,2,1,0,g_1_OhOTx6O6,1.88,3.65,4.06,3.25,0.8
+football,Serie B,Round 17,20/12/,Modena,Venezia,1,2,2,g_1_CE4ObmoQ,2.79,3.14,2.66,0.55,3.38
+football,Serie B,Round 17,20/12/,Monza,Carrarese,4,1,0,g_1_rcefgR8m,1.59,3.85,6.08,3.86,0.33
+football,Serie B,Round 17,20/12/,Padova,Sampdoria,1,1,1,g_1_xdl3i5w0,3.18,3.02,2.46,0.78,1.13
+football,Serie B,Round 17,20/12/,Bari,Catanzaro,1,2,2,g_1_WxAKtlPs,3.43,3.03,2.32,1.02,0.74
+football,Serie B,Round 16,15/12/,Pescara,Frosinone,1,2,2,g_1_4AE5nJe3,4.27,4.17,1.73,1.69,0.53
+football,Serie B,Round 16,14/12/,Carrarese,Entella,3,1,0,g_1_ELaNZuCc,2.16,3.21,3.61,1.99,0.88
+football,Serie B,Round 16,14/12/,Cesena,Mantova,3,2,0,g_1_IDdvWcBM,1.74,3.61,5.02,2.43,1.45
+football,Serie B,Round 16,14/12/,Catanzaro,Avellino,1,0,0,g_1_AmgWXJtA,1.78,3.81,4.4,1.06,0.26
+football,Serie B,Round 16,13/12/,Juve Stabia,Empoli,2,0,0,g_1_2oYAQyZq,2.3,2.96,3.57,2.04,0.57
+football,Serie B,Round 16,13/12/,Reggiana,Padova,1,2,2,g_1_xOCDpcQF,2.21,3.11,3.61,1.58,2.53
+football,Serie B,Round 16,13/12/,Spezia,Modena,0,2,2,g_1_Yk6MryeS,3.4,3.2,2.25,0.67,4.09
+football,Serie B,Round 16,13/12/,Sudtirol,Bari,0,0,1,g_1_lGBiwFIk,1.88,3.34,4.56,0.3,0.85
+football,Serie B,Round 16,13/12/,Venezia,Monza,2,0,0,g_1_AVa0ygm2,2.09,3.16,3.88,2.58,0.7
+football,Serie B,Round 16,13/12/,Palermo,Sampdoria,1,0,0,g_1_l2WIOF3d,1.72,3.65,5.07,1.47,0.26
+football,Serie B,Round 15,09/12/,Entella,Spezia,0,1,2,g_1_MRCyCxKj,2.74,3.14,2.79,0.91,1.58
+football,Serie B,Round 15,09/12/,Bari,Pescara,1,1,1,g_1_2mZE83Db,2.03,3.56,3.75,2.96,1.03
+football,Serie B,Round 15,08/12/,Avellino,Venezia,1,1,1,g_1_tYp6APrn,4.32,3.91,1.8,0.3,2.22
+football,Serie B,Round 15,08/12/,Frosinone,Juve Stabia,3,0,0,g_1_6uWV4LCN,2.28,3.18,3.46,1.43,0.65
+football,Serie B,Round 15,08/12/,Mantova,Reggiana,0,1,2,g_1_2BH1aazo,2.3,3.26,3.32,1.02,0.66
+football,Serie B,Round 15,08/12/,Monza,Sudtirol,1,1,1,g_1_zVvlLtc4,1.61,3.67,6.71,0.73,0.84
+football,Serie B,Round 15,08/12/,Padova,Cesena,1,1,1,g_1_dpTdJKRG,3.99,2.97,2.2,0.31,1.48
+football,Serie B,Round 15,08/12/,Modena,Catanzaro,1,2,2,g_1_S4ytN2Si,1.71,3.48,5.85,1.4,1.8
+football,Serie B,Round 15,08/12/,Sampdoria,Carrarese,3,2,0,g_1_4AW4HbdT,2.25,3.17,3.57,1.84,0.63
+football,Serie B,Round 15,08/12/,Empoli,Palermo,1,3,2,g_1_ADxN6srB,3.26,3.16,2.39,2.55,2.84
+football,Serie B,Round 10,05/12/,Juve Stabia,Bari,0,0,1,g_1_tKRIbDRq,1.83,3.46,4.83,1.2,0.28
+football,Serie B,Round 14,01/12/,Spezia,Sampdoria,1,0,0,g_1_ltwv7jxf,2.39,3.16,3.26,0.89,0.47
+football,Serie B,Round 14,30/11/,Juve Stabia,Monza,2,2,1,g_1_fJH4hiN0,4.11,2.98,2.16,1.51,2.35
+football,Serie B,Round 14,30/11/,Palermo,Carrarese,5,0,0,g_1_2qLCjViD,1.73,3.55,5.57,3.82,0.49
+football,Serie B,Round 14,30/11/,Catanzaro,Entella,3,2,0,g_1_MBUH1e0E,2.29,3.26,3.36,2.33,1.7
+football,Serie B,Round 14,29/11/,Empoli,Bari,5,0,0,g_1_biOefDhl,2.06,3.19,4.12,1.85,0.39
+football,Serie B,Round 14,29/11/,Pescara,Padova,0,1,2,g_1_rubaEYqK,3.33,3.07,2.41,1.61,1.1
+football,Serie B,Round 14,29/11/,Reggiana,Frosinone,0,1,2,g_1_hEqV8C7s,3.32,3.27,2.3,1.02,1.21
+football,Serie B,Round 14,29/11/,Sudtirol,Avellino,0,1,2,g_1_Mgyn5U66,2.06,3.18,4.16,1.16,0.73
+football,Serie B,Round 14,29/11/,Venezia,Mantova,3,0,0,g_1_ILUf38yJ,1.5,4.8,6.06,3.09,0.18
+football,Serie B,Round 14,29/11/,Cesena,Modena,1,0,0,g_1_2LxQaZUQ,3.16,2.94,2.6,1.94,2.1
+football,Serie B,Round 13,25/11/,Sampdoria,Juve Stabia,1,0,0,g_1_YklNuEwe,2.77,3.08,2.82,2.07,0.62
+football,Serie B,Round 13,24/11/,Monza,Cesena,1,0,0,g_1_r5sjmdoL,1.82,3.29,5.31,1.35,0.78
+football,Serie B,Round 13,23/11/,Mantova,Spezia,4,1,0,g_1_hGEcs6c2,2.45,3.26,3.06,3.74,1.88
+football,Serie B,Round 13,23/11/,Modena,Sudtirol,0,0,1,g_1_AiqrkIG8,1.61,3.79,6.4,1.15,0.76
+football,Serie B,Round 13,23/11/,Bari,Frosinone,2,3,2,g_1_fLWAjAzG,0.0,0.0,0.0,1.13,2.72
+football,Serie B,Round 13,23/11/,Padova,Venezia,0,2,2,g_1_QPpFsz9r,4.02,3.51,1.97,0.82,1.95
+football,Serie B,Round 13,22/11/,Avellino,Empoli,0,3,2,g_1_bgw2hW53,2.57,3.12,3.02,1.75,1.86
+football,Serie B,Round 13,22/11/,Carrarese,Reggiana,0,0,1,g_1_0IZIll5S,1.88,3.45,4.57,1.45,1.49
+football,Serie B,Round 13,22/11/,Entella,Palermo,1,1,1,g_1_f5xWwh87,2.8,3.06,2.8,1.15,1.03
+football,Serie B,Round 13,22/11/,Catanzaro,Pescara,3,3,1,g_1_pjBkqSSk,1.59,3.8,6.67,2.45,1.2
+football,Serie B,Round 12,10/11/,Pescara,Monza,0,2,2,g_1_AiTJhu0n,6.12,4.21,1.56,0.67,2.36
+football,Serie B,Round 12,09/11/,Cesena,Avellino,3,0,0,g_1_zZEyt2Gt,1.76,3.59,5.12,1.82,1.2
+football,Serie B,Round 12,09/11/,Venezia,Sampdoria,3,1,0,g_1_6ajGUSDd,1.62,3.92,5.93,1.34,0.47
+football,Serie B,Round 12,09/11/,Juve Stabia,Palermo,1,0,0,g_1_bDa1zbpI,0.0,0.0,0.0,0.58,0.4
+football,Serie B,Round 12,08/11/,Empoli,Catanzaro,1,0,0,g_1_dl3pvtog,2.66,2.94,3.07,1.21,0.19
+football,Serie B,Round 12,08/11/,Frosinone,Modena,2,2,1,g_1_4E6hxKF5,2.88,3.19,2.63,0.45,2.43
+football,Serie B,Round 12,08/11/,Mantova,Padova,1,0,0,g_1_WQc9YyFU,2.29,3.26,3.36,1.11,0.4
+football,Serie B,Round 12,08/11/,Reggiana,Entella,0,0,1,g_1_IHWRjJUb,3.35,3.05,2.41,0.45,1.09
+football,Serie B,Round 12,08/11/,Sudtirol,Carrarese,1,1,1,g_1_AXd7Wlqp,2.21,3.29,3.5,0.28,2.9
+football,Serie B,Round 12,08/11/,Spezia,Bari,1,1,1,g_1_vXKzkcaB,2.05,3.06,4.43,0.94,1.54
+football,Serie B,Round 11,03/11/,Sampdoria,Mantova,0,1,2,g_1_Q7JQNK0C,2.04,3.57,3.67,1.07,0.45
+football,Serie B,Round 11,03/11/,Monza,Spezia,1,0,0,g_1_QqyvXOwQ,1.77,3.58,5.11,1.77,0.24
+football,Serie B,Round 11,02/11/,Bari,Cesena,1,0,0,g_1_O0lTEPHs,3.28,2.97,2.5,0.83,1.24
+football,Serie B,Round 11,02/11/,Catanzaro,Venezia,2,1,0,g_1_httpBsH6,3.69,3.28,2.15,1.53,1.87
+football,Serie B,Round 11,02/11/,Modena,Juve Stabia,3,0,0,g_1_plbi9LoJ,1.95,3.5,4.11,1.35,0.3
+football,Serie B,Round 11,02/11/,Palermo,Pescara,5,0,0,g_1_hfLIPtWa,1.4,5.23,7.33,2.07,0.57
+football,Serie B,Round 11,02/11/,Entella,Empoli,1,0,0,g_1_pAZRLbVO,2.25,3.07,3.68,2.54,0.23
+football,Serie B,Round 11,01/11/,Carrarese,Frosinone,0,2,2,g_1_dEnyD3nf,2.78,3.32,2.63,1.1,1.82
+football,Serie B,Round 11,01/11/,Padova,Sudtirol,1,1,1,g_1_dSR9R21m,2.62,2.98,3.09,1.17,0.79
+football,Serie B,Round 11,01/11/,Avellino,Reggiana,4,3,0,g_1_4G7dKofK,2.14,3.17,3.88,2.2,2.13
+football,Serie B,Round 10,30/10/,Mantova,Catanzaro,1,3,2,g_1_lpVQdidd,2.5,3.28,2.97,0.98,1.37
+football,Serie B,Round 10,30/10/,Spezia,Padova,1,1,1,g_1_x4W1b4X0,1.82,3.38,5.11,0.49,0.66
+football,Serie B,Round 10,30/10/,Venezia,Sudtirol,3,0,0,g_1_bJKAdr2D,1.63,4.29,5.1,1.45,0.4
+football,Serie B,Round 10,29/10/,Cesena,Carrarese,2,1,0,g_1_r9Hw8H4c,2.05,3.18,4.2,1.85,0.59
+football,Serie B,Round 10,29/10/,Empoli,Sampdoria,1,1,1,g_1_lMnv6eZ9,2.43,3.18,3.18,1.55,1.83
+football,Serie B,Round 10,29/10/,Frosinone,Entella,4,0,0,g_1_dnjn4Z3M,2.2,3.33,3.48,2.87,0.8
+football,Serie B,Round 10,29/10/,Palermo,Monza,0,3,2,g_1_2PCDKfl3,2.5,2.94,3.32,0.88,2.73
+football,Serie B,Round 10,29/10/,Pescara,Avellino,1,1,1,g_1_zwBLIYIF,2.77,3.08,2.82,1.79,1.99
+football,Serie B,Round 10,29/10/,Reggiana,Modena,1,0,0,g_1_UwTg0Q2l,4.15,3.14,2.08,0.39,1.16
+football,Serie B,Round 9,27/10/,Bari,Mantova,1,0,0,g_1_2VXMtu6b,2.2,3.17,3.68,1.17,0.51
+football,Serie B,Round 9,26/10/,Padova,Juve Stabia,2,2,1,g_1_2kd4gIk4,2.67,3.05,2.95,1.95,2.24
+football,Serie B,Round 9,26/10/,Catanzaro,Palermo,1,0,0,g_1_pEPwwc5N,3.32,3.27,2.3,1.52,1.05
+football,Serie B,Round 9,26/10/,Carrarese,Venezia,3,2,0,g_1_lnWUvJzB,3.26,3.26,2.34,2.17,2.8
+football,Serie B,Round 9,25/10/,Avellino,Spezia,0,4,2,g_1_tGqEr1yn,2.65,3.1,2.93,0.66,2.6
+football,Serie B,Round 9,25/10/,Entella,Pescara,1,1,1,g_1_jFUipECj,1.73,3.76,5.08,2.25,0.56
+football,Serie B,Round 9,25/10/,Monza,Reggiana,3,1,0,g_1_dhgdevLi,1.5,3.96,8.12,2.2,0.24
+football,Serie B,Round 9,25/10/,Sampdoria,Frosinone,1,1,1,g_1_O4pDidKG,2.34,3.26,3.26,1.7,1.19
+football,Serie B,Round 9,25/10/,Sudtirol,Cesena,0,1,2,g_1_WUmLkzkT,2.97,3.18,2.56,0.57,0.64
+football,Serie B,Round 9,25/10/,Modena,Empoli,2,1,0,g_1_tpB9XzTp,1.83,3.46,4.83,1.45,0.37
+football,Serie B,Round 8,20/10/,Catanzaro,Padova,0,1,2,g_1_YDEZkORE,2.31,3.18,3.39,1.83,1.11
+football,Serie B,Round 8,20/10/,Empoli,Venezia,1,1,1,g_1_Uu8rl2dR,2.97,3.18,2.56,1.25,1.37
+football,Serie B,Round 8,19/10/,Palermo,Modena,1,1,1,g_1_Yy1XVNit,0.0,0.0,0.0,0.71,0.93
+football,Serie B,Round 8,19/10/,Spezia,Cesena,1,2,2,g_1_fPAeQJLH,2.35,3.14,3.37,1.06,2.17
+football,Serie B,Round 8,19/10/,Juve Stabia,Avellino,2,0,0,g_1_pE9FtKl1,2.15,3.07,3.99,0.66,0.87
+football,Serie B,Round 8,18/10/,Frosinone,Monza,0,1,2,g_1_QBgErtKl,2.66,3.25,2.79,0.58,2.62
+football,Serie B,Round 8,18/10/,Mantova,Sudtirol,1,1,1,g_1_hvDNvbJD,2.47,3.34,2.96,2.29,0.42
+football,Serie B,Round 8,18/10/,Pescara,Carrarese,2,2,1,g_1_t24uU1Mh,3.65,3.14,2.23,0.93,0.77
+football,Serie B,Round 8,18/10/,Reggiana,Bari,3,1,0,g_1_MBCmSui5,2.8,3.06,2.8,1.05,1.66
+football,Serie B,Round 8,18/10/,Entella,Sampdoria,3,1,0,g_1_ji44OcjU,2.76,2.96,2.94,2.32,0.7
+football,Serie B,Round 7,06/10/,Modena,Entella,2,0,0,g_1_Wl85Fsj2,0.0,0.0,0.0,0.0,0.0
+football,Serie B,Round 7,06/10/,Sampdoria,Pescara,4,1,0,g_1_KAl0yPCL,1.91,3.41,4.47,4.07,0.53
+football,Serie B,Round 7,05/10/,Carrarese,Juve Stabia,3,0,0,g_1_EkJRMPcS,2.35,3.17,3.33,1.39,1.02
+football,Serie B,Round 7,05/10/,Sudtirol,Empoli,1,2,2,g_1_phYvUt5e,2.27,3.09,3.61,1.11,2.26
+football,Serie B,Round 7,05/10/,Cesena,Reggiana,1,2,2,g_1_bNfbH3Lk,1.65,4.01,5.4,1.64,0.67
+football,Serie B,Round 7,05/10/,Spezia,Palermo,1,2,2,g_1_veVWV2zq,2.47,3.19,3.09,1.62,1.27
+football,Serie B,Round 7,04/10/,Avellino,Mantova,0,0,1,g_1_AcMAQ7b3,1.89,3.67,4.18,1.34,0.74
+football,Serie B,Round 7,04/10/,Bari,Padova,2,1,0,g_1_6PFJOoTF,2.59,3.05,3.05,1.96,1.81
+football,Serie B,Round 7,04/10/,Monza,Catanzaro,2,1,0,g_1_ncjhwor9,1.98,3.36,4.17,2.29,0.68
+football,Serie B,Round 7,04/10/,Venezia,Frosinone,3,0,0,g_1_67MmSKZ7,2.09,3.56,3.56,1.81,1.4
+football,Serie B,Round 6,02/10/,Carrarese,Modena,0,0,1,g_1_l4oiEw9t,2.97,3.18,2.56,1.29,0.48
+football,Serie B,Round 6,02/10/,Empoli,Monza,1,1,1,g_1_AJZaCHwg,2.98,3.14,2.58,1.0,1.46
+football,Serie B,Round 6,02/10/,Pescara,Sudtirol,1,1,1,g_1_W61yC8qA,3.29,3.18,2.36,0.52,1.02
+football,Serie B,Round 6,02/10/,Sampdoria,Catanzaro,0,0,1,g_1_O4tG4Qyp,2.2,3.27,3.57,0.5,0.79
+football,Serie B,Round 6,01/10/,Entella,Bari,2,2,1,g_1_I3ZO246d,2.25,3.17,3.57,1.13,1.38
+football,Serie B,Round 6,01/10/,Frosinone,Cesena,3,1,0,g_1_Iqw8Ae85,2.5,3.06,3.17,1.94,1.19
+football,Serie B,Round 6,01/10/,Juve Stabia,Mantova,2,1,0,g_1_EBWG8ZxI,1.57,4.18,6.12,0.92,1.36
+football,Serie B,Round 6,01/10/,Padova,Avellino,2,2,1,g_1_pbgljRMj,0.0,0.0,0.0,0.8,1.04
+football,Serie B,Round 6,01/10/,Palermo,Venezia,0,0,1,g_1_OtbTDUEc,2.15,3.38,3.58,0.24,0.55
+football,Serie B,Round 6,01/10/,Reggiana,Spezia,1,1,1,g_1_hMkpAnEM,4.59,3.57,1.84,0.6,0.34
+football,Serie B,Round 5,29/09/,Empoli,Carrarese,2,2,1,g_1_bLs0scvJ,2.29,3.16,3.46,1.68,1.03
+football,Serie B,Round 5,29/09/,Modena,Pescara,2,1,0,g_1_lj6Iavfm,1.59,4.26,5.58,2.01,0.27
+football,Serie B,Round 5,28/09/,Bari,Sampdoria,1,1,1,g_1_MFnym1As,2.66,2.86,3.17,1.19,0.66
+football,Serie B,Round 5,28/09/,Monza,Padova,0,1,2,g_1_pIaRcIOa,1.79,3.59,4.87,1.41,0.83
+football,Serie B,Round 5,27/09/,Avellino,Entella,2,0,0,g_1_4b64hNnK,2.56,2.97,3.18,1.66,0.62
+football,Serie B,Round 5,27/09/,Cesena,Palermo,1,1,1,g_1_jevhqJ96,2.95,3.15,2.59,1.6,1.18
+football,Serie B,Round 5,27/09/,Mantova,Frosinone,1,5,2,g_1_vHKn50WP,3.06,3.26,2.45,3.81,3.31
+football,Serie B,Round 5,27/09/,Sudtirol,Reggiana,3,1,0,g_1_IVcZedgC,1.96,3.49,4.1,1.99,0.84
+football,Serie B,Round 5,27/09/,Venezia,Spezia,2,0,0,g_1_EcirfzOO,2.29,3.16,3.46,1.45,0.33
+football,Serie B,Round 5,27/09/,Catanzaro,Juve Stabia,2,2,1,g_1_fTpqouuf,3.05,2.95,2.67,1.5,1.26
+football,Serie B,Round 4,22/09/,Padova,Entella,2,1,0,g_1_jLNrItB7,2.86,2.93,2.86,1.38,1.75
+football,Serie B,Round 4,22/09/,Pescara,Empoli,4,0,0,g_1_vs4wvOXQ,3.24,3.19,2.38,1.51,0.57
+football,Serie B,Round 4,21/09/,Carrarese,Avellino,3,4,2,g_1_MsBotgcc,2.35,2.97,3.58,1.74,1.36
+football,Serie B,Round 4,21/09/,Mantova,Modena,1,3,2,g_1_MuWRLOBr,3.62,3.41,2.12,1.75,2.89
+football,Serie B,Round 4,21/09/,Monza,Sampdoria,1,0,0,g_1_reKzK2te,1.89,3.17,5.1,0.66,1.09
+football,Serie B,Round 4,20/09/,Reggiana,Catanzaro,2,2,1,g_1_8CM1Y1el,2.34,3.16,3.36,1.29,1.68
+football,Serie B,Round 4,20/09/,Spezia,Juve Stabia,1,3,2,g_1_GxQ9WuQ0,2.16,3.18,3.8,0.96,1.26
+football,Serie B,Round 4,20/09/,Venezia,Cesena,1,2,2,g_1_xhEIUJfD,2.01,3.4,4.01,2.13,1.75
+football,Serie B,Round 4,20/09/,Palermo,Bari,2,0,0,g_1_6T5Vup3E,1.62,3.8,6.21,1.68,0.39
+football,Serie B,Round 4,20/09/,Frosinone,Sudtirol,2,2,1,g_1_I94fvXR9,2.18,3.15,3.76,2.23,1.97
+football,Serie B,Round 3,15/09/,Empoli,Spezia,1,1,1,g_1_MqtEEnmI,3.1,2.94,2.64,1.46,1.61
+football,Serie B,Round 3,15/09/,Sudtirol,Palermo,0,2,2,g_1_xWMJL3fo,3.53,3.22,2.23,1.12,1.27
+football,Serie B,Round 3,14/09/,Entella,Mantova,1,0,0,g_1_f7i4TFDi,2.07,3.23,4.03,1.36,0.75
+football,Serie B,Round 3,14/09/,Sampdoria,Cesena,1,2,2,g_1_t0ylRPWN,2.7,3.09,2.88,0.33,1.75
+football,Serie B,Round 3,14/09/,Catanzaro,Carrarese,1,1,1,g_1_lWs6G8I5,2.54,2.94,3.25,1.04,1.8
+football,Serie B,Round 3,13/09/,Juve Stabia,Reggiana,0,0,1,g_1_tndFCQHU,1.96,3.28,4.44,2.17,0.13
+football,Serie B,Round 3,13/09/,Modena,Bari,3,0,0,g_1_WAyPWT2n,1.94,3.46,4.18,3.4,0.72
+football,Serie B,Round 3,13/09/,Padova,Frosinone,0,1,2,g_1_hQPXU7Xb,0.0,0.0,0.0,0.69,0.95
+football,Serie B,Round 3,13/09/,Pescara,Venezia,2,2,1,g_1_0jTuTo2B,4.31,3.59,1.88,1.05,3.22
+football,Serie B,Round 3,13/09/,Avellino,Monza,2,1,0,g_1_h4lcIUmg,4.46,3.1,2.02,0.79,0.92
+football,Serie B,Round 2,01/09/,Bari,Monza,1,1,1,g_1_WEX8905L,2.93,3.13,2.52,0.87,0.69
+football,Serie B,Round 2,01/09/,Modena,Avellino,1,1,1,g_1_6mQF5i4m,1.96,3.22,4.22,1.73,0.17
+football,Serie B,Round 2,01/09/,Carrarese,Padova,0,0,1,g_1_jaEu4vTr,2.46,3.02,3.12,0.62,0.85
+football,Serie B,Round 2,01/09/,Sudtirol,Sampdoria,3,1,0,g_1_pvokKjJt,2.32,3.12,3.27,1.58,0.94
+football,Serie B,Round 2,31/08/,Cesena,Entella,1,1,1,g_1_bPHm2Ice,2.11,2.92,4.13,1.71,0.82
+football,Serie B,Round 2,31/08/,Palermo,Frosinone,0,0,1,g_1_v1ON3VYa,1.64,3.54,6.08,0.94,0.7
+football,Serie B,Round 2,31/08/,Spezia,Catanzaro,0,0,1,g_1_tQKv0mYO,1.73,3.71,4.76,0.7,0.15
+football,Serie B,Round 2,31/08/,Juve Stabia,Venezia,0,0,1,g_1_Kv6d0dS7,3.12,3.27,2.32,1.46,0.13
+football,Serie B,Round 2,31/08/,Mantova,Pescara,2,1,0,g_1_Cn8sOaKE,2.07,3.33,3.63,1.8,0.57
+football,Serie B,Round 2,30/08/,Reggiana,Empoli2,3,1,0,g_1_zTHW193C,3.03,3.03,2.52,1.82,0.36
+football,Serie B,Round 1,26/08/,Sampdoria,Modena,0,2,2,g_1_pb9RdNLF,2.39,2.92,3.36,0.66,1.33
+football,Serie B,Round 1,25/08/,Catanzaro,Sudtirol,1,1,1,g_1_hUFqn67c,2.41,3.22,3.01,0.5,1.23
+football,Serie B,Round 1,25/08/,Frosinone,Avellino,2,0,0,g_1_6iMarO6M,2.36,3.21,3.11,0.92,0.68
+football,Serie B,Round 1,25/08/,Spezia,Carrarese,0,2,2,g_1_hOCZf1jS,1.81,3.41,4.76,0.49,1.38
+football,Serie B,Round 1,25/08/,Venezia,Bari,2,1,0,g_1_xdl6kuEk,1.7,3.59,5.24,1.33,0.56
+football,Serie B,Round 1,24/08/,Monza,Mantova,1,0,0,g_1_xzDVx2Uq,1.74,3.93,4.37,1.12,0.2
+football,Serie B,Round 1,24/08/,Palermo,Reggiana,2,1,0,g_1_Y16vytad,1.51,4.12,6.54,2.42,0.28
+football,Serie B,Round 1,24/08/,Empoli,Padova,3,1,0,g_1_pxYjppxA,1.9,3.3,4.34,1.63,0.61
+football,Serie B,Round 1,24/08/,Entella,Juve Stabia,1,1,1,g_1_pMiEmJr2,2.37,3.03,3.28,1.51,0.49
+football,Serie B,Round 1,23/08/,Pescara,Cesena,1,3,2,g_1_QegQbqi3,3.42,3.01,2.31,0.82,4.35
+football,Serie B,Round 23,08/02/,Spezia,Entella,1,1,1,g_1_65ZXUNH8,2.1,2.9,4.29,0.67,0.32
+football,Serie B,Round 23,08/02/,Palermo,Empoli,3,2,0,g_1_EcXn7KP1,1.63,3.84,5.56,1.98,1.02
+football,Serie B,Round 23,07/02/,Carrarese,Sudtirol,0,0,1,g_1_xllKJxhA,2.46,2.89,3.32,0.64,0.74
+football,Serie B,Round 23,07/02/,Catanzaro,Reggiana,2,0,0,g_1_pEiSHGMM,1.7,3.76,5.08,1.24,1.18
+football,Serie B,Round 23,07/02/,Juve Stabia,Padova,3,3,1,g_1_hK0iIpY2,1.82,3.43,4.78,1.74,1.01
+football,Serie B,Round 23,07/02/,Mantova,Bari,2,1,0,g_1_QXbaGO2F,2.19,2.96,3.87,1.64,0.46
+football,Serie B,Round 23,07/02/,Modena,Sampdoria,1,2,2,g_1_Mah8E2XR,1.74,3.22,6.03,1.42,0.45
+football,Serie B,Round 23,07/02/,Cesena,Pescara,2,0,0,g_1_UoTbCfpp,1.86,3.65,4.16,2.62,1.4
+football,Serie B,Round 23,08/02/,Monza,Avellino,2,1,0,g_1_hrqv9tek,1.46,4.38,7.07,3.05,0.2
+football,Serie B,Round 23,07/02/,Frosinone,Venezia,1,2,2,g_1_xCW6AYEd,3.71,3.51,2.01,1.77,1.3
+football,Serie B,Round 24,11/02/,Entella,Cesena,3,1,0,g_1_QT2Fwh0t,2.83,2.87,2.86,0.81,1.62
+football,Serie B,Round 24,11/02/,Padova,Carrarese,1,0,0,g_1_0SATJc97,3.24,2.94,2.48,0.63,1.28
+football,Serie B,Round 24,11/02/,Pescara,Catanzaro,0,2,2,g_1_tOmGs11E,2.86,3.32,2.5,2.02,2.45
+football,Serie B,Round 24,11/02/,Reggiana,Mantova,1,0,0,g_1_lliOuuWQ,0.0,0.0,0.0,0.76,0.55
+football,Serie B,Round 24,11/02/,Venezia,Modena,0,2,2,g_1_0ln4WzgD,1.84,3.56,4.39,1.02,2.15
+football,Serie B,Round 24,11/02/,Sampdoria,Palermo,3,3,1,g_1_8YXfzJgl,2.89,2.91,2.75,1.55,1.33
+football,Serie B,Round 24,12/02/,Avellino,Frosinone,1,3,2,g_1_2XStT1nL,3.5,3.2,2.2,0.91,2.63
+football,Serie B,Round 24,12/02/,Bari,Spezia,0,0,1,g_1_b3ECNuAr,2.95,2.85,2.75,1.75,1.24
+football,Serie B,Round 24,12/02/,Empoli,Juve Stabia,1,2,2,g_1_fV7LLJve,2.38,2.94,3.44,1.24,0.67
+football,Serie B,Round 24,12/02/,Sudtirol,Monza,0,0,1,g_1_tnW2YdO0,3.72,3.13,2.15,0.85,0.41
+football,Serie B,Round 25,15/02/,Cesena,Venezia,0,4,2,g_1_8W0nWRbU,3.83,3.03,2.17,0.9,2.9
+football,Serie B,Round 25,15/02/,Catanzaro,Mantova,2,0,0,g_1_zJ2vYmUH,1.76,3.62,4.78,0.55,1.86
+football,Serie B,Round 25,14/02/,Modena,Carrarese,2,0,0,g_1_fNZ4l9Eb,1.6,3.59,6.68,0.89,1.03
+football,Serie B,Round 25,14/02/,Palermo,Entella,3,0,0,g_1_2gMLpRDN,1.52,4.15,6.57,1.13,1.17
+football,Serie B,Round 25,14/02/,Sampdoria,Padova,1,0,0,g_1_Mw3hu5yo,1.71,3.33,5.95,1.62,0.24
+football,Serie B,Round 25,16/02/,Avellino,Pescara,0,1,2,g_1_nqiOyWUh,2.13,3.44,3.44,0.63,0.74
+football,Serie B,Round 25,16/02/,Empoli,Reggiana,1,1,1,g_1_ncWdjVqn,2.0,3.38,3.9,1.28,1.03
+football,Serie B,Round 25,15/02/,Bari,Sudtirol,1,2,2,g_1_f9fWZ9a5,3.14,3.03,2.48,0.54,2.38
+football,Serie B,Round 25,15/02/,Monza,Juve Stabia,2,1,0,g_1_GxODnmqB,1.68,3.73,5.33,1.11,1.78
+football,Serie B,Round 25,15/02/,Spezia,Frosinone,0,2,2,g_1_EXkv38Ti,2.87,3.58,2.36,0.42,2.28
+football,Serie B,Round 26,22/02/,Carrarese,Monza,0,1,2,g_1_Aaqm1nb4,4.01,3.35,1.98,0.58,0.75
+football,Serie B,Round 26,22/02/,Cesena,Spezia,2,3,2,g_1_GdneaQSG,2.13,3.14,3.8,2.77,1.25
+football,Serie B,Round 26,21/02/,Entella,Catanzaro,1,3,2,g_1_MX9eSOd3,2.37,3.13,3.23,1.18,1.82
+football,Serie B,Round 26,21/02/,Mantova,Sampdoria,2,1,0,g_1_O29MFoDc,3.43,2.92,2.39,0.81,1.1
+football,Serie B,Round 26,21/02/,Padova,Bari,1,1,1,g_1_dG7UDPsA,2.07,3.23,3.84,0.95,1.59
+football,Serie B,Round 26,21/02/,Palermo,Sudtirol,3,0,0,g_1_2TxVB3CM,1.61,3.82,5.9,1.44,1.02
+football,Serie B,Round 26,21/02/,Venezia,Pescara,3,2,0,g_1_fRH94L4d,1.26,5.77,12.1,2.22,2.68
+football,Serie B,Round 26,21/02/,Frosinone,Empoli,2,2,1,g_1_xCz4c4cT,1.77,3.74,4.55,1.78,2.65
+football,Serie B,Round 26,23/02/,Reggiana,Avellino,1,1,1,g_1_YBT06szp,2.4,2.9,3.43,0.82,0.39
+football,Serie B,Round 26,22/02/,Juve Stabia,Modena,1,2,2,g_1_8fRZirLj,3.54,3.03,2.28,2.16,0.67
+football,Serie B,Round 27,01/03/,Avellino,Juve Stabia,0,0,1,g_1_GW24Q2RF,2.94,2.78,2.84,0.59,0.18
+football,Serie B,Round 27,01/03/,Spezia,Reggiana,0,1,2,g_1_6mWzHkfJ,2.05,3.18,4.0,2.05,0.37
+football,Serie B,Round 27,28/02/,Empoli,Cesena,1,1,1,g_1_roJp6Yu1,2.61,3.11,2.88,2.19,1.46
+football,Serie B,Round 27,28/02/,Modena,Padova,1,2,2,g_1_W6auSF2K,1.45,4.29,7.66,0.42,0.54
+football,Serie B,Round 27,28/02/,Sudtirol,Venezia,1,1,1,g_1_IywMvgnQ,4.38,3.29,1.92,1.24,1.23
+football,Serie B,Round 27,28/02/,Sampdoria,Bari,0,2,2,g_1_ALxSIBP6,1.7,3.46,5.63,1.17,0.66
+football,Serie B,Round 27,28/02/,Monza,Entella,2,0,0,g_1_ttoBMgQs,1.52,4.15,6.57,3.39,0.36

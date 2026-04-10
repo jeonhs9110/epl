@@ -1,0 +1,309 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Bundesliga 2023 2024,Regular Season,28/05/,Dusseldorf,BochumWinner,0,4,2,g_1_UBjWdVpR,1.98,3.64,3.46,1.94,2.76
+football,Bundesliga 2023 2024,Regular Season,24/05/,Bochum,Dusseldorf,0,3,2,g_1_dpwPbiGE,2.08,3.55,3.26,1.32,2.25
+football,Bundesliga 2023 2024,Round 34,18/05/,Bayer Leverkusen,Augsburg,2,1,0,g_1_r7QOmnxn,1.22,7.69,12.8,2.86,0.77
+football,Bundesliga 2023 2024,Round 34,18/05/,Dortmund,Darmstadt,4,0,0,g_1_fBoFTriU,1.14,9.88,19.1,2.83,0.42
+football,Bundesliga 2023 2024,Round 34,18/05/,Eintracht Frankfurt,RB Leipzig,2,2,1,g_1_QVFTn6ih,0.0,0.0,0.0,2.02,1.73
+football,Bundesliga 2023 2024,Round 34,18/05/,Heidenheim,FC Koln,4,1,0,g_1_8EBlrr6N,2.05,4.27,3.25,0.92,2.56
+football,Bundesliga 2023 2024,Round 34,18/05/,Hoffenheim,Bayern Munich,4,2,0,g_1_YeJyopM4,3.59,4.42,1.9,2.21,1.59
+football,Bundesliga 2023 2024,Round 34,18/05/,Stuttgart,B. Monchengladbach,4,0,0,g_1_fB7pqOjH,1.25,7.48,10.3,1.84,1.45
+football,Bundesliga 2023 2024,Round 34,18/05/,Union Berlin,Freiburg,2,1,0,g_1_WWMKlSMu,1.92,3.78,4.07,2.68,1.04
+football,Bundesliga 2023 2024,Round 34,18/05/,Werder Bremen,Bochum,4,1,0,g_1_CnIup4yB,2.15,3.84,3.28,3.87,1.98
+football,Bundesliga 2023 2024,Round 34,18/05/,Wolfsburg,Mainz,1,3,2,g_1_4MEXoQ6b,3.3,3.61,2.22,1.13,1.65
+football,Bundesliga 2023 2024,Round 33,13/05/,Bochum,Bayer Leverkusen,0,5,2,g_1_Khg2Wp7B,4.52,4.3,1.73,0.16,4.29
+football,Bundesliga 2023 2024,Round 33,13/05/,Bayern Munich,Wolfsburg,2,0,0,g_1_6NvEhyOD,1.51,5.33,5.53,0.35,0.22
+football,Bundesliga 2023 2024,Round 33,12/05/,Darmstadt,Hoffenheim,0,6,2,g_1_GKnBUOyO,5.26,5.1,1.55,0.67,3.22
+football,Bundesliga 2023 2024,Round 33,12/05/,Mainz,Dortmund,3,0,0,g_1_U30kZnNh,1.93,4.11,3.72,2.47,0.67
+football,Bundesliga 2023 2024,Round 33,11/05/,B. Monchengladbach,Eintracht Frankfurt,1,1,1,g_1_CSkfY6xa,2.76,3.85,2.45,0.44,1.5
+football,Bundesliga 2023 2024,Round 33,11/05/,FC Koln,Union Berlin,3,2,0,g_1_QVgbXQi5,2.7,3.39,2.74,2.89,1.62
+football,Bundesliga 2023 2024,Round 33,11/05/,Freiburg,Heidenheim,1,1,1,g_1_jD1ozT7n,1.77,4.08,4.56,1.94,1.17
+football,Bundesliga 2023 2024,Round 33,11/05/,RB Leipzig,Werder Bremen,1,1,1,g_1_rm2sy9ht,1.39,5.64,7.4,1.93,1.05
+football,Bundesliga 2023 2024,Round 33,11/05/,Augsburg,Stuttgart,0,1,2,g_1_bqh6V4MH,4.25,4.42,1.76,0.71,2.37
+football,Bundesliga 2023 2024,Round 32,06/05/,Heidenheim,Mainz,1,1,1,g_1_2kEXqqKD,3.05,3.46,2.42,1.29,0.93
+football,Bundesliga 2023 2024,Round 32,06/05/,Eintracht Frankfurt,Bayer Leverkusen,1,5,2,g_1_2RVpgmcR,3.03,3.6,2.37,1.22,2.83
+football,Bundesliga 2023 2024,Round 32,05/05/,Union Berlin,Bochum,3,4,2,g_1_4tDsfTsL,1.97,3.68,4.0,1.49,1.59
+football,Bundesliga 2023 2024,Round 32,05/05/,FC Koln,Freiburg,0,0,1,g_1_bcHGmRKl,2.48,3.8,2.74,1.11,0.43
+football,Bundesliga 2023 2024,Round 32,04/05/,Dortmund,Augsburg,5,1,0,g_1_MHNxe9SE,1.96,4.1,3.61,4.27,2.25
+football,Bundesliga 2023 2024,Round 32,04/05/,Stuttgart,Bayern Munich,3,1,0,g_1_lnATpP47,2.69,3.92,2.48,1.97,1.56
+football,Bundesliga 2023 2024,Round 32,04/05/,Werder Bremen,B. Monchengladbach,2,2,1,g_1_fPAPo5k1,2.15,3.84,3.28,1.85,1.95
+football,Bundesliga 2023 2024,Round 32,04/05/,Wolfsburg,Darmstadt,3,0,0,g_1_K6ICl75r,1.34,6.01,8.62,1.94,0.39
+football,Bundesliga 2023 2024,Round 32,04/05/,Hoffenheim,RB Leipzig,1,1,1,g_1_GYBLnoze,5.71,5.29,1.5,1.66,0.86
+football,Bundesliga 2023 2024,Round 31,29/04/,Darmstadt,Heidenheim,0,1,2,g_1_rROYekD8,3.24,3.8,2.18,0.77,2.13
+football,Bundesliga 2023 2024,Round 31,29/04/,Mainz,FC Koln,1,1,1,g_1_Khwvz8jk,1.59,4.31,5.9,2.25,3.03
+football,Bundesliga 2023 2024,Round 31,28/04/,B. Monchengladbach,Union Berlin,0,0,1,g_1_YesrZR5e,2.49,3.58,2.85,0.97,0.93
+football,Bundesliga 2023 2024,Round 31,28/04/,Bayer Leverkusen,Stuttgart,2,2,1,g_1_QVwzylyq,1.8,4.05,4.41,1.32,1.76
+football,Bundesliga 2023 2024,Round 31,27/04/,Augsburg,Werder Bremen,0,3,2,g_1_fBVjX5z8,1.69,4.42,4.74,1.12,2.28
+football,Bundesliga 2023 2024,Round 31,27/04/,Bayern Munich,Eintracht Frankfurt,2,1,0,g_1_4Ky7sjbF,1.48,5.14,6.35,3.82,0.46
+football,Bundesliga 2023 2024,Round 31,27/04/,Freiburg,Wolfsburg,1,2,2,g_1_OMi8uUSR,2.33,3.57,3.27,1.76,0.61
+football,Bundesliga 2023 2024,Round 31,27/04/,RB Leipzig,Dortmund,4,1,0,g_1_rBzBtADL,1.64,4.82,5.02,3.19,1.66
+football,Bundesliga 2023 2024,Round 31,27/04/,Bochum,Hoffenheim,3,2,0,g_1_GKWnYoL1,2.21,4.11,2.99,3.92,2.18
+football,Bundesliga 2023 2024,Round 30,22/04/,Freiburg,Mainz,1,1,1,g_1_2iFySAbS,2.98,3.58,2.41,1.35,1.55
+football,Bundesliga 2023 2024,Round 30,22/04/,Dortmund,Bayer Leverkusen,1,1,1,g_1_dfCTTWTF,2.78,3.57,2.56,0.92,1.01
+football,Bundesliga 2023 2024,Round 30,21/04/,Werder Bremen,Stuttgart,2,1,0,g_1_dfYbqCT2,4.46,4.44,1.72,1.54,2.13
+football,Bundesliga 2023 2024,Round 30,21/04/,Union Berlin,Bayern Munich,1,5,2,g_1_jHBXSjqM,4.76,4.42,1.68,0.83,1.32
+football,Bundesliga 2023 2024,Round 30,20/04/,FC Koln,Darmstadt,0,2,2,g_1_GbeCL8yd,1.46,5.07,6.6,1.05,2.29
+football,Bundesliga 2023 2024,Round 30,20/04/,Heidenheim,RB Leipzig,1,2,2,g_1_Acx3rWr9,6.35,5.14,1.48,1.81,1.75
+football,Bundesliga 2023 2024,Round 30,20/04/,Hoffenheim,B. Monchengladbach,4,3,0,g_1_fkfGKSj2,2.24,4.07,2.95,2.22,1.61
+football,Bundesliga 2023 2024,Round 30,20/04/,Wolfsburg,Bochum,1,0,0,g_1_nPj8MlMk,1.98,3.62,3.99,1.16,1.09
+football,Bundesliga 2023 2024,Round 30,20/04/,Eintracht Frankfurt,Augsburg,3,1,0,g_1_8Yi4NU6q,1.92,4.08,3.79,2.58,0.38
+football,Bundesliga 2023 2024,Round 29,15/04/,Bayer Leverkusen,Werder Bremen,5,0,0,g_1_AcjbEiUS,1.22,7.28,14.0,3.29,0.7
+football,Bundesliga 2023 2024,Round 29,14/04/,Darmstadt,Freiburg,0,1,2,g_1_I3DPUCE9,4.73,4.08,1.77,1.25,0.68
+football,Bundesliga 2023 2024,Round 29,14/04/,Stuttgart,Eintracht Frankfurt,3,0,0,g_1_0SIKVha3,1.5,5.12,5.97,1.15,0.85
+football,Bundesliga 2023 2024,Round 29,13/04/,B. Monchengladbach,Dortmund,1,2,2,g_1_fVRU8Vij,3.29,3.83,2.15,1.67,1.43
+football,Bundesliga 2023 2024,Round 29,13/04/,Bayern Munich,FC Koln,2,0,0,g_1_xWxiGDaG,1.24,7.2,11.7,2.08,0.84
+football,Bundesliga 2023 2024,Round 29,13/04/,Bochum,Heidenheim,1,1,1,g_1_8YVY7k7d,2.13,3.81,3.36,1.58,1.02
+football,Bundesliga 2023 2024,Round 29,13/04/,Mainz,Hoffenheim,4,1,0,g_1_C6xQ9Bxp,1.8,4.27,4.14,3.01,0.56
+football,Bundesliga 2023 2024,Round 29,13/04/,RB Leipzig,Wolfsburg,3,0,0,g_1_GMyeFXEM,1.28,6.27,11.2,1.55,0.54
+football,Bundesliga 2023 2024,Round 29,13/04/,Augsburg,Union Berlin,2,0,0,g_1_MyKGWYqc,2.13,3.51,3.62,1.64,1.67
+football,Bundesliga 2023 2024,Round 28,08/04/,Wolfsburg,B. Monchengladbach,1,3,2,g_1_WY1ieCNj,2.0,4.11,3.49,0.93,0.97
+football,Bundesliga 2023 2024,Round 28,07/04/,Hoffenheim,Augsburg,3,1,0,g_1_t4qrIZU3,2.34,4.07,2.8,2.16,1.49
+football,Bundesliga 2023 2024,Round 28,07/04/,Dortmund,Stuttgart,0,1,2,g_1_6mnBFt95,1.91,4.27,3.67,2.29,1.59
+football,Bundesliga 2023 2024,Round 28,06/04/,FC Koln,Bochum,2,1,0,g_1_nspvJFFc,2.25,3.57,3.26,0.99,0.73
+football,Bundesliga 2023 2024,Round 28,06/04/,Freiburg,RB Leipzig,1,4,2,g_1_0nuKDKwI,5.34,4.58,1.6,1.69,2.68
+football,Bundesliga 2023 2024,Round 28,06/04/,Heidenheim,Bayern Munich,3,2,0,g_1_f7mnHgpA,6.81,5.81,1.41,1.59,2.03
+football,Bundesliga 2023 2024,Round 28,06/04/,Mainz,Darmstadt,4,0,0,g_1_8jozKe0i,1.46,5.07,6.6,3.64,1.03
+football,Bundesliga 2023 2024,Round 28,06/04/,Union Berlin,Bayer Leverkusen,0,1,2,g_1_lCyGE0OB,5.56,3.88,1.69,0.49,2.99
+football,Bundesliga 2023 2024,Round 28,06/04/,Eintracht Frankfurt,Werder Bremen,1,1,1,g_1_hr3mdh8p,1.78,3.93,4.64,1.86,1.21
+football,Bundesliga 2023 2024,Round 27,01/04/,Bochum,Darmstadt,2,2,1,g_1_KWqaIrPn,1.5,4.71,6.47,2.1,1.4
+football,Bundesliga 2023 2024,Round 27,01/04/,Stuttgart,Heidenheim,3,3,1,g_1_Sdm7GMga,1.33,5.88,9.49,3.25,1.17
+football,Bundesliga 2023 2024,Round 27,31/03/,Augsburg,FC Koln,1,1,1,g_1_bNr3H2vg,1.7,4.3,4.72,2.29,1.02
+football,Bundesliga 2023 2024,Round 27,31/03/,Bayern Munich,Dortmund,0,2,2,g_1_lj0u2Nv6,1.38,6.69,6.4,2.26,1.13
+football,Bundesliga 2023 2024,Round 27,30/03/,B. Monchengladbach,Freiburg,0,3,2,g_1_0n3SN41P,2.14,3.66,3.46,2.36,2.12
+football,Bundesliga 2023 2024,Round 27,30/03/,Bayer Leverkusen,Hoffenheim,2,1,0,g_1_8hGt019I,1.2,8.43,13.0,4.08,0.63
+football,Bundesliga 2023 2024,Round 27,30/03/,Eintracht Frankfurt,Union Berlin,0,0,1,g_1_nqFpaLOO,1.9,3.63,4.39,1.63,1.61
+football,Bundesliga 2023 2024,Round 27,30/03/,RB Leipzig,Mainz,0,0,1,g_1_Staq1sfC,1.38,5.59,7.86,2.94,0.76
+football,Bundesliga 2023 2024,Round 27,30/03/,Werder Bremen,Wolfsburg,0,2,2,g_1_x8ffJO9t,2.76,3.57,2.58,0.55,2.17
+football,Bundesliga 2023 2024,Round 26,18/03/,Dortmund,Eintracht Frankfurt,3,1,0,g_1_fFL2l4A6,1.67,4.3,5.01,2.43,0.79
+football,Bundesliga 2023 2024,Round 26,17/03/,Freiburg,Bayer Leverkusen,2,3,2,g_1_nNwAnruJ,6.78,4.55,1.51,0.81,2.9
+football,Bundesliga 2023 2024,Round 26,17/03/,Hoffenheim,Stuttgart,0,3,2,g_1_b17S4Pfm,4.4,4.4,1.74,0.26,3.43
+football,Bundesliga 2023 2024,Round 26,16/03/,Darmstadt,Bayern Munich,2,5,2,g_1_fT0y33Pa,18.9,10.3,1.14,1.31,4.42
+football,Bundesliga 2023 2024,Round 26,16/03/,Heidenheim,B. Monchengladbach,1,1,1,g_1_tQdX3qAg,2.66,3.68,2.61,2.21,0.56
+football,Bundesliga 2023 2024,Round 26,16/03/,Mainz,Bochum,2,0,0,g_1_SIGdAoXP,1.85,4.05,4.13,2.6,0.72
+football,Bundesliga 2023 2024,Round 26,16/03/,Union Berlin,Werder Bremen,2,1,0,g_1_lxL6mOPC,2.08,3.45,3.85,1.25,1.02
+football,Bundesliga 2023 2024,Round 26,16/03/,Wolfsburg,Augsburg,1,3,2,g_1_lSHhBRHJ,2.22,3.61,3.3,1.52,1.19
+football,Bundesliga 2023 2024,Round 26,16/03/,FC Koln,RB Leipzig,1,5,2,g_1_KA8O55us,6.85,4.86,1.47,1.68,4.27
+football,Bundesliga 2023 2024,Round 25,11/03/,Bayer Leverkusen,Wolfsburg,2,0,0,g_1_SblBblYD,1.32,5.74,10.4,2.26,0.12
+football,Bundesliga 2023 2024,Round 25,11/03/,Eintracht Frankfurt,Hoffenheim2,3,1,0,g_1_6kmFc8mK,2.02,3.9,3.59,3.58,0.67
+football,Bundesliga 2023 2024,Round 25,10/03/,Bochum,Freiburg,1,2,2,g_1_KdTki6Qm,2.49,3.58,2.86,1.19,1.44
+football,Bundesliga 2023 2024,Round 25,10/03/,Werder Bremen,Dortmund,1,2,2,g_1_QZTohnBs,3.82,4.61,1.81,1.31,0.98
+football,Bundesliga 2023 2024,Round 25,09/03/,Augsburg,Heidenheim,1,0,0,g_1_bmSgjQuf,1.7,4.58,4.43,0.74,0.36
+football,Bundesliga 2023 2024,Round 25,09/03/,B. Monchengladbach,FC Koln,3,3,1,g_1_lExKdS2Q,1.82,3.83,4.56,2.0,1.09
+football,Bundesliga 2023 2024,Round 25,09/03/,Bayern Munich,Mainz,8,1,0,g_1_M11Pzot7,1.22,7.28,13.9,6.59,0.95
+football,Bundesliga 2023 2024,Round 25,09/03/,RB Leipzig,Darmstadt,2,0,0,g_1_0h0TZ4eD,1.13,10.2,23.0,3.57,0.67
+football,Bundesliga 2023 2024,Round 25,09/03/,Stuttgart,Union Berlin,2,0,0,g_1_GOMbkpe0,1.49,4.86,6.45,1.03,1.04
+football,Bundesliga 2023 2024,Round 24,04/03/,Hoffenheim,Werder Bremen,2,1,0,g_1_hM98vTtr,1.91,4.27,3.67,2.09,1.74
+football,Bundesliga 2023 2024,Round 24,03/03/,FC Koln,Bayer Leverkusen,0,2,2,g_1_CSRuq9YQ,8.51,5.51,1.37,0.54,1.65
+football,Bundesliga 2023 2024,Round 24,03/03/,Wolfsburg,Stuttgart,2,3,2,g_1_vFTXpV3E,3.17,3.5,2.33,1.13,0.98
+football,Bundesliga 2023 2024,Round 24,02/03/,Bochum,RB Leipzig,1,4,2,g_1_WC8Cwmdl,4.73,4.58,1.66,1.59,1.93
+football,Bundesliga 2023 2024,Round 24,02/03/,Darmstadt,Augsburg,0,6,2,g_1_vwCKyRQ0,3.46,3.67,2.13,1.22,3.31
+football,Bundesliga 2023 2024,Round 24,02/03/,Heidenheim,Eintracht Frankfurt,1,2,2,g_1_QZ7Gx7Bf,3.09,3.41,2.42,1.18,2.22
+football,Bundesliga 2023 2024,Round 24,02/03/,Mainz,B. Monchengladbach,1,1,1,g_1_YyTypkJK,1.98,3.67,3.96,1.45,1.26
+football,Bundesliga 2023 2024,Round 24,02/03/,Union Berlin,Dortmund,0,2,2,g_1_QZooNRB7,3.43,3.72,2.13,1.34,1.75
+football,Bundesliga 2023 2024,Round 24,02/03/,Freiburg,Bayern Munich,2,2,1,g_1_SvQToBl8,6.39,5.14,1.47,1.42,1.93
+football,Bundesliga 2023 2024,Round 23,26/02/,Augsburg,Freiburg,2,1,0,g_1_I9rwPmse,2.4,3.69,2.91,2.1,1.07
+football,Bundesliga 2023 2024,Round 23,26/02/,Dortmund,Hoffenheim,2,3,2,g_1_prcdovbc,1.48,5.41,5.84,2.73,1.16
+football,Bundesliga 2023 2024,Round 23,25/02/,Eintracht Frankfurt,Wolfsburg,2,2,1,g_1_pIR0rxrG,2.49,3.46,2.94,1.44,1.33
+football,Bundesliga 2023 2024,Round 23,25/02/,Bayern Munich,RB Leipzig,2,1,0,g_1_6ibhnKri,1.79,4.54,3.98,1.65,1.09
+football,Bundesliga 2023 2024,Round 23,24/02/,B. Monchengladbach,Bochum,5,2,0,g_1_dffUQ9Cr,2.09,3.84,3.44,3.27,1.51
+football,Bundesliga 2023 2024,Round 23,24/02/,Stuttgart,FC Koln,1,1,1,g_1_nqmsO7d1,1.35,5.6,8.92,1.68,1.27
+football,Bundesliga 2023 2024,Round 23,24/02/,Union Berlin,Heidenheim,2,2,1,g_1_C4ThpbD3,1.87,3.69,4.44,0.99,1.28
+football,Bundesliga 2023 2024,Round 23,24/02/,Werder Bremen,Darmstadt,1,1,1,g_1_vJqZPTRl,1.73,4.31,4.58,1.92,1.03
+football,Bundesliga 2023 2024,Round 23,24/02/,Bayer Leverkusen,Mainz,2,1,0,g_1_jeSdqIS9,1.31,6.17,9.54,1.21,1.36
+football,Bundesliga 2023 2024,Round 22,19/02/,Bochum,Bayern Munich,3,2,0,g_1_Y3TwTdrT,6.84,5.81,1.41,1.52,3.67
+football,Bundesliga 2023 2024,Round 22,18/02/,Freiburg,Eintracht Frankfurt,3,3,1,g_1_hlYIXKTc,2.49,3.46,2.94,2.57,1.13
+football,Bundesliga 2023 2024,Round 22,18/02/,RB Leipzig,B. Monchengladbach,2,0,0,g_1_bRYEY0Ei,1.37,5.6,8.4,1.62,0.59
+football,Bundesliga 2023 2024,Round 22,17/02/,Darmstadt,Stuttgart,1,2,2,g_1_hlAANz6j,6.85,4.86,1.47,3.11,2.27
+football,Bundesliga 2023 2024,Round 22,17/02/,Heidenheim,Bayer Leverkusen,1,2,2,g_1_vo66OGjp,7.93,5.38,1.39,0.83,2.18
+football,Bundesliga 2023 2024,Round 22,17/02/,Hoffenheim,Union Berlin,0,1,2,g_1_fDUZTxTM,1.94,3.73,4.02,1.08,1.42
+football,Bundesliga 2023 2024,Round 22,17/02/,Mainz,Augsburg,1,0,0,g_1_nmRRVbbA,1.98,3.67,3.96,3.07,0.8
+football,Bundesliga 2023 2024,Round 22,17/02/,Wolfsburg,Dortmund,1,1,1,g_1_4OyNWvq4,3.47,4.04,2.02,2.13,1.46
+football,Bundesliga 2023 2024,Round 22,17/02/,FC Koln,Werder Bremen,0,1,2,g_1_QwQVUIDG,2.42,3.41,3.09,0.55,1.87
+football,Bundesliga 2023 2024,Round 21,12/02/,Hoffenheim,FC Koln,1,1,1,g_1_pKIbWAXN,1.74,3.88,5.0,0.8,0.17
+football,Bundesliga 2023 2024,Round 21,11/02/,Stuttgart,Mainz,3,1,0,g_1_KzzBZtao,1.49,4.5,7.26,1.7,1.75
+football,Bundesliga 2023 2024,Round 21,11/02/,Bayer Leverkusen,Bayern Munich,3,0,0,g_1_A1QoZCm5,2.48,3.63,2.84,1.76,0.27
+football,Bundesliga 2023 2024,Round 21,10/02/,Augsburg,RB Leipzig,2,2,1,g_1_tj4UQleo,4.47,4.34,1.74,0.91,1.76
+football,Bundesliga 2023 2024,Round 21,10/02/,B. Monchengladbach,Darmstadt,0,0,1,g_1_WGEfXjIH,1.66,4.38,4.94,2.14,0.64
+football,Bundesliga 2023 2024,Round 21,10/02/,Eintracht Frankfurt,Bochum,1,1,1,g_1_lhPkYW2B,1.78,3.86,4.77,2.09,0.98
+football,Bundesliga 2023 2024,Round 21,10/02/,Union Berlin,Wolfsburg,1,0,0,g_1_2yRszgYb,2.37,3.39,3.19,0.5,1.24
+football,Bundesliga 2023 2024,Round 21,10/02/,Werder Bremen,Heidenheim,1,2,2,g_1_vsI2VUnU,1.86,3.86,4.26,2.01,2.36
+football,Bundesliga 2023 2024,Round 21,10/02/,Dortmund,Freiburg,3,0,0,g_1_OpSwyZIh,1.5,5.2,5.92,2.39,0.25
+football,Bundesliga 2023 2024,Round 18,08/02/,Mainz,Union Berlin,1,1,1,g_1_Uk326ND1,2.1,3.49,3.75,1.78,0.94
+football,Bundesliga 2023 2024,Round 20,05/02/,RB Leipzig,Union Berlin,2,0,0,g_1_OWn5MZ3a,1.38,5.55,7.83,1.56,0.55
+football,Bundesliga 2023 2024,Round 20,04/02/,Wolfsburg,Hoffenheim,2,2,1,g_1_Gv5CKDYB,2.15,3.84,3.28,1.73,1.82
+football,Bundesliga 2023 2024,Round 20,04/02/,FC Koln,Eintracht Frankfurt2,2,0,0,g_1_C6bLIi3O,2.91,3.31,2.6,1.61,0.97
+football,Bundesliga 2023 2024,Round 20,03/02/,Bayern Munich,B. Monchengladbach,3,1,0,g_1_t8c0NFlg,1.15,10.6,14.2,2.07,0.72
+football,Bundesliga 2023 2024,Round 20,03/02/,Bochum,Augsburg,1,1,1,g_1_jccPHBIU,2.34,3.47,3.16,0.99,1.69
+football,Bundesliga 2023 2024,Round 20,03/02/,Darmstadt,Bayer Leverkusen,0,2,2,g_1_tMxZyF3n,10.1,5.94,1.31,0.33,1.88
+football,Bundesliga 2023 2024,Round 20,03/02/,Freiburg,Stuttgart,1,3,2,g_1_MH58LgJ5,3.37,3.57,2.2,0.57,1.84
+football,Bundesliga 2023 2024,Round 20,03/02/,Mainz,Werder Bremen,0,1,2,g_1_fV3GJXmI,2.07,3.56,3.75,1.24,0.72
+football,Bundesliga 2023 2024,Round 20,03/02/,Heidenheim,Dortmund,0,0,1,g_1_SIYUxelt,3.39,4.57,1.94,1.1,0.91
+football,Bundesliga 2023 2024,Round 19,29/01/,Dortmund,Bochum,3,1,0,g_1_OABU9dKg,1.38,5.64,7.64,2.5,0.5
+football,Bundesliga 2023 2024,Round 19,28/01/,Union Berlin,Darmstadt,1,0,0,g_1_21AY8GZa,1.74,3.84,5.08,3.33,1.42
+football,Bundesliga 2023 2024,Round 19,28/01/,Bayer Leverkusen,B. Monchengladbach,0,0,1,g_1_rDRV7zk6,1.26,6.79,11.7,2.87,0.21
+football,Bundesliga 2023 2024,Round 19,27/01/,Augsburg,Bayern Munich,2,3,2,g_1_YsfhPyKt,9.12,6.16,1.32,2.41,2.79
+football,Bundesliga 2023 2024,Round 19,27/01/,Hoffenheim,Heidenheim,1,1,1,g_1_UTTs5YYO,1.69,4.27,4.87,2.8,1.15
+football,Bundesliga 2023 2024,Round 19,27/01/,Stuttgart,RB Leipzig,5,2,0,g_1_2HbdOeZn,2.77,3.8,2.46,2.8,0.49
+football,Bundesliga 2023 2024,Round 19,27/01/,Werder Bremen,Freiburg,3,1,0,g_1_WY7QTHBP,2.34,3.48,3.16,2.4,1.28
+football,Bundesliga 2023 2024,Round 19,27/01/,Wolfsburg,FC Koln,1,1,1,g_1_GQPw6EJI,1.7,4.07,5.14,2.25,0.42
+football,Bundesliga 2023 2024,Round 19,27/01/,Eintracht Frankfurt,Mainz,1,0,0,g_1_M3QZ6f4C,2.14,3.37,3.77,1.81,0.69
+football,Bundesliga 2023 2024,Round 13,25/01/,Bayern Munich,Union Berlin,1,0,0,g_1_2a11q3AJ,1.14,9.36,20.0,2.83,0.51
+football,Bundesliga 2023 2024,Round 18,22/01/,B. Monchengladbach,Augsburg,1,2,2,g_1_8t265sT7,1.8,4.1,4.36,2.33,1.61
+football,Bundesliga 2023 2024,Round 18,21/01/,Bayern Munich,Werder Bremen,0,1,2,g_1_tUAk9PTr,1.1,12.1,25.0,1.48,0.5
+football,Bundesliga 2023 2024,Round 18,21/01/,RB Leipzig,Bayer Leverkusen,2,3,2,g_1_ziAg8qqk,2.62,4.08,2.48,1.12,2.81
+football,Bundesliga 2023 2024,Round 18,20/01/,Bochum,Stuttgart,1,0,0,g_1_zmfhTpLE,4.36,4.1,1.8,0.81,2.04
+football,Bundesliga 2023 2024,Round 18,20/01/,Darmstadt,Eintracht Frankfurt,2,2,1,g_1_UmCQAx5m,3.92,3.69,1.98,1.25,1.26
+football,Bundesliga 2023 2024,Round 18,20/01/,FC Koln,Dortmund,0,4,2,g_1_ddelUQ58,4.05,4.14,1.84,1.22,3.08
+football,Bundesliga 2023 2024,Round 18,20/01/,Freiburg,Hoffenheim,3,2,0,g_1_nRDc73be,1.92,4.07,3.79,2.2,1.77
+football,Bundesliga 2023 2024,Round 18,20/01/,Heidenheim,Wolfsburg,1,1,1,g_1_Gp8MBIks,2.83,3.44,2.58,0.88,1.19
+football,Bundesliga 2023 2024,Round 17,15/01/,B. Monchengladbach,Stuttgart,3,1,0,g_1_zTR6HmM2,3.62,3.88,2.01,2.11,0.81
+football,Bundesliga 2023 2024,Round 17,14/01/,Bochum,Werder Bremen,1,1,1,g_1_rgVEFRjF,2.25,3.71,3.16,0.75,0.96
+football,Bundesliga 2023 2024,Round 17,14/01/,Darmstadt,Dortmund,0,3,2,g_1_vLOND5LR,4.62,4.45,1.7,0.51,2.83
+football,Bundesliga 2023 2024,Round 17,13/01/,Augsburg,Bayer Leverkusen,0,1,2,g_1_MqUIEo6L,5.85,4.92,1.53,0.13,2.61
+football,Bundesliga 2023 2024,Round 17,13/01/,FC Koln,Heidenheim,1,1,1,g_1_lWVAG7y9,2.03,3.65,3.8,0.97,1.18
+football,Bundesliga 2023 2024,Round 17,13/01/,Freiburg,Union Berlin,0,0,1,g_1_fXlKgpUe,2.06,3.35,4.05,1.61,0.36
+football,Bundesliga 2023 2024,Round 17,13/01/,Mainz,Wolfsburg,1,1,1,g_1_YNmOh4q2,2.12,3.49,3.68,0.56,0.54
+football,Bundesliga 2023 2024,Round 17,13/01/,RB Leipzig,Eintracht Frankfurt,0,1,2,g_1_0dzHfQEk,1.42,4.87,8.19,3.07,0.81
+football,Bundesliga 2023 2024,Round 17,13/01/,Bayern Munich,Hoffenheim,3,0,0,g_1_M5yDe6aq,1.14,10.3,18.4,2.31,1.45
+football,Bundesliga 2023 2024,Round 16,21/12/,Bayer Leverkusen,Bochum,4,0,0,g_1_KxFstRad,1.24,7.2,12.0,3.82,0.41
+football,Bundesliga 2023 2024,Round 16,21/12/,Eintracht Frankfurt,B. Monchengladbach,2,1,0,g_1_Yu3P4Axc,1.7,4.31,4.78,1.64,0.31
+football,Bundesliga 2023 2024,Round 16,21/12/,Heidenheim,Freiburg,3,2,0,g_1_GObp0niS,3.17,3.57,2.3,1.83,1.79
+football,Bundesliga 2023 2024,Round 16,21/12/,Stuttgart,Augsburg,3,0,0,g_1_2Lft1SyM,1.42,5.38,7.25,2.97,0.5
+football,Bundesliga 2023 2024,Round 16,21/12/,Wolfsburg,Bayern Munich,1,2,2,g_1_CW1T3Ui3,6.01,5.08,1.5,0.34,2.49
+football,Bundesliga 2023 2024,Round 16,21/12/,Union Berlin,FC Koln,2,0,0,g_1_82Bws7pj,1.8,3.89,4.58,1.48,0.92
+football,Bundesliga 2023 2024,Round 16,20/12/,Dortmund,Mainz,1,1,1,g_1_QwMYsmVq,1.57,4.87,5.3,1.35,1.12
+football,Bundesliga 2023 2024,Round 16,20/12/,Hoffenheim,Darmstadt,3,3,1,g_1_U7dY2l79,1.5,4.84,6.24,3.93,0.82
+football,Bundesliga 2023 2024,Round 16,20/12/,Werder Bremen,RB Leipzig,1,1,1,g_1_8bex28MF,5.77,4.65,1.56,0.85,2.69
+football,Bundesliga 2023 2024,Round 15,18/12/,Bayern Munich,Stuttgart,3,0,0,g_1_8tz3UT0p,1.53,5.36,5.27,2.88,0.18
+football,Bundesliga 2023 2024,Round 15,18/12/,Bayer Leverkusen,Eintracht Frankfurt,3,0,0,g_1_QFwnii8c,1.29,6.49,9.92,2.84,0.22
+football,Bundesliga 2023 2024,Round 15,17/12/,Freiburg,FC Koln,2,0,0,g_1_nPvrhXhi,1.9,3.69,4.3,4.59,1.04
+football,Bundesliga 2023 2024,Round 15,17/12/,RB Leipzig,Hoffenheim,3,1,0,g_1_nXY6TmGj,1.36,5.85,8.14,3.57,1.02
+football,Bundesliga 2023 2024,Round 15,16/12/,Augsburg,Dortmund,1,1,1,g_1_feV2m97M,3.32,4.11,2.06,2.42,3.11
+football,Bundesliga 2023 2024,Round 15,16/12/,Bochum,Union Berlin,3,0,0,g_1_G4WblkhG,2.77,3.49,2.61,3.49,1.04
+football,Bundesliga 2023 2024,Round 15,16/12/,Darmstadt,Wolfsburg,0,1,2,g_1_OUZ6nTMS,4.09,3.84,1.9,0.71,0.78
+football,Bundesliga 2023 2024,Round 15,16/12/,Mainz,Heidenheim,0,1,2,g_1_KxwjjBN3,1.73,4.27,4.58,1.43,0.41
+football,Bundesliga 2023 2024,Round 15,16/12/,B. Monchengladbach,Werder Bremen,2,2,1,g_1_YusfkVxA,2.08,3.91,3.4,1.26,2.05
+football,Bundesliga 2023 2024,Round 14,11/12/,FC Koln,Mainz,0,0,1,g_1_n9jKxhg4,2.53,3.57,2.82,0.51,2.14
+football,Bundesliga 2023 2024,Round 14,10/12/,Stuttgart,Bayer Leverkusen,1,1,1,g_1_xbqXZkwN,3.16,3.58,2.3,3.1,3.22
+football,Bundesliga 2023 2024,Round 14,10/12/,Dortmund,RB Leipzig,2,3,2,g_1_E5eQGAWp,2.65,4.08,2.45,2.05,2.7
+football,Bundesliga 2023 2024,Round 14,09/12/,Eintracht Frankfurt,Bayern Munich,5,1,0,g_1_Qg2BvEOi,8.69,6.13,1.33,1.61,1.97
+football,Bundesliga 2023 2024,Round 14,09/12/,Heidenheim,Darmstadt,3,2,0,g_1_j1myZ9hT,1.85,3.89,4.3,1.88,1.25
+football,Bundesliga 2023 2024,Round 14,09/12/,Union Berlin,B. Monchengladbach,3,1,0,g_1_S8q8uf9o,2.18,3.5,3.49,2.83,1.17
+football,Bundesliga 2023 2024,Round 14,09/12/,Werder Bremen,Augsburg,2,0,0,g_1_fZgSzWNG,2.35,3.84,2.9,1.17,0.65
+football,Bundesliga 2023 2024,Round 14,09/12/,Wolfsburg,Freiburg,0,1,2,g_1_8IiGwYwb,2.2,3.68,3.28,1.62,1.26
+football,Bundesliga 2023 2024,Round 14,09/12/,Hoffenheim,Bochum,3,1,0,g_1_GreOyC8A,1.82,3.95,4.37,1.99,1.57
+football,Bundesliga 2023 2024,Round 13,04/12/,Augsburg,Eintracht Frankfurt,2,1,0,g_1_tEvlzaX5,2.82,3.57,2.53,1.75,1.09
+football,Bundesliga 2023 2024,Round 13,04/12/,Bayer Leverkusen,Dortmund,1,1,1,g_1_CYnXwsYt,1.63,4.57,5.08,2.33,0.94
+football,Bundesliga 2023 2024,Round 13,03/12/,Mainz,Freiburg,0,1,2,g_1_jPoyw1mm,2.36,3.5,3.11,2.69,1.41
+football,Bundesliga 2023 2024,Round 13,03/12/,Stuttgart,Werder Bremen,2,0,0,g_1_K4whZInC,1.34,6.05,8.22,3.91,0.68
+football,Bundesliga 2023 2024,Round 13,02/12/,B. Monchengladbach,Hoffenheim,2,1,0,g_1_YmytxL2g,2.12,4.11,3.17,1.82,1.26
+football,Bundesliga 2023 2024,Round 13,02/12/,Bochum,Wolfsburg,3,1,0,g_1_niupyuIa,2.82,3.57,2.53,2.13,1.26
+football,Bundesliga 2023 2024,Round 13,02/12/,RB Leipzig,Heidenheim,2,1,0,g_1_tj05rNPP,1.22,7.69,12.3,4.14,1.29
+football,Bundesliga 2023 2024,Round 13,02/12/,Darmstadt,FC Koln,0,1,2,g_1_xtYdYx2I,2.95,3.34,2.55,0.79,1.77
+football,Bundesliga 2023 2024,Round 12,27/11/,Hoffenheim,Mainz,1,1,1,g_1_hUJAMu36,1.86,3.93,4.18,1.49,1.96
+football,Bundesliga 2023 2024,Round 12,26/11/,Heidenheim,Bochum,0,0,1,g_1_0fNIKJXI,2.3,3.57,3.17,1.01,0.39
+football,Bundesliga 2023 2024,Round 12,26/11/,Eintracht Frankfurt,Stuttgart,1,2,2,g_1_IBRcPsJm,2.86,3.57,2.5,0.79,2.03
+football,Bundesliga 2023 2024,Round 12,25/11/,Dortmund,B. Monchengladbach,4,2,0,g_1_6XoNVqtK,1.55,5.14,5.65,3.09,1.05
+football,Bundesliga 2023 2024,Round 12,25/11/,Freiburg,Darmstadt,1,1,1,g_1_OlSgQN3s,1.6,4.53,5.96,1.86,0.48
+football,Bundesliga 2023 2024,Round 12,25/11/,Union Berlin,Augsburg,1,1,1,g_1_ldySU3eQ,2.07,3.66,3.87,2.32,1.48
+football,Bundesliga 2023 2024,Round 12,25/11/,Werder Bremen,Bayer Leverkusen,0,3,2,g_1_niJELaIC,6.68,5.24,1.48,0.31,1.11
+football,Bundesliga 2023 2024,Round 12,25/11/,Wolfsburg,RB Leipzig,2,1,0,g_1_d2Q1O1Yg,3.86,4.01,1.97,0.86,3.72
+football,Bundesliga 2023 2024,Round 12,25/11/,FC Koln,Bayern Munich,0,1,2,g_1_EwL6NLm0,12.2,7.38,1.25,0.47,3.13
+football,Bundesliga 2023 2024,Round 11,13/11/,RB Leipzig,Freiburg,3,1,0,g_1_tGqdHpRQ,1.51,4.87,6.17,1.79,0.58
+football,Bundesliga 2023 2024,Round 11,13/11/,Werder Bremen,Eintracht Frankfurt,2,2,1,g_1_481OAr4f,3.04,3.57,2.38,1.85,2.47
+football,Bundesliga 2023 2024,Round 11,12/11/,Bayer Leverkusen,Union Berlin,4,0,0,g_1_Wf3GC4Zs,1.4,5.38,7.69,2.51,0.07
+football,Bundesliga 2023 2024,Round 11,12/11/,Bochum,FC Koln,1,1,1,g_1_IB5S92J0,0.0,0.0,0.0,3.64,0.87
+football,Bundesliga 2023 2024,Round 11,11/11/,Augsburg,Hoffenheim,1,1,1,g_1_0zeX8MY6,2.46,4.05,2.77,1.41,1.29
+football,Bundesliga 2023 2024,Round 11,11/11/,Bayern Munich,Heidenheim,4,2,0,g_1_2PphIQBK,1.08,17.0,34.0,2.28,1.35
+football,Bundesliga 2023 2024,Round 11,11/11/,Darmstadt,Mainz,0,0,1,g_1_StmJWPQD,3.22,3.6,2.35,0.63,0.74
+football,Bundesliga 2023 2024,Round 11,11/11/,Stuttgart,Dortmund,2,1,0,g_1_vRgy8tlD,2.47,4.11,2.73,4.39,1.12
+football,Bundesliga 2023 2024,Round 11,11/11/,B. Monchengladbach,Wolfsburg,4,0,0,g_1_Ao2KBOll,2.41,3.93,2.9,1.98,0.61
+football,Bundesliga 2023 2024,Round 10,06/11/,Heidenheim,Stuttgart,2,0,0,g_1_faspKns8,5.6,4.41,1.6,2.01,2.92
+football,Bundesliga 2023 2024,Round 10,05/11/,Wolfsburg,Werder Bremen,2,2,1,g_1_4AEiEdgk,1.7,4.44,4.58,2.03,1.71
+football,Bundesliga 2023 2024,Round 10,05/11/,Dortmund,Bayern Munich,0,4,2,g_1_hWYGKbGL,4.08,4.42,1.78,1.08,3.73
+football,Bundesliga 2023 2024,Round 10,04/11/,FC Koln,Augsburg,1,1,1,g_1_CzIaCzO1,2.13,3.91,3.45,2.62,2.08
+football,Bundesliga 2023 2024,Round 10,04/11/,Freiburg,B. Monchengladbach,3,3,1,g_1_MoPnFxvq,2.12,3.96,3.44,4.38,1.69
+football,Bundesliga 2023 2024,Round 10,04/11/,Hoffenheim,Bayer Leverkusen,2,3,2,g_1_jRG3Bfw8,5.45,4.99,1.58,1.82,1.46
+football,Bundesliga 2023 2024,Round 10,04/11/,Mainz,RB Leipzig,2,0,0,g_1_r1DeDG8e,5.06,4.44,1.69,1.53,0.44
+football,Bundesliga 2023 2024,Round 10,04/11/,Union Berlin,Eintracht Frankfurt,0,3,2,g_1_ngYKJIVR,2.54,3.31,3.13,0.51,1.49
+football,Bundesliga 2023 2024,Round 10,04/11/,Darmstadt,Bochum,1,2,2,g_1_82olJ6dE,2.37,3.6,3.17,0.94,0.86
+football,Bundesliga 2023 2024,Round 9,30/10/,Bayer Leverkusen,Freiburg,2,1,0,g_1_Ui091J9q,1.26,7.48,10.1,2.49,0.94
+football,Bundesliga 2023 2024,Round 9,29/10/,Eintracht Frankfurt,Dortmund,3,3,1,g_1_8raD0wPk,3.55,3.46,2.17,2.92,1.87
+football,Bundesliga 2023 2024,Round 9,29/10/,RB Leipzig,FC Koln,6,0,0,g_1_OhxtJouH,1.49,4.55,7.15,3.75,0.77
+football,Bundesliga 2023 2024,Round 9,28/10/,Augsburg,Wolfsburg,3,2,0,g_1_d4u8MKo9,2.64,3.66,2.64,1.48,1.19
+football,Bundesliga 2023 2024,Round 9,28/10/,B. Monchengladbach,Heidenheim,2,1,0,g_1_j7lIacvd,1.7,4.16,4.98,0.78,0.47
+football,Bundesliga 2023 2024,Round 9,28/10/,Bayern Munich,Darmstadt2,8,0,0,g_1_p2wxKRPA,1.07,16.1,31.0,5.81,0.69
+football,Bundesliga 2023 2024,Round 9,28/10/,Stuttgart,Hoffenheim,2,3,2,g_1_EuzDLv1F,1.66,4.3,5.17,3.61,1.75
+football,Bundesliga 2023 2024,Round 9,28/10/,Werder Bremen,Union Berlin,2,0,0,g_1_4AhMbHg2,3.1,3.38,2.43,0.64,0.42
+football,Bundesliga 2023 2024,Round 9,28/10/,Bochum,Mainz,2,2,1,g_1_IDt4N0W2,2.79,3.76,2.56,1.65,0.38
+football,Bundesliga 2023 2024,Round 8,23/10/,Heidenheim,Augsburg,2,5,2,g_1_lzpTLmeb,2.43,3.61,2.92,3.13,3.29
+football,Bundesliga 2023 2024,Round 8,22/10/,FC Koln,B. Monchengladbach,3,1,0,g_1_GMoLN9Qo,2.57,3.81,2.64,1.74,0.11
+football,Bundesliga 2023 2024,Round 8,22/10/,Mainz,Bayern Munich,1,3,2,g_1_v52xaQmo,9.51,6.31,1.3,1.09,1.36
+football,Bundesliga 2023 2024,Round 8,21/10/,Darmstadt,RB Leipzig,1,3,2,g_1_2wlXK7A4,6.24,4.84,1.5,1.87,2.53
+football,Bundesliga 2023 2024,Round 8,21/10/,Freiburg,Bochum,2,1,0,g_1_rZG64nQN,1.78,3.74,4.98,2.49,1.66
+football,Bundesliga 2023 2024,Round 8,21/10/,Hoffenheim,Eintracht Frankfurt,1,3,2,g_1_fDpPMTuh,2.1,3.54,3.68,1.25,2.71
+football,Bundesliga 2023 2024,Round 8,21/10/,Union Berlin,Stuttgart,0,3,2,g_1_plb35SAH,2.7,3.33,2.78,1.19,1.63
+football,Bundesliga 2023 2024,Round 8,21/10/,Wolfsburg,Bayer Leverkusen,1,2,2,g_1_xdGA36uU,4.57,4.3,1.73,1.59,1.49
+football,Bundesliga 2023 2024,Round 8,21/10/,Dortmund,Werder Bremen,1,0,0,g_1_2P8b68eB,1.3,6.61,9.2,2.71,0.44
+football,Bundesliga 2023 2024,Round 7,09/10/,Eintracht Frankfurt,Heidenheim,2,0,0,g_1_KtDwBWtt,1.75,3.89,4.91,1.9,0.86
+football,Bundesliga 2023 2024,Round 7,09/10/,Bayern Munich,Freiburg,3,0,0,g_1_pSMShkRB,1.13,10.5,21.0,2.5,0.08
+football,Bundesliga 2023 2024,Round 7,08/10/,Bayer Leverkusen,FC Koln,3,0,0,g_1_rLyYkmBU,1.29,6.08,11.0,4.02,1.5
+football,Bundesliga 2023 2024,Round 7,08/10/,Werder Bremen,Hoffenheim,2,3,2,g_1_G86n9ABh,2.8,3.71,2.48,0.94,1.79
+football,Bundesliga 2023 2024,Round 7,07/10/,Augsburg,Darmstadt,1,2,2,g_1_fa5j8UQb,1.78,3.8,4.85,0.0,0.0
+football,Bundesliga 2023 2024,Round 7,07/10/,Dortmund,Union Berlin,4,2,0,g_1_OILWi9tI,1.7,4.11,4.98,0.0,0.0
+football,Bundesliga 2023 2024,Round 7,07/10/,RB Leipzig,Bochum,0,0,1,g_1_4UxUjTeO,1.3,6.17,9.84,0.0,0.0
+football,Bundesliga 2023 2024,Round 7,07/10/,Stuttgart,Wolfsburg,3,1,0,g_1_OY9f7lt5,1.91,3.6,4.37,0.0,0.0
+football,Bundesliga 2023 2024,Round 7,07/10/,B. Monchengladbach,Mainz,2,2,1,g_1_YqHsAjdn,2.14,3.68,3.41,2.24,1.06
+football,Bundesliga 2023 2024,Round 6,02/10/,Freiburg,Augsburg,2,0,0,g_1_WOdgvjCI,1.81,3.78,4.69,1.09,1.58
+football,Bundesliga 2023 2024,Round 6,01/10/,Darmstadt,Werder Bremen,4,2,0,g_1_j5NOgVB5,3.04,3.95,2.23,2.31,1.76
+football,Bundesliga 2023 2024,Round 6,01/10/,RB Leipzig,Bayern Munich,2,2,1,g_1_x2ckuWdC,4.34,4.59,1.72,0.94,1.85
+football,Bundesliga 2023 2024,Round 6,30/09/,Bochum,B. Monchengladbach,1,3,2,g_1_fwUFeisg,2.38,3.65,2.97,1.95,2.62
+football,Bundesliga 2023 2024,Round 6,30/09/,FC Koln,Stuttgart,0,2,2,g_1_nDQ7cDCt,2.98,3.58,2.41,1.38,2.61
+football,Bundesliga 2023 2024,Round 6,30/09/,Heidenheim,Union Berlin,1,0,0,g_1_x2JKfBda,3.37,3.57,2.2,0.51,2.43
+football,Bundesliga 2023 2024,Round 6,30/09/,Mainz,Bayer Leverkusen,0,3,2,g_1_p4vt2g4P,5.62,4.53,1.58,0.69,0.88
+football,Bundesliga 2023 2024,Round 6,30/09/,Wolfsburg,Eintracht Frankfurt,2,0,0,g_1_ra0cwARO,2.05,3.62,3.75,3.84,1.29
+football,Bundesliga 2023 2024,Round 6,30/09/,Hoffenheim,Dortmund,1,3,2,g_1_GnVBdXRn,3.28,4.07,2.09,2.1,1.85
+football,Bundesliga 2023 2024,Round 5,25/09/,Eintracht Frankfurt,Freiburg,0,0,1,g_1_fJ1Uqfrs,2.18,3.5,3.5,0.95,0.6
+football,Bundesliga 2023 2024,Round 5,24/09/,Bayer Leverkusen,Heidenheim,4,1,0,g_1_lxP1lzzQ,1.23,7.1,13.3,3.48,0.1
+football,Bundesliga 2023 2024,Round 5,24/09/,Werder Bremen,FC Koln,2,1,0,g_1_2q5xrYCg,2.49,3.79,2.86,1.87,1.62
+football,Bundesliga 2023 2024,Round 5,23/09/,Augsburg,Mainz,2,1,0,g_1_tz4tshSa,2.74,3.49,2.64,1.19,0.72
+football,Bundesliga 2023 2024,Round 5,23/09/,B. Monchengladbach,RB Leipzig,0,1,2,g_1_8M5YrEcm,4.77,4.49,1.67,0.83,0.92
+football,Bundesliga 2023 2024,Round 5,23/09/,Bayern Munich,Bochum,7,0,0,g_1_IwOCRCSC,1.14,10.1,19.0,5.22,0.14
+football,Bundesliga 2023 2024,Round 5,23/09/,Dortmund,Wolfsburg,1,0,0,g_1_dUMGQWsJ,1.71,4.27,4.68,1.75,0.47
+football,Bundesliga 2023 2024,Round 5,23/09/,Union Berlin,Hoffenheim,0,2,2,g_1_AoQckGKJ,2.05,3.73,3.64,1.89,2.19
+football,Bundesliga 2023 2024,Round 5,23/09/,Stuttgart,Darmstadt,3,1,0,g_1_bBbotCs6,1.38,5.03,9.01,2.54,0.15
+football,Bundesliga 2023 2024,Round 4,18/09/,Darmstadt,B. Monchengladbach,3,3,1,g_1_zFY7ShD6,2.55,3.57,2.79,1.35,3.69
+football,Bundesliga 2023 2024,Round 4,17/09/,Heidenheim,Werder Bremen,4,2,0,g_1_MBU3TYc0,2.41,4.08,2.7,2.17,2.74
+football,Bundesliga 2023 2024,Round 4,17/09/,Bochum,Eintracht Frankfurt,1,1,1,g_1_SlVaUErf,3.07,3.47,2.4,2.0,0.98
+football,Bundesliga 2023 2024,Round 4,16/09/,FC Koln,Hoffenheim,1,3,2,g_1_lbWeVfTm,2.2,3.83,3.17,0.86,1.06
+football,Bundesliga 2023 2024,Round 4,16/09/,Freiburg,Dortmund,2,4,2,g_1_0zFJlqU8,3.14,3.82,2.22,0.98,1.86
+football,Bundesliga 2023 2024,Round 4,16/09/,Mainz,Stuttgart,1,3,2,g_1_WMyiWzEs,2.69,3.49,2.69,1.35,2.16
+football,Bundesliga 2023 2024,Round 4,16/09/,RB Leipzig,Augsburg,3,0,0,g_1_l0BFkPE2,1.3,6.61,9.2,0.81,2.71
+football,Bundesliga 2023 2024,Round 4,16/09/,Wolfsburg,Union Berlin,2,1,0,g_1_fcENm3qF,2.23,3.38,3.48,0.53,2.11
+football,Bundesliga 2023 2024,Round 4,16/09/,Bayern Munich,Bayer Leverkusen,2,2,1,g_1_neXWQux2,1.59,4.82,5.13,2.62,1.83
+football,Bundesliga 2023 2024,Round 3,04/09/,Union Berlin,RB Leipzig,0,3,2,g_1_SUYrx6p3,3.6,3.6,2.1,0.31,0.88
+football,Bundesliga 2023 2024,Round 3,03/09/,Eintracht Frankfurt,FC Koln,1,1,1,g_1_nXlpzpFF,2.35,3.54,3.25,1.29,0.92
+football,Bundesliga 2023 2024,Round 3,03/09/,B. Monchengladbach,Bayern Munich,1,2,2,g_1_tfllZ3UL,9.36,6.69,1.29,0.45,2.21
+football,Bundesliga 2023 2024,Round 3,02/09/,Augsburg,Bochum,2,2,1,g_1_vVTOS17k,2.14,3.65,3.45,2.63,1.49
+football,Bundesliga 2023 2024,Round 3,02/09/,Bayer Leverkusen,Darmstadt,5,1,0,g_1_8tjtyQa9,1.24,7.0,12.6,3.48,0.95
+football,Bundesliga 2023 2024,Round 3,02/09/,Hoffenheim,Wolfsburg,3,1,0,g_1_fchhYNqS,2.73,3.85,2.47,1.97,1.72
+football,Bundesliga 2023 2024,Round 3,02/09/,Stuttgart,Freiburg,5,0,0,g_1_84YSRLMe,2.42,3.57,2.96,2.56,1.14
+football,Bundesliga 2023 2024,Round 3,02/09/,Werder Bremen,Mainz,4,0,0,g_1_0vVKTshq,2.86,3.51,2.53,3.19,0.97
+football,Bundesliga 2023 2024,Round 3,02/09/,Dortmund,Heidenheim,2,2,1,g_1_lvzuwnVd,1.26,7.21,9.86,2.92,2.72
+football,Bundesliga 2023 2024,Round 2,28/08/,Bayern Munich,Augsburg,3,1,0,g_1_f3e2PS0c,1.1,13.4,21.0,2.83,0.92
+football,Bundesliga 2023 2024,Round 2,27/08/,Mainz,Eintracht Frankfurt,1,1,1,g_1_UZ2EMQpG,2.72,3.39,2.72,1.36,1.61
+football,Bundesliga 2023 2024,Round 2,27/08/,B. Monchengladbach,Bayer Leverkusen,0,3,2,g_1_8Q1ILp0M,4.58,3.89,1.8,0.72,3.09
+football,Bundesliga 2023 2024,Round 2,26/08/,Bochum,Dortmund,1,1,1,g_1_v9hlGONq,5.57,4.81,1.55,0.99,1.51
+football,Bundesliga 2023 2024,Round 2,26/08/,Darmstadt,Union Berlin,1,4,2,g_1_zyncE2hd,4.19,3.49,1.98,2.49,1.89
+football,Bundesliga 2023 2024,Round 2,26/08/,FC Koln,Wolfsburg,1,2,2,g_1_x06MK4FS,2.23,3.58,3.29,0.99,1.72
+football,Bundesliga 2023 2024,Round 2,26/08/,Freiburg,Werder Bremen,1,0,0,g_1_nBD9N6V9,1.71,4.08,4.99,2.62,1.16
+football,Bundesliga 2023 2024,Round 2,26/08/,Heidenheim,Hoffenheim,2,3,2,g_1_MXsgFrwj,3.37,3.83,2.11,2.49,3.31
+football,Bundesliga 2023 2024,Round 2,26/08/,RB Leipzig,Stuttgart,5,1,0,g_1_lQf6OnG3,1.61,4.44,5.51,2.69,1.02
+football,Bundesliga 2023 2024,Round 1,21/08/,Eintracht Frankfurt,Darmstadt,1,0,0,g_1_8nBkcAH4,1.48,5.16,6.31,1.69,1.04
+football,Bundesliga 2023 2024,Round 1,20/08/,Union Berlin,Mainz,4,1,0,g_1_nXMtaWnh,2.05,3.46,3.93,1.88,2.48
+football,Bundesliga 2023 2024,Round 1,20/08/,Dortmund,FC Koln,1,0,0,g_1_IcIx0CXo,1.46,5.12,6.54,1.28,1.01
+football,Bundesliga 2023 2024,Round 1,19/08/,Augsburg,B. Monchengladbach,4,4,1,g_1_hzD1f81N,2.84,3.87,2.47,2.39,1.95
+football,Bundesliga 2023 2024,Round 1,19/08/,Bayer Leverkusen,RB Leipzig,3,2,0,g_1_QNLpbj2b,2.46,3.73,2.94,1.39,1.57
+football,Bundesliga 2023 2024,Round 1,19/08/,Hoffenheim,Freiburg,1,2,2,g_1_EqEcelnH,2.29,3.87,3.13,2.08,2.49
+football,Bundesliga 2023 2024,Round 1,19/08/,Stuttgart,Bochum,5,0,0,g_1_AB76gSGT,1.85,4.14,4.29,3.33,0.63
+football,Bundesliga 2023 2024,Round 1,19/08/,Wolfsburg,Heidenheim,2,0,0,g_1_KMEgdUWA,1.69,4.4,5.12,3.24,1.29
+football,Bundesliga 2023 2024,Round 1,19/08/,Werder Bremen,Bayern Munich,0,4,2,g_1_v7JY0hIu,9.34,6.13,1.32,0.57,2.62

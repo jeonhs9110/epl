@@ -1,0 +1,419 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Championship,Round 19,06/12/,Charlton,Portsmouth,0,0,1,,,,,,
+football,Championship,Round 29,27/01/,Norwich,Coventry,2,1,0,3.38,3.72,2.15,g_1_hMm97a4m,1.18,1.91
+football,Championship,Round 30,01/02/,Blackburn,Hull,0,1,2,2.37,3.43,3.17,g_1_URrY1eYO,0.5,1.54
+football,Championship,Round 30,01/02/,Ipswich,Preston,1,1,1,1.41,5.03,8.07,g_1_vwCjKxlg,2.79,1.19
+football,Championship,Round 30,01/02/,Middlesbrough,Norwich,1,0,0,1.76,4.24,4.43,g_1_rV87GfmI,0.5,0.53
+football,Championship,Round 30,01/02/,Millwall,Sheffield Utd,1,1,1,2.47,3.36,3.05,g_1_2JLubnXj,1.44,1.22
+football,Championship,Round 30,01/02/,Oxford Utd,Birmingham,0,2,2,3.71,3.61,2.06,g_1_fRNQLkPc,0.47,1.14
+football,Championship,Round 30,01/02/,Portsmouth,West Brom,3,0,0,2.96,3.09,2.7,g_1_jgHZJTgA,2.57,0.09
+football,Championship,Round 30,01/02/,QPR,Coventry,2,1,0,4.05,3.74,1.94,g_1_O6FsI7OM,1.14,0.59
+football,Championship,Round 30,01/02/,Watford,Swansea,0,2,2,2.21,3.34,3.59,g_1_Wj5XzNdL,0.91,2.64
+football,Championship,Round 30,31/01/,Leicester,Charlton,0,2,2,1.9,3.47,4.65,g_1_z55aIGI5,1.98,1.31
+football,Championship,Round 30,31/01/,Sheffield Wed,Wrexham,0,1,2,5.72,4.48,1.58,g_1_OQ1PxqS8,0.45,1.76
+football,Championship,Round 30,31/01/,Stoke,Southampton,0,2,2,2.88,3.38,2.58,g_1_ridEConp,0.87,1.9
+football,Championship,Round 30,31/01/,Bristol City,Derby,0,5,2,1.98,3.65,3.96,g_1_6PDrMbJt,0.22,1.91
+football,Championship,Round 29,25/01/,Portsmouth,Southampton,1,1,1,3.51,3.65,2.12,g_1_0niH5wZa,1.66,1.18
+football,Championship,Round 29,25/01/,Birmingham,Stoke,1,1,1,1.78,3.92,4.65,g_1_MROGxu5D,2.04,0.36
+football,Championship,Round 29,25/01/,Blackburn,Watford,1,1,1,2.27,3.18,3.62,g_1_xz730rcK,0.89,1.43
+football,Championship,Round 29,25/01/,Bristol City,Sheffield Wed,2,0,0,0.0,0.0,0.0,g_1_h0CYfMKs,2.56,0.71
+football,Championship,Round 29,25/01/,Hull,Swansea,2,1,0,2.19,3.3,3.68,g_1_CUbxH15k,1.8,1.97
+football,Championship,Round 29,25/01/,Leicester,Oxford Utd,1,2,2,1.85,3.5,4.88,g_1_Mu4kivK6,0.73,1.9
+football,Championship,Round 29,25/01/,QPR,Wrexham,2,3,2,2.55,3.35,2.94,g_1_prcpFuz2,0.9,0.48
+football,Championship,Round 29,25/01/,Sheffield Utd,Ipswich,3,1,0,2.91,3.49,2.5,g_1_M1uQ3H3C,1.59,1.97
+football,Championship,Round 29,24/01/,Middlesbrough,Preston,4,0,0,1.57,4.34,6.15,g_1_I7cbkIlJ,2.71,0.4
+football,Championship,Round 29,24/01/,Millwall,Charlton,4,0,0,1.76,3.68,5.26,g_1_A1ppDLtQ,3.97,0.15
+football,Championship,Round 29,24/01/,Derby,West Brom,1,1,1,2.66,3.3,2.85,g_1_EF0sg0kf,0.33,1.19
+football,Championship,Round 28,22/01/,Stoke,Middlesbrough,1,2,2,3.17,3.42,2.37,g_1_hnXatN5l,0.94,1.34
+football,Championship,Round 28,22/01/,Southampton,Sheffield Utd,1,0,0,2.06,4.04,3.38,g_1_rDoUoqrR,1.04,1.14
+football,Championship,Round 28,22/01/,Watford,Portsmouth,1,1,1,1.81,3.69,4.85,g_1_lEQ8v1z1,0.83,0.64
+football,Championship,Round 28,21/01/,Wrexham,Leicester,1,1,1,2.35,3.61,3.05,g_1_hpI5MNsS,1.08,0.53
+football,Championship,Round 28,21/01/,Charlton,Derby,1,2,2,2.68,3.1,2.99,g_1_MccLm5DE,0.93,1.88
+football,Championship,Round 28,21/01/,Coventry,Millwall,2,1,0,1.88,3.73,4.36,g_1_pIFkQAFj,2.69,1.17
+football,Championship,Round 28,21/01/,Ipswich,Bristol City,2,0,0,1.69,3.92,5.41,g_1_QDhxlE7c,1.08,0.71
+football,Championship,Round 28,21/01/,Oxford Utd,QPR,0,0,1,2.45,3.46,3.0,g_1_YwdpnhxA,0.8,0.63
+football,Championship,Round 28,21/01/,Preston,Hull,0,3,2,2.45,3.29,3.14,g_1_QBDITqMr,0.95,1.56
+football,Championship,Round 28,21/01/,Sheffield Wed,Birmingham,0,2,2,7.34,4.63,1.48,g_1_bPBQRNje,0.37,2.76
+football,Championship,Round 28,21/01/,Swansea,Blackburn,3,1,0,1.87,3.57,4.61,g_1_pKEcOqDF,0.87,1.02
+football,Championship,Round 28,21/01/,West Brom,Norwich,0,5,2,2.06,3.61,3.71,g_1_fi5ZP1L7,1.24,1.08
+football,Championship,Round 27,18/01/,Swansea,Birmingham,1,1,1,2.63,3.27,2.9,g_1_bRY222jd,1.63,1.05
+football,Championship,Round 27,18/01/,Charlton,Sheffield Utd2,1,0,0,3.82,3.82,1.97,g_1_Ea8A4fgU,1.07,0.73
+football,Championship,Round 27,18/01/,Oxford Utd,Bristol City,0,0,1,3.47,3.5,2.19,g_1_M5VyLFwB,1.2,0.44
+football,Championship,Round 27,18/01/,Preston,Derby,0,1,2,2.32,3.19,3.5,g_1_S2YqJg8N,0.99,1.77
+football,Championship,Round 27,18/01/,Sheffield Wed,Portsmouth,0,1,2,4.1,3.69,1.94,g_1_CzAGDXVp,0.32,1.65
+football,Championship,Round 27,18/01/,Southampton,Hull,1,2,2,1.65,4.04,5.67,g_1_vs22yyOi,2.93,0.62
+football,Championship,Round 27,18/01/,Stoke,QPR,0,0,1,2.1,3.34,3.9,g_1_z9eBZEh4,0.79,0.27
+football,Championship,Round 27,18/01/,Wrexham,Norwich,1,2,2,2.14,3.59,3.51,g_1_O4QlQ5r3,1.61,0.72
+football,Championship,Round 27,17/01/,Coventry,Leicester,2,1,0,1.65,4.4,5.07,g_1_hQwLOcvn,2.45,1.41
+football,Championship,Round 27,17/01/,Ipswich,Blackburn,3,0,0,1.54,4.26,6.83,g_1_QwxTMy9b,2.86,0.66
+football,Championship,Round 27,17/01/,Watford,Millwall,0,2,2,2.15,3.4,3.69,g_1_8MgJXhNG,0.54,1.56
+football,Championship,Round 27,17/01/,West Brom,Middlesbrough,2,3,2,2.63,3.39,2.81,g_1_EZOJVWiT,0.93,0.99
+football,Championship,Round 26,06/01/,Leicester,West Brom,2,1,0,2.81,3.42,2.62,g_1_6FtLgwuC,0.9,1.05
+football,Championship,Round 26,05/01/,Blackburn,Charlton,2,2,1,2.21,3.18,3.8,g_1_WzNWFTeE,0.85,1.47
+football,Championship,Round 26,05/01/,Bristol City,Preston,0,2,2,1.9,3.72,4.26,g_1_xzk4cLum,0.42,1.08
+football,Championship,Round 26,05/01/,Derby,Wrexham,1,2,2,2.33,3.33,3.32,g_1_6TgO9pbM,1.36,1.01
+football,Championship,Round 26,05/01/,Middlesbrough,Southampton,4,0,0,2.17,3.84,3.23,g_1_nPlTiH9O,2.27,1.11
+football,Championship,Round 26,05/01/,Millwall,Swansea,2,1,0,2.12,3.22,4.04,g_1_2auf4OLq,1.93,1.04
+football,Championship,Round 26,05/01/,Norwich,Stoke,0,2,2,2.02,3.62,3.87,g_1_2yPxCKft,0.53,2.06
+football,Championship,Round 26,04/01/,Birmingham,Coventry,3,2,0,2.81,3.5,2.57,g_1_jPVg8Hx8,1.27,1.33
+football,Championship,Round 26,04/01/,QPR,Sheffield Wed,3,0,0,1.37,5.41,8.76,g_1_6TLg8xf5,1.49,0.1
+football,Championship,Round 25,02/01/,Sheffield Utd,Leicester,3,1,0,1.79,3.91,4.62,g_1_j1m7HLFL,2.4,0.21
+football,Championship,Round 25,02/01/,Bristol City,Portsmouth,5,0,0,1.66,3.84,6.02,g_1_2LrVr19d,1.51,0.42
+football,Championship,Round 25,02/01/,Charlton,Coventry,1,1,1,4.02,3.51,2.01,g_1_rHLH6413,1.45,1.55
+football,Championship,Round 25,02/01/,Derby,Middlesbrough,1,0,0,3.11,3.39,2.42,g_1_GrZO4rWF,1.23,1.32
+football,Championship,Round 25,02/01/,Hull,Stoke,0,1,2,2.25,3.3,3.53,g_1_CASX2M0S,1.32,1.65
+football,Championship,Round 25,02/01/,Ipswich,Oxford Utd,2,1,0,1.36,5.11,10.2,g_1_8tE3c0Ok,1.43,1.09
+football,Championship,Round 25,02/01/,Preston,Sheffield Wed,3,0,0,1.55,4.2,6.74,g_1_487Cevg2,1.91,0.2
+football,Championship,Round 25,02/01/,QPR,Norwich,1,2,2,2.1,3.6,3.6,g_1_UoabJso9,0.72,1.91
+football,Championship,Round 25,02/01/,Southampton,Millwall,0,0,1,2.01,3.51,4.02,g_1_MqvwCawq,0.96,1.5
+football,Championship,Round 25,02/01/,Swansea,West Brom,1,0,0,3.53,3.21,2.3,g_1_A10FB6T9,0.67,1.06
+football,Championship,Round 25,02/01/,Watford,Birmingham,3,0,0,2.29,3.36,3.37,g_1_IBXoAw8e,1.55,0.4
+football,Championship,Round 25,01/01/,Blackburn,Wrexham,0,2,2,2.03,3.56,3.87,g_1_xzm8DSbc,0.66,0.67
+football,Championship,Round 24,30/12/,Birmingham,Southampton,1,1,1,2.52,3.6,2.81,g_1_zXBuxgdC,1.71,1.37
+football,Championship,Round 24,30/12/,Leicester,Derby,2,1,0,2.08,3.45,3.85,g_1_dvMaslYi,0.68,0.68
+football,Championship,Round 24,30/12/,Middlesbrough,Hull,0,1,2,1.7,4.12,4.95,g_1_UiK7uS24,1.46,0.29
+football,Championship,Round 24,30/12/,Millwall,Bristol City,2,1,0,2.34,3.31,3.33,g_1_dKwHyp2T,0.64,0.96
+football,Championship,Round 24,30/12/,Norwich,Watford,0,1,2,2.77,3.41,2.66,g_1_thFmWNPj,0.95,0.36
+football,Championship,Round 24,30/12/,Oxford Utd,Swansea,0,1,2,0.0,0.0,0.0,g_1_jurl8XMH,0.48,0.78
+football,Championship,Round 24,30/12/,Portsmouth,Charlton,2,1,0,2.57,3.1,3.14,g_1_8b7ZgRHc,0.74,1.01
+football,Championship,Round 24,30/12/,Sheffield Wed,Blackburn,0,0,1,5.44,3.72,1.73,g_1_2c0rh5nA,0.48,0.81
+football,Championship,Round 24,30/12/,Stoke,Sheffield Utd,1,2,2,2.94,3.41,2.52,g_1_zBbjjqHM,0.59,2.5
+football,Championship,Round 24,30/12/,West Brom,QPR,2,1,0,1.78,3.89,4.73,g_1_feuNpNvp,1.48,0.14
+football,Championship,Round 24,30/12/,Wrexham,Preston,2,1,0,2.18,3.37,3.63,g_1_dvALkP6j,2.53,1.07
+football,Championship,Round 24,30/12/,Coventry,Ipswich,0,2,2,2.34,3.43,3.22,g_1_tWwDJpto,0.8,1.14
+football,Championship,Round 23,27/12/,Wrexham,Sheffield Utd,5,3,0,3.29,3.53,2.26,g_1_fDluAgh5,2.29,1.89
+football,Championship,Round 23,27/12/,Coventry,Swansea,1,0,0,1.58,4.34,5.98,g_1_MajXBFNh,1.3,1.23
+football,Championship,Round 23,27/12/,Leicester,Watford,1,2,2,2.26,3.58,3.23,g_1_KtNOAGcD,0.43,1.4
+football,Championship,Round 23,27/12/,Middlesbrough,Blackburn,0,0,1,1.74,3.92,4.95,g_1_zk5BYJkK,0.76,1.24
+football,Championship,Round 23,27/12/,Norwich,Charlton,1,0,0,2.05,3.6,3.78,g_1_SnpjRyrf,1.17,0.31
+football,Championship,Round 23,27/12/,Oxford Utd,Southampton,2,1,0,4.15,3.89,1.88,g_1_E3rbPFC6,0.92,1.45
+football,Championship,Round 23,27/12/,Portsmouth,QPR,1,1,1,0.0,0.0,0.0,g_1_AVy7NgsJ,0.52,0.47
+football,Championship,Round 23,27/12/,Sheffield Wed,Hull,2,2,1,4.47,3.73,1.86,g_1_2POhocZP,1.56,1.53
+football,Championship,Round 23,27/12/,Stoke,Preston,0,0,1,2.09,3.39,3.91,g_1_M95Puycm,1.06,0.59
+football,Championship,Round 23,27/12/,West Brom,Bristol City,1,2,2,2.06,3.49,3.89,g_1_EHNWwFRa,1.59,0.73
+football,Championship,Round 23,26/12/,Millwall,Ipswich,0,0,1,4.02,3.49,2.02,g_1_6XesTcDs,0.36,0.82
+football,Championship,Round 23,26/12/,Birmingham,Derby,1,1,1,2.02,3.41,4.14,g_1_nTOGCxT0,2.99,0.79
+football,Championship,Round 22,21/12/,Bristol City,Middlesbrough,2,0,0,2.82,3.71,2.46,g_1_td5amMak,0.9,2.18
+football,Championship,Round 22,21/12/,Charlton,Oxford Utd,1,0,0,2.17,3.5,3.52,g_1_ng87o0U1,0.77,0.61
+football,Championship,Round 22,21/12/,Derby,Portsmouth,1,1,1,1.95,3.49,4.32,g_1_Slof93M8,0.79,0.15
+football,Championship,Round 22,21/12/,Hull,West Brom,1,0,0,2.97,3.48,2.46,g_1_zFl27siL,1.29,1.34
+football,Championship,Round 22,21/12/,Ipswich,Sheffield Wed,3,1,0,1.21,7.25,15.9,g_1_faVY1LEr,2.92,0.8
+football,Championship,Round 22,21/12/,QPR,Leicester,4,1,0,2.62,3.64,2.68,g_1_YPbsbwE7,1.78,1.14
+football,Championship,Round 22,21/12/,Sheffield Utd,Birmingham,3,0,0,2.28,3.39,3.36,g_1_0WjTLt6E,2.8,0.65
+football,Championship,Round 22,21/12/,Watford,Stoke,1,0,0,2.01,3.39,4.22,g_1_hUV7Ebbl,1.22,0.52
+football,Championship,Round 22,20/12/,Blackburn,Millwall,2,0,0,2.4,3.39,3.14,g_1_nemR5UFG,2.35,0.59
+football,Championship,Round 22,20/12/,Preston,Norwich,1,1,1,2.15,3.72,3.38,g_1_SCTt0aqe,1.14,0.4
+football,Championship,Round 22,20/12/,Southampton,Coventry,1,1,1,2.3,3.84,2.97,g_1_MouxKKzR,1.32,0.48
+football,Championship,Round 22,20/12/,Swansea,Wrexham,2,1,0,2.14,3.5,3.58,g_1_S0cODygt,2.03,0.36
+football,Championship,Round 21,16/12/,Sheffield Wed,Derby,0,3,2,3.82,3.37,2.12,g_1_IFeA9CGi,0.12,1.56
+football,Championship,Round 21,14/12/,Birmingham,Charlton,1,1,1,1.57,4.2,6.4,g_1_dOD4d5L5,1.24,1.13
+football,Championship,Round 21,14/12/,Coventry,Bristol City,1,0,0,1.55,4.61,5.93,g_1_Iw2DfqjI,2.11,1.35
+football,Championship,Round 21,14/12/,Leicester,Ipswich,3,1,0,3.26,3.32,2.37,g_1_Q35LhNKU,0.97,1.28
+football,Championship,Round 21,14/12/,Middlesbrough,QPR,3,1,0,1.86,3.81,4.33,g_1_juxTdZWo,2.29,1.3
+football,Championship,Round 21,14/12/,Millwall,Hull,1,3,2,2.02,3.63,3.84,g_1_OhzyeD1b,0.81,2.03
+football,Championship,Round 21,14/12/,Portsmouth,Blackburn,2,1,0,2.88,3.39,2.57,g_1_CI8Oo9Op,1.78,0.72
+football,Championship,Round 21,14/12/,Wrexham,Watford,2,2,1,2.94,3.41,2.52,g_1_xxIEgY7O,1.2,0.83
+football,Championship,Round 21,13/12/,Norwich,Southampton,2,1,0,3.61,4.06,1.97,g_1_KKTqgiWA,1.34,2.12
+football,Championship,Round 21,13/12/,Oxford Utd,Preston,1,2,2,2.89,3.3,2.62,g_1_SpXiiV0N,1.57,0.61
+football,Championship,Round 21,13/12/,Stoke,Swansea,2,1,0,2.16,3.37,3.7,g_1_GMT5efwC,0.46,1.25
+football,Championship,Round 21,13/12/,West Brom,Sheffield Utd,2,0,0,2.58,3.41,2.85,g_1_EskJ7jo4,2.31,1.15
+football,Championship,Round 20,11/12/,Hull,Wrexham,2,0,0,2.66,3.42,2.77,g_1_8dQccG8a,2.3,1.33
+football,Championship,Round 20,11/12/,Bristol City,Leicester,2,2,1,2.34,3.43,3.22,g_1_EqKotpyP,2.09,1.52
+football,Championship,Round 20,11/12/,Derby,Millwall,1,1,1,2.69,3.18,2.91,g_1_Uefe0mMt,1.2,0.91
+football,Championship,Round 20,11/12/,Ipswich,Stoke,1,0,0,1.61,4.15,5.92,g_1_lbAdbRjg,0.97,0.41
+football,Championship,Round 20,10/12/,QPR,Birmingham,2,1,0,2.9,3.42,2.54,g_1_KMrjiAqQ,1.58,0.28
+football,Championship,Round 20,10/12/,Blackburn,Oxford Utd,1,1,1,1.77,3.65,5.21,g_1_zZ8nXlhf,2.29,0.29
+football,Championship,Round 20,10/12/,Charlton,Middlesbrough,1,2,2,3.12,3.35,2.43,g_1_W02eVSM6,0.34,0.84
+football,Championship,Round 20,10/12/,Preston,Coventry,1,1,1,3.86,3.56,2.04,g_1_4E03T6iJ,0.29,1.95
+football,Championship,Round 20,10/12/,Sheffield Utd,Norwich,1,1,1,1.69,4.3,4.86,g_1_lxZLol7m,2.89,1.26
+football,Championship,Round 20,10/12/,Southampton,West Brom,3,2,0,1.83,3.84,4.48,g_1_AiNUqSy0,1.12,1.34
+football,Championship,Round 20,10/12/,Swansea,Portsmouth,1,0,0,1.98,3.56,4.07,g_1_lfAdaxvm,0.86,0.64
+football,Championship,Round 20,10/12/,Watford,Sheffield Wed,1,1,1,1.56,4.48,5.98,g_1_IHQxr66C,2.93,0.54
+football,Championship,Round 19,07/12/,Bristol City,Millwall,0,1,2,2.06,3.61,3.71,g_1_YTYUIbXq,1.45,0.97
+football,Championship,Round 19,07/12/,Ipswich,Coventry,3,0,0,2.13,3.71,3.44,g_1_OEBtybgS,1.45,0.66
+football,Championship,Round 19,07/12/,Preston,Wrexham,1,1,1,2.37,3.29,3.29,g_1_tpqU4G0J,1.43,1.39
+football,Championship,Round 19,07/12/,QPR,West Brom,3,1,0,2.4,3.37,3.16,g_1_KpcCVyHk,2.0,1.48
+football,Championship,Round 19,07/12/,Sheffield Utd,Stoke,4,0,0,1.98,3.53,4.15,g_1_GCjLTFo2,2.43,0.27
+football,Championship,Round 19,07/12/,Southampton,Birmingham,3,1,0,2.19,3.72,3.26,g_1_rJr7iJw9,2.08,2.0
+football,Championship,Round 19,07/12/,Swansea,Oxford Utd,2,0,0,2.09,3.47,3.78,g_1_hOOQ4bGP,0.89,1.41
+football,Championship,Round 19,06/12/,Derby,Leicester,1,3,2,2.89,3.3,2.62,g_1_MkFPvtf3,1.42,1.34
+football,Championship,Round 19,06/12/,Watford,Norwich,3,2,0,1.78,4.05,4.49,g_1_27euZANs,1.28,1.89
+football,Championship,Round 19,06/12/,Hull,Middlesbrough,1,4,2,2.94,3.72,2.38,g_1_UFIXxKOF,1.01,1.29
+football,Championship,Round 6,03/12/,Blackburn,Ipswich,1,1,1,3.99,3.58,2.0,g_1_0Y3aNUVb,1.4,0.46
+football,Championship,Round 18,02/12/,Birmingham,Watford,2,1,0,1.84,3.82,4.42,g_1_25rsa4tB,1.21,0.92
+football,Championship,Round 18,30/11/,Coventry,Charlton,3,1,0,1.5,4.36,7.27,g_1_OKWkcrBN,2.43,0.66
+football,Championship,Round 18,30/11/,Middlesbrough,Derby,2,1,0,2.08,3.53,3.76,g_1_l208FPQi,1.54,0.92
+football,Championship,Round 18,30/11/,Millwall,Southampton,3,2,0,3.1,3.61,2.32,g_1_MFbGD3e4,1.83,1.2
+football,Championship,Round 18,30/11/,Norwich,QPR,3,1,0,2.56,3.58,2.77,g_1_IshPBsQG,1.31,1.02
+football,Championship,Round 18,30/11/,Sheffield Wed,Preston,2,3,2,3.4,3.5,2.22,g_1_MTwkS2Ac,2.33,0.94
+football,Championship,Round 18,30/11/,West Brom,Swansea,3,2,0,1.92,3.56,4.36,g_1_C4iD8b1f,1.73,0.21
+football,Championship,Round 18,30/11/,Wrexham,Blackburn,1,1,1,2.34,3.49,3.17,g_1_YJuM6xW6,1.65,0.94
+football,Championship,Round 18,29/11/,Leicester,Sheffield Utd,2,3,2,2.34,3.38,3.24,g_1_YgILiMYp,1.35,0.91
+football,Championship,Round 18,29/11/,Portsmouth,Bristol City,0,1,2,2.83,3.39,2.62,g_1_fNo34aIj,1.47,1.6
+football,Championship,Round 18,29/11/,Stoke,Hull,1,2,2,1.74,3.69,5.4,g_1_IeXcQtuA,0.8,1.18
+football,Championship,Round 18,29/11/,Oxford Utd,Ipswich,2,1,0,5.37,4.0,1.68,g_1_AkAW9LfT,1.19,1.74
+football,Championship,Round 17,27/11/,West Brom,Birmingham,1,1,1,3.16,3.21,2.48,g_1_fuuZ0QBb,0.86,0.98
+football,Championship,Round 17,27/11/,Blackburn,QPR,0,1,2,2.22,3.46,3.43,g_1_8pzFeVZI,1.02,1.16
+football,Championship,Round 17,27/11/,Millwall,Sheffield Wed,1,0,0,1.64,3.85,6.22,g_1_lUvuqhjD,3.15,0.75
+football,Championship,Round 17,27/11/,Sheffield Utd,Portsmouth,3,0,0,1.72,3.92,5.16,g_1_ENbJ6erK,2.38,0.09
+football,Championship,Round 17,27/11/,Wrexham,Bristol City,2,0,0,2.59,3.32,2.9,g_1_KdZ5AKWs,1.04,0.95
+football,Championship,Round 17,26/11/,Southampton,Leicester,3,0,0,1.92,3.73,4.14,g_1_p6kk1Z5s,2.46,0.44
+football,Championship,Round 17,26/11/,Hull,Ipswich,0,2,2,4.88,3.8,1.78,g_1_KlmOnzil,0.49,2.85
+football,Championship,Round 17,26/11/,Middlesbrough,Coventry,2,4,2,2.96,3.46,2.48,g_1_GGtXpEL0,1.14,1.95
+football,Championship,Round 17,26/11/,Norwich,Oxford Utd,1,1,1,1.88,3.69,4.39,g_1_bDoQ2nsn,1.55,0.73
+football,Championship,Round 17,26/11/,Stoke,Charlton,3,0,0,1.89,3.56,4.5,g_1_6LwbaDzf,0.83,0.19
+football,Championship,Round 17,26/11/,Swansea,Derby,1,2,2,2.34,3.1,3.54,g_1_0ChZFt9K,0.65,0.95
+football,Championship,Round 17,26/11/,Watford,Preston,1,1,1,1.79,3.64,5.06,g_1_Eos6ci56,1.73,0.88
+football,Championship,Round 16,23/11/,Sheffield Wed,Sheffield Utd,0,3,2,3.69,3.67,2.06,g_1_l6dhhdTQ,0.3,2.27
+football,Championship,Round 16,23/11/,Birmingham,Norwich,4,1,0,1.73,3.84,5.19,g_1_IczwsB3S,3.55,1.34
+football,Championship,Round 16,23/11/,Derby,Watford,2,3,2,2.38,3.3,3.26,g_1_SWq2suF8,0.61,1.47
+football,Championship,Round 16,23/11/,Ipswich,Wrexham,0,0,1,1.49,4.33,7.74,g_1_8I5mhwHD,1.69,0.05
+football,Championship,Round 16,23/11/,Leicester,Stoke,2,1,0,2.02,3.42,4.14,g_1_EmrAuJqL,1.49,1.37
+football,Championship,Round 16,23/11/,Oxford Utd,Middlesbrough,1,1,1,3.85,3.45,2.08,g_1_YXOtzc7r,0.52,1.06
+football,Championship,Round 16,23/11/,Portsmouth,Millwall,3,1,0,2.4,3.34,3.18,g_1_6oNlYzxe,1.59,0.45
+football,Championship,Round 16,23/11/,QPR,Hull,3,2,0,2.03,3.52,3.95,g_1_Sj8qfIbE,3.02,1.12
+football,Championship,Round 16,22/11/,Bristol City,Swansea,3,0,0,1.98,3.62,4.03,g_1_CjCvfan1,2.03,0.94
+football,Championship,Round 16,22/11/,Charlton,Southampton,1,5,2,2.98,3.35,2.51,g_1_xrH9ykRk,0.66,4.63
+football,Championship,Round 16,22/11/,Coventry,West Brom,3,2,0,1.92,3.51,4.46,g_1_p8KHZSe2,2.27,1.61
+football,Championship,Round 16,22/11/,Preston,Blackburn,1,2,2,2.38,3.3,3.26,g_1_2DGcWE67,1.73,1.23
+football,Championship,Round 15,09/11/,Middlesbrough,Birmingham,2,1,0,2.43,3.51,2.99,g_1_vZyyRbDU,0.61,1.2
+football,Championship,Round 15,09/11/,Norwich,Leicester,1,2,2,3.15,3.51,2.33,g_1_jD5gqtTb,0.3,1.59
+football,Championship,Round 15,09/11/,Sheffield Utd,QPR,0,0,1,2.17,3.61,3.41,g_1_AFLfsKcB,1.41,0.65
+football,Championship,Round 15,09/11/,Southampton,Sheffield Wed,3,1,0,1.5,4.93,6.23,g_1_GEmSOBsp,1.03,0.8
+football,Championship,Round 15,09/11/,Stoke,Coventry,0,1,2,3.0,3.73,2.33,g_1_xUyyNkCd,0.85,0.97
+football,Championship,Round 15,09/11/,Swansea,Ipswich,1,4,2,3.61,3.41,2.17,g_1_t2x01sfR,0.43,1.37
+football,Championship,Round 15,09/11/,West Brom,Oxford Utd,2,1,0,1.78,3.51,5.42,g_1_ppxVrXYF,1.61,0.95
+football,Championship,Round 15,09/11/,Wrexham,Charlton,1,0,0,2.22,3.3,3.61,g_1_QZDWeLHl,2.46,0.81
+football,Championship,Round 15,08/11/,Blackburn,Derby,1,2,2,2.1,3.51,3.69,g_1_AgpKUtE5,1.09,0.96
+football,Championship,Round 15,08/11/,Hull,Portsmouth,3,2,0,1.94,3.64,4.16,g_1_W8YSSKrI,2.36,1.29
+football,Championship,Round 15,08/11/,Millwall,Preston,1,1,1,2.21,3.32,3.6,g_1_Ia7oo2bn,1.82,0.67
+football,Championship,Round 15,08/11/,Watford,Bristol City,1,1,1,2.01,3.71,3.8,g_1_4zUMpg43,1.2,0.77
+football,Championship,Round 14,06/11/,Portsmouth,Wrexham,0,0,1,2.78,3.2,2.78,g_1_ITj5u0X7,1.5,0.75
+football,Championship,Round 14,06/11/,Preston,Swansea,2,1,0,2.29,3.09,3.69,g_1_YyZi33PE,0.71,0.84
+football,Championship,Round 14,06/11/,QPR,Southampton,1,2,2,2.93,3.35,2.56,g_1_8Um3YOEt,1.65,0.68
+football,Championship,Round 14,06/11/,Sheffield Wed,Norwich,1,1,1,2.81,3.6,2.52,g_1_4dsCW2qg,2.31,1.77
+football,Championship,Round 14,05/11/,Coventry,Sheffield Utd,3,1,0,1.7,3.96,5.21,g_1_WQRbPoxQ,1.95,0.93
+football,Championship,Round 14,05/11/,Birmingham,Millwall,4,0,0,1.77,3.65,5.21,g_1_l6he5Qpf,1.9,0.12
+football,Championship,Round 14,05/11/,Bristol City,Blackburn,0,1,2,2.31,3.34,3.34,g_1_r5o434F6,0.52,1.67
+football,Championship,Round 14,05/11/,Charlton,West Brom,1,0,0,2.57,3.1,3.15,g_1_GIqC1rpJ,1.13,1.29
+football,Championship,Round 14,05/11/,Derby,Hull,2,1,0,2.18,3.44,3.54,g_1_29IUJPam,0.94,1.25
+football,Championship,Round 14,05/11/,Ipswich,Watford,1,1,1,1.74,3.83,5.17,g_1_OO6wI3Ua,1.94,0.34
+football,Championship,Round 14,05/11/,Leicester,Middlesbrough,1,1,1,2.18,3.44,3.54,g_1_djKpGsaC,1.4,1.19
+football,Championship,Round 14,05/11/,Oxford Utd,Stoke,0,3,2,3.34,3.33,2.32,g_1_hIDgELTO,1.76,1.97
+football,Championship,Round 13,02/11/,Birmingham,Portsmouth,4,0,0,1.65,4.08,5.61,g_1_rX9Edd2M,3.11,0.24
+football,Championship,Round 13,02/11/,Charlton,Swansea,1,1,1,2.2,3.38,3.58,g_1_jHalqrYr,0.93,0.7
+football,Championship,Round 13,02/11/,Oxford Utd,Millwall,2,2,1,2.86,3.41,2.58,g_1_zLouDHn3,0.63,2.43
+football,Championship,Round 13,02/11/,QPR,Ipswich,1,4,2,3.32,3.58,2.22,g_1_rokmBeHF,1.56,1.03
+football,Championship,Round 13,02/11/,Sheffield Utd,Derby,1,3,2,1.93,3.61,4.25,g_1_xn7Lhm1l,2.16,2.15
+football,Championship,Round 13,02/11/,Southampton,Preston,0,2,2,1.72,4.11,4.89,g_1_Aa5TjRV0,0.53,2.25
+football,Championship,Round 13,02/11/,Stoke,Bristol City,5,1,0,2.45,3.44,3.02,g_1_U1LUl50D,2.01,1.03
+football,Championship,Round 13,02/11/,Watford,Middlesbrough,3,0,0,2.86,3.41,2.58,g_1_d8DGC8hK,0.76,0.8
+football,Championship,Round 13,01/11/,Leicester,Blackburn,0,2,2,1.77,3.82,4.89,g_1_2HjoizQq,1.23,1.92
+football,Championship,Round 13,01/11/,Norwich,Hull,0,2,2,2.11,3.9,3.32,g_1_fP8hkEfd,2.9,1.72
+football,Championship,Round 13,01/11/,West Brom,Sheffield Wed,0,0,1,1.51,4.65,6.52,g_1_ttkm7nGs,1.16,0.33
+football,Championship,Round 13,01/11/,Wrexham,Coventry,3,2,0,0.0,0.0,0.0,g_1_pGhcsM2e,1.42,1.56
+football,Championship,Round 12,25/10/,Blackburn,Southampton,2,1,0,3.1,3.31,2.46,g_1_tvxkXuZA,3.2,1.67
+football,Championship,Round 12,25/10/,Bristol City,Birmingham,1,0,0,2.28,3.36,3.41,g_1_2gQcVJ3N,0.28,0.69
+football,Championship,Round 12,25/10/,Derby,QPR,1,0,0,2.79,3.41,2.64,g_1_nHbGm1Ji,1.68,0.38
+football,Championship,Round 12,25/10/,Hull,Charlton,1,1,1,2.37,3.49,3.11,g_1_KUdOoul4,1.11,1.94
+football,Championship,Round 12,25/10/,Middlesbrough,Wrexham,1,1,1,1.8,3.66,4.96,g_1_O2q83CJc,0.77,0.68
+football,Championship,Round 12,25/10/,Millwall,Leicester,1,0,0,3.3,3.36,2.33,g_1_OMgurcmT,1.51,0.76
+football,Championship,Round 12,25/10/,Sheffield Wed,Oxford Utd,1,2,2,3.14,3.39,2.4,g_1_AJB6bIX9,1.16,0.98
+football,Championship,Round 12,25/10/,Swansea,Norwich,2,1,0,2.28,3.41,3.36,g_1_pIXG1jlA,0.43,1.17
+football,Championship,Round 12,25/10/,Coventry,Watford,3,1,0,1.59,4.45,5.67,g_1_YyHTPcRp,1.3,2.61
+football,Championship,Round 12,25/10/,Ipswich,West Brom,1,0,0,1.96,3.39,4.44,g_1_GdjXqJIG,2.22,0.39
+football,Championship,Round 12,25/10/,Portsmouth,Stoke,0,1,2,3.1,3.17,2.54,g_1_8fVBxyBj,1.83,0.9
+football,Championship,Round 12,25/10/,Preston,Sheffield Utd,3,2,0,2.74,3.18,2.84,g_1_EiIc0v3c,1.73,2.35
+football,Championship,Round 11,23/10/,Sheffield Wed,Middlesbrough,0,1,2,4.69,4.11,1.74,g_1_S03tyOZo,0.69,1.58
+football,Championship,Round 11,23/10/,Swansea,QPR,0,1,2,0.0,0.0,0.0,g_1_SQYcoV3T,0.4,2.05
+football,Championship,Round 11,23/10/,Watford,West Brom,2,1,0,2.94,3.3,2.58,g_1_YDYtZ14b,1.21,0.63
+football,Championship,Round 11,23/10/,Wrexham,Oxford Utd,1,0,0,2.16,3.46,3.59,g_1_ddiMu9Rj,0.77,0.14
+football,Championship,Round 11,22/10/,Bristol City,Southampton,3,1,0,2.54,3.42,2.9,g_1_hMmsZtm1,1.63,2.21
+football,Championship,Round 11,22/10/,Blackburn,Sheffield Utd,1,3,2,2.55,3.3,2.98,g_1_dffYz3Il,0.82,1.28
+football,Championship,Round 11,22/10/,Derby,Norwich,1,0,0,2.38,3.36,3.21,g_1_QZokXKHD,0.94,1.1
+football,Championship,Round 11,22/10/,Hull,Leicester,2,1,0,3.67,3.62,2.07,g_1_tpuaOpjt,1.52,1.49
+football,Championship,Round 11,22/10/,Ipswich,Charlton,0,3,2,1.61,4.04,6.26,g_1_nsr7MOKh,2.31,1.42
+football,Championship,Round 11,22/10/,Millwall,Stoke,2,0,0,2.35,3.33,3.28,g_1_8dWFK2k5,1.48,0.44
+football,Championship,Round 11,22/10/,Portsmouth,Coventry,1,2,2,4.01,3.7,1.96,g_1_GMZNItKH,0.76,2.58
+football,Championship,Round 11,22/10/,Preston,Birmingham,0,1,2,3.01,3.12,2.65,g_1_ClTWGKlU,1.38,0.83
+football,Championship,Round 10,19/10/,Leicester,Portsmouth,1,1,1,1.52,4.35,7.08,g_1_IRyDV7t9,1.53,0.87
+football,Championship,Round 10,18/10/,Birmingham,Hull,2,3,2,1.85,3.79,4.44,g_1_nohgFndS,2.85,1.16
+football,Championship,Round 10,18/10/,Charlton,Sheffield Wed,2,1,0,1.75,3.92,4.91,g_1_U5eI9QJk,1.57,1.65
+football,Championship,Round 10,18/10/,Coventry,Blackburn,2,0,0,1.5,4.46,7.04,g_1_xWbQ74l2,0.88,1.14
+football,Championship,Round 10,18/10/,Norwich,Bristol City,0,1,2,2.54,3.42,2.9,g_1_UJziOPYr,0.58,2.06
+football,Championship,Round 10,18/10/,Sheffield Utd,Watford,1,0,0,2.17,3.34,3.72,g_1_Q5KgroQE,2.11,1.09
+football,Championship,Round 10,18/10/,Stoke,Wrexham,1,0,0,2.13,3.58,3.55,g_1_fDzjmiZG,0.6,0.59
+football,Championship,Round 10,18/10/,West Brom,Preston,2,1,0,1.78,3.61,5.16,g_1_nL82tPfR,1.29,1.39
+football,Championship,Round 10,18/10/,Oxford Utd,Derby,1,0,0,2.57,3.28,2.98,g_1_2XYbM33e,2.16,0.25
+football,Championship,Round 10,18/10/,QPR,Millwall,1,2,2,2.72,3.21,2.85,g_1_baS7KsY7,1.87,1.64
+football,Championship,Round 10,18/10/,Southampton,Swansea,0,0,1,2.01,3.51,4.02,g_1_bosskD44,3.1,0.2
+football,Championship,Round 10,18/10/,Middlesbrough,Ipswich,2,1,0,3.09,3.4,2.42,g_1_QiuLToBL,2.32,2.15
+football,Championship,Round 9,05/10/,Ipswich,Norwich,3,1,0,1.63,4.29,5.5,g_1_Wlxe6iDc,1.8,0.47
+football,Championship,Round 9,04/10/,Bristol City,QPR,1,2,2,1.86,3.61,4.64,g_1_OQTS2I65,1.21,0.47
+football,Championship,Round 9,04/10/,Derby,Southampton,1,1,1,3.78,3.34,2.14,g_1_ptIy1dyI,1.37,1.06
+football,Championship,Round 9,04/10/,Millwall,West Brom,3,0,0,2.89,3.2,2.69,g_1_42z34VsA,0.77,0.42
+football,Championship,Round 9,04/10/,Portsmouth,Middlesbrough,1,0,0,3.26,3.5,2.28,g_1_0UTB29CM,0.48,1.0
+football,Championship,Round 9,04/10/,Preston,Charlton,2,0,0,2.82,3.18,2.77,g_1_UqKscmzp,1.81,0.54
+football,Championship,Round 9,04/10/,Swansea,Leicester,1,3,2,2.74,3.55,2.61,g_1_AP0nTVso,1.84,1.65
+football,Championship,Round 9,04/10/,Watford,Oxford Utd,2,1,0,1.89,3.44,4.75,g_1_EXgoH8RF,2.65,1.38
+football,Championship,Round 9,04/10/,Blackburn,Stoke,1,1,1,2.48,3.41,3.0,g_1_G0QK4vxg,1.89,0.81
+football,Championship,Round 9,04/10/,Hull,Sheffield Utd,1,0,0,2.58,3.3,2.94,g_1_Gtf8rlLj,0.45,2.51
+football,Championship,Round 9,04/10/,Sheffield Wed,Coventry,0,5,2,4.93,4.26,1.69,g_1_I50xJUd3,1.04,4.94
+football,Championship,Round 9,04/10/,Wrexham,Birmingham,1,1,1,2.94,3.35,2.54,g_1_jLwZjZZi,1.58,1.46
+football,Championship,Round 8,02/10/,QPR,Oxford Utd,0,0,1,2.12,3.54,3.62,g_1_KYWB607t,0.77,0.37
+football,Championship,Round 8,02/10/,Millwall,Coventry,0,4,2,3.64,3.51,2.12,g_1_2c0ojuNa,1.34,3.6
+football,Championship,Round 8,02/10/,Norwich,West Brom,0,1,2,3.33,3.49,2.26,g_1_AN3glJiC,1.62,0.95
+football,Championship,Round 8,02/10/,Portsmouth,Watford,2,2,1,2.52,3.4,2.94,g_1_4Md2ncMO,1.12,1.88
+football,Championship,Round 8,01/10/,Derby,Charlton,1,1,1,2.66,3.3,2.85,g_1_b3IJyt86,1.45,0.65
+football,Championship,Round 8,01/10/,Birmingham,Sheffield Wed,2,2,1,1.5,4.21,7.82,g_1_fBL2uO8s,1.33,0.41
+football,Championship,Round 8,01/10/,Blackburn,Swansea,1,2,2,2.5,3.23,3.12,g_1_prH7zEkB,0.56,0.46
+football,Championship,Round 8,01/10/,Bristol City,Ipswich,1,1,1,0.0,0.0,0.0,g_1_2yPAw2wf,1.48,1.3
+football,Championship,Round 8,01/10/,Hull,Preston,2,2,1,2.02,3.62,3.87,g_1_WGGRZJxJ,1.75,1.45
+football,Championship,Round 8,01/10/,Leicester,Wrexham,1,1,1,1.83,3.74,4.59,g_1_tAAGYiKN,1.07,0.91
+football,Championship,Round 8,01/10/,Middlesbrough,Stoke,0,0,1,1.87,3.61,4.56,g_1_AaL6cNUP,0.64,1.61
+football,Championship,Round 8,01/10/,Sheffield Utd,Southampton,1,2,2,2.54,3.42,2.9,g_1_trCxh1hm,0.9,2.03
+football,Championship,Round 7,27/09/,Charlton,Blackburn,3,0,0,2.38,3.36,3.21,g_1_8Y9EWgQ9,1.47,0.55
+football,Championship,Round 7,27/09/,Ipswich,Portsmouth,2,1,0,1.43,4.7,8.45,g_1_zmQfCPve,1.53,0.89
+football,Championship,Round 7,27/09/,Oxford Utd,Sheffield Utd,0,1,2,3.38,3.32,2.3,g_1_rDT2A397,1.14,0.48
+football,Championship,Round 7,27/09/,Preston,Bristol City,0,0,1,2.78,3.35,2.68,g_1_O86kY61E,0.42,2.32
+football,Championship,Round 7,27/09/,Sheffield Wed,QPR,1,1,1,3.2,3.61,2.27,g_1_AP4cWpWQ,1.4,2.16
+football,Championship,Round 7,27/09/,Southampton,Middlesbrough,1,1,1,2.34,3.53,3.12,g_1_U9oUQOgl,0.86,0.29
+football,Championship,Round 7,27/09/,Stoke,Norwich,1,1,1,1.97,3.82,3.82,g_1_2NqxP2O0,1.85,1.32
+football,Championship,Round 7,27/09/,Watford,Hull,2,1,0,2.43,3.51,2.99,g_1_bkwoNtgD,2.81,0.87
+football,Championship,Round 7,27/09/,Coventry,Birmingham,3,0,0,2.05,3.6,3.78,g_1_vLWoEoAr,2.13,0.19
+football,Championship,Round 7,27/09/,Swansea,Millwall,1,1,1,2.17,3.33,3.72,g_1_G2Pjvdjn,1.33,0.88
+football,Championship,Round 7,27/09/,Wrexham,Derby,1,1,1,2.06,3.62,3.71,g_1_CUIaxzLb,0.89,0.64
+football,Championship,Round 7,27/09/,West Brom,Leicester,1,1,1,2.35,3.36,3.25,g_1_AwpWppoK,2.02,0.92
+football,Championship,Round 6,23/09/,Millwall,Watford,1,0,0,1.99,3.46,4.18,g_1_fVquIfBG,0.73,0.92
+football,Championship,Round 6,21/09/,Bristol City,Oxford Utd,1,3,2,1.63,4.34,5.42,g_1_6V67L80B,1.18,1.71
+football,Championship,Round 6,20/09/,Derby,Preston,0,1,2,2.39,3.32,3.22,g_1_SpeGJnVN,0.34,0.89
+football,Championship,Round 6,20/09/,Hull,Southampton,3,1,0,3.0,3.73,2.33,g_1_bTonEQho,2.12,1.06
+football,Championship,Round 6,20/09/,Norwich,Wrexham,2,3,2,2.06,3.62,3.71,g_1_nmksKh5U,2.34,1.3
+football,Championship,Round 6,20/09/,Portsmouth,Sheffield Wed,0,2,2,1.73,3.76,5.34,g_1_2emmGYuT,1.74,1.06
+football,Championship,Round 6,20/09/,Sheffield Utd,Charlton,0,1,2,1.8,4.0,4.45,g_1_EZG5YFec,0.6,0.77
+football,Championship,Round 6,20/09/,Birmingham,Swansea,1,0,0,2.12,3.3,3.92,g_1_QX0YLEzI,2.41,1.43
+football,Championship,Round 6,20/09/,Leicester,Coventry,0,0,1,2.47,3.51,2.94,g_1_G4GWLxCi,1.22,0.41
+football,Championship,Round 6,20/09/,QPR,Stoke,1,0,0,3.07,3.38,2.45,g_1_nTOJAC3j,1.33,1.08
+football,Championship,Round 6,20/09/,Middlesbrough,West Brom,2,1,0,2.2,3.41,3.53,g_1_lIEvKGt4,1.0,0.95
+football,Championship,Round 5,14/09/,Southampton,Portsmouth,0,0,1,1.73,4.07,4.64,g_1_6BrQ8VG5,1.18,0.93
+football,Championship,Round 5,13/09/,Coventry,Norwich,1,1,1,1.75,4.21,4.31,g_1_prFrdhXa,3.68,0.18
+football,Championship,Round 5,13/09/,Sheffield Wed,Bristol City,0,3,2,4.08,3.57,1.94,g_1_pdfHAing,0.83,1.4
+football,Championship,Round 5,13/09/,Stoke,Birmingham,1,0,0,2.83,3.28,2.62,g_1_hStY69oI,0.49,0.52
+football,Championship,Round 5,13/09/,Swansea,Hull,2,2,1,1.84,3.68,4.43,g_1_Mu4HPdyg,1.01,1.62
+football,Championship,Round 5,13/09/,Watford,Blackburn,0,1,2,2.5,3.32,2.94,g_1_lfzs5mGU,0.75,1.45
+football,Championship,Round 5,13/09/,West Brom,Derby,0,1,2,1.77,3.58,5.11,g_1_46AjPj1n,1.15,0.31
+football,Championship,Round 5,13/09/,Wrexham,QPR,1,3,2,2.14,3.33,3.66,g_1_I7cQNz65,2.64,1.43
+football,Championship,Round 5,13/09/,Charlton,Millwall,1,1,1,2.47,3.19,3.09,g_1_xIBzbE2m,0.73,1.02
+football,Championship,Round 5,13/09/,Oxford Utd,Leicester,2,2,1,3.98,3.48,1.99,g_1_b5LbhAWO,2.1,0.84
+football,Championship,Round 5,13/09/,Preston,Middlesbrough,2,2,1,3.25,3.39,2.28,g_1_xWj9CDHt,0.75,1.52
+football,Championship,Round 5,13/09/,Ipswich,Sheffield Utd,5,0,0,1.79,3.76,4.6,g_1_QiNjfW1C,2.33,0.42
+football,Championship,Round 4,30/08/,Blackburn,Norwich,0,2,2,2.24,3.46,3.26,g_1_h6mgkpKF,1.91,2.08
+football,Championship,Round 4,30/08/,Bristol City,Hull,4,2,0,1.87,3.67,4.28,g_1_QJo1mOlS,3.49,2.59
+football,Championship,Round 4,30/08/,Ipswich,Derby,2,2,1,1.57,3.87,6.89,g_1_p4SXs2Ck,2.9,1.48
+football,Championship,Round 4,30/08/,Millwall,Wrexham,0,2,2,2.03,3.35,4.01,g_1_IgIi9yiC,1.96,0.53
+football,Championship,Round 4,30/08/,Oxford Utd,Coventry,2,2,1,0.0,0.0,0.0,g_1_vNBz2N3L,1.05,1.74
+football,Championship,Round 4,30/08/,Portsmouth,Preston,1,0,0,2.13,3.45,3.55,g_1_b7h7d1Rr,1.58,1.01
+football,Championship,Round 4,30/08/,Sheffield Wed,Swansea,0,2,2,3.36,3.36,2.24,g_1_QJLa7FLO,0.45,1.32
+football,Championship,Round 4,30/08/,Watford,Southampton,2,2,1,3.03,3.38,2.41,g_1_ITb2GMIE,0.55,1.81
+football,Championship,Round 4,30/08/,Middlesbrough,Sheffield Utd,1,0,0,2.18,3.65,3.24,g_1_Wd8S3qZ8,1.48,0.64
+football,Championship,Round 4,30/08/,QPR,Charlton,3,1,0,3.37,3.47,2.19,g_1_WKjFfude,1.43,0.84
+football,Championship,Round 4,30/08/,Stoke,West Brom,0,1,2,2.56,3.27,2.9,g_1_jN6GhJQ7,0.96,0.66
+football,Championship,Round 4,30/08/,Leicester,Birmingham,2,0,0,2.57,3.18,2.95,g_1_j1Vutts2,0.67,0.89
+football,Championship,Round 3,23/08/,Birmingham,Oxford Utd,1,0,0,1.54,4.46,6.37,g_1_UkeUPTj4,1.66,0.38
+football,Championship,Round 3,23/08/,Coventry,QPR,7,1,0,1.5,4.9,6.14,g_1_bVnoMojT,1.27,0.62
+football,Championship,Round 3,23/08/,Norwich,Middlesbrough,1,2,2,2.4,3.48,3.06,g_1_G6JBx7zA,1.18,1.51
+football,Championship,Round 3,23/08/,Preston,Ipswich,1,0,0,3.69,3.4,2.15,g_1_CYCKzo5M,0.84,1.39
+football,Championship,Round 3,23/08/,Sheffield Utd,Millwall,0,1,2,1.81,4.03,4.34,g_1_rH3jVOSq,1.3,1.4
+football,Championship,Round 3,23/08/,Southampton,Stoke,1,2,2,1.98,3.75,3.86,g_1_4WiaT2cd,2.59,1.5
+football,Championship,Round 3,23/08/,West Brom,Portsmouth,1,1,1,1.7,4.02,5.15,g_1_dvfpi6k3,0.59,0.94
+football,Championship,Round 3,23/08/,Wrexham,Sheffield Wed,2,2,1,1.65,4.14,5.43,g_1_dvUrBcMa,1.3,2.67
+football,Championship,Round 3,23/08/,Charlton,Leicester,0,1,2,3.11,3.29,2.46,g_1_xGbxO7LG,1.63,0.5
+football,Championship,Round 3,23/08/,Hull,Blackburn,0,3,2,2.37,3.39,3.19,g_1_rgL3vT5c,0.52,3.03
+football,Championship,Round 3,23/08/,Swansea,Watford,1,1,1,1.83,3.7,4.65,g_1_lEQzDJim,0.67,0.4
+football,Championship,Round 3,23/08/,Derby,Bristol City,1,1,1,3.34,3.08,2.46,g_1_UDwHGPDj,0.5,0.74
+football,Championship,Round 2,17/08/,Hull,Oxford Utd,3,2,0,1.98,3.53,4.15,g_1_Ovez8eVI,1.91,1.02
+football,Championship,Round 2,17/08/,Ipswich,Southampton,1,1,1,1.92,3.83,4.04,g_1_vmwNVbNP,1.65,0.75
+football,Championship,Round 2,16/08/,Blackburn,Birmingham,1,2,2,3.36,3.21,2.38,g_1_8r5BDa1s,0.43,2.0
+football,Championship,Round 2,16/08/,Bristol City,Charlton,0,0,1,1.96,3.7,4.01,g_1_fa3JBwWg,0.73,0.96
+football,Championship,Round 2,16/08/,Millwall,Middlesbrough,0,3,2,2.15,3.4,3.69,g_1_fDrhQxom,0.6,0.99
+football,Championship,Round 2,16/08/,Preston,Leicester,2,1,0,4.36,3.52,1.93,g_1_Ohz9MfpC,2.48,0.92
+football,Championship,Round 2,16/08/,Sheffield Wed,Stoke,0,3,2,3.69,3.38,2.15,g_1_Ighs4nUp,1.5,2.06
+football,Championship,Round 2,16/08/,Swansea,Sheffield Utd,1,0,0,2.55,3.21,3.06,g_1_vqaO7OF7,1.34,0.58
+football,Championship,Round 2,16/08/,Watford,QPR,2,1,0,1.93,3.62,4.24,g_1_AmuTRkMi,2.06,0.5
+football,Championship,Round 2,16/08/,Derby,Coventry,3,5,2,3.61,3.3,2.22,g_1_jRdS9H06,1.43,3.24
+football,Championship,Round 2,16/08/,Portsmouth,Norwich,1,2,2,2.58,3.51,2.79,g_1_GSW0OGFa,1.76,1.96
+football,Championship,Round 2,16/08/,Wrexham,West Brom,2,3,2,2.63,3.27,2.9,g_1_WxnAVR7E,2.01,2.36
+football,Championship,Round 1,11/08/,Leicester,Sheffield Wed,2,1,0,1.24,6.52,14.3,g_1_OATvJLwK,2.54,0.62
+football,Championship,Round 1,10/08/,Sheffield Utd,Bristol City,1,4,2,1.69,3.92,5.43,g_1_d4ygeIoD,2.3,1.31
+football,Championship,Round 1,09/08/,Middlesbrough,Swansea,1,0,0,2.09,3.38,3.88,g_1_rH5F9poe,0.34,0.1
+football,Championship,Round 1,09/08/,Norwich,Millwall,1,2,2,2.15,3.4,3.69,g_1_QFP060v8,1.04,2.09
+football,Championship,Round 1,09/08/,Oxford Utd,Portsmouth,0,1,2,2.72,3.42,2.7,g_1_2s0c6rfE,1.37,1.21
+football,Championship,Round 1,09/08/,QPR,Preston,1,1,1,2.55,3.3,2.98,g_1_A7354MOQ,0.94,0.84
+football,Championship,Round 1,09/08/,Stoke,Derby,3,1,0,2.12,3.31,3.88,g_1_SOqxa0nl,1.1,0.39
+football,Championship,Round 1,09/08/,West Brom,Blackburn,1,0,0,1.89,3.61,4.46,g_1_0xrpcvH0,1.19,1.25
+football,Championship,Round 1,09/08/,Charlton,Watford,1,0,0,2.37,3.25,3.1,g_1_CxihAruq,1.15,0.73
+football,Championship,Round 1,09/08/,Coventry,Hull,0,0,1,1.76,3.72,4.67,g_1_IkMh8M9e,1.43,0.43
+football,Championship,Round 1,09/08/,Southampton,Wrexham,2,1,0,0.0,0.0,0.0,g_1_zi27B6Gr,4.14,1.89
+football,Championship,Round 1,09/08/,Birmingham,Ipswich,1,1,1,2.58,3.36,2.89,g_1_G65MF4HL,1.13,1.26
+football,Championship,Round 19,04/02/,Blackburn,Sheffield Wed,1,0,0,1.38,5.2,8.92,g_1_j9V5OK9M,0.9,0.34
+football,Championship,Round 26,04/02/,Hull,Watford,0,0,1,2.19,3.61,3.37,g_1_bkwDeaAa,0.25,0.89
+football,Championship,Round 26,04/02/,Sheffield Utd,Oxford Utd,3,1,0,1.45,4.49,8.38,g_1_SrA26GOH,1.18,0.98
+football,Championship,Round 31,08/02/,Birmingham,Leicester,2,1,0,1.81,3.92,4.48,g_1_llaMAPGd,1.44,0.3
+football,Championship,Round 31,08/02/,Coventry,Oxford Utd,0,0,1,1.51,4.51,6.77,g_1_vwSEGF4F,2.29,0.11
+football,Championship,Round 31,08/02/,Hull,Bristol City,2,3,2,2.62,3.39,2.83,g_1_Wz7g9Xdk,1.23,1.94
+football,Championship,Round 31,08/02/,Preston,Portsmouth,1,0,0,2.72,3.21,2.85,g_1_IqFtVEJ8,0.57,1.21
+football,Championship,Round 31,08/02/,West Brom,Stoke,0,0,1,2.22,3.21,3.72,g_1_ji2TLAte,0.38,0.39
+football,Championship,Round 31,08/02/,Wrexham,Millwall,0,2,2,2.76,3.27,2.76,g_1_OlpCTvke,1.4,0.64
+football,Championship,Round 31,07/02/,Derby,Ipswich,1,2,2,3.69,3.62,2.07,g_1_z5LNEgZR,1.08,1.51
+football,Championship,Round 31,07/02/,Norwich,Blackburn,2,0,0,2.15,3.52,3.54,g_1_jwNf7BR1,1.51,0.26
+football,Championship,Round 31,07/02/,Southampton,Watford,1,0,0,0.0,0.0,0.0,g_1_AsfLNWBr,0.88,0.68
+football,Championship,Round 31,07/02/,Charlton,QPR,0,0,1,2.99,3.1,2.68,g_1_WCO6Iyz3,1.1,0.75
+football,Championship,Round 31,08/02/,Swansea,Sheffield Wed,4,0,0,1.24,6.44,14.2,g_1_GOt4V0Kr,2.34,0.06
+football,Championship,Round 31,10/02/,Sheffield Utd,Middlesbrough,1,2,2,2.38,3.72,2.93,g_1_va3kThlL,1.11,1.44
+football,Championship,Round 32,11/02/,Birmingham,West Brom,0,0,1,1.73,3.72,5.44,g_1_O40yKlB7,1.26,0.41
+football,Championship,Round 32,11/02/,Leicester,Southampton,3,4,2,3.06,3.42,2.43,g_1_IRLAYmQ0,0.65,2.04
+football,Championship,Round 32,11/02/,Oxford Utd,Norwich,0,3,2,3.27,3.31,2.37,g_1_EgFJWRfD,0.45,2.31
+football,Championship,Round 32,12/02/,Charlton,Stoke,1,0,0,2.83,3.09,2.83,g_1_vDrOsh3E,2.67,0.5
+football,Championship,Round 32,15/02/,Derby,Swansea,2,0,0,2.59,3.32,2.9,g_1_dhu6kMBE,0.8,1.01
+football,Championship,Round 32,15/02/,Portsmouth,Sheffield Utd,0,1,2,3.36,3.5,2.24,g_1_4MQUwq2t,2.37,1.46
+football,Championship,Round 32,15/02/,Preston,Watford,2,2,1,2.95,3.37,2.54,g_1_0lKwxNWh,0.82,0.85
+football,Championship,Round 32,15/02/,QPR,Blackburn,1,3,2,2.29,3.32,3.43,g_1_6oNoz115,2.03,1.48
+football,Championship,Round 32,15/02/,Sheffield Wed,Millwall,1,2,2,8.92,5.2,1.38,g_1_S0BfYvWH,1.03,3.04
+football,Championship,Round 32,18/02/,Bristol City,Wrexham,2,2,1,2.14,3.5,3.58,g_1_4bhKRIJ7,0.39,1.07
+football,Championship,Round 19,18/02/,Charlton,Portsmouth,1,3,2,0.0,0.0,0.0,g_1_tfxwHx2d,0.8,1.14
+football,Championship,Round 32,17/02/,Coventry,Middlesbrough,3,1,0,2.3,3.69,3.07,g_1_nwnWuWXQ,1.79,1.08
+football,Championship,Round 33,22/02/,Middlesbrough,Oxford Utd,0,0,1,1.41,4.8,8.98,g_1_hIDLnvoB,2.32,0.82
+football,Championship,Round 33,22/02/,Millwall,Portsmouth,1,3,2,1.87,3.51,4.71,g_1_0rHTpIFN,0.41,1.52
+football,Championship,Round 33,22/02/,Norwich,Birmingham,1,2,2,2.46,3.49,2.97,g_1_pGh0udwo,1.68,1.36
+football,Championship,Round 33,22/02/,Southampton,Charlton,1,1,1,1.56,4.41,6.11,g_1_6Lwe1w04,1.23,0.85
+football,Championship,Round 33,22/02/,Watford,Derby,2,0,0,2.17,3.5,3.52,g_1_z1VBceaT,1.3,0.54
+football,Championship,Round 33,22/02/,Wrexham,Ipswich,5,3,0,3.21,3.58,2.27,g_1_pIDgtIY0,2.42,0.95
+football,Championship,Round 33,21/02/,Hull,QPR,1,3,2,2.22,3.5,3.4,g_1_n5rLl0Gb,2.1,1.73
+football,Championship,Round 33,21/02/,Stoke,Leicester,2,2,1,2.45,3.29,3.14,g_1_vZy3aHUG,1.77,1.65
+football,Championship,Round 33,21/02/,Swansea,Bristol City,1,0,0,2.02,3.63,3.84,g_1_hKYEm0tR,0.61,0.75
+football,Championship,Round 33,21/02/,West Brom,Coventry,0,2,2,3.91,3.61,2.01,g_1_6qMshZMj,0.71,1.19
+football,Championship,Round 33,21/02/,Blackburn,Preston,1,0,0,2.16,3.43,3.63,g_1_zRE2WI0U,1.02,0.12
+football,Championship,Round 34,25/02/,Southampton,QPR,5,0,0,1.73,4.04,4.9,g_1_UNjoCfEM,1.56,0.26
+football,Championship,Round 34,25/02/,Blackburn,Bristol City,1,2,2,2.46,3.21,3.21,g_1_fPQJQgTF,2.2,0.78
+football,Championship,Round 34,25/02/,Hull,Derby,4,2,0,2.26,3.5,3.3,g_1_nuaUFxFc,0.58,3.38
+football,Championship,Round 34,25/02/,Middlesbrough,Leicester,1,1,1,1.54,4.64,5.93,g_1_YecxEGqA,1.19,0.89
+football,Championship,Round 34,25/02/,Swansea,Preston,1,1,1,1.82,3.88,4.46,g_1_WYB1vd3D,1.56,1.77
+football,Championship,Round 34,25/02/,Watford,Ipswich,0,2,2,3.39,3.43,2.26,g_1_MLVP4C6d,1.68,1.12
+football,Championship,Round 34,25/02/,West Brom,Charlton,1,1,1,1.95,3.49,4.32,g_1_Y9xBSFb3,1.97,0.31
+football,Championship,Round 34,25/02/,Wrexham,Portsmouth,2,1,0,2.08,3.38,3.94,g_1_pGIDoDAt,0.54,0.53
+football,Championship,Round 33,22/02/,Sheffield Utd,Sheffield Wed,2,1,0,1.16,10.1,14.0,g_1_CMpn3aVi,1.68,0.16
+football,Championship,Round 34,26/02/,Stoke,Oxford Utd,2,1,0,1.91,3.61,4.34,g_1_QgxH6Yyp,1.52,1.46
+football,Championship,Round 34,26/02/,Millwall,Birmingham,3,0,0,2.64,3.39,2.81,g_1_0Ohi8oDl,1.21,0.12
+football,Championship,Round 34,26/02/,Norwich,Sheffield Wed,2,0,0,1.21,7.25,15.9,g_1_djn06Ps1,1.8,0.49
+football,Championship,Round 34,26/02/,Sheffield Utd,Coventry,1,2,2,2.54,3.51,2.85,g_1_8nkmS64K,1.67,0.64
+football,Championship,Round 35,01/03/,Charlton,Wrexham,0,1,2,3.46,3.39,2.23,g_1_ITGLqiug,1.26,0.55
+football,Championship,Round 35,01/03/,Coventry,Stoke,2,1,0,1.56,4.34,6.25,g_1_8AXZI2R6,2.13,0.21
+football,Championship,Round 35,01/03/,Ipswich,Swansea,3,0,0,1.64,4.07,5.73,g_1_EeAUsV95,1.18,0.42
+football,Championship,Round 35,01/03/,Oxford Utd,West Brom,2,1,0,3.43,3.22,2.34,g_1_Emf1ZNBm,0.79,1.25
+football,Championship,Round 35,01/03/,Preston,Millwall,0,2,2,3.37,3.61,2.19,g_1_rToIVuBC,0.43,2.58
+football,Championship,Round 35,01/03/,QPR,Sheffield Utd,0,2,2,3.2,3.61,2.27,g_1_GfaPTJuP,1.14,1.03
+football,Championship,Round 35,01/03/,Sheffield Wed,Southampton,1,3,2,9.59,5.56,1.34,g_1_dlHXXVit,0.77,1.92
+football,Championship,Round 35,28/02/,Derby,Blackburn,3,1,0,2.12,3.44,3.73,g_1_29QrHtdJ,1.44,0.91
+football,Championship,Round 35,28/02/,Leicester,Norwich,0,2,2,2.43,3.42,3.06,g_1_f3DUvplQ,0.47,1.65
+football,Championship,Round 35,28/02/,Portsmouth,Hull,0,1,2,2.03,3.52,3.95,g_1_MDc9X1t0,1.06,0.34
+football,Championship,Round 35,28/02/,Bristol City,Watford,1,2,2,2.31,3.58,3.13,g_1_0pURKOdf,0.91,0.8

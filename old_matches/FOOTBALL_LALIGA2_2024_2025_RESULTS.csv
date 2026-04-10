@@ -1,0 +1,469 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Laliga2 2024 2025,Regular Season,22/06/,OviedoWinner,Mirandes,3,1,0,g_1_be8rbqvR,1.92,3.32,4.23,1.69,1.38
+football,Laliga2 2024 2025,Regular Season,16/06/,Mirandes,Oviedo,1,0,0,g_1_jV4z059E,2.03,2.83,4.73,0.28,1.17
+football,Laliga2 2024 2025,Regular Season,13/06/,MirandesAdvancing to next round,Racing Santander,4,1,0,g_1_8EmxUN05,1.82,3.73,4.15,1.87,0.77
+football,Laliga2 2024 2025,Regular Season,12/06/,OviedoAdvancing to next round,Almeria,1,1,1,g_1_KvxMX51t,2.12,3.45,3.38,0.49,1.34
+football,Laliga2 2024 2025,Regular Season,09/06/,Racing Santander,Mirandes,3,3,1,g_1_G6VUVqWh,2.43,3.21,2.99,1.81,1.97
+football,Laliga2 2024 2025,Regular Season,08/06/,Almeria,Oviedo,1,2,2,g_1_4S1CD2GO,2.32,3.11,3.28,0.93,0.65
+football,Laliga2 2024 2025,Round 42,02/06/,Cordoba,Albacete,1,1,1,g_1_KM6bBKNi,1.7,4.23,4.32,2.88,1.12
+football,Laliga2 2024 2025,Round 42,02/06/,Almeria,Tenerife,2,0,0,g_1_82LObsvn,1.34,5.05,8.93,1.53,0.3
+football,Laliga2 2024 2025,Round 42,02/06/,Dep. La Coruna,Elche,0,4,2,g_1_8rwtgw8N,5.74,3.6,1.65,0.14,1.66
+football,Laliga2 2024 2025,Round 42,02/06/,FC Cartagena SAD,Mirandes,1,3,2,g_1_tGJWdL8b,7.82,5.59,1.33,0.93,1.62
+football,Laliga2 2024 2025,Round 42,02/06/,Huesca,Eldense,3,2,0,g_1_Eqrf0fFj,1.76,3.72,4.52,2.18,0.53
+football,Laliga2 2024 2025,Round 42,02/06/,Levante,Eibar,1,0,0,g_1_r1iO5GiT,1.66,3.93,4.99,1.85,1.31
+football,Laliga2 2024 2025,Round 42,02/06/,Oviedo,Cadiz CF,2,1,0,g_1_nZcF7xNG,1.44,4.13,8.23,0.59,0.84
+football,Laliga2 2024 2025,Round 42,02/06/,Racing Santander,Granada CF,2,1,0,g_1_fuLtOc7c,2.28,3.51,2.99,1.65,0.51
+football,Laliga2 2024 2025,Round 42,01/06/,Malaga,Burgos CF,2,2,1,g_1_ELa79bh4,2.18,3.34,3.34,1.59,1.91
+football,Laliga2 2024 2025,Round 42,31/05/,Racing Club Ferrol,Gijon,0,2,2,g_1_hGECmHVp,3.11,3.11,2.41,1.42,1.26
+football,Laliga2 2024 2025,Round 42,31/05/,Castellon,Zaragoza,4,1,0,g_1_0IZXfawB,1.85,3.94,3.79,2.65,1.66
+football,Laliga2 2024 2025,Round 41,26/05/,Burgos CF,Levante,2,3,2,g_1_nD4zjDeE,4.54,3.02,1.98,0.46,1.92
+football,Laliga2 2024 2025,Round 41,26/05/,Cadiz CF,Huesca,4,0,0,g_1_hCW7X4um,2.71,3.12,2.71,1.05,0.56
+football,Laliga2 2024 2025,Round 41,26/05/,Eibar,Cordoba,4,1,0,g_1_0dbcrMg5,2.03,3.35,3.75,2.51,1.33
+football,Laliga2 2024 2025,Round 41,26/05/,Elche,Malaga,2,0,0,g_1_ERKGVrAa,1.35,4.81,9.12,1.51,0.28
+football,Laliga2 2024 2025,Round 41,26/05/,Eldense,Racing Santander,3,3,1,g_1_0rJOTMvC,2.61,3.72,2.46,2.55,1.46
+football,Laliga2 2024 2025,Round 41,26/05/,Gijon,FC Cartagena SAD,3,2,0,g_1_CMnsn4ft,1.38,4.56,8.62,1.79,1.16
+football,Laliga2 2024 2025,Round 41,26/05/,Granada CF,Castellon,2,1,0,g_1_8ltjprPh,1.46,4.79,6.05,2.54,0.3
+football,Laliga2 2024 2025,Round 41,26/05/,Mirandes,Almeria,0,0,1,g_1_dACXR09O,2.14,3.09,3.74,0.89,0.33
+football,Laliga2 2024 2025,Round 41,26/05/,Tenerife,Oviedo,0,1,2,g_1_UyjEvvgU,3.33,2.83,2.48,0.11,0.61
+football,Laliga2 2024 2025,Round 41,26/05/,Zaragoza,Dep. La Coruna,1,0,0,g_1_MBn6t0OH,1.58,4.04,5.55,0.64,0.27
+football,Laliga2 2024 2025,Round 41,25/05/,Albacete,Racing Club Ferrol2,2,0,0,g_1_Uyzjr1x8,1.61,4.37,4.79,0.91,0.56
+football,Laliga2 2024 2025,Round 40,20/05/,Cordoba,Mirandes,1,2,2,g_1_pA1TvSVF,3.06,3.45,2.26,1.05,2.56
+football,Laliga2 2024 2025,Round 40,19/05/,Almeria,Racing Santander,2,0,0,g_1_jiIQK6vp,1.76,4.13,4.03,2.18,0.33
+football,Laliga2 2024 2025,Round 40,18/05/,Castellon,Eldense,1,1,1,g_1_xpbLtl13,1.58,4.54,4.85,2.36,1.99
+football,Laliga2 2024 2025,Round 40,18/05/,Oviedo,Zaragoza,1,0,0,g_1_rLB8VNh2,2.23,3.05,3.55,2.38,0.13
+football,Laliga2 2024 2025,Round 40,18/05/,Racing Club Ferrol,Cadiz CF,1,0,0,g_1_2PrZoqwq,3.22,3.25,2.28,1.49,0.58
+football,Laliga2 2024 2025,Round 40,18/05/,Malaga,Gijon,2,1,0,g_1_x8t8XqOk,2.53,2.78,3.3,1.4,0.28
+football,Laliga2 2024 2025,Round 40,18/05/,FC Cartagena SAD,Tenerife,1,0,0,g_1_dlLYIp9d,3.69,3.44,2.02,1.14,1.9
+football,Laliga2 2024 2025,Round 40,18/05/,Huesca,Elche,2,1,0,g_1_dOyrpN7e,3.01,3.13,2.47,2.78,1.43
+football,Laliga2 2024 2025,Round 40,17/05/,Dep. La Coruna,Granada CF,2,3,2,g_1_txexw60S,0.0,0.0,0.0,1.19,2.52
+football,Laliga2 2024 2025,Round 40,17/05/,Eibar,Burgos CF,1,0,0,g_1_Wth3i5FL,1.94,3.27,4.19,1.26,0.36
+football,Laliga2 2024 2025,Round 40,17/05/,Levante,Albacete,1,0,0,g_1_AR3fgRp9,1.46,5.04,5.79,0.91,0.64
+football,Laliga2 2024 2025,Round 39,13/05/,Granada CF,Eibar,0,2,2,g_1_2RqwUAHc,1.93,3.13,4.55,0.62,1.8
+football,Laliga2 2024 2025,Round 39,12/05/,Tenerife,Racing Club Ferrol,0,0,1,g_1_bgwnSlnA,1.54,3.92,6.53,0.44,0.47
+football,Laliga2 2024 2025,Round 39,12/05/,Albacete,Huesca,3,2,0,g_1_8nDTDbRa,2.1,3.6,3.3,2.05,2.5
+football,Laliga2 2024 2025,Round 39,12/05/,Eldense,Malaga,1,0,0,g_1_ziQeHXXi,2.01,3.42,3.72,2.22,0.42
+football,Laliga2 2024 2025,Round 39,11/05/,Racing Santander,Oviedo,1,1,1,g_1_W6yfQSGM,2.19,3.48,3.18,1.08,0.57
+football,Laliga2 2024 2025,Round 39,11/05/,Zaragoza,FC Cartagena SAD,3,2,0,g_1_4WHCDkXG,1.28,5.77,9.64,2.29,0.22
+football,Laliga2 2024 2025,Round 39,11/05/,Burgos CF,Cordoba,3,2,0,g_1_U11xCxdC,2.64,3.22,2.71,1.72,1.13
+football,Laliga2 2024 2025,Round 39,11/05/,Elche,Levante,1,3,2,g_1_z1T9gUuo,1.86,3.52,4.22,1.56,1.65
+football,Laliga2 2024 2025,Round 39,10/05/,Gijon,Dep. La Coruna,2,1,0,g_1_dUdi67Pj,2.05,3.5,3.5,2.4,1.28
+football,Laliga2 2024 2025,Round 39,10/05/,Mirandes,Castellon,3,2,0,g_1_CdLKBT1T,1.96,3.61,3.71,2.94,1.82
+football,Laliga2 2024 2025,Round 39,10/05/,Cadiz CF,Almeria2,2,1,0,g_1_84O3FB24,4.12,3.61,1.86,1.72,1.09
+football,Laliga2 2024 2025,Round 38,06/05/,Castellon,Gijon,4,3,0,g_1_Gx0Sp0cD,1.69,3.84,4.86,2.04,2.91
+football,Laliga2 2024 2025,Round 38,05/05/,Dep. La Coruna,Albacete,5,1,0,g_1_Q7JAcwsJ,1.89,3.46,4.18,2.51,0.96
+football,Laliga2 2024 2025,Round 38,05/05/,Almeria,Eldense,5,0,0,g_1_jD7tf4zR,1.43,4.42,7.64,3.26,1.17
+football,Laliga2 2024 2025,Round 38,05/05/,FC Cartagena SAD,Racing Santander,1,0,0,g_1_rP1KnMS0,5.71,4.72,1.49,1.25,1.76
+football,Laliga2 2024 2025,Round 38,04/05/,Racing Club Ferrol,Zaragoza,1,2,2,g_1_00Yp3sDs,4.11,3.41,1.92,1.69,1.7
+football,Laliga2 2024 2025,Round 38,04/05/,Levante,Tenerife,1,1,1,g_1_UuQ1aaC6,1.73,3.45,5.28,1.31,0.93
+football,Laliga2 2024 2025,Round 38,04/05/,Burgos CF,Elche,0,1,2,g_1_nc8Blrbl,3.24,3.14,2.33,0.62,0.95
+football,Laliga2 2024 2025,Round 38,04/05/,Eibar,Mirandes,0,1,2,g_1_WprF83kK,2.66,2.92,2.94,0.31,1.24
+football,Laliga2 2024 2025,Round 38,04/05/,Malaga,Granada CF,1,0,0,g_1_0M9LFKdm,3.54,3.29,2.13,2.38,0.48
+football,Laliga2 2024 2025,Round 38,03/05/,Huesca,Oviedo,1,2,2,g_1_MFMg1Lsf,2.74,2.85,2.92,1.06,1.17
+football,Laliga2 2024 2025,Round 38,03/05/,Cordoba,Cadiz CF,4,2,0,g_1_I16dLtZP,1.9,3.43,4.19,4.18,0.3
+football,Laliga2 2024 2025,Round 37,30/04/,Almeria,Racing Club Ferrol,2,1,0,g_1_UJWMszo4,1.3,5.05,10.7,1.62,1.73
+football,Laliga2 2024 2025,Round 37,28/04/,Zaragoza,Huesca,1,1,1,g_1_2iRoYMD7,1.82,3.23,5.05,1.23,1.11
+football,Laliga2 2024 2025,Round 37,28/04/,Malaga,Castellon,1,0,0,g_1_SYC3LqU1,3.56,3.36,2.09,1.6,0.96
+football,Laliga2 2024 2025,Round 37,28/04/,Tenerife,Eibar,1,1,1,g_1_YBZUy5Er,2.15,3.1,3.7,2.09,0.61
+football,Laliga2 2024 2025,Round 37,27/04/,Racing Santander,Dep. La Coruna,2,1,0,g_1_GfgbsRjL,1.82,3.74,4.14,1.5,0.75
+football,Laliga2 2024 2025,Round 37,27/04/,Granada CF,Elche,1,1,1,g_1_6PXxzqqe,2.22,3.04,3.59,1.68,0.8
+football,Laliga2 2024 2025,Round 37,27/04/,Mirandes,Burgos CF,2,1,0,g_1_K89eN5ak,1.81,3.02,5.77,1.07,1.44
+football,Laliga2 2024 2025,Round 37,26/04/,Eldense,Cordoba,1,1,1,g_1_8UkjqmM8,2.23,3.3,3.25,0.8,0.39
+football,Laliga2 2024 2025,Round 37,26/04/,Oviedo,Levante,1,0,0,g_1_UcJXeQ5E,2.41,3.01,3.22,0.52,0.24
+football,Laliga2 2024 2025,Round 37,26/04/,Albacete,FC Cartagena SAD,3,1,0,g_1_YiwEqdGi,1.36,5.24,7.49,2.13,0.83
+football,Laliga2 2024 2025,Round 37,26/04/,Cadiz CF,Gijon,1,0,0,g_1_2XUUuEFG,2.15,3.2,3.56,0.55,0.7
+football,Laliga2 2024 2025,Round 36,22/04/,Eibar,Malaga,2,2,1,g_1_YFqHUSkI,1.74,3.32,5.53,1.72,0.93
+football,Laliga2 2024 2025,Round 36,21/04/,Dep. La Coruna,Tenerife,0,0,1,g_1_C0e8WlL5,2.18,3.14,3.55,0.71,0.84
+football,Laliga2 2024 2025,Round 36,21/04/,Elche,Albacete,2,2,1,g_1_YwbuVd1b,1.56,4.07,5.85,1.94,1.23
+football,Laliga2 2024 2025,Round 36,20/04/,Cordoba,Oviedo,0,0,1,g_1_4zh0YAjg,2.33,3.24,3.14,1.3,0.38
+football,Laliga2 2024 2025,Round 36,20/04/,FC Cartagena SAD,Granada CF,2,3,2,g_1_88bizXLt,5.59,3.96,1.6,2.68,2.27
+football,Laliga2 2024 2025,Round 36,20/04/,Burgos CF,Cadiz CF,2,2,1,g_1_hdOsGTzP,2.53,2.78,3.29,1.01,1.49
+football,Laliga2 2024 2025,Round 36,20/04/,Levante,Zaragoza,5,2,0,g_1_0QaXWIWo,1.7,3.74,5.0,3.62,2.7
+football,Laliga2 2024 2025,Round 36,19/04/,Huesca3,Racing Santander,1,3,2,g_1_KWsPS6KU,2.37,3.19,3.1,1.26,1.49
+football,Laliga2 2024 2025,Round 36,19/04/,Racing Club Ferrol,Eldense,1,0,0,g_1_MD9eRE0N,3.03,3.03,2.52,0.91,0.57
+football,Laliga2 2024 2025,Round 36,19/04/,Castellon,Almeria,4,1,0,g_1_U5ilTzWA,2.32,3.53,2.9,2.05,0.49
+football,Laliga2 2024 2025,Round 36,19/04/,Gijon,Mirandes,3,1,0,g_1_6ooSLhOp,2.7,2.94,2.89,1.47,1.08
+football,Laliga2 2024 2025,Round 35,15/04/,Huesca,Malaga,1,0,0,g_1_0SUa5CM6,2.01,3.11,4.21,0.68,0.36
+football,Laliga2 2024 2025,Round 35,14/04/,Almeria,FC Cartagena SAD,2,1,0,g_1_C8TO3ao2,1.18,8.56,11.1,2.55,1.61
+football,Laliga2 2024 2025,Round 35,14/04/,Eldense,Gijon,1,2,2,g_1_40yi7Yif,2.53,2.91,3.14,1.55,2.17
+football,Laliga2 2024 2025,Round 35,14/04/,Mirandes,Dep. La Coruna,2,2,1,g_1_UHwILX6m,1.85,3.27,4.77,3.45,1.69
+football,Laliga2 2024 2025,Round 35,13/04/,Racing Santander,Castellon,1,1,1,g_1_bZnnRgqQ,2.13,3.66,3.18,1.78,1.92
+football,Laliga2 2024 2025,Round 35,13/04/,Albacete,Granada CF,0,2,2,g_1_GtzG5LGk,2.79,3.28,2.55,1.4,1.01
+football,Laliga2 2024 2025,Round 35,13/04/,Oviedo,Racing Club Ferrol,3,0,0,g_1_bcVYHk6C,1.43,4.21,8.19,1.58,0.44
+football,Laliga2 2024 2025,Round 35,13/04/,Cadiz CF,Elche,0,1,2,g_1_xnLAR2w9,2.72,2.9,2.89,1.41,0.86
+football,Laliga2 2024 2025,Round 35,13/04/,Tenerife,Burgos CF,0,0,1,g_1_YuT73jiJ,1.94,3.2,4.33,1.18,0.42
+football,Laliga2 2024 2025,Round 35,12/04/,Zaragoza,Eibar,2,2,1,g_1_jXRQJBy0,2.53,2.91,3.14,1.07,0.29
+football,Laliga2 2024 2025,Round 35,12/04/,Cordoba,Levante,2,2,1,g_1_dzYr9fNs,2.38,3.27,3.0,1.59,2.78
+football,Laliga2 2024 2025,Round 34,08/04/,Elche,Racing Club Ferrol,1,0,0,g_1_GbTo2nAc,1.45,4.37,7.28,0.99,0.23
+football,Laliga2 2024 2025,Round 34,07/04/,Dep. La Coruna,Cadiz CF,1,0,0,g_1_xSdTEPg3,2.21,3.21,3.41,1.87,0.7
+football,Laliga2 2024 2025,Round 34,07/04/,Burgos CF,Huesca,2,1,0,g_1_dfdLoRPG,2.4,2.73,3.64,0.88,0.23
+football,Laliga2 2024 2025,Round 34,07/04/,Malaga,Cordoba,0,1,2,g_1_OreyD3OF,2.8,3.16,2.6,1.32,0.47
+football,Laliga2 2024 2025,Round 34,06/04/,Levante,Racing Santander,3,1,0,g_1_d8yf0QvA,1.87,3.63,4.04,1.71,1.03
+football,Laliga2 2024 2025,Round 34,06/04/,Zaragoza,Mirandes,1,0,0,g_1_KAlpBsgS,2.84,3.14,2.58,0.69,0.55
+football,Laliga2 2024 2025,Round 34,06/04/,Gijon,Tenerife,1,3,2,g_1_ULZ1b49M,1.97,3.23,4.14,1.09,0.83
+football,Laliga2 2024 2025,Round 34,06/04/,FC Cartagena SAD,Eldense,0,1,2,g_1_4KaTq5fT,4.14,3.23,1.97,0.76,1.55
+football,Laliga2 2024 2025,Round 34,06/04/,Granada CF,Almeria,3,1,0,g_1_dWJtiM1d,2.58,3.29,2.73,2.55,1.03
+football,Laliga2 2024 2025,Round 34,05/04/,Eibar,Oviedo,1,1,1,g_1_lhy0vqIj,2.29,2.94,3.56,1.15,0.56
+football,Laliga2 2024 2025,Round 34,05/04/,Castellon,Albacete,2,2,1,g_1_l6GYhrXq,1.64,4.14,4.86,3.24,1.19
+football,Laliga2 2024 2025,Round 33,01/04/,Cadiz CF,Eibar,0,0,1,g_1_8EJ9Xz56,2.25,2.88,3.76,0.29,0.46
+football,Laliga2 2024 2025,Round 33,31/03/,Albacete,Mirandes,3,2,0,g_1_EXHgyJ5s,2.54,3.02,3.0,0.76,1.88
+football,Laliga2 2024 2025,Round 33,31/03/,Huesca,Gijon,3,2,0,g_1_jyIxyABb,2.25,2.99,3.59,3.32,1.13
+football,Laliga2 2024 2025,Round 33,30/03/,Oviedo,Malaga,2,1,0,g_1_xhtKmme4,1.71,3.52,5.28,1.41,0.79
+football,Laliga2 2024 2025,Round 33,30/03/,Cordoba,Elche,1,2,2,g_1_f9OTxWtn,2.64,3.0,2.89,1.23,0.76
+football,Laliga2 2024 2025,Round 33,30/03/,Almeria,Levante,1,0,0,g_1_zm62Zdzf,2.04,3.4,3.65,1.45,0.92
+football,Laliga2 2024 2025,Round 33,30/03/,FC Cartagena SAD,Castellon,2,2,1,g_1_4tDIVEZI,4.77,3.81,1.7,0.85,1.88
+football,Laliga2 2024 2025,Round 33,30/03/,Racing Santander,Zaragoza,2,0,0,g_1_dYKpZmtB,1.88,3.66,3.96,2.88,0.11
+football,Laliga2 2024 2025,Round 33,30/03/,Racing Club Ferrol,Dep. La Coruna,0,1,2,g_1_lWaPR5Yp,3.41,3.11,2.26,0.27,1.64
+football,Laliga2 2024 2025,Round 33,29/03/,Eldense,Burgos CF,0,0,1,g_1_Im9gXRAN,0.0,0.0,0.0,1.94,0.16
+football,Laliga2 2024 2025,Round 33,29/03/,Tenerife,Granada CF,2,1,0,g_1_4vrCk9Qi,2.49,3.01,3.09,1.33,1.65
+football,Laliga2 2024 2025,Round 32,25/03/,Zaragoza,Cordoba,1,1,1,g_1_StqyJyjD,2.28,3.34,3.14,1.32,1.31
+football,Laliga2 2024 2025,Round 32,24/03/,Dep. La Coruna,FC Cartagena SAD,2,2,1,g_1_0UiKMJjl,1.35,4.56,10.1,1.01,1.11
+football,Laliga2 2024 2025,Round 32,24/03/,Tenerife,Cadiz CF,2,1,0,g_1_Uo1lSuTQ,2.47,2.94,3.19,1.25,2.06
+football,Laliga2 2024 2025,Round 32,24/03/,Eibar,Huesca,2,1,0,g_1_MaM5HOE8,2.01,3.03,4.37,0.85,0.16
+football,Laliga2 2024 2025,Round 32,24/03/,Gijon2,Albacete,0,2,2,g_1_tQKg6b67,2.05,3.22,3.86,0.68,2.3
+football,Laliga2 2024 2025,Round 32,23/03/,Levante,Castellon,3,2,0,g_1_fTpTKcL0,1.98,3.38,3.87,2.72,1.3
+football,Laliga2 2024 2025,Round 32,23/03/,Granada CF,Oviedo,1,0,0,g_1_lA6pAt7r,2.4,3.0,3.25,1.01,0.77
+football,Laliga2 2024 2025,Round 32,23/03/,Malaga,Racing Club Ferrol,2,0,0,g_1_rkRNturK,1.74,3.32,5.53,0.88,0.9
+football,Laliga2 2024 2025,Round 32,23/03/,Mirandes,Racing Santander,2,1,0,g_1_MN4h8Kye,1.98,3.38,3.91,0.98,0.89
+football,Laliga2 2024 2025,Round 32,23/03/,Elche,Eldense,2,0,0,g_1_UPPDF2qL,1.74,3.53,4.99,2.05,0.35
+football,Laliga2 2024 2025,Round 32,22/03/,Burgos CF,Almeria,3,1,0,g_1_8WCuU1bE,3.18,2.96,2.46,1.01,0.74
+football,Laliga2 2024 2025,Round 31,18/03/,Castellon,Dep. La Coruna,2,2,1,g_1_Qi3bH3cB,2.02,3.63,3.63,1.89,0.89
+football,Laliga2 2024 2025,Round 31,17/03/,Cadiz CF,Granada CF,1,0,0,g_1_UP9kJPSb,2.24,3.24,3.37,1.44,0.25
+football,Laliga2 2024 2025,Round 31,17/03/,Huesca,Levante,1,2,2,g_1_b36QKx43,3.21,2.88,2.5,0.42,1.42
+football,Laliga2 2024 2025,Round 31,17/03/,Racing Santander,Tenerife,2,1,0,g_1_fVaZIGYF,1.62,3.64,6.06,0.5,0.64
+football,Laliga2 2024 2025,Round 31,16/03/,Eldense,Mirandes,2,2,1,g_1_h6JvcZBd,2.67,2.94,2.92,1.24,1.88
+football,Laliga2 2024 2025,Round 31,16/03/,Cordoba,Gijon,1,1,1,g_1_WjVVbesp,2.01,3.27,3.92,1.71,0.52
+football,Laliga2 2024 2025,Round 31,16/03/,Almeria,Zaragoza,4,1,0,g_1_dCBsLobn,1.63,3.93,5.29,1.33,0.19
+football,Laliga2 2024 2025,Round 31,16/03/,Albacete2,Malaga,2,0,0,g_1_KEtX0rDU,1.93,3.43,4.04,1.38,1.71
+football,Laliga2 2024 2025,Round 31,16/03/,FC Cartagena SAD,Burgos CF,0,1,2,g_1_SrbsHf3S,4.25,3.04,2.03,0.34,1.06
+football,Laliga2 2024 2025,Round 31,15/03/,Racing Club Ferrol,Eibar,0,0,1,g_1_nTvEBYQk,3.74,3.03,2.17,0.28,1.64
+football,Laliga2 2024 2025,Round 31,15/03/,Oviedo,Elche,1,1,1,g_1_vycL9Ce2,2.17,2.94,3.89,3.06,1.62
+football,Laliga2 2024 2025,Round 30,11/03/,Burgos CF,Albacete,1,0,0,g_1_CEMFySqJ,2.18,3.04,3.7,2.31,1.83
+football,Laliga2 2024 2025,Round 30,10/03/,Granada CF,Racing Club Ferrol,3,0,0,g_1_r9o86nqg,1.5,3.93,7.34,1.34,0.47
+football,Laliga2 2024 2025,Round 30,10/03/,Levante,FC Cartagena SAD,3,0,0,g_1_IiqshmUa,1.31,5.28,9.56,3.11,0.8
+football,Laliga2 2024 2025,Round 30,10/03/,Malaga,Cadiz CF,0,2,2,g_1_dxeYg9am,2.94,2.94,2.66,0.26,0.68
+football,Laliga2 2024 2025,Round 30,09/03/,Tenerife,Huesca,2,0,0,g_1_jZlG4QD5,2.33,2.93,3.49,1.26,0.34
+football,Laliga2 2024 2025,Round 30,09/03/,Zaragoza,Eldense,2,4,2,g_1_xdG788Et,1.98,3.34,3.95,3.04,1.25
+football,Laliga2 2024 2025,Round 30,09/03/,Elche,Castellon,3,1,0,g_1_QHnkjRbC,1.79,3.55,4.57,1.83,0.56
+football,Laliga2 2024 2025,Round 30,09/03/,Gijon,Racing Santander,1,1,1,g_1_ClwP24rI,0.0,0.0,0.0,0.6,1.43
+football,Laliga2 2024 2025,Round 30,09/03/,Mirandes,Oviedo,1,0,0,g_1_v1O7wlF6,2.56,2.89,3.11,1.5,0.6
+football,Laliga2 2024 2025,Round 30,08/03/,Dep. La Coruna,Cordoba,1,1,1,g_1_Mqtbl5TO,2.01,3.27,3.92,1.69,0.73
+football,Laliga2 2024 2025,Round 30,08/03/,Eibar,Almeria,1,0,0,g_1_SM42aVyQ,2.83,3.12,2.61,0.99,0.6
+football,Laliga2 2024 2025,Round 24,06/03/,Racing Club Ferrol,Burgos CF,0,1,2,g_1_xGMFBP76,3.01,2.63,2.9,0.73,1.28
+football,Laliga2 2024 2025,Round 29,04/03/,Mirandes,Tenerife,2,0,0,g_1_GbBHSW0l,1.84,3.02,5.5,2.2,0.55
+football,Laliga2 2024 2025,Round 29,03/03/,Racing Santander,Elche,2,0,0,g_1_CpeKnhhK,2.59,3.09,2.86,1.74,0.35
+football,Laliga2 2024 2025,Round 29,03/03/,Albacete,Cadiz CF,3,0,0,g_1_b9iIWu2M,2.64,3.01,2.89,2.31,0.64
+football,Laliga2 2024 2025,Round 29,03/03/,Eldense,Levante,1,2,2,g_1_xGvpouHF,2.65,3.13,2.78,1.05,1.7
+football,Laliga2 2024 2025,Round 29,03/03/,Oviedo,Dep. La Coruna,1,2,2,g_1_pv3YOl0D,1.9,3.4,4.2,0.51,0.67
+football,Laliga2 2024 2025,Round 29,02/03/,Cordoba,Granada CF,5,0,0,g_1_Ukyxm1n3,2.4,2.89,3.48,0.88,0.96
+football,Laliga2 2024 2025,Round 29,02/03/,Almeria,Malaga,2,2,1,g_1_tUfsRJPq,1.54,4.55,5.35,3.02,1.32
+football,Laliga2 2024 2025,Round 29,02/03/,Zaragoza,Gijon,1,1,1,g_1_rZUbuApf,2.26,3.02,3.52,2.6,1.04
+football,Laliga2 2024 2025,Round 29,02/03/,Castellon,Burgos CF,2,1,0,g_1_lC9PQAV0,1.93,3.43,4.04,1.6,2.42
+football,Laliga2 2024 2025,Round 29,02/03/,Huesca,Racing Club Ferrol,3,1,0,g_1_dIWjsWFs,1.7,3.23,6.3,0.74,0.33
+football,Laliga2 2024 2025,Round 29,01/03/,FC Cartagena SAD,Eibar,0,2,2,g_1_lfbkPcfd,4.17,3.1,2.02,0.26,0.62
+football,Laliga2 2024 2025,Round 28,24/02/,Cadiz CF,Castellon,0,0,1,g_1_WKh2533N,2.17,3.23,3.49,1.32,1.08
+football,Laliga2 2024 2025,Round 28,24/02/,Albacete,Eldense,0,1,2,g_1_2u1o9o4b,2.05,3.22,3.86,0.64,0.82
+football,Laliga2 2024 2025,Round 28,24/02/,Levante,Mirandes,1,0,0,g_1_ChTzK2IG,2.16,3.02,3.78,0.79,0.8
+football,Laliga2 2024 2025,Round 28,24/02/,Elche,FC Cartagena SAD,2,1,0,g_1_UTa1zO2c,1.3,5.25,10.6,1.97,0.91
+football,Laliga2 2024 2025,Round 28,23/02/,Dep. La Coruna,Huesca,0,0,1,g_1_S4gXasRp,2.01,3.27,3.92,1.23,0.45
+football,Laliga2 2024 2025,Round 28,23/02/,Gijon,Almeria,1,1,1,g_1_2N7FCKAj,2.46,3.27,2.89,1.44,2.16
+football,Laliga2 2024 2025,Round 28,23/02/,Granada CF,Zaragoza,2,2,1,g_1_GQZRLOm4,1.82,3.34,4.8,0.7,0.52
+football,Laliga2 2024 2025,Round 28,23/02/,Burgos CF,Oviedo,1,2,2,g_1_A54g7PYA,3.33,2.72,2.57,0.27,0.67
+football,Laliga2 2024 2025,Round 28,23/02/,Eibar,Racing Santander,2,2,1,g_1_rDyKNpJi,1.96,3.42,3.92,1.04,0.98
+football,Laliga2 2024 2025,Round 28,22/02/,Racing Club Ferrol,Cordoba,0,1,2,g_1_QegAY1X9,3.22,3.01,2.41,0.25,0.59
+football,Laliga2 2024 2025,Round 28,22/02/,Malaga,Tenerife,1,0,0,g_1_IkWrItmT,2.45,2.93,3.26,1.47,0.29
+football,Laliga2 2024 2025,Round 27,18/02/,Almeria,Elche,1,1,1,g_1_KYdcIUPE,1.99,3.4,3.84,0.29,1.28
+football,Laliga2 2024 2025,Round 27,17/02/,Oviedo,Albacete,1,0,0,g_1_tCTh74HD,1.69,3.56,5.45,1.05,0.39
+football,Laliga2 2024 2025,Round 27,17/02/,Zaragoza,Burgos CF,0,1,2,g_1_KdqebUkt,2.01,3.11,4.21,0.24,1.06
+football,Laliga2 2024 2025,Round 27,17/02/,Eldense,Dep. La Coruna,2,0,0,g_1_d2vKhQJH,2.64,3.22,2.71,1.97,0.4
+football,Laliga2 2024 2025,Round 27,17/02/,Huesca,Granada CF,1,1,1,g_1_6D7xB7Zo,2.55,2.9,3.1,0.67,0.44
+football,Laliga2 2024 2025,Round 27,16/02/,Levante,Gijon,0,0,1,g_1_8bVp9Qn1,2.1,3.2,3.7,2.41,0.39
+football,Laliga2 2024 2025,Round 27,16/02/,Tenerife,Cordoba,2,3,2,g_1_lxyCfnk5,1.96,3.13,4.37,1.56,2.7
+football,Laliga2 2024 2025,Round 27,16/02/,Racing Santander,Cadiz CF,2,3,2,g_1_SMn3d8Kh,2.28,3.14,3.34,1.75,2.93
+football,Laliga2 2024 2025,Round 27,16/02/,FC Cartagena SAD,Malaga,0,1,2,g_1_tlo6G8fR,2.84,3.04,2.66,1.55,0.83
+football,Laliga2 2024 2025,Round 27,15/02/,Castellon,Eibar,2,0,0,g_1_CWyxBnIl,1.98,3.29,4.0,1.13,1.63
+football,Laliga2 2024 2025,Round 27,15/02/,Mirandes,Racing Club Ferrol,4,1,0,g_1_j1XSj4lU,1.68,3.43,5.8,2.34,0.32
+football,Laliga2 2024 2025,Round 26,11/02/,Oviedo,Eldense,0,0,1,g_1_CId3dm3e,1.64,3.73,5.51,0.56,0.11
+football,Laliga2 2024 2025,Round 26,10/02/,Cadiz CF,FC Cartagena SAD,5,2,0,g_1_hpbsihRF,1.51,3.82,7.53,1.56,1.63
+football,Laliga2 2024 2025,Round 26,10/02/,Dep. La Coruna,Almeria,3,1,0,g_1_Y3JG5it9,2.89,3.33,2.43,1.0,1.27
+football,Laliga2 2024 2025,Round 26,10/02/,Burgos CF,Racing Santander,2,1,0,g_1_bo5YhEd3,2.43,3.29,2.93,1.6,0.62
+football,Laliga2 2024 2025,Round 26,10/02/,Cordoba,Huesca,1,2,2,g_1_QcdkkWeS,2.07,3.14,3.9,0.83,1.26
+football,Laliga2 2024 2025,Round 26,09/02/,Elche,Tenerife,2,0,0,g_1_prwMqAJk,1.69,3.42,5.76,1.48,1.36
+football,Laliga2 2024 2025,Round 26,09/02/,Gijon,Eibar,0,0,1,g_1_v5beb9Yr,1.79,3.34,5.0,0.59,0.68
+football,Laliga2 2024 2025,Round 26,09/02/,Malaga,Levante,1,1,1,g_1_8pjCfRX7,3.05,3.13,2.44,1.93,1.74
+football,Laliga2 2024 2025,Round 26,09/02/,Granada CF,Mirandes,0,0,1,g_1_h8tUsll2,1.86,3.43,4.36,0.62,0.62
+football,Laliga2 2024 2025,Round 26,08/02/,Racing Club Ferrol,Castellon,1,3,2,g_1_KKHO3VAL,3.28,3.11,2.32,1.28,0.6
+football,Laliga2 2024 2025,Round 26,08/02/,Albacete,Zaragoza,2,1,0,g_1_WvDnVA4d,2.27,3.02,3.49,1.12,1.53
+football,Laliga2 2024 2025,Round 25,04/02/,Levante,Racing Club Ferrol,0,1,2,g_1_vsY7xgCM,1.54,3.97,6.36,1.16,0.7
+football,Laliga2 2024 2025,Round 25,03/02/,Tenerife,Albacete,3,1,0,g_1_Ig6Wx265,2.16,3.11,3.67,1.23,1.47
+football,Laliga2 2024 2025,Round 25,03/02/,FC Cartagena SAD,Cordoba,0,1,2,g_1_0IZ5MtMO,4.52,3.41,1.84,0.43,1.18
+football,Laliga2 2024 2025,Round 25,03/02/,Zaragoza,Cadiz CF,0,0,1,g_1_p8MCIXKj,2.22,3.02,3.63,0.35,0.91
+football,Laliga2 2024 2025,Round 25,03/02/,Eibar,Dep. La Coruna,0,1,2,g_1_0G4atyDc,2.15,3.1,3.7,0.82,1.53
+football,Laliga2 2024 2025,Round 25,02/02/,Castellon,Huesca,0,1,2,g_1_GU9Ftp7t,2.15,3.2,3.56,0.81,0.84
+football,Laliga2 2024 2025,Round 25,02/02/,Racing Santander,Malaga,2,1,0,g_1_APOwXWZq,1.6,4.12,5.23,1.78,1.04
+football,Laliga2 2024 2025,Round 25,02/02/,Almeria,Oviedo,1,1,1,g_1_4jtcO2iC,1.9,3.43,4.19,0.8,0.83
+football,Laliga2 2024 2025,Round 25,02/02/,Gijon,Burgos CF,2,0,0,g_1_v9fuytyI,1.93,3.23,4.37,1.12,0.53
+football,Laliga2 2024 2025,Round 25,01/02/,Mirandes,Elche,3,0,0,g_1_YT27vFsA,3.13,2.93,2.52,1.27,0.81
+football,Laliga2 2024 2025,Round 25,01/02/,Eldense,Granada CF,0,3,2,g_1_Cd3OvOyg,3.03,3.1,2.46,0.96,0.89
+football,Laliga2 2024 2025,Round 19,30/01/,Tenerife,Dep. La Coruna,0,0,1,g_1_OKEg48mC,2.38,2.83,3.5,1.77,1.6
+football,Laliga2 2024 2025,Round 24,28/01/,Cadiz CF,Mirandes,3,1,0,g_1_IaRuanO0,2.12,3.02,3.93,0.72,2.19
+football,Laliga2 2024 2025,Round 24,27/01/,Malaga,Zaragoza,1,2,2,g_1_d6E7Dowf,2.5,2.87,3.24,1.46,1.26
+football,Laliga2 2024 2025,Round 24,27/01/,Albacete,Almeria,2,1,0,g_1_pnTX08gl,3.48,3.34,2.12,2.21,1.26
+football,Laliga2 2024 2025,Round 24,27/01/,Oviedo,Castellon,1,0,0,g_1_Qy3AX6UP,1.78,3.46,4.83,1.23,0.75
+football,Laliga2 2024 2025,Round 24,26/01/,Granada CF,Gijon,3,1,0,g_1_ltBaF78s,2.32,2.94,3.49,2.71,1.09
+football,Laliga2 2024 2025,Round 24,26/01/,Tenerife,Eldense,0,1,2,g_1_IZskQOMa,1.97,3.13,4.37,0.73,0.14
+football,Laliga2 2024 2025,Round 24,26/01/,Dep. La Coruna,Levante,1,2,2,g_1_48ZSKTpK,2.29,3.08,3.38,1.33,1.65
+football,Laliga2 2024 2025,Round 24,26/01/,Huesca,FC Cartagena SAD,4,0,0,g_1_ATKN93xJ,1.53,3.74,7.29,1.81,0.29
+football,Laliga2 2024 2025,Round 24,26/01/,Cordoba,Racing Santander,1,2,2,g_1_x2sscQhD,2.37,3.42,2.92,1.36,1.26
+football,Laliga2 2024 2025,Round 24,25/01/,Elche,Eibar,2,0,0,g_1_dKgtSphm,1.7,3.39,5.71,2.24,0.33
+football,Laliga2 2024 2025,Round 23,21/01/,Mirandes,Malaga,3,2,0,g_1_Iyqg8j1E,2.05,3.11,4.05,2.3,0.54
+football,Laliga2 2024 2025,Round 23,20/01/,Almeria,Huesca,0,0,1,g_1_SUIzf0t4,1.63,3.8,5.45,1.86,0.2
+football,Laliga2 2024 2025,Round 23,20/01/,Castellon,Cordoba,1,2,2,g_1_GfiOpd3j,1.95,3.32,4.08,1.7,2.13
+football,Laliga2 2024 2025,Round 23,20/01/,Zaragoza,Tenerife,2,2,1,g_1_Q1n16UVQ,1.9,3.01,5.01,1.25,0.77
+football,Laliga2 2024 2025,Round 23,20/01/,Racing Santander,Racing Club Ferrol,6,0,0,g_1_Wr3bn9ve,1.69,3.63,5.3,2.94,0.63
+football,Laliga2 2024 2025,Round 23,19/01/,Burgos CF,Dep. La Coruna,0,1,2,g_1_OdCqhvBG,2.64,2.89,3.01,0.58,0.33
+football,Laliga2 2024 2025,Round 23,19/01/,Levante,Granada CF,3,1,0,g_1_xt66pm97,2.01,3.22,4.02,2.37,1.14
+football,Laliga2 2024 2025,Round 23,19/01/,Eibar,Albacete,1,1,1,g_1_82g98aec,2.15,3.2,3.7,1.11,0.63
+football,Laliga2 2024 2025,Round 23,19/01/,Gijon,Elche,1,1,1,g_1_zH9klV9r,2.43,3.04,3.22,0.89,0.47
+football,Laliga2 2024 2025,Round 23,19/01/,Eldense,Cadiz CF,1,4,2,g_1_4UnI6wQ9,2.45,2.93,3.26,1.63,0.99
+football,Laliga2 2024 2025,Round 23,18/01/,FC Cartagena SAD,Oviedo,0,1,2,g_1_WMFijIuT,5.1,3.42,1.76,0.88,1.2
+football,Laliga2 2024 2025,Round 22,14/01/,Eldense,Eibar,1,3,2,g_1_fHKSeMBi,2.49,2.9,3.22,1.64,2.07
+football,Laliga2 2024 2025,Round 22,13/01/,Cadiz CF,Levante,0,0,1,g_1_pML8h5kg,2.78,3.03,2.73,0.26,0.46
+football,Laliga2 2024 2025,Round 22,13/01/,Elche,Zaragoza,1,0,0,g_1_6yAHjqK5,1.78,3.3,5.18,0.83,0.38
+football,Laliga2 2024 2025,Round 22,12/01/,Cordoba,Almeria,0,3,2,g_1_Qusr744n,3.05,3.35,2.32,0.49,1.56
+football,Laliga2 2024 2025,Round 22,12/01/,Oviedo,Gijon,1,1,1,g_1_AT6Yn1JU,2.11,3.04,3.91,0.6,0.46
+football,Laliga2 2024 2025,Round 22,12/01/,Malaga,Dep. La Coruna,1,1,1,g_1_p6uWevdo,2.54,3.01,3.01,1.0,0.92
+football,Laliga2 2024 2025,Round 22,12/01/,Tenerife,Castellon,2,0,0,g_1_ENl010YN,2.9,3.2,2.5,0.8,0.16
+football,Laliga2 2024 2025,Round 22,12/01/,Albacete,Racing Santander,2,2,1,g_1_hE31fRKt,2.38,3.42,2.91,1.8,0.91
+football,Laliga2 2024 2025,Round 22,12/01/,Huesca,Mirandes2,1,0,0,g_1_E1DPlNlI,2.43,2.78,3.51,2.43,0.13
+football,Laliga2 2024 2025,Round 22,11/01/,Racing Club Ferrol,FC Cartagena SAD,0,0,1,g_1_h80i3M3B,1.85,3.29,4.72,0.59,0.14
+football,Laliga2 2024 2025,Round 22,11/01/,Granada CF,Burgos CF,0,0,1,g_1_prcq5rZb,1.94,3.23,4.29,0.38,0.46
+football,Laliga2 2024 2025,Round 14,08/01/,Tenerife,Levante,0,3,2,g_1_CtwKjz1M,3.24,3.13,2.33,0.45,1.69
+football,Laliga2 2024 2025,Round 21,23/12/,Dep. La Coruna,Mirandes,0,4,2,g_1_rHoivFUr,1.78,3.56,4.66,0.0,0.0
+football,Laliga2 2024 2025,Round 21,23/12/,Levante,Huesca,1,1,1,g_1_tzzqxp5C,1.66,3.96,4.91,0.0,0.0
+football,Laliga2 2024 2025,Round 21,23/12/,Almeria,Cadiz CF,1,1,1,g_1_xvPPNgp2,1.62,4.04,5.23,0.0,0.0
+football,Laliga2 2024 2025,Round 21,23/12/,Racing Santander,Eldense,2,2,1,g_1_birSuS5m,2.01,3.5,3.63,0.0,0.0
+football,Laliga2 2024 2025,Round 21,23/12/,Castellon,Elche,0,2,2,g_1_Qa5Kqy7L,2.46,3.23,2.93,0.0,0.0
+football,Laliga2 2024 2025,Round 21,22/12/,Burgos CF,Tenerife,1,0,0,g_1_IZ1Cocx9,1.98,3.1,4.35,0.0,0.0
+football,Laliga2 2024 2025,Round 21,22/12/,Gijon,Malaga,1,3,2,g_1_EmYjzOZO,1.79,3.29,5.13,0.0,0.0
+football,Laliga2 2024 2025,Round 21,22/12/,Zaragoza,Racing Club Ferrol,1,0,0,g_1_p8tzv6z0,1.52,3.93,6.81,0.0,0.0
+football,Laliga2 2024 2025,Round 21,22/12/,Oviedo,Cordoba,2,3,2,g_1_v3VgbzME,1.63,3.93,5.29,0.0,0.0
+football,Laliga2 2024 2025,Round 21,21/12/,Eibar,Granada CF,1,1,1,g_1_GUqaxgae,2.26,2.9,3.7,0.0,0.0
+football,Laliga2 2024 2025,Round 21,21/12/,FC Cartagena SAD,Albacete,0,0,1,g_1_Cdw8zXT7,3.7,3.2,2.1,0.0,0.0
+football,Laliga2 2024 2025,Round 20,20/12/,Dep. La Coruna,Castellon,5,1,0,g_1_SU4oXcNF,2.01,3.71,3.43,0.0,0.0
+football,Laliga2 2024 2025,Round 20,20/12/,Huesca,Tenerife,1,0,0,g_1_Iao3KKwA,1.9,3.13,4.71,0.0,0.0
+football,Laliga2 2024 2025,Round 20,20/12/,Cadiz CF,Burgos CF,1,1,1,g_1_4dJjBG0d,1.78,3.3,5.18,0.0,0.0
+football,Laliga2 2024 2025,Round 20,20/12/,Elche,Racing Santander,3,0,0,g_1_pnmeMt9c,1.75,3.6,4.76,0.0,0.0
+football,Laliga2 2024 2025,Round 20,19/12/,Malaga,Eldense,3,0,0,g_1_0r3gVyhS,2.22,3.02,3.62,0.0,0.0
+football,Laliga2 2024 2025,Round 20,19/12/,Mirandes,Gijon,1,1,1,g_1_ERvCIb8M,2.44,2.74,3.53,0.0,0.0
+football,Laliga2 2024 2025,Round 20,19/12/,Racing Club Ferrol,Almeria,1,4,2,g_1_rsVsDxWq,4.27,3.42,1.88,0.0,0.0
+football,Laliga2 2024 2025,Round 20,18/12/,Cordoba,Eibar,2,1,0,g_1_Uw58bwHj,2.18,3.05,3.68,0.0,0.0
+football,Laliga2 2024 2025,Round 20,18/12/,Zaragoza,Oviedo,2,3,2,g_1_UDLHPFFk,2.17,3.04,3.72,0.0,0.0
+football,Laliga2 2024 2025,Round 20,18/12/,Albacete,Levante,0,0,1,g_1_K4Jx4agT,2.75,3.29,2.57,0.0,0.0
+football,Laliga2 2024 2025,Round 20,18/12/,Granada CF,FC Cartagena SAD,4,1,0,g_1_W2BxZJh3,1.4,4.56,8.1,0.0,0.0
+football,Laliga2 2024 2025,Round 19,16/12/,Racing Santander,Huesca,0,1,2,g_1_bkVT5LOG,1.8,3.59,4.49,0.0,0.0
+football,Laliga2 2024 2025,Round 19,16/12/,Burgos CF,Malaga,0,0,1,g_1_C0TJiV36,1.84,3.51,4.35,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Gijon,Racing Club Ferrol,1,3,2,g_1_fcYC93Pi,1.63,3.39,6.75,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Oviedo,Granada CF,2,0,0,g_1_jPRL7sf4,1.96,3.43,3.9,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Eibar,Zaragoza,2,1,0,g_1_pERRk9YI,2.26,3.02,3.52,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Eldense,Elche,0,0,1,g_1_23oRo0Xp,3.12,3.02,2.46,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Cadiz CF,Albacete,1,0,0,g_1_OdW6DCQP,2.12,3.23,3.63,0.0,0.0
+football,Laliga2 2024 2025,Round 19,15/12/,Castellon,FC Cartagena SAD,4,1,0,g_1_fuNx8jlm,1.36,4.81,8.81,0.0,0.0
+football,Laliga2 2024 2025,Round 19,14/12/,Levante,Cordoba,2,2,1,g_1_GfBo6UIa,1.74,3.78,4.54,0.0,0.0
+football,Laliga2 2024 2025,Round 19,14/12/,Almeria,Mirandes,1,0,0,g_1_GYZAgiZg,1.57,3.93,6.01,0.0,0.0
+football,Laliga2 2024 2025,Round 18,10/12/,FC Cartagena SAD,Gijon,1,0,0,g_1_nHlcr69e,4.68,3.21,1.88,0.0,0.0
+football,Laliga2 2024 2025,Round 18,09/12/,Cordoba,Tenerife,3,0,0,g_1_fsh5tpv8,1.94,3.49,3.89,0.0,0.0
+football,Laliga2 2024 2025,Round 18,09/12/,Albacete,Castellon,0,0,1,g_1_fJ9IklHL,2.25,3.42,3.12,0.0,0.0
+football,Laliga2 2024 2025,Round 18,09/12/,Burgos CF,Eldense,1,0,0,g_1_jkelpSvq,2.16,3.12,3.65,0.0,0.0
+football,Laliga2 2024 2025,Round 18,09/12/,Malaga,Almeria,1,1,1,g_1_2V9yuhK0,3.24,3.13,2.33,0.0,0.0
+football,Laliga2 2024 2025,Round 18,08/12/,Racing Club Ferrol,Oviedo,1,5,2,g_1_AXUdnzSQ,3.63,2.93,2.27,0.0,0.0
+football,Laliga2 2024 2025,Round 18,08/12/,Huesca,Eibar,2,1,0,g_1_OzeW0ZtK,2.56,2.7,3.38,0.0,0.0
+football,Laliga2 2024 2025,Round 18,08/12/,Dep. La Coruna,Zaragoza,1,1,1,g_1_x6HkldcE,2.04,3.3,3.77,0.0,0.0
+football,Laliga2 2024 2025,Round 18,08/12/,Granada CF,Racing Santander,3,0,0,g_1_UHBTtEkl,2.17,3.32,3.39,0.0,0.0
+football,Laliga2 2024 2025,Round 18,07/12/,Elche,Cadiz CF,2,1,0,g_1_bc3pwWlD,1.65,3.78,5.36,0.0,0.0
+football,Laliga2 2024 2025,Round 18,07/12/,Mirandes,Levante,2,1,0,g_1_88W2eD4s,2.75,3.04,2.74,0.0,0.0
+football,Laliga2 2024 2025,Round 17,03/12/,Eibar,FC Cartagena SAD,1,0,0,g_1_nchtjcB4,1.65,3.62,5.74,0.0,0.0
+football,Laliga2 2024 2025,Round 17,02/12/,Gijon,Cordoba,2,0,0,g_1_6a8slytH,1.73,3.6,4.93,0.0,0.0
+football,Laliga2 2024 2025,Round 17,02/12/,Eldense,Racing Club Ferrol,0,0,1,g_1_ShLFZyRN,1.86,2.93,5.55,0.0,0.0
+football,Laliga2 2024 2025,Round 17,02/12/,Levante,Burgos CF,3,1,0,g_1_EqfYiJth,1.74,3.39,5.24,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Castellon,Malaga,2,0,0,g_1_6wX6ybdB,1.76,3.82,4.37,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Tenerife,Elche,1,1,1,g_1_CbzFVSPk,3.44,2.92,2.35,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Cadiz CF,Dep. La Coruna,2,4,2,g_1_EVEawKRb,2.38,3.08,3.18,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Racing Santander,Mirandes,0,1,2,g_1_0KG9iAn9,1.76,3.46,5.0,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Almeria,Granada CF,2,1,0,g_1_I3Ljutcn,1.91,3.42,4.12,0.0,0.0
+football,Laliga2 2024 2025,Round 17,01/12/,Zaragoza,Albacete,0,1,2,g_1_byCoUFlo,1.92,3.32,4.23,0.0,0.0
+football,Laliga2 2024 2025,Round 17,30/11/,Oviedo,Huesca,0,3,2,g_1_YDONT6f2,1.69,3.37,5.95,0.0,0.0
+football,Laliga2 2024 2025,Round 13,28/11/,Castellon,Racing Club Ferrol,0,0,1,g_1_C66nTKo1,1.6,3.93,5.6,0.0,0.0
+football,Laliga2 2024 2025,Round 13,28/11/,Levante,Malaga,4,2,0,g_1_KCTDqtWs,1.77,3.53,4.79,0.0,0.0
+football,Laliga2 2024 2025,Round 13,27/11/,Almeria,Cordoba,4,0,0,g_1_MyS7z3gR,1.64,4.08,4.9,0.0,0.0
+football,Laliga2 2024 2025,Round 16,25/11/,Elche,Oviedo,4,0,0,g_1_vkYjALcC,2.28,3.04,3.45,0.0,0.0
+football,Laliga2 2024 2025,Round 16,25/11/,Huesca,Castellon,1,1,1,g_1_6PiYMbsI,2.42,3.43,2.83,0.0,0.0
+football,Laliga2 2024 2025,Round 16,25/11/,Dep. La Coruna,Gijon,1,1,1,g_1_pjurCsTa,2.16,3.31,3.42,0.0,0.0
+football,Laliga2 2024 2025,Round 16,25/11/,Mirandes,Eldense,1,0,0,g_1_2iosLxCU,1.97,3.23,4.14,0.0,0.0
+football,Laliga2 2024 2025,Round 16,24/11/,Albacete,Tenerife,2,1,0,g_1_Qo8HeMrJ,1.88,3.35,4.4,0.0,0.0
+football,Laliga2 2024 2025,Round 16,24/11/,Malaga,Racing Santander,0,0,1,g_1_jT19S2Dt,2.94,3.3,2.41,0.0,0.0
+football,Laliga2 2024 2025,Round 16,24/11/,Burgos CF,Eibar,1,0,0,g_1_hh03JPzQ,2.23,3.05,3.55,0.0,0.0
+football,Laliga2 2024 2025,Round 16,24/11/,Cordoba,Zaragoza,2,2,1,g_1_xQyzE3bm,2.26,3.21,3.3,0.0,0.0
+football,Laliga2 2024 2025,Round 16,24/11/,Granada CF,Cadiz CF,0,0,1,g_1_K8gQOKC5,2.16,3.22,3.52,0.0,0.0
+football,Laliga2 2024 2025,Round 16,23/11/,FC Cartagena SAD,Almeria,1,2,2,g_1_bg5HQtrg,4.58,4.08,1.68,0.0,0.0
+football,Laliga2 2024 2025,Round 16,23/11/,Racing Club Ferrol,Levante,0,0,1,g_1_C2Wb8aSO,3.64,3.11,2.16,0.0,0.0
+football,Laliga2 2024 2025,Round 13,21/11/,Eldense,Huesca,2,1,0,g_1_zuhsk28K,2.02,2.96,4.44,0.0,0.0
+football,Laliga2 2024 2025,Round 15,18/11/,Zaragoza,Malaga,0,0,1,g_1_KYxHcrE6,1.88,3.14,4.82,0.0,0.0
+football,Laliga2 2024 2025,Round 15,18/11/,Almeria,Dep. La Coruna,2,1,0,g_1_rPTkoEOq,1.77,3.89,4.24,0.0,0.0
+football,Laliga2 2024 2025,Round 15,18/11/,FC Cartagena SAD,Huesca,1,0,0,g_1_Ay5p7eo3,3.41,2.93,2.37,0.0,0.0
+football,Laliga2 2024 2025,Round 15,18/11/,Cadiz CF,Cordoba,2,0,0,g_1_4vIbqhgd,2.12,3.28,3.55,0.0,0.0
+football,Laliga2 2024 2025,Round 15,18/11/,Oviedo,Tenerife,3,1,0,g_1_b1wYci8k,1.74,3.22,5.79,0.0,0.0
+football,Laliga2 2024 2025,Round 15,17/11/,Gijon,Granada CF,1,2,2,g_1_nLv9a4qf,2.04,3.3,3.78,0.0,0.0
+football,Laliga2 2024 2025,Round 15,17/11/,Levante,Elche,1,1,1,g_1_jgo01QEs,2.3,3.11,3.33,0.0,0.0
+football,Laliga2 2024 2025,Round 15,17/11/,Racing Santander,Burgos CF,2,0,0,g_1_pfJSJYU8,1.61,4.15,5.13,0.0,0.0
+football,Laliga2 2024 2025,Round 15,17/11/,Castellon,Mirandes,1,3,2,g_1_63bg5ZFF,1.74,3.74,4.64,0.0,0.0
+football,Laliga2 2024 2025,Round 15,17/11/,Eldense,Albacete,2,0,0,g_1_4bttdVx2,2.22,3.23,3.35,0.0,0.0
+football,Laliga2 2024 2025,Round 15,16/11/,Eibar,Racing Club Ferrol,2,0,0,g_1_vHd13DpS,1.88,3.05,5.07,0.0,0.0
+football,Laliga2 2024 2025,Round 14,12/11/,Dep. La Coruna,Eibar,1,0,0,g_1_Wj3sKyQp,1.66,3.75,5.35,0.0,0.0
+football,Laliga2 2024 2025,Round 14,11/11/,Albacete,Oviedo,2,2,1,g_1_4tJ2RJXA,2.56,3.11,2.89,0.0,0.0
+football,Laliga2 2024 2025,Round 14,11/11/,Burgos CF,Gijon,0,2,2,g_1_C6MAPc2N,2.8,3.06,2.68,0.0,0.0
+football,Laliga2 2024 2025,Round 14,11/11/,Racing Club Ferrol,Racing Santander,1,2,2,g_1_OpjTsuIi,3.84,3.44,1.97,0.0,0.0
+football,Laliga2 2024 2025,Round 14,10/11/,Cordoba,Castellon,2,2,1,g_1_r1o3fI1c,2.23,3.44,3.14,0.0,0.0
+football,Laliga2 2024 2025,Round 14,10/11/,Malaga,FC Cartagena SAD,1,0,0,g_1_rBlHWE9j,1.61,3.69,5.99,0.0,0.0
+football,Laliga2 2024 2025,Round 14,10/11/,Granada CF,Eldense,3,2,0,g_1_GEqBhdW9,1.78,3.62,4.51,0.0,0.0
+football,Laliga2 2024 2025,Round 14,10/11/,Huesca,Zaragoza,1,1,1,g_1_rm6UuJn4,2.84,2.55,3.19,0.0,0.0
+football,Laliga2 2024 2025,Round 14,10/11/,Mirandes,Cadiz CF,2,2,1,g_1_CScoxynT,3.19,2.59,2.79,0.0,0.0
+football,Laliga2 2024 2025,Round 14,09/11/,Elche,Almeria,1,2,2,g_1_jD9xvcHG,1.98,3.54,3.67,0.0,0.0
+football,Laliga2 2024 2025,Round 13,04/11/,Tenerife,Mirandes,1,0,0,g_1_rRUgTu3b,2.12,2.81,4.36,0.0,0.0
+football,Laliga2 2024 2025,Round 13,03/11/,Oviedo,Burgos CF,3,1,0,g_1_l6zUubV6,1.74,3.52,5.03,0.0,0.0
+football,Laliga2 2024 2025,Round 13,03/11/,Racing Santander,Albacete,1,1,1,g_1_hvsLsK0f,1.66,4.23,4.53,0.0,0.0
+football,Laliga2 2024 2025,Round 13,03/11/,Zaragoza,Granada CF2,2,1,0,g_1_xURoV1Yo,2.21,3.22,3.39,0.0,0.0
+football,Laliga2 2024 2025,Round 13,03/11/,FC Cartagena SAD,Dep. La Coruna,1,5,2,g_1_vg8vVtHl,4.14,3.23,1.97,0.0,0.0
+football,Laliga2 2024 2025,Round 13,03/11/,Gijon,Cadiz CF,2,0,0,g_1_MJYyvx0J,2.17,3.12,3.62,0.0,0.0
+football,Laliga2 2024 2025,Round 13,02/11/,Eibar,Elche,0,2,2,g_1_8YaeRbGD,2.71,3.01,2.81,0.0,0.0
+football,Laliga2 2024 2025,Round 12,29/10/,Racing Club Ferrol,Tenerife,1,1,1,g_1_nqew2rm2,2.46,2.77,3.45,0.0,0.0
+football,Laliga2 2024 2025,Round 12,28/10/,Granada CF,Levante,1,2,2,g_1_EkmPPou9,2.06,3.3,3.73,0.0,0.0
+football,Laliga2 2024 2025,Round 12,28/10/,Albacete,Gijon,3,3,1,g_1_tO9rD8e3,2.39,3.13,3.13,0.0,0.0
+football,Laliga2 2024 2025,Round 12,28/10/,Huesca,Almeria,2,2,1,g_1_AHtYNP9L,3.23,3.02,2.4,0.0,0.0
+football,Laliga2 2024 2025,Round 12,28/10/,Dep. La Coruna,Racing Santander,1,2,2,g_1_QT6U34Ik,2.28,3.45,3.04,0.0,0.0
+football,Laliga2 2024 2025,Round 12,28/10/,Elche,Burgos CF,1,0,0,g_1_6mS3I3Xr,1.63,3.64,5.82,0.0,0.0
+football,Laliga2 2024 2025,Round 12,27/10/,Malaga,Eibar,1,0,0,g_1_EBOaxPOE,2.46,3.03,3.12,0.0,0.0
+football,Laliga2 2024 2025,Round 12,27/10/,Cordoba,Eldense,2,0,0,g_1_A31a9QfS,1.84,3.51,4.35,0.0,0.0
+football,Laliga2 2024 2025,Round 12,27/10/,Zaragoza,Castellon,1,2,2,g_1_YFoDELW7,2.11,3.42,3.43,0.0,0.0
+football,Laliga2 2024 2025,Round 12,26/10/,Cadiz CF,Oviedo,2,0,0,g_1_Ey8jBnQF,2.41,3.01,3.22,0.0,0.0
+football,Laliga2 2024 2025,Round 12,26/10/,Mirandes,FC Cartagena SAD,3,1,0,g_1_Qkr5Gs2e,1.86,2.94,5.57,0.0,0.0
+football,Laliga2 2024 2025,Round 11,25/10/,Burgos CF,Racing Club Ferrol,1,1,1,g_1_tjlFtyLO,1.82,3.04,5.56,0.0,0.0
+football,Laliga2 2024 2025,Round 11,25/10/,Gijon,Huesca,2,1,0,g_1_KAGF9ZlB,1.71,3.42,5.53,0.0,0.0
+football,Laliga2 2024 2025,Round 11,25/10/,Tenerife,Malaga,0,0,1,g_1_vaTmiRYq,2.06,3.1,4.01,0.0,0.0
+football,Laliga2 2024 2025,Round 11,25/10/,Almeria,Albacete,3,1,0,g_1_67jtezzI,1.58,3.94,5.85,0.0,0.0
+football,Laliga2 2024 2025,Round 11,25/10/,Levante,Dep. La Coruna,2,1,0,g_1_CpD7BeKb,2.09,3.45,3.47,0.0,0.0
+football,Laliga2 2024 2025,Round 11,24/10/,FC Cartagena SAD,Elche,0,0,1,g_1_U1eH0v6t,3.64,2.91,2.28,0.0,0.0
+football,Laliga2 2024 2025,Round 11,24/10/,Racing Santander,Cordoba,2,0,0,g_1_GIJbDHkn,1.9,3.43,4.18,0.0,0.0
+football,Laliga2 2024 2025,Round 11,24/10/,Eibar,Cadiz CF,1,0,0,g_1_06qkgE4U,2.06,3.1,4.01,0.0,0.0
+football,Laliga2 2024 2025,Round 11,24/10/,Eldense,Zaragoza,2,3,2,g_1_bsmYdd55,2.78,3.03,2.73,0.0,0.0
+football,Laliga2 2024 2025,Round 11,23/10/,Castellon,Granada CF,2,3,2,g_1_xSbPbIzg,2.28,3.45,3.04,0.0,0.0
+football,Laliga2 2024 2025,Round 11,23/10/,Oviedo,Mirandes,4,1,0,g_1_QFRek53d,1.7,3.36,5.89,0.0,0.0
+football,Laliga2 2024 2025,Round 10,22/10/,Albacete,Burgos CF,2,0,0,g_1_WWCsJtN0,2.11,3.26,3.61,0.0,0.0
+football,Laliga2 2024 2025,Round 10,21/10/,Elche,Gijon,2,1,0,g_1_QgYGXuxf,2.16,3.22,3.52,0.0,0.0
+football,Laliga2 2024 2025,Round 10,21/10/,Zaragoza,Almeria,1,2,2,g_1_4pgjnuim,2.01,3.52,3.62,0.0,0.0
+football,Laliga2 2024 2025,Round 10,20/10/,Racing Club Ferrol,Huesca,0,0,1,g_1_b7WOVJ66,2.79,2.61,3.15,0.0,0.0
+football,Laliga2 2024 2025,Round 10,20/10/,Cadiz CF,Racing Santander,0,1,2,g_1_vcGkHKiD,2.26,3.41,3.1,0.0,0.0
+football,Laliga2 2024 2025,Round 10,20/10/,Mirandes,Eibar,1,0,0,g_1_8xj7rcjC,2.71,2.71,3.12,0.0,0.0
+football,Laliga2 2024 2025,Round 10,20/10/,Castellon,Levante,2,0,0,g_1_KhgxuOqK,2.2,3.5,3.15,0.0,0.0
+football,Laliga2 2024 2025,Round 10,20/10/,Granada CF,Tenerife,4,0,0,g_1_fZPXTcyJ,1.7,3.46,5.51,0.0,0.0
+football,Laliga2 2024 2025,Round 10,19/10/,Dep. La Coruna,Eldense,1,1,1,g_1_URv8Z17s,1.73,3.71,4.76,0.0,0.0
+football,Laliga2 2024 2025,Round 10,19/10/,Malaga,Oviedo,0,0,1,g_1_KCHJi1TP,3.04,2.84,2.66,0.0,0.0
+football,Laliga2 2024 2025,Round 10,19/10/,Cordoba,FC Cartagena SAD,2,1,0,g_1_CAdbpJLa,1.52,3.93,6.81,0.0,0.0
+football,Laliga2 2024 2025,Round 9,15/10/,Gijon,Castellon,2,1,0,g_1_d2d7HTod,2.22,3.62,3.02,0.0,0.0
+football,Laliga2 2024 2025,Round 9,14/10/,Elche,Dep. La Coruna,0,0,1,g_1_4Id1wB8F,1.88,3.14,4.82,0.0,0.0
+football,Laliga2 2024 2025,Round 9,14/10/,Burgos CF,Mirandes,0,1,2,g_1_2FgfSPrH,2.16,2.88,4.04,0.0,0.0
+football,Laliga2 2024 2025,Round 9,14/10/,Granada CF,Cordoba,1,0,0,g_1_O8lguXw3,2.16,3.11,3.64,0.0,0.0
+football,Laliga2 2024 2025,Round 9,13/10/,Oviedo,Almeria2,3,2,0,g_1_zm8bJkHq,2.07,3.33,3.63,0.0,0.0
+football,Laliga2 2024 2025,Round 9,13/10/,Racing Santander,Levante,1,0,0,g_1_z5JYK2hl,2.06,3.6,3.41,0.0,0.0
+football,Laliga2 2024 2025,Round 9,13/10/,Huesca,Albacete,2,2,1,g_1_44HSOBgM,2.28,3.04,3.45,0.0,0.0
+football,Laliga2 2024 2025,Round 9,13/10/,Cadiz CF,Malaga,2,2,1,g_1_OUs3Q3DT,1.74,3.55,4.9,0.0,0.0
+football,Laliga2 2024 2025,Round 9,13/10/,Eibar,Eldense,1,0,0,g_1_Cl3JSgfc,2.03,3.13,4.07,0.0,0.0
+football,Laliga2 2024 2025,Round 9,12/10/,FC Cartagena SAD,Racing Club Ferrol,0,1,2,g_1_fDYYKsyi,2.37,2.9,3.43,0.0,0.0
+football,Laliga2 2024 2025,Round 9,12/10/,Tenerife,Zaragoza,2,3,2,g_1_p21RQXO9,2.58,2.72,3.3,0.0,0.0
+football,Laliga2 2024 2025,Round 8,07/10/,Albacete,Cordoba,1,1,1,g_1_Y1bN4Vpg,2.12,3.43,3.4,0.0,0.0
+football,Laliga2 2024 2025,Round 8,07/10/,Levante,Oviedo,0,0,1,g_1_n5OdJUan,2.16,3.31,3.43,0.0,0.0
+football,Laliga2 2024 2025,Round 8,06/10/,Eldense,Castellon,2,3,2,g_1_lCTKDQTN,2.46,3.27,2.89,0.0,0.0
+football,Laliga2 2024 2025,Round 8,06/10/,Dep. La Coruna,Malaga,0,0,1,g_1_zRfv1mpI,1.77,3.5,4.83,0.0,0.0
+football,Laliga2 2024 2025,Round 8,06/10/,Tenerife,FC Cartagena SAD,2,0,0,g_1_GpGDFnaB,1.74,3.42,5.28,0.0,0.0
+football,Laliga2 2024 2025,Round 8,06/10/,Almeria,Burgos CF,2,0,0,g_1_tS1V29F5,1.63,4.04,5.05,0.0,0.0
+football,Laliga2 2024 2025,Round 8,06/10/,Zaragoza,Racing Santander,2,3,2,g_1_dIjnUoE4,2.29,3.3,3.15,0.0,0.0
+football,Laliga2 2024 2025,Round 8,05/10/,Eibar,Gijon,1,3,2,g_1_8vgnaREU,1.88,3.2,4.66,0.0,0.0
+football,Laliga2 2024 2025,Round 8,05/10/,Mirandes,Granada CF,0,1,2,g_1_0jcwW7qh,2.62,2.9,3.02,0.0,0.0
+football,Laliga2 2024 2025,Round 8,05/10/,Racing Club Ferrol,Elche,1,0,0,g_1_8dAi84io,3.27,2.89,2.46,0.0,0.0
+football,Laliga2 2024 2025,Round 8,05/10/,Huesca,Cadiz CF,3,1,0,g_1_fVR4H8Ub,3.03,2.77,2.73,0.0,0.0
+football,Laliga2 2024 2025,Round 7,01/10/,Racing Santander,FC Cartagena SAD,1,2,2,g_1_fiuf3I9l,1.48,4.19,6.99,0.0,0.0
+football,Laliga2 2024 2025,Round 7,30/09/,Cordoba,Racing Club Ferrol,3,1,0,g_1_noISncP7,1.75,3.71,4.6,0.0,0.0
+football,Laliga2 2024 2025,Round 7,30/09/,Oviedo,Eibar,1,0,0,g_1_S4w21dv1,2.08,3.04,4.05,0.0,0.0
+football,Laliga2 2024 2025,Round 7,29/09/,Burgos CF,Granada CF,2,2,1,g_1_2uLtd12L,2.42,3.21,3.0,0.0,0.0
+football,Laliga2 2024 2025,Round 7,29/09/,Castellon,Tenerife,2,1,0,g_1_fw0LlJfe,1.71,3.63,5.04,0.0,0.0
+football,Laliga2 2024 2025,Round 7,29/09/,Levante,Almeria,4,2,0,g_1_z7bN8vnR,2.16,3.51,3.23,0.0,0.0
+football,Laliga2 2024 2025,Round 7,29/09/,Malaga,Elche,0,3,2,g_1_n7g3az9D,2.64,2.71,3.22,0.0,0.0
+football,Laliga2 2024 2025,Round 7,29/09/,Gijon,Zaragoza2,1,0,0,g_1_SteFA0HE,2.36,3.01,3.31,0.0,0.0
+football,Laliga2 2024 2025,Round 7,28/09/,Cadiz CF,Eldense,1,2,2,g_1_bB6CjuQr,1.72,3.74,4.8,0.0,0.0
+football,Laliga2 2024 2025,Round 7,28/09/,Mirandes,Huesca,1,0,0,g_1_CnAE6iGt,2.78,2.54,3.28,0.0,0.0
+football,Laliga2 2024 2025,Round 7,28/09/,Albacete,Dep. La Coruna,2,5,2,g_1_6DRXcNX8,2.17,3.27,3.44,0.0,0.0
+football,Laliga2 2024 2025,Round 6,24/09/,Huesca,Cordoba,4,1,0,g_1_8Ia7s2mS,2.35,2.92,3.44,0.0,0.0
+football,Laliga2 2024 2025,Round 6,23/09/,Almeria,Eibar,2,2,1,g_1_SSPUA3Cj,1.87,3.51,4.2,0.0,0.0
+football,Laliga2 2024 2025,Round 6,23/09/,Elche,Mirandes,1,0,0,g_1_QZsHWpZ9,1.93,3.03,4.79,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,Castellon,Racing Santander,0,1,2,g_1_KMCGY64c,1.97,3.79,3.51,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,FC Cartagena SAD,Cadiz CF,1,2,2,g_1_Cj6bqOIF,3.76,3.12,2.12,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,Tenerife,Gijon,1,1,1,g_1_0GvnzKu2,2.09,3.09,3.93,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,Zaragoza,Levante,2,1,0,g_1_v1jwxtBk,2.26,3.26,3.26,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,Dep. La Coruna,Burgos CF,0,2,2,g_1_vw8jopl3,1.96,3.65,3.75,0.0,0.0
+football,Laliga2 2024 2025,Round 6,22/09/,Eldense,Oviedo,1,1,1,g_1_YaoPUO3M,2.92,2.85,2.77,0.0,0.0
+football,Laliga2 2024 2025,Round 6,21/09/,Racing Club Ferrol,Albacete,1,4,2,g_1_QcQ3Ntdd,2.43,3.04,3.14,0.0,0.0
+football,Laliga2 2024 2025,Round 6,21/09/,Granada CF,Malaga,2,2,1,g_1_IXMeP2Rq,1.72,3.74,4.8,0.0,0.0
+football,Laliga2 2024 2025,Round 5,17/09/,Almeria,Castellon,2,5,2,g_1_dMUW3ea6,1.83,4.01,3.84,0.0,0.0
+football,Laliga2 2024 2025,Round 5,16/09/,Elche,Granada CF,2,2,1,g_1_nBqFGYrC,2.11,3.33,3.51,0.0,0.0
+football,Laliga2 2024 2025,Round 5,16/09/,Burgos CF,Zaragoza,1,0,0,g_1_hlOu2ZTI,2.63,3.01,2.9,0.0,0.0
+football,Laliga2 2024 2025,Round 5,16/09/,Cadiz CF,Racing Club Ferrol,0,0,1,g_1_KfGRPxMP,1.56,3.67,6.94,0.0,0.0
+football,Laliga2 2024 2025,Round 5,15/09/,Oviedo,FC Cartagena SAD,1,0,0,g_1_4nGuXgTh,1.55,4.02,6.06,0.0,0.0
+football,Laliga2 2024 2025,Round 5,15/09/,Mirandes,Albacete,2,0,0,g_1_bkDXYFbt,2.58,3.03,2.94,0.0,0.0
+football,Laliga2 2024 2025,Round 5,15/09/,Malaga,Huesca,1,0,0,g_1_YR7dTBSH,2.44,2.76,3.5,0.0,0.0
+football,Laliga2 2024 2025,Round 5,15/09/,Racing Santander,Gijon,1,0,0,g_1_KOsNECDO,1.98,3.38,3.87,0.0,0.0
+football,Laliga2 2024 2025,Round 5,14/09/,Eibar,Tenerife,1,0,0,g_1_jqj6IfEa,1.71,3.52,5.28,0.0,0.0
+football,Laliga2 2024 2025,Round 5,14/09/,Levante,Eldense2,3,1,0,g_1_Q14lVXc5,1.93,3.29,4.24,0.0,0.0
+football,Laliga2 2024 2025,Round 5,14/09/,Cordoba,Dep. La Coruna,2,0,0,g_1_4SibKGqm,2.33,3.14,3.24,0.0,0.0
+football,Laliga2 2024 2025,Round 4,10/09/,Albacete,Eibar,0,1,2,g_1_G8Q9dhzq,2.41,3.22,3.01,0.0,0.0
+football,Laliga2 2024 2025,Round 4,10/09/,Castellon,Cadiz CF,1,3,2,g_1_MR4h79l1,1.88,3.44,4.23,0.0,0.0
+football,Laliga2 2024 2025,Round 4,09/09/,Eldense,Almeria,1,0,0,g_1_6g3LEidR,3.32,3.3,2.2,0.0,0.0
+football,Laliga2 2024 2025,Round 4,09/09/,Zaragoza,Elche,3,0,0,g_1_CGXpDaxK,2.16,3.21,3.53,0.0,0.0
+football,Laliga2 2024 2025,Round 4,08/09/,FC Cartagena SAD,Levante,0,1,2,g_1_M5THfW4e,3.32,3.21,2.25,0.0,0.0
+football,Laliga2 2024 2025,Round 4,08/09/,Racing Club Ferrol,Mirandes,0,0,1,g_1_AR9CGDRE,2.21,3.21,3.41,0.0,0.0
+football,Laliga2 2024 2025,Round 4,08/09/,Cordoba,Malaga,0,0,1,g_1_rLHQhAZ7,2.1,3.13,3.8,0.0,0.0
+football,Laliga2 2024 2025,Round 4,08/09/,Gijon,Oviedo,3,1,0,g_1_raOG7w0s,2.44,2.99,3.19,0.0,0.0
+football,Laliga2 2024 2025,Round 4,08/09/,Huesca,Burgos CF,0,1,2,g_1_2Pli9VJl,2.07,3.11,3.95,0.0,0.0
+football,Laliga2 2024 2025,Round 4,07/09/,Granada CF,Dep. La Coruna,1,1,1,g_1_Ui805mJD,2.24,3.24,3.3,0.0,0.0
+football,Laliga2 2024 2025,Round 4,07/09/,Tenerife,Racing Santander,0,1,2,g_1_O8WO5HUg,2.22,3.32,3.27,0.0,0.0
+football,Laliga2 2024 2025,Round 3,03/09/,Elche,Cordoba,3,1,0,g_1_M78yF0jA,1.93,3.22,4.37,0.0,0.0
+football,Laliga2 2024 2025,Round 3,03/09/,Eibar,Levante,2,2,1,g_1_Cftn4qxh,2.26,3.41,3.11,0.0,0.0
+football,Laliga2 2024 2025,Round 3,02/09/,Eldense,FC Cartagena SAD,1,2,2,g_1_lfATGMLc,1.89,3.26,4.51,0.0,0.0
+football,Laliga2 2024 2025,Round 3,02/09/,Mirandes,Zaragoza,0,0,1,g_1_Gnw301yH,0.0,0.0,0.0,0.0,0.0
+football,Laliga2 2024 2025,Round 3,02/09/,Burgos CF,Castellon,0,2,2,g_1_fJ9LmOiB,2.46,3.41,2.81,0.0,0.0
+football,Laliga2 2024 2025,Round 3,02/09/,Dep. La Coruna,Racing Club Ferrol,1,0,0,g_1_K0g0ttpo,1.74,3.52,5.03,0.0,0.0
+football,Laliga2 2024 2025,Round 3,01/09/,Almeria,Gijon,1,1,1,g_1_Y3LCkpNb,1.9,3.43,4.18,0.0,0.0
+football,Laliga2 2024 2025,Round 3,01/09/,Malaga,Albacete,2,1,0,g_1_YoStgJTj,2.3,3.1,3.31,0.0,0.0
+football,Laliga2 2024 2025,Round 3,01/09/,Cadiz CF,Tenerife,2,2,1,g_1_2qDTo2MN,1.77,3.29,5.31,0.0,0.0
+football,Laliga2 2024 2025,Round 3,31/08/,Oviedo,Racing Santander,1,3,2,g_1_x2RBbu6T,2.06,3.3,3.73,0.0,0.0
+football,Laliga2 2024 2025,Round 3,31/08/,Granada CF,Huesca,1,3,2,g_1_8MZf2N64,1.81,3.41,4.76,0.0,0.0
+football,Laliga2 2024 2025,Round 2,27/08/,Cordoba,Burgos CF,2,2,1,g_1_nXUxw7wg,1.95,3.33,4.09,0.0,0.0
+football,Laliga2 2024 2025,Round 2,27/08/,FC Cartagena SAD,Zaragoza,1,2,2,g_1_Q31eQTgm,2.99,2.91,2.63,0.0,0.0
+football,Laliga2 2024 2025,Round 2,26/08/,Castellon,Oviedo,0,0,1,g_1_MVf4O7Oa,1.95,3.25,4.21,0.0,0.0
+football,Laliga2 2024 2025,Round 2,26/08/,Albacete,Elche,1,0,0,g_1_tEvOrxAE,2.21,3.22,3.4,0.0,0.0
+football,Laliga2 2024 2025,Round 2,25/08/,Malaga,Mirandes,1,1,1,g_1_jBnLKPNO,1.68,3.43,5.8,0.0,0.0
+football,Laliga2 2024 2025,Round 2,25/08/,Tenerife,Almeria,0,1,2,g_1_QHtUvT8t,2.48,3.11,3.01,0.0,0.0
+football,Laliga2 2024 2025,Round 2,25/08/,Levante,Cadiz CF,1,1,1,g_1_fcYpyo85,2.26,3.01,3.54,0.0,0.0
+football,Laliga2 2024 2025,Round 2,25/08/,Gijon,Eldense,0,0,1,g_1_QwI4i6hn,1.92,3.33,4.24,0.0,0.0
+football,Laliga2 2024 2025,Round 2,25/08/,Racing Club Ferrol,Granada CF,0,1,2,g_1_fqgCMogC,3.0,3.0,2.55,0.0,0.0
+football,Laliga2 2024 2025,Round 2,24/08/,Huesca,Dep. La Coruna,2,1,0,g_1_jPRgZOxI,2.81,2.8,2.9,0.0,0.0
+football,Laliga2 2024 2025,Round 2,24/08/,Racing Santander,Eibar,2,2,1,g_1_OxQ1X27U,2.13,3.24,3.59,0.0,0.0
+football,Laliga2 2024 2025,Round 1,20/08/,Eldense,Tenerife,2,1,0,g_1_IZqoAH3k,2.43,2.92,3.3,0.0,0.0
+football,Laliga2 2024 2025,Round 1,19/08/,Burgos CF,FC Cartagena SAD,3,1,0,g_1_hIsKeIld,1.74,3.42,5.28,0.0,0.0
+football,Laliga2 2024 2025,Round 1,19/08/,Elche,Huesca,0,1,2,g_1_nigFFwtS,2.06,2.9,4.37,0.0,0.0
+football,Laliga2 2024 2025,Round 1,19/08/,Gijon,Levante,1,2,2,g_1_0I1yLYH7,2.05,3.25,3.8,0.0,0.0
+football,Laliga2 2024 2025,Round 1,19/08/,Racing Santander,Almeria,2,2,1,g_1_0fJlUxeL,2.57,3.43,2.65,0.0,0.0
+football,Laliga2 2024 2025,Round 1,18/08/,Dep. La Coruna,Oviedo,0,1,2,g_1_tvOEHaBF,2.07,3.11,3.95,0.0,0.0
+football,Laliga2 2024 2025,Round 1,18/08/,Eibar,Castellon,1,0,0,g_1_dQ4KOGIr,1.94,3.44,3.98,0.0,0.0
+football,Laliga2 2024 2025,Round 1,18/08/,Racing Club Ferrol,Malaga,2,2,1,g_1_vkYg8eY1,2.62,2.82,3.12,0.0,0.0
+football,Laliga2 2024 2025,Round 1,17/08/,Cadiz CF,Zaragoza,0,4,2,g_1_8QP6JLt3,1.98,3.02,4.51,0.0,0.0
+football,Laliga2 2024 2025,Round 1,17/08/,Mirandes,Cordoba,1,0,0,g_1_hhbTMfme,3.26,2.91,2.46,0.0,0.0
+football,Laliga2 2024 2025,Round 1,16/08/,Granada CF,Albacete,1,2,2,g_1_6eQuWbQ8,1.98,3.42,3.86,0.0,0.0

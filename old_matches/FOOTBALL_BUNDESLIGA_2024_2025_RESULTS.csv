@@ -1,0 +1,309 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Bundesliga 2024 2025,Regular Season,27/05/,Elversberg,HeidenheimWinner,1,2,2,g_1_EgJGN7p2,0.0,0.0,0.0,0.88,1.55
+football,Bundesliga 2024 2025,Regular Season,23/05/,Heidenheim,Elversberg,2,2,1,g_1_IRP7PTFk,2.24,3.61,3.26,2.68,1.8
+football,Bundesliga 2024 2025,Round 34,17/05/,Augsburg,Union Berlin,1,2,2,g_1_YmLinyG6,1.98,3.76,3.87,1.69,1.15
+football,Bundesliga 2024 2025,Round 34,17/05/,B. Monchengladbach,Wolfsburg,0,1,2,g_1_M91n8IxQ,2.31,4.21,2.78,0.89,1.72
+football,Bundesliga 2024 2025,Round 34,17/05/,Dortmund,Holstein Kiel,3,0,0,g_1_KpeIXy1D,1.16,9.79,15.5,2.75,0.46
+football,Bundesliga 2024 2025,Round 34,17/05/,Freiburg,Eintracht Frankfurt,1,3,2,g_1_xMRrlcof,2.36,3.69,2.98,0.74,2.14
+football,Bundesliga 2024 2025,Round 34,17/05/,Heidenheim,Werder Bremen,1,4,2,g_1_48TzjJGs,2.67,4.0,2.46,1.66,2.18
+football,Bundesliga 2024 2025,Round 34,17/05/,Hoffenheim,Bayern Munich,0,4,2,g_1_nim4eugK,4.83,4.58,1.65,0.44,1.54
+football,Bundesliga 2024 2025,Round 34,17/05/,Mainz,Bayer Leverkusen,2,2,1,g_1_tEOapFpJ,2.57,3.99,2.56,3.12,1.39
+football,Bundesliga 2024 2025,Round 34,17/05/,RB Leipzig,Stuttgart,2,3,2,g_1_bV69ZcW0,1.89,4.59,3.54,1.14,2.42
+football,Bundesliga 2024 2025,Round 34,17/05/,St. Pauli,Bochum,0,2,2,g_1_Ig2H2d0m,1.77,4.19,4.43,0.79,1.46
+football,Bundesliga 2024 2025,Round 33,12/05/,Stuttgart,Augsburg,4,0,0,g_1_4zhoqB3c,1.57,4.61,5.64,4.19,0.47
+football,Bundesliga 2024 2025,Round 33,12/05/,Eintracht Frankfurt,St. Pauli,2,2,1,g_1_jqSQOtIr,1.59,4.45,5.64,1.58,0.87
+football,Bundesliga 2024 2025,Round 33,11/05/,Bayer Leverkusen,Dortmund,2,4,2,g_1_Ct5aL7Bj,2.72,3.89,2.46,2.62,1.42
+football,Bundesliga 2024 2025,Round 33,11/05/,Bayern Munich,B. Monchengladbach,2,0,0,g_1_02ofskY9,1.14,11.7,14.3,2.53,1.53
+football,Bundesliga 2024 2025,Round 33,10/05/,Bochum,Mainz,1,4,2,g_1_8p0xstvR,3.22,3.91,2.15,0.86,1.58
+football,Bundesliga 2024 2025,Round 33,10/05/,Holstein Kiel,Freiburg,1,2,2,g_1_j531yK1l,3.51,3.82,2.06,0.94,1.57
+football,Bundesliga 2024 2025,Round 33,10/05/,Union Berlin,Heidenheim,0,3,2,g_1_zX1Ur29E,2.05,3.69,3.69,0.44,1.28
+football,Bundesliga 2024 2025,Round 33,10/05/,Werder Bremen,RB Leipzig,0,0,1,g_1_CbGZMKne,2.0,4.12,3.47,1.85,1.6
+football,Bundesliga 2024 2025,Round 33,10/05/,Wolfsburg,Hoffenheim,2,2,1,g_1_KOJsLbH7,2.79,3.73,2.47,1.1,1.36
+football,Bundesliga 2024 2025,Round 32,05/05/,Mainz,Eintracht Frankfurt,1,1,1,g_1_x0Y3WXJi,2.31,3.8,2.98,1.47,1.38
+football,Bundesliga 2024 2025,Round 32,05/05/,Freiburg,Bayer Leverkusen,2,2,1,g_1_QL4oEj4N,3.2,3.61,2.27,0.78,0.33
+football,Bundesliga 2024 2025,Round 32,04/05/,Augsburg,Holstein Kiel,1,3,2,g_1_MijH8URp,1.81,4.03,4.34,3.19,2.15
+football,Bundesliga 2024 2025,Round 32,04/05/,Dortmund,Wolfsburg,4,0,0,g_1_Od8UHY4b,1.3,6.41,9.62,2.56,0.69
+football,Bundesliga 2024 2025,Round 32,03/05/,B. Monchengladbach,Hoffenheim,4,4,1,g_1_pQyCUBl4,2.3,3.89,2.94,1.48,1.71
+football,Bundesliga 2024 2025,Round 32,03/05/,RB Leipzig,Bayern Munich,3,3,1,g_1_2sKLJfzn,4.11,4.45,1.78,0.9,1.56
+football,Bundesliga 2024 2025,Round 32,03/05/,St. Pauli2,Stuttgart,0,1,2,g_1_hdOSQTmT,2.88,3.5,2.52,0.22,2.82
+football,Bundesliga 2024 2025,Round 32,03/05/,Union Berlin,Werder Bremen,2,2,1,g_1_6uQKSkJG,3.07,3.58,2.35,1.36,1.57
+football,Bundesliga 2024 2025,Round 32,03/05/,Heidenheim,Bochum,0,0,1,g_1_WMBxGCZA,2.4,3.48,3.06,0.54,1.28
+football,Bundesliga 2024 2025,Round 31,28/04/,Werder Bremen,St. Pauli,0,0,1,g_1_xQHf5eLh,1.95,3.68,4.05,1.24,0.62
+football,Bundesliga 2024 2025,Round 31,27/04/,Bochum,Union Berlin,1,1,1,g_1_659B1DKH,2.44,3.39,3.06,1.53,0.27
+football,Bundesliga 2024 2025,Round 31,27/04/,Eintracht Frankfurt,RB Leipzig,4,0,0,g_1_OI1v35vP,2.03,4.05,3.45,2.19,0.36
+football,Bundesliga 2024 2025,Round 31,26/04/,Bayer Leverkusen,Augsburg,2,0,0,g_1_lt7F89Am,1.52,4.81,6.07,0.81,0.72
+football,Bundesliga 2024 2025,Round 31,26/04/,Bayern Munich,Mainz,3,0,0,g_1_ILbW4R9C,1.27,7.12,9.66,1.14,0.65
+football,Bundesliga 2024 2025,Round 31,26/04/,Hoffenheim,Dortmund,2,3,2,g_1_UaEn7Hjt,4.25,3.98,1.84,1.34,2.51
+football,Bundesliga 2024 2025,Round 31,26/04/,Holstein Kiel,B. Monchengladbach,4,3,0,g_1_CIvCaikU,2.71,3.82,2.5,2.68,1.72
+football,Bundesliga 2024 2025,Round 31,26/04/,Wolfsburg,Freiburg,0,1,2,g_1_YiB33Zk5,2.37,3.7,2.96,0.39,1.72
+football,Bundesliga 2024 2025,Round 31,26/04/,Stuttgart,Heidenheim,0,1,2,g_1_Mg5N6mu0,1.46,5.1,6.65,1.9,0.51
+football,Bundesliga 2024 2025,Round 30,21/04/,St. Pauli,Bayer Leverkusen,1,1,1,g_1_fuksRHQE,5.1,3.91,1.73,1.15,0.74
+football,Bundesliga 2024 2025,Round 30,21/04/,Dortmund,B. Monchengladbach,3,2,0,g_1_KlV5hcKk,1.4,5.95,6.72,1.49,1.38
+football,Bundesliga 2024 2025,Round 30,20/04/,Augsburg,Eintracht Frankfurt,0,0,1,g_1_K2Av7dZr,2.72,3.49,2.66,0.9,1.09
+football,Bundesliga 2024 2025,Round 30,20/04/,Union Berlin,Stuttgart,4,4,1,g_1_lr2e3EY7,3.25,3.53,2.27,1.28,1.18
+football,Bundesliga 2024 2025,Round 30,19/04/,Freiburg,Hoffenheim,3,2,0,g_1_0IT7CIBL,1.9,3.88,4.04,1.41,1.68
+football,Bundesliga 2024 2025,Round 30,19/04/,Heidenheim,Bayern Munich,0,4,2,g_1_SEYDjyk2,10.7,6.16,1.29,0.67,2.99
+football,Bundesliga 2024 2025,Round 30,19/04/,Mainz,Wolfsburg,2,2,1,g_1_SSDn5z4e,2.01,3.79,3.73,2.57,1.69
+football,Bundesliga 2024 2025,Round 30,19/04/,RB Leipzig,Holstein Kiel,1,1,1,g_1_zHgZcJdS,1.47,4.86,6.92,2.02,0.78
+football,Bundesliga 2024 2025,Round 30,19/04/,Werder Bremen,Bochum,1,0,0,g_1_S4VaEvs9,1.59,4.62,5.35,2.27,0.46
+football,Bundesliga 2024 2025,Round 29,14/04/,Eintracht Frankfurt,Heidenheim,3,0,0,g_1_MXBrkODc,1.74,4.3,4.48,2.9,1.34
+football,Bundesliga 2024 2025,Round 29,13/04/,Stuttgart,Werder Bremen,1,2,2,g_1_AgrQWtbT,1.75,4.32,4.4,1.7,1.51
+football,Bundesliga 2024 2025,Round 29,13/04/,Bayern Munich,Dortmund,2,2,1,g_1_6PTeRKLj,1.47,5.37,6.12,1.97,1.5
+football,Bundesliga 2024 2025,Round 29,12/04/,B. Monchengladbach,Freiburg,1,2,2,g_1_Gfmvvb5d,2.22,3.76,3.18,0.84,1.77
+football,Bundesliga 2024 2025,Round 29,12/04/,Bayer Leverkusen,Union Berlin,0,0,1,g_1_ERlHY2TG,1.41,5.01,8.25,0.71,0.64
+football,Bundesliga 2024 2025,Round 29,12/04/,Bochum,Augsburg,1,2,2,g_1_8lzQ11c3,2.42,3.47,3.04,2.72,1.12
+football,Bundesliga 2024 2025,Round 29,12/04/,Hoffenheim,Mainz,2,0,0,g_1_SUEjm2rA,2.52,3.55,2.83,1.72,1.15
+football,Bundesliga 2024 2025,Round 29,12/04/,Holstein Kiel,St. Pauli,1,2,2,g_1_SjjRauSF,3.66,3.51,2.12,0.55,1.21
+football,Bundesliga 2024 2025,Round 29,12/04/,Wolfsburg,RB Leipzig,2,3,2,g_1_KSgVuKzp,2.86,3.76,2.41,1.68,1.33
+football,Bundesliga 2024 2025,Round 28,07/04/,Union Berlin,Wolfsburg,1,0,0,g_1_bwwsXkhC,2.36,3.4,3.38,1.48,1.79
+football,Bundesliga 2024 2025,Round 28,06/04/,St. Pauli,B. Monchengladbach,1,1,1,g_1_t0yAzPb4,2.31,3.57,3.14,1.84,0.64
+football,Bundesliga 2024 2025,Round 28,06/04/,Werder Bremen,Eintracht Frankfurt,2,0,0,g_1_KnI7IjwJ,2.43,3.74,2.84,1.25,0.63
+football,Bundesliga 2024 2025,Round 28,05/04/,Bochum,Stuttgart,0,4,2,g_1_Kpm1xoUi,2.66,3.49,2.71,0.66,3.14
+football,Bundesliga 2024 2025,Round 28,05/04/,Freiburg,Dortmund,1,4,2,g_1_0reftfVP,3.55,3.61,2.12,1.4,3.55
+football,Bundesliga 2024 2025,Round 28,05/04/,Heidenheim,Bayer Leverkusen,0,1,2,g_1_CMEaKC86,6.4,4.61,1.52,1.31,0.36
+football,Bundesliga 2024 2025,Round 28,05/04/,Mainz,Holstein Kiel,1,1,1,g_1_QPvZYBNa,1.45,4.63,8.03,1.62,0.98
+football,Bundesliga 2024 2025,Round 28,05/04/,RB Leipzig,Hoffenheim,3,1,0,g_1_hKbbMYwf,1.69,4.11,5.09,1.67,0.87
+football,Bundesliga 2024 2025,Round 28,05/04/,Augsburg,Bayern Munich,1,3,2,g_1_WQoQzYhm,8.02,4.87,1.43,0.33,2.34
+football,Bundesliga 2024 2025,Round 27,31/03/,Dortmund,Mainz,3,1,0,g_1_SftwHw2E,1.71,4.27,4.71,2.78,0.81
+football,Bundesliga 2024 2025,Round 27,30/03/,Freiburg,Union Berlin,1,2,2,g_1_C0wP7ZO0,2.0,3.49,4.1,1.39,0.99
+football,Bundesliga 2024 2025,Round 27,30/03/,Eintracht Frankfurt,Stuttgart,1,0,0,g_1_08voFHWQ,2.5,3.82,2.71,3.84,1.11
+football,Bundesliga 2024 2025,Round 27,29/03/,B. Monchengladbach,RB Leipzig,1,0,0,g_1_0MJJTGoK,2.9,3.72,2.39,1.91,1.19
+football,Bundesliga 2024 2025,Round 27,29/03/,Bayern Munich,St. Pauli,3,2,0,g_1_CnbjgzA7,1.14,9.88,21.0,3.53,0.92
+football,Bundesliga 2024 2025,Round 27,29/03/,Hoffenheim,Augsburg,1,1,1,g_1_KhLH9efl,2.37,3.5,3.09,1.73,0.69
+football,Bundesliga 2024 2025,Round 27,29/03/,Holstein Kiel,Werder Bremen,0,3,2,g_1_K60jOf9s,3.28,3.76,2.18,0.49,1.74
+football,Bundesliga 2024 2025,Round 27,29/03/,Wolfsburg,Heidenheim,0,1,2,g_1_YFRX5DgD,1.72,3.99,5.06,1.27,1.34
+football,Bundesliga 2024 2025,Round 27,29/03/,Bayer Leverkusen,Bochum,3,1,0,g_1_QVaredue,1.24,6.79,13.0,2.15,0.51
+football,Bundesliga 2024 2025,Round 26,17/03/,Stuttgart,Bayer Leverkusen,3,4,2,g_1_lCLZdcgo,3.54,3.4,2.21,2.19,1.75
+football,Bundesliga 2024 2025,Round 26,17/03/,Heidenheim,Holstein Kiel,3,1,0,g_1_ObVJ2ms4,2.01,3.58,3.95,1.5,1.51
+football,Bundesliga 2024 2025,Round 26,16/03/,Bochum,Eintracht Frankfurt,1,3,2,g_1_YXK32vmL,2.84,3.7,2.45,1.47,2.54
+football,Bundesliga 2024 2025,Round 26,16/03/,RB Leipzig,Dortmund,2,0,0,g_1_GYRB49Ci,2.66,3.69,2.61,1.78,3.11
+football,Bundesliga 2024 2025,Round 26,15/03/,Augsburg,Wolfsburg,1,0,0,g_1_jDo0rJek,2.54,3.34,2.96,0.84,0.77
+football,Bundesliga 2024 2025,Round 26,15/03/,Mainz,Freiburg,2,2,1,g_1_pCv9tcQ1,1.83,3.61,4.83,1.24,2.65
+football,Bundesliga 2024 2025,Round 26,15/03/,Union Berlin,Bayern Munich,1,1,1,g_1_x6Rf40I8,9.12,5.41,1.36,0.72,1.5
+football,Bundesliga 2024 2025,Round 26,15/03/,Werder Bremen,B. Monchengladbach,2,4,2,g_1_pEJS0RBG,2.32,3.68,3.05,2.37,2.17
+football,Bundesliga 2024 2025,Round 26,15/03/,St. Pauli,Hoffenheim,1,0,0,g_1_4GBZdIAr,2.37,3.33,3.25,1.95,0.2
+football,Bundesliga 2024 2025,Round 25,10/03/,Hoffenheim,Heidenheim,1,1,1,g_1_vwAUmKGU,1.89,3.85,4.12,1.14,1.25
+football,Bundesliga 2024 2025,Round 25,09/03/,Eintracht Frankfurt,Union Berlin,1,2,2,g_1_rBGLktnI,1.95,3.69,4.05,1.93,0.86
+football,Bundesliga 2024 2025,Round 25,09/03/,Freiburg,RB Leipzig,0,0,1,g_1_SYlv8N1n,2.65,3.33,2.83,0.52,1.57
+football,Bundesliga 2024 2025,Round 25,08/03/,Bayer Leverkusen,Werder Bremen,0,2,2,g_1_SEQdepIt,1.35,5.6,9.01,1.41,1.23
+football,Bundesliga 2024 2025,Round 25,08/03/,Bayern Munich,Bochum,2,3,2,g_1_EVO4gOng,1.18,8.89,14.2,2.32,1.3
+football,Bundesliga 2024 2025,Round 25,08/03/,Dortmund,Augsburg,0,1,2,g_1_AcIDi2H5,1.43,4.89,7.92,1.11,0.2
+football,Bundesliga 2024 2025,Round 25,08/03/,Holstein Kiel,Stuttgart,2,2,1,g_1_htz42JVN,5.89,4.85,1.53,1.5,0.7
+football,Bundesliga 2024 2025,Round 25,08/03/,Wolfsburg,St. Pauli,1,1,1,g_1_llwm61Wb,1.85,3.58,4.79,1.96,1.44
+football,Bundesliga 2024 2025,Round 25,08/03/,B. Monchengladbach,Mainz,1,3,2,g_1_dEte4u1B,2.7,3.5,2.68,1.29,1.89
+football,Bundesliga 2024 2025,Round 24,03/03/,Augsburg,Freiburg,0,0,1,g_1_ne5Nto3m,2.61,3.19,2.87,1.56,0.83
+football,Bundesliga 2024 2025,Round 24,02/03/,Union Berlin,Holstein Kiel,0,1,2,g_1_K83VvPXa,1.59,4.45,5.64,1.37,1.03
+football,Bundesliga 2024 2025,Round 24,02/03/,Eintracht Frankfurt,Bayer Leverkusen,1,4,2,g_1_f7TdQPI6,4.29,4.02,1.82,1.08,2.17
+football,Bundesliga 2024 2025,Round 24,01/03/,Bochum,Hoffenheim,0,1,2,g_1_Gzcvw32C,2.46,3.42,3.01,0.99,0.61
+football,Bundesliga 2024 2025,Round 24,01/03/,Heidenheim,B. Monchengladbach,0,3,2,g_1_GMH5O3mJ,2.81,3.5,2.57,1.66,2.04
+football,Bundesliga 2024 2025,Round 24,01/03/,RB Leipzig,Mainz,1,2,2,g_1_nsQlSolf,1.92,3.8,4.07,1.45,1.3
+football,Bundesliga 2024 2025,Round 24,01/03/,St. Pauli,Dortmund,0,2,2,g_1_O00nysXO,4.67,3.79,1.81,0.43,1.92
+football,Bundesliga 2024 2025,Round 24,01/03/,Werder Bremen,Wolfsburg,1,2,2,g_1_rT9in7uQ,3.19,3.5,2.32,1.66,0.69
+football,Bundesliga 2024 2025,Round 24,01/03/,Stuttgart,Bayern Munich,1,3,2,g_1_SvAmU7Js,4.55,4.22,1.74,0.94,2.17
+football,Bundesliga 2024 2025,Round 23,24/02/,Hoffenheim,Stuttgart,1,1,1,g_1_nNTXZxj3,3.63,3.9,2.01,1.0,2.99
+football,Bundesliga 2024 2025,Round 23,24/02/,Bayern Munich,Eintracht Frankfurt,4,0,0,g_1_2Hn8JH5M,1.28,7.39,8.63,4.01,0.53
+football,Bundesliga 2024 2025,Round 23,23/02/,RB Leipzig,Heidenheim,2,2,1,g_1_b1mwEeTq,1.33,5.67,10.1,2.06,0.88
+football,Bundesliga 2024 2025,Round 23,23/02/,Dortmund,Union Berlin,6,0,0,g_1_fTtnCZcd,1.51,4.58,6.62,4.47,0.27
+football,Bundesliga 2024 2025,Round 23,22/02/,B. Monchengladbach,Augsburg,0,3,2,g_1_tp5TOCs2,1.92,3.7,4.18,0.98,1.18
+football,Bundesliga 2024 2025,Round 23,22/02/,Holstein Kiel,Bayer Leverkusen,0,2,2,g_1_dhmGnGZ8,16.7,7.25,1.2,0.31,1.9
+football,Bundesliga 2024 2025,Round 23,22/02/,Mainz,St. Pauli,2,0,0,g_1_YJ1LQYCk,1.73,3.66,5.55,1.35,0.85
+football,Bundesliga 2024 2025,Round 23,22/02/,Wolfsburg,Bochum,1,1,1,g_1_lnQlWfkS,1.64,4.31,5.34,1.76,0.84
+football,Bundesliga 2024 2025,Round 23,22/02/,Freiburg,Werder Bremen,5,0,0,g_1_rkNtYGKF,1.94,3.58,4.2,1.92,1.32
+football,Bundesliga 2024 2025,Round 22,17/02/,Heidenheim,Mainz,0,2,2,g_1_KYUH80i4,3.82,3.57,2.05,0.76,2.15
+football,Bundesliga 2024 2025,Round 22,17/02/,Eintracht Frankfurt,Holstein Kiel,3,1,0,g_1_bJt9AMMi,1.37,5.85,7.83,2.47,1.47
+football,Bundesliga 2024 2025,Round 22,16/02/,Werder Bremen,Hoffenheim,1,3,2,g_1_SbYP6vMG,1.9,3.91,4.01,1.14,1.4
+football,Bundesliga 2024 2025,Round 22,16/02/,Bayer Leverkusen,Bayern Munich,0,0,1,g_1_lhobhu7N,3.1,3.61,2.32,2.19,0.05
+football,Bundesliga 2024 2025,Round 22,15/02/,Bochum,Dortmund,2,0,0,g_1_YyeiNa6c,5.57,4.58,1.58,3.0,2.47
+football,Bundesliga 2024 2025,Round 22,15/02/,St. Pauli,Freiburg,0,1,2,g_1_t2baLwyA,2.56,3.18,3.08,0.15,1.21
+football,Bundesliga 2024 2025,Round 22,15/02/,Stuttgart,Wolfsburg,1,2,2,g_1_WClNnJUp,1.63,4.62,4.94,0.82,1.67
+football,Bundesliga 2024 2025,Round 22,15/02/,Union Berlin,B. Monchengladbach,1,2,2,g_1_ITC4adEj,2.2,3.58,3.38,2.1,2.05
+football,Bundesliga 2024 2025,Round 22,15/02/,Augsburg,RB Leipzig,0,0,1,g_1_McRY4IjT,3.26,3.35,2.35,1.04,1.27
+football,Bundesliga 2024 2025,Round 21,10/02/,RB Leipzig,St. Pauli,2,0,0,g_1_hpbS1hvK,1.69,4.14,5.12,1.54,0.57
+football,Bundesliga 2024 2025,Round 21,09/02/,Holstein Kiel,Bochum,2,2,1,g_1_Gvmjf1xB,2.34,3.65,3.05,1.86,2.12
+football,Bundesliga 2024 2025,Round 21,09/02/,B. Monchengladbach,Eintracht Frankfurt,1,1,1,g_1_KCgsdN7b,2.73,3.59,2.59,0.43,2.17
+football,Bundesliga 2024 2025,Round 21,08/02/,Dortmund,Stuttgart,1,2,2,g_1_CUvadW1s,1.95,3.91,3.79,1.28,0.35
+football,Bundesliga 2024 2025,Round 21,08/02/,Freiburg,Heidenheim,1,0,0,g_1_tAWFhl16,1.7,3.92,5.37,0.94,0.52
+football,Bundesliga 2024 2025,Round 21,08/02/,Hoffenheim,Union Berlin,0,4,2,g_1_prw7fAWg,2.43,3.58,2.95,0.98,2.88
+football,Bundesliga 2024 2025,Round 21,08/02/,Mainz,Augsburg,0,0,1,g_1_CnjZcqwn,1.78,3.7,5.09,1.47,0.37
+football,Bundesliga 2024 2025,Round 21,08/02/,Wolfsburg,Bayer Leverkusen,0,0,1,g_1_YHlNjSVI,3.69,3.4,2.15,0.88,1.53
+football,Bundesliga 2024 2025,Round 21,08/02/,Bayern Munich,Werder Bremen,3,0,0,g_1_nmBtvknD,1.11,12.1,19.9,4.12,0.13
+football,Bundesliga 2024 2025,Round 20,03/02/,Bayer Leverkusen,Hoffenheim,3,1,0,g_1_4QdDhTq9,1.16,10.1,14.4,1.53,2.09
+football,Bundesliga 2024 2025,Round 20,02/02/,Eintracht Frankfurt,Wolfsburg,1,1,1,g_1_2y7hqP6e,2.05,3.69,3.69,1.28,1.21
+football,Bundesliga 2024 2025,Round 20,02/02/,Union Berlin,RB Leipzig,0,0,1,g_1_bNxgmgPQ,3.0,3.59,2.48,1.37,0.24
+football,Bundesliga 2024 2025,Round 20,01/02/,Bayern Munich,Holstein Kiel,4,3,0,g_1_tMIqooxq,1.04,19.0,29.0,3.5,1.88
+football,Bundesliga 2024 2025,Round 20,01/02/,Bochum,Freiburg,0,1,2,g_1_I7JPsXnl,2.94,3.39,2.53,0.94,2.0
+football,Bundesliga 2024 2025,Round 20,01/02/,Heidenheim,Dortmund,1,2,2,g_1_A1A0s3y8,4.85,4.24,1.7,0.58,2.41
+football,Bundesliga 2024 2025,Round 20,01/02/,St. Pauli,Augsburg,1,1,1,g_1_QXMXuBH0,2.21,3.38,3.55,0.49,0.32
+football,Bundesliga 2024 2025,Round 20,01/02/,Stuttgart,B. Monchengladbach,1,2,2,g_1_AwSDj7EL,1.66,4.3,5.06,1.16,1.7
+football,Bundesliga 2024 2025,Round 20,01/02/,Werder Bremen2,Mainz,1,0,0,g_1_Q9vokFfE,2.38,3.44,3.14,2.68,1.24
+football,Bundesliga 2024 2025,Round 19,27/01/,St. Pauli,Union Berlin,3,0,0,g_1_CW9RUPi2,2.47,3.26,3.14,1.23,0.88
+football,Bundesliga 2024 2025,Round 19,26/01/,Hoffenheim,Eintracht Frankfurt,2,2,1,g_1_UmhyK8wp,3.4,3.88,2.09,2.12,2.44
+football,Bundesliga 2024 2025,Round 19,26/01/,B. Monchengladbach,Bochum,3,0,0,g_1_G4GIWoNk,1.74,4.08,4.78,2.39,0.58
+football,Bundesliga 2024 2025,Round 19,25/01/,Augsburg,Heidenheim,2,1,0,g_1_I9YVuj03,1.98,3.62,4.04,1.09,1.01
+football,Bundesliga 2024 2025,Round 19,25/01/,Dortmund,Werder Bremen,2,2,1,g_1_zmz3xHgB,1.53,4.88,5.88,1.4,1.36
+football,Bundesliga 2024 2025,Round 19,25/01/,Freiburg,Bayern Munich,1,2,2,g_1_21jqIn8d,9.98,6.83,1.28,0.35,0.54
+football,Bundesliga 2024 2025,Round 19,25/01/,Mainz,Stuttgart,2,0,0,g_1_pMPnx8aS,3.41,3.57,2.19,1.89,1.08
+football,Bundesliga 2024 2025,Round 19,25/01/,RB Leipzig,Bayer Leverkusen,2,2,1,g_1_lWyevwPb,3.63,3.58,2.1,0.7,2.41
+football,Bundesliga 2024 2025,Round 19,25/01/,Wolfsburg,Holstein Kiel,2,2,1,g_1_O6yvvUUF,1.46,5.09,6.63,2.09,0.27
+football,Bundesliga 2024 2025,Round 18,20/01/,Werder Bremen,Augsburg,0,2,2,g_1_8CGLPwA5,1.94,3.88,3.88,1.35,0.83
+football,Bundesliga 2024 2025,Round 18,19/01/,Union Berlin,Mainz,2,1,0,g_1_tQETNHvI,2.88,3.34,2.61,2.08,1.69
+football,Bundesliga 2024 2025,Round 18,19/01/,Bayer Leverkusen,B. Monchengladbach,3,1,0,g_1_ldLoD0Qa,1.29,6.59,11.6,2.14,0.63
+football,Bundesliga 2024 2025,Round 18,18/01/,Bayern Munich,Wolfsburg,3,2,0,g_1_GOve9IPO,1.16,8.52,19.4,2.87,0.59
+football,Bundesliga 2024 2025,Round 18,18/01/,Bochum,RB Leipzig,3,3,1,g_1_xh8xMe9U,3.48,3.59,2.15,2.67,2.34
+football,Bundesliga 2024 2025,Round 18,18/01/,Heidenheim,St. Pauli,0,2,2,g_1_S28DRaug,2.38,3.5,3.09,0.75,2.24
+football,Bundesliga 2024 2025,Round 18,18/01/,Holstein Kiel,Hoffenheim,1,3,2,g_1_SGmntafn,2.96,3.47,2.47,1.11,0.85
+football,Bundesliga 2024 2025,Round 18,18/01/,Stuttgart,Freiburg,4,0,0,g_1_8bymBveC,1.61,4.45,5.39,2.08,0.32
+football,Bundesliga 2024 2025,Round 18,18/01/,Eintracht Frankfurt,Dortmund,2,0,0,g_1_Kx55TLAt,2.99,3.57,2.41,1.87,0.84
+football,Bundesliga 2024 2025,Round 17,16/01/,Bayern Munich,Hoffenheim,5,0,0,g_1_CAlaeyac,1.13,10.7,21.0,3.36,0.37
+football,Bundesliga 2024 2025,Round 17,16/01/,Stuttgart,RB Leipzig2,2,1,0,g_1_YRqKXX6j,2.04,3.9,3.52,2.33,0.93
+football,Bundesliga 2024 2025,Round 17,16/01/,Union Berlin,Augsburg,0,2,2,g_1_6XPfpBjd,0.0,0.0,0.0,0.67,1.25
+football,Bundesliga 2024 2025,Round 17,16/01/,Werder Bremen,Heidenheim,3,3,1,g_1_tjtGigbM,1.78,4.08,4.43,1.59,1.67
+football,Bundesliga 2024 2025,Round 17,16/01/,Bochum,St. Pauli,1,0,0,g_1_bRCt8Er3,2.61,3.27,2.94,1.7,0.67
+football,Bundesliga 2024 2025,Round 17,15/01/,Bayer Leverkusen,Mainz,1,0,0,g_1_xdblwfqT,1.39,5.34,8.14,1.76,0.72
+football,Bundesliga 2024 2025,Round 17,15/01/,Eintracht Frankfurt,Freiburg,4,1,0,g_1_Kzh7gFT9,1.7,4.42,4.6,2.09,0.5
+football,Bundesliga 2024 2025,Round 17,15/01/,Wolfsburg,B. Monchengladbach,5,1,0,g_1_CYWonXLq,1.93,3.85,3.96,3.82,1.21
+football,Bundesliga 2024 2025,Round 17,15/01/,Holstein Kiel,Dortmund,4,2,0,g_1_fg6k6hDF,6.89,4.86,1.47,1.56,1.06
+football,Bundesliga 2024 2025,Round 16,13/01/,Augsburg,Stuttgart,0,1,2,g_1_006wLfNp,4.13,3.78,1.91,0.22,2.57
+football,Bundesliga 2024 2025,Round 16,12/01/,RB Leipzig,Werder Bremen,4,2,0,g_1_QZBNZxNU,1.92,4.04,3.83,1.63,1.31
+football,Bundesliga 2024 2025,Round 16,12/01/,B. Monchengladbach,Bayern Munich,0,1,2,g_1_Y31Xtxp4,8.79,5.54,1.36,0.39,3.27
+football,Bundesliga 2024 2025,Round 16,11/01/,Freiburg,Holstein Kiel,3,2,0,g_1_tGP6QGaN,1.46,5.06,6.82,0.63,1.84
+football,Bundesliga 2024 2025,Round 16,11/01/,Heidenheim,Union Berlin,2,0,0,g_1_82RbSxVA,3.29,3.39,2.31,1.52,1.12
+football,Bundesliga 2024 2025,Round 16,11/01/,Hoffenheim,Wolfsburg,0,1,2,g_1_CzYkUb0b,2.42,3.58,2.97,1.02,0.91
+football,Bundesliga 2024 2025,Round 16,11/01/,Mainz,Bochum,2,0,0,g_1_ClDOrbFi,1.67,4.1,5.31,1.6,0.56
+football,Bundesliga 2024 2025,Round 16,11/01/,St. Pauli,Eintracht Frankfurt,0,1,2,g_1_tU4uuGEG,3.7,3.45,2.13,2.01,1.58
+football,Bundesliga 2024 2025,Round 16,11/01/,Dortmund,Bayer Leverkusen,2,3,2,g_1_QJZsWKVo,3.65,3.9,2.0,1.26,1.49
+football,Bundesliga 2024 2025,Round 15,23/12/,Wolfsburg,Dortmund,1,3,2,g_1_lUGbusgg,3.29,3.87,2.14,1.78,2.65
+football,Bundesliga 2024 2025,Round 15,22/12/,Bochum,Heidenheim,2,0,0,g_1_MsF6wLN5,2.09,3.67,3.57,1.41,0.51
+football,Bundesliga 2024 2025,Round 15,22/12/,Bayer Leverkusen,Freiburg,5,1,0,g_1_bRbioCPE,1.41,5.13,8.02,2.91,0.74
+football,Bundesliga 2024 2025,Round 15,21/12/,Eintracht Frankfurt,Mainz,1,3,2,g_1_8zJVy8n1,2.06,3.73,3.59,2.14,0.5
+football,Bundesliga 2024 2025,Round 15,21/12/,Hoffenheim,B. Monchengladbach,1,2,2,g_1_Uk7vznHD,2.39,3.73,2.9,3.1,0.6
+football,Bundesliga 2024 2025,Round 15,21/12/,Holstein Kiel,Augsburg,5,1,0,g_1_I98FyahI,3.5,3.58,2.15,2.03,1.55
+football,Bundesliga 2024 2025,Round 15,21/12/,Stuttgart,St. Pauli,0,1,2,g_1_WvcaqjfR,1.5,4.85,6.38,1.76,2.09
+football,Bundesliga 2024 2025,Round 15,21/12/,Werder Bremen,Union Berlin,4,1,0,g_1_fVNks3Ot,2.25,3.33,3.5,1.67,1.01
+football,Bundesliga 2024 2025,Round 15,21/12/,Bayern Munich,RB Leipzig,5,1,0,g_1_0AFNwUHl,1.23,7.28,12.8,3.25,0.34
+football,Bundesliga 2024 2025,Round 14,16/12/,RB Leipzig,Eintracht Frankfurt,2,1,0,g_1_UoPZJZQF,2.23,3.97,3.03,1.99,0.92
+football,Bundesliga 2024 2025,Round 14,16/12/,Dortmund,Hoffenheim,1,1,1,g_1_j1DrIDeS,1.36,5.8,8.19,0.51,0.77
+football,Bundesliga 2024 2025,Round 14,15/12/,Heidenheim,Stuttgart,1,3,2,g_1_0zaECiJk,4.62,4.11,1.75,0.81,2.3
+football,Bundesliga 2024 2025,Round 14,15/12/,St. Pauli,Werder Bremen,0,2,2,g_1_rJG4N8X7,2.98,3.39,2.5,0.36,0.97
+football,Bundesliga 2024 2025,Round 14,14/12/,Augsburg,Bayer Leverkusen,0,2,2,g_1_ldu9YYu9,6.61,3.82,1.62,0.58,0.69
+football,Bundesliga 2024 2025,Round 14,14/12/,B. Monchengladbach,Holstein Kiel,4,1,0,g_1_EwPmRjYr,1.43,5.13,7.44,2.47,0.37
+football,Bundesliga 2024 2025,Round 14,14/12/,Mainz,Bayern Munich,2,1,0,g_1_pOYHWCAL,6.48,4.23,1.57,0.84,1.48
+football,Bundesliga 2024 2025,Round 14,14/12/,Union Berlin,Bochum,0,2,2,g_1_zgDdPU2e,1.69,3.98,5.36,2.01,0.92
+football,Bundesliga 2024 2025,Round 14,14/12/,Freiburg,Wolfsburg,3,2,0,g_1_d2hNAVm2,2.36,3.46,3.14,2.14,1.67
+football,Bundesliga 2024 2025,Round 13,09/12/,Hoffenheim,Freiburg,1,1,1,g_1_M7tg7dsA,2.46,3.34,3.08,1.28,1.23
+football,Bundesliga 2024 2025,Round 13,08/12/,Wolfsburg,Mainz,4,3,0,g_1_UXq15zCM,2.1,3.36,3.9,1.23,2.34
+football,Bundesliga 2024 2025,Round 13,08/12/,B. Monchengladbach,Dortmund,1,1,1,g_1_YauXaEZq,3.65,3.9,2.0,1.09,1.32
+football,Bundesliga 2024 2025,Round 13,07/12/,Bayer Leverkusen,St. Pauli,2,1,0,g_1_rcNP5q65,1.31,6.11,9.67,0.92,1.42
+football,Bundesliga 2024 2025,Round 13,07/12/,Bayern Munich,Heidenheim,4,2,0,g_1_Yo0boFKj,1.14,10.8,17.6,2.36,1.29
+football,Bundesliga 2024 2025,Round 13,07/12/,Bochum,Werder Bremen,0,1,2,g_1_6Dwubh4d,3.69,3.85,2.0,1.47,0.87
+football,Bundesliga 2024 2025,Round 13,07/12/,Eintracht Frankfurt,Augsburg,2,2,1,g_1_0hhp9ICc,1.55,4.41,6.33,1.6,0.57
+football,Bundesliga 2024 2025,Round 13,07/12/,Holstein Kiel,RB Leipzig,0,2,2,g_1_MLLRLed3,6.89,4.86,1.47,1.12,1.4
+football,Bundesliga 2024 2025,Round 13,07/12/,Stuttgart,Union Berlin,3,2,0,g_1_GALX3NzI,1.92,3.58,4.36,2.03,1.47
+football,Bundesliga 2024 2025,Round 12,02/12/,Heidenheim,Eintracht Frankfurt,0,4,2,g_1_tUO20lUP,4.04,3.81,1.92,0.69,2.42
+football,Bundesliga 2024 2025,Round 12,01/12/,Mainz,Hoffenheim,2,0,0,g_1_zi0bkOLO,2.01,3.58,3.93,2.44,0.59
+football,Bundesliga 2024 2025,Round 12,01/12/,Dortmund,Bayern Munich,1,1,1,g_1_lMMHxoxJ,4.78,4.08,1.74,0.47,1.46
+football,Bundesliga 2024 2025,Round 12,30/11/,Augsburg,Bochum,1,0,0,g_1_UgcjipiC,1.81,3.87,4.57,1.91,0.28
+football,Bundesliga 2024 2025,Round 12,30/11/,Freiburg,B. Monchengladbach,3,1,0,g_1_YR3sg6Ma,2.08,3.87,3.44,1.61,1.57
+football,Bundesliga 2024 2025,Round 12,30/11/,RB Leipzig,Wolfsburg,1,5,2,g_1_S6Y8v776,1.74,3.93,4.98,1.11,2.3
+football,Bundesliga 2024 2025,Round 12,30/11/,Union Berlin,Bayer Leverkusen,1,2,2,g_1_v5Q89R6t,4.69,3.51,1.88,0.62,0.94
+football,Bundesliga 2024 2025,Round 12,30/11/,Werder Bremen,Stuttgart,2,2,1,g_1_0E5ZfSim,2.63,3.66,2.65,1.24,1.28
+football,Bundesliga 2024 2025,Round 12,30/11/,St. Pauli,Holstein Kiel,3,1,0,g_1_nVTG75yg,0.0,0.0,0.0,1.47,1.34
+football,Bundesliga 2024 2025,Round 11,25/11/,B. Monchengladbach,St. Pauli,2,0,0,g_1_OEyhrk8s,0.0,0.0,0.0,2.27,0.86
+football,Bundesliga 2024 2025,Round 11,24/11/,Holstein Kiel,Mainz,0,3,2,g_1_KtV0tTxf,3.3,3.39,2.3,0.44,2.2
+football,Bundesliga 2024 2025,Round 11,24/11/,Eintracht Frankfurt,Werder Bremen,1,0,0,g_1_6w5RRTN0,1.76,4.08,4.58,1.02,0.42
+football,Bundesliga 2024 2025,Round 11,23/11/,Bayer Leverkusen,Heidenheim,5,2,0,g_1_2qNaDU87,1.24,6.52,14.0,2.05,1.12
+football,Bundesliga 2024 2025,Round 11,23/11/,Dortmund,Freiburg2,4,0,0,g_1_pOGITkgl,1.77,3.78,5.02,1.34,0.74
+football,Bundesliga 2024 2025,Round 11,23/11/,Hoffenheim,RB Leipzig,4,3,0,g_1_E38ZP7hD,3.55,3.61,2.12,2.14,1.68
+football,Bundesliga 2024 2025,Round 11,23/11/,Stuttgart,Bochum,2,0,0,g_1_fwAoyY0E,1.33,5.88,9.2,1.72,0.63
+football,Bundesliga 2024 2025,Round 11,23/11/,Wolfsburg,Union Berlin,1,0,0,g_1_SrjMmBpK,2.14,3.38,3.72,0.62,0.61
+football,Bundesliga 2024 2025,Round 11,23/11/,Bayern Munich,Augsburg,3,0,0,g_1_EuQnZBVQ,1.14,11.0,17.1,3.77,0.1
+football,Bundesliga 2024 2025,Round 10,11/11/,Heidenheim,Wolfsburg,1,3,2,g_1_xMovyDqH,2.86,3.29,2.65,2.14,1.52
+football,Bundesliga 2024 2025,Round 10,11/11/,Stuttgart,Eintracht Frankfurt,2,3,2,g_1_UkaNveph,1.8,4.0,4.44,2.59,1.39
+football,Bundesliga 2024 2025,Round 10,10/11/,Augsburg,Hoffenheim,0,0,1,g_1_UJQITUyi,0.0,0.0,0.0,0.88,0.43
+football,Bundesliga 2024 2025,Round 10,10/11/,RB Leipzig,B. Monchengladbach,0,0,1,g_1_j5mWxZE4,1.65,4.35,5.12,0.53,1.16
+football,Bundesliga 2024 2025,Round 10,09/11/,Bochum,Bayer Leverkusen,1,1,1,g_1_biQrHC9r,10.6,6.72,1.27,0.63,1.24
+football,Bundesliga 2024 2025,Round 10,09/11/,Mainz,Dortmund,3,1,0,g_1_nee3ysec,4.26,3.68,1.91,2.07,0.91
+football,Bundesliga 2024 2025,Round 10,09/11/,St. Pauli,Bayern Munich,0,1,2,g_1_6HTjFjve,14.1,7.28,1.22,0.08,0.83
+football,Bundesliga 2024 2025,Round 10,09/11/,Werder Bremen,Holstein Kiel,2,1,0,g_1_YmumZjET,1.63,4.49,5.18,1.7,0.62
+football,Bundesliga 2024 2025,Round 10,09/11/,Union Berlin,Freiburg,0,0,1,g_1_v3DAZKP9,2.39,3.21,3.32,0.75,1.7
+football,Bundesliga 2024 2025,Round 9,04/11/,B. Monchengladbach,Werder Bremen,4,1,0,g_1_raQ4MDUN,2.28,3.8,3.04,2.39,1.46
+football,Bundesliga 2024 2025,Round 9,03/11/,Freiburg,Mainz,0,0,1,g_1_GnZmQeVb,1.74,3.88,5.03,0.77,0.53
+football,Bundesliga 2024 2025,Round 9,03/11/,Dortmund,RB Leipzig,2,1,0,g_1_dr2N9zoI,2.26,3.87,3.03,2.71,0.41
+football,Bundesliga 2024 2025,Round 9,02/11/,Bayern Munich,Union Berlin,3,0,0,g_1_jVWMBdG5,1.15,9.59,16.6,2.48,0.5
+football,Bundesliga 2024 2025,Round 9,02/11/,Eintracht Frankfurt,Bochum,7,2,0,g_1_485V7EFU,1.48,5.41,5.87,3.53,1.79
+football,Bundesliga 2024 2025,Round 9,02/11/,Hoffenheim,St. Pauli,0,2,2,g_1_8MVuSH0n,1.91,3.78,4.13,1.16,0.82
+football,Bundesliga 2024 2025,Round 9,02/11/,Holstein Kiel,Heidenheim,1,0,0,g_1_2q7yHiho,2.54,3.6,2.78,1.76,1.0
+football,Bundesliga 2024 2025,Round 9,02/11/,Wolfsburg,Augsburg,1,1,1,g_1_AoSdOZaB,2.03,3.71,3.74,1.3,0.36
+football,Bundesliga 2024 2025,Round 9,02/11/,Bayer Leverkusen,Stuttgart,0,0,1,g_1_IHYEDIog,1.63,4.59,5.05,2.19,0.28
+football,Bundesliga 2024 2025,Round 8,28/10/,Heidenheim,Hoffenheim,0,0,1,g_1_zyC4c6ee,2.9,3.46,2.52,1.29,0.56
+football,Bundesliga 2024 2025,Round 8,28/10/,Union Berlin,Eintracht Frankfurt,1,1,1,g_1_ABBmcc1C,2.52,3.39,2.95,1.44,1.81
+football,Bundesliga 2024 2025,Round 8,27/10/,Bochum,Bayern Munich,0,5,2,g_1_WQadeyWO,12.1,10.0,1.18,0.52,2.23
+football,Bundesliga 2024 2025,Round 8,27/10/,Werder Bremen,Bayer Leverkusen,2,2,1,g_1_MiACepQ7,6.4,5.4,1.45,1.28,1.2
+football,Bundesliga 2024 2025,Round 8,26/10/,Augsburg,Dortmund,2,1,0,g_1_x0haJmIE,0.0,0.0,0.0,0.55,0.92
+football,Bundesliga 2024 2025,Round 8,26/10/,RB Leipzig,Freiburg,3,1,0,g_1_ELNeaSQr,1.81,4.1,4.27,1.9,1.65
+football,Bundesliga 2024 2025,Round 8,26/10/,St. Pauli,Wolfsburg,0,0,1,g_1_Mku6FvHt,2.59,3.59,2.73,0.83,1.1
+football,Bundesliga 2024 2025,Round 8,26/10/,Stuttgart,Holstein Kiel,2,1,0,g_1_rwXP4l3L,1.23,8.47,10.4,1.23,0.4
+football,Bundesliga 2024 2025,Round 8,26/10/,Mainz,B. Monchengladbach,1,1,1,g_1_4E8uaJWa,2.33,3.92,2.89,1.6,0.6
+football,Bundesliga 2024 2025,Round 7,21/10/,Wolfsburg,Werder Bremen,2,4,2,g_1_rPiijklS,2.05,3.85,3.75,2.2,2.08
+football,Bundesliga 2024 2025,Round 7,20/10/,Holstein Kiel,Union Berlin,0,2,2,g_1_nBwH6AY8,3.73,3.6,2.06,1.37,1.1
+football,Bundesliga 2024 2025,Round 7,20/10/,Bayern Munich,Stuttgart,4,0,0,g_1_2mcmYkSq,1.31,6.28,9.29,3.27,0.4
+football,Bundesliga 2024 2025,Round 7,19/10/,B. Monchengladbach,Heidenheim,3,2,0,g_1_fHjVr7t2,1.92,3.8,4.05,3.13,1.69
+football,Bundesliga 2024 2025,Round 7,19/10/,Bayer Leverkusen,Eintracht Frankfurt,2,1,0,g_1_r3GGwC4M,1.51,4.66,6.48,3.75,1.78
+football,Bundesliga 2024 2025,Round 7,19/10/,Freiburg,Augsburg,3,1,0,g_1_M93rhBJF,1.66,4.11,5.4,0.73,0.56
+football,Bundesliga 2024 2025,Round 7,19/10/,Hoffenheim,Bochum,3,1,0,g_1_Eq0zfXl3,1.52,5.38,5.38,2.4,2.32
+football,Bundesliga 2024 2025,Round 7,19/10/,Mainz,RB Leipzig,0,2,2,g_1_E7rNpTBk,4.07,4.03,1.86,0.47,1.98
+football,Bundesliga 2024 2025,Round 7,19/10/,Dortmund,St. Pauli,2,1,0,g_1_z1eeWTdd,1.3,5.6,11.7,3.46,0.58
+football,Bundesliga 2024 2025,Round 6,07/10/,Stuttgart,Hoffenheim,1,1,1,g_1_nc8W6DTp,1.37,5.85,7.83,3.12,0.86
+football,Bundesliga 2024 2025,Round 6,07/10/,Eintracht Frankfurt,Bayern Munich,3,3,1,g_1_ShoJUGLi,5.87,4.61,1.55,0.89,2.25
+football,Bundesliga 2024 2025,Round 6,06/10/,Heidenheim,RB Leipzig,0,1,2,g_1_0KbQSfj4,5.32,4.08,1.68,1.46,1.62
+football,Bundesliga 2024 2025,Round 6,06/10/,St. Pauli,Mainz,0,3,2,g_1_zwD8uYZ9,2.2,3.38,3.58,1.05,0.74
+football,Bundesliga 2024 2025,Round 6,05/10/,Bayer Leverkusen,Holstein Kiel,2,2,1,g_1_tbtaPLqC,1.09,13.7,24.0,2.13,1.71
+football,Bundesliga 2024 2025,Round 6,05/10/,Bochum,Wolfsburg,1,3,2,g_1_ENOasf5c,3.21,3.8,2.19,2.01,3.41
+football,Bundesliga 2024 2025,Round 6,05/10/,Union Berlin,Dortmund,2,1,0,g_1_lpXDJjDj,3.86,3.69,2.0,1.57,0.95
+football,Bundesliga 2024 2025,Round 6,05/10/,Werder Bremen,Freiburg,0,1,2,g_1_dnhZQYKG,2.8,3.5,2.58,0.84,1.12
+football,Bundesliga 2024 2025,Round 6,05/10/,Augsburg,B. Monchengladbach,2,1,0,g_1_UajsPCkT,2.55,3.69,2.71,1.3,0.65
+football,Bundesliga 2024 2025,Round 5,30/09/,Hoffenheim,Werder Bremen,3,4,2,g_1_bFO8E4Vg,2.3,3.87,2.96,1.75,2.42
+football,Bundesliga 2024 2025,Round 5,29/09/,Holstein Kiel,Eintracht Frankfurt,2,4,2,g_1_pWnjRsFa,3.79,3.96,1.94,1.29,3.25
+football,Bundesliga 2024 2025,Round 5,29/09/,Bayern Munich,Bayer Leverkusen,1,1,1,g_1_IukqGdk1,1.66,4.58,4.8,1.16,0.14
+football,Bundesliga 2024 2025,Round 5,28/09/,B. Monchengladbach,Union Berlin,1,0,0,g_1_CIlrT3pm,2.17,3.61,3.41,0.98,0.73
+football,Bundesliga 2024 2025,Round 5,28/09/,Freiburg,St. Pauli,0,3,2,g_1_6uSGCr06,1.58,4.31,6.11,1.12,1.5
+football,Bundesliga 2024 2025,Round 5,28/09/,Mainz,Heidenheim,0,2,2,g_1_f18BYPMP,1.86,3.76,4.4,0.5,1.5
+football,Bundesliga 2024 2025,Round 5,28/09/,RB Leipzig,Augsburg,4,0,0,g_1_Q5hiEzKD,1.56,4.88,5.46,2.79,1.12
+football,Bundesliga 2024 2025,Round 5,28/09/,Wolfsburg,Stuttgart,2,2,1,g_1_SfGPAMUI,3.72,3.83,2.0,1.15,3.0
+football,Bundesliga 2024 2025,Round 5,28/09/,Dortmund,Bochum,4,2,0,g_1_rsNyMnwK,1.25,7.2,11.3,3.24,1.49
+football,Bundesliga 2024 2025,Round 4,23/09/,St. Pauli,RB Leipzig,0,0,1,g_1_dQ0zIIKl,5.88,4.0,1.64,1.48,0.62
+football,Bundesliga 2024 2025,Round 4,23/09/,Stuttgart,Dortmund,5,1,0,g_1_2k0SlKj2,2.35,3.8,2.92,3.26,1.14
+football,Bundesliga 2024 2025,Round 4,22/09/,Bayer Leverkusen,Wolfsburg,4,3,0,g_1_Uy2KjtMk,1.29,6.56,9.68,2.28,0.59
+football,Bundesliga 2024 2025,Round 4,22/09/,Eintracht Frankfurt,B. Monchengladbach,2,0,0,g_1_IcrFCNr9,1.8,4.45,4.26,2.42,1.48
+football,Bundesliga 2024 2025,Round 4,21/09/,Bochum,Holstein Kiel,2,2,1,g_1_pY1dP0SE,1.83,3.86,4.48,0.85,2.1
+football,Bundesliga 2024 2025,Round 4,21/09/,Heidenheim,Freiburg,0,3,2,g_1_QNoNA1DL,3.43,3.56,2.18,0.46,1.37
+football,Bundesliga 2024 2025,Round 4,21/09/,Union Berlin,Hoffenheim,2,1,0,g_1_hvFA1cz8,1.81,3.97,4.43,1.65,0.36
+football,Bundesliga 2024 2025,Round 4,21/09/,Werder Bremen,Bayern Munich,0,5,2,g_1_AeNg5uyq,9.3,5.98,1.32,0.0,3.31
+football,Bundesliga 2024 2025,Round 4,21/09/,Augsburg,Mainz,2,3,2,g_1_dCL13J5e,2.29,3.58,3.18,2.53,1.21
+football,Bundesliga 2024 2025,Round 3,16/09/,Mainz,Werder Bremen,1,2,2,g_1_8OhVCWxh,2.2,3.68,3.28,2.4,2.32
+football,Bundesliga 2024 2025,Round 3,15/09/,Augsburg,St. Pauli,3,1,0,g_1_CnrLfkNN,2.1,3.36,3.9,2.48,0.63
+football,Bundesliga 2024 2025,Round 3,15/09/,Holstein Kiel,Bayern Munich,1,6,2,g_1_x4pn9lxH,12.1,7.96,1.22,0.38,4.14
+football,Bundesliga 2024 2025,Round 3,14/09/,B. Monchengladbach,Stuttgart,1,3,2,g_1_UwsvBA74,2.78,3.88,2.42,2.12,2.11
+football,Bundesliga 2024 2025,Round 3,14/09/,Freiburg,Bochum,2,1,0,g_1_vZqDdBhB,1.59,4.31,5.9,4.26,1.65
+football,Bundesliga 2024 2025,Round 3,14/09/,Hoffenheim,Bayer Leverkusen,1,4,2,g_1_r7j4bXNb,7.37,5.08,1.43,1.08,3.65
+football,Bundesliga 2024 2025,Round 3,14/09/,RB Leipzig,Union Berlin,0,0,1,g_1_WSMotj8U,1.5,4.87,6.41,1.43,1.13
+football,Bundesliga 2024 2025,Round 3,14/09/,Wolfsburg,Eintracht Frankfurt,1,2,2,g_1_tI0qkTpo,2.77,3.69,2.51,1.31,3.08
+football,Bundesliga 2024 2025,Round 3,14/09/,Dortmund,Heidenheim,4,2,0,g_1_zsmd0ggn,1.36,5.91,7.98,2.15,1.99
+football,Bundesliga 2024 2025,Round 2,02/09/,Bayern Munich,Freiburg,2,0,0,g_1_2T6mXfPa,1.22,7.96,12.1,1.66,1.39
+football,Bundesliga 2024 2025,Round 2,01/09/,Heidenheim,Augsburg,4,0,0,g_1_W8b4TCOO,2.5,3.57,2.86,2.89,1.16
+football,Bundesliga 2024 2025,Round 2,01/09/,Bayer Leverkusen,RB Leipzig,2,3,2,g_1_AVR8vwXP,1.67,4.59,4.66,2.93,1.39
+football,Bundesliga 2024 2025,Round 2,31/08/,Bochum,B. Monchengladbach,0,2,2,g_1_U3QUqY85,2.95,3.82,2.33,1.07,2.84
+football,Bundesliga 2024 2025,Round 2,31/08/,Eintracht Frankfurt,Hoffenheim,3,1,0,g_1_AgAeVYgC,1.63,4.59,5.02,2.6,1.29
+football,Bundesliga 2024 2025,Round 2,31/08/,Holstein Kiel,Wolfsburg,0,2,2,g_1_QVJwrCwI,2.95,3.77,2.34,1.06,1.38
+football,Bundesliga 2024 2025,Round 2,31/08/,Stuttgart,Mainz,3,3,1,g_1_61DvZGfm,1.64,4.36,5.21,5.21,2.25
+football,Bundesliga 2024 2025,Round 2,31/08/,Werder Bremen,Dortmund,0,0,1,g_1_0OYDmG9t,4.15,3.81,1.9,0.33,0.76
+football,Bundesliga 2024 2025,Round 2,31/08/,Union Berlin,St. Pauli,1,0,0,g_1_djSMofvg,1.94,3.45,4.43,0.8,0.5
+football,Bundesliga 2024 2025,Round 1,26/08/,St. Pauli,Heidenheim,0,2,2,g_1_AuVMGZvJ,2.05,3.62,3.74,1.59,1.45
+football,Bundesliga 2024 2025,Round 1,25/08/,Wolfsburg,Bayern Munich,2,3,2,g_1_t0w6KHuf,6.5,4.92,1.49,2.34,2.85
+football,Bundesliga 2024 2025,Round 1,25/08/,Dortmund,Eintracht Frankfurt,2,0,0,g_1_SxFxJ44k,1.73,4.11,4.82,1.41,1.19
+football,Bundesliga 2024 2025,Round 1,24/08/,Augsburg,Werder Bremen,2,2,1,g_1_YZZcMwBs,2.51,3.69,2.77,1.12,1.86
+football,Bundesliga 2024 2025,Round 1,24/08/,Freiburg,Stuttgart,3,1,0,g_1_GbeXvnR8,3.95,3.9,1.92,2.66,0.46
+football,Bundesliga 2024 2025,Round 1,24/08/,Hoffenheim,Holstein Kiel,3,2,0,g_1_O48oHrZ1,1.61,4.82,4.99,3.01,2.11
+football,Bundesliga 2024 2025,Round 1,24/08/,Mainz,Union Berlin,1,1,1,g_1_2FREIeA6,2.1,3.38,3.85,1.33,1.02
+football,Bundesliga 2024 2025,Round 1,24/08/,RB Leipzig,Bochum,1,0,0,g_1_dfO6OQtS,1.23,7.58,11.5,1.39,1.29
+football,Bundesliga 2024 2025,Round 1,24/08/,B. Monchengladbach,Bayer Leverkusen,2,3,2,g_1_zuzbQnCF,5.13,4.62,1.62,2.19,4.01

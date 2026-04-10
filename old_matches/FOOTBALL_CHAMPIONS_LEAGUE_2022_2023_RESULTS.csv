@@ -1,0 +1,215 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Champions League 2022 2023,Regular Season,11/06/,Manchester CityWinner,Inter,1,0,0,g_1_dfhbMKeK,1.51,4.25,7.4,0.8,1.55
+football,Champions League 2022 2023,Regular Season,18/05/,Manchester CityAdvancing to next round,Real Madrid,4,0,0,g_1_dhcUANt8,1.64,4.76,5.05,2.46,0.37
+football,Champions League 2022 2023,Regular Season,17/05/,InterAdvancing to next round,AC Milan,1,0,0,g_1_OvuX5Dwq,2.2,3.33,3.64,0.92,0.54
+football,Champions League 2022 2023,Regular Season,11/05/,AC Milan,Inter,0,2,2,g_1_EVC3Nu9G,3.38,3.08,2.44,1.09,2.11
+football,Champions League 2022 2023,Regular Season,10/05/,Real Madrid,Manchester City,1,1,1,g_1_hKWm2Vx8,2.95,3.84,2.32,0.69,0.67
+football,Champions League 2022 2023,Regular Season,20/04/,Bayern Munich,Manchester CityAdvancing to next round,1,1,1,g_1_MPmDos6d,2.77,4.04,2.46,2.39,1.44
+football,Champions League 2022 2023,Regular Season,20/04/,InterAdvancing to next round,Benfica,3,3,1,g_1_lWua9pb3,2.23,3.48,3.56,1.35,0.72
+football,Champions League 2022 2023,Regular Season,19/04/,Chelsea,Real MadridAdvancing to next round,0,2,2,g_1_pbZ77OSF,2.93,3.59,2.43,1.97,1.57
+football,Champions League 2022 2023,Regular Season,19/04/,Napoli,AC MilanAdvancing to next round,1,1,1,g_1_0Aa4m3yp,1.82,3.68,4.76,2.35,2.15
+football,Champions League 2022 2023,Regular Season,13/04/,AC Milan,Napoli,1,0,0,g_1_QH8xhqTS,2.85,3.15,2.76,1.29,1.55
+football,Champions League 2022 2023,Regular Season,13/04/,Real Madrid,Chelsea,2,0,0,g_1_WfV384D9,1.67,3.84,5.85,2.52,1.26
+football,Champions League 2022 2023,Regular Season,12/04/,Benfica,Inter,0,2,2,g_1_AuseAQrc,2.3,3.28,3.45,1.75,1.67
+football,Champions League 2022 2023,Regular Season,12/04/,Manchester City,Bayern Munich,3,0,0,g_1_rZl9nNjj,1.69,4.37,4.77,2.02,0.87
+football,Champions League 2022 2023,Regular Season,16/03/,NapoliAdvancing to next round,Eintracht Frankfurt,3,0,0,g_1_ziIMHEan,1.38,5.26,8.39,2.97,1.16
+football,Champions League 2022 2023,Regular Season,16/03/,Real MadridAdvancing to next round,Liverpool,1,0,0,g_1_fJsl3Fpg,2.34,4.07,2.8,2.29,0.52
+football,Champions League 2022 2023,Regular Season,15/03/,FC Porto,InterAdvancing to next round,0,0,1,g_1_OCl4aXqI,2.78,3.38,2.67,1.69,0.52
+football,Champions League 2022 2023,Regular Season,15/03/,Manchester CityAdvancing to next round,RB Leipzig,7,0,0,g_1_nDKMnf0C,1.35,5.12,10.6,4.27,0.57
+football,Champions League 2022 2023,Regular Season,09/03/,Bayern MunichAdvancing to next round,PSG,2,0,0,g_1_ruEVpYUO,1.78,4.86,3.78,1.65,1.25
+football,Champions League 2022 2023,Regular Season,09/03/,Tottenham,AC MilanAdvancing to next round,0,0,1,g_1_Spee1gF5,1.83,3.8,4.56,0.51,1.51
+football,Champions League 2022 2023,Regular Season,08/03/,BenficaAdvancing to next round,Club Brugge KV,5,1,0,g_1_dQnCcBEU,1.38,5.03,9.01,3.56,1.08
+football,Champions League 2022 2023,Regular Season,08/03/,ChelseaAdvancing to next round,Dortmund,2,0,0,g_1_Y3gu5yGt,1.83,4.11,4.17,2.07,0.99
+football,Champions League 2022 2023,Regular Season,23/02/,Inter,FC Porto,1,0,0,g_1_A9p00DUB,1.8,3.59,5.13,1.75,1.65
+football,Champions League 2022 2023,Regular Season,23/02/,RB Leipzig,Manchester City,1,1,1,g_1_8MLImzo6,4.48,3.58,1.89,0.84,1.37
+football,Champions League 2022 2023,Regular Season,22/02/,Eintracht Frankfurt,Napoli,0,2,2,g_1_d0JIIfpt,3.82,3.48,2.08,0.48,3.03
+football,Champions League 2022 2023,Regular Season,22/02/,Liverpool,Real Madrid,2,5,2,g_1_GSrp4eVn,2.43,3.68,2.89,2.15,1.78
+football,Champions League 2022 2023,Regular Season,16/02/,Club Brugge KV,Benfica,0,2,2,g_1_IZm8biaO,4.85,3.65,1.82,0.23,2.83
+football,Champions League 2022 2023,Regular Season,16/02/,Dortmund,Chelsea,1,0,0,g_1_dr2D9H7P,2.34,3.47,3.16,1.51,2.09
+football,Champions League 2022 2023,Regular Season,15/02/,AC Milan,Tottenham,1,0,0,g_1_lfdi2Zaa,2.68,3.27,2.84,1.62,0.53
+football,Champions League 2022 2023,Regular Season,15/02/,PSG,Bayern Munich,0,1,2,g_1_4lFRoEFI,2.86,3.57,2.5,1.01,1.26
+football,Champions League 2022 2023,Round 6,03/11/,AC Milan,Salzburg,4,0,0,g_1_OxlgeUe2,1.52,4.61,6.53,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Chelsea,Din. Zagreb,2,1,0,g_1_dOqOybH2,1.23,7.1,13.3,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,FC Copenhagen,Dortmund,1,1,1,g_1_phEe5QtO,4.72,4.31,1.7,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Juventus,PSG,1,2,2,g_1_E7h9Omsn,5.96,4.41,1.57,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Maccabi Haifa,Benfica,1,6,2,g_1_I1GJQX81,4.93,4.11,1.71,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Manchester City,Sevilla,3,1,0,g_1_U1oAgTsC,1.32,5.77,10.0,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Real Madrid,Celtic,5,1,0,g_1_vDWRtjb6,1.26,6.83,10.6,0.0,0.0
+football,Champions League 2022 2023,Round 6,03/11/,Shakhtar Donetsk,RB Leipzig,0,4,2,g_1_nJggcBrm,4.48,3.93,1.81,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Bayern Munich,Inter,2,0,0,g_1_Q7BShyz4,1.49,5.12,6.15,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Liverpool,Napoli,2,0,0,g_1_l2AfJzqo,2.03,4.08,3.43,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Marseille,Tottenham,1,2,2,g_1_AZqkdAtd,3.19,3.48,2.33,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Plzen,Barcelona,2,4,2,g_1_vBy27zkc,8.73,5.64,1.36,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Rangers,Ajax,1,3,2,g_1_Sb4TNGzU,4.15,4.11,1.83,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Sporting CP,Eintracht Frankfurt,1,2,2,g_1_tzYmzotb,2.35,3.58,3.07,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,Bayer Leverkusen,Club Brugge KV,0,0,1,g_1_GxUyWDSj,1.6,4.61,5.27,0.0,0.0
+football,Champions League 2022 2023,Round 6,02/11/,FC Porto,Atl. Madrid,2,1,0,g_1_tzCIK5tB,3.08,3.27,2.5,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Ajax,Liverpool,0,3,2,g_1_GfN7SvMb,3.74,4.3,1.89,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Atl. Madrid,Bayer Leverkusen,2,2,1,g_1_plfcwdzH,1.59,4.26,5.93,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Barcelona,Bayern Munich,0,3,2,g_1_MZ4yiF4G,2.42,4.12,2.67,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Eintracht Frankfurt,Marseille,2,1,0,g_1_8jTI3hlM,2.17,3.64,3.54,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Napoli,Rangers,3,0,0,g_1_xOjkuI54,1.3,6.31,9.51,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Tottenham,Sporting CP,1,1,1,g_1_KQWiZ4e4,1.56,4.58,6.35,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Club Brugge KV,FC Porto,0,4,2,g_1_zwVux7Bo,3.09,3.61,2.32,0.0,0.0
+football,Champions League 2022 2023,Round 5,27/10/,Inter,Plzen,4,0,0,g_1_I1z66f43,1.14,9.53,23.0,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Benfica,Juventus,4,3,0,g_1_plIBSgvk,2.13,3.46,3.66,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Celtic,Shakhtar Donetsk,1,1,1,g_1_Gbs6f9S5,1.74,4.1,4.74,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Din. Zagreb,AC Milan,0,4,2,g_1_zyIs20UE,5.57,4.1,1.65,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Dortmund,Manchester City,0,0,1,g_1_ttFSBAct,5.09,4.11,1.69,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,PSG,Maccabi Haifa,7,2,0,g_1_zHg5PTRu,1.09,14.3,32.0,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,RB Leipzig,Real Madrid,3,2,0,g_1_dlRWuADC,2.59,3.69,2.68,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Salzburg,Chelsea,1,2,2,g_1_zFrSzIW8,5.25,3.7,1.75,0.0,0.0
+football,Champions League 2022 2023,Round 5,26/10/,Sevilla,FC Copenhagen,3,0,0,g_1_GCMv98sa,1.48,4.47,7.68,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Barcelona,Inter,3,3,1,g_1_UufBpDsp,1.55,4.47,6.19,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Bayer Leverkusen,FC Porto,0,3,2,g_1_YXjcDNYp,2.11,3.7,3.49,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Plzen,Bayern Munich,2,4,2,g_1_fm3qkgZS,11.8,8.28,1.21,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Rangers,Liverpool,1,7,2,g_1_bXiotbjb,6.31,4.64,1.53,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Sporting CP2,Marseille,0,2,2,g_1_GhQ0XrQG,2.35,3.37,3.24,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Tottenham,Eintracht Frankfurt,3,2,0,g_1_nsSM2C3S,1.48,4.65,7.15,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Atl. Madrid,Club Brugge KV,0,0,1,g_1_SCq2xGkN,1.48,4.6,7.16,0.0,0.0
+football,Champions League 2022 2023,Round 4,13/10/,Napoli,Ajax,4,2,0,g_1_pzFOOdLN,1.61,4.62,5.13,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,AC Milan,Chelsea,0,2,2,g_1_MihYEzAk,3.36,3.36,2.29,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,Celtic,RB Leipzig,0,2,2,g_1_fqgcdVcg,3.85,3.87,1.95,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,Din. Zagreb,Salzburg,1,1,1,g_1_fPUFqhEm,2.98,3.37,2.51,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,Dortmund,Sevilla,1,1,1,g_1_f3Lr8Sd5,1.46,5.13,6.71,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,PSG,Benfica,1,1,1,g_1_WtxyZe1L,1.55,4.64,5.93,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,Shakhtar Donetsk,Real Madrid,1,1,1,g_1_zuQzuUSI,6.23,4.84,1.51,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,FC Copenhagen,Manchester City,0,0,1,g_1_z3EWAUCn,20.0,10.1,1.14,0.0,0.0
+football,Champions League 2022 2023,Round 4,12/10/,Maccabi Haifa,Juventus,2,0,0,g_1_SW7ELoR4,5.01,3.9,1.74,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Benfica,PSG,1,1,1,g_1_Q3yuYFGR,4.2,4.04,1.84,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Chelsea,AC Milan,3,0,0,g_1_4GswEfPe,1.82,3.84,4.51,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Juventus,Maccabi Haifa,3,1,0,g_1_Y98AMRBb,1.4,5.08,8.11,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Manchester City,FC Copenhagen,5,0,0,g_1_2FqIi7CO,1.05,13.0,37.0,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Real Madrid,Shakhtar Donetsk,2,1,0,g_1_0MXNsWr0,1.21,7.96,12.4,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Sevilla,Dortmund,1,4,2,g_1_YmXZ9lSh,3.17,3.57,2.3,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,RB Leipzig,Celtic,3,1,0,g_1_8SfkbiTt,1.53,4.84,5.86,0.0,0.0
+football,Champions League 2022 2023,Round 3,06/10/,Salzburg,Din. Zagreb,1,0,0,g_1_C0uBpYbs,1.8,3.88,4.58,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Ajax,Napoli,1,6,2,g_1_bJCCRby5,2.48,3.82,2.74,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Club Brugge KV,Atl. Madrid,2,0,0,g_1_xnVXWgDp,4.8,3.54,1.85,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Eintracht Frankfurt,Tottenham,0,0,1,g_1_ETTE4YYF,3.73,3.47,2.11,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,FC Porto,Bayer Leverkusen,2,0,0,g_1_Ob1NJPeH,2.05,3.8,3.56,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Inter,Barcelona,1,0,0,g_1_jerKriCd,4.16,3.87,1.87,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Liverpool,Rangers,2,0,0,g_1_25bxrKLo,1.14,10.3,18.4,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Bayern Munich,Plzen,5,0,0,g_1_4bAWiekA,1.04,19.0,28.0,0.0,0.0
+football,Champions League 2022 2023,Round 3,05/10/,Marseille,Sporting CP,4,1,0,g_1_8llUFGfq,2.46,3.47,2.98,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Chelsea,Salzburg,1,1,1,g_1_r7tsDEv2,1.32,6.06,8.79,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,FC Copenhagen,Sevilla,0,0,1,g_1_OxQn7nCB,3.74,3.33,2.15,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Juventus,Benfica,1,2,2,g_1_SCN6TZOr,2.2,3.39,3.54,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Maccabi Haifa,PSG,1,3,2,g_1_fJ96N7dh,11.5,7.48,1.23,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Manchester City,Dortmund,2,1,0,g_1_OOpEhmcI,1.23,7.49,11.9,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Rangers,Napoli,0,3,2,g_1_WpjgvxLA,4.14,3.69,1.93,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Real Madrid,RB Leipzig,2,0,0,g_1_6aYJrCTg,1.63,4.35,5.35,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,AC Milan,Din. Zagreb,3,1,0,g_1_SAEZ3Ma2,1.35,5.09,11.1,0.0,0.0
+football,Champions League 2022 2023,Round 2,15/09/,Shakhtar Donetsk,Celtic,1,1,1,g_1_YZi1ekDa,2.8,3.69,2.48,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Bayer Leverkusen,Atl. Madrid,2,0,0,g_1_63r6yz5T,2.74,3.36,2.71,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Bayern Munich,Barcelona,2,0,0,g_1_WpCOgHKc,1.99,4.3,3.56,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,FC Porto,Club Brugge KV,0,4,2,g_1_2k0RIqBN,1.47,4.94,7.5,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Liverpool,Ajax,2,1,0,g_1_6qGKPx6H,1.58,4.65,5.42,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Marseille,Eintracht Frankfurt,0,1,2,g_1_xMosbWBq,1.89,3.83,4.13,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Plzen,Inter,0,2,2,g_1_0QPA5EJ9,6.45,4.64,1.52,0.0,0.0
+football,Champions League 2022 2023,Round 2,14/09/,Sporting CP,Tottenham,2,0,0,g_1_x2RdYOAA,3.73,3.47,2.11,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Atl. Madrid,FC Porto,2,1,0,g_1_WO4VH3QT,1.93,3.62,4.52,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Barcelona,Plzen,5,1,0,g_1_C4qGqXdj,1.07,16.0,42.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Club Brugge KV,Bayer Leverkusen,1,0,0,g_1_Is8Kfc5i,3.44,3.86,2.14,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Inter,Bayern Munich,0,2,2,g_1_0Q3ujZJM,4.4,4.34,1.79,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Napoli,Liverpool,4,1,0,g_1_tdctsvyh,3.92,4.04,1.94,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Tottenham,Marseille,2,0,0,g_1_GCpocjRk,1.55,4.62,6.45,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Ajax,Rangers,4,0,0,g_1_xABGQIjB,1.48,4.62,7.18,0.0,0.0
+football,Champions League 2022 2023,Round 1,08/09/,Eintracht Frankfurt,Sporting CP,0,3,2,g_1_nDYqyRQi,2.04,3.66,3.72,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Benfica,Maccabi Haifa,2,0,0,g_1_OvHFRDge,1.37,5.3,9.14,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Celtic,Real Madrid,0,3,2,g_1_lrEI3D5J,5.0,4.19,1.69,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,PSG,Juventus,2,1,0,g_1_beIa4pdU,1.33,5.86,9.27,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,RB Leipzig,Shakhtar Donetsk,1,4,2,g_1_2oIM2XKP,1.38,5.36,8.42,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Salzburg,AC Milan,1,1,1,g_1_61Dw3tF8,4.0,3.69,1.96,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Sevilla,Manchester City,0,4,2,g_1_vXS0GjkP,9.61,5.6,1.34,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Din. Zagreb,Chelsea,1,0,0,g_1_IwYWZynF,6.8,4.94,1.47,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/09/,Dortmund,FC Copenhagen,3,0,0,g_1_2TOj66RH,1.36,5.64,8.73,0.0,0.0
+football,Champions League 2022 2023,Round 1,25/08/,Din. Zagreb (Cro)Advancing to next round,Bodo/Glimt (Nor),4,1,0,g_1_E9ZlwGes,1.72,4.34,4.62,0.0,0.0
+football,Champions League 2022 2023,Round 1,25/08/,PSV (Ned),Rangers (Sco)Advancing to next round,0,1,2,g_1_IcdkNyzm,1.61,4.29,5.71,0.0,0.0
+football,Champions League 2022 2023,Round 1,25/08/,Trabzonspor (Tur),FC Copenhagen (Den)Advancing to next round,0,0,1,g_1_AioFNM7r,2.13,3.72,3.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,24/08/,Benfica (Por)Advancing to next round,Dyn. Kyiv (Ukr),3,0,0,g_1_GWEwSQLE,1.36,5.8,8.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,24/08/,Crvena zvezda (Srb),Maccabi Haifa (Isr)Advancing to next round,2,2,1,g_1_vi7xxTLl,1.61,4.62,5.18,0.0,0.0
+football,Champions League 2022 2023,Round 1,24/08/,Plzen (Cze)Winner,Qarabag (Aze),2,1,0,g_1_EZIuCwcr,2.35,3.1,3.52,0.0,0.0
+football,Champions League 2022 2023,Round 1,18/08/,Dyn. Kyiv (Ukr),Benfica (Por),0,2,2,g_1_xtGZS668,6.76,4.15,1.56,0.0,0.0
+football,Champions League 2022 2023,Round 1,18/08/,Maccabi Haifa (Isr),Crvena zvezda (Srb),3,2,0,g_1_pGhZx96r,2.45,3.54,2.94,0.0,0.0
+football,Champions League 2022 2023,Round 1,18/08/,Qarabag (Aze),Plzen (Cze),0,0,1,g_1_dfWDGJlR,2.25,3.39,3.44,0.0,0.0
+football,Champions League 2022 2023,Round 1,17/08/,Bodo/Glimt (Nor),Din. Zagreb (Cro),1,0,0,g_1_8SdMsdmQ,2.1,3.77,3.46,0.0,0.0
+football,Champions League 2022 2023,Round 1,17/08/,FC Copenhagen (Den),Trabzonspor (Tur),2,1,0,g_1_8ramS2aR,2.25,3.41,3.42,0.0,0.0
+football,Champions League 2022 2023,Round 1,17/08/,Rangers (Sco),PSV (Ned),2,2,1,g_1_lOioOHKt,2.85,3.31,2.64,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Rangers (Sco)Advancing to next round,Royale Union SG (Bel),3,0,0,g_1_Qu3bx41t,1.8,3.9,4.59,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,PSV (Ned)Advancing to next round,Monaco (Fra),3,2,0,g_1_ATSlI0GO,2.18,3.8,3.23,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Sturm Graz (Aut),Dyn. Kyiv (Ukr)Advancing to next round,1,2,2,g_1_hjksKZXj,2.61,3.33,2.87,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Din. Zagreb (Cro)Advancing to next round,Ludogorets (Bul)3,4,2,0,g_1_UDJZdD7c,1.72,4.08,4.88,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Ferencvaros (Hun),Qarabag (Aze)Advancing to next round,1,3,2,g_1_M7zeVKck,2.06,3.56,3.79,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Midtjylland (Den),Benfica (Por)Advancing to next round,1,3,2,g_1_YX037ZH3,4.43,4.16,1.77,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Apollon (Cyp),Maccabi Haifa (Isr)Advancing to next round,2,0,0,g_1_E5DP5VM9,3.8,3.67,2.02,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Plzen (Cze)Advancing to next round,Sheriff Tiraspol (Mda),2,1,0,g_1_4SelO1iq,1.46,4.88,7.2,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Pyunik Yerevan (Arm),Crvena zvezda (Srb)Advancing to next round,0,2,2,g_1_AFJahys3,7.2,5.21,1.43,0.0,0.0
+football,Champions League 2022 2023,Round 1,10/08/,Zalgiris (Ltu),Bodo/Glimt (Nor)Advancing to next round,1,1,1,g_1_rJ012A6l,3.75,3.7,2.02,0.0,0.0
+football,Champions League 2022 2023,Round 1,04/08/,Crvena zvezda (Srb),Pyunik Yerevan (Arm),5,0,0,g_1_WOKegHRd,1.11,10.8,25.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,04/08/,Dyn. Kyiv (Ukr),Sturm Graz (Aut),1,0,0,g_1_EajwLFIp,2.05,3.41,3.99,0.0,0.0
+football,Champions League 2022 2023,Round 1,04/08/,Maccabi Haifa (Isr),Apollon (Cyp),4,0,0,g_1_zFEL6B73,1.41,4.81,8.65,0.0,0.0
+football,Champions League 2022 2023,Round 1,04/08/,Bodo/Glimt (Nor),Zalgiris (Ltu),5,0,0,g_1_4S1c3jir,1.33,5.1,7.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,04/08/,Qarabag (Aze),Ferencvaros (Hun),1,1,1,g_1_rHyiW0rq,2.15,3.09,2.94,0.0,0.0
+football,Champions League 2022 2023,Round 1,03/08/,Benfica (Por),Midtjylland (Den),4,1,0,g_1_j9Bb8F2c,1.32,6.16,9.12,0.0,0.0
+football,Champions League 2022 2023,Round 1,03/08/,Royale Union SG (Bel),Rangers (Sco),2,0,0,g_1_OWGWtpgP,3.15,3.29,2.44,0.0,0.0
+football,Champions League 2022 2023,Round 1,03/08/,Monaco (Fra),PSV (Ned),1,1,1,g_1_dQOpJt1I,2.12,3.73,3.42,0.0,0.0
+football,Champions League 2022 2023,Round 1,03/08/,Ludogorets (Bul),Din. Zagreb (Cro),1,2,2,g_1_IwGVcghi,2.96,3.2,2.62,0.0,0.0
+football,Champions League 2022 2023,Round 1,03/08/,Sheriff Tiraspol (Mda),Plzen (Cze),1,2,2,g_1_OUsKuUMG,4.13,3.07,2.16,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Olympiacos Piraeus (Gre),Maccabi Haifa (Isr)Advancing to next round,0,4,2,g_1_02D9NyMq,1.86,3.44,4.22,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Slovan Bratislava (Svk),Ferencvaros (Hun)Advancing to next round,1,4,2,g_1_UTuxPZGa,2.86,3.36,2.17,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Fenerbahce (Tur),Dyn. Kyiv (Ukr)Advancing to next round,1,2,2,g_1_px8vTcbM,1.78,3.22,3.92,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Malmo FF (Swe),Zalgiris (Ltu)Advancing to next round,0,2,2,g_1_OfiI7NIG,1.29,5.05,8.8,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Zurich (Sui),Qarabag (Aze)Advancing to next round,2,2,1,g_1_KArhtbKd,2.02,3.4,2.98,0.0,0.0
+football,Champions League 2022 2023,Round 1,28/07/,Bodo/Glimt (Nor)Advancing to next round,Linfield (Nir),8,0,0,g_1_C0cEztZf,1.09,9.2,24.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,Shamrock Rovers (Irl),Ludogorets (Bul)Advancing to next round,2,1,0,g_1_8nJDijBL,3.12,3.09,2.11,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,Shkupi (Mkd),Din. Zagreb (Cro)Advancing to next round,0,1,2,g_1_hOt0vxk9,8.0,4.84,1.36,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,Dudelange (Lux),Pyunik Yerevan (Arm)Advancing to next round,1,4,2,g_1_GY35x24r,2.17,2.93,3.07,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,Plzen (Cze)Advancing to next round,HJK (Fin),5,0,0,g_1_fNNQKaB2,1.43,4.2,6.55,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,Sheriff Tiraspol (Mda)Advancing to next round,Maribor (Slo),1,0,0,g_1_Kp7Pu4uI,1.51,3.62,6.25,0.0,0.0
+football,Champions League 2022 2023,Round 1,27/07/,AEK Larnaca (Cyp),Midtjylland (Den)Advancing to next round,1,2,2,g_1_MH1ILFjd,4.54,3.38,1.67,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/07/,Maribor (Slo),Sheriff Tiraspol (Mda),0,0,1,g_1_tf8LtpQB,2.58,2.76,2.54,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/07/,Dyn. Kyiv (Ukr),Fenerbahce (Tur),0,0,1,g_1_6o9zUwqG,2.49,3.18,2.35,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/07/,Ferencvaros (Hun),Slovan Bratislava (Svk),1,2,2,g_1_GQyYPF1g,1.42,4.4,7.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/07/,Maccabi Haifa (Isr),Olympiacos Piraeus (Gre),1,1,1,g_1_va7rSHDS,2.79,2.87,2.41,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/07/,HJK (Fin),Plzen (Cze),1,2,2,g_1_tKZrdGY1,3.66,3.14,1.86,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Din. Zagreb (Cro),Shkupi (Mkd),2,2,1,g_1_b1sduIZ2,1.06,10.5,34.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Linfield (Nir),Bodo/Glimt (Nor),1,0,0,g_1_fP29yMJl,6.55,4.54,1.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Ludogorets (Bul),Shamrock Rovers (Irl),3,0,0,g_1_UeK9hWeF,1.44,3.92,7.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Midtjylland (Den),AEK Larnaca (Cyp),1,1,1,g_1_rR2EMeyj,1.25,5.5,9.7,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Pyunik Yerevan (Arm),Dudelange (Lux),0,1,2,g_1_bgHwsrdR,2.09,2.98,3.96,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Qarabag (Aze),Zurich (Sui),3,2,0,g_1_IkjJX5Gd,1.98,3.09,3.24,0.0,0.0
+football,Champions League 2022 2023,Round 1,20/07/,Zalgiris (Ltu),Malmo FF (Swe),1,0,0,g_1_p4hE833A,5.2,3.74,1.57,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,Linfield (Nir)Advancing to next round,TNS (Wal),2,0,0,g_1_v9APGZKh,2.44,3.08,2.8,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,CFR Cluj (Rou),Pyunik Yerevan (Arm)Advancing to next round,2,3,2,g_1_6eCHIejt,0.0,0.0,0.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,Ferencvaros (Hun)Advancing to next round,Tobol (Kaz),5,1,0,g_1_bk3hIRv0,1.26,5.1,10.5,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,Dinamo Batumi (Geo),Slovan Bratislava (Svk)Advancing to next round,1,2,2,g_1_fcMaIndc,2.15,2.93,3.15,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,Klaksvik (Fai),Bodo/Glimt (Nor)Advancing to next round,3,1,0,g_1_r17tDiKH,5.0,4.26,1.51,0.0,0.0
+football,Champions League 2022 2023,Round 1,14/07/,Shakhtyor Soligorsk (Blr),Maribor (Slo)Advancing to next round,0,2,2,g_1_2kKEfq4j,2.63,2.76,2.66,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Vikingur Reykjavik (Ice),Malmo FF (Swe)Advancing to next round,3,3,1,g_1_KUGhGM4E,4.5,4.22,1.56,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Sutjeska (Mne),Ludogorets (Bul)Advancing to next round,0,1,2,g_1_SUf9EqvP,6.45,4.08,1.45,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Hibernians (Mlt),Shamrock Rovers (Irl)Advancing to next round,0,0,1,g_1_zy4YEDk5,4.58,3.64,1.67,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,KF Tirana (Alb),Dudelange (Lux)Advancing to next round,1,2,2,g_1_rNfm9rJq,1.75,3.36,4.4,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Sheriff Tiraspol (Mda)Advancing to next round,Zrinjski (Bih),1,0,0,g_1_jPapKmAm,1.62,3.26,5.7,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Lincoln Red Imps (Gib),Shkupi (Mkd)Advancing to next round,2,0,0,g_1_lKce7Mmd,3.18,3.36,2.07,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Qarabag (Aze)Advancing to next round,Lech Poznan (Pol),5,1,0,g_1_jPF8GQQ9,1.8,3.3,4.04,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,Zalgiris (Ltu)Advancing to next round,FC Ballkani (Kos),1,0,0,g_1_OxEGE4eM,1.98,3.03,3.64,0.0,0.0
+football,Champions League 2022 2023,Round 1,13/07/,RFS (Lat),HJK (Fin)Advancing to next round,2,2,1,g_1_K4i1G59C,2.34,2.87,2.88,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,Slovan Bratislava (Svk),Dinamo Batumi (Geo),0,0,1,g_1_G6NeJSti,1.66,3.68,4.56,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,Maribor (Slo),Shakhtyor Soligorsk (Blr),0,0,1,g_1_ObLAePlp,1.99,3.02,3.62,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,Zrinjski (Bih),Sheriff Tiraspol (Mda),0,0,1,g_1_CY0tLTfs,3.46,2.94,2.09,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,Dudelange (Lux),KF Tirana (Alb),1,0,0,g_1_tE8LDOAS,2.6,3.15,2.6,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,Bodo/Glimt (Nor),Klaksvik (Fai),3,0,0,g_1_Uc3xEX4B,1.16,7.2,12.5,0.0,0.0
+football,Champions League 2022 2023,Round 1,07/07/,HJK (Fin),RFS (Lat),1,0,0,g_1_tEhcHof6,1.92,3.46,3.9,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Tobol (Kaz),Ferencvaros (Hun),0,0,1,g_1_pnalJ7Pg,4.68,3.78,1.7,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Shkupi (Mkd),Lincoln Red Imps (Gib),3,0,0,g_1_xpfi82Yk,1.42,4.38,6.45,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Shamrock Rovers (Irl),Hibernians (Mlt),3,0,0,g_1_dp5UFgza,1.26,5.3,9.6,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,FC Ballkani (Kos),Zalgiris (Ltu),1,1,1,g_1_pnFCFptG,3.08,3.12,2.17,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Lech Poznan (Pol),Qarabag (Aze),1,0,0,g_1_xMB4H6B3,1.91,3.16,3.38,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,TNS (Wal),Linfield (Nir),1,0,0,g_1_0IBLHF5n,1.79,3.36,3.74,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Ludogorets (Bul),Sutjeska (Mne),2,0,0,g_1_lvd5FPOI,1.14,7.2,17.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Malmo FF (Swe),Vikingur Reykjavik (Ice),3,2,0,g_1_tvIlH2k8,1.22,5.85,11.0,0.0,0.0
+football,Champions League 2022 2023,Round 1,06/07/,Pyunik Yerevan (Arm),CFR Cluj (Rou),0,0,1,g_1_W2LkNyrP,7.5,3.92,1.42,0.0,0.0
+football,Champions League 2022 2023,Round 1,25/06/,Inter Escaldes (And),Vikingur Reykjavik (Ice)Winner,0,1,2,g_1_zyOfmy1K,18.0,7.8,1.12,0.0,0.0
+football,Champions League 2022 2023,Round 1,22/06/,Levadia (Est),Vikingur Reykjavik (Ice)Advancing to next round,1,6,2,g_1_dnn3Vp0n,2.81,3.18,2.15,0.0,0.0
+football,Champions League 2022 2023,Round 1,21/06/,La Fiorita (San),Inter Escaldes (And)Advancing to next round,1,2,2,g_1_ILGhBsFU,7.8,4.1,1.44,0.0,0.0

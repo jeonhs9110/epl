@@ -1,0 +1,381 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Laliga 2022 2023,Round 38,05/06/,Betis,Valencia,1,1,1,g_1_lx5qBKi8,2.78,3.39,2.66,0.61,1.28
+football,Laliga 2022 2023,Round 38,05/06/,Celta Vigo,Barcelona,2,1,0,g_1_KQrS2dal,0.0,0.0,0.0,0.53,1.28
+football,Laliga 2022 2023,Round 38,05/06/,Elche,Cadiz CF,1,1,1,g_1_vTbT0zU0,2.66,3.39,2.78,1.28,2.28
+football,Laliga 2022 2023,Round 38,05/06/,Espanyol,Almeria,3,3,1,g_1_YkbXafq7,2.44,3.81,2.79,0.64,1.95
+football,Laliga 2022 2023,Round 38,05/06/,Valladolid,Getafe,0,0,1,g_1_0x0P1GEf,2.0,3.33,4.34,0.86,0.42
+football,Laliga 2022 2023,Round 38,05/06/,Mallorca,Rayo Vallecano,3,0,0,g_1_SS3mAv7E,3.26,3.27,2.39,1.49,1.26
+football,Laliga 2022 2023,Round 38,05/06/,Osasuna,Girona,2,1,0,g_1_ng2yaEbD,2.06,3.75,3.6,2.23,1.06
+football,Laliga 2022 2023,Round 38,05/06/,Real Madrid,Ath Bilbao,1,1,1,g_1_Ofcd8IyR,1.66,4.14,5.34,1.64,2.18
+football,Laliga 2022 2023,Round 38,05/06/,Real Sociedad,Sevilla,2,1,0,g_1_Aigh9bMK,1.65,4.11,5.53,2.44,0.45
+football,Laliga 2022 2023,Round 38,05/06/,Villarreal,Atl. Madrid,2,2,1,g_1_tzpO3xpr,2.86,3.84,2.38,1.58,1.71
+football,Laliga 2022 2023,Round 37,29/05/,Almeria,Valladolid,0,0,1,g_1_SWJlkwVl,2.26,3.5,3.46,1.55,0.45
+football,Laliga 2022 2023,Round 37,29/05/,Ath Bilbao,Elche,0,1,2,g_1_S8y2bs82,1.44,5.2,7.9,2.49,0.65
+football,Laliga 2022 2023,Round 37,29/05/,Atl. Madrid,Real Sociedad,2,1,0,g_1_tCu6c1N8,2.33,3.16,3.7,0.74,1.19
+football,Laliga 2022 2023,Round 37,29/05/,Barcelona,Mallorca,3,0,0,g_1_zZvAdLxF,1.28,6.85,11.5,3.63,0.09
+football,Laliga 2022 2023,Round 37,29/05/,Cadiz CF,Celta Vigo,1,0,0,g_1_W0YIfa7R,2.62,3.07,3.24,1.88,0.62
+football,Laliga 2022 2023,Round 37,29/05/,Getafe,Osasuna,2,1,0,g_1_EPwEeuhL,2.57,2.85,3.64,2.33,0.71
+football,Laliga 2022 2023,Round 37,29/05/,Girona,Betis,1,2,2,g_1_v7Nhlcpe,2.0,3.76,4.0,1.19,2.23
+football,Laliga 2022 2023,Round 37,29/05/,Rayo Vallecano,Villarreal,2,1,0,g_1_Y9KpjJFr,3.22,3.88,2.23,1.17,0.47
+football,Laliga 2022 2023,Round 37,29/05/,Valencia,Espanyol,2,2,1,g_1_MVCcmHa1,2.12,3.64,3.7,2.35,0.75
+football,Laliga 2022 2023,Round 37,28/05/,Sevilla,Real Madrid,1,2,2,g_1_0MB1nyF7,3.44,3.57,2.17,1.03,0.6
+football,Laliga 2022 2023,Round 36,26/05/,Osasuna,Ath Bilbao,2,0,0,g_1_KpTZf81A,3.48,3.29,2.28,0.68,0.64
+football,Laliga 2022 2023,Round 36,26/05/,Mallorca,Valencia,1,0,0,g_1_QNTVeln4,3.05,3.05,2.67,0.44,2.26
+football,Laliga 2022 2023,Round 36,25/05/,Betis,Getafe,0,1,2,g_1_j5yJbj2o,2.33,3.13,3.76,1.22,0.53
+football,Laliga 2022 2023,Round 36,25/05/,Espanyol,Atl. Madrid,3,3,1,g_1_YmXwfSGG,3.41,3.58,2.18,3.65,2.67
+football,Laliga 2022 2023,Round 36,25/05/,Elche,Sevilla,1,1,1,g_1_nXURdUWc,3.67,3.58,2.09,1.39,0.77
+football,Laliga 2022 2023,Round 36,25/05/,Real Madrid,Rayo Vallecano,2,1,0,g_1_nDbFzvGe,1.38,5.26,8.39,1.16,0.53
+football,Laliga 2022 2023,Round 36,25/05/,Villarreal,Cadiz CF,2,0,0,g_1_hxpCyK0k,1.5,4.92,6.21,1.81,1.99
+football,Laliga 2022 2023,Round 36,24/05/,Valladolid,Barcelona,3,1,0,g_1_Eoo8x0oq,4.1,3.85,1.9,2.5,1.5
+football,Laliga 2022 2023,Round 36,24/05/,Celta Vigo,Girona,1,1,1,g_1_UezNcAHi,2.23,3.46,3.42,1.23,1.21
+football,Laliga 2022 2023,Round 36,24/05/,Real Sociedad,Almeria,1,0,0,g_1_Q3cJZcV1,1.4,5.13,8.21,2.02,0.1
+football,Laliga 2022 2023,Round 35,22/05/,Sevilla,Betis,0,0,1,g_1_tf80t9nH,0.0,0.0,0.0,1.05,0.11
+football,Laliga 2022 2023,Round 35,22/05/,Valencia,Real Madrid,1,0,0,g_1_x2myz7Pp,3.67,3.57,2.09,1.08,1.57
+football,Laliga 2022 2023,Round 35,21/05/,Atl. Madrid,Osasuna,3,0,0,g_1_ruCuoXXo,1.5,4.55,6.99,1.92,0.67
+football,Laliga 2022 2023,Round 35,21/05/,Rayo Vallecano,Espanyol,1,2,2,g_1_29d9vmHT,1.82,3.72,4.76,1.66,1.41
+football,Laliga 2022 2023,Round 35,21/05/,Barcelona,Real Sociedad,1,2,2,g_1_x2Bqpimh,1.7,3.84,5.56,1.61,1.69
+football,Laliga 2022 2023,Round 35,21/05/,Almeria,Mallorca,3,0,0,g_1_YT4hrVH4,2.4,3.33,3.19,1.38,0.69
+football,Laliga 2022 2023,Round 35,21/05/,Getafe,Elche,1,1,1,g_1_Kp74uT1N,1.7,3.59,6.16,1.36,1.56
+football,Laliga 2022 2023,Round 35,20/05/,Ath Bilbao,Celta Vigo,2,1,0,g_1_4lDynDIu,1.68,3.87,5.61,0.75,0.5
+football,Laliga 2022 2023,Round 35,20/05/,Girona,Villarreal,1,2,2,g_1_CK3dskXA,2.56,3.89,2.61,1.59,2.1
+football,Laliga 2022 2023,Round 35,20/05/,Cadiz CF,Valladolid,2,0,0,g_1_j5FmqB2b,2.23,3.58,3.29,2.11,0.58
+football,Laliga 2022 2023,Round 34,16/05/,Betis,Rayo Vallecano,3,1,0,g_1_KnrtgREP,2.05,3.52,3.86,1.42,1.24
+football,Laliga 2022 2023,Round 34,15/05/,Espanyol,Barcelona,2,4,2,g_1_WvsKoq7a,0.0,0.0,0.0,2.5,2.64
+football,Laliga 2022 2023,Round 34,15/05/,Valladolid,Sevilla,0,3,2,g_1_6cZWrsiI,2.66,3.46,2.74,1.67,2.98
+football,Laliga 2022 2023,Round 34,14/05/,Elche,Atl. Madrid,1,0,0,g_1_25xGnPig,7.75,4.94,1.43,1.31,1.68
+football,Laliga 2022 2023,Round 34,14/05/,Celta Vigo,Valencia,1,2,2,g_1_tjl7loNt,2.4,3.45,3.08,0.69,1.16
+football,Laliga 2022 2023,Round 34,14/05/,Real Madrid,Getafe,1,0,0,g_1_AVuOp3M5,1.6,4.12,6.18,0.86,0.62
+football,Laliga 2022 2023,Round 34,14/05/,Villarreal,Ath Bilbao,5,1,0,g_1_OEwCm5xm,2.05,3.82,3.56,2.56,1.86
+football,Laliga 2022 2023,Round 34,13/05/,Osasuna,Almeria,3,1,0,g_1_0KYzr16O,1.9,3.67,4.34,1.56,0.51
+football,Laliga 2022 2023,Round 34,13/05/,Real Sociedad,Girona,2,2,1,g_1_vBXvsLLU,1.64,3.96,6.55,2.23,1.18
+football,Laliga 2022 2023,Round 34,13/05/,Mallorca,Cadiz CF,1,0,0,g_1_hfVSqNyC,2.27,3.04,4.06,1.14,0.95
+football,Laliga 2022 2023,Round 33,05/05/,Ath Bilbao,Betis,0,1,2,g_1_hCObtlVJ,1.68,4.08,5.24,1.59,1.2
+football,Laliga 2022 2023,Round 33,05/05/,Rayo Vallecano,Valladolid,2,1,0,g_1_O0bwZ5Ng,1.9,3.83,4.13,1.44,0.73
+football,Laliga 2022 2023,Round 33,05/05/,Girona,Mallorca,2,1,0,g_1_WQ1oXqh6,1.91,3.29,4.92,1.5,1.21
+football,Laliga 2022 2023,Round 33,05/05/,Sevilla,Espanyol,3,2,0,g_1_ShefVNMI,1.81,3.86,4.6,2.07,0.95
+football,Laliga 2022 2023,Round 33,04/05/,Atl. Madrid,Cadiz CF,5,1,0,g_1_W2N2u8pQ,1.33,5.61,10.2,3.26,0.04
+football,Laliga 2022 2023,Round 33,04/05/,Getafe,Celta Vigo,1,0,0,g_1_AH0kW37C,2.85,2.95,2.93,2.93,0.27
+football,Laliga 2022 2023,Round 33,04/05/,Valencia,Villarreal,1,1,1,g_1_tx9YZo8m,2.69,3.46,2.81,1.14,0.66
+football,Laliga 2022 2023,Round 33,03/05/,Real Sociedad,Real Madrid,2,0,0,g_1_6qfbUsxP,2.57,3.29,2.97,2.04,0.65
+football,Laliga 2022 2023,Round 33,03/05/,Almeria,Elche,2,1,0,g_1_x42sYPx0,1.81,4.08,4.33,1.59,0.89
+football,Laliga 2022 2023,Round 33,03/05/,Barcelona,Osasuna,1,0,0,g_1_2oAUzShs,1.19,7.88,15.6,3.29,0.41
+football,Laliga 2022 2023,Round 32,02/05/,Sevilla,Girona,0,2,2,g_1_j7pGH4hJ,1.87,3.56,4.64,2.28,0.88
+football,Laliga 2022 2023,Round 32,02/05/,Mallorca,Ath Bilbao,1,1,1,g_1_nFmaLngf,3.54,2.86,2.51,1.18,0.92
+football,Laliga 2022 2023,Round 32,01/05/,Valladolid,Atl. Madrid,2,5,2,g_1_4jr4K680,5.32,3.91,1.7,1.97,2.03
+football,Laliga 2022 2023,Round 32,01/05/,Espanyol,Getafe,1,0,0,g_1_E1kiN8Os,2.42,3.0,3.52,2.69,0.56
+football,Laliga 2022 2023,Round 32,30/04/,Villarreal,Celta Vigo,3,1,0,g_1_rss8JQN6,1.63,4.07,5.85,2.52,0.88
+football,Laliga 2022 2023,Round 32,30/04/,Cadiz CF,Valencia,2,1,0,g_1_4hNNvyfF,3.38,2.94,2.54,1.52,1.44
+football,Laliga 2022 2023,Round 32,30/04/,Barcelona,Betis,4,0,0,g_1_rwZEtcP2,1.39,5.1,8.66,2.92,0.18
+football,Laliga 2022 2023,Round 32,30/04/,Real Madrid,Almeria,4,2,0,g_1_x4tCIpwD,1.14,9.71,18.8,2.83,1.26
+football,Laliga 2022 2023,Round 32,29/04/,Elche,Rayo Vallecano,4,0,0,g_1_MTXIuHv9,4.39,3.37,1.98,3.13,0.98
+football,Laliga 2022 2023,Round 32,29/04/,Osasuna,Real Sociedad,0,2,2,g_1_8OleMSwl,3.9,3.06,2.31,1.25,1.22
+football,Laliga 2022 2023,Round 31,28/04/,Ath Bilbao,Sevilla,0,1,2,g_1_AeTuUJuc,1.84,3.8,4.76,0.33,1.09
+football,Laliga 2022 2023,Round 31,28/04/,Valencia,Valladolid,2,1,0,g_1_2P0hPefS,1.75,4.02,5.1,0.94,0.88
+football,Laliga 2022 2023,Round 31,28/04/,Villarreal,Espanyol,4,2,0,g_1_GWtTIgXe,1.58,4.54,6.1,4.55,0.86
+football,Laliga 2022 2023,Round 31,27/04/,Celta Vigo,Elche,1,0,0,g_1_dCViRHPF,1.38,5.3,9.4,1.21,1.22
+football,Laliga 2022 2023,Round 31,27/04/,Rayo Vallecano,Barcelona,2,1,0,g_1_Y7iOJZHk,5.1,4.0,1.75,0.81,0.97
+football,Laliga 2022 2023,Round 31,27/04/,Atl. Madrid,Mallorca,3,1,0,g_1_ObXqTwe3,1.38,4.92,11.0,2.69,0.97
+football,Laliga 2022 2023,Round 31,27/04/,Getafe,Almeria,1,2,2,g_1_fNuXHDn2,1.86,3.68,4.8,1.66,1.79
+football,Laliga 2022 2023,Round 31,26/04/,Betis,Real Sociedad,0,0,1,g_1_ILWmScA9,2.86,3.26,2.68,0.92,1.02
+football,Laliga 2022 2023,Round 31,26/04/,Cadiz CF,Osasuna,0,1,2,g_1_OY1lQyuM,2.17,3.26,3.81,1.35,1.06
+football,Laliga 2022 2023,Round 31,26/04/,Girona,Real Madrid,4,2,0,g_1_K4mKKF2q,5.83,4.29,1.6,2.35,2.05
+football,Laliga 2022 2023,Round 30,24/04/,Sevilla,Villarreal,2,1,0,g_1_ETD1G0Bc,2.78,3.49,2.59,0.89,2.31
+football,Laliga 2022 2023,Round 30,24/04/,Mallorca,Getafe,3,1,0,g_1_bHaNBxQS,2.57,2.69,3.7,1.64,0.11
+football,Laliga 2022 2023,Round 30,23/04/,Barcelona,Atl. Madrid,1,0,0,g_1_Ae7AEvtA,1.97,3.41,4.34,2.33,1.37
+football,Laliga 2022 2023,Round 30,23/04/,Elche,Valencia,0,2,2,g_1_zwFcHtdi,4.58,3.69,1.85,0.68,0.82
+football,Laliga 2022 2023,Round 30,23/04/,Real Madrid,Celta Vigo,2,0,0,g_1_GhAICIAM,1.26,6.49,11.5,1.76,0.91
+football,Laliga 2022 2023,Round 30,23/04/,Real Sociedad,Rayo Vallecano,2,1,0,g_1_Uajg6Gmj,1.7,3.69,5.9,0.59,0.53
+football,Laliga 2022 2023,Round 30,23/04/,Valladolid,Girona,1,0,0,g_1_8jkc5z3d,2.7,3.47,2.7,1.09,0.96
+football,Laliga 2022 2023,Round 30,22/04/,Almeria,Ath Bilbao,1,2,2,g_1_W486FKQ3,4.98,4.16,1.7,0.87,1.79
+football,Laliga 2022 2023,Round 30,22/04/,Osasuna,Betis,3,2,0,g_1_4I6EDbeG,2.57,3.18,3.06,1.47,2.39
+football,Laliga 2022 2023,Round 30,22/04/,Espanyol,Cadiz CF,0,0,1,g_1_0Qok7dYq,2.14,3.21,3.96,1.24,1.53
+football,Laliga 2022 2023,Round 29,18/04/,Celta Vigo,Mallorca,0,1,2,g_1_tGgO2ssb,1.85,3.41,5.12,0.96,1.23
+football,Laliga 2022 2023,Round 29,17/04/,Valencia,Sevilla,0,2,2,g_1_8WMBgw4p,2.19,3.5,3.46,0.42,0.39
+football,Laliga 2022 2023,Round 29,17/04/,Atl. Madrid,Almeria,2,1,0,g_1_MZQFhcJj,1.23,7.58,11.8,2.59,0.14
+football,Laliga 2022 2023,Round 29,16/04/,Getafe,Barcelona,0,0,1,g_1_GYoy0uRG,5.91,3.69,1.7,0.31,1.61
+football,Laliga 2022 2023,Round 29,16/04/,Girona,Elche,2,0,0,g_1_ObouaatN,1.47,5.02,6.63,1.35,0.82
+football,Laliga 2022 2023,Round 29,16/04/,Cadiz CF,Real Madrid,0,2,2,g_1_fJcS11d4,6.64,4.28,1.55,0.83,3.42
+football,Laliga 2022 2023,Round 29,16/04/,Betis,Espanyol,3,1,0,g_1_ngfK3NRi,2.01,3.38,4.22,2.17,0.67
+football,Laliga 2022 2023,Round 29,15/04/,Ath Bilbao,Real Sociedad,2,0,0,g_1_82eG43Co,2.28,3.17,3.62,0.77,1.36
+football,Laliga 2022 2023,Round 29,15/04/,Villarreal,Valladolid,1,2,2,g_1_xrmX0LBA,1.48,4.92,6.6,2.29,1.99
+football,Laliga 2022 2023,Round 29,15/04/,Rayo Vallecano,Osasuna,2,1,0,g_1_2kpqbJeT,2.04,3.26,4.28,0.95,0.41
+football,Laliga 2022 2023,Round 28,11/04/,Barcelona,Girona,0,0,1,g_1_CMMYiQSu,1.34,5.36,9.98,1.35,0.51
+football,Laliga 2022 2023,Round 28,10/04/,Rayo Vallecano,Atl. Madrid,1,2,2,g_1_f5Igm2sB,4.95,3.69,1.79,0.84,2.06
+football,Laliga 2022 2023,Round 28,10/04/,Almeria,Valencia,2,1,0,g_1_nuFokOCb,3.65,3.4,2.16,1.46,1.41
+football,Laliga 2022 2023,Round 28,09/04/,Betis2,Cadiz CF,0,2,2,g_1_QPQxiprn,1.67,3.7,6.14,1.31,3.26
+football,Laliga 2022 2023,Round 28,09/04/,Valladolid,Mallorca,3,3,1,g_1_UyQ5p0RT,2.55,2.86,3.47,1.14,2.04
+football,Laliga 2022 2023,Round 28,09/04/,Real Madrid,Villarreal,2,3,2,g_1_8lGsj4ch,1.46,5.12,6.61,2.79,1.77
+football,Laliga 2022 2023,Round 28,09/04/,Real Sociedad,Getafe,2,0,0,g_1_WpCXuKZp,1.76,3.36,6.1,2.57,0.31
+football,Laliga 2022 2023,Round 28,08/04/,Espanyol,Ath Bilbao,1,2,2,g_1_GEJklrS4,4.33,3.26,2.03,0.95,2.55
+football,Laliga 2022 2023,Round 28,08/04/,Osasuna,Elche,2,1,0,g_1_zFQ1otCN,1.8,3.74,5.15,1.18,0.73
+football,Laliga 2022 2023,Round 28,08/04/,Sevilla2,Celta Vigo,2,2,1,g_1_xU7bnMdH,2.31,3.36,3.48,0.39,0.47
+football,Laliga 2022 2023,Round 27,04/04/,Valencia,Rayo Vallecano,1,1,1,g_1_MgBNp9LC,2.02,3.34,4.24,2.53,0.94
+football,Laliga 2022 2023,Round 27,03/04/,Atl. Madrid,Betis,1,0,0,g_1_tKBwegqK,1.42,4.73,8.85,1.79,0.62
+football,Laliga 2022 2023,Round 27,03/04/,Villarreal,Real Sociedad,2,0,0,g_1_trfQok66,2.46,3.15,3.25,2.92,0.92
+football,Laliga 2022 2023,Round 27,02/04/,Real Madrid,Valladolid,6,0,0,g_1_fRiEliMm,1.19,8.43,13.4,5.38,0.93
+football,Laliga 2022 2023,Round 27,02/04/,Celta Vigo,Almeria,2,2,1,g_1_0pARqTzJ,1.53,4.42,6.63,1.85,1.07
+football,Laliga 2022 2023,Round 27,02/04/,Elche,Barcelona,0,4,2,g_1_8UeImByf,11.1,5.46,1.32,0.68,1.77
+football,Laliga 2022 2023,Round 27,02/04/,Cadiz CF,Sevilla,0,2,2,g_1_C229kX6s,3.73,3.16,2.24,1.18,1.23
+football,Laliga 2022 2023,Round 27,01/04/,Ath Bilbao,Getafe,0,0,1,g_1_2TCZeZTD,1.78,3.56,5.75,1.08,1.13
+football,Laliga 2022 2023,Round 27,01/04/,Girona,Espanyol,2,1,0,g_1_2ieMnVj0,1.94,3.56,4.27,1.77,1.09
+football,Laliga 2022 2023,Round 27,01/04/,Mallorca,Osasuna,0,0,1,g_1_AgGsfDbQ,2.23,2.96,4.08,0.49,0.49
+football,Laliga 2022 2023,Round 26,20/03/,Barcelona,Real Madrid,2,1,0,g_1_61cerGaE,2.44,3.49,3.0,1.75,0.62
+football,Laliga 2022 2023,Round 26,20/03/,Getafe,Sevilla,2,0,0,g_1_2Tj4tfUQ,2.89,3.19,2.7,1.99,1.07
+football,Laliga 2022 2023,Round 26,20/03/,Osasuna,Villarreal,0,3,2,g_1_K8wWyExr,3.08,3.18,2.56,1.21,1.86
+football,Laliga 2022 2023,Round 26,20/03/,Real Sociedad,Elche,2,0,0,g_1_llVnYVy7,1.41,4.57,9.73,2.56,0.12
+football,Laliga 2022 2023,Round 26,19/03/,Betis,Mallorca,1,0,0,g_1_lQn0szFK,1.95,3.14,5.01,0.86,0.19
+football,Laliga 2022 2023,Round 26,19/03/,Atl. Madrid,Valencia,3,0,0,g_1_SAbiqdp8,1.5,4.27,7.65,2.41,1.03
+football,Laliga 2022 2023,Round 26,19/03/,Espanyol,Celta Vigo,1,3,2,g_1_fRVrZBM0,3.25,3.05,2.54,1.45,1.72
+football,Laliga 2022 2023,Round 26,19/03/,Rayo Vallecano,Girona,2,2,1,g_1_0OYjXkiD,2.01,3.42,4.18,1.67,1.53
+football,Laliga 2022 2023,Round 26,18/03/,Almeria,Cadiz CF,1,1,1,g_1_baxzyYil,2.11,3.48,3.9,2.3,1.34
+football,Laliga 2022 2023,Round 26,18/03/,Valladolid,Ath Bilbao,1,3,2,g_1_GzXvzh7f,4.37,3.6,1.91,1.21,2.82
+football,Laliga 2022 2023,Round 25,14/03/,Girona,Atl. Madrid,0,1,2,g_1_pE3gOf8r,4.11,3.5,1.99,0.36,2.26
+football,Laliga 2022 2023,Round 25,13/03/,Ath Bilbao,Barcelona,0,1,2,g_1_ttLAWI02,3.98,3.38,2.07,0.94,0.95
+football,Laliga 2022 2023,Round 25,13/03/,Villarreal,Betis,1,1,1,g_1_vy3cNENl,1.73,4.1,4.79,1.88,1.12
+football,Laliga 2022 2023,Round 25,13/03/,Sevilla,Almeria,2,1,0,g_1_EgeAKC77,1.61,4.27,5.68,3.51,1.32
+football,Laliga 2022 2023,Round 25,12/03/,Mallorca,Real Sociedad,1,1,1,g_1_QTMMTGpL,3.95,2.86,2.34,1.55,0.62
+football,Laliga 2022 2023,Round 25,12/03/,Valencia,Osasuna,1,0,0,g_1_z3d6Lhh1,2.04,3.26,4.28,1.69,0.29
+football,Laliga 2022 2023,Round 25,12/03/,Celta Vigo,Rayo Vallecano,3,0,0,g_1_hGOEVxG8,2.1,3.38,3.88,2.18,1.17
+football,Laliga 2022 2023,Round 25,12/03/,Elche,Valladolid2,1,1,1,g_1_nwOIUdVE,2.58,3.36,2.89,2.07,0.26
+football,Laliga 2022 2023,Round 25,11/03/,Real Madrid,Espanyol,3,1,0,g_1_hv71MYxe,1.28,6.3,13.5,1.75,1.25
+football,Laliga 2022 2023,Round 25,11/03/,Cadiz CF,Getafe,2,2,1,g_1_r5HRSz0R,2.57,2.92,3.52,1.63,3.02
+football,Laliga 2022 2023,Round 24,07/03/,Osasuna,Celta Vigo,0,0,1,g_1_jihIQSCq,2.5,3.17,3.17,0.55,0.25
+football,Laliga 2022 2023,Round 24,06/03/,Betis,Real Madrid,0,0,1,g_1_bgDwYAK9,5.32,3.91,1.7,0.45,1.32
+football,Laliga 2022 2023,Round 24,06/03/,Rayo Vallecano,Ath Bilbao,0,0,1,g_1_pAFkV84S,2.98,3.16,2.64,1.23,1.49
+football,Laliga 2022 2023,Round 24,06/03/,Barcelona,Valencia,1,0,0,g_1_IsdtZj53,1.35,5.41,9.32,2.08,0.85
+football,Laliga 2022 2023,Round 24,05/03/,Valladolid,Espanyol,2,1,0,g_1_x8fUNQd2,2.31,3.34,3.34,1.73,1.28
+football,Laliga 2022 2023,Round 24,05/03/,Atl. Madrid,Sevilla,6,1,0,g_1_vicxzXkc,1.64,3.89,6.14,3.44,1.61
+football,Laliga 2022 2023,Round 24,05/03/,Mallorca,Elche,0,1,2,g_1_UsiMPnSk,1.71,3.5,6.17,0.94,0.95
+football,Laliga 2022 2023,Round 24,05/03/,Almeria,Villarreal,0,2,2,g_1_W6BoWlkM,3.32,3.72,2.24,0.54,2.25
+football,Laliga 2022 2023,Round 24,04/03/,Getafe,Girona,3,2,0,g_1_xpCsXUZF,2.82,3.05,2.88,1.64,0.87
+football,Laliga 2022 2023,Round 24,04/03/,Real Sociedad,Cadiz CF,0,0,1,g_1_bHeQO6sd,1.58,3.9,7.19,1.17,0.59
+football,Laliga 2022 2023,Round 23,28/02/,Villarreal,Getafe,2,1,0,g_1_ULFoD9rp,1.73,3.56,5.84,1.72,0.64
+football,Laliga 2022 2023,Round 23,27/02/,Sevilla,Osasuna,2,3,2,g_1_Cp5jCTcj,1.74,3.69,5.38,2.31,1.13
+football,Laliga 2022 2023,Round 23,27/02/,Almeria,Barcelona,1,0,0,g_1_pWlAWcq5,7.32,4.87,1.45,1.04,1.19
+football,Laliga 2022 2023,Round 23,27/02/,Celta Vigo,Valladolid,3,0,0,g_1_AasbZaan,1.72,4.04,5.0,1.91,0.69
+football,Laliga 2022 2023,Round 23,26/02/,Ath Bilbao,Girona,2,3,2,g_1_W8rfztpt,1.62,4.08,5.96,1.78,1.38
+football,Laliga 2022 2023,Round 23,26/02/,Valencia,Real Sociedad,1,0,0,g_1_Qm9fBmDd,3.56,3.18,2.3,0.48,0.76
+football,Laliga 2022 2023,Round 23,26/02/,Real Madrid,Atl. Madrid,1,1,1,g_1_OMmEVHbB,1.77,3.64,5.23,1.79,0.32
+football,Laliga 2022 2023,Round 23,26/02/,Cadiz CF,Rayo Vallecano,1,0,0,g_1_4Mt2YJEh,3.25,2.95,2.61,0.73,0.75
+football,Laliga 2022 2023,Round 23,25/02/,Espanyol,Mallorca,2,1,0,g_1_27a5XwUb,2.61,2.86,3.37,1.39,0.75
+football,Laliga 2022 2023,Round 23,25/02/,Elche2,Betis,2,3,2,g_1_hdhIUyEH,3.87,3.6,2.03,1.08,4.46
+football,Laliga 2022 2023,Round 22,21/02/,Getafe,Valencia,1,0,0,g_1_O2LSJKaa,3.27,2.94,2.61,1.97,1.05
+football,Laliga 2022 2023,Round 22,20/02/,Barcelona,Cadiz CF,2,0,0,g_1_I1tlR27P,1.24,6.43,15.0,2.39,1.54
+football,Laliga 2022 2023,Round 22,20/02/,Atl. Madrid,Ath Bilbao,1,0,0,g_1_bLDuHIqI,1.93,3.38,4.62,1.23,0.81
+football,Laliga 2022 2023,Round 22,20/02/,Rayo Vallecano,Sevilla,1,1,1,g_1_pI9yIbUB,2.49,3.19,3.17,1.36,0.46
+football,Laliga 2022 2023,Round 22,19/02/,Elche,Espanyol,0,1,2,g_1_xnNKLtVn,2.85,3.08,2.81,1.77,1.39
+football,Laliga 2022 2023,Round 22,19/02/,Osasuna,Real Madrid,0,2,2,g_1_2gKWIvF5,5.83,3.88,1.66,0.53,1.44
+football,Laliga 2022 2023,Round 22,19/02/,Mallorca,Villarreal,4,2,0,g_1_GxMOK0pg,3.43,2.98,2.48,2.34,1.32
+football,Laliga 2022 2023,Round 22,19/02/,Betis,Valladolid,2,1,0,g_1_fNXFMMFt,1.66,4.1,5.45,2.66,1.03
+football,Laliga 2022 2023,Round 22,18/02/,Real Sociedad,Celta Vigo,1,1,1,g_1_hrDqGxaO,1.81,3.39,5.52,1.2,1.47
+football,Laliga 2022 2023,Round 22,18/02/,Girona,Almeria,6,2,0,g_1_WYBmFdEU,1.9,3.69,4.3,3.0,1.86
+football,Laliga 2022 2023,Round 21,16/02/,Real Madrid,Elche,4,0,0,g_1_8Wbc4u0C,1.22,6.78,16.7,4.21,0.57
+football,Laliga 2022 2023,Round 21,14/02/,Espanyol,Real Sociedad,2,3,2,g_1_2T8x93os,4.21,3.19,2.08,1.21,1.49
+football,Laliga 2022 2023,Round 21,13/02/,Villarreal,Barcelona,0,1,2,g_1_Uu0g5Lp6,5.2,3.81,1.74,1.21,1.61
+football,Laliga 2022 2023,Round 21,13/02/,Valladolid,Osasuna,0,0,1,g_1_4bh62JUO,2.45,3.26,3.17,1.62,0.82
+football,Laliga 2022 2023,Round 21,13/02/,Celta Vigo,Atl. Madrid,0,1,2,g_1_zJ0k61Va,4.17,3.07,2.15,1.22,1.12
+football,Laliga 2022 2023,Round 21,12/02/,Getafe,Rayo Vallecano,1,1,1,g_1_WpI6EPNJ,3.25,2.91,2.64,1.67,2.41
+football,Laliga 2022 2023,Round 21,12/02/,Valencia,Ath Bilbao,1,2,2,g_1_Orco7sGg,3.37,3.31,2.32,1.41,1.21
+football,Laliga 2022 2023,Round 21,12/02/,Sevilla,Mallorca,2,0,0,g_1_Q7g23aFI,1.94,3.25,4.82,2.02,0.22
+football,Laliga 2022 2023,Round 21,12/02/,Almeria,Betis,2,3,2,g_1_tK7t8N0m,3.1,3.34,2.45,2.11,2.41
+football,Laliga 2022 2023,Round 21,11/02/,Cadiz CF,Girona,2,0,0,g_1_AyHADqwQ,3.22,3.13,2.59,0.71,0.24
+football,Laliga 2022 2023,Round 20,07/02/,Rayo Vallecano,Almeria,2,0,0,g_1_UuvOktoJ,1.96,3.49,4.3,0.0,0.0
+football,Laliga 2022 2023,Round 20,06/02/,Barcelona,Sevilla,3,0,0,g_1_6TFu0Q8Q,1.34,5.77,8.75,0.0,0.0
+football,Laliga 2022 2023,Round 20,06/02/,Real Sociedad,Valladolid,0,1,2,g_1_MFzGi2G6,1.5,4.27,7.57,0.0,0.0
+football,Laliga 2022 2023,Round 20,06/02/,Girona,Valencia,1,0,0,g_1_GxzKjMVC,2.42,3.34,3.15,0.0,0.0
+football,Laliga 2022 2023,Round 20,05/02/,Mallorca,Real Madrid,1,0,0,g_1_G25FgOof,5.22,3.61,1.78,0.0,0.0
+football,Laliga 2022 2023,Round 20,05/02/,Betis,Celta Vigo,3,4,2,g_1_rk77epHs,2.0,3.34,4.34,0.0,0.0
+football,Laliga 2022 2023,Round 20,05/02/,Atl. Madrid,Getafe,1,1,1,g_1_O4Qz16gK,1.49,4.16,8.39,0.0,0.0
+football,Laliga 2022 2023,Round 20,05/02/,Elche,Villarreal,3,1,0,g_1_xC6Bf4Wm,5.16,3.92,1.72,0.0,0.0
+football,Laliga 2022 2023,Round 20,04/02/,Espanyol,Osasuna,1,1,1,g_1_rPyChr10,2.78,3.09,2.88,0.0,0.0
+football,Laliga 2022 2023,Round 20,04/02/,Ath Bilbao,Cadiz CF,4,1,0,g_1_pERW1nvE,1.41,4.61,9.66,0.0,0.0
+football,Laliga 2022 2023,Round 17,03/02/,Real Madrid,Valencia,2,0,0,g_1_YwYWzJZc,1.43,4.86,9.9,0.0,0.0
+football,Laliga 2022 2023,Round 17,02/02/,Betis,Barcelona,1,2,2,g_1_xWUmXzZM,5.25,3.7,1.75,0.0,0.0
+football,Laliga 2022 2023,Round 19,31/01/,Villarreal,Rayo Vallecano,0,1,2,g_1_dbYlw31D,1.74,3.73,5.35,0.0,0.0
+football,Laliga 2022 2023,Round 19,30/01/,Real Madrid,Real Sociedad,0,0,1,g_1_2XQi1Fm3,1.73,3.81,5.25,0.0,0.0
+football,Laliga 2022 2023,Round 19,30/01/,Celta Vigo,Ath Bilbao,1,0,0,g_1_zoPaagIF,3.39,3.05,2.45,0.0,0.0
+football,Laliga 2022 2023,Round 19,30/01/,Osasuna,Atl. Madrid,0,1,2,g_1_jerUsRnr,4.43,3.26,2.01,0.0,0.0
+football,Laliga 2022 2023,Round 19,29/01/,Valladolid,Valencia,1,0,0,g_1_I7Zpvqn7,0.0,0.0,0.0,0.0,0.0
+football,Laliga 2022 2023,Round 19,29/01/,Getafe,Betis,0,1,2,g_1_O8txt5Hf,3.33,2.96,2.55,0.0,0.0
+football,Laliga 2022 2023,Round 19,29/01/,Sevilla,Elche,3,0,0,g_1_zqptuPW0,1.52,4.11,7.65,0.0,0.0
+football,Laliga 2022 2023,Round 19,29/01/,Girona,Barcelona,0,1,2,g_1_UosYto2l,6.2,4.45,1.55,0.0,0.0
+football,Laliga 2022 2023,Round 19,28/01/,Cadiz CF,Mallorca,2,0,0,g_1_lUMm2eYd,2.94,2.75,3.2,0.0,0.0
+football,Laliga 2022 2023,Round 19,28/01/,Almeria,Espanyol,3,1,0,g_1_dfQe0Z29,2.63,3.17,2.99,0.0,0.0
+football,Laliga 2022 2023,Round 18,24/01/,Valencia,Almeria,2,2,1,g_1_8Yq1vhtj,1.61,4.1,6.0,0.0,0.0
+football,Laliga 2022 2023,Round 18,23/01/,Ath Bilbao,Real Madrid,0,2,2,g_1_YiD5kIli,3.1,3.39,2.42,0.0,0.0
+football,Laliga 2022 2023,Round 18,23/01/,Barcelona,Getafe,1,0,0,g_1_UJ6EmdJ3,1.24,6.43,14.8,0.0,0.0
+football,Laliga 2022 2023,Round 18,23/01/,Elche,Osasuna,1,1,1,g_1_8A5InGY9,3.23,3.21,2.44,0.0,0.0
+football,Laliga 2022 2023,Round 18,22/01/,Villarreal,Girona,1,0,0,g_1_nPr5wCed,1.74,3.89,4.96,0.0,0.0
+football,Laliga 2022 2023,Round 18,22/01/,Sevilla,Cadiz CF,1,0,0,g_1_08pcuYQq,1.75,3.7,5.25,0.0,0.0
+football,Laliga 2022 2023,Round 18,22/01/,Atl. Madrid,Valladolid,3,0,0,g_1_CrC9lx4c,1.35,5.36,9.77,0.0,0.0
+football,Laliga 2022 2023,Round 18,22/01/,Espanyol,Betis,1,0,0,g_1_Gz9Qpf3M,3.01,3.16,2.62,0.0,0.0
+football,Laliga 2022 2023,Round 18,21/01/,Rayo Vallecano,Real Sociedad,0,2,2,g_1_2X4MozlG,3.05,3.1,2.74,0.0,0.0
+football,Laliga 2022 2023,Round 18,21/01/,Mallorca,Celta Vigo,1,0,0,g_1_babVqEIS,2.8,2.8,3.16,0.0,0.0
+football,Laliga 2022 2023,Round 17,17/01/,Cadiz CF,Elche,1,1,1,g_1_vHYSyaKi,1.91,3.38,4.73,0.0,0.0
+football,Laliga 2022 2023,Round 17,16/01/,Almeria,Atl. Madrid,1,1,1,g_1_nsxyzwk4,5.17,3.99,1.7,0.0,0.0
+football,Laliga 2022 2023,Round 17,15/01/,Getafe,Espanyol,1,2,2,g_1_M36KREdp,2.29,3.0,3.85,0.0,0.0
+football,Laliga 2022 2023,Round 17,15/01/,Real Sociedad,Ath Bilbao,3,1,0,g_1_8dQqYGJG,2.21,3.07,3.96,0.0,0.0
+football,Laliga 2022 2023,Round 17,15/01/,Osasuna,Mallorca,1,0,0,g_1_GMTiWflT,2.17,3.06,4.12,0.0,0.0
+football,Laliga 2022 2023,Round 17,15/01/,Girona,Sevilla,2,1,0,g_1_U5RuZd4A,2.56,3.25,3.01,0.0,0.0
+football,Laliga 2022 2023,Round 17,14/01/,Valladolid,Rayo Vallecano,0,1,2,g_1_KlPNQYBj,3.03,3.16,2.6,0.0,0.0
+football,Laliga 2022 2023,Round 17,14/01/,Celta Vigo,Villarreal,1,1,1,g_1_0QZOxu5o,3.11,3.27,2.48,0.0,0.0
+football,Laliga 2022 2023,Round 16,10/01/,Ath Bilbao,Osasuna,0,0,1,g_1_SKglQ1Lu,1.61,3.88,6.64,0.0,0.0
+football,Laliga 2022 2023,Round 16,09/01/,Atl. Madrid,Barcelona,0,1,2,g_1_vechPLzn,3.51,3.23,2.29,0.0,0.0
+football,Laliga 2022 2023,Round 16,09/01/,Sevilla,Getafe,2,1,0,g_1_42rIJH4N,1.83,3.29,5.52,0.0,0.0
+football,Laliga 2022 2023,Round 16,09/01/,Rayo Vallecano,Betis,1,2,2,g_1_8zk9LwzB,2.5,3.27,3.07,0.0,0.0
+football,Laliga 2022 2023,Round 16,08/01/,Almeria,Real Sociedad,0,2,2,g_1_Uqj5MJK4,4.73,3.38,1.91,0.0,0.0
+football,Laliga 2022 2023,Round 16,08/01/,Espanyol,Girona,2,2,1,g_1_0Ao1Na5b,2.48,3.33,3.06,0.0,0.0
+football,Laliga 2022 2023,Round 16,08/01/,Mallorca,Valladolid,1,0,0,g_1_MJncOujh,2.04,3.26,4.28,0.0,0.0
+football,Laliga 2022 2023,Round 16,08/01/,Villarreal,Real Madrid,2,1,0,g_1_0YTmEeSp,3.64,3.7,2.12,0.0,0.0
+football,Laliga 2022 2023,Round 16,07/01/,Valencia,Cadiz CF,0,1,2,g_1_bPsMIyKT,1.55,4.31,6.54,0.0,0.0
+football,Laliga 2022 2023,Round 16,07/01/,Elche,Celta Vigo,0,1,2,g_1_javEKckH,4.1,3.34,2.05,0.0,0.0
+football,Laliga 2022 2023,Round 15,01/01/,Real Sociedad,Osasuna,2,0,0,g_1_GtQV7K5B,1.9,3.38,4.78,0.0,0.0
+football,Laliga 2022 2023,Round 15,01/01/,Villarreal,Valencia,2,1,0,g_1_C8Jv6bzO,2.07,3.42,3.93,0.0,0.0
+football,Laliga 2022 2023,Round 15,31/12/,Barcelona,Espanyol,1,1,1,g_1_hQJBCrit,1.22,7.28,14.4,0.0,0.0
+football,Laliga 2022 2023,Round 15,31/12/,Valladolid,Real Madrid,0,2,2,g_1_fXOZ6vLH,7.24,4.87,1.46,0.0,0.0
+football,Laliga 2022 2023,Round 15,31/12/,Cadiz CF,Almeria,1,1,1,g_1_jaIr5IkU,2.19,3.31,3.67,0.0,0.0
+football,Laliga 2022 2023,Round 15,31/12/,Celta Vigo,Sevilla,1,1,1,g_1_n1YEB26n,2.42,3.32,3.17,0.0,0.0
+football,Laliga 2022 2023,Round 15,31/12/,Getafe,Mallorca,2,0,0,g_1_QiXIAMLh,2.88,2.7,3.19,0.0,0.0
+football,Laliga 2022 2023,Round 15,30/12/,Atl. Madrid,Elche2,2,0,0,g_1_G0drUAMD,1.25,6.6,13.2,0.0,0.0
+football,Laliga 2022 2023,Round 15,30/12/,Betis,Ath Bilbao,0,0,1,g_1_MJQR80j5,3.08,3.34,2.46,0.0,0.0
+football,Laliga 2022 2023,Round 15,30/12/,Girona,Rayo Vallecano,2,2,1,g_1_8GMN9tya,2.14,3.61,3.47,0.0,0.0
+football,Laliga 2022 2023,Round 14,11/11/,Real Madrid,Cadiz CF,2,1,0,g_1_bPRcMb37,1.23,7.2,12.0,0.0,0.0
+football,Laliga 2022 2023,Round 14,11/11/,Valencia,Betis,3,0,0,g_1_QBTkOKYf,2.32,3.44,3.25,0.0,0.0
+football,Laliga 2022 2023,Round 14,11/11/,Rayo Vallecano,Celta Vigo,0,0,1,g_1_42SgNvl1,2.03,3.26,4.34,0.0,0.0
+football,Laliga 2022 2023,Round 14,10/11/,Mallorca,Atl. Madrid,1,0,0,g_1_UqzsQt4r,4.23,2.94,2.2,0.0,0.0
+football,Laliga 2022 2023,Round 14,10/11/,Espanyol,Villarreal,0,1,2,g_1_0UqBV2tL,2.87,3.59,2.48,0.0,0.0
+football,Laliga 2022 2023,Round 14,10/11/,Almeria,Getafe,1,0,0,g_1_C4mFUMeR,2.16,3.26,3.85,0.0,0.0
+football,Laliga 2022 2023,Round 14,10/11/,Sevilla2,Real Sociedad,1,2,2,g_1_CSV1LIID,2.39,3.38,3.16,0.0,0.0
+football,Laliga 2022 2023,Round 14,09/11/,Osasuna,Barcelona,1,2,2,g_1_8zZpP0Jl,5.94,4.34,1.58,0.0,0.0
+football,Laliga 2022 2023,Round 14,09/11/,Ath Bilbao,Valladolid,3,0,0,g_1_vFe2XOB8,1.47,4.7,7.39,0.0,0.0
+football,Laliga 2022 2023,Round 14,09/11/,Elche,Girona,1,2,2,g_1_I5f6WrRE,3.39,3.48,2.23,0.0,0.0
+football,Laliga 2022 2023,Round 13,08/11/,Rayo Vallecano,Real Madrid,3,2,0,g_1_KAOyH3RR,5.53,3.73,1.72,0.0,0.0
+football,Laliga 2022 2023,Round 13,07/11/,Betis2,Sevilla,1,1,1,g_1_6o9WJ5s9,2.11,3.19,4.11,0.0,0.0
+football,Laliga 2022 2023,Round 13,07/11/,Villarreal,Mallorca,0,2,2,g_1_UqEBA14e,1.75,3.59,5.52,0.0,0.0
+football,Laliga 2022 2023,Round 13,07/11/,Real Sociedad,Valencia,1,1,1,g_1_va7vIqCL,1.93,3.45,4.53,0.0,0.0
+football,Laliga 2022 2023,Round 13,06/11/,Atl. Madrid,Espanyol,1,1,1,g_1_hr5SKoS2,1.54,4.31,6.61,0.0,0.0
+football,Laliga 2022 2023,Round 13,06/11/,Barcelona,Almeria,2,0,0,g_1_ja2K8uZ7,1.14,10.3,17.2,0.0,0.0
+football,Laliga 2022 2023,Round 13,06/11/,Celta Vigo,Osasuna,1,2,2,g_1_088zJPdF,2.35,3.37,3.24,0.0,0.0
+football,Laliga 2022 2023,Round 13,06/11/,Valladolid,Elche,2,1,0,g_1_GtA7Bskk,1.97,3.74,4.18,0.0,0.0
+football,Laliga 2022 2023,Round 13,05/11/,Getafe2,Cadiz CF,0,0,1,g_1_C83G9LJ1,2.19,3.05,4.07,0.0,0.0
+football,Laliga 2022 2023,Round 13,05/11/,Girona,Ath Bilbao,2,1,0,g_1_MJA3CNZr,3.9,3.53,2.04,0.0,0.0
+football,Laliga 2022 2023,Round 12,01/11/,Elche,Getafe,0,1,2,g_1_A5zk7Sc3,2.85,2.98,2.91,0.0,0.0
+football,Laliga 2022 2023,Round 12,31/10/,Real Sociedad,Betis,0,2,2,g_1_4MOXb45q,2.17,3.26,3.81,0.0,0.0
+football,Laliga 2022 2023,Round 12,31/10/,Ath Bilbao,Villarreal,1,0,0,g_1_WEyo88rc,2.16,3.57,3.46,0.0,0.0
+football,Laliga 2022 2023,Round 12,31/10/,Real Madrid,Girona,1,1,1,g_1_jwRqd2k2,1.26,6.08,13.1,0.0,0.0
+football,Laliga 2022 2023,Round 12,30/10/,Osasuna,Valladolid,2,0,0,g_1_StVg6nD9,1.86,3.8,4.3,0.0,0.0
+football,Laliga 2022 2023,Round 12,30/10/,Valencia,Barcelona,0,1,2,g_1_bun53pcS,6.06,4.61,1.54,0.0,0.0
+football,Laliga 2022 2023,Round 12,30/10/,Sevilla,Rayo Vallecano,0,1,2,g_1_CnSucrzd,2.01,3.37,4.23,0.0,0.0
+football,Laliga 2022 2023,Round 12,29/10/,Cadiz CF,Atl. Madrid,3,2,0,g_1_0fT14QsM,7.18,3.59,1.63,0.0,0.0
+football,Laliga 2022 2023,Round 12,29/10/,Almeria,Celta Vigo,3,1,0,g_1_6XTc56SF,3.2,3.52,2.38,0.0,0.0
+football,Laliga 2022 2023,Round 12,29/10/,Mallorca,Espanyol,1,1,1,g_1_rDNybOKk,2.52,3.15,3.16,0.0,0.0
+football,Laliga 2022 2023,Round 11,25/10/,Celta Vigo,Getafe,1,1,1,g_1_4vI3eVbi,1.74,3.76,5.7,0.0,0.0
+football,Laliga 2022 2023,Round 11,24/10/,Barcelona,Ath Bilbao,4,0,0,g_1_jeKFhTrA,1.45,5.07,7.1,0.0,0.0
+football,Laliga 2022 2023,Round 11,24/10/,Girona,Osasuna,1,1,1,g_1_xhGBg9T3,2.7,3.25,2.84,0.0,0.0
+football,Laliga 2022 2023,Round 11,24/10/,Villarreal,Almeria,2,1,0,g_1_IBm3qP5d,1.39,5.34,8.14,0.0,0.0
+football,Laliga 2022 2023,Round 11,23/10/,Betis,Atl. Madrid,1,2,2,g_1_YJ9KimbG,3.4,3.26,2.32,0.0,0.0
+football,Laliga 2022 2023,Round 11,23/10/,Espanyol,Elche,2,2,1,g_1_CA8Oj7DM,1.67,3.89,5.79,0.0,0.0
+football,Laliga 2022 2023,Round 11,23/10/,Real Madrid,Sevilla,3,1,0,g_1_rVG7fkEc,1.38,5.03,9.11,0.0,0.0
+football,Laliga 2022 2023,Round 11,23/10/,Valencia,Mallorca,1,2,2,g_1_Kz8SkRSS,1.75,3.59,5.46,0.0,0.0
+football,Laliga 2022 2023,Round 11,22/10/,Valladolid,Real Sociedad,1,0,0,g_1_48qap5jj,4.4,3.52,1.92,0.0,0.0
+football,Laliga 2022 2023,Round 11,22/10/,Rayo Vallecano,Cadiz CF2,5,1,0,g_1_Mqffooyp,1.77,3.48,5.63,0.0,0.0
+football,Laliga 2022 2023,Round 10,21/10/,Barcelona,Villarreal,3,0,0,g_1_YeRNfb8t,1.48,4.65,7.23,0.0,0.0
+football,Laliga 2022 2023,Round 10,21/10/,Osasuna,Espanyol,1,0,0,g_1_SMYKWoMj,2.28,3.3,3.45,0.0,0.0
+football,Laliga 2022 2023,Round 10,21/10/,Almeria,Girona,3,2,0,g_1_OpKzhdha,2.52,3.49,2.87,0.0,0.0
+football,Laliga 2022 2023,Round 10,20/10/,Elche,Real Madrid,0,3,2,g_1_GKGSgINn,11.1,6.62,1.26,0.0,0.0
+football,Laliga 2022 2023,Round 10,20/10/,Real Sociedad,Mallorca,1,0,0,g_1_lWZGXR6p,1.56,3.87,7.6,0.0,0.0
+football,Laliga 2022 2023,Round 10,20/10/,Cadiz CF,Betis,0,0,1,g_1_p08qjzNB,3.56,3.3,2.24,0.0,0.0
+football,Laliga 2022 2023,Round 10,20/10/,Valladolid,Celta Vigo,4,1,0,g_1_dzCmkfxI,3.18,3.28,2.43,0.0,0.0
+football,Laliga 2022 2023,Round 10,19/10/,Atl. Madrid,Rayo Vallecano,1,1,1,g_1_dzzdav0P,1.58,3.85,7.24,0.0,0.0
+football,Laliga 2022 2023,Round 10,19/10/,Getafe,Ath Bilbao,2,2,1,g_1_2yJviG75,5.13,3.45,1.84,0.0,0.0
+football,Laliga 2022 2023,Round 10,19/10/,Sevilla,Valencia,1,1,1,g_1_fBFWhxwg,2.19,3.36,3.61,0.0,0.0
+football,Laliga 2022 2023,Round 9,18/10/,Villarreal,Osasuna,2,0,0,g_1_4tmAyy8I,1.73,3.84,5.24,0.0,0.0
+football,Laliga 2022 2023,Round 9,17/10/,Betis,Almeria,3,1,0,g_1_rXoEzeNO,1.55,4.31,6.54,0.0,0.0
+football,Laliga 2022 2023,Round 9,17/10/,Espanyol,Valladolid,1,0,0,g_1_8vPdtagm,2.01,3.52,4.02,0.0,0.0
+football,Laliga 2022 2023,Round 9,16/10/,Real Madrid,Barcelona,3,1,0,g_1_j3E1uJ8g,2.31,3.85,2.95,0.0,0.0
+football,Laliga 2022 2023,Round 9,16/10/,Celta Vigo,Real Sociedad,1,2,2,g_1_xdYQoLVP,2.57,3.16,3.06,0.0,0.0
+football,Laliga 2022 2023,Round 9,16/10/,Ath Bilbao,Atl. Madrid,0,1,2,g_1_b5ZMn1GJ,2.48,3.24,3.26,0.0,0.0
+football,Laliga 2022 2023,Round 9,16/10/,Mallorca,Sevilla,0,1,2,g_1_UmQhsuvs,3.37,2.94,2.53,0.0,0.0
+football,Laliga 2022 2023,Round 9,15/10/,Valencia,Elche,2,2,1,g_1_46I5vwOa,1.43,4.94,7.74,0.0,0.0
+football,Laliga 2022 2023,Round 9,15/10/,Girona,Cadiz CF,1,1,1,g_1_xKGDxHhC,2.03,3.42,4.34,0.0,0.0
+football,Laliga 2022 2023,Round 9,15/10/,Rayo Vallecano,Getafe,0,0,1,g_1_bTH9wcw6,1.93,3.29,4.8,0.0,0.0
+football,Laliga 2022 2023,Round 8,11/10/,Elche,Mallorca,1,1,1,g_1_p29mY11Q,3.04,3.22,2.66,0.0,0.0
+football,Laliga 2022 2023,Round 8,10/10/,Barcelona,Celta Vigo,1,0,0,g_1_2wKrZsnK,1.3,6.11,10.3,0.0,0.0
+football,Laliga 2022 2023,Round 8,10/10/,Real Sociedad,Villarreal,1,0,0,g_1_CCgSQJg0,2.72,3.49,2.66,0.0,0.0
+football,Laliga 2022 2023,Round 8,09/10/,Cadiz CF,Espanyol,2,2,1,g_1_Gp0JSuPm,3.04,3.27,2.52,0.0,0.0
+football,Laliga 2022 2023,Round 8,09/10/,Valladolid,Betis,0,0,1,g_1_d0evOHwJ,3.36,3.54,2.22,0.0,0.0
+football,Laliga 2022 2023,Round 8,09/10/,Getafe,Real Madrid,0,1,2,g_1_MN0FTL9s,7.72,4.62,1.46,0.0,0.0
+football,Laliga 2022 2023,Round 8,09/10/,Sevilla,Ath Bilbao,1,1,1,g_1_pQizPcOC,3.24,3.47,2.3,0.0,0.0
+football,Laliga 2022 2023,Round 8,08/10/,Atl. Madrid,Girona,2,1,0,g_1_OnLvzOWD,1.42,4.6,9.24,0.0,0.0
+football,Laliga 2022 2023,Round 8,08/10/,Almeria,Rayo Vallecano,3,1,0,g_1_j3hWPw96,3.46,3.25,2.31,0.0,0.0
+football,Laliga 2022 2023,Round 8,08/10/,Osasuna2,Valencia,1,2,2,g_1_fyaNRavf,2.67,3.27,2.84,0.0,0.0
+football,Laliga 2022 2023,Round 7,04/10/,Rayo Vallecano,Elche,2,1,0,g_1_zRrlD0P0,1.55,4.25,6.58,0.0,0.0
+football,Laliga 2022 2023,Round 7,03/10/,Real Madrid,Osasuna,1,1,1,g_1_IkYhCKv7,1.38,5.38,8.36,0.0,0.0
+football,Laliga 2022 2023,Round 7,03/10/,Girona,Real Sociedad,3,5,2,g_1_8Gb9KrXQ,3.58,3.27,2.24,0.0,0.0
+football,Laliga 2022 2023,Round 7,02/10/,Celta Vigo,Betis,1,0,0,g_1_MNvpEtAf,2.6,3.3,2.92,0.0,0.0
+football,Laliga 2022 2023,Round 7,02/10/,Espanyol,Valencia,2,2,1,g_1_UPa5LOHK,3.02,3.32,2.51,0.0,0.0
+football,Laliga 2022 2023,Round 7,02/10/,Mallorca,Barcelona,0,1,2,g_1_S0utFMfl,9.81,5.06,1.37,0.0,0.0
+football,Laliga 2022 2023,Round 7,02/10/,Sevilla,Atl. Madrid,0,2,2,g_1_lAtxG2ur,3.53,3.18,2.31,0.0,0.0
+football,Laliga 2022 2023,Round 7,01/10/,Getafe,Valladolid,2,3,2,g_1_xIsbNpm8,2.44,3.14,3.46,0.0,0.0
+football,Laliga 2022 2023,Round 7,01/10/,Cadiz CF,Villarreal,0,0,1,g_1_z301M42E,5.15,3.9,1.77,0.0,0.0
+football,Laliga 2022 2023,Round 7,01/10/,Ath Bilbao,Almeria,4,0,0,g_1_dtXdBvfD,1.4,5.08,8.11,0.0,0.0
+football,Laliga 2022 2023,Round 6,19/09/,Atl. Madrid,Real Madrid,1,2,2,g_1_tWTPMDdc,3.42,3.38,2.26,0.0,0.0
+football,Laliga 2022 2023,Round 6,19/09/,Betis,Girona,2,1,0,g_1_0YqRKiR9,1.69,3.84,5.57,0.0,0.0
+football,Laliga 2022 2023,Round 6,19/09/,Real Sociedad,Espanyol,2,1,0,g_1_Sn070Nue,1.72,3.66,5.67,0.0,0.0
+football,Laliga 2022 2023,Round 6,18/09/,Villarreal,Sevilla,1,1,1,g_1_dM4Base1,1.78,3.8,5.25,0.0,0.0
+football,Laliga 2022 2023,Round 6,18/09/,Osasuna,Getafe,0,2,2,g_1_6XBb2qBr,1.72,3.46,6.18,0.0,0.0
+football,Laliga 2022 2023,Round 6,18/09/,Ath Bilbao,Rayo Vallecano,3,2,0,g_1_2uVLNgsi,1.64,3.89,6.14,0.0,0.0
+football,Laliga 2022 2023,Round 6,18/09/,Valencia,Celta Vigo,3,0,0,g_1_feqVJBtG,2.26,3.19,3.65,0.0,0.0
+football,Laliga 2022 2023,Round 6,17/09/,Barcelona,Elche,3,0,0,g_1_MsoNLXB3,1.07,12.0,26.0,0.0,0.0
+football,Laliga 2022 2023,Round 6,17/09/,Mallorca,Almeria,1,0,0,g_1_zD3Fb1A7,1.92,3.29,4.84,0.0,0.0
+football,Laliga 2022 2023,Round 6,17/09/,Valladolid,Cadiz CF,0,1,2,g_1_ld1313Ql,1.99,3.49,4.15,0.0,0.0
+football,Laliga 2022 2023,Round 5,13/09/,Almeria,Osasuna,0,1,2,g_1_MRda6hCG,3.04,3.25,2.54,0.0,0.0
+football,Laliga 2022 2023,Round 5,12/09/,Betis,Villarreal,1,0,0,g_1_fF5rAzDi,2.99,3.41,2.48,0.0,0.0
+football,Laliga 2022 2023,Round 5,12/09/,Getafe,Real Sociedad,2,1,0,g_1_lx5n9fSc,4.65,3.19,1.99,0.0,0.0
+football,Laliga 2022 2023,Round 5,11/09/,Elche,Ath Bilbao,1,4,2,g_1_Ui074WtT,4.98,3.74,1.78,0.0,0.0
+football,Laliga 2022 2023,Round 5,11/09/,Real Madrid,Mallorca,4,1,0,g_1_lxsvaA4j,1.31,6.01,9.65,0.0,0.0
+football,Laliga 2022 2023,Round 5,11/09/,Atl. Madrid,Celta Vigo,4,1,0,g_1_GO6vBGco,1.85,3.49,4.96,0.0,0.0
+football,Laliga 2022 2023,Round 5,11/09/,Cadiz CF,Barcelona,0,4,2,g_1_zZxz0jkp,9.32,5.41,1.36,0.0,0.0
+football,Laliga 2022 2023,Round 5,10/09/,Espanyol,Sevilla,2,3,2,g_1_0C8j8Es4,2.72,3.28,2.78,0.0,0.0
+football,Laliga 2022 2023,Round 5,10/09/,Rayo Vallecano,Valencia,2,1,0,g_1_rybe7YdA,2.79,3.04,2.91,0.0,0.0
+football,Laliga 2022 2023,Round 5,10/09/,Girona,Valladolid,2,1,0,g_1_j1135CRM,2.09,3.44,3.82,0.0,0.0
+football,Laliga 2022 2023,Round 4,06/09/,Valladolid,Almeria,1,0,0,g_1_zVlW64oU,2.2,3.33,3.63,0.0,0.0
+football,Laliga 2022 2023,Round 4,05/09/,Valencia,Getafe,5,1,0,g_1_S4oO8QGH,1.95,3.4,4.74,0.0,0.0
+football,Laliga 2022 2023,Round 4,05/09/,Villarreal,Elche,4,0,0,g_1_ptdJ961B,1.4,4.92,8.8,0.0,0.0
+football,Laliga 2022 2023,Round 4,04/09/,Ath Bilbao,Espanyol,0,1,2,g_1_xdjaEUnt,1.52,4.31,7.1,0.0,0.0
+football,Laliga 2022 2023,Round 4,04/09/,Osasuna,Rayo Vallecano,2,1,0,g_1_jaf3Dl2n,2.09,3.08,4.37,0.0,0.0
+football,Laliga 2022 2023,Round 4,04/09/,Sevilla,Barcelona,0,3,2,g_1_CErCBSWb,5.15,4.04,1.74,0.0,0.0
+football,Laliga 2022 2023,Round 4,04/09/,Real Sociedad,Atl. Madrid,1,1,1,g_1_YNq8C8Hh,2.82,3.18,2.89,0.0,0.0
+football,Laliga 2022 2023,Round 4,03/09/,Real Madrid,Betis,2,1,0,g_1_6kcFAnn5,1.38,5.52,7.83,0.0,0.0
+football,Laliga 2022 2023,Round 4,03/09/,Mallorca,Girona,1,1,1,g_1_xvyb2Ogo,2.2,3.28,3.88,0.0,0.0
+football,Laliga 2022 2023,Round 4,03/09/,Celta Vigo,Cadiz CF,3,0,0,g_1_t8kS7pWN,1.72,3.7,6.15,0.0,0.0
+football,Laliga 2022 2023,Round 3,30/08/,Valencia,Atl. Madrid,0,1,2,g_1_48Lpe7nI,4.61,3.37,1.93,0.0,0.0
+football,Laliga 2022 2023,Round 3,30/08/,Cadiz CF,Ath Bilbao,0,4,2,g_1_QHMtdmXB,4.11,3.31,2.06,0.0,0.0
+football,Laliga 2022 2023,Round 3,29/08/,Espanyol,Real Madrid,1,3,2,g_1_KKJYc92a,6.5,4.5,1.53,0.0,0.0
+football,Laliga 2022 2023,Round 3,29/08/,Barcelona,Valladolid,4,0,0,g_1_SMvf5iAP,1.15,9.79,16.4,0.0,0.0
+football,Laliga 2022 2023,Round 3,29/08/,Getafe,Villarreal,0,0,1,g_1_xdUTbkmg,5.28,3.88,1.72,0.0,0.0
+football,Laliga 2022 2023,Round 3,28/08/,Almeria,Sevilla,2,1,0,g_1_WfNxcTH5,3.74,3.44,2.12,0.0,0.0
+football,Laliga 2022 2023,Round 3,28/08/,Rayo Vallecano,Mallorca,0,2,2,g_1_0zFggoHU,1.96,3.33,4.51,0.0,0.0
+football,Laliga 2022 2023,Round 3,28/08/,Elche,Real Sociedad,0,1,2,g_1_b5VPaVXn,4.14,3.39,2.02,0.0,0.0
+football,Laliga 2022 2023,Round 3,27/08/,Betis,Osasuna,1,0,0,g_1_UVQL0BIt,1.81,3.72,4.81,0.0,0.0
+football,Laliga 2022 2023,Round 3,27/08/,Girona,Celta Vigo,0,1,2,g_1_MqGkfR1O,2.97,3.25,2.59,0.0,0.0
+football,Laliga 2022 2023,Round 2,23/08/,Girona,Getafe,3,1,0,g_1_Iic3rU2C,2.43,2.93,3.6,0.0,0.0
+football,Laliga 2022 2023,Round 2,23/08/,Elche,Almeria,1,1,1,g_1_QH0Bt8XO,2.44,3.26,3.17,0.0,0.0
+football,Laliga 2022 2023,Round 2,22/08/,Real Sociedad,Barcelona,1,4,2,g_1_bks2pjYa,4.03,3.48,2.02,0.0,0.0
+football,Laliga 2022 2023,Round 2,22/08/,Atl. Madrid,Villarreal,0,2,2,g_1_WzRL4KJE,1.85,3.49,4.9,0.0,0.0
+football,Laliga 2022 2023,Round 2,22/08/,Ath Bilbao,Valencia,1,0,0,g_1_hpSH5048,1.74,3.84,5.08,0.0,0.0
+football,Laliga 2022 2023,Round 2,21/08/,Celta Vigo,Real Madrid,1,4,2,g_1_CYvjmhls,5.5,4.25,1.63,0.0,0.0
+football,Laliga 2022 2023,Round 2,21/08/,Mallorca,Betis,1,2,2,g_1_v1baqAm6,3.58,3.27,2.24,0.0,0.0
+football,Laliga 2022 2023,Round 2,21/08/,Osasuna,Cadiz CF,2,0,0,g_1_CEd7slII,1.89,3.36,4.87,0.0,0.0
+football,Laliga 2022 2023,Round 2,20/08/,Sevilla,Valladolid,1,1,1,g_1_KbrboWIg,1.5,4.27,7.56,0.0,0.0
+football,Laliga 2022 2023,Round 2,20/08/,Espanyol,Rayo Vallecano,0,2,2,g_1_QyqfnC3m,2.56,3.18,3.07,0.0,0.0
+football,Laliga 2022 2023,Round 1,16/08/,Betis,Elche,3,0,0,g_1_CCVDyMkS,1.6,4.15,6.06,0.0,0.0
+football,Laliga 2022 2023,Round 1,16/08/,Getafe,Atl. Madrid,0,3,2,g_1_p6qygNK2,5.75,3.18,1.9,0.0,0.0
+football,Laliga 2022 2023,Round 1,16/08/,Ath Bilbao,Mallorca,0,0,1,g_1_4nS5wrLF,1.63,4.02,6.45,0.0,0.0
+football,Laliga 2022 2023,Round 1,15/08/,Almeria,Real Madrid,1,2,2,g_1_r15hUwr2,7.63,4.82,1.44,0.0,0.0
+football,Laliga 2022 2023,Round 1,15/08/,Valencia,Girona,1,0,0,g_1_hWnqi1kF,1.85,3.59,4.72,0.0,0.0
+football,Laliga 2022 2023,Round 1,15/08/,Cadiz CF,Real Sociedad,0,1,2,g_1_dp7pWaDk,3.91,3.09,2.21,0.0,0.0
+football,Laliga 2022 2023,Round 1,14/08/,Barcelona,Rayo Vallecano,0,0,1,g_1_b9R9x2zM,1.23,6.79,13.3,0.0,0.0
+football,Laliga 2022 2023,Round 1,14/08/,Valladolid,Villarreal,0,3,2,g_1_b9muhsz9,3.66,3.47,2.13,0.0,0.0
+football,Laliga 2022 2023,Round 1,14/08/,Celta Vigo,Espanyol,2,2,1,g_1_Ig8tXubq,1.75,3.73,5.23,0.0,0.0
+football,Laliga 2022 2023,Round 1,13/08/,Osasuna,Sevilla,2,1,0,g_1_4A6lVJSe,3.52,3.14,2.34,0.0,0.0

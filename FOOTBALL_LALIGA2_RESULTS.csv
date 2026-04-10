@@ -1,0 +1,303 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Laliga2,Round 23,27/01/,Ceuta,Cultural Leonesa,3,1,0,2.11,3.3,3.63,g_1_CK3J0qOP,2.38,0.57
+football,Laliga2,Round 24,03/02/,Mirandes,Malaga,2,1,0,3.34,2.97,2.41,g_1_WQwVCnDk,2.27,0.96
+football,Laliga2,Round 24,02/02/,Granada CF,Racing Santander,1,0,0,2.53,3.23,2.89,g_1_d8Pn09Tq,1.2,0.48
+football,Laliga2,Round 24,02/02/,Castellon,Andorra,2,0,0,1.48,4.58,6.36,g_1_EkZdkEV9,2.32,1.17
+football,Laliga2,Round 24,02/02/,Huesca,Cadiz CF,1,0,0,2.41,3.14,3.14,g_1_pU5sMjj3,1.32,0.93
+football,Laliga2,Round 24,02/02/,Eibar,Gijon,1,0,0,2.14,3.15,3.76,g_1_j9cFIHqB,0.5,0.72
+football,Laliga2,Round 24,01/02/,Almeria,Ceuta,4,2,0,1.78,3.66,4.58,g_1_INDebmbd,3.33,2.12
+football,Laliga2,Round 24,01/02/,Cordoba,Valladolid,3,1,0,1.94,3.58,3.89,g_1_W6sEKwFb,1.85,1.05
+football,Laliga2,Round 24,01/02/,Cultural Leonesa,Dep. La Coruna,0,1,2,3.57,3.1,2.22,g_1_vTbjKUKF,0.76,2.74
+football,Laliga2,Round 24,01/02/,Albacete,Zaragoza,2,0,0,0.0,0.0,0.0,g_1_KSDe2daU,1.64,0.64
+football,Laliga2,Round 24,01/02/,Burgos CF,Leganes,2,1,0,2.28,2.83,3.84,g_1_bgq6Mapn,0.44,0.73
+football,Laliga2,Round 24,31/01/,Real Sociedad B,Las Palmas,1,1,1,2.78,3.29,2.58,g_1_CtcbI8kS,0.64,0.44
+football,Laliga2,Round 23,26/01/,Dep. La Coruna,Racing Santander,0,1,2,2.1,3.37,3.59,g_1_r3fkeNom,0.92,0.48
+football,Laliga2,Round 23,26/01/,Zaragoza,Castellon,0,0,1,3.91,3.51,1.95,g_1_2DAO9M0t,0.34,1.3
+football,Laliga2,Round 23,26/01/,Eibar,Almeria,1,0,0,2.32,3.33,3.13,g_1_jmMv6v05,2.91,0.71
+football,Laliga2,Round 23,25/01/,Andorra,Huesca,1,1,1,0.0,0.0,0.0,g_1_SYzkiz1c,1.06,0.88
+football,Laliga2,Round 23,25/01/,Cadiz CF,Granada CF,1,2,2,2.67,2.95,2.95,g_1_dCLWxtWI,2.54,2.49
+football,Laliga2,Round 23,25/01/,Gijon,Mirandes,3,0,0,1.68,3.9,5.0,g_1_C2Am4IUH,2.13,0.89
+football,Laliga2,Round 23,25/01/,Las Palmas,Cordoba,1,2,2,1.89,3.45,4.27,g_1_bu4X70Vh,0.85,3.17
+football,Laliga2,Round 23,25/01/,Leganes,Real Sociedad B,2,0,0,1.91,3.33,4.36,g_1_4Irbg1Ga,2.68,0.36
+football,Laliga2,Round 23,24/01/,Valladolid,Albacete,0,1,2,2.02,3.23,4.04,g_1_jZt6iuoC,0.47,1.27
+football,Laliga2,Round 23,24/01/,Malaga,Burgos CF,3,0,0,1.93,3.14,4.62,g_1_n1zFkJFO,0.92,1.06
+football,Laliga2,Round 22,20/01/,Granada CF,Eibar,0,0,1,2.35,3.03,3.37,g_1_MZQ7rp2s,0.87,0.21
+football,Laliga2,Round 22,19/01/,Cordoba,Malaga,0,1,2,2.1,3.38,3.58,g_1_4rSlSOH0,0.93,0.55
+football,Laliga2,Round 22,19/01/,Albacete,Cadiz CF,1,0,0,2.26,3.45,3.14,g_1_nuqGt3Fd,0.86,1.17
+football,Laliga2,Round 22,19/01/,Burgos CF,Huesca,1,0,0,1.98,2.94,4.82,g_1_U380lFY2,1.49,1.35
+football,Laliga2,Round 22,19/01/,Racing Santander,Las Palmas,4,1,0,2.2,3.29,3.41,g_1_UaUFtOWg,1.81,0.74
+football,Laliga2,Round 22,18/01/,Mirandes,Andorra,1,2,2,2.68,3.26,2.68,g_1_nwb2TW8j,1.5,1.37
+football,Laliga2,Round 22,18/01/,Almeria,Dep. La Coruna,1,2,2,2.01,3.49,3.74,g_1_x2kyl6vK,1.28,2.41
+football,Laliga2,Round 22,18/01/,Zaragoza,Real Sociedad B,1,1,1,1.91,3.34,4.34,g_1_ObNOv216,0.97,1.58
+football,Laliga2,Round 22,18/01/,Cultural Leonesa,Gijon,2,4,2,3.38,3.08,2.38,g_1_AeckQ2nD,1.63,2.2
+football,Laliga2,Round 22,17/01/,Ceuta,Valladolid,0,3,2,2.58,3.03,2.98,g_1_WUTtUpml,1.78,2.34
+football,Laliga2,Round 22,17/01/,Castellon,Leganes,2,0,0,1.58,4.38,5.3,g_1_xUB8ng3F,2.04,0.5
+football,Laliga2,Round 21,13/01/,Huesca,Cordoba,1,2,2,2.66,2.94,2.98,g_1_t4VNHMtR,0.91,2.08
+football,Laliga2,Round 21,12/01/,Granada CF,Castellon,0,0,1,3.11,3.26,2.36,g_1_hrkTeuK7,0.78,0.38
+football,Laliga2,Round 21,12/01/,Malaga,Ceuta,2,1,0,2.08,3.35,3.65,g_1_KlsFJrCE,2.49,0.32
+football,Laliga2,Round 21,11/01/,Leganes,Valladolid,3,0,0,2.14,3.11,3.8,g_1_6oHu5qcL,2.24,0.8
+football,Laliga2,Round 21,11/01/,Racing Santander,Zaragoza,2,3,2,1.69,3.95,4.81,g_1_O2cCaNKr,2.14,2.03
+football,Laliga2,Round 21,11/01/,Andorra,Cultural Leonesa,1,1,1,1.98,3.54,3.79,g_1_trt8rPpp,1.63,0.48
+football,Laliga2,Round 21,11/01/,Burgos CF,Eibar,1,0,0,2.7,2.78,3.09,g_1_IPzoq2z2,0.89,0.46
+football,Laliga2,Round 21,11/01/,Las Palmas,Dep. La Coruna,1,1,1,1.93,3.23,4.47,g_1_xlWhC04l,2.0,1.18
+football,Laliga2,Round 21,11/01/,Real Sociedad B,Albacete,0,0,1,2.62,3.5,2.6,g_1_dGeKc1ke,0.62,1.65
+football,Laliga2,Round 21,10/01/,Mirandes,Almeria,2,2,1,0.0,0.0,0.0,g_1_YFP1AvZ0,1.2,2.71
+football,Laliga2,Round 21,10/01/,Cadiz CF,Gijon,3,2,0,2.71,3.07,2.88,g_1_bLDX65S8,2.31,3.4
+football,Laliga2,Round 20,05/01/,Dep. La Coruna,Cadiz CF,2,2,1,1.76,3.76,4.59,g_1_baxcfSr3,0.95,0.69
+football,Laliga2,Round 20,05/01/,Albacete,Leganes,1,3,2,2.46,3.15,3.15,g_1_APGTJo7j,2.19,1.85
+football,Laliga2,Round 20,05/01/,Zaragoza,Las Palmas,1,2,2,3.0,2.95,2.63,g_1_fRV5h6DF,1.32,1.11
+football,Laliga2,Round 20,05/01/,Ceuta,Andorra,2,1,0,2.08,3.54,3.46,g_1_McayloNM,2.53,1.57
+football,Laliga2,Round 20,04/01/,Gijon,Malaga,1,3,2,1.89,3.43,4.32,g_1_SvUDjprS,1.48,1.62
+football,Laliga2,Round 20,04/01/,Cordoba,Burgos CF,2,0,0,2.02,3.14,4.18,g_1_WhpBWOjd,2.34,1.42
+football,Laliga2,Round 20,04/01/,Valladolid,Racing Santander,1,1,1,2.03,3.55,3.58,g_1_AaXxoO5k,0.6,1.2
+football,Laliga2,Round 20,04/01/,Almeria,Granada CF,3,2,0,1.97,3.44,3.94,g_1_Awd2YpMq,1.28,2.24
+football,Laliga2,Round 20,04/01/,Castellon,Huesca,4,1,0,1.51,4.14,6.73,g_1_QXbGskac,3.24,0.98
+football,Laliga2,Round 20,03/01/,Cultural Leonesa,Real Sociedad B,1,1,1,1.83,3.46,4.58,g_1_fDjXw7bM,1.08,0.8
+football,Laliga2,Round 20,03/01/,Eibar,Mirandes,2,1,0,1.57,3.78,6.72,g_1_bocOuTT9,2.53,0.76
+football,Laliga2,Round 19,22/12/,Cadiz CF,Castellon,2,0,0,3.96,3.55,1.93,g_1_jgcRYKGP,1.3,1.83
+football,Laliga2,Round 19,22/12/,Burgos CF,Zaragoza,1,1,1,2.0,3.0,4.56,g_1_OWjkR8cJ,0.52,1.46
+football,Laliga2,Round 19,22/12/,Granada CF,Albacete,1,1,1,1.98,3.14,4.37,g_1_pGYMNf8O,2.82,1.78
+football,Laliga2,Round 19,22/12/,Mirandes,Cordoba,1,2,2,3.34,3.29,2.23,g_1_df2utxOh,1.34,2.62
+football,Laliga2,Round 19,22/12/,Real Sociedad B,Ceuta,1,3,2,2.82,3.03,2.72,g_1_0S8Wsbgt,1.6,2.54
+football,Laliga2,Round 19,21/12/,Malaga,Almeria,2,1,0,2.89,3.26,2.51,g_1_QZgdxfNH,1.67,1.53
+football,Laliga2,Round 19,21/12/,Las Palmas,Cultural Leonesa,4,0,0,1.72,3.44,5.56,g_1_4K5mvGh5,1.89,0.79
+football,Laliga2,Round 19,21/12/,Leganes,Gijon,0,1,2,2.48,3.14,3.03,g_1_jHuEPGwC,0.91,1.02
+football,Laliga2,Round 19,21/12/,Huesca,Racing Santander,1,1,1,2.56,3.26,2.81,g_1_rix6Rx9a,0.91,1.04
+football,Laliga2,Round 19,20/12/,Andorra,Dep. La Coruna,1,0,0,2.74,3.32,2.58,g_1_lp1Tk7hA,1.37,0.97
+football,Laliga2,Round 19,20/12/,Eibar,Valladolid,3,0,0,2.41,2.94,3.38,g_1_MylcTbvm,1.09,0.35
+football,Laliga2,Round 18,16/12/,Castellon,Mirandes,3,1,0,1.35,5.04,8.64,g_1_2ZeCPeME,1.93,1.05
+football,Laliga2,Round 18,15/12/,Ceuta,Las Palmas,1,1,1,2.88,3.04,2.66,g_1_ljfKNZjR,1.03,0.41
+football,Laliga2,Round 18,15/12/,Almeria,Burgos CF,1,2,2,1.74,3.57,5.11,g_1_xGS7EVDD,0.81,1.05
+football,Laliga2,Round 18,15/12/,Albacete,Malaga,1,3,2,1.88,3.44,4.39,g_1_MwJP1hU7,1.1,1.89
+football,Laliga2,Round 18,14/12/,Dep. La Coruna,Real Sociedad B,0,3,2,1.5,4.25,6.55,g_1_tlZbGiq1,1.61,1.18
+football,Laliga2,Round 18,14/12/,Zaragoza,Cadiz CF,1,2,2,2.13,3.04,3.95,g_1_2gKgxZ5K,0.94,1.8
+football,Laliga2,Round 18,14/12/,Racing Santander,Leganes,1,1,1,1.66,4.28,4.61,g_1_jJhsTUS6,1.54,2.52
+football,Laliga2,Round 18,14/12/,Gijon,Granada CF,1,0,0,2.22,3.13,3.53,g_1_nReQWCTs,0.95,0.45
+football,Laliga2,Round 18,14/12/,Valladolid,Andorra,0,1,2,1.53,4.41,5.85,g_1_hI7KiTNc,1.79,0.74
+football,Laliga2,Round 18,13/12/,Cordoba,Eibar,0,0,1,2.24,3.26,3.36,g_1_8zyiIDEl,0.59,0.0
+football,Laliga2,Round 18,13/12/,Cultural Leonesa,Huesca,0,2,2,2.17,2.84,4.16,g_1_fiaYUjbf,1.78,0.96
+football,Laliga2,Round 17,09/12/,Malaga,Zaragoza,1,1,1,2.29,3.16,3.46,g_1_fBNA7N0T,1.77,1.99
+football,Laliga2,Round 17,09/12/,Las Palmas,Mirandes,0,0,1,1.62,3.86,6.12,g_1_noK29qWG,0.58,0.71
+football,Laliga2,Round 17,09/12/,Burgos CF,Albacete,0,1,2,1.96,3.11,4.75,g_1_6kiTP4Gc,0.47,0.95
+football,Laliga2,Round 17,08/12/,Granada CF,Ceuta,1,1,1,2.0,3.39,4.05,g_1_IoM85zVr,1.08,0.69
+football,Laliga2,Round 17,08/12/,Dep. La Coruna,Castellon,1,3,2,2.31,3.16,3.43,g_1_naayOroA,0.78,2.21
+football,Laliga2,Round 17,08/12/,Eibar,Cultural Leonesa,1,2,2,1.81,3.45,5.07,g_1_fV5gDRWi,2.22,1.33
+football,Laliga2,Round 17,08/12/,Leganes,Cordoba,0,0,1,2.82,3.08,2.77,g_1_EDFH3Eae,0.31,1.65
+football,Laliga2,Round 17,07/12/,Cadiz CF,Racing Santander,2,3,2,2.99,3.5,2.37,g_1_vNN6kOvo,2.8,0.93
+football,Laliga2,Round 17,07/12/,Real Sociedad B,Gijon,0,1,2,3.52,3.26,2.22,g_1_vqas21Oj,0.37,0.6
+football,Laliga2,Round 17,07/12/,Huesca,Valladolid,1,4,2,3.34,2.97,2.46,g_1_Sr41B514,1.03,1.03
+football,Laliga2,Round 17,06/12/,Andorra,Almeria,1,2,2,0.0,0.0,0.0,g_1_nLKYTPVj,2.46,2.24
+football,Laliga2,Round 16,01/12/,Castellon,Las Palmas,1,0,0,1.94,3.48,4.19,g_1_WEDUmB3t,1.63,0.5
+football,Laliga2,Round 16,01/12/,Cordoba,Cadiz CF,1,2,2,1.9,3.5,4.32,g_1_UmC1to2U,0.84,0.35
+football,Laliga2,Round 16,01/12/,Mirandes,Real Sociedad B,1,0,0,2.01,3.4,4.01,g_1_0f5opT25,1.09,0.81
+football,Laliga2,Round 16,01/12/,Racing Santander,Eibar,4,0,0,2.0,3.6,3.79,g_1_p0nB0lmn,1.22,0.85
+football,Laliga2,Round 16,30/11/,Zaragoza,Leganes2,3,2,0,2.79,2.94,2.92,g_1_nPrSd6nB,3.05,1.56
+football,Laliga2,Round 16,30/11/,Valladolid,Malaga,1,1,1,1.78,3.5,5.15,g_1_8vXzepHN,1.2,0.51
+football,Laliga2,Round 16,30/11/,Albacete,Dep. La Coruna,0,2,2,2.68,3.27,2.76,g_1_hlrKT7IO,0.97,1.3
+football,Laliga2,Round 16,30/11/,Almeria,Huesca,0,0,1,1.75,3.61,5.15,g_1_vuHxnkYh,1.32,0.36
+football,Laliga2,Round 16,30/11/,Cultural Leonesa,Granada CF,0,1,2,2.69,3.18,2.82,g_1_tSuKbSHb,0.77,0.52
+football,Laliga2,Round 16,29/11/,Ceuta,Burgos CF,1,0,0,2.3,3.06,3.57,g_1_YLIhr7XH,1.1,0.6
+football,Laliga2,Round 16,29/11/,Gijon,Andorra,1,1,1,1.86,3.5,4.55,g_1_2mq2Zo8T,3.75,0.95
+football,Laliga2,Round 13,27/11/,Ceuta,Almeria,3,2,0,2.97,3.53,2.37,g_1_rgReL4ET,1.96,1.23
+football,Laliga2,Round 15,25/11/,Real Sociedad B,Valladolid,1,0,0,4.08,3.21,2.06,g_1_WGryUGC7,1.24,1.89
+football,Laliga2,Round 15,24/11/,Malaga,Mirandes,3,2,0,1.9,3.5,4.32,g_1_CESZVxre,1.69,1.64
+football,Laliga2,Round 15,24/11/,Burgos CF,Racing Santander,0,2,2,2.39,3.26,3.16,g_1_Wf70HwT1,0.47,1.57
+football,Laliga2,Round 15,24/11/,Cadiz CF,Cultural Leonesa,1,2,2,2.14,3.08,4.0,g_1_CjpmusL8,1.58,1.41
+football,Laliga2,Round 15,24/11/,Huesca,Gijon,2,0,0,2.3,2.86,3.88,g_1_v1URXbDr,2.07,0.93
+football,Laliga2,Round 15,23/11/,Dep. La Coruna,Ceuta,2,1,0,1.73,3.88,4.84,g_1_IBmeZBlm,1.93,1.67
+football,Laliga2,Round 15,23/11/,Granada CF,Cordoba,1,1,1,2.34,3.47,3.06,g_1_Qyi3XkJa,1.63,1.01
+football,Laliga2,Round 15,23/11/,Eibar,Zaragoza,1,2,2,1.79,3.59,4.87,g_1_KGmewLkL,3.59,1.3
+football,Laliga2,Round 15,23/11/,Leganes,Almeria,0,3,2,2.39,3.26,3.16,g_1_KzpCVTmC,2.61,0.71
+football,Laliga2,Round 15,23/11/,Andorra,Castellon,1,3,2,2.69,3.38,2.69,g_1_fNufy8wH,1.04,2.35
+football,Laliga2,Round 15,22/11/,Las Palmas,Albacete,2,1,0,1.74,3.68,5.12,g_1_bNzNiK4E,0.86,0.57
+football,Laliga2,Round 14,18/11/,Cultural Leonesa,Malaga,1,0,0,2.29,3.19,3.44,g_1_hSluCriM,0.94,0.85
+football,Laliga2,Round 14,17/11/,Zaragoza,Huesca,1,0,0,2.57,2.88,3.29,g_1_K28MOLzS,0.31,0.72
+football,Laliga2,Round 14,17/11/,Cordoba,Dep. La Coruna,1,3,2,2.24,3.26,3.46,g_1_d0eWD4M9,2.04,2.1
+football,Laliga2,Round 14,17/11/,Mirandes,Burgos CF,0,2,2,3.45,2.97,2.42,g_1_pQTJ40qd,0.73,1.61
+football,Laliga2,Round 14,17/11/,Almeria,Cadiz CF,3,0,0,1.63,4.1,5.37,g_1_OAuB6MEq,2.18,0.74
+football,Laliga2,Round 14,17/11/,Gijon,Eibar,1,1,1,2.66,2.86,3.17,g_1_jNG5S3y3,1.27,0.37
+football,Laliga2,Round 14,16/11/,Ceuta,Leganes,1,2,2,2.74,2.98,2.94,g_1_OncOFQic,1.0,1.27
+football,Laliga2,Round 14,16/11/,Racing Santander,Granada CF,2,2,1,1.81,3.8,4.43,g_1_nkAEQs6F,1.74,1.47
+football,Laliga2,Round 14,16/11/,Albacete,Andorra,1,0,0,2.06,3.65,3.52,g_1_benowU84,1.96,1.04
+football,Laliga2,Round 14,16/11/,Castellon,Real Sociedad B,5,4,0,1.34,5.27,9.53,g_1_EyIRFrxi,2.87,2.91
+football,Laliga2,Round 14,15/11/,Valladolid,Las Palmas,0,1,2,2.7,2.95,3.01,g_1_vmkgJabk,1.09,0.42
+football,Laliga2,Round 13,11/11/,Burgos CF,Castellon,0,0,1,2.61,2.96,3.12,g_1_82Zp7EgJ,0.9,0.63
+football,Laliga2,Round 13,10/11/,Cadiz CF,Valladolid,0,0,1,3.09,3.19,2.47,g_1_OAHXUHoQ,0.59,0.43
+football,Laliga2,Round 13,10/11/,Granada CF,Zaragoza,3,1,0,1.99,3.47,3.98,g_1_EudCNZw0,2.69,0.92
+football,Laliga2,Round 13,09/11/,Las Palmas,Racing Santander,3,1,0,1.94,3.38,4.38,g_1_M5aKLD8C,1.61,0.82
+football,Laliga2,Round 13,09/11/,Malaga,Cordoba,2,2,1,2.3,3.32,3.27,g_1_EDZvPnF4,0.73,2.15
+football,Laliga2,Round 13,09/11/,Dep. La Coruna,Cultural Leonesa,3,0,0,1.71,3.98,4.86,g_1_hQ73Pe9m,1.74,0.56
+football,Laliga2,Round 13,09/11/,Eibar,Albacete,3,2,0,1.84,3.68,4.43,g_1_804vR8ph,3.81,2.82
+football,Laliga2,Round 13,09/11/,Huesca,Andorra,2,2,1,2.56,3.07,3.07,g_1_Qslwujvh,1.74,1.62
+football,Laliga2,Round 13,08/11/,Real Sociedad B,Leganes,2,1,0,3.33,3.16,2.36,g_1_MwwmNQqH,1.81,1.52
+football,Laliga2,Round 13,08/11/,Mirandes,Gijon,2,1,0,3.5,3.19,2.26,g_1_G6Hh35ho,1.95,1.75
+football,Laliga2,Round 10,06/11/,Real Sociedad B,Huesca,2,0,0,3.18,2.97,2.56,g_1_21K7tfqn,2.68,0.62
+football,Laliga2,Round 12,04/11/,Valladolid,Granada CF,2,1,0,2.01,3.5,3.9,g_1_vNsUAdff,2.3,0.99
+football,Laliga2,Round 12,03/11/,Zaragoza,Dep. La Coruna,0,2,2,3.26,3.16,2.39,g_1_h6qMCIPs,1.47,0.92
+football,Laliga2,Round 12,03/11/,Castellon,Malaga,2,1,0,1.66,4.11,5.13,g_1_0fP851IE,1.51,1.23
+football,Laliga2,Round 12,03/11/,Cordoba,Ceuta,2,0,0,1.99,3.32,4.19,g_1_8Y7kIv2K,1.2,0.88
+football,Laliga2,Round 12,03/11/,Gijon,Las Palmas,0,0,1,2.98,2.68,3.01,g_1_zkyw9zP6,0.41,0.69
+football,Laliga2,Round 12,02/11/,Andorra,Cadiz CF,0,0,1,1.89,3.57,4.29,g_1_QiiiHnno,1.31,0.14
+football,Laliga2,Round 12,02/11/,Almeria,Eibar,3,1,0,1.74,3.8,4.89,g_1_p0Mfdcu1,1.33,1.2
+football,Laliga2,Round 12,02/11/,Albacete,Huesca,2,1,0,0.0,0.0,0.0,g_1_KbnMsbQ7,1.08,1.56
+football,Laliga2,Round 12,02/11/,Leganes,Burgos CF,1,2,2,2.18,2.98,4.05,g_1_tSF3fyAD,1.02,1.0
+football,Laliga2,Round 12,02/11/,Cultural Leonesa,Mirandes,3,2,0,1.9,3.5,4.32,g_1_8KSG3umR,1.09,0.76
+football,Laliga2,Round 12,01/11/,Racing Santander,Real Sociedad B,1,0,0,1.43,5.12,6.83,g_1_CnOnbJAl,0.55,1.2
+football,Laliga2,Round 11,27/10/,Dep. La Coruna,Valladolid,1,1,1,1.96,3.69,3.85,g_1_CEnciBc4,1.71,1.34
+football,Laliga2,Round 11,27/10/,Almeria,Castellon,1,0,0,1.94,3.77,3.86,g_1_0YmYhOY8,0.95,0.53
+football,Laliga2,Round 11,27/10/,Gijon,Zaragoza,1,0,0,1.65,3.7,6.16,g_1_YRenVKt2,0.28,1.47
+football,Laliga2,Round 11,26/10/,Malaga,Andorra,4,1,0,2.04,3.38,3.93,g_1_f90LM8ON,2.58,1.78
+football,Laliga2,Round 11,26/10/,Mirandes,Racing Santander,1,3,2,3.81,3.65,1.98,g_1_d0ssi23L,1.82,2.09
+football,Laliga2,Round 11,26/10/,Burgos CF,Real Sociedad B,1,0,0,1.71,3.44,6.02,g_1_v1lkgXSi,2.05,0.3
+football,Laliga2,Round 11,26/10/,Granada CF,Cadiz CF,0,0,1,2.2,3.17,3.68,g_1_hWSCotRr,2.23,0.55
+football,Laliga2,Round 11,25/10/,Albacete,Cordoba,1,3,2,2.23,3.22,3.53,g_1_Oh62VTzo,2.29,1.91
+football,Laliga2,Round 11,25/10/,Eibar,Leganes,0,0,1,2.07,3.37,3.83,g_1_8tt6kkSG,0.72,0.4
+football,Laliga2,Round 11,25/10/,Cultural Leonesa,Ceuta,0,1,2,2.35,3.33,3.17,g_1_CYrEqKee,1.02,1.07
+football,Laliga2,Round 11,25/10/,Huesca,Las Palmas,1,1,1,2.9,2.85,2.9,g_1_CC7wXtCk,0.77,0.64
+football,Laliga2,Round 10,21/10/,Cadiz CF,Burgos CF,1,3,2,2.22,2.95,3.96,g_1_pQmsQYb5,1.19,2.51
+football,Laliga2,Round 10,20/10/,Las Palmas,Eibar,3,1,0,2.25,2.83,4.11,g_1_nkpbMjbU,1.79,0.59
+football,Laliga2,Round 10,20/10/,Cordoba,Almeria,1,1,1,2.82,3.38,2.56,g_1_S85XzjDN,2.14,0.96
+football,Laliga2,Round 10,20/10/,Racing Santander,Dep. La Coruna,2,1,0,2.41,3.33,3.07,g_1_hjikOCTH,2.11,1.03
+football,Laliga2,Round 10,19/10/,Castellon2,Albacete,0,1,2,1.62,4.33,5.15,g_1_OAaYRfUh,2.2,2.06
+football,Laliga2,Round 10,19/10/,Valladolid,Gijon,2,3,2,2.27,3.09,3.61,g_1_6gHOxCrB,1.4,2.5
+football,Laliga2,Round 10,19/10/,Leganes,Malaga,2,0,0,1.96,3.4,4.22,g_1_GpdQTGat,1.7,1.25
+football,Laliga2,Round 10,19/10/,Zaragoza2,Cultural Leonesa,0,5,2,1.91,3.41,4.47,g_1_bTDGvYDb,0.35,2.95
+football,Laliga2,Round 10,18/10/,Ceuta,Mirandes,2,0,0,1.86,3.6,4.46,g_1_Eq4N9DEO,2.27,0.35
+football,Laliga2,Round 10,18/10/,Andorra,Granada CF,0,0,1,2.27,3.57,3.11,g_1_YgCCOUgB,0.81,0.71
+football,Laliga2,Round 9,14/10/,Cordoba,Cultural Leonesa,1,0,0,1.63,3.98,5.61,g_1_CxZP0IVg,2.1,0.81
+football,Laliga2,Round 9,13/10/,Malaga,Dep. La Coruna,3,0,0,3.57,3.18,2.24,g_1_xv9bFHpm,1.85,1.23
+football,Laliga2,Round 9,13/10/,Burgos CF,Valladolid,0,1,2,3.02,2.97,2.68,g_1_WKIqLnH8,0.33,0.44
+football,Laliga2,Round 9,13/10/,Cadiz CF,Huesca,1,0,0,2.35,2.98,3.56,g_1_GAuH2v1s,0.93,1.1
+football,Laliga2,Round 9,12/10/,Eibar,Castellon,0,0,1,2.34,3.18,3.34,g_1_h6XRKwNP,0.41,1.48
+football,Laliga2,Round 9,12/10/,Gijon,Racing Santander,2,1,0,2.14,3.46,3.49,g_1_tW5FBZqC,1.49,1.11
+football,Laliga2,Round 9,12/10/,Albacete,Ceuta,0,0,1,1.98,3.45,4.06,g_1_ldgaDzb2,1.61,0.22
+football,Laliga2,Round 9,12/10/,Almeria,Zaragoza,4,2,0,1.68,3.88,5.37,g_1_tIQtczVI,2.67,2.61
+football,Laliga2,Round 9,12/10/,Real Sociedad B,Andorra,3,0,0,3.04,3.35,2.42,g_1_QT84QjPb,1.43,0.48
+football,Laliga2,Round 9,11/10/,Mirandes,Leganes,0,0,1,3.68,3.09,2.24,g_1_p4C6DeFa,1.54,1.26
+football,Laliga2,Round 9,11/10/,Granada CF,Las Palmas,0,0,1,2.82,3.18,2.69,g_1_pjXXbd06,0.86,0.79
+football,Laliga2,Round 8,07/10/,Cultural Leonesa,Albacete,0,0,1,3.01,3.36,2.43,g_1_zVpw8uMM,0.64,0.38
+football,Laliga2,Round 8,06/10/,Las Palmas,Cadiz CF,1,0,0,0.0,0.0,0.0,g_1_SSPH0cEd,0.99,0.38
+football,Laliga2,Round 8,06/10/,Racing Santander,Malaga,3,0,0,1.88,3.79,4.09,g_1_lYACMvyG,3.03,0.63
+football,Laliga2,Round 8,06/10/,Valladolid,Mirandes,1,1,1,1.64,4.09,5.37,g_1_tWkiFdTk,1.91,0.66
+football,Laliga2,Round 8,05/10/,Castellon,Gijon,3,1,0,2.03,3.65,3.62,g_1_tdZslKUj,1.68,1.89
+football,Laliga2,Round 8,05/10/,Zaragoza,Cordoba,0,1,2,2.29,3.36,3.26,g_1_fZH3O063,1.06,0.55
+football,Laliga2,Round 8,05/10/,Granada CF,Real Sociedad B,5,2,0,1.88,3.78,4.09,g_1_UHFxA1iA,1.02,1.51
+football,Laliga2,Round 8,05/10/,Andorra,Leganes,1,2,2,2.24,3.18,3.57,g_1_6Rh3SCfn,0.81,1.06
+football,Laliga2,Round 8,05/10/,Huesca,Burgos CF,2,1,0,2.43,3.06,3.3,g_1_6Dy92Jqp,1.08,0.88
+football,Laliga2,Round 8,04/10/,Dep. La Coruna,Almeria,1,1,1,1.98,3.41,4.13,g_1_Mo9KKI5S,0.94,0.73
+football,Laliga2,Round 8,04/10/,Ceuta,Eibar,1,0,0,2.94,3.32,2.5,g_1_d4HUBNMc,0.72,0.81
+football,Laliga2,Round 7,30/09/,Leganes,Castellon,0,1,2,2.33,3.4,3.14,g_1_zeUTt3NN,0.35,0.6
+football,Laliga2,Round 7,29/09/,Huesca,Granada CF,0,1,2,2.36,2.83,3.79,g_1_r1iecO74,1.77,0.61
+football,Laliga2,Round 7,29/09/,Gijon,Albacete,3,4,2,1.94,3.66,3.97,g_1_lvWLrPhB,2.48,1.99
+football,Laliga2,Round 7,29/09/,Valladolid,Cultural Leonesa,0,1,2,1.54,4.43,5.92,g_1_lbf3e2xH,1.53,0.47
+football,Laliga2,Round 7,28/09/,Burgos CF,Malaga,2,1,0,2.1,3.07,4.19,g_1_6HXhujnJ,0.68,0.35
+football,Laliga2,Round 7,28/09/,Cadiz CF,Ceuta,0,0,1,2.09,3.28,3.88,g_1_Kbv5n7gn,0.97,0.96
+football,Laliga2,Round 7,28/09/,Real Sociedad B,Cordoba,1,1,1,3.32,3.27,2.3,g_1_fuB0ysoo,1.3,0.88
+football,Laliga2,Round 7,28/09/,Las Palmas,Almeria,0,1,2,2.2,3.33,3.48,g_1_ADrCgt7T,0.9,0.69
+football,Laliga2,Round 7,28/09/,Eibar,Dep. La Coruna,1,1,1,2.68,3.18,2.83,g_1_nZcnapwh,1.23,1.91
+football,Laliga2,Round 7,28/09/,Racing Santander,Andorra,1,2,2,1.84,3.98,4.08,g_1_jFIg899U,2.1,2.06
+football,Laliga2,Round 7,27/09/,Mirandes,Zaragoza,0,1,2,2.56,3.18,2.97,g_1_SOsDpoOb,0.93,0.87
+football,Laliga2,Round 6,23/09/,Burgos CF,Granada CF,1,1,1,2.13,3.29,3.74,g_1_EPeOwwBE,0.86,0.31
+football,Laliga2,Round 6,22/09/,Cordoba,Racing Santander,2,2,1,2.21,3.67,3.15,g_1_tzt3Wf3l,2.35,1.85
+football,Laliga2,Round 6,22/09/,Eibar,Real Sociedad B,2,1,0,1.6,3.97,6.07,g_1_YkfCSC2D,1.33,1.24
+football,Laliga2,Round 6,22/09/,Malaga,Cadiz CF,0,1,2,2.1,3.33,3.79,g_1_hfRxqYnf,1.32,0.99
+football,Laliga2,Round 6,21/09/,Albacete,Valladolid,2,0,0,2.81,3.38,2.57,g_1_YTIyGZI7,1.47,1.7
+football,Laliga2,Round 6,21/09/,Ceuta,Zaragoza,1,0,0,2.04,3.57,3.67,g_1_MkaWyHuR,0.4,1.25
+football,Laliga2,Round 6,21/09/,Almeria,Gijon2,2,1,0,1.85,3.79,4.21,g_1_pUNUpfIs,1.63,1.17
+football,Laliga2,Round 6,21/09/,Andorra,Mirandes,1,1,1,1.77,3.69,4.87,g_1_fmPpAVvI,0.76,1.1
+football,Laliga2,Round 6,21/09/,Leganes,Las Palmas,0,1,2,2.38,2.98,3.51,g_1_0dnbjGfK,0.76,0.7
+football,Laliga2,Round 6,20/09/,Cultural Leonesa,Castellon,1,3,2,3.36,3.77,2.09,g_1_Y3ZpsCH6,0.39,2.62
+football,Laliga2,Round 6,20/09/,Dep. La Coruna,Huesca,4,0,0,1.64,3.75,6.08,g_1_EmvBUYX0,2.53,0.32
+football,Laliga2,Round 5,16/09/,Zaragoza,Albacete,0,0,1,2.46,3.34,2.98,g_1_naue3dZ1,0.62,0.78
+football,Laliga2,Round 5,15/09/,Granada CF,Leganes,0,2,2,2.61,3.06,3.02,g_1_bZ67C0CF,1.07,0.96
+football,Laliga2,Round 5,15/09/,Castellon,Ceuta,3,3,1,1.58,4.18,5.87,g_1_QL8aEMs3,1.89,0.75
+football,Laliga2,Round 5,15/09/,Gijon,Burgos CF,2,3,2,1.95,3.19,4.63,g_1_v7stRaR8,2.76,1.37
+football,Laliga2,Round 5,14/09/,Racing Santander,Cultural Leonesa,2,4,2,1.53,4.63,5.92,g_1_W4MKJHJr,2.58,2.87
+football,Laliga2,Round 5,14/09/,Andorra,Cordoba,3,1,0,2.35,3.58,2.97,g_1_nNLxCiA5,1.76,1.6
+football,Laliga2,Round 5,14/09/,Valladolid,Almeria,3,1,0,2.1,3.49,3.59,g_1_SWFTHele,2.22,2.03
+football,Laliga2,Round 5,14/09/,Huesca,Malaga,1,0,0,2.24,3.09,3.68,g_1_f10GAvsS,0.9,0.31
+football,Laliga2,Round 5,13/09/,Cadiz CF,Eibar,1,0,0,2.24,3.05,3.76,g_1_CtRCjJkd,0.66,1.57
+football,Laliga2,Round 5,13/09/,Mirandes,Dep. La Coruna,1,5,2,3.38,3.33,2.25,g_1_zZzkPwdL,0.43,2.98
+football,Laliga2,Round 5,13/09/,Las Palmas,Real Sociedad B,2,1,0,1.46,4.44,7.69,g_1_Qqin5I4k,2.0,0.11
+football,Laliga2,Round 4,09/09/,Eibar,Andorra,2,0,0,2.14,3.17,3.88,g_1_Q7XTDDug,2.33,0.92
+football,Laliga2,Round 4,08/09/,Almeria,Racing Santander,2,3,2,1.86,3.95,3.96,g_1_6LN4dlMH,1.85,1.15
+football,Laliga2,Round 4,08/09/,Cultural Leonesa,Leganes,0,0,1,3.13,3.18,2.46,g_1_pSAWAmyB,0.19,1.84
+football,Laliga2,Round 4,07/09/,Burgos CF,Las Palmas,0,0,1,2.3,3.14,3.47,g_1_pYDt2hht,0.42,1.41
+football,Laliga2,Round 4,07/09/,Real Sociedad B,Cadiz CF,3,3,1,3.76,3.06,2.23,g_1_2mHDfSjU,2.37,0.23
+football,Laliga2,Round 4,07/09/,Ceuta,Huesca,2,1,0,2.81,3.06,2.79,g_1_xtWm0WMh,1.69,0.55
+football,Laliga2,Round 4,07/09/,Malaga,Granada CF,2,2,1,2.01,3.19,4.34,g_1_x27OC96b,1.74,1.29
+football,Laliga2,Round 4,07/09/,Zaragoza,Valladolid,1,1,1,2.78,3.17,2.73,g_1_4GN4huLq,0.4,0.87
+football,Laliga2,Round 4,06/09/,Dep. La Coruna,Gijon,1,0,0,2.17,3.28,3.63,g_1_beKdbAi5,0.65,0.32
+football,Laliga2,Round 4,06/09/,Cordoba,Castellon,2,1,0,2.22,3.61,3.19,g_1_IaiNEVyn,2.84,1.45
+football,Laliga2,Round 4,06/09/,Albacete,Mirandes,1,4,2,1.84,3.51,4.67,g_1_4vdYcttP,0.73,1.57
+football,Laliga2,Round 3,02/09/,Leganes,Dep. La Coruna,2,2,1,2.48,2.94,3.19,g_1_4AUx96lQ,1.45,2.31
+football,Laliga2,Round 3,02/09/,Huesca,Eibar,2,1,0,2.89,2.56,3.11,g_1_lr693pCm,1.35,0.9
+football,Laliga2,Round 3,01/09/,Granada CF,Mirandes,1,2,2,2.05,3.25,3.8,g_1_rs1edT4K,0.81,1.39
+football,Laliga2,Round 3,01/09/,Las Palmas,Malaga,0,1,2,1.91,3.42,4.12,g_1_EPiRj7Ss,0.87,1.04
+football,Laliga2,Round 3,01/09/,Andorra,Burgos CF,2,1,0,2.3,3.21,3.21,g_1_KAULFZAt,1.59,0.95
+football,Laliga2,Round 3,01/09/,Cadiz CF,Albacete,2,1,0,1.87,3.63,4.04,g_1_8Opzkocf,0.69,1.22
+football,Laliga2,Round 3,31/08/,Castellon,Zaragoza,1,1,1,1.76,3.96,4.22,g_1_2oO8YPCD,2.0,1.23
+football,Laliga2,Round 3,31/08/,Valladolid,Cordoba,0,0,1,1.96,3.51,3.81,g_1_x4xio3dJ,1.11,0.34
+football,Laliga2,Round 3,31/08/,Racing Santander,Ceuta,4,1,0,1.56,4.07,5.85,g_1_txqrmPR6,3.6,1.27
+football,Laliga2,Round 3,30/08/,Gijon,Cultural Leonesa,1,0,0,1.67,3.58,5.56,g_1_za4H1Ot0,1.5,0.31
+football,Laliga2,Round 3,30/08/,Real Sociedad B,Almeria,2,2,1,4.0,3.4,1.94,g_1_WQcQa2BC,1.31,1.23
+football,Laliga2,Round 2,26/08/,Cordoba,Las Palmas,1,3,2,2.02,3.34,3.8,g_1_4I2gtHEM,1.45,1.57
+football,Laliga2,Round 2,26/08/,Albacete,Racing Santander,2,3,2,1.91,3.71,3.76,g_1_KUSkMeNj,0.36,1.24
+football,Laliga2,Round 2,25/08/,Malaga,Real Sociedad B,1,0,0,1.76,3.43,5.02,g_1_fmsYYY6d,1.26,0.42
+football,Laliga2,Round 2,25/08/,Cultural Leonesa,Almeria,0,1,2,3.55,3.6,2.01,g_1_fLK0znr1,0.68,1.01
+football,Laliga2,Round 2,25/08/,Dep. La Coruna,Burgos CF,0,0,1,1.83,3.33,4.72,g_1_MgZJdxa3,0.63,0.79
+football,Laliga2,Round 2,24/08/,Zaragoza,Andorra,1,3,2,1.77,3.53,4.79,g_1_6TN98I3D,1.5,1.88
+football,Laliga2,Round 2,24/08/,Ceuta,Gijon,0,1,2,2.77,2.82,2.92,g_1_8j9prwpA,0.93,0.86
+football,Laliga2,Round 2,24/08/,Mirandes,Huesca,0,1,2,4.09,2.87,2.15,g_1_l8k0x8Dl,0.35,0.45
+football,Laliga2,Round 2,23/08/,Castellon,Valladolid,0,1,2,1.93,3.88,3.54,g_1_zwBxpaFc,0.89,0.98
+football,Laliga2,Round 2,23/08/,Leganes,Cadiz CF,1,1,1,2.38,3.0,3.3,g_1_ILSSfGTF,1.31,0.88
+football,Laliga2,Round 2,23/08/,Eibar,Granada CF,3,0,0,1.83,3.43,4.54,g_1_YXhPzexp,1.49,0.06
+football,Laliga2,Round 1,19/08/,Almeria,Albacete,4,4,1,1.65,4.24,4.61,g_1_bJOvJlfM,3.59,1.9
+football,Laliga2,Round 1,19/08/,Gijon,Cordoba,2,1,0,2.2,3.27,3.35,g_1_INe5Z9v3,1.53,0.8
+football,Laliga2,Round 1,18/08/,Huesca,Leganes,1,1,1,2.84,2.74,2.93,g_1_W6XNMWfc,1.37,0.74
+football,Laliga2,Round 1,18/08/,Las Palmas,Andorra,1,1,1,1.63,3.72,5.78,g_1_jksnDJN0,0.7,0.27
+football,Laliga2,Round 1,18/08/,Cadiz CF,Mirandes,1,0,0,1.57,3.83,6.3,g_1_EV2wFKyi,1.63,0.01
+football,Laliga2,Round 1,18/08/,Real Sociedad B,Zaragoza,1,0,0,3.28,3.03,2.37,g_1_x4zWKAP9,0.47,1.95
+football,Laliga2,Round 1,17/08/,Granada CF,Dep. La Coruna,1,3,2,2.54,3.03,3.0,g_1_OzR5Xm9F,0.58,2.01
+football,Laliga2,Round 1,17/08/,Malaga,Eibar,1,1,1,2.22,3.02,3.62,g_1_UZhwFugl,0.56,0.74
+football,Laliga2,Round 1,17/08/,Racing Santander,Castellon,3,1,0,2.0,3.69,3.5,g_1_U1FADSHq,2.17,1.35
+football,Laliga2,Round 1,16/08/,Burgos CF,Cultural Leonesa,5,1,0,1.88,3.14,4.82,g_1_IaH7KtET,4.07,0.25
+football,Laliga2,Round 1,16/08/,Valladolid,Ceuta,3,0,0,1.96,3.22,4.22,g_1_QT8JB6nd,3.29,0.66
+football,Laliga2,Round 25,08/02/,Zaragoza,Eibar,1,1,1,3.57,2.89,2.35,g_1_pCCBPPde,1.22,0.36
+football,Laliga2,Round 25,08/02/,Las Palmas,Burgos CF,0,0,1,1.91,3.12,4.78,g_1_hEXWW74L,1.91,0.2
+football,Laliga2,Round 25,07/02/,Andorra,Real Sociedad B,1,2,2,1.67,3.87,5.1,g_1_AHS5mh0M,0.76,0.35
+football,Laliga2,Round 25,07/02/,Leganes,Granada CF,1,0,0,2.32,3.03,3.43,g_1_tv6KN3R7,0.92,0.49
+football,Laliga2,Round 25,09/02/,Malaga,Cultural Leonesa,2,1,0,1.74,3.55,5.07,g_1_SWoFqolR,1.32,0.09
+football,Laliga2,Round 25,09/02/,Gijon,Huesca,2,1,0,1.88,3.3,4.58,g_1_6Hc6o7JE,0.55,0.66
+football,Laliga2,Round 25,09/02/,Cadiz CF,Almeria,1,2,2,2.87,3.3,2.56,g_1_bFxovPBl,1.89,1.13
+football,Laliga2,Round 25,09/02/,Dep. La Coruna,Albacete,2,1,0,1.71,3.99,4.83,g_1_KnKPYTZ8,0.48,2.04
+football,Laliga2,Round 25,08/02/,Valladolid,Castellon,0,4,2,3.15,3.36,2.29,g_1_CbE3RoSr,0.94,1.42
+football,Laliga2,Round 25,10/02/,Racing Santander,Mirandes,1,0,0,1.61,4.14,5.32,g_1_fsWgx3t1,2.57,0.43
+football,Laliga2,Round 26,14/02/,Almeria,Andorra,3,2,0,1.72,4.05,4.48,g_1_6mEyrWNq,2.14,1.74
+football,Laliga2,Round 26,15/02/,Granada CF,Valladolid,5,1,0,0.0,0.0,0.0,g_1_nBPymKfJ,2.76,0.52
+football,Laliga2,Round 26,15/02/,Cultural Leonesa,Zaragoza,0,0,1,2.25,3.3,3.28,g_1_xvymfy2n,1.81,1.06
+football,Laliga2,Round 26,15/02/,Burgos CF,Cadiz CF,1,1,1,1.91,3.02,5.03,g_1_6wZtbp3K,1.49,0.39
+football,Laliga2,Round 26,14/02/,Cordoba,Leganes,2,1,0,1.93,3.56,3.97,g_1_byELj2ef,2.34,1.39
+football,Laliga2,Round 26,16/02/,Castellon,Dep. La Coruna,2,0,0,1.77,3.88,4.37,g_1_xMPChOQs,0.23,0.89
+football,Laliga2,Round 26,16/02/,Albacete,Gijon,1,1,1,2.1,3.27,3.7,g_1_SfU1zsBD,1.19,1.78
+football,Laliga2,Round 26,16/02/,Eibar,Racing Santander,2,1,0,2.26,3.26,3.3,g_1_61HTltQ6,1.65,0.74
+football,Laliga2,Round 26,16/02/,Huesca,Ceuta,2,0,0,2.16,3.12,3.72,g_1_Y5UehFWb,0.9,1.02
+football,Laliga2,Round 26,15/02/,Mirandes,Las Palmas,1,1,1,3.53,3.15,2.21,g_1_tWX3jg1B,0.33,1.11
+football,Laliga2,Round 26,17/02/,Real Sociedad B,Malaga,2,1,0,2.85,3.2,2.58,g_1_2oMClXVN,1.34,1.51
+football,Laliga2,Round 27,22/02/,Las Palmas,Castellon,1,1,1,2.66,3.14,2.79,g_1_ENAkfdJq,1.2,1.88
+football,Laliga2,Round 27,22/02/,Almeria,Cordoba,2,1,0,2.17,3.54,3.23,g_1_GC0A30dc,1.41,0.68
+football,Laliga2,Round 27,22/02/,Dep. La Coruna,Eibar,1,0,0,1.91,3.42,4.22,g_1_29zyk1s4,1.74,0.68
+football,Laliga2,Round 27,22/02/,Huesca,Mirandes,1,2,2,2.09,2.95,4.27,g_1_byUqmuCG,1.42,1.31
+football,Laliga2,Round 27,21/02/,Leganes,Cultural Leonesa,1,1,1,1.83,3.46,4.64,g_1_4YWioJtT,0.87,0.97
+football,Laliga2,Round 27,21/02/,Ceuta,Granada CF,2,1,0,2.71,3.0,2.86,g_1_UexTjNCi,1.55,1.48
+football,Laliga2,Round 27,24/02/,Cadiz CF,Real Sociedad B,0,2,2,2.19,3.36,3.36,g_1_CK7rqBgo,1.16,2.11
+football,Laliga2,Round 27,23/02/,Malaga,Albacete,1,0,0,1.97,3.44,3.94,g_1_CvfJ1vR9,1.37,0.28
+football,Laliga2,Round 27,23/02/,Racing Santander,Burgos CF,1,0,0,2.01,3.33,3.93,g_1_phhRaIeM,0.47,0.6
+football,Laliga2,Round 27,23/02/,Andorra,Zaragoza,2,1,0,1.92,3.53,4.04,g_1_2F7ptAhd,1.29,0.11
+football,Laliga2,Round 27,22/02/,Gijon,Valladolid,2,2,1,2.03,3.31,3.86,g_1_l68Ouc4j,0.95,2.75
+football,Laliga2,Round 25,26/02/,Ceuta,Cordoba,3,2,0,3.22,3.16,2.35,g_1_viswBQs2,0.56,1.78
+football,Laliga2,Round 28,01/03/,Castellon,Racing Santander,1,3,2,1.65,4.22,4.78,g_1_2qipGwt3,1.75,3.27
+football,Laliga2,Round 28,01/03/,Granada CF,Malaga,0,1,2,2.23,3.04,3.64,g_1_A9fhEHAF,1.04,2.1
+football,Laliga2,Round 28,01/03/,Valladolid,Huesca,1,0,0,1.78,3.54,4.78,g_1_UHV78nvf,1.94,0.43
+football,Laliga2,Round 28,01/03/,Zaragoza,Burgos CF,0,1,2,3.04,3.04,2.54,g_1_0vZW6Z2k,1.61,1.02
+football,Laliga2,Round 28,28/02/,Albacete,Almeria,1,1,1,2.72,3.39,2.57,g_1_MmEchzld,1.52,2.26

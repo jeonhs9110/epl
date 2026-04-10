@@ -1,0 +1,381 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Premier League 2022 2023,Round 38,29/05/,Arsenal,Wolves,5,0,0,g_1_M1w8YmqE,1.32,6.08,9.47,2.68,0.51
+football,Premier League 2022 2023,Round 38,29/05/,Aston Villa,Brighton,2,1,0,g_1_KndBX7bK,1.89,4.09,3.88,2.87,1.56
+football,Premier League 2022 2023,Round 38,29/05/,Brentford,Manchester City,1,0,0,g_1_E9eFWRDQ,3.7,3.61,2.06,0.44,0.6
+football,Premier League 2022 2023,Round 38,29/05/,Chelsea,Newcastle,1,1,1,g_1_GIssSoMs,3.09,3.69,2.3,1.77,1.5
+football,Premier League 2022 2023,Round 38,29/05/,Crystal Palace,Nottingham,1,1,1,g_1_YgxnR5yl,1.66,4.07,5.52,1.73,0.46
+football,Premier League 2022 2023,Round 38,29/05/,Everton,Bournemouth,1,0,0,g_1_CpyjQPjf,1.63,4.11,5.74,1.0,0.46
+football,Premier League 2022 2023,Round 38,29/05/,Leeds,Tottenham,1,4,2,g_1_67zfPq60,2.94,4.01,2.27,1.53,2.09
+football,Premier League 2022 2023,Round 38,29/05/,Leicester,West Ham,2,1,0,g_1_KAvbO3L6,2.19,3.9,3.15,1.4,1.38
+football,Premier League 2022 2023,Round 38,29/05/,Manchester Utd,Fulham,2,1,0,g_1_2ZT2NNzD,1.48,4.92,6.6,2.79,1.92
+football,Premier League 2022 2023,Round 38,29/05/,Southampton,Liverpool,4,4,1,g_1_tQS6MsjJ,6.08,4.67,1.54,1.9,3.8
+football,Premier League 2022 2023,Round 32,26/05/,Manchester Utd,Chelsea,4,1,0,g_1_n7guQMeI,1.61,4.61,5.22,4.65,1.75
+football,Premier League 2022 2023,Round 32,25/05/,Brighton,Manchester City,1,1,1,g_1_G8hKUpsm,4.17,4.24,1.8,2.4,1.77
+football,Premier League 2022 2023,Round 37,23/05/,Newcastle,Leicester,0,0,1,g_1_jH78Dn7l,1.34,5.88,8.44,2.35,0.08
+football,Premier League 2022 2023,Round 37,22/05/,Manchester City,Chelsea,1,0,0,g_1_xE34ESir,1.55,4.38,6.31,1.25,1.37
+football,Premier League 2022 2023,Round 37,21/05/,Brighton,Southampton,3,1,0,g_1_0W0yLUEE,1.23,7.49,11.8,2.79,0.72
+football,Premier League 2022 2023,Round 37,21/05/,West Ham,Leeds,3,1,0,g_1_t60LApi7,2.48,3.57,2.88,2.09,0.8
+football,Premier League 2022 2023,Round 37,21/05/,Nottingham,Arsenal,1,0,0,g_1_YucDC6Mf,5.57,4.31,1.62,0.58,0.66
+football,Premier League 2022 2023,Round 37,20/05/,Bournemouth,Manchester Utd,0,1,2,g_1_Mu2XLAa8,7.57,5.33,1.41,1.18,1.47
+football,Premier League 2022 2023,Round 37,20/05/,Fulham,Crystal Palace,2,2,1,g_1_trIYJlUK,2.24,3.3,3.56,1.67,1.89
+football,Premier League 2022 2023,Round 37,20/05/,Liverpool,Aston Villa,1,1,1,g_1_KYGxJ8qR,1.5,4.81,6.53,0.67,1.51
+football,Premier League 2022 2023,Round 37,20/05/,Wolves,Everton,1,1,1,g_1_KdaP946D,3.07,3.58,2.35,1.37,1.93
+football,Premier League 2022 2023,Round 37,20/05/,Tottenham,Brentford,1,3,2,g_1_CWeHBQy1,1.88,3.84,4.18,1.76,1.2
+football,Premier League 2022 2023,Round 25,19/05/,Newcastle,Brighton,4,1,0,g_1_Q1SWq2U0,1.85,4.1,4.1,2.99,0.53
+football,Premier League 2022 2023,Round 36,16/05/,Leicester,Liverpool,0,3,2,g_1_CAKtamhe,5.03,4.27,1.67,0.59,2.21
+football,Premier League 2022 2023,Round 36,15/05/,Arsenal,Brighton,0,3,2,g_1_zPwj9XF2,1.72,4.32,4.62,0.76,1.71
+football,Premier League 2022 2023,Round 36,14/05/,Brentford,West Ham,2,0,0,g_1_8xxb7BpF,1.9,3.69,4.31,3.62,0.22
+football,Premier League 2022 2023,Round 36,14/05/,Everton,Manchester City,0,3,2,g_1_4pHY09Nr,9.07,5.54,1.35,1.76,0.7
+football,Premier League 2022 2023,Round 36,13/05/,Aston Villa,Tottenham,2,1,0,g_1_EFxf8iV8,2.44,3.72,2.85,1.16,1.18
+football,Premier League 2022 2023,Round 36,13/05/,Chelsea,Nottingham,2,2,1,g_1_KCu26VaL,1.58,4.34,5.94,1.14,1.72
+football,Premier League 2022 2023,Round 36,13/05/,Crystal Palace,Bournemouth,2,0,0,g_1_2yV65kFR,1.77,3.84,4.87,1.5,0.32
+football,Premier League 2022 2023,Round 36,13/05/,Manchester Utd,Wolves,2,0,0,g_1_fZ9ob771,1.4,5.41,7.57,2.51,0.34
+football,Premier League 2022 2023,Round 36,13/05/,Southampton,Fulham,0,2,2,g_1_8xEkcRM7,2.9,3.59,2.45,0.24,1.49
+football,Premier League 2022 2023,Round 36,13/05/,Leeds,Newcastle,2,2,1,g_1_YJLx0Txk,5.3,4.54,1.65,2.21,2.78
+football,Premier League 2022 2023,Round 35,09/05/,Nottingham,Southampton,4,3,0,g_1_Cjhemjgq,2.01,3.6,3.91,1.8,1.6
+football,Premier League 2022 2023,Round 35,09/05/,Brighton,Everton,1,5,2,g_1_CSDCeEo3,1.38,5.64,7.6,2.99,2.23
+football,Premier League 2022 2023,Round 35,08/05/,Fulham,Leicester,5,3,0,g_1_fi3HfY09,2.69,3.38,2.76,1.21,2.91
+football,Premier League 2022 2023,Round 35,08/05/,West Ham,Manchester Utd,1,0,0,g_1_KGe3oUNe,3.97,3.67,1.98,1.21,1.02
+football,Premier League 2022 2023,Round 35,08/05/,Newcastle,Arsenal,0,2,2,g_1_69FSiWpS,2.51,3.88,2.67,1.42,1.32
+football,Premier League 2022 2023,Round 35,07/05/,Liverpool,Brentford,1,0,0,g_1_Ys2LghGF,1.45,5.3,7.3,2.23,0.19
+football,Premier League 2022 2023,Round 35,06/05/,Bournemouth,Chelsea,1,3,2,g_1_bP98dfWd,3.66,3.72,2.11,1.12,1.43
+football,Premier League 2022 2023,Round 35,06/05/,Manchester City,Leeds,2,1,0,g_1_SIGOhCVL,1.17,9.5,18.0,2.67,0.22
+football,Premier League 2022 2023,Round 35,06/05/,Tottenham,Crystal Palace,1,0,0,g_1_QgdanA8k,1.88,3.96,4.28,1.0,0.35
+football,Premier League 2022 2023,Round 35,06/05/,Wolves,Aston Villa,1,0,0,g_1_b7f7plw2,3.17,3.48,2.42,0.74,1.62
+football,Premier League 2022 2023,Round 28,05/05/,Brighton,Manchester Utd,1,0,0,g_1_6DkGCi44,2.32,3.87,2.93,2.15,1.26
+football,Premier League 2022 2023,Round 28,04/05/,Liverpool,Fulham,1,0,0,g_1_2uqPAVYG,1.33,5.88,9.2,1.71,0.55
+football,Premier League 2022 2023,Round 28,04/05/,Manchester City,West Ham,3,0,0,g_1_d2rT9klN,1.18,8.68,15.0,2.55,0.39
+football,Premier League 2022 2023,Round 34,03/05/,Arsenal,Chelsea,3,1,0,g_1_Gr9TeNun,1.6,4.41,5.6,2.1,0.6
+football,Premier League 2022 2023,Round 34,02/05/,Leicester,Everton,2,2,1,g_1_CU4liafH,1.94,3.58,4.25,3.53,3.39
+football,Premier League 2022 2023,Round 34,01/05/,Liverpool,Tottenham,4,3,0,g_1_lfSHZWOq,1.55,4.81,5.57,2.57,2.15
+football,Premier League 2022 2023,Round 34,30/04/,Bournemouth,Leeds,4,1,0,g_1_xhAPd3Qu,2.49,3.46,2.94,2.13,1.79
+football,Premier League 2022 2023,Round 34,30/04/,Fulham,Manchester City,1,2,2,g_1_I75phuuB,9.95,6.17,1.3,0.17,2.79
+football,Premier League 2022 2023,Round 34,30/04/,Manchester Utd,Aston Villa,1,0,0,g_1_6VMMYjvj,1.78,4.11,4.45,1.29,0.49
+football,Premier League 2022 2023,Round 34,30/04/,Newcastle,Southampton,3,1,0,g_1_pMLQXAgd,1.29,6.27,10.7,4.69,0.89
+football,Premier League 2022 2023,Round 34,29/04/,Brentford,Nottingham,2,1,0,g_1_pIDXfseh,1.77,3.69,5.13,1.77,0.81
+football,Premier League 2022 2023,Round 34,29/04/,Brighton,Wolves,6,0,0,g_1_O8Cyf1Ab,1.62,4.26,5.57,3.58,0.76
+football,Premier League 2022 2023,Round 34,29/04/,Crystal Palace,West Ham,4,3,0,g_1_6X1tgLP4,2.62,3.3,2.89,2.23,2.02
+football,Premier League 2022 2023,Round 33,28/04/,Tottenham,Manchester Utd,2,2,1,g_1_ClR1sOQh,2.92,3.94,2.38,2.36,2.17
+football,Premier League 2022 2023,Round 33,28/04/,Everton,Newcastle,1,4,2,g_1_EDoRmQmP,4.8,3.86,1.82,0.69,2.58
+football,Premier League 2022 2023,Round 33,28/04/,Southampton,Bournemouth,0,1,2,g_1_bRvFx0uO,2.5,3.5,3.02,0.53,1.05
+football,Premier League 2022 2023,Round 33,27/04/,Manchester City,Arsenal,4,1,0,g_1_CUrJyKfU,1.65,4.38,5.55,2.22,0.52
+football,Premier League 2022 2023,Round 33,27/04/,Chelsea,Brentford,0,2,2,g_1_44uBwtQH,1.8,3.82,5.0,1.41,1.13
+football,Premier League 2022 2023,Round 33,27/04/,West Ham,Liverpool,1,2,2,g_1_6BQ5trta,3.9,4.1,1.94,0.83,2.16
+football,Premier League 2022 2023,Round 33,27/04/,Nottingham,Brighton,3,1,0,g_1_boNcr4Bn,5.5,4.4,1.65,2.67,2.55
+football,Premier League 2022 2023,Round 33,26/04/,Leeds,Leicester,1,1,1,g_1_GMXhqpdt,2.55,3.56,2.92,1.82,2.25
+football,Premier League 2022 2023,Round 33,26/04/,Aston Villa,Fulham,1,0,0,g_1_QDt7vMAB,1.78,4.02,4.86,1.04,0.11
+football,Premier League 2022 2023,Round 33,26/04/,Wolves,Crystal Palace,2,0,0,g_1_p2P9u2e5,2.53,3.12,3.32,1.46,0.79
+football,Premier League 2022 2023,Round 32,23/04/,Bournemouth,West Ham,0,4,2,g_1_6Z2pym4J,3.25,3.31,2.38,1.22,2.49
+football,Premier League 2022 2023,Round 32,23/04/,Newcastle,Tottenham,6,1,0,g_1_QchqPtBO,2.01,3.78,3.74,3.89,1.08
+football,Premier League 2022 2023,Round 32,22/04/,Brentford,Aston Villa,1,1,1,g_1_xIgGVQRt,2.81,3.37,2.65,2.97,2.06
+football,Premier League 2022 2023,Round 32,22/04/,Crystal Palace,Everton,0,0,1,g_1_YqmPT4dg,1.92,3.41,4.62,0.53,0.45
+football,Premier League 2022 2023,Round 32,22/04/,Leicester,Wolves,2,1,0,g_1_6coXRrR5,2.44,3.38,3.08,2.61,0.97
+football,Premier League 2022 2023,Round 32,22/04/,Liverpool,Nottingham,3,2,0,g_1_4r4zR2tC,1.2,8.05,14.1,3.09,0.89
+football,Premier League 2022 2023,Round 32,22/04/,Fulham,Leeds,2,1,0,g_1_CznTSOBa,2.23,3.58,3.3,1.79,1.03
+football,Premier League 2022 2023,Round 32,22/04/,Arsenal,Southampton,3,3,1,g_1_Kx7lz7JP,1.22,7.49,13.7,3.01,1.52
+football,Premier League 2022 2023,Round 31,18/04/,Leeds,Liverpool,1,6,2,g_1_n5nuYbWs,5.03,4.32,1.66,1.45,2.67
+football,Premier League 2022 2023,Round 31,17/04/,Nottingham,Manchester Utd,0,2,2,g_1_fVkmWx1f,5.25,4.07,1.68,0.75,3.84
+football,Premier League 2022 2023,Round 31,16/04/,West Ham,Arsenal,2,2,1,g_1_OAw0TzoD,5.86,4.27,1.6,1.93,3.09
+football,Premier League 2022 2023,Round 31,16/04/,Manchester City,Leicester,3,1,0,g_1_tSoqXIol,1.15,9.39,18.4,2.19,2.38
+football,Premier League 2022 2023,Round 31,15/04/,Chelsea,Brighton,1,2,2,g_1_SK58wL8K,2.8,3.46,2.6,0.64,2.33
+football,Premier League 2022 2023,Round 31,15/04/,Everton,Fulham,1,3,2,g_1_pd0DxuOQ,2.18,3.4,3.61,1.37,1.88
+football,Premier League 2022 2023,Round 31,15/04/,Southampton,Crystal Palace,0,2,2,g_1_xfuhVdG0,3.12,3.16,2.54,0.83,0.87
+football,Premier League 2022 2023,Round 31,15/04/,Tottenham,Bournemouth,2,3,2,g_1_GpvdUGV6,1.53,4.64,6.75,2.18,1.01
+football,Premier League 2022 2023,Round 31,15/04/,Wolves,Brentford,2,0,0,g_1_21x4Sf0J,2.88,3.19,2.7,0.78,1.26
+football,Premier League 2022 2023,Round 31,15/04/,Aston Villa,Newcastle,3,0,0,g_1_lU64v1gE,3.94,3.5,2.04,1.99,0.61
+football,Premier League 2022 2023,Round 30,10/04/,Liverpool,Arsenal,2,2,1,g_1_Y1M5JaHl,2.77,3.58,2.56,4.32,1.54
+football,Premier League 2022 2023,Round 30,09/04/,Leeds,Crystal Palace,1,5,2,g_1_ED9Xy8XF,2.06,3.61,3.71,0.97,3.29
+football,Premier League 2022 2023,Round 30,09/04/,Southampton,Manchester City,1,4,2,g_1_tSPDHwn1,14.4,6.61,1.24,0.39,2.89
+football,Premier League 2022 2023,Round 30,08/04/,Aston Villa,Nottingham,2,0,0,g_1_Sd7LvAmc,1.58,4.3,6.0,1.4,0.28
+football,Premier League 2022 2023,Round 30,08/04/,Brentford,Newcastle,1,2,2,g_1_6m6PwU23,4.22,3.68,1.91,2.92,1.21
+football,Premier League 2022 2023,Round 30,08/04/,Fulham,West Ham,0,1,2,g_1_0A5TxlI9,2.98,3.28,2.57,0.77,1.22
+football,Premier League 2022 2023,Round 30,08/04/,Leicester,Bournemouth,0,1,2,g_1_fBN1Ku2r,2.02,3.46,4.06,0.75,2.48
+football,Premier League 2022 2023,Round 30,08/04/,Tottenham,Brighton,2,1,0,g_1_OjFIGc17,2.54,3.56,2.81,0.93,1.52
+football,Premier League 2022 2023,Round 30,08/04/,Wolves,Chelsea,1,0,0,g_1_zRIMFHGD,5.31,3.7,1.75,0.62,1.16
+football,Premier League 2022 2023,Round 30,08/04/,Manchester Utd,Everton,2,0,0,g_1_2yR9IJWf,1.61,4.48,5.9,3.84,1.17
+football,Premier League 2022 2023,Round 25,06/04/,Manchester Utd,Brentford,1,0,0,g_1_nBTSprFf,1.59,4.34,5.35,1.31,0.77
+football,Premier League 2022 2023,Round 7,06/04/,West Ham,Newcastle,1,5,2,g_1_U3hSY7oJ,3.52,3.4,2.28,0.88,3.39
+football,Premier League 2022 2023,Round 8,05/04/,Chelsea,Liverpool,0,0,1,g_1_trMpik1m,2.26,3.56,3.26,2.29,0.38
+football,Premier League 2022 2023,Round 7,05/04/,Bournemouth,Brighton,0,2,2,g_1_djISpEvE,5.55,4.34,1.62,2.07,2.98
+football,Premier League 2022 2023,Round 7,05/04/,Leeds,Nottingham,2,1,0,g_1_llc7wWWm,1.68,4.08,5.29,2.09,0.85
+football,Premier League 2022 2023,Round 7,05/04/,Leicester,Aston Villa,1,2,2,g_1_0O0Bxjnf,3.01,3.45,2.45,0.52,1.11
+football,Premier League 2022 2023,Round 29,04/04/,Everton,Tottenham,1,1,1,g_1_ld76N8IM,4.18,3.38,2.02,0.93,1.57
+football,Premier League 2022 2023,Round 29,03/04/,Newcastle,Manchester Utd,2,0,0,g_1_8tlwIntp,2.5,3.57,2.85,3.86,0.46
+football,Premier League 2022 2023,Round 29,02/04/,West Ham,Southampton,1,0,0,g_1_tfnoGQAd,1.77,3.69,5.13,1.47,0.42
+football,Premier League 2022 2023,Round 29,02/04/,Chelsea,Aston Villa,0,2,2,g_1_tW3bPUmA,1.64,3.89,6.14,2.28,0.88
+football,Premier League 2022 2023,Round 29,01/04/,Arsenal,Leeds,4,1,0,g_1_KGFkRjJc,1.29,6.65,11.0,3.72,0.85
+football,Premier League 2022 2023,Round 29,01/04/,Bournemouth,Fulham,2,1,0,g_1_8tCoSW3i,2.64,3.46,2.87,0.0,0.0
+football,Premier League 2022 2023,Round 29,01/04/,Brighton,Brentford,3,3,1,g_1_2u5fQAY3,1.68,4.24,5.45,4.85,1.49
+football,Premier League 2022 2023,Round 29,01/04/,Crystal Palace,Leicester,2,1,0,g_1_A582Ol3G,2.4,3.46,3.2,2.47,0.24
+football,Premier League 2022 2023,Round 29,01/04/,Nottingham,Wolves,1,1,1,g_1_23msH6ej,3.32,3.32,2.41,1.37,0.51
+football,Premier League 2022 2023,Round 29,01/04/,Manchester City,Liverpool,4,1,0,g_1_WKdBMSXS,1.72,4.25,4.69,1.91,0.29
+football,Premier League 2022 2023,Round 28,19/03/,Arsenal,Crystal Palace,4,1,0,g_1_t6h4FgKo,1.29,6.17,11.0,1.57,0.64
+football,Premier League 2022 2023,Round 28,19/03/,Chelsea,Everton,2,2,1,g_1_lxuLBBJA,1.48,4.29,8.17,2.56,1.54
+football,Premier League 2022 2023,Round 28,19/03/,Aston Villa,Bournemouth,3,0,0,g_1_Kdi8EDZi,1.78,3.96,4.96,3.2,0.59
+football,Premier League 2022 2023,Round 28,19/03/,Brentford,Leicester,1,1,1,g_1_SMjCDXlb,1.9,4.04,4.14,0.6,1.29
+football,Premier League 2022 2023,Round 28,19/03/,Southampton,Tottenham,3,3,1,g_1_GnPa4TBp,4.54,3.76,1.88,2.4,2.16
+football,Premier League 2022 2023,Round 28,19/03/,Wolves,Leeds,2,4,2,g_1_fwO33mRj,2.41,3.32,3.32,2.86,1.47
+football,Premier League 2022 2023,Round 28,18/03/,Nottingham,Newcastle,1,2,2,g_1_zgsX893T,5.38,3.69,1.74,0.41,2.59
+football,Premier League 2022 2023,Round 8,16/03/,Brighton,Crystal Palace,1,0,0,g_1_2iNthVos,1.42,4.92,8.08,0.64,1.28
+football,Premier League 2022 2023,Round 7,16/03/,Southampton,Brentford,0,2,2,g_1_jDgOZmWC,3.36,3.26,2.34,0.55,2.15
+football,Premier League 2022 2023,Round 27,13/03/,Newcastle,Wolves,2,1,0,g_1_8INkdWJN,1.67,3.92,5.68,2.18,1.23
+football,Premier League 2022 2023,Round 27,12/03/,Fulham,Arsenal,0,3,2,g_1_vwWYaEKb,7.7,4.87,1.44,0.84,2.52
+football,Premier League 2022 2023,Round 27,12/03/,Manchester Utd,Southampton,0,0,1,g_1_UROocC4H,1.3,5.6,12.1,0.92,1.25
+football,Premier League 2022 2023,Round 27,12/03/,West Ham,Aston Villa,1,1,1,g_1_v1ELjAso,2.21,3.37,3.58,2.44,1.74
+football,Premier League 2022 2023,Round 27,12/03/,Crystal Palace,Manchester City,0,1,2,g_1_bTNQ1zjn,11.0,5.09,1.34,0.18,2.29
+football,Premier League 2022 2023,Round 27,12/03/,Everton,Brentford,1,0,0,g_1_thDV0f5h,2.85,3.19,2.86,1.09,2.23
+football,Premier League 2022 2023,Round 27,12/03/,Leeds,Brighton,2,2,1,g_1_YaVxaYZ4,4.34,3.94,1.88,1.74,1.74
+football,Premier League 2022 2023,Round 27,12/03/,Leicester,Chelsea,1,3,2,g_1_CjUtbhkB,4.1,3.78,1.97,2.51,1.64
+football,Premier League 2022 2023,Round 27,12/03/,Tottenham,Nottingham,3,1,0,g_1_2uNgejZT,1.48,4.7,7.8,2.19,1.68
+football,Premier League 2022 2023,Round 27,11/03/,Bournemouth,Liverpool,1,0,0,g_1_KxPM2Gzt,8.5,5.65,1.38,0.97,1.89
+football,Premier League 2022 2023,Round 26,07/03/,Brentford,Fulham,3,2,0,g_1_tWyelHLn,2.08,3.69,3.59,2.49,1.52
+football,Premier League 2022 2023,Round 26,06/03/,Liverpool,Manchester Utd,7,0,0,g_1_vPj0oF55,2.7,3.67,2.58,2.92,0.96
+football,Premier League 2022 2023,Round 26,05/03/,Nottingham,Everton,2,2,1,g_1_nkf8qgzI,3.15,3.05,2.59,0.99,1.85
+football,Premier League 2022 2023,Round 26,05/03/,Southampton,Leicester,1,0,0,g_1_UDqDrDkO,2.98,3.45,2.47,1.52,2.09
+football,Premier League 2022 2023,Round 26,05/03/,Arsenal,Bournemouth,3,2,0,g_1_zX9N6PyE,1.23,7.2,15.0,2.77,1.45
+football,Premier League 2022 2023,Round 26,05/03/,Aston Villa,Crystal Palace,1,0,0,g_1_n9xikc6t,2.22,3.46,3.62,1.29,0.19
+football,Premier League 2022 2023,Round 26,05/03/,Brighton,West Ham,4,0,0,g_1_KMzamyyg,1.76,4.0,5.05,3.92,0.42
+football,Premier League 2022 2023,Round 26,05/03/,Chelsea,Leeds,1,0,0,g_1_0Yidneja,1.58,4.38,6.35,1.67,1.21
+football,Premier League 2022 2023,Round 26,05/03/,Wolves,Tottenham,1,0,0,g_1_84rHsX4U,3.3,3.4,2.38,0.48,1.53
+football,Premier League 2022 2023,Round 26,04/03/,Manchester City,Newcastle,2,0,0,g_1_Yoj4pZKB,1.5,4.42,7.2,1.39,0.46
+football,Premier League 2022 2023,Round 7,02/03/,Liverpool,Wolves,2,0,0,g_1_rmjGyA10,1.53,4.42,6.63,2.74,1.01
+football,Premier League 2022 2023,Round 7,02/03/,Arsenal,Everton,4,0,0,g_1_zsHWqYgK,1.32,5.21,12.3,3.04,1.48
+football,Premier League 2022 2023,Round 25,26/02/,Tottenham,Chelsea,2,0,0,g_1_fyXzqMq7,2.79,3.34,2.68,0.77,0.44
+football,Premier League 2022 2023,Round 25,26/02/,Crystal Palace,Liverpool,0,0,1,g_1_v5fqg67E,5.31,4.11,1.67,0.65,0.98
+football,Premier League 2022 2023,Round 25,26/02/,Bournemouth,Manchester City,1,4,2,g_1_0Eeufnh8,9.42,5.1,1.37,1.47,2.59
+football,Premier League 2022 2023,Round 25,26/02/,Everton,Aston Villa,0,2,2,g_1_dtklhQMK,2.78,3.25,2.75,1.84,1.85
+football,Premier League 2022 2023,Round 25,26/02/,Leeds,Southampton,1,0,0,g_1_hCzKn4pr,1.99,3.68,3.88,0.94,0.39
+football,Premier League 2022 2023,Round 25,26/02/,Leicester,Arsenal,0,1,2,g_1_4nvOoOal,6.5,4.28,1.56,0.02,0.69
+football,Premier League 2022 2023,Round 25,26/02/,West Ham,Nottingham,4,0,0,g_1_YRVvrtaD,1.73,3.8,5.32,3.04,0.55
+football,Premier League 2022 2023,Round 25,25/02/,Fulham,Wolves,1,1,1,g_1_zXmhipxR,2.51,3.26,3.07,0.51,0.86
+football,Premier League 2022 2023,Round 24,20/02/,Tottenham,West Ham,2,0,0,g_1_Y73gWr01,1.82,3.5,5.09,1.58,0.51
+football,Premier League 2022 2023,Round 24,19/02/,Manchester Utd,Leicester,3,0,0,g_1_IH0sZpGr,1.57,4.54,5.81,4.53,1.51
+football,Premier League 2022 2023,Round 24,19/02/,Newcastle,Liverpool,0,2,2,g_1_ChFpY4Vl,2.74,3.5,2.64,2.09,1.92
+football,Premier League 2022 2023,Round 24,19/02/,Brentford,Crystal Palace,1,1,1,g_1_QJL2tTN8,1.88,3.57,4.57,0.9,1.2
+football,Premier League 2022 2023,Round 24,19/02/,Brighton,Fulham,0,1,2,g_1_KtL6umwF,1.59,4.36,5.83,2.3,0.31
+football,Premier League 2022 2023,Round 24,19/02/,Chelsea,Southampton,0,1,2,g_1_YqPAv7hL,1.43,4.64,8.77,1.67,0.9
+football,Premier League 2022 2023,Round 24,19/02/,Everton,Leeds,1,0,0,g_1_G8EFwR7R,2.6,3.27,2.94,1.64,0.65
+football,Premier League 2022 2023,Round 24,19/02/,Nottingham,Manchester City,1,1,1,g_1_jqElXOpe,9.98,5.36,1.34,1.06,2.74
+football,Premier League 2022 2023,Round 24,19/02/,Wolves,Bournemouth,0,1,2,g_1_nB7cV2F7,1.85,3.7,4.56,1.25,1.09
+football,Premier League 2022 2023,Round 24,18/02/,Aston Villa,Arsenal,2,4,2,g_1_nTMbs982,4.81,3.68,1.82,0.5,3.39
+football,Premier League 2022 2023,Round 12,16/02/,Arsenal,Manchester City,1,3,2,g_1_4hFAE4G8,3.58,3.46,2.16,1.59,1.75
+football,Premier League 2022 2023,Round 23,14/02/,Liverpool,Everton,2,0,0,g_1_QNy4LRoq,1.62,4.08,6.03,2.32,0.3
+football,Premier League 2022 2023,Round 23,13/02/,Manchester City,Aston Villa,3,1,0,g_1_xbu8Ko1k,1.34,5.36,9.87,3.91,0.31
+football,Premier League 2022 2023,Round 23,12/02/,Leeds,Manchester Utd,0,2,2,g_1_tj0XQmOL,4.0,3.88,1.91,1.99,1.23
+football,Premier League 2022 2023,Round 23,12/02/,Bournemouth,Newcastle,1,1,1,g_1_xb3GUVOd,5.89,3.89,1.66,1.72,1.19
+football,Premier League 2022 2023,Round 23,12/02/,Arsenal,Brentford,1,1,1,g_1_j17KTkv3,1.53,4.42,6.63,1.58,2.23
+football,Premier League 2022 2023,Round 23,12/02/,Crystal Palace,Brighton,1,1,1,g_1_YPdPS9g9,4.83,3.81,1.78,0.84,2.22
+football,Premier League 2022 2023,Round 23,12/02/,Fulham,Nottingham,2,0,0,g_1_CGeTRT8F,1.93,3.53,4.37,1.52,0.63
+football,Premier League 2022 2023,Round 23,12/02/,Leicester,Tottenham,4,1,0,g_1_KtayQ7wS,0.0,0.0,0.0,1.45,1.21
+football,Premier League 2022 2023,Round 23,12/02/,Southampton,Wolves,1,2,2,g_1_WKvCJ5Ge,3.05,3.25,2.54,1.07,0.73
+football,Premier League 2022 2023,Round 23,11/02/,West Ham,Chelsea,1,1,1,g_1_ABwGIPV1,3.85,3.37,2.11,1.16,1.11
+football,Premier League 2022 2023,Round 8,09/02/,Manchester Utd,Leeds,2,2,1,g_1_neiokTVa,1.53,4.58,6.36,0.0,0.0
+football,Premier League 2022 2023,Round 22,06/02/,Tottenham,Manchester City,1,0,0,g_1_p4GU6SWk,4.21,3.87,1.87,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Nottingham,Leeds,1,0,0,g_1_4haX78Hq,2.98,3.37,2.51,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Newcastle,West Ham,1,1,1,g_1_2qD5Cl9S,1.68,3.87,5.61,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Aston Villa,Leicester,2,4,2,g_1_QwItIhui,2.15,3.58,3.49,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Brentford,Southampton,3,0,0,g_1_4UGpHCfc,1.74,3.84,5.12,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Brighton,Bournemouth,1,0,0,g_1_Y3LlGW93,1.4,5.26,7.89,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Manchester Utd,Crystal Palace,2,1,0,g_1_8MD1DUgM,1.4,5.13,8.21,0.0,0.0
+football,Premier League 2022 2023,Round 22,05/02/,Wolves,Liverpool,3,0,0,g_1_OfFY5nnd,3.87,3.87,1.94,0.0,0.0
+football,Premier League 2022 2023,Round 22,04/02/,Everton,Arsenal,1,0,0,g_1_fJ9cEAvG,9.29,4.27,1.45,0.0,0.0
+football,Premier League 2022 2023,Round 22,04/02/,Chelsea,Fulham,0,0,1,g_1_CfKhFjP9,1.58,4.09,6.59,0.0,0.0
+football,Premier League 2022 2023,Round 21,24/01/,Fulham,Tottenham,0,1,2,g_1_2qJCVjhg,3.4,3.94,2.13,0.0,0.0
+football,Premier League 2022 2023,Round 21,23/01/,Arsenal,Manchester Utd,3,2,0,g_1_6HP3XCNt,1.94,3.82,3.93,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Leeds,Brentford,0,0,1,g_1_d6IGUA7a,2.53,3.64,2.77,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Manchester City,Wolves,3,0,0,g_1_WOATR8iI,1.26,6.98,10.3,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Crystal Palace,Newcastle,0,0,1,g_1_ltF8WWxm,4.61,3.69,1.85,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Bournemouth,Nottingham,1,1,1,g_1_48wxxgFP,3.03,3.21,2.57,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Leicester,Brighton,2,2,1,g_1_zcHKTUM5,4.09,3.88,1.89,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,Southampton,Aston Villa,0,1,2,g_1_OKYdAtMp,2.86,3.2,2.71,0.0,0.0
+football,Premier League 2022 2023,Round 21,22/01/,West Ham,Everton,2,0,0,g_1_M5i090yi,1.92,3.58,4.34,0.0,0.0
+football,Premier League 2022 2023,Round 21,21/01/,Liverpool,Chelsea,0,0,1,g_1_hYBPSlxC,2.05,3.69,3.69,0.0,0.0
+football,Premier League 2022 2023,Round 7,20/01/,Manchester City,Tottenham,4,2,0,g_1_MwkKzUG6,1.51,4.61,6.53,0.0,0.0
+football,Premier League 2022 2023,Round 7,19/01/,Crystal Palace,Manchester Utd,1,1,1,g_1_hIByqh9Q,5.89,4.03,1.63,0.0,0.0
+football,Premier League 2022 2023,Round 20,16/01/,Tottenham,Arsenal,0,2,2,g_1_bBjjEkNI,3.67,3.58,2.09,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Chelsea,Crystal Palace,1,0,0,g_1_Cf4UID8m,1.82,3.56,4.97,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Newcastle,Fulham,1,0,0,g_1_2qcsGBh6,1.56,4.42,6.14,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Brentford,Bournemouth,2,0,0,g_1_GOIbOZpQ,1.63,4.07,5.85,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Brighton,Liverpool,3,0,0,g_1_Y35QJggs,3.19,3.85,2.18,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Everton,Southampton,1,2,2,g_1_UVbZHXNg,2.33,3.28,3.38,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Nottingham,Leicester,2,0,0,g_1_Gn1oFV7C,2.83,3.26,2.69,0.0,0.0
+football,Premier League 2022 2023,Round 20,15/01/,Wolves,West Ham,1,0,0,g_1_x2kfD9xP,2.45,3.29,3.14,0.0,0.0
+football,Premier League 2022 2023,Round 20,14/01/,Manchester Utd,Manchester City,2,1,0,g_1_8McwHiw0,3.78,3.98,1.94,0.0,0.0
+football,Premier League 2022 2023,Round 20,14/01/,Aston Villa,Leeds,2,1,0,g_1_4lFfPFVJ,2.04,3.56,3.87,0.0,0.0
+football,Premier League 2022 2023,Round 7,13/01/,Fulham,Chelsea,2,1,0,g_1_fRc3vCHs,4.12,3.5,2.05,0.0,0.0
+football,Premier League 2022 2023,Round 19,06/01/,Chelsea,Manchester City,0,1,2,g_1_Qwtm6zPs,5.19,4.15,1.68,0.0,0.0
+football,Premier League 2022 2023,Round 19,05/01/,Aston Villa,Wolves,1,1,1,g_1_d8NOBd1K,1.93,3.56,4.33,0.0,0.0
+football,Premier League 2022 2023,Round 19,05/01/,Crystal Palace,Tottenham,0,4,2,g_1_K0ui5fvl,3.66,3.47,2.13,0.0,0.0
+football,Premier League 2022 2023,Round 19,05/01/,Leeds,West Ham,2,2,1,g_1_GSYa3Y80,2.93,3.46,2.5,0.0,0.0
+football,Premier League 2022 2023,Round 19,05/01/,Southampton,Nottingham,0,1,2,g_1_2qyC0WhJ,2.34,3.36,3.26,0.0,0.0
+football,Premier League 2022 2023,Round 19,04/01/,Manchester Utd,Bournemouth,3,0,0,g_1_Ohx81CwD,1.28,6.27,11.5,0.0,0.0
+football,Premier League 2022 2023,Round 19,04/01/,Arsenal,Newcastle,0,0,1,g_1_IHOKCxnE,1.77,3.88,4.85,0.0,0.0
+football,Premier League 2022 2023,Round 19,04/01/,Everton,Brighton,1,4,2,g_1_Y3qe4Egf,3.48,3.44,2.21,0.0,0.0
+football,Premier League 2022 2023,Round 19,04/01/,Leicester,Fulham,0,1,2,g_1_fJX32hO6,2.27,3.62,3.19,0.0,0.0
+football,Premier League 2022 2023,Round 19,03/01/,Brentford,Liverpool,3,1,0,g_1_OUgLAGGQ,6.68,4.61,1.5,0.0,0.0
+football,Premier League 2022 2023,Round 18,02/01/,Nottingham,Chelsea,1,1,1,g_1_UerQjePf,6.23,4.08,1.6,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Tottenham,Aston Villa,0,2,2,g_1_8nsUkFv1,1.62,4.21,5.67,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Brighton,Arsenal,2,4,2,g_1_AiasaJHE,4.78,3.8,1.79,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Bournemouth,Crystal Palace,0,2,2,g_1_W00w0a28,3.12,3.27,2.47,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Fulham,Southampton,2,1,0,g_1_4EbobwXK,1.8,3.89,4.58,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Manchester City,Everton,1,1,1,g_1_MVvIhHfr,1.15,8.52,22.0,0.0,0.0
+football,Premier League 2022 2023,Round 18,01/01/,Newcastle,Leeds,0,0,1,g_1_0MwMiyAl,1.46,4.86,7.07,0.0,0.0
+football,Premier League 2022 2023,Round 18,31/12/,Wolves,Manchester Utd,0,1,2,g_1_4Ezwlg9D,4.53,3.67,1.86,0.0,0.0
+football,Premier League 2022 2023,Round 18,31/12/,Liverpool,Leicester,2,1,0,g_1_Gl2kccnR,1.28,6.27,11.5,0.0,0.0
+football,Premier League 2022 2023,Round 18,31/12/,West Ham,Brentford,0,2,2,g_1_jBWYlZg7,2.14,3.71,3.41,0.0,0.0
+football,Premier League 2022 2023,Round 17,29/12/,Leeds,Manchester City,1,3,2,g_1_8SErvIuk,10.4,6.11,1.3,0.0,0.0
+football,Premier League 2022 2023,Round 17,28/12/,Manchester Utd,Nottingham,3,0,0,g_1_GhIjxdA1,1.34,5.6,9.41,0.0,0.0
+football,Premier League 2022 2023,Round 17,28/12/,Chelsea,Bournemouth,2,0,0,g_1_tE26c6tA,1.34,5.36,9.87,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Arsenal,West Ham,3,1,0,g_1_6eAg08di,1.54,4.31,6.76,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Aston Villa,Liverpool,1,3,2,g_1_KbEcaSBc,4.89,3.91,1.75,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Crystal Palace2,Fulham,0,3,2,g_1_lv2AdQeG,2.16,3.68,3.38,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Everton,Wolves,1,2,2,g_1_Q3PwubQr,2.35,3.34,3.28,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Leicester,Newcastle,0,3,2,g_1_MVInwxee,3.63,3.58,2.1,0.0,0.0
+football,Premier League 2022 2023,Round 17,27/12/,Southampton,Brighton,1,3,2,g_1_fqHfyGP7,3.7,3.5,2.11,0.0,0.0
+football,Premier League 2022 2023,Round 17,26/12/,Brentford,Tottenham,2,2,1,g_1_2N32bnR3,3.72,3.69,2.04,0.0,0.0
+football,Premier League 2022 2023,Round 16,14/11/,Fulham,Manchester Utd,1,2,2,g_1_tfzLo9sb,4.44,3.88,1.83,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Brighton,Aston Villa,1,2,2,g_1_CKVGnkSi,1.82,3.88,4.49,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Wolves,Arsenal,0,2,2,g_1_hhMByPJj,7.16,4.1,1.54,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Newcastle,Chelsea,1,0,0,g_1_0fsXr7RG,2.29,3.45,3.29,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Bournemouth,Everton,3,0,0,g_1_YTWCmVCo,2.69,3.3,2.81,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Liverpool,Southampton,3,1,0,g_1_KpZOpTd4,1.28,6.62,11.0,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Nottingham,Crystal Palace,1,0,0,g_1_fHtyrRtN,3.39,3.4,2.37,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,Tottenham,Leeds,4,3,0,g_1_Y7uusodT,1.63,4.4,5.33,0.0,0.0
+football,Premier League 2022 2023,Round 16,13/11/,West Ham,Leicester,0,2,2,g_1_E1N7x54p,2.16,3.46,3.6,0.0,0.0
+football,Premier League 2022 2023,Round 16,12/11/,Manchester City,Brentford,1,2,2,g_1_29OTqmCA,1.15,8.64,21.0,0.0,0.0
+football,Premier League 2022 2023,Round 15,07/11/,Tottenham,Liverpool,1,2,2,g_1_0t2bU7CN,3.24,3.86,2.16,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Aston Villa,Manchester Utd,3,1,0,g_1_Y7exyhTu,3.41,3.57,2.19,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Southampton,Newcastle,1,4,2,g_1_Mk3fVmcH,4.66,3.79,1.8,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,West Ham,Crystal Palace,1,2,2,g_1_f312TRRT,1.9,3.74,4.52,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Chelsea,Arsenal,0,1,2,g_1_CbftzCrn,2.93,3.49,2.47,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Everton,Leicester,0,2,2,g_1_fNqoZVch,2.49,3.45,2.95,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Leeds,Bournemouth,4,3,0,g_1_8QmkYkDb,1.68,4.32,5.25,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Manchester City,Fulham,2,1,0,g_1_2mmgX9S4,1.17,8.06,17.1,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Nottingham,Brentford,2,2,1,g_1_tvncWTsB,2.66,3.28,2.98,0.0,0.0
+football,Premier League 2022 2023,Round 15,06/11/,Wolves,Brighton,2,3,2,g_1_WOhUOozo,3.64,3.44,2.22,0.0,0.0
+football,Premier League 2022 2023,Round 14,31/10/,Manchester Utd,West Ham,1,0,0,g_1_rqGSGlrO,1.69,3.99,5.34,0.0,0.0
+football,Premier League 2022 2023,Round 14,30/10/,Arsenal,Nottingham,5,0,0,g_1_QsWbNYbt,1.25,6.61,12.5,0.0,0.0
+football,Premier League 2022 2023,Round 14,30/10/,Liverpool,Leeds,1,2,2,g_1_0KQNHUSH,1.24,6.79,12.5,0.0,0.0
+football,Premier League 2022 2023,Round 14,30/10/,Fulham,Everton,0,0,1,g_1_fNNFJjb5,2.25,3.48,3.33,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Bournemouth,Tottenham,2,3,2,g_1_lMvXREjP,5.1,3.74,1.81,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Brentford,Wolves,1,1,1,g_1_K4V2MhEn,2.21,3.54,3.54,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Brighton,Chelsea,4,1,0,g_1_beU6LCTh,0.0,0.0,0.0,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Crystal Palace,Southampton,1,0,0,g_1_GWOBKWra,2.07,3.6,3.9,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Newcastle,Aston Villa,4,0,0,g_1_MZEWF8cU,1.81,3.98,4.68,0.0,0.0
+football,Premier League 2022 2023,Round 14,29/10/,Leicester,Manchester City,0,1,2,g_1_lpNJIADB,7.72,5.13,1.42,0.0,0.0
+football,Premier League 2022 2023,Round 13,25/10/,West Ham,Bournemouth,2,0,0,g_1_8Q1p4BbI,1.63,4.22,6.0,0.0,0.0
+football,Premier League 2022 2023,Round 13,24/10/,Tottenham,Newcastle,1,2,2,g_1_Ekms5iqC,2.1,3.5,3.7,0.0,0.0
+football,Premier League 2022 2023,Round 13,23/10/,Aston Villa,Brentford,4,0,0,g_1_CIvlSNp8,2.11,3.6,3.6,0.0,0.0
+football,Premier League 2022 2023,Round 13,23/10/,Leeds,Fulham,2,3,2,g_1_pAeQ8Zqm,2.09,3.67,3.57,0.0,0.0
+football,Premier League 2022 2023,Round 13,23/10/,Southampton,Arsenal,1,1,1,g_1_zalw6XT5,6.77,4.52,1.51,0.0,0.0
+football,Premier League 2022 2023,Round 13,23/10/,Wolves,Leicester,0,4,2,g_1_nH0l3VDO,2.34,3.36,3.26,0.0,0.0
+football,Premier League 2022 2023,Round 13,23/10/,Chelsea,Manchester Utd,1,1,1,g_1_j9whRs0E,2.15,3.69,3.38,0.0,0.0
+football,Premier League 2022 2023,Round 13,22/10/,Everton,Crystal Palace,3,0,0,g_1_6JdM9FUt,2.56,3.24,3.16,0.0,0.0
+football,Premier League 2022 2023,Round 13,22/10/,Manchester City,Brighton,3,1,0,g_1_vXfU7gag,1.25,7.0,13.0,0.0,0.0
+football,Premier League 2022 2023,Round 13,22/10/,Nottingham,Liverpool,1,0,0,g_1_hzaY6DEa,8.14,5.8,1.36,0.0,0.0
+football,Premier League 2022 2023,Round 12,21/10/,Leicester,Leeds,2,0,0,g_1_djfk7M8r,2.19,3.57,3.41,0.0,0.0
+football,Premier League 2022 2023,Round 12,21/10/,Fulham,Aston Villa,3,0,0,g_1_fs8NB20R,2.82,3.41,2.61,0.0,0.0
+football,Premier League 2022 2023,Round 12,20/10/,Manchester Utd,Tottenham,2,0,0,g_1_bFj63v87,2.52,3.62,2.8,0.0,0.0
+football,Premier League 2022 2023,Round 12,20/10/,Bournemouth,Southampton,0,1,2,g_1_Q1G6Fp12,2.5,3.32,3.03,0.0,0.0
+football,Premier League 2022 2023,Round 12,20/10/,Brentford,Chelsea,0,0,1,g_1_bFEEDOVE,4.41,3.85,1.84,0.0,0.0
+football,Premier League 2022 2023,Round 12,20/10/,Liverpool,West Ham,1,0,0,g_1_num24Kh1,1.42,5.13,7.64,0.0,0.0
+football,Premier League 2022 2023,Round 12,20/10/,Newcastle,Everton,1,0,0,g_1_4Gcc50we,1.77,3.88,4.81,0.0,0.0
+football,Premier League 2022 2023,Round 12,19/10/,Crystal Palace,Wolves,2,1,0,g_1_QPbg6tOl,2.04,3.35,4.11,0.0,0.0
+football,Premier League 2022 2023,Round 12,19/10/,Brighton,Nottingham,0,0,1,g_1_CIIICroL,1.4,5.26,7.89,0.0,0.0
+football,Premier League 2022 2023,Round 11,17/10/,Liverpool,Manchester City,1,0,0,g_1_WrqgEz5S,4.18,4.1,1.83,0.0,0.0
+football,Premier League 2022 2023,Round 11,16/10/,Aston Villa,Chelsea,0,2,2,g_1_4IYYIbjc,4.33,3.56,1.92,0.0,0.0
+football,Premier League 2022 2023,Round 11,16/10/,Leeds,Arsenal,0,1,2,g_1_OIuoGdzG,5.73,4.06,1.63,0.0,0.0
+football,Premier League 2022 2023,Round 11,16/10/,Manchester Utd,Newcastle,0,0,1,g_1_xQLL9fDq,1.95,3.8,3.92,0.0,0.0
+football,Premier League 2022 2023,Round 11,16/10/,Southampton,West Ham,1,1,1,g_1_jTPP8ESk,3.14,3.45,2.37,0.0,0.0
+football,Premier League 2022 2023,Round 11,16/10/,Tottenham,Everton,2,0,0,g_1_pjPT7Ysd,1.47,4.56,7.6,0.0,0.0
+football,Premier League 2022 2023,Round 11,15/10/,Fulham,Bournemouth,2,2,1,g_1_pStsHxL9,1.95,3.67,4.08,0.0,0.0
+football,Premier League 2022 2023,Round 11,15/10/,Wolves,Nottingham,1,0,0,g_1_OtOX6hc2,1.74,3.84,5.12,0.0,0.0
+football,Premier League 2022 2023,Round 11,15/10/,Leicester,Crystal Palace,0,0,1,g_1_hhpkFGkM,2.35,3.58,3.07,0.0,0.0
+football,Premier League 2022 2023,Round 11,15/10/,Brentford,Brighton,2,0,0,g_1_23ixII53,3.54,3.48,2.16,0.0,0.0
+football,Premier League 2022 2023,Round 10,11/10/,Nottingham,Aston Villa,1,1,1,g_1_COomeebj,3.97,3.69,1.97,0.0,0.0
+football,Premier League 2022 2023,Round 10,10/10/,Everton,Manchester Utd,1,2,2,g_1_bH5C1cLM,3.96,3.56,2.01,0.0,0.0
+football,Premier League 2022 2023,Round 10,10/10/,Arsenal,Liverpool,3,2,0,g_1_GYDe5uMc,2.55,3.82,2.65,0.0,0.0
+football,Premier League 2022 2023,Round 10,09/10/,Crystal Palace,Leeds,2,1,0,g_1_pE182w6G,2.04,3.6,3.83,0.0,0.0
+football,Premier League 2022 2023,Round 10,09/10/,West Ham,Fulham,3,1,0,g_1_jFpifFDd,1.68,3.95,5.46,0.0,0.0
+football,Premier League 2022 2023,Round 10,09/10/,Brighton,Tottenham,0,1,2,g_1_ObDa4ay4,2.74,3.39,2.69,0.0,0.0
+football,Premier League 2022 2023,Round 10,08/10/,Bournemouth,Leicester,2,1,0,g_1_xrFi6L6i,3.48,3.57,2.16,0.0,0.0
+football,Premier League 2022 2023,Round 10,08/10/,Chelsea,Wolves,3,0,0,g_1_2kC33JjA,1.5,4.27,7.56,0.0,0.0
+football,Premier League 2022 2023,Round 10,08/10/,Manchester City,Southampton,4,0,0,g_1_hv5G0HzT,1.12,10.6,21.0,0.0,0.0
+football,Premier League 2022 2023,Round 10,08/10/,Newcastle,Brentford,5,1,0,g_1_fmirdyqp,1.7,4.06,5.03,0.0,0.0
+football,Premier League 2022 2023,Round 9,04/10/,Leicester,Nottingham,4,0,0,g_1_8SjUlKyH,1.7,4.11,4.98,0.0,0.0
+football,Premier League 2022 2023,Round 9,03/10/,Leeds,Aston Villa,0,0,1,g_1_UyhQk0MA,2.59,3.35,2.89,0.0,0.0
+football,Premier League 2022 2023,Round 9,02/10/,Manchester City,Manchester Utd,6,3,0,g_1_4fpwmb6T,1.47,5.49,5.94,0.0,0.0
+football,Premier League 2022 2023,Round 9,02/10/,West Ham,Wolves,2,0,0,g_1_zwy9sxUj,2.03,3.44,4.05,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Bournemouth,Brentford,0,0,1,g_1_2P09grNo,3.26,3.66,2.29,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Crystal Palace,Chelsea,1,2,2,g_1_OvkIiMib,4.88,3.92,1.8,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Fulham,Newcastle,1,4,2,g_1_zFhMjt74,3.08,3.5,2.47,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Liverpool,Brighton,3,3,1,g_1_Q3oZmviN,1.5,4.94,6.8,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Southampton,Everton,1,2,2,g_1_MZW4rIEp,2.37,3.46,3.28,0.0,0.0
+football,Premier League 2022 2023,Round 9,01/10/,Arsenal,Tottenham,3,1,0,g_1_tGaDh2xh,2.03,3.83,3.61,0.0,0.0
+football,Premier League 2022 2023,Round 8,18/09/,Everton,West Ham,1,0,0,g_1_84hsj9Gg,2.96,3.32,2.55,0.0,0.0
+football,Premier League 2022 2023,Round 8,18/09/,Brentford,Arsenal,0,3,2,g_1_pCzFdBwQ,4.96,3.9,1.74,0.0,0.0
+football,Premier League 2022 2023,Round 8,18/09/,Tottenham,Leicester,6,2,0,g_1_xppbnRFI,1.5,4.55,7.06,0.0,0.0
+football,Premier League 2022 2023,Round 8,17/09/,Newcastle,Bournemouth,1,1,1,g_1_tIjklmo6,1.45,4.7,7.83,0.0,0.0
+football,Premier League 2022 2023,Round 8,17/09/,Wolves,Manchester City,0,3,2,g_1_E97RUbpo,8.66,5.85,1.35,0.0,0.0
+football,Premier League 2022 2023,Round 8,17/09/,Aston Villa,Southampton,1,0,0,g_1_W8WAciOJ,2.02,3.57,3.9,0.0,0.0
+football,Premier League 2022 2023,Round 8,17/09/,Nottingham,Fulham,2,3,2,g_1_fLfgm70C,2.8,3.37,2.65,0.0,0.0
+football,Premier League 2022 2023,Round 6,05/09/,Manchester Utd,Arsenal,3,1,0,g_1_04xUPC2l,2.71,3.6,2.71,0.0,0.0
+football,Premier League 2022 2023,Round 6,04/09/,Brighton,Leicester,5,2,0,g_1_2TdgWEPK,2.01,3.56,3.95,0.0,0.0
+football,Premier League 2022 2023,Round 6,04/09/,Aston Villa,Manchester City,1,1,1,g_1_UFboYze8,9.4,6.05,1.34,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Brentford,Leeds,5,2,0,g_1_86ckXfAE,2.15,3.69,3.38,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Chelsea,West Ham,2,1,0,g_1_GW0cVYvR,1.72,4.12,5.15,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Newcastle,Crystal Palace,0,0,1,g_1_8UyYOWHf,2.12,3.53,3.63,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Nottingham,Bournemouth,2,3,2,g_1_nLzxOjX0,2.2,3.37,3.58,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Tottenham,Fulham,2,1,0,g_1_UqQtNAn7,1.53,4.42,6.63,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Wolves,Southampton,1,0,0,g_1_rmUpMU1D,2.19,3.58,3.56,0.0,0.0
+football,Premier League 2022 2023,Round 6,03/09/,Everton,Liverpool,0,0,1,g_1_MDwQQhmr,7.8,5.2,1.44,0.0,0.0
+football,Premier League 2022 2023,Round 5,02/09/,Leicester,Manchester Utd,0,1,2,g_1_xSMKHFAR,3.56,3.84,2.04,0.0,0.0
+football,Premier League 2022 2023,Round 5,01/09/,Liverpool,Newcastle,2,1,0,g_1_E7GbAX21,1.36,5.85,9.0,0.0,0.0
+football,Premier League 2022 2023,Round 5,01/09/,West Ham,Tottenham,1,1,1,g_1_vy9nDZIr,3.52,3.72,2.15,0.0,0.0
+football,Premier League 2022 2023,Round 5,01/09/,Arsenal,Aston Villa,2,1,0,g_1_nwU7KHQ8,1.59,4.52,6.0,0.0,0.0
+football,Premier League 2022 2023,Round 5,01/09/,Bournemouth,Wolves,0,0,1,g_1_YZP3LcB2,3.4,3.44,2.31,0.0,0.0
+football,Premier League 2022 2023,Round 5,01/09/,Manchester City,Nottingham,6,0,0,g_1_hbF29iI7,1.12,12.0,25.0,0.0,0.0
+football,Premier League 2022 2023,Round 5,31/08/,Leeds,Everton,1,1,1,g_1_8hIGIeeL,2.02,3.7,3.75,0.0,0.0
+football,Premier League 2022 2023,Round 5,31/08/,Southampton,Chelsea,2,1,0,g_1_KpHfBDme,5.57,4.1,1.65,0.0,0.0
+football,Premier League 2022 2023,Round 5,31/08/,Crystal Palace,Brentford,1,1,1,g_1_MabiCgYl,2.04,3.49,3.94,0.0,0.0
+football,Premier League 2022 2023,Round 5,31/08/,Fulham,Brighton,2,1,0,g_1_U1JCJytF,3.17,3.26,2.44,0.0,0.0
+football,Premier League 2022 2023,Round 4,29/08/,Nottingham,Tottenham,0,2,2,g_1_0ULKbz4k,7.53,4.81,1.45,0.0,0.0
+football,Premier League 2022 2023,Round 4,28/08/,Aston Villa,West Ham,0,1,2,g_1_Qk2WKQKi,2.19,3.49,3.5,0.0,0.0
+football,Premier League 2022 2023,Round 4,28/08/,Wolves,Newcastle,1,1,1,g_1_KWyMdEY1,2.7,3.34,2.76,0.0,0.0
+football,Premier League 2022 2023,Round 4,28/08/,Arsenal,Fulham,2,1,0,g_1_na3SL65o,1.41,5.6,7.12,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Brentford,Everton,1,1,1,g_1_fP6zKpzb,2.17,3.58,3.6,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Brighton,Leeds,1,0,0,g_1_YF5vJ4k4,1.85,3.94,4.52,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Chelsea,Leicester,2,1,0,g_1_GveqIO4A,1.43,5.25,8.0,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Liverpool,Bournemouth,9,0,0,g_1_UsamHrKG,1.16,9.4,19.0,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Manchester City,Crystal Palace,4,2,0,g_1_MwNGaGlq,1.2,7.9,17.0,0.0,0.0
+football,Premier League 2022 2023,Round 4,27/08/,Southampton,Manchester Utd,0,1,2,g_1_ttwIcfJe,3.92,3.94,1.91,0.0,0.0
+football,Premier League 2022 2023,Round 3,23/08/,Manchester Utd,Liverpool,2,1,0,g_1_xlzA3PkH,4.83,4.27,1.7,0.0,0.0
+football,Premier League 2022 2023,Round 3,22/08/,Newcastle,Manchester City,3,3,1,g_1_GvZD2q5N,7.24,4.87,1.45,0.0,0.0
+football,Premier League 2022 2023,Round 3,21/08/,Leeds,Chelsea,3,0,0,g_1_tMt15oL4,0.0,0.0,0.0,0.0,0.0
+football,Premier League 2022 2023,Round 3,21/08/,West Ham,Brighton,0,2,2,g_1_pfPqcNSp,2.31,3.45,3.24,0.0,0.0
+football,Premier League 2022 2023,Round 3,21/08/,Bournemouth,Arsenal,0,3,2,g_1_Ctkp9TLu,8.19,4.88,1.42,0.0,0.0
+football,Premier League 2022 2023,Round 3,20/08/,Crystal Palace,Aston Villa,3,1,0,g_1_jXml8myn,2.56,3.28,3.12,0.0,0.0
+football,Premier League 2022 2023,Round 3,20/08/,Everton,Nottingham,1,1,1,g_1_Yewg77jh,1.99,3.7,4.12,0.0,0.0
+football,Premier League 2022 2023,Round 3,20/08/,Fulham,Brentford,3,2,0,g_1_nasc6R5b,2.66,3.4,2.74,0.0,0.0
+football,Premier League 2022 2023,Round 3,20/08/,Leicester,Southampton,1,2,2,g_1_KCu545zB,1.92,4.06,4.04,0.0,0.0
+football,Premier League 2022 2023,Round 3,20/08/,Tottenham,Wolves,1,0,0,g_1_A1YH13KT,1.42,4.88,8.19,0.0,0.0
+football,Premier League 2022 2023,Round 2,16/08/,Liverpool,Crystal Palace,1,1,1,g_1_6R6OiSj5,1.24,7.0,14.5,0.0,0.0
+football,Premier League 2022 2023,Round 2,15/08/,Chelsea,Tottenham,2,2,1,g_1_Sz8Kh8ya,2.25,3.56,3.27,0.0,0.0
+football,Premier League 2022 2023,Round 2,14/08/,Nottingham,West Ham,1,0,0,g_1_EiAWk6LH,4.48,3.67,1.87,0.0,0.0
+football,Premier League 2022 2023,Round 2,14/08/,Brentford,Manchester Utd,4,0,0,g_1_W8EBfU6n,4.82,3.83,1.78,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Arsenal,Leicester,4,2,0,g_1_2gOu0jqP,1.56,4.45,6.0,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Brighton,Newcastle,0,0,1,g_1_AaDFglMh,2.56,3.38,2.91,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Manchester City,Bournemouth,4,0,0,g_1_0l6Sjn6B,1.08,14.7,27.0,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Southampton,Leeds,2,2,1,g_1_dGaykQzO,2.57,3.57,2.76,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Wolves,Fulham,0,0,1,g_1_z7bulpjU,2.15,3.47,3.59,0.0,0.0
+football,Premier League 2022 2023,Round 2,13/08/,Aston Villa,Everton,2,1,0,g_1_xnF7eAit,1.77,3.58,5.37,0.0,0.0
+football,Premier League 2022 2023,Round 1,08/08/,West Ham,Manchester City,0,2,2,g_1_veaB2OmQ,8.27,5.38,1.38,0.0,0.0
+football,Premier League 2022 2023,Round 1,07/08/,Leicester,Brentford,2,2,1,g_1_CrKCsNB0,1.83,3.88,4.4,0.0,0.0
+football,Premier League 2022 2023,Round 1,07/08/,Manchester Utd,Brighton,1,2,2,g_1_040734YJ,1.77,3.83,4.87,0.0,0.0
+football,Premier League 2022 2023,Round 1,07/08/,Everton,Chelsea,0,1,2,g_1_n1CPvLeJ,7.08,4.25,1.52,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Bournemouth,Aston Villa,2,0,0,g_1_4IG4qqsl,3.99,3.58,2.0,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Leeds,Wolves,2,1,0,g_1_r9F8r3df,2.44,3.38,3.08,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Newcastle,Nottingham,2,0,0,g_1_jZIGtsR6,1.6,4.12,6.18,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Tottenham,Southampton,4,1,0,g_1_Yc8Lu1tD,1.39,5.1,8.66,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Fulham,Liverpool,2,2,1,g_1_MgRapPRs,11.0,5.86,1.3,0.0,0.0
+football,Premier League 2022 2023,Round 1,06/08/,Crystal Palace,Arsenal,0,2,2,g_1_QZqX1icF,5.01,3.69,1.78,0.0,0.0

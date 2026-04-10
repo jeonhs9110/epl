@@ -1,0 +1,213 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Bundesliga,Round 16,28/01/,St. Pauli,RB Leipzig,1,1,1,5.4,3.59,1.77,g_1_ObDLNPCO,1.45,1.04
+football,Bundesliga,Round 16,28/01/,Werder Bremen,Hoffenheim,0,2,2,4.06,3.82,1.91,g_1_2B3cTTrm,1.81,0.61
+football,Bundesliga,Round 20,02/02/,Dortmund,Heidenheim,3,2,0,1.3,6.79,8.88,g_1_vRmqLQiJ,3.32,2.32
+football,Bundesliga,Round 20,01/02/,Stuttgart,Freiburg,1,0,0,1.69,4.3,4.86,g_1_QN5Aynx0,1.79,0.7
+football,Bundesliga,Round 20,01/02/,Hamburger SV,Bayern Munich,2,2,1,8.12,6.69,1.32,g_1_vV1owaD4,2.25,2.4
+football,Bundesliga,Round 20,31/01/,Augsburg,St. Pauli,2,1,0,2.15,3.28,3.84,g_1_by4IZP6C,1.13,2.46
+football,Bundesliga,Round 20,31/01/,Eintracht Frankfurt,Bayer Leverkusen,1,3,2,3.4,3.81,2.11,g_1_W0pyNnN6,1.1,1.15
+football,Bundesliga,Round 20,31/01/,Hoffenheim,Union Berlin,3,1,0,1.86,3.86,4.26,g_1_hxMjHHjo,1.37,1.84
+football,Bundesliga,Round 20,31/01/,RB Leipzig,Mainz,1,2,2,1.58,4.82,5.33,g_1_KMQVrUqQ,1.74,2.33
+football,Bundesliga,Round 20,31/01/,Werder Bremen,B. Monchengladbach,1,1,1,2.19,3.67,3.31,g_1_UeC1w87m,1.23,0.88
+football,Bundesliga,Round 20,31/01/,FC Koln,Wolfsburg,1,0,0,2.11,3.81,3.4,g_1_IFDxuLrh,1.26,1.15
+football,Bundesliga,Round 19,26/01/,Freiburg,FC Koln,2,1,0,2.05,3.79,3.58,g_1_27DoCV8l,2.25,1.39
+football,Bundesliga,Round 19,25/01/,B. Monchengladbach,Stuttgart,0,3,2,2.94,3.78,2.35,g_1_Wn528m8D,1.17,1.55
+football,Bundesliga,Round 19,25/01/,Union Berlin,Dortmund,0,3,2,3.47,3.36,2.25,g_1_bgclWj0K,1.24,1.84
+football,Bundesliga,Round 19,24/01/,Bayer Leverkusen,Werder Bremen,1,0,0,0.0,0.0,0.0,g_1_nZBEJDGE,2.55,0.94
+football,Bundesliga,Round 16,11/01/,Bayer Leverkusen,Stuttgart,1,4,2,2.17,3.8,3.28,g_1_GEoWC8b6,1.96,2.6
+football,Bundesliga,Round 16,10/01/,Freiburg,Hamburger SV,2,1,0,1.84,3.57,4.85,g_1_rRMQYkLP,2.84,0.67
+football,Bundesliga,Round 16,10/01/,Heidenheim,FC Koln,2,2,1,2.82,3.49,2.57,g_1_SCwWsTct,1.93,2.99
+football,Bundesliga,Round 16,10/01/,Union Berlin,Mainz,2,2,1,2.03,3.26,4.33,g_1_WjeEPorC,3.35,1.0
+football,Bundesliga,Round 16,10/01/,Eintracht Frankfurt,Dortmund,3,3,1,3.6,3.81,2.11,g_1_xUZvBnTI,1.58,2.39
+football,Bundesliga,Round 15,22/12/,Heidenheim,Bayern Munich,0,4,2,14.2,10.4,1.16,g_1_QRccRnd2,1.04,4.43
+football,Bundesliga,Round 15,21/12/,Mainz,St. Pauli,0,0,1,1.96,3.39,4.44,g_1_SdcOE9Cd,1.13,0.3
+football,Bundesliga,Round 15,21/12/,RB Leipzig,Bayer Leverkusen,1,3,2,2.1,4.0,3.28,g_1_KjpAxD43,1.76,2.72
+football,Bundesliga,Round 15,20/12/,Augsburg,Werder Bremen,0,0,1,2.25,3.57,3.27,g_1_I1fkT8Rk,1.03,0.59
+football,Bundesliga,Round 15,20/12/,FC Koln,Union Berlin,0,1,2,2.63,3.2,2.97,g_1_tzSsZbF8,0.54,1.27
+football,Bundesliga,Round 15,20/12/,Hamburger SV,Eintracht Frankfurt,1,1,1,2.45,3.56,2.93,g_1_CMlFGjas,0.75,1.58
+football,Bundesliga,Round 15,20/12/,Stuttgart,Hoffenheim,0,0,1,1.98,3.86,3.75,g_1_Q3FAziZF,1.26,0.13
+football,Bundesliga,Round 15,20/12/,Wolfsburg,Freiburg,3,4,2,2.41,3.58,2.97,g_1_YTIIYU3S,1.66,3.53
+football,Bundesliga,Round 15,20/12/,Dortmund,B. Monchengladbach,2,0,0,1.49,4.85,6.52,g_1_WU3FGVsp,1.43,0.28
+football,Bundesliga,Round 14,15/12/,Werder Bremen,Stuttgart,0,4,2,2.84,3.85,2.38,g_1_MehA7h5T,0.91,2.17
+football,Bundesliga,Round 14,15/12/,Bayern Munich,Mainz,2,2,1,1.1,13.4,21.0,g_1_jiKbkgqo,4.5,0.6
+football,Bundesliga,Round 14,14/12/,Freiburg,Dortmund,1,1,1,4.09,3.69,1.94,g_1_QTb19EzH,1.5,0.92
+football,Bundesliga,Round 14,14/12/,Bayer Leverkusen,FC Koln,2,0,0,1.77,4.24,4.35,g_1_IcCpDdyh,2.07,0.19
+football,Bundesliga,Round 14,13/12/,B. Monchengladbach,Wolfsburg,1,3,2,2.06,3.86,3.5,g_1_IRwt2WSj,0.8,1.71
+football,Bundesliga,Round 14,13/12/,Eintracht Frankfurt,Augsburg,1,0,0,1.9,3.85,4.1,g_1_vD0gBz64,1.05,0.62
+football,Bundesliga,Round 14,13/12/,Hoffenheim,Hamburger SV,4,1,0,1.74,4.31,4.44,g_1_0nDqMiKM,1.31,1.38
+football,Bundesliga,Round 14,13/12/,St. Pauli,Heidenheim,2,1,0,0.0,0.0,0.0,g_1_vXOzODkA,0.81,2.44
+football,Bundesliga,Round 14,13/12/,Union Berlin,RB Leipzig,3,1,0,3.26,3.48,2.29,g_1_YZLSPZKc,1.42,0.55
+football,Bundesliga,Round 13,08/12/,Dortmund,Hoffenheim,2,0,0,1.64,4.64,4.89,g_1_COT34ShK,1.26,1.15
+football,Bundesliga,Round 13,07/12/,Hamburger SV,Werder Bremen,3,2,0,2.5,3.57,2.86,g_1_W6wSfFLN,1.32,0.71
+football,Bundesliga,Round 13,07/12/,RB Leipzig,Eintracht Frankfurt,6,0,0,1.78,4.11,4.45,g_1_4M8rcpof,3.77,0.65
+football,Bundesliga,Round 13,06/12/,Augsburg,Bayer Leverkusen,2,0,0,3.57,3.77,2.06,g_1_AJT30Jin,1.28,1.63
+football,Bundesliga,Round 13,06/12/,FC Koln,St. Pauli,1,1,1,2.09,3.47,3.78,g_1_bguKdyiB,1.91,0.14
+football,Bundesliga,Round 13,06/12/,Heidenheim,Freiburg,2,1,0,4.88,3.7,1.8,g_1_IqXBbcMb,2.14,1.01
+football,Bundesliga,Round 13,06/12/,Stuttgart,Bayern Munich,0,5,2,4.83,4.85,1.62,g_1_OOOqeOF6,0.87,3.54
+football,Bundesliga,Round 13,06/12/,Wolfsburg,Union Berlin,3,1,0,2.01,3.6,3.91,g_1_WlSig2pJ,0.81,1.92
+football,Bundesliga,Round 13,06/12/,Mainz,B. Monchengladbach,0,1,2,0.0,0.0,0.0,g_1_W8Aza6Gs,0.97,1.85
+football,Bundesliga,Round 12,01/12/,Freiburg,Mainz,4,0,0,1.83,3.88,4.4,g_1_AaNZToH7,4.6,0.11
+football,Bundesliga,Round 12,01/12/,Eintracht Frankfurt,Wolfsburg,1,1,1,1.93,3.99,3.81,g_1_xY9SV7ne,1.59,1.86
+football,Bundesliga,Round 12,30/11/,Hamburger SV,Stuttgart,2,1,0,2.97,3.61,2.4,g_1_pIyItP0D,0.98,0.75
+football,Bundesliga,Round 12,30/11/,Bayer Leverkusen,Dortmund,1,2,2,2.63,3.69,2.63,g_1_GILJXTHr,0.81,0.99
+football,Bundesliga,Round 12,29/11/,Bayern Munich,St. Pauli,3,1,0,1.11,11.4,24.0,g_1_pzVmwjfL,2.3,0.64
+football,Bundesliga,Round 12,29/11/,Hoffenheim,Augsburg,3,0,0,1.77,4.3,4.3,g_1_O2m9roW0,2.08,0.96
+football,Bundesliga,Round 12,29/11/,Union Berlin,Heidenheim,1,2,2,1.63,3.86,6.35,g_1_I5p1p71l,0.97,0.59
+football,Bundesliga,Round 12,29/11/,Werder Bremen,FC Koln,1,1,1,2.22,3.91,3.09,g_1_Q75Mik9E,1.18,0.94
+football,Bundesliga,Round 12,29/11/,B. Monchengladbach,RB Leipzig,0,0,1,3.06,3.89,2.24,g_1_bL3UkTwR,0.42,0.93
+football,Bundesliga,Round 11,24/11/,St. Pauli,Union Berlin,0,1,2,2.7,3.08,2.98,g_1_2FepJU2k,0.71,0.56
+football,Bundesliga,Round 11,23/11/,RB Leipzig,Werder Bremen,2,0,0,1.54,4.85,5.65,g_1_2iDcSYu3,2.1,0.8
+football,Bundesliga,Round 11,23/11/,FC Koln,Eintracht Frankfurt,3,4,2,2.79,3.72,2.48,g_1_l8yuuCP8,1.22,1.81
+football,Bundesliga,Round 11,22/11/,Augsburg,Hamburger SV,1,0,0,2.55,3.47,2.86,g_1_WW4EOjuS,1.69,1.36
+football,Bundesliga,Round 11,22/11/,Bayern Munich,Freiburg,6,2,0,1.18,8.68,14.1,g_1_dfhxPaZA,3.03,0.57
+football,Bundesliga,Round 11,22/11/,Dortmund,Stuttgart,3,3,1,1.81,4.03,4.34,g_1_jeAA6iJq,2.99,1.56
+football,Bundesliga,Round 11,22/11/,Heidenheim,B. Monchengladbach,0,3,2,3.68,3.7,2.05,g_1_dElgH8X1,0.33,2.18
+football,Bundesliga,Round 11,22/11/,Wolfsburg,Bayer Leverkusen,1,3,2,3.67,3.9,1.99,g_1_AHG5QCAF,2.13,1.1
+football,Bundesliga,Round 11,22/11/,Mainz,Hoffenheim,1,1,1,2.53,3.61,2.79,g_1_O88I4Vmd,2.02,1.38
+football,Bundesliga,Round 10,10/11/,Eintracht Frankfurt,Mainz,1,0,0,1.87,4.08,3.98,g_1_z3AWBhvP,1.21,0.16
+football,Bundesliga,Round 10,10/11/,Stuttgart,Augsburg,3,2,0,1.59,4.45,5.64,g_1_OSEeCMk5,2.35,1.93
+football,Bundesliga,Round 10,09/11/,Freiburg,St. Pauli,2,1,0,1.8,3.7,4.88,g_1_tpNvG4jt,1.02,0.53
+football,Bundesliga,Round 10,09/11/,B. Monchengladbach,FC Koln,3,1,0,2.09,3.81,3.46,g_1_dtD3A0KH,2.98,2.21
+football,Bundesliga,Round 10,08/11/,Bayer Leverkusen,Heidenheim,6,0,0,1.46,4.82,7.1,g_1_Sx7ODE9C,3.31,0.12
+football,Bundesliga,Round 10,08/11/,Hamburger SV,Dortmund,1,1,1,4.14,3.93,1.87,g_1_lUlUQL4b,0.57,1.03
+football,Bundesliga,Round 10,08/11/,Hoffenheim,RB Leipzig,3,1,0,2.82,3.99,2.35,g_1_SE0LSszn,1.82,1.8
+football,Bundesliga,Round 10,08/11/,Union Berlin,Bayern Munich,2,2,1,12.5,7.0,1.24,g_1_h86C8vkU,0.81,1.42
+football,Bundesliga,Round 10,08/11/,Werder Bremen,Wolfsburg,2,1,0,2.22,3.72,3.21,g_1_S0LnErLh,1.45,0.57
+football,Bundesliga,Round 9,03/11/,Wolfsburg,Hoffenheim,2,3,2,2.86,3.89,2.35,g_1_pfkY2cef,1.55,1.23
+football,Bundesliga,Round 9,02/11/,FC Koln,Hamburger SV2,4,1,0,2.45,3.77,2.8,g_1_WADFFzu0,3.72,1.09
+football,Bundesliga,Round 9,02/11/,Bayern Munich,Bayer Leverkusen,3,0,0,0.0,0.0,0.0,g_1_S2jFnxBD,2.03,0.23
+football,Bundesliga,Round 9,01/11/,Heidenheim,Eintracht Frankfurt,1,1,1,4.37,4.15,1.78,g_1_bcF7HdAm,0.85,0.96
+football,Bundesliga,Round 9,01/11/,Mainz,Werder Bremen,1,1,1,1.96,3.83,3.84,g_1_rBY1Au3K,1.42,1.04
+football,Bundesliga,Round 9,01/11/,RB Leipzig,Stuttgart,3,1,0,2.14,3.86,3.3,g_1_vsKX4JQs,2.09,1.49
+football,Bundesliga,Round 9,01/11/,St. Pauli,B. Monchengladbach,0,4,2,2.34,3.47,3.16,g_1_ttZzNInQ,0.88,2.32
+football,Bundesliga,Round 9,01/11/,Union Berlin,Freiburg,0,0,1,2.66,3.27,2.86,g_1_EZtkaFfJ,1.16,1.17
+football,Bundesliga,Round 9,01/11/,Augsburg,Dortmund,0,1,2,5.72,4.48,1.58,g_1_hKht1yQ6,0.83,0.32
+football,Bundesliga,Round 8,27/10/,Stuttgart,Mainz,2,1,0,2.17,3.51,3.51,g_1_6VjWno5d,1.95,1.45
+football,Bundesliga,Round 8,26/10/,Bayer Leverkusen,Freiburg,2,0,0,1.99,3.79,3.77,g_1_WlKzbBDc,1.71,0.72
+football,Bundesliga,Round 8,26/10/,Dortmund,FC Koln,1,0,0,1.4,5.38,7.69,g_1_0UBifTCM,1.9,0.39
+football,Bundesliga,Round 8,25/10/,Augsburg,RB Leipzig,0,6,2,3.28,4.0,2.1,g_1_fiXQ8SRF,0.73,2.77
+football,Bundesliga,Round 8,25/10/,B. Monchengladbach,Bayern Munich,0,3,2,11.9,7.2,1.24,g_1_bPwIAlc3,0.79,3.98
+football,Bundesliga,Round 8,25/10/,Eintracht Frankfurt,St. Pauli,2,0,0,1.7,4.45,4.62,g_1_vFNrdkrA,2.27,0.39
+football,Bundesliga,Round 8,25/10/,Hamburger SV,Wolfsburg,0,1,2,2.25,3.68,3.17,g_1_Kxm7lbt1,2.77,0.37
+football,Bundesliga,Round 8,25/10/,Hoffenheim,Heidenheim,3,1,0,1.6,4.58,5.34,g_1_bNbbjKBl,2.37,1.11
+football,Bundesliga,Round 8,25/10/,Werder Bremen,Union Berlin,1,0,0,2.35,3.58,3.07,g_1_A3cNl7zp,0.95,0.59
+football,Bundesliga,Round 7,20/10/,St. Pauli,Hoffenheim,0,3,2,2.82,3.49,2.57,g_1_v1rAsjTG,0.99,2.34
+football,Bundesliga,Round 7,19/10/,Freiburg,Eintracht Frankfurt,2,2,1,2.5,3.67,2.79,g_1_StczVCqB,1.14,0.89
+football,Bundesliga,Round 7,19/10/,Bayern Munich,Dortmund,2,1,0,1.4,5.64,7.18,g_1_WE3RWYEb,2.48,1.58
+football,Bundesliga,Round 7,18/10/,FC Koln,Augsburg,1,1,1,2.05,3.9,3.49,g_1_Gtxlz8Lj,0.58,1.12
+football,Bundesliga,Round 7,18/10/,Heidenheim,Werder Bremen,2,2,1,2.72,3.52,2.64,g_1_KAjIuUcT,3.26,1.3
+football,Bundesliga,Round 7,18/10/,Mainz,Bayer Leverkusen,3,4,2,2.63,3.59,2.69,g_1_0ferTjEN,1.66,3.48
+football,Bundesliga,Round 7,18/10/,RB Leipzig,Hamburger SV,2,1,0,1.49,5.12,6.15,g_1_rFb7NUyo,1.06,1.53
+football,Bundesliga,Round 7,18/10/,Wolfsburg,Stuttgart,0,3,2,2.95,3.6,2.42,g_1_ALjgoYTi,0.32,1.9
+football,Bundesliga,Round 7,18/10/,Union Berlin,B. Monchengladbach,3,1,0,2.31,3.34,3.34,g_1_Wzu2qCb4,1.23,0.63
+football,Bundesliga,Round 6,06/10/,B. Monchengladbach,Freiburg,0,0,1,2.78,3.34,2.7,g_1_IBwhIZa5,0.58,0.7
+football,Bundesliga,Round 6,06/10/,Hamburger SV,Mainz,4,0,0,3.17,3.83,2.2,g_1_Ol0JYfpn,1.91,0.67
+football,Bundesliga,Round 6,05/10/,Stuttgart,Heidenheim,1,0,0,1.42,5.13,7.7,g_1_pbupKeVh,0.99,0.37
+football,Bundesliga,Round 6,05/10/,Eintracht Frankfurt,Bayern Munich,0,3,2,8.2,5.91,1.35,g_1_xzXHGMO0,0.32,1.72
+football,Bundesliga,Round 6,04/10/,Augsburg,Wolfsburg,3,1,0,2.56,3.58,2.77,g_1_EwX0GDUH,1.71,1.18
+football,Bundesliga,Round 6,04/10/,Bayer Leverkusen,Union Berlin,2,0,0,1.73,4.07,4.83,g_1_U9T9Irfl,2.88,0.74
+football,Bundesliga,Round 6,04/10/,Dortmund,RB Leipzig,1,1,1,1.7,4.83,4.27,g_1_bkLQE0gD,0.9,1.09
+football,Bundesliga,Round 6,04/10/,Werder Bremen,St. Pauli,1,0,0,2.37,3.5,3.09,g_1_lWoyMH0t,1.86,0.75
+football,Bundesliga,Round 6,04/10/,Hoffenheim,FC Koln,0,1,2,1.96,3.87,3.82,g_1_Kzz9EiaU,1.12,0.94
+football,Bundesliga,Round 5,29/09/,Union Berlin,Hamburger SV,0,0,1,1.99,3.68,3.88,g_1_G63z4que,1.37,1.07
+football,Bundesliga,Round 5,29/09/,FC Koln,Stuttgart,1,2,2,2.55,3.77,2.68,g_1_APnwO4WQ,1.07,1.87
+football,Bundesliga,Round 5,28/09/,Freiburg,Hoffenheim,1,1,1,2.34,3.47,3.16,g_1_CCL8kpQ1,1.31,2.55
+football,Bundesliga,Round 5,28/09/,B. Monchengladbach,Eintracht Frankfurt,4,6,2,3.27,3.69,2.21,g_1_O8OeBRnL,1.7,2.8
+football,Bundesliga,Round 5,27/09/,Heidenheim,Augsburg,2,1,0,2.97,3.58,2.41,g_1_xClVPQ1E,1.24,0.81
+football,Bundesliga,Round 5,27/09/,Mainz,Dortmund,0,2,2,3.67,3.9,1.99,g_1_468fDmI8,0.48,1.44
+football,Bundesliga,Round 5,27/09/,St. Pauli,Bayer Leverkusen,1,2,2,3.05,3.46,2.42,g_1_OW6r2N97,0.82,0.69
+football,Bundesliga,Round 5,27/09/,Wolfsburg,RB Leipzig,0,1,2,2.7,3.7,2.57,g_1_fiFR55Ar,3.05,2.41
+football,Bundesliga,Round 5,27/09/,Bayern Munich,Werder Bremen,4,0,0,1.1,12.5,24.0,g_1_GpSai6ek,3.46,0.41
+football,Bundesliga,Round 4,22/09/,Dortmund,Wolfsburg,1,0,0,1.56,4.65,5.71,g_1_zkNt22hA,1.1,0.8
+football,Bundesliga,Round 4,22/09/,Bayer Leverkusen,B. Monchengladbach,1,1,1,1.53,4.58,6.36,g_1_nTtntLVj,1.46,0.81
+football,Bundesliga,Round 4,21/09/,Eintracht Frankfurt,Union Berlin,3,4,2,1.68,4.35,4.92,g_1_EZYX3ONc,1.91,1.64
+football,Bundesliga,Round 4,21/09/,RB Leipzig,FC Koln,3,1,0,1.88,4.05,3.99,g_1_M5Ll0tNM,3.27,1.7
+football,Bundesliga,Round 4,20/09/,Augsburg,Mainz,1,4,2,2.67,3.56,2.67,g_1_WvVD0AY2,1.12,2.52
+football,Bundesliga,Round 4,20/09/,Hamburger SV,Heidenheim,2,1,0,1.78,3.97,4.58,g_1_p2yUdSXR,2.36,2.99
+football,Bundesliga,Round 4,20/09/,Hoffenheim,Bayern Munich,1,4,2,8.18,5.38,1.38,g_1_OnmLbl3F,0.75,3.03
+football,Bundesliga,Round 4,20/09/,Werder Bremen,Freiburg,0,3,2,2.4,3.67,2.93,g_1_tj2LfKpp,1.22,2.42
+football,Bundesliga,Round 4,20/09/,Stuttgart,St. Pauli,2,0,0,1.87,3.98,4.08,g_1_E30ThbFd,2.11,0.95
+football,Bundesliga,Round 3,15/09/,B. Monchengladbach,Werder Bremen,0,4,2,2.15,3.99,3.07,g_1_Ey4vpUWO,1.48,2.1
+football,Bundesliga,Round 3,14/09/,St. Pauli,Augsburg,2,1,0,2.15,3.58,3.38,g_1_KEQ50kH5,1.9,0.78
+football,Bundesliga,Round 3,14/09/,Bayern Munich,Hamburger SV,5,0,0,1.07,14.4,28.0,g_1_80jiefuQ,2.68,0.56
+football,Bundesliga,Round 3,13/09/,Freiburg,Stuttgart,3,1,0,2.64,3.52,2.64,g_1_0bVVmCXa,1.55,0.53
+football,Bundesliga,Round 3,13/09/,Heidenheim,Dortmund,0,2,2,4.82,4.57,1.63,g_1_hSODbToI,0.4,2.76
+football,Bundesliga,Round 3,13/09/,Mainz,RB Leipzig,0,1,2,2.36,3.81,2.81,g_1_6B0Woj2C,0.9,1.79
+football,Bundesliga,Round 3,13/09/,Union Berlin,Hoffenheim,2,4,2,2.83,3.43,2.53,g_1_QFXd2Bng,2.6,2.76
+football,Bundesliga,Round 3,13/09/,Wolfsburg,FC Koln,3,3,1,1.94,3.66,3.97,g_1_IkUl4XHt,1.49,1.65
+football,Bundesliga,Round 3,13/09/,Bayer Leverkusen2,Eintracht Frankfurt,3,1,0,2.13,3.68,3.34,g_1_SpXNkY2m,2.12,0.65
+football,Bundesliga,Round 2,01/09/,FC Koln,Freiburg,4,1,0,2.64,3.35,2.74,g_1_KvAdZCI6,2.11,0.91
+football,Bundesliga,Round 2,01/09/,Dortmund,Union Berlin,3,0,0,1.44,4.98,6.82,g_1_SM6zUHtR,2.51,1.15
+football,Bundesliga,Round 2,31/08/,Wolfsburg,Mainz,1,1,1,2.2,3.57,3.27,g_1_MqS9rHeK,0.61,1.95
+football,Bundesliga,Round 2,31/08/,Augsburg,Bayern Munich,2,3,2,9.6,6.08,1.3,g_1_IFDuweJs,0.51,4.23
+football,Bundesliga,Round 2,30/08/,Hoffenheim,Eintracht Frankfurt,1,3,2,2.64,3.85,2.49,g_1_Es7lyZmf,1.37,1.56
+football,Bundesliga,Round 2,30/08/,RB Leipzig,Heidenheim,2,0,0,1.49,5.04,5.79,g_1_b5c6Oe4l,2.22,1.01
+football,Bundesliga,Round 2,30/08/,Stuttgart,B. Monchengladbach,1,0,0,1.6,4.57,5.08,g_1_6ypNKD3D,0.84,1.82
+football,Bundesliga,Round 2,30/08/,Werder Bremen,Bayer Leverkusen,3,3,1,3.66,3.96,1.94,g_1_KKoFMZY0,2.59,2.11
+football,Bundesliga,Round 2,30/08/,Hamburger SV,St. Pauli,0,2,2,2.44,3.3,3.05,g_1_tfb5XjmJ,0.35,1.44
+football,Bundesliga,Round 1,25/08/,B. Monchengladbach,Hamburger SV,0,0,1,2.01,3.91,3.6,g_1_K24kjjOt,1.1,0.41
+football,Bundesliga,Round 1,24/08/,Mainz,FC Koln,0,1,2,2.01,3.7,3.81,g_1_UwPuWnwP,1.53,1.35
+football,Bundesliga,Round 1,24/08/,St. Pauli,Dortmund,3,3,1,4.44,3.71,1.86,g_1_lrd6n8N5,1.28,1.56
+football,Bundesliga,Round 1,23/08/,Bayer Leverkusen,Hoffenheim,1,2,2,1.74,4.32,4.44,g_1_KlPGyi9m,0.71,0.45
+football,Bundesliga,Round 1,23/08/,Eintracht Frankfurt,Werder Bremen,4,1,0,1.57,4.85,5.36,g_1_GGIPZUw0,2.74,0.52
+football,Bundesliga,Round 1,23/08/,Freiburg,Augsburg,1,3,2,1.96,3.69,4.0,g_1_8OzXX88C,2.6,1.34
+football,Bundesliga,Round 1,23/08/,Heidenheim,Wolfsburg,1,3,2,2.86,3.37,2.61,g_1_8pC7pnhI,0.71,2.45
+football,Bundesliga,Round 1,23/08/,Union Berlin,Stuttgart,2,1,0,4.2,3.84,1.88,g_1_GUcblUhg,0.35,1.72
+football,Bundesliga,Round 1,23/08/,Bayern Munich,RB Leipzig,6,0,0,1.25,7.2,11.3,g_1_GtYJcyBd,1.64,0.54
+football,Bundesliga,Round 19,24/01/,Bayern Munich,Augsburg,1,2,2,0.0,0.0,0.0,g_1_WQTReAO7,1.47,1.17
+football,Bundesliga,Round 19,24/01/,Eintracht Frankfurt,Hoffenheim,1,3,2,3.1,3.72,2.28,g_1_KnAMHioR,0.59,1.36
+football,Bundesliga,Round 19,24/01/,Heidenheim,RB Leipzig,0,3,2,4.49,4.49,1.71,g_1_zZjSO8hf,0.95,1.65
+football,Bundesliga,Round 19,24/01/,Mainz,Wolfsburg,3,1,0,2.34,3.47,3.16,g_1_AXGgA9w1,3.82,0.73
+football,Bundesliga,Round 19,24/01/,St. Pauli,Hamburger SV,0,0,1,2.88,2.98,2.88,g_1_2LhKQUNs,0.33,0.36
+football,Bundesliga,Round 18,19/01/,Augsburg,Freiburg,2,2,1,2.62,3.33,2.87,g_1_x4hW6zX8,0.91,1.53
+football,Bundesliga,Round 18,18/01/,Stuttgart,Union Berlin,1,1,1,1.64,4.1,5.64,g_1_lrCyogAk,2.13,1.71
+football,Bundesliga,Round 18,18/01/,RB Leipzig,Bayern Munich,1,5,2,4.5,4.47,1.71,g_1_dSod5Ne4,2.45,4.57
+football,Bundesliga,Round 18,17/01/,FC Koln,Mainz,2,1,0,2.2,3.48,3.48,g_1_2oxBahPr,2.08,1.53
+football,Bundesliga,Round 18,17/01/,Hamburger SV,B. Monchengladbach,0,0,1,2.5,3.57,2.86,g_1_O0QJcWge,1.19,0.48
+football,Bundesliga,Round 18,17/01/,Hoffenheim,Bayer Leverkusen,1,0,0,2.38,3.85,2.84,g_1_YVou5E1L,1.55,0.97
+football,Bundesliga,Round 18,17/01/,Wolfsburg,Heidenheim,1,1,1,1.7,4.19,4.86,g_1_pA5pqXv2,0.93,1.0
+football,Bundesliga,Round 18,17/01/,Werder Bremen,Eintracht Frankfurt,3,3,1,2.87,3.7,2.43,g_1_Isz531QG,1.97,0.99
+football,Bundesliga,Round 17,16/01/,Augsburg,Union Berlin,1,1,1,2.75,3.3,2.75,g_1_zaIEhpCb,0.56,1.31
+football,Bundesliga,Round 17,15/01/,FC Koln,Bayern Munich,1,3,2,12.2,7.75,1.22,g_1_xOEVl2BN,0.72,1.5
+football,Bundesliga,Round 17,15/01/,Hoffenheim,B. Monchengladbach,5,1,0,0.0,0.0,0.0,g_1_rPLMjOtB,3.42,0.94
+football,Bundesliga,Round 17,15/01/,RB Leipzig,Freiburg,2,0,0,1.76,4.0,4.68,g_1_4IYfxPRH,2.48,0.17
+football,Bundesliga,Round 17,15/01/,Wolfsburg,St. Pauli,2,1,0,1.86,3.65,4.56,g_1_EqU5f6sn,1.88,0.89
+football,Bundesliga,Round 17,14/01/,Dortmund,Werder Bremen,3,0,0,1.46,5.13,6.67,g_1_zwsvt7Sh,2.42,0.52
+football,Bundesliga,Round 17,14/01/,Mainz,Heidenheim,2,1,0,1.78,3.92,4.65,g_1_W4zmvoc5,1.38,1.54
+football,Bundesliga,Round 17,14/01/,Stuttgart,Eintracht Frankfurt,3,2,0,0.0,0.0,0.0,g_1_OKldz3dU,2.31,0.97
+football,Bundesliga,Round 16,12/01/,Bayern Munich,Wolfsburg,8,1,0,1.14,10.3,18.4,g_1_8lrOEUTg,3.3,1.37
+football,Bundesliga,Round 16,11/01/,B. Monchengladbach,Augsburg,4,0,0,1.95,3.8,3.91,g_1_zP15R7Da,2.99,1.79
+football,Bundesliga,Round 21,08/02/,B. Monchengladbach,Bayer Leverkusen,1,1,1,3.65,3.78,2.03,g_1_6FjAy7gc,0.7,0.79
+football,Bundesliga,Round 21,07/02/,Freiburg,Werder Bremen,1,0,0,2.15,3.49,3.58,g_1_rNb2ZGCT,0.46,0.98
+football,Bundesliga,Round 21,07/02/,Heidenheim,Hamburger SV,0,2,2,2.88,3.5,2.52,g_1_0xS5Qtod,1.55,1.6
+football,Bundesliga,Round 21,07/02/,Mainz,Augsburg,2,0,0,1.96,3.79,3.9,g_1_vgpYTfzi,2.41,0.7
+football,Bundesliga,Round 21,07/02/,St. Pauli,Stuttgart,2,1,0,4.86,3.99,1.74,g_1_6wZdS2Gq,1.95,0.84
+football,Bundesliga,Round 21,07/02/,Wolfsburg,Dortmund,1,2,2,4.31,4.44,1.74,g_1_EufIZpO9,1.46,1.23
+football,Bundesliga,Round 21,07/02/,Union Berlin,Eintracht Frankfurt,1,1,1,2.18,3.63,3.37,g_1_zerRXOhM,1.53,0.15
+football,Bundesliga,Round 18,17/01/,Dortmund,St. Pauli,3,2,0,1.37,4.93,10.4,g_1_l2rl7qRi,3.21,0.55
+football,Bundesliga,Round 21,09/02/,Bayern Munich,Hoffenheim,5,1,0,1.22,8.52,10.7,g_1_ne5gywrH,6.02,2.04
+football,Bundesliga,Round 21,08/02/,FC Koln,RB Leipzig,1,2,2,3.65,3.97,1.98,g_1_hWEilpw3,1.05,1.99
+football,Bundesliga,Round 22,14/02/,Dortmund,Mainz,4,0,0,1.66,4.3,5.11,g_1_tdmuut0k,2.32,1.51
+football,Bundesliga,Round 22,15/02/,Stuttgart,FC Koln,3,1,0,1.57,4.85,5.36,g_1_GYRsa1iL,2.26,1.59
+football,Bundesliga,Round 22,14/02/,Bayer Leverkusen,St. Pauli,4,0,0,1.54,4.41,6.43,g_1_lb80nO7F,1.58,0.52
+football,Bundesliga,Round 22,14/02/,Eintracht Frankfurt,B. Monchengladbach,3,0,0,2.24,3.56,3.3,g_1_dOB8p2xS,1.63,1.19
+football,Bundesliga,Round 22,14/02/,Hamburger SV,Union Berlin,3,2,0,2.35,3.33,3.28,g_1_ltFUkcE7,2.06,2.13
+football,Bundesliga,Round 22,14/02/,Hoffenheim,Freiburg,3,0,0,1.77,4.0,4.62,g_1_SQQLiJqe,1.71,0.78
+football,Bundesliga,Round 22,14/02/,Werder Bremen,Bayern Munich,0,3,2,8.61,6.39,1.32,g_1_rLTZ0NM8,0.81,1.94
+football,Bundesliga,Round 22,16/02/,RB Leipzig,Wolfsburg,2,2,1,1.52,4.88,6.01,g_1_SComwKU1,2.94,0.62
+football,Bundesliga,Round 22,15/02/,Augsburg,Heidenheim,1,0,0,1.94,3.84,3.89,g_1_zJ8EguFr,1.94,1.09
+football,Bundesliga,Round 23,22/02/,RB Leipzig,Dortmund,2,2,1,2.04,4.03,3.42,g_1_23wbiAkC,1.9,1.61
+football,Bundesliga,Round 23,21/02/,Bayern Munich,Eintracht Frankfurt,3,2,0,1.09,14.2,23.0,g_1_Gn7GD06E,2.8,2.34
+football,Bundesliga,Round 23,21/02/,FC Koln,Hoffenheim,2,2,1,3.55,3.88,2.03,g_1_lK1u4mZH,1.1,1.7
+football,Bundesliga,Round 23,21/02/,Union Berlin,Bayer Leverkusen,1,0,0,3.43,3.26,2.31,g_1_Es7G9i5t,0.54,0.93
+football,Bundesliga,Round 23,21/02/,Wolfsburg,Augsburg,2,3,2,2.26,3.5,3.3,g_1_ATt6klKO,1.6,1.79
+football,Bundesliga,Round 23,21/02/,Mainz,Hamburger SV,1,1,1,2.09,3.52,3.72,g_1_r1NdgWKa,1.53,0.7
+football,Bundesliga,Round 23,23/02/,Heidenheim,Stuttgart,3,3,1,4.46,4.46,1.72,g_1_G63X5945,2.12,2.23
+football,Bundesliga,Round 23,23/02/,St. Pauli,Werder Bremen,2,1,0,2.69,3.28,2.82,g_1_M7AO7VZh,0.2,1.54
+football,Bundesliga,Round 23,22/02/,Freiburg,B. Monchengladbach,2,1,0,2.15,3.33,3.78,g_1_AmPlehjm,1.73,0.71
+football,Bundesliga,Round 24,01/03/,Dortmund,Bayern Munich,2,3,2,4.41,4.6,1.7,g_1_dQO6K8Jb,1.05,2.06
+football,Bundesliga,Round 24,28/02/,B. Monchengladbach,Union Berlin,1,0,0,2.4,3.37,3.16,g_1_MkHhB4to,3.02,0.14
+football,Bundesliga,Round 24,28/02/,Bayer Leverkusen,Mainz,1,1,1,1.71,4.34,4.65,g_1_pnel2R3U,1.28,0.74
+football,Bundesliga,Round 24,28/02/,Hoffenheim,St. Pauli,0,1,2,1.55,4.47,6.19,g_1_re2mXo34,2.8,0.79
+football,Bundesliga,Round 24,28/02/,Werder Bremen,Heidenheim,2,0,0,1.63,4.4,5.33,g_1_UixEInlB,2.7,1.37
+football,Bundesliga,Round 24,28/02/,Augsburg,FC Koln,2,0,0,2.18,3.49,3.5,g_1_xbauZ7Yi,1.47,0.49

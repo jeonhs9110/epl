@@ -1,0 +1,382 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Serie A 2022 2023,Regular Season,12/06/,Spezia,VeronaWinner,1,3,2,g_1_Q3DqQz7n,2.59,2.93,3.29,2.37,0.75
+football,Serie A 2022 2023,Round 38,05/06/,AC Milan,Verona,3,1,0,g_1_dCc3RImt,1.72,4.08,5.25,2.21,0.75
+football,Serie A 2022 2023,Round 38,05/06/,AS Roma,Spezia,2,1,0,g_1_hviCPdIh,1.74,3.81,5.14,2.19,1.03
+football,Serie A 2022 2023,Round 38,05/06/,Atalanta,Monza,5,2,0,g_1_n1Up9yYB,1.57,4.88,5.33,3.6,0.87
+football,Serie A 2022 2023,Round 38,05/06/,Lecce,Bologna,2,3,2,g_1_KjMc6ZHU,2.48,3.59,2.87,1.64,0.87
+football,Serie A 2022 2023,Round 38,05/06/,Udinese,Juventus,0,1,2,g_1_vegOMf2B,4.99,4.27,1.68,0.79,1.16
+football,Serie A 2022 2023,Round 38,05/06/,Napoli,Sampdoria,2,0,0,g_1_z3d7Qx3n,1.08,14.3,30.0,2.14,0.58
+football,Serie A 2022 2023,Round 38,04/06/,Cremonese,Salernitana,2,0,0,g_1_QiTl8emI,2.83,3.58,2.51,1.25,0.5
+football,Serie A 2022 2023,Round 38,04/06/,Empoli,Lazio,0,2,2,g_1_8GIg7F2O,4.08,3.88,1.9,0.21,1.57
+football,Serie A 2022 2023,Round 38,04/06/,Torino,Inter,0,1,2,g_1_QikKNzm5,2.67,3.56,2.66,1.25,0.96
+football,Serie A 2022 2023,Round 38,03/06/,Sassuolo2,Fiorentina,1,3,2,g_1_WUkGOGXb,2.74,3.82,2.48,1.16,1.42
+football,Serie A 2022 2023,Round 37,29/05/,Juventus,AC Milan,0,1,2,g_1_nwnbIuBP,2.51,3.36,3.12,0.97,0.52
+football,Serie A 2022 2023,Round 37,29/05/,Lazio,Cremonese,3,2,0,g_1_lnYPDaJt,1.25,7.0,13.0,1.77,0.46
+football,Serie A 2022 2023,Round 37,28/05/,Bologna,Napoli,2,2,1,g_1_EJOBdbl6,4.04,3.66,2.02,2.18,1.4
+football,Serie A 2022 2023,Round 37,28/05/,Monza,Lecce,0,1,2,g_1_r9XTCJYn,2.2,3.28,3.68,0.95,1.08
+football,Serie A 2022 2023,Round 37,28/05/,Verona,Empoli,1,1,1,g_1_MqSJfxJI,1.95,3.67,4.08,1.03,1.56
+football,Serie A 2022 2023,Round 37,28/05/,Inter,Atalanta,3,2,0,g_1_0zRNgdYO,1.83,3.9,4.42,2.53,0.81
+football,Serie A 2022 2023,Round 37,28/05/,Fiorentina,AS Roma,2,1,0,g_1_SMSFeI3C,2.43,3.39,3.08,2.32,1.13
+football,Serie A 2022 2023,Round 37,27/05/,Salernitana,Udinese,3,2,0,g_1_dCyYBwlg,3.04,3.37,2.47,1.24,2.21
+football,Serie A 2022 2023,Round 37,27/05/,Spezia,Torino,0,4,2,g_1_IRPtAHI5,2.62,3.18,2.98,0.81,1.01
+football,Serie A 2022 2023,Round 37,27/05/,Sampdoria,Sassuolo,2,2,1,g_1_vyRxBc3a,4.1,4.1,1.85,2.0,3.15
+football,Serie A 2022 2023,Round 36,23/05/,Empoli,Juventus,4,1,0,g_1_zT3xraZC,5.23,3.64,1.77,2.44,2.1
+football,Serie A 2022 2023,Round 36,23/05/,AS Roma,Salernitana,2,2,1,g_1_pvXf0tks,1.54,4.15,7.26,1.34,1.04
+football,Serie A 2022 2023,Round 36,22/05/,Udinese,Lazio,0,1,2,g_1_WfZ6cvZa,3.88,3.71,1.98,0.6,2.07
+football,Serie A 2022 2023,Round 36,22/05/,Napoli,Inter,3,1,0,g_1_vcfS4MtQ,2.07,3.79,3.53,0.67,0.07
+football,Serie A 2022 2023,Round 36,21/05/,Torino,Fiorentina,1,1,1,g_1_h4z3bKJg,2.23,3.28,3.62,0.86,0.86
+football,Serie A 2022 2023,Round 36,21/05/,Lecce,Spezia,0,0,1,g_1_EJ2tsJlJ,2.09,3.15,4.27,0.24,0.73
+football,Serie A 2022 2023,Round 36,21/05/,AC Milan,Sampdoria,5,1,0,g_1_SMjO52RJ,1.14,9.19,21.0,4.44,0.53
+football,Serie A 2022 2023,Round 36,21/05/,Atalanta,Verona,3,1,0,g_1_v1ATqL40,1.46,4.82,7.1,1.43,1.16
+football,Serie A 2022 2023,Round 36,20/05/,Cremonese,Bologna,1,5,2,g_1_Ii9XruK6,3.66,3.68,2.06,0.94,2.47
+football,Serie A 2022 2023,Round 36,20/05/,Sassuolo,Monza,1,2,2,g_1_OUVba04m,2.18,3.7,3.3,1.52,1.51
+football,Serie A 2022 2023,Round 35,16/05/,Sampdoria,Empoli,1,1,1,g_1_Wz7Loszl,3.94,3.5,2.04,1.31,1.63
+football,Serie A 2022 2023,Round 35,15/05/,Juventus,Cremonese,2,0,0,g_1_0nXtgPsE,1.38,4.93,9.62,1.89,0.09
+football,Serie A 2022 2023,Round 35,15/05/,Bologna,AS Roma,0,0,1,g_1_CQjnXsLf,2.76,3.15,2.85,0.37,0.95
+football,Serie A 2022 2023,Round 35,14/05/,Fiorentina,Udinese,2,0,0,g_1_jHkjW1z1,1.83,3.8,4.56,1.41,0.21
+football,Serie A 2022 2023,Round 35,14/05/,Monza,Napoli,2,0,0,g_1_n3Vli3CQ,3.57,3.43,2.18,1.32,1.32
+football,Serie A 2022 2023,Round 35,14/05/,Verona,Torino,0,1,2,g_1_pvkfVLk7,2.44,3.18,3.27,0.48,1.56
+football,Serie A 2022 2023,Round 35,14/05/,Inter,Sassuolo,4,2,0,g_1_bsgbUu5D,1.46,4.86,7.15,1.43,2.01
+football,Serie A 2022 2023,Round 35,14/05/,Spezia,AC Milan,2,0,0,g_1_pvBPp1kf,4.74,3.66,1.83,1.9,1.04
+football,Serie A 2022 2023,Round 35,13/05/,Salernitana,Atalanta,1,0,0,g_1_lCHGnNKs,5.14,4.27,1.66,0.57,1.26
+football,Serie A 2022 2023,Round 35,13/05/,Lazio,Lecce,2,2,1,g_1_vwWphqcK,1.7,3.86,5.95,2.0,1.54
+football,Serie A 2022 2023,Round 34,09/05/,Sassuolo,Bologna,1,1,1,g_1_O2Z9jWLF,2.36,3.64,3.02,0.42,0.45
+football,Serie A 2022 2023,Round 34,09/05/,Empoli,Salernitana,2,1,0,g_1_xdzCVUqj,2.28,2.97,3.93,2.69,0.83
+football,Serie A 2022 2023,Round 34,09/05/,Udinese,Sampdoria,2,0,0,g_1_fkdsYN5l,1.5,4.6,6.76,1.12,0.69
+football,Serie A 2022 2023,Round 34,08/05/,Lecce,Verona,0,1,2,g_1_GnZFUlad,2.04,3.19,4.42,0.77,0.6
+football,Serie A 2022 2023,Round 34,08/05/,Napoli,Fiorentina,1,0,0,g_1_rgR1hhi3,1.86,3.79,4.38,2.11,1.24
+football,Serie A 2022 2023,Round 34,07/05/,Torino,Monza,1,1,1,g_1_GbcwZ3jr,2.1,3.38,3.85,0.87,0.5
+football,Serie A 2022 2023,Round 34,07/05/,Atalanta,Juventus,0,2,2,g_1_IBguyiMS,2.5,3.39,2.98,1.18,1.13
+football,Serie A 2022 2023,Round 34,07/05/,Cremonese,Spezia,2,0,0,g_1_fXp7WAUq,2.52,3.5,2.88,0.83,1.33
+football,Serie A 2022 2023,Round 34,07/05/,AS Roma,Inter,0,2,2,g_1_QHG6iC69,3.34,3.26,2.43,0.99,0.89
+football,Serie A 2022 2023,Round 34,06/05/,AC Milan,Lazio,2,0,0,g_1_42ScgYyc,1.93,3.64,4.5,0.93,0.64
+football,Serie A 2022 2023,Round 33,05/05/,Empoli,Bologna,3,1,0,g_1_pr79NXiT,2.96,3.14,2.68,1.29,1.46
+football,Serie A 2022 2023,Round 33,05/05/,Udinese,Napoli,1,1,1,g_1_OlfyxX6M,6.6,3.89,1.61,0.35,0.41
+football,Serie A 2022 2023,Round 33,04/05/,AC Milan,Cremonese,1,1,1,g_1_WYuSuF7c,1.36,5.04,10.2,1.65,1.0
+football,Serie A 2022 2023,Round 33,04/05/,Lazio,Sassuolo,2,0,0,g_1_IVyOtehi,1.68,4.23,5.03,2.2,1.0
+football,Serie A 2022 2023,Round 33,04/05/,Monza,AS Roma,1,1,1,g_1_QeuWvZM3,4.38,3.26,2.02,0.46,0.89
+football,Serie A 2022 2023,Round 33,04/05/,Verona,Inter,0,6,2,g_1_xzayJi0p,5.52,4.07,1.66,0.61,2.87
+football,Serie A 2022 2023,Round 33,04/05/,Atalanta,Spezia,3,2,0,g_1_6i85ODxN,1.38,5.52,7.83,0.84,0.93
+football,Serie A 2022 2023,Round 33,04/05/,Juventus,Lecce,2,1,0,g_1_GQcuIBFj,1.57,3.91,7.2,1.93,1.51
+football,Serie A 2022 2023,Round 33,04/05/,Salernitana,Fiorentina,3,3,1,g_1_4nvzvgxA,4.35,3.89,1.84,1.15,2.0
+football,Serie A 2022 2023,Round 33,04/05/,Sampdoria,Torino,0,2,2,g_1_pbeXxDiG,5.23,3.62,1.78,0.25,2.08
+football,Serie A 2022 2023,Round 32,01/05/,Bologna,Juventus,1,1,1,g_1_WYgNBzgH,3.88,3.27,2.14,1.85,2.3
+football,Serie A 2022 2023,Round 32,01/05/,Fiorentina,Sampdoria,5,0,0,g_1_hlrW9ENT,1.38,5.36,8.58,1.74,0.28
+football,Serie A 2022 2023,Round 32,30/04/,Cremonese,Verona,1,1,1,g_1_APhRAf8N,3.28,3.18,2.43,0.49,1.21
+football,Serie A 2022 2023,Round 32,30/04/,Napoli,Salernitana,1,1,1,g_1_M3MqTyOi,1.19,8.01,14.6,1.59,0.3
+football,Serie A 2022 2023,Round 32,30/04/,Sassuolo,Empoli,2,1,0,g_1_IVFhRFh4,2.08,3.58,3.7,0.95,0.49
+football,Serie A 2022 2023,Round 32,30/04/,Inter,Lazio,3,1,0,g_1_U9Zc5YVp,1.84,3.57,4.85,3.36,0.73
+football,Serie A 2022 2023,Round 32,30/04/,Torino,Atalanta,1,2,2,g_1_OSI0PgNG,3.34,3.34,2.31,0.04,0.09
+football,Serie A 2022 2023,Round 32,30/04/,AS Roma,AC Milan,1,1,1,g_1_vuHlSewb,3.01,2.99,2.74,1.3,1.17
+football,Serie A 2022 2023,Round 32,29/04/,Spezia,Monza,0,2,2,g_1_ChFdQZ7A,2.89,3.34,2.7,1.75,0.91
+football,Serie A 2022 2023,Round 32,29/04/,Lecce,Udinese,1,0,0,g_1_rDNuUH8o,2.22,3.21,3.72,2.0,0.75
+football,Serie A 2022 2023,Round 31,25/04/,Atalanta,AS Roma,3,1,0,g_1_p4Gtac9B,2.62,3.28,2.91,0.99,1.12
+football,Serie A 2022 2023,Round 31,24/04/,Juventus,Napoli,0,1,2,g_1_UiIhdegU,3.08,3.08,2.62,0.39,1.41
+football,Serie A 2022 2023,Round 31,24/04/,AC Milan,Lecce,2,0,0,g_1_8Im3Gbvn,1.54,4.1,7.16,0.97,1.21
+football,Serie A 2022 2023,Round 31,23/04/,Monza,Fiorentina,3,2,0,g_1_2um7FIgh,3.81,3.38,2.12,1.62,1.48
+football,Serie A 2022 2023,Round 31,23/04/,Udinese,Cremonese,3,0,0,g_1_xbuKCGwB,1.77,3.88,4.85,1.69,1.08
+football,Serie A 2022 2023,Round 31,23/04/,Empoli,Inter,0,3,2,g_1_dvKpbHOH,6.26,4.05,1.6,0.94,1.17
+football,Serie A 2022 2023,Round 31,23/04/,Sampdoria,Spezia,1,1,1,g_1_b7tGDdO4,2.79,3.25,2.74,1.74,2.54
+football,Serie A 2022 2023,Round 31,23/04/,Lazio,Torino,0,1,2,g_1_URlaHvPu,1.89,3.36,4.92,0.68,0.68
+football,Serie A 2022 2023,Round 31,22/04/,Salernitana,Sassuolo,3,0,0,g_1_GriBEx9b,3.49,3.68,2.12,1.17,0.68
+football,Serie A 2022 2023,Round 31,22/04/,Verona,Bologna,2,1,0,g_1_j1JlcyvO,2.78,2.98,2.98,1.51,1.65
+football,Serie A 2022 2023,Round 30,18/04/,Fiorentina,Atalanta,1,1,1,g_1_UTJ5cpY6,2.29,3.46,3.28,2.31,0.59
+football,Serie A 2022 2023,Round 30,17/04/,AS Roma,Udinese,3,0,0,g_1_GOOP2uAn,1.9,3.34,4.88,2.72,1.28
+football,Serie A 2022 2023,Round 30,17/04/,Sassuolo,Juventus,1,0,0,g_1_fFNT1aPh,3.58,3.5,2.15,1.23,1.19
+football,Serie A 2022 2023,Round 30,16/04/,Torino,Salernitana,1,1,1,g_1_2uRy0wf5,1.64,3.89,6.14,2.17,0.66
+football,Serie A 2022 2023,Round 30,16/04/,Lecce,Sampdoria,1,1,1,g_1_MN6iLmQD,1.8,3.6,5.45,2.55,0.69
+football,Serie A 2022 2023,Round 30,16/04/,Inter,Monza,0,1,2,g_1_8KI9d4mD,1.45,4.57,8.2,2.09,0.73
+football,Serie A 2022 2023,Round 30,16/04/,Napoli,Verona,0,0,1,g_1_YaZK3Lft,1.49,4.37,7.6,0.42,0.47
+football,Serie A 2022 2023,Round 30,15/04/,Bologna,AC Milan,1,1,1,g_1_AR34a63f,3.11,3.07,2.61,0.67,1.53
+football,Serie A 2022 2023,Round 30,15/04/,Spezia,Lazio,0,3,2,g_1_OlSX0Jva,5.35,3.62,1.76,0.69,2.89
+football,Serie A 2022 2023,Round 30,15/04/,Cremonese,Empoli,1,0,0,g_1_lI28bQI0,2.53,3.26,3.19,1.34,1.34
+football,Serie A 2022 2023,Round 29,09/04/,Lazio,Juventus,2,1,0,g_1_6Vfy0Ix8,3.16,2.95,2.66,1.33,2.21
+football,Serie A 2022 2023,Round 29,09/04/,Torino,AS Roma,0,1,2,g_1_210d1SYs,3.72,2.93,2.38,0.29,1.29
+football,Serie A 2022 2023,Round 29,09/04/,Verona,Sassuolo,2,1,0,g_1_8pxY0bN1,2.66,3.39,2.78,0.58,1.93
+football,Serie A 2022 2023,Round 29,08/04/,Atalanta,Bologna,0,2,2,g_1_zXwQ2Khk,1.62,4.08,5.96,1.61,1.64
+football,Serie A 2022 2023,Round 29,08/04/,Sampdoria,Cremonese,2,3,2,g_1_dKNT58QQ,2.21,3.33,3.59,2.58,1.23
+football,Serie A 2022 2023,Round 29,08/04/,Fiorentina,Spezia,1,1,1,g_1_ENxU1v8e,1.47,4.86,7.7,1.18,0.49
+football,Serie A 2022 2023,Round 29,08/04/,Udinese,Monza,2,2,1,g_1_G4400nll,1.95,3.7,4.28,1.89,1.28
+football,Serie A 2022 2023,Round 29,08/04/,AC Milan,Empoli,0,0,1,g_1_lfKL7UeE,1.4,5.1,9.5,2.07,0.09
+football,Serie A 2022 2023,Round 29,08/04/,Lecce,Napoli,1,2,2,g_1_A3LH8At8,6.0,3.84,1.7,1.04,1.08
+football,Serie A 2022 2023,Round 29,08/04/,Salernitana,Inter,1,1,1,g_1_ITOP6lBK,6.85,4.6,1.53,1.16,3.09
+football,Serie A 2022 2023,Round 28,04/04/,Sassuolo,Torino,1,1,1,g_1_Gncg8tVR,2.41,3.32,3.18,1.08,2.02
+football,Serie A 2022 2023,Round 28,04/04/,Empoli,Lecce,1,0,0,g_1_tAIjlLwd,2.53,2.99,3.33,1.76,0.16
+football,Serie A 2022 2023,Round 28,03/04/,Napoli,AC Milan,0,4,2,g_1_8MgoA20F,1.93,3.49,4.46,1.34,2.26
+football,Serie A 2022 2023,Round 28,03/04/,AS Roma,Sampdoria,3,0,0,g_1_MPck9MFL,1.4,4.83,9.12,3.56,0.29
+football,Serie A 2022 2023,Round 28,02/04/,Monza,Lazio,0,2,2,g_1_Qc4tBro9,3.94,3.35,2.09,1.46,0.58
+football,Serie A 2022 2023,Round 28,02/04/,Spezia,Salernitana,1,1,1,g_1_IeqL30wq,2.33,3.28,3.38,2.08,1.08
+football,Serie A 2022 2023,Round 28,02/04/,Bologna,Udinese,3,0,0,g_1_prPsjs9q,2.41,3.38,3.14,0.72,0.85
+football,Serie A 2022 2023,Round 28,02/04/,Juventus,Verona,1,0,0,g_1_n75xCOV2,1.58,3.96,6.8,2.17,0.84
+football,Serie A 2022 2023,Round 28,02/04/,Inter,Fiorentina,0,1,2,g_1_K0Hfmug2,1.84,3.57,4.85,3.05,1.25
+football,Serie A 2022 2023,Round 28,01/04/,Cremonese,Atalanta,1,3,2,g_1_boTok1Ok,5.85,4.34,1.63,0.0,0.0
+football,Serie A 2022 2023,Round 27,20/03/,Inter,Juventus,0,1,2,g_1_6i48yrfj,2.07,3.42,3.93,1.36,0.72
+football,Serie A 2022 2023,Round 27,20/03/,Lazio,AS Roma2,1,0,0,g_1_pr3Cz29d,3.21,2.85,2.72,0.55,0.73
+football,Serie A 2022 2023,Round 27,19/03/,Fiorentina,Lecce,1,0,0,g_1_xIa4xOvp,1.62,3.85,6.55,1.38,0.55
+football,Serie A 2022 2023,Round 27,19/03/,Torino,Napoli,0,4,2,g_1_lCwCe3oM,4.93,3.77,1.78,1.25,2.63
+football,Serie A 2022 2023,Round 27,19/03/,Sampdoria,Verona,3,1,0,g_1_hpp3cPG9,2.98,3.22,2.6,1.43,1.38
+football,Serie A 2022 2023,Round 27,19/03/,Udinese,AC Milan,3,1,0,g_1_S2xGfN0S,4.15,3.38,2.03,2.19,2.06
+football,Serie A 2022 2023,Round 27,19/03/,Salernitana,Bologna,2,2,1,g_1_bNpab513,3.72,3.3,2.18,0.92,0.51
+football,Serie A 2022 2023,Round 27,18/03/,Monza,Cremonese,1,1,1,g_1_nmseaonc,1.99,3.62,4.24,1.69,0.67
+football,Serie A 2022 2023,Round 27,18/03/,Atalanta,Empoli,2,1,0,g_1_z9Dxs4WS,1.45,5.05,7.8,3.05,0.86
+football,Serie A 2022 2023,Round 27,18/03/,Sassuolo,Spezia,1,0,0,g_1_Wzq7dqWF,1.77,3.88,4.85,2.16,0.74
+football,Serie A 2022 2023,Round 26,14/03/,AC Milan,Salernitana,1,1,1,g_1_6TLLpnX3,1.28,6.27,11.5,2.49,0.79
+football,Serie A 2022 2023,Round 26,13/03/,Juventus,Sampdoria,4,2,0,g_1_0GjLn82i,1.36,4.84,11.2,3.05,0.81
+football,Serie A 2022 2023,Round 26,13/03/,AS Roma,Sassuolo,3,4,2,g_1_vsKTrQ1G,1.71,3.69,5.72,1.74,4.08
+football,Serie A 2022 2023,Round 26,12/03/,Cremonese,Fiorentina,0,2,2,g_1_hCp5tXuI,5.06,3.76,1.77,2.01,1.66
+football,Serie A 2022 2023,Round 26,12/03/,Verona,Monza,1,1,1,g_1_nD2wOOPj,2.54,3.25,3.05,0.68,1.21
+football,Serie A 2022 2023,Round 26,12/03/,Lecce,Torino,0,2,2,g_1_v7kPoSHc,3.03,2.93,2.78,0.55,0.07
+football,Serie A 2022 2023,Round 26,12/03/,Bologna,Lazio,0,0,1,g_1_ELo1sDQB,0.0,0.0,0.0,0.97,0.89
+football,Serie A 2022 2023,Round 26,12/03/,Napoli,Atalanta,2,0,0,g_1_pKKPq6nA,1.66,3.92,5.79,1.42,0.25
+football,Serie A 2022 2023,Round 26,11/03/,Empoli,Udinese,0,1,2,g_1_Y9bZO4Ap,3.08,3.3,2.58,1.32,1.56
+football,Serie A 2022 2023,Round 26,11/03/,Spezia,Inter,2,1,0,g_1_hpOXspHM,8.77,4.64,1.43,1.06,4.04
+football,Serie A 2022 2023,Round 25,07/03/,Torino,Bologna,1,0,0,g_1_pnscrgB5,2.38,3.0,3.62,1.01,0.49
+football,Serie A 2022 2023,Round 25,07/03/,Sassuolo,Cremonese,3,2,0,g_1_OWhlpFtg,1.94,3.61,4.21,1.07,1.16
+football,Serie A 2022 2023,Round 25,06/03/,AS Roma,Juventus,1,0,0,g_1_IZktnyCt,2.98,2.88,2.88,0.68,0.89
+football,Serie A 2022 2023,Round 25,06/03/,Inter,Lecce,2,0,0,g_1_0ILRSDBI,1.38,4.83,10.3,0.92,0.73
+football,Serie A 2022 2023,Round 25,05/03/,Sampdoria,Salernitana,0,0,1,g_1_CdkpoeRn,2.26,3.35,3.45,0.59,1.01
+football,Serie A 2022 2023,Round 25,05/03/,Spezia,Verona,0,0,1,g_1_6ergqZea,2.39,3.17,3.37,1.44,1.21
+football,Serie A 2022 2023,Round 25,05/03/,Fiorentina,AC Milan,2,1,0,g_1_6eMNTgdC,3.14,3.25,2.48,2.28,0.98
+football,Serie A 2022 2023,Round 25,05/03/,Atalanta,Udinese,0,0,1,g_1_hhIJUZt6,1.75,4.03,4.75,1.53,0.32
+football,Serie A 2022 2023,Round 25,04/03/,Monza,Empoli,2,1,0,g_1_v9KVRXQO,1.98,3.56,4.07,0.0,0.0
+football,Serie A 2022 2023,Round 25,04/03/,Napoli,Lazio,0,1,2,g_1_GQ3EjH3P,1.63,3.89,6.27,0.89,0.26
+football,Serie A 2022 2023,Round 24,01/03/,Juventus,Torino,4,2,0,g_1_QykWwvKJ,1.72,3.48,6.18,1.64,0.83
+football,Serie A 2022 2023,Round 24,01/03/,Cremonese,AS Roma,2,1,0,g_1_G67uHGC6,6.18,3.48,1.72,1.07,1.33
+football,Serie A 2022 2023,Round 24,28/02/,Lazio,Sampdoria,1,0,0,g_1_vugzwbZP,1.41,4.55,10.2,1.61,0.46
+football,Serie A 2022 2023,Round 24,28/02/,Verona,Fiorentina,0,3,2,g_1_CY0lFfsJ,3.59,3.34,2.21,1.17,1.49
+football,Serie A 2022 2023,Round 24,27/02/,AC Milan,Atalanta,2,0,0,g_1_OCU6Xycm,2.15,3.4,3.69,1.95,0.12
+football,Serie A 2022 2023,Round 24,27/02/,Udinese,Spezia,2,2,1,g_1_ATSEVFRa,1.81,3.84,4.59,2.57,2.73
+football,Serie A 2022 2023,Round 24,26/02/,Salernitana,Monza,3,0,0,g_1_WxUAWeCg,3.89,3.43,2.08,2.09,1.39
+football,Serie A 2022 2023,Round 24,26/02/,Bologna,Inter,1,0,0,g_1_xG8yIdc0,5.29,3.84,1.72,1.38,1.09
+football,Serie A 2022 2023,Round 24,26/02/,Lecce,Sassuolo,0,1,2,g_1_pMV2YHss,2.5,3.27,3.07,1.29,1.18
+football,Serie A 2022 2023,Round 24,26/02/,Empoli,Napoli,0,2,2,g_1_Ys2pGzSC,7.8,4.62,1.46,0.63,2.83
+football,Serie A 2022 2023,Round 23,21/02/,Torino,Cremonese,2,2,1,g_1_rg9XIxrf,1.67,3.72,6.11,2.51,0.81
+football,Serie A 2022 2023,Round 23,20/02/,AS Roma,Verona,1,0,0,g_1_hABkR0zE,1.77,3.41,5.83,0.86,0.42
+football,Serie A 2022 2023,Round 23,20/02/,Spezia,Juventus,0,2,2,g_1_p8jUJISm,5.74,3.91,1.66,1.16,1.43
+football,Serie A 2022 2023,Round 23,19/02/,Fiorentina,Empoli,1,1,1,g_1_ruUb4wT0,1.71,4.06,5.03,2.41,0.79
+football,Serie A 2022 2023,Round 23,19/02/,Salernitana,Lazio,0,2,2,g_1_W0AgQKkK,5.27,3.65,1.77,0.47,3.25
+football,Serie A 2022 2023,Round 23,19/02/,Atalanta,Lecce,1,2,2,g_1_4lVf5JDf,1.46,4.44,8.18,1.52,0.47
+football,Serie A 2022 2023,Round 23,19/02/,Inter,Udinese,3,1,0,g_1_x2T23cr7,1.43,4.7,8.33,2.97,0.85
+football,Serie A 2022 2023,Round 23,19/02/,Monza,AC Milan,0,1,2,g_1_j5X62HcD,3.89,3.34,2.11,0.5,2.51
+football,Serie A 2022 2023,Round 23,18/02/,Sampdoria,Bologna,1,2,2,g_1_0zFcPv5Q,3.57,3.17,2.3,2.49,0.85
+football,Serie A 2022 2023,Round 23,18/02/,Sassuolo,Napoli,0,2,2,g_1_2q1PKbDs,5.64,3.99,1.66,0.76,1.84
+football,Serie A 2022 2023,Round 22,14/02/,Sampdoria,Inter,0,0,1,g_1_pnFg7uqr,9.67,4.83,1.39,0.0,0.0
+football,Serie A 2022 2023,Round 22,14/02/,Verona,Salernitana,1,0,0,g_1_QsrTjKb1,1.83,3.66,4.71,0.0,0.0
+football,Serie A 2022 2023,Round 22,13/02/,Napoli,Cremonese,3,0,0,g_1_S6SRBLzR,1.2,6.99,18.3,2.19,0.19
+football,Serie A 2022 2023,Round 22,13/02/,Juventus,Fiorentina,1,0,0,g_1_4YtXkvE7,1.76,3.59,5.45,1.07,0.71
+football,Serie A 2022 2023,Round 22,12/02/,Bologna,Monza,0,1,2,g_1_WrkKhtUl,2.27,3.19,3.61,0.69,0.81
+football,Serie A 2022 2023,Round 22,12/02/,Udinese,Sassuolo,2,2,1,g_1_OxEc6abl,2.07,3.6,3.69,1.74,0.97
+football,Serie A 2022 2023,Round 22,12/02/,Lazio,Atalanta,0,2,2,g_1_hlzFENj8,2.19,3.36,3.73,0.84,2.79
+football,Serie A 2022 2023,Round 22,12/02/,Lecce,AS Roma,1,1,1,g_1_WvZIDs6E,4.6,3.26,1.97,0.31,1.74
+football,Serie A 2022 2023,Round 22,11/02/,Empoli,Spezia,2,2,1,g_1_rJhOi0qe,2.05,3.66,3.9,1.44,1.53
+football,Serie A 2022 2023,Round 22,11/02/,AC Milan,Torino,1,0,0,g_1_E3ONC1LK,1.8,3.69,5.72,1.33,0.77
+football,Serie A 2022 2023,Round 21,08/02/,Salernitana,Juventus,0,3,2,g_1_4UYwDAF3,6.67,4.31,1.54,0.83,2.34
+football,Serie A 2022 2023,Round 21,07/02/,Monza,Sampdoria,2,2,1,g_1_d4VVEWpi,1.85,3.5,4.88,0.0,0.0
+football,Serie A 2022 2023,Round 21,07/02/,Verona,Lazio,1,1,1,g_1_G8hqiThp,4.68,3.49,1.89,0.0,0.0
+football,Serie A 2022 2023,Round 21,06/02/,Inter,AC Milan,1,0,0,g_1_faimjm8j,1.93,3.38,4.62,0.0,0.0
+football,Serie A 2022 2023,Round 21,06/02/,Fiorentina,Bologna,1,2,2,g_1_bFjIe9pT,1.85,3.69,4.61,0.0,0.0
+football,Serie A 2022 2023,Round 21,05/02/,Torino,Udinese,1,0,0,g_1_xMkGgMEr,2.43,3.28,3.18,0.0,0.0
+football,Serie A 2022 2023,Round 21,05/02/,Spezia,Napoli,0,3,2,g_1_0dSnBlpG,8.73,5.13,1.38,0.0,0.0
+football,Serie A 2022 2023,Round 21,05/02/,Sassuolo,Atalanta2,1,0,0,g_1_rLXsCUU9,4.22,3.83,1.88,0.0,0.0
+football,Serie A 2022 2023,Round 21,05/02/,AS Roma,Empoli,2,0,0,g_1_A7ZZDj0c,1.54,4.31,6.67,0.0,0.0
+football,Serie A 2022 2023,Round 21,04/02/,Cremonese,Lecce,0,2,2,g_1_KOiEdkVM,2.81,3.08,2.99,0.0,0.0
+football,Serie A 2022 2023,Round 20,31/01/,Udinese,Verona,1,1,1,g_1_x029cVFG,1.9,3.49,4.58,0.0,0.0
+football,Serie A 2022 2023,Round 20,30/01/,Napoli,AS Roma,2,1,0,g_1_Odb5bB0A,1.75,3.59,5.51,0.0,0.0
+football,Serie A 2022 2023,Round 20,30/01/,Lazio,Fiorentina,1,1,1,g_1_Y75h1DGi,1.93,3.49,4.46,0.0,0.0
+football,Serie A 2022 2023,Round 20,29/01/,Juventus,Monza,0,2,2,g_1_fH6l2g1o,1.65,3.87,6.09,0.0,0.0
+football,Serie A 2022 2023,Round 20,29/01/,AC Milan,Sassuolo,2,5,2,g_1_UZb1aio4,1.46,4.87,7.17,0.0,0.0
+football,Serie A 2022 2023,Round 20,29/01/,Atalanta,Sampdoria,2,0,0,g_1_p6wWqCoH,1.35,5.12,10.3,0.0,0.0
+football,Serie A 2022 2023,Round 20,29/01/,Cremonese,Inter,1,2,2,g_1_6LRvrjGT,8.77,4.64,1.43,0.0,0.0
+football,Serie A 2022 2023,Round 20,28/01/,Empoli,Torino,2,2,1,g_1_tEI6wAOp,3.18,3.08,2.56,0.0,0.0
+football,Serie A 2022 2023,Round 20,28/01/,Lecce,Salernitana,1,2,2,g_1_jq0c0XVc,1.83,3.76,4.9,0.0,0.0
+football,Serie A 2022 2023,Round 20,28/01/,Bologna,Spezia,2,0,0,g_1_OdxzqW0N,1.85,3.49,4.91,0.0,0.0
+football,Serie A 2022 2023,Round 19,25/01/,Lazio,AC Milan,4,0,0,g_1_nisBlzXo,3.12,3.33,2.44,0.0,0.0
+football,Serie A 2022 2023,Round 19,24/01/,Inter,Empoli,0,1,2,g_1_rN2ApOKU,1.3,5.86,11.0,0.0,0.0
+football,Serie A 2022 2023,Round 19,24/01/,Bologna,Cremonese,1,1,1,g_1_d60bmQzC,1.83,3.62,5.15,0.0,0.0
+football,Serie A 2022 2023,Round 19,23/01/,Juventus,Atalanta,3,3,1,g_1_80r7kGHu,2.08,3.41,3.89,0.0,0.0
+football,Serie A 2022 2023,Round 19,23/01/,Spezia,AS Roma,0,2,2,g_1_GWYRphWA,6.05,3.48,1.73,0.0,0.0
+football,Serie A 2022 2023,Round 19,22/01/,Monza,Sassuolo,1,1,1,g_1_tEtFmfnh,2.12,3.48,3.7,0.0,0.0
+football,Serie A 2022 2023,Round 19,22/01/,Sampdoria,Udinese,0,1,2,g_1_xtzOoYG4,3.3,3.36,2.33,0.0,0.0
+football,Serie A 2022 2023,Round 19,22/01/,Fiorentina,Torino,0,1,2,g_1_A942npjI,1.89,3.5,4.63,0.0,0.0
+football,Serie A 2022 2023,Round 19,22/01/,Salernitana,Napoli,0,2,2,g_1_fHpJnE1b,10.4,5.66,1.32,0.0,0.0
+football,Serie A 2022 2023,Round 19,21/01/,Verona,Lecce,2,0,0,g_1_4W36o45O,2.33,3.07,3.62,0.0,0.0
+football,Serie A 2022 2023,Round 18,17/01/,Empoli,Sampdoria,1,0,0,g_1_W4QPYQLI,2.21,3.28,3.86,0.0,0.0
+football,Serie A 2022 2023,Round 18,16/01/,AS Roma,Fiorentina,2,0,0,g_1_SQ8si8ym,2.26,3.38,3.42,0.0,0.0
+football,Serie A 2022 2023,Round 18,16/01/,Atalanta,Salernitana,8,2,0,g_1_zwXGzmi6,1.33,5.46,10.4,0.0,0.0
+football,Serie A 2022 2023,Round 18,15/01/,Torino,Spezia,0,1,2,g_1_ziCkkn6a,1.81,3.65,4.91,0.0,0.0
+football,Serie A 2022 2023,Round 18,15/01/,Udinese,Bologna,1,2,2,g_1_EsBgl6L5,1.93,3.44,4.52,0.0,0.0
+football,Serie A 2022 2023,Round 18,15/01/,Sassuolo,Lazio,0,2,2,g_1_6H7ojSjg,3.93,3.85,1.94,0.0,0.0
+football,Serie A 2022 2023,Round 18,15/01/,Inter,Verona,1,0,0,g_1_AePTXpyP,1.35,5.31,9.71,0.0,0.0
+football,Serie A 2022 2023,Round 18,15/01/,Lecce,AC Milan,2,2,1,g_1_ObDBdUDP,5.5,3.84,1.7,0.0,0.0
+football,Serie A 2022 2023,Round 18,14/01/,Cremonese,Monza,2,3,2,g_1_ETVKZ66C,3.0,3.18,2.62,0.0,0.0
+football,Serie A 2022 2023,Round 18,14/01/,Napoli,Juventus,5,1,0,g_1_p2JxhlMt,2.15,3.49,3.57,0.0,0.0
+football,Serie A 2022 2023,Round 17,10/01/,Bologna,Atalanta,1,2,2,g_1_GAsTyxWr,3.81,3.37,2.12,0.0,0.0
+football,Serie A 2022 2023,Round 17,10/01/,Verona,Cremonese,2,0,0,g_1_CxyxzG0e,2.17,3.27,3.8,0.0,0.0
+football,Serie A 2022 2023,Round 17,09/01/,AC Milan,AS Roma,2,2,1,g_1_0bHWecNE,1.84,3.69,4.63,0.0,0.0
+football,Serie A 2022 2023,Round 17,09/01/,Sampdoria,Napoli,0,2,2,g_1_SCT8x9Mg,8.18,4.44,1.46,0.0,0.0
+football,Serie A 2022 2023,Round 17,08/01/,Lazio,Empoli,2,2,1,g_1_K2vpYgV7,1.52,4.31,7.1,0.0,0.0
+football,Serie A 2022 2023,Round 17,08/01/,Spezia,Lecce,0,0,1,g_1_tGXCyTy0,2.52,3.15,3.16,0.0,0.0
+football,Serie A 2022 2023,Round 17,08/01/,Salernitana,Torino,1,1,1,g_1_plv4wk7m,4.08,3.28,2.08,0.0,0.0
+football,Serie A 2022 2023,Round 17,08/01/,Monza,Inter,2,2,1,g_1_6cu0vVis,6.64,4.28,1.55,0.0,0.0
+football,Serie A 2022 2023,Round 17,08/01/,Juventus,Udinese,1,0,0,g_1_6aztZZF1,1.7,3.8,5.58,0.0,0.0
+football,Serie A 2022 2023,Round 17,07/01/,Fiorentina,Sassuolo,2,1,0,g_1_YoxYzdok,1.86,4.06,4.06,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,Inter,Napoli,1,0,0,g_1_xKMgNxHk,2.27,3.46,3.32,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,Udinese,Empoli,1,1,1,g_1_E1e1tINR,1.73,4.07,4.83,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,Cremonese,Juventus,0,1,2,g_1_6yWNSbgS,5.43,3.5,1.78,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,Fiorentina,Monza,1,1,1,g_1_OGIkOI1q,1.82,3.68,4.76,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,AS Roma,Bologna,1,0,0,g_1_bZA2LGo2,1.68,3.72,6.05,0.0,0.0
+football,Serie A 2022 2023,Round 16,05/01/,Lecce,Lazio,2,1,0,g_1_KrCbMdWe,4.17,3.28,2.06,0.0,0.0
+football,Serie A 2022 2023,Round 16,04/01/,Spezia,Atalanta,2,2,1,g_1_84hgrvgF,5.23,3.84,1.73,0.0,0.0
+football,Serie A 2022 2023,Round 16,04/01/,Torino,Verona,1,1,1,g_1_Kvdcsb8L,1.62,3.91,6.3,0.0,0.0
+football,Serie A 2022 2023,Round 16,04/01/,Salernitana,AC Milan,1,2,2,g_1_nk4pp0O2,8.52,5.06,1.4,0.0,0.0
+football,Serie A 2022 2023,Round 16,04/01/,Sassuolo,Sampdoria,1,2,2,g_1_Qu3lqKw9,1.77,3.87,4.81,0.0,0.0
+football,Serie A 2022 2023,Round 15,14/11/,Juventus,Lazio,3,0,0,g_1_C2KS8w2d,1.96,3.43,4.37,0.0,0.0
+football,Serie A 2022 2023,Round 15,14/11/,AC Milan,Fiorentina,2,1,0,g_1_E7bBXMvc,1.65,4.04,5.64,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,AS Roma,Torino,1,1,1,g_1_0O0NUKOF,1.81,3.5,5.2,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,Monza,Salernitana,3,0,0,g_1_SA2FWtf3,2.06,3.49,3.87,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,Verona,Spezia,1,2,2,g_1_YBLO9Jnj,1.97,3.65,4.04,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,Atalanta,Inter,2,3,2,g_1_K4ulGL9M,3.14,3.65,2.28,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,Bologna,Sassuolo,3,0,0,g_1_2TUhFuPS,2.3,3.46,3.26,0.0,0.0
+football,Serie A 2022 2023,Round 15,13/11/,Sampdoria,Lecce,0,2,2,g_1_SpXJTvvM,3.09,2.83,2.83,0.0,0.0
+football,Serie A 2022 2023,Round 15,12/11/,Napoli,Udinese,3,2,0,g_1_MX1JV099,1.5,4.84,6.24,0.0,0.0
+football,Serie A 2022 2023,Round 15,12/11/,Empoli,Cremonese,2,0,0,g_1_4xHKAaXq,0.0,0.0,0.0,0.0,0.0
+football,Serie A 2022 2023,Round 14,11/11/,Lazio,Monza,1,0,0,g_1_Qodod0Ij,1.68,3.88,5.56,0.0,0.0
+football,Serie A 2022 2023,Round 14,11/11/,Verona,Juventus,0,1,2,g_1_61FE1MfT,6.59,4.09,1.57,0.0,0.0
+football,Serie A 2022 2023,Round 14,10/11/,Fiorentina,Salernitana,2,1,0,g_1_SAGA22uN,1.59,4.31,5.8,0.0,0.0
+football,Serie A 2022 2023,Round 14,10/11/,Inter,Bologna,6,1,0,g_1_Crhsct3p,1.43,5.21,7.2,0.0,0.0
+football,Serie A 2022 2023,Round 14,10/11/,Torino,Sampdoria,2,0,0,g_1_8UypH1fG,1.69,3.59,6.16,0.0,0.0
+football,Serie A 2022 2023,Round 14,10/11/,Lecce,Atalanta,2,1,0,g_1_vkpTKqei,3.8,3.19,2.2,0.0,0.0
+football,Serie A 2022 2023,Round 14,10/11/,Sassuolo,AS Roma,1,1,1,g_1_zHwxJNP3,3.52,3.67,2.11,0.0,0.0
+football,Serie A 2022 2023,Round 14,09/11/,Cremonese,AC Milan,0,0,1,g_1_KpH63rQG,6.98,4.04,1.57,0.0,0.0
+football,Serie A 2022 2023,Round 14,09/11/,Napoli,Empoli,2,0,0,g_1_IuqXJ3Ac,1.3,6.17,9.84,0.0,0.0
+football,Serie A 2022 2023,Round 14,09/11/,Spezia,Udinese,1,1,1,g_1_E7xtIsuA,4.12,3.56,1.97,0.0,0.0
+football,Serie A 2022 2023,Round 13,07/11/,Juventus,Inter,2,0,0,g_1_bXJZ0k4I,3.35,3.33,2.31,0.0,0.0
+football,Serie A 2022 2023,Round 13,07/11/,AS Roma,Lazio,0,1,2,g_1_j5Pk7QQi,2.06,3.48,3.86,0.0,0.0
+football,Serie A 2022 2023,Round 13,06/11/,Monza,Verona,2,0,0,g_1_CEQo86Bo,2.15,3.74,3.52,0.0,0.0
+football,Serie A 2022 2023,Round 13,06/11/,Sampdoria,Fiorentina,0,2,2,g_1_bVSc54e4,4.48,3.51,1.91,0.0,0.0
+football,Serie A 2022 2023,Round 13,06/11/,Bologna,Torino,2,1,0,g_1_6P1S2BZ5,3.3,3.18,2.42,0.0,0.0
+football,Serie A 2022 2023,Round 13,06/11/,AC Milan,Spezia,2,1,0,g_1_zcs3qNYp,1.25,6.61,12.4,0.0,0.0
+football,Serie A 2022 2023,Round 13,06/11/,Atalanta,Napoli,1,2,2,g_1_O0CN3iKa,0.0,0.0,0.0,0.0,0.0
+football,Serie A 2022 2023,Round 13,05/11/,Empoli,Sassuolo,1,0,0,g_1_4AKV1VlC,3.5,3.5,2.17,0.0,0.0
+football,Serie A 2022 2023,Round 13,05/11/,Salernitana,Cremonese,2,2,1,g_1_pSOg6ptb,2.12,3.58,3.59,0.0,0.0
+football,Serie A 2022 2023,Round 13,05/11/,Udinese,Lecce,1,1,1,g_1_tfI24OAA,1.67,3.91,5.74,0.0,0.0
+football,Serie A 2022 2023,Round 12,01/11/,Monza,Bologna,1,2,2,g_1_W2XrBZRP,2.36,3.29,3.29,0.0,0.0
+football,Serie A 2022 2023,Round 12,01/11/,Verona,AS Roma,1,3,2,g_1_pfPekh56,4.85,3.61,1.83,0.0,0.0
+football,Serie A 2022 2023,Round 12,31/10/,Torino,AC Milan,2,1,0,g_1_pADJ4X4g,4.29,3.3,2.02,0.0,0.0
+football,Serie A 2022 2023,Round 12,31/10/,Lazio,Salernitana,1,3,2,g_1_4ducmWZI,1.51,4.42,7.05,0.0,0.0
+football,Serie A 2022 2023,Round 12,30/10/,Cremonese,Udinese,0,0,1,g_1_CtRmiEzf,4.1,3.85,1.9,0.0,0.0
+football,Serie A 2022 2023,Round 12,30/10/,Spezia,Fiorentina,1,2,2,g_1_Gz9F5Dkm,4.34,3.67,1.9,0.0,0.0
+football,Serie A 2022 2023,Round 12,30/10/,Empoli,Atalanta,0,2,2,g_1_63QijYk0,4.96,3.9,1.74,0.0,0.0
+football,Serie A 2022 2023,Round 12,30/10/,Inter,Sampdoria,3,0,0,g_1_Q5tglCKC,1.22,7.08,14.3,0.0,0.0
+football,Serie A 2022 2023,Round 12,30/10/,Lecce,Juventus,0,1,2,g_1_IaTvCFCJ,4.22,3.28,2.05,0.0,0.0
+football,Serie A 2022 2023,Round 12,29/10/,Napoli,Sassuolo,4,0,0,g_1_xpAB6gzs,1.28,6.49,10.2,0.0,0.0
+football,Serie A 2022 2023,Round 11,25/10/,Sassuolo,Verona,2,1,0,g_1_GEXvgz6s,2.16,3.68,3.37,0.0,0.0
+football,Serie A 2022 2023,Round 11,25/10/,Cremonese,Sampdoria,0,1,2,g_1_bw1ExFL0,2.32,3.4,3.27,0.0,0.0
+football,Serie A 2022 2023,Round 11,24/10/,AS Roma,Napoli,0,1,2,g_1_pWt9bdrK,3.52,3.57,2.14,0.0,0.0
+football,Serie A 2022 2023,Round 11,24/10/,Atalanta,Lazio,0,2,2,g_1_2B75vyil,1.98,3.71,3.88,0.0,0.0
+football,Serie A 2022 2023,Round 11,23/10/,Bologna,Lecce,2,0,0,g_1_Kn2Awe6f,2.15,3.24,3.88,0.0,0.0
+football,Serie A 2022 2023,Round 11,23/10/,Udinese,Torino,1,2,2,g_1_bwNqhfLm,1.93,3.48,4.41,0.0,0.0
+football,Serie A 2022 2023,Round 11,23/10/,Fiorentina,Inter,3,4,2,g_1_h00IyZz7,3.74,3.5,2.1,0.0,0.0
+football,Serie A 2022 2023,Round 11,23/10/,AC Milan,Monza,4,1,0,g_1_6ur5axTD,1.48,4.65,7.15,0.0,0.0
+football,Serie A 2022 2023,Round 11,22/10/,Salernitana,Spezia,1,0,0,g_1_E5oDcGcQ,2.2,3.48,3.62,0.0,0.0
+football,Serie A 2022 2023,Round 11,22/10/,Juventus,Empoli,4,0,0,g_1_4z4MzgjD,1.38,5.38,8.18,0.0,0.0
+football,Serie A 2022 2023,Round 10,18/10/,Lecce,Fiorentina,1,1,1,g_1_WMTMnaq8,0.0,0.0,0.0,0.0,0.0
+football,Serie A 2022 2023,Round 10,18/10/,Sampdoria,AS Roma,0,1,2,g_1_hxIVpwEK,5.57,3.84,1.69,0.0,0.0
+football,Serie A 2022 2023,Round 10,17/10/,Verona,AC Milan,1,2,2,g_1_djxXPyxe,7.17,4.31,1.52,0.0,0.0
+football,Serie A 2022 2023,Round 10,17/10/,Napoli,Bologna,3,2,0,g_1_ADSQoJbE,1.26,6.27,12.2,0.0,0.0
+football,Serie A 2022 2023,Round 10,16/10/,Lazio,Udinese,0,0,1,g_1_I5QuOF67,2.23,3.65,3.23,0.0,0.0
+football,Serie A 2022 2023,Round 10,16/10/,Spezia,Cremonese,2,2,1,g_1_6uMZqcTQ,2.41,3.2,3.3,0.0,0.0
+football,Serie A 2022 2023,Round 10,16/10/,Inter,Salernitana,2,0,0,g_1_vFRyPei1,1.3,5.94,10.4,0.0,0.0
+football,Serie A 2022 2023,Round 10,16/10/,Atalanta,Sassuolo,2,1,0,g_1_lQYORc7r,1.63,4.11,5.74,0.0,0.0
+football,Serie A 2022 2023,Round 10,16/10/,Torino,Juventus,0,1,2,g_1_OK81uHyr,3.29,3.06,2.5,0.0,0.0
+football,Serie A 2022 2023,Round 10,15/10/,Empoli,Monza,1,0,0,g_1_rmYSQHMl,2.71,3.38,2.85,0.0,0.0
+football,Serie A 2022 2023,Round 9,11/10/,Fiorentina,Lazio,0,4,2,g_1_YgMiTkRk,2.5,3.58,2.84,0.0,0.0
+football,Serie A 2022 2023,Round 9,10/10/,AS Roma,Lecce,2,1,0,g_1_phjtzMa2,1.5,4.55,7.06,0.0,0.0
+football,Serie A 2022 2023,Round 9,10/10/,Cremonese,Napoli,1,4,2,g_1_f3NmUVBq,7.23,4.65,1.48,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,Monza,Spezia,2,0,0,g_1_tKPaRTe2,2.0,3.49,4.1,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,Salernitana,Verona,2,1,0,g_1_dSgpZuF8,2.69,3.47,2.7,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,Udinese,Atalanta,2,2,1,g_1_nHncWwaR,2.56,3.58,2.77,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,Torino,Empoli,1,1,1,g_1_UuhhXJqL,1.7,3.88,5.37,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,Bologna,Sampdoria,1,1,1,g_1_E59JobsH,2.02,3.37,4.18,0.0,0.0
+football,Serie A 2022 2023,Round 9,09/10/,AC Milan,Juventus,2,0,0,g_1_2TQeS9td,2.17,3.5,3.7,0.0,0.0
+football,Serie A 2022 2023,Round 9,08/10/,Sassuolo,Inter,1,2,2,g_1_jkglYaUE,4.7,4.08,1.75,0.0,0.0
+football,Serie A 2022 2023,Round 8,04/10/,Verona,Udinese,1,2,2,g_1_zaMiXbSN,3.77,3.47,2.09,0.0,0.0
+football,Serie A 2022 2023,Round 8,03/10/,Juventus,Bologna,3,0,0,g_1_fq3ORxjo,1.56,4.2,6.71,0.0,0.0
+football,Serie A 2022 2023,Round 8,03/10/,Atalanta,Fiorentina,1,0,0,g_1_SYIqZKcB,2.03,3.6,3.87,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Lecce,Cremonese,1,1,1,g_1_nwjAktrh,2.02,3.46,4.05,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Sampdoria,Monza,0,3,2,g_1_6u6BmKC4,2.38,3.27,3.27,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Sassuolo,Salernitana,5,0,0,g_1_025FnvSA,2.05,3.66,3.68,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Lazio,Spezia,4,0,0,g_1_8ni6jMSo,1.43,5.21,7.28,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Empoli,AC Milan,1,3,2,g_1_d8NmYvDH,6.28,4.31,1.56,0.0,0.0
+football,Serie A 2022 2023,Round 8,02/10/,Inter,AS Roma,1,2,2,g_1_INBdWIsU,2.16,3.54,3.68,0.0,0.0
+football,Serie A 2022 2023,Round 8,01/10/,Napoli,Torino,3,1,0,g_1_Sl77l0cb,1.61,3.87,6.5,0.0,0.0
+football,Serie A 2022 2023,Round 7,19/09/,AC Milan,Napoli,1,2,2,g_1_dfrFJubO,2.4,3.33,3.19,0.0,0.0
+football,Serie A 2022 2023,Round 7,19/09/,AS Roma,Atalanta,0,1,2,g_1_zLDPwqqt,2.05,3.59,3.78,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Cremonese,Lazio,0,4,2,g_1_lUv7L1TB,4.41,3.85,1.84,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Fiorentina,Verona,2,0,0,g_1_2XrBKLrI,1.8,3.86,4.6,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Monza,Juventus,1,0,0,g_1_zosJIaDU,4.52,3.9,1.81,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Udinese,Inter,3,1,0,g_1_lrKuz1r5,4.17,3.68,1.92,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Torino,Sassuolo,0,1,2,g_1_6JUzysTb,1.84,3.69,4.61,0.0,0.0
+football,Serie A 2022 2023,Round 7,18/09/,Spezia,Sampdoria,2,1,0,g_1_8YBXyNDh,2.46,3.46,2.98,0.0,0.0
+football,Serie A 2022 2023,Round 7,17/09/,Bologna,Empoli,0,1,2,g_1_65k2MsE5,2.21,3.66,3.26,0.0,0.0
+football,Serie A 2022 2023,Round 7,17/09/,Salernitana,Lecce,1,2,2,g_1_EBCTx3bn,2.29,3.44,3.46,0.0,0.0
+football,Serie A 2022 2023,Round 6,13/09/,Empoli,AS Roma,1,2,2,g_1_CrUS7raC,5.45,3.8,1.71,0.0,0.0
+football,Serie A 2022 2023,Round 6,12/09/,Juventus2,Salernitana,2,2,1,g_1_8ANy6MTO,1.52,4.06,7.72,0.0,0.0
+football,Serie A 2022 2023,Round 6,12/09/,Lazio,Verona,2,0,0,g_1_MDBJU56P,1.63,4.31,5.46,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Bologna,Fiorentina,2,1,0,g_1_YiVO8Oq6,3.54,3.48,2.16,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Lecce,Monza,1,1,1,g_1_bZ2oQPEt,2.37,3.31,3.24,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Sassuolo,Udinese,1,3,2,g_1_SEjbNNba,2.68,3.57,2.65,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Atalanta,Cremonese,1,1,1,g_1_vVVK94Ua,1.38,5.34,8.66,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Sampdoria,AC Milan,1,2,2,g_1_KlifO3qg,6.25,4.42,1.55,0.0,0.0
+football,Serie A 2022 2023,Round 6,11/09/,Inter,Torino,1,0,0,g_1_UJOX62EI,1.59,4.45,5.64,0.0,0.0
+football,Serie A 2022 2023,Round 6,10/09/,Napoli,Spezia,1,0,0,g_1_tbhjPqUn,1.3,6.17,10.0,0.0,0.0
+football,Serie A 2022 2023,Round 5,06/09/,Torino,Lecce,1,0,0,g_1_pWxCBQam,1.66,3.69,6.34,0.0,0.0
+football,Serie A 2022 2023,Round 5,06/09/,Monza,Atalanta,0,2,2,g_1_zcmxISMJ,4.51,3.94,1.8,0.0,0.0
+football,Serie A 2022 2023,Round 5,06/09/,Salernitana,Empoli,2,2,1,g_1_EmntHnxQ,2.48,3.5,2.92,0.0,0.0
+football,Serie A 2022 2023,Round 5,05/09/,Udinese,AS Roma,4,0,0,g_1_SfSGApFg,3.86,3.54,2.1,0.0,0.0
+football,Serie A 2022 2023,Round 5,05/09/,Verona,Sampdoria,2,1,0,g_1_QR5oe5F6,2.2,3.54,3.56,0.0,0.0
+football,Serie A 2022 2023,Round 5,04/09/,Spezia,Bologna,2,2,1,g_1_6uv8C6ps,3.28,3.33,2.35,0.0,0.0
+football,Serie A 2022 2023,Round 5,04/09/,Cremonese,Sassuolo,0,0,1,g_1_KEzocRpf,2.88,3.57,2.48,0.0,0.0
+football,Serie A 2022 2023,Round 5,04/09/,Lazio,Napoli,1,2,2,g_1_Kl5kfPUC,3.06,3.6,2.44,0.0,0.0
+football,Serie A 2022 2023,Round 5,04/09/,AC Milan,Inter,3,2,0,g_1_Yi9ggqpJ,2.72,3.3,2.89,0.0,0.0
+football,Serie A 2022 2023,Round 5,03/09/,Fiorentina,Juventus,1,1,1,g_1_ny7sdo00,3.24,3.14,2.57,0.0,0.0
+football,Serie A 2022 2023,Round 4,02/09/,Atalanta,Torino,3,1,0,g_1_zPmv1znS,1.84,3.69,4.67,0.0,0.0
+football,Serie A 2022 2023,Round 4,02/09/,Bologna,Salernitana,1,1,1,g_1_h4z6dffq,2.13,3.34,3.82,0.0,0.0
+football,Serie A 2022 2023,Round 4,01/09/,Juventus,Spezia,2,0,0,g_1_QgSIghv2,1.32,5.85,11.0,0.0,0.0
+football,Serie A 2022 2023,Round 4,01/09/,Napoli,Lecce,1,1,1,g_1_E9L0IyH2,1.29,6.5,11.5,0.0,0.0
+football,Serie A 2022 2023,Round 4,01/09/,Empoli,Verona,1,1,1,g_1_4vvAeE9k,2.77,3.39,2.73,0.0,0.0
+football,Serie A 2022 2023,Round 4,01/09/,Sampdoria,Lazio,1,1,1,g_1_zP99GFoF,4.36,3.85,1.85,0.0,0.0
+football,Serie A 2022 2023,Round 4,01/09/,Udinese,Fiorentina,1,0,0,g_1_tOysb7Vm,2.48,3.5,2.92,0.0,0.0
+football,Serie A 2022 2023,Round 4,31/08/,AS Roma,Monza,3,0,0,g_1_h0K4HeW8,1.34,5.33,10.3,0.0,0.0
+football,Serie A 2022 2023,Round 4,31/08/,Inter,Cremonese,3,1,0,g_1_n3TEfYOe,1.18,7.59,18.4,0.0,0.0
+football,Serie A 2022 2023,Round 4,31/08/,Sassuolo,AC Milan,0,0,1,g_1_n1xwamGs,5.23,4.35,1.64,0.0,0.0
+football,Serie A 2022 2023,Round 3,29/08/,Fiorentina,Napoli,0,0,1,g_1_2BT0mHHS,3.67,3.57,2.09,0.0,0.0
+football,Serie A 2022 2023,Round 3,29/08/,Lecce,Empoli,1,1,1,g_1_hthJ5bXd,2.39,3.5,3.05,0.0,0.0
+football,Serie A 2022 2023,Round 3,29/08/,Salernitana,Sampdoria,4,0,0,g_1_vcfV2dHF,2.59,3.19,3.01,0.0,0.0
+football,Serie A 2022 2023,Round 3,29/08/,Verona,Atalanta,0,1,2,g_1_4KFSryQq,4.02,4.08,1.91,0.0,0.0
+football,Serie A 2022 2023,Round 3,28/08/,AC Milan,Bologna,2,0,0,g_1_6qdN4In3,1.38,5.51,8.03,0.0,0.0
+football,Serie A 2022 2023,Round 3,28/08/,Spezia,Sassuolo,2,2,1,g_1_dYlz2GWL,3.48,3.57,2.16,0.0,0.0
+football,Serie A 2022 2023,Round 3,28/08/,Cremonese,Torino,1,2,2,g_1_Knvdlc2M,3.95,3.57,2.01,0.0,0.0
+football,Serie A 2022 2023,Round 3,28/08/,Juventus,AS Roma,1,1,1,g_1_CpFWseuj,2.38,3.27,3.27,0.0,0.0
+football,Serie A 2022 2023,Round 3,27/08/,Lazio,Inter,3,1,0,g_1_jyEzsFfd,4.18,3.93,1.86,0.0,0.0
+football,Serie A 2022 2023,Round 3,27/08/,Monza,Udinese,1,2,2,g_1_06eR3x29,3.37,3.57,2.2,0.0,0.0
+football,Serie A 2022 2023,Round 2,23/08/,Sampdoria,Juventus,0,0,1,g_1_Gfsuhu3c,5.67,3.88,1.67,0.0,0.0
+football,Serie A 2022 2023,Round 2,23/08/,AS Roma,Cremonese,1,0,0,g_1_x4rygLmi,1.25,7.26,10.4,0.0,0.0
+football,Serie A 2022 2023,Round 2,22/08/,Atalanta,AC Milan,1,1,1,g_1_C8eFyKIG,2.98,3.6,2.49,0.0,0.0
+football,Serie A 2022 2023,Round 2,22/08/,Bologna,Verona,1,1,1,g_1_tr0JzvYM,2.02,3.57,3.9,0.0,0.0
+football,Serie A 2022 2023,Round 2,22/08/,Empoli,Fiorentina,0,0,1,g_1_KYbNZcmT,3.49,3.69,2.11,0.0,0.0
+football,Serie A 2022 2023,Round 2,22/08/,Napoli,Monza,4,0,0,g_1_O0fgUyBj,1.31,6.09,9.72,0.0,0.0
+football,Serie A 2022 2023,Round 2,21/08/,Inter,Spezia,3,0,0,g_1_QFyjVHep,1.13,9.71,22.0,0.0,0.0
+football,Serie A 2022 2023,Round 2,21/08/,Sassuolo,Lecce,1,0,0,g_1_YVypiaI3,1.81,4.15,4.24,0.0,0.0
+football,Serie A 2022 2023,Round 2,21/08/,Torino,Lazio,0,0,1,g_1_CMzljJX9,0.0,0.0,0.0,0.0,0.0
+football,Serie A 2022 2023,Round 2,21/08/,Udinese,Salernitana,0,0,1,g_1_6qzhkwmG,1.67,4.11,5.2,0.0,0.0
+football,Serie A 2022 2023,Round 1,16/08/,Juventus,Sassuolo,3,0,0,g_1_8EDmNK3N,1.51,4.98,6.55,0.0,0.0
+football,Serie A 2022 2023,Round 1,16/08/,Verona,Napoli,2,5,2,g_1_fB9qO0lH,3.74,3.92,2.03,0.0,0.0
+football,Serie A 2022 2023,Round 1,15/08/,Salernitana,AS Roma,0,1,2,g_1_xj32vMYc,6.47,4.81,1.5,0.0,0.0
+football,Serie A 2022 2023,Round 1,15/08/,Spezia,Empoli,1,0,0,g_1_YHdBx03A,2.46,3.49,2.95,0.0,0.0
+football,Serie A 2022 2023,Round 1,15/08/,Fiorentina,Cremonese,3,2,0,g_1_CnKvPtZA,1.61,4.29,5.71,0.0,0.0
+football,Serie A 2022 2023,Round 1,15/08/,Lazio,Bologna,2,1,0,g_1_2yDiMvJT,1.69,4.07,5.14,0.0,0.0
+football,Serie A 2022 2023,Round 1,14/08/,Lecce,Inter,1,2,2,g_1_4paJHbRp,8.66,5.34,1.38,0.0,0.0
+football,Serie A 2022 2023,Round 1,14/08/,Monza,Torino,1,2,2,g_1_rT3bu2Ji,2.81,3.17,2.77,0.0,0.0
+football,Serie A 2022 2023,Round 1,14/08/,AC Milan,Udinese,4,2,0,g_1_4x5ftr4o,1.5,4.55,6.99,0.0,0.0
+football,Serie A 2022 2023,Round 1,14/08/,Sampdoria,Atalanta,0,2,2,g_1_jg76wtl4,5.74,4.11,1.63,0.0,0.0

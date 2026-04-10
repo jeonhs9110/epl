@@ -1,0 +1,212 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Ligue 1,Round 20,02/02/,Strasbourg,PSG,1,2,2,g_1_AovUO9KD,5.42,4.41,1.62,2.31,1.34
+football,Ligue 1,Round 20,02/02/,Angers,Metz,1,0,0,g_1_8tr8yVJP,2.21,3.34,3.59,1.5,0.45
+football,Ligue 1,Round 20,02/02/,Nice,Brest,2,2,1,g_1_GneMDRRI,2.3,3.37,3.37,1.2,1.67
+football,Ligue 1,Round 20,02/02/,Toulouse,Auxerre,0,0,1,g_1_MPJQOizK,1.8,3.59,5.13,0.7,0.91
+football,Ligue 1,Round 20,01/02/,Lyon,Lille,1,0,0,g_1_xYuMQVk1,2.2,3.57,3.37,0.53,0.53
+football,Ligue 1,Round 20,01/02/,Monaco,Rennes,4,0,0,g_1_Cfb5H9Sg,1.98,4.07,3.56,2.21,0.39
+football,Ligue 1,Round 20,01/02/,Lorient,Nantes,2,1,0,g_1_juAdJVcs,1.94,3.47,4.42,0.52,1.42
+football,Ligue 1,Round 20,01/02/,Paris FC,Marseille,2,2,1,g_1_t6nDSiLl,4.45,4.0,1.8,1.52,2.62
+football,Ligue 1,Round 20,31/01/,Lens,Le Havre,1,0,0,g_1_KK1DFmc6,1.48,4.65,7.07,2.08,0.54
+football,Ligue 1,Round 19,26/01/,Lille,Strasbourg,1,4,2,g_1_dt9WJNxH,2.46,3.28,3.13,1.89,3.19
+football,Ligue 1,Round 19,26/01/,Brest,Toulouse,0,2,2,g_1_nRF3CuVj,3.01,3.01,2.73,0.99,0.36
+football,Ligue 1,Round 19,26/01/,Metz,Lyon,2,5,2,g_1_CSkxRvpp,5.73,3.84,1.68,1.3,2.59
+football,Ligue 1,Round 19,26/01/,Paris FC,Angers,0,0,1,g_1_SMhjzqNc,1.92,3.33,4.79,0.8,0.65
+football,Ligue 1,Round 19,25/01/,Nantes,Nice,1,4,2,g_1_z1yXnM63,2.76,3.38,2.69,1.59,1.12
+football,Ligue 1,Round 19,25/01/,Marseille,Lens,3,1,0,g_1_dGPuo0yG,2.04,3.9,3.51,1.0,1.0
+football,Ligue 1,Round 19,25/01/,Le Havre,Monaco,0,0,1,g_1_8fqoPIEd,4.12,4.02,1.86,0.25,0.49
+football,Ligue 1,Round 19,25/01/,Rennes,Lorient,0,2,2,g_1_zmdbYMiA,1.86,3.76,4.4,1.76,1.3
+football,Ligue 1,Round 19,24/01/,Auxerre,PSG,0,1,2,g_1_GrPXH17T,8.66,5.09,1.39,0.33,2.22
+football,Ligue 1,Round 18,19/01/,Lyon,Brest,2,1,0,g_1_tpgYASgn,1.66,3.96,5.67,1.98,0.68
+football,Ligue 1,Round 18,19/01/,Nantes,Paris FC,1,2,2,g_1_GMmc5ONN,2.75,3.16,2.85,0.35,0.82
+football,Ligue 1,Round 18,19/01/,Rennes,Le Havre,1,1,1,g_1_UiAGhovI,1.66,4.31,5.13,2.35,0.75
+football,Ligue 1,Round 18,18/01/,Strasbourg,Metz,2,1,0,g_1_2JNNjP8U,1.46,4.82,7.1,1.09,1.08
+football,Ligue 1,Round 18,18/01/,Angers,Marseille,2,5,2,g_1_OSAOLq84,5.93,4.3,1.59,0.94,2.84
+football,Ligue 1,Round 18,18/01/,Toulouse,Nice,5,1,0,g_1_APpk7pgB,2.03,3.68,3.98,1.85,1.99
+football,Ligue 1,Round 18,18/01/,Lens,Auxerre,1,0,0,g_1_Ecit96Ob,1.51,4.38,7.14,2.66,0.56
+football,Ligue 1,Round 18,17/01/,PSG,Lille,3,0,0,g_1_S0HFN5wh,1.3,6.52,9.39,1.41,1.14
+football,Ligue 1,Round 18,17/01/,Monaco,Lorient,1,3,2,g_1_0fPTa2oo,1.66,4.31,5.13,1.24,1.37
+football,Ligue 1,Round 17,05/01/,PSG,Paris FC,2,1,0,g_1_Kfxp2bBE,1.14,9.53,21.0,1.72,1.02
+football,Ligue 1,Round 17,05/01/,Brest,Auxerre,2,0,0,g_1_4pPjbkAt,1.94,3.47,4.42,1.87,0.74
+football,Ligue 1,Round 17,05/01/,Le Havre,Angers,2,1,0,g_1_KIKWhfY0,2.43,3.28,3.18,1.02,0.56
+football,Ligue 1,Round 17,05/01/,Lorient,Metz,1,1,1,g_1_EHDuiY2D,1.88,3.76,4.27,1.44,0.41
+football,Ligue 1,Round 17,04/01/,Marseille2,Nantes,0,2,2,g_1_8xM7f795,1.27,6.72,10.8,0.75,3.63
+football,Ligue 1,Round 17,04/01/,Lille,Rennes,0,2,2,g_1_ChHOfG3l,1.74,4.03,4.79,0.85,1.57
+football,Ligue 1,Round 17,04/01/,Nice,Strasbourg,1,1,1,g_1_tCX4veJ7,3.19,3.5,2.32,2.75,1.35
+football,Ligue 1,Round 17,04/01/,Monaco,Lyon,1,3,2,g_1_SKuh0xtR,2.09,3.81,3.46,0.68,1.39
+football,Ligue 1,Round 17,03/01/,Toulouse,Lens,0,3,2,g_1_0CIadTvg,2.79,3.27,2.73,0.66,1.62
+football,Ligue 1,Round 16,15/12/,Marseille,Monaco,1,0,0,g_1_8bZdtHle,2.04,3.6,3.83,1.78,2.21
+football,Ligue 1,Round 16,15/12/,Auxerre2,Lille2,3,4,2,g_1_GnFqZasS,4.83,3.37,1.9,2.97,0.52
+football,Ligue 1,Round 16,15/12/,Lens,Nice,2,0,0,g_1_CWulrwKr,1.63,4.58,5.04,1.65,0.77
+football,Ligue 1,Round 16,15/12/,Strasbourg,Lorient,0,0,1,g_1_KY09kLR8,1.81,3.93,4.48,0.69,0.53
+football,Ligue 1,Round 16,14/12/,Lyon,Le Havre,1,0,0,g_1_8pfORHZ1,1.65,4.33,5.16,2.56,1.3
+football,Ligue 1,Round 16,14/12/,Paris FC,Toulouse,0,3,2,g_1_KKLzyMCF,2.66,3.25,2.88,0.46,2.53
+football,Ligue 1,Round 16,14/12/,Metz,PSG,2,3,2,g_1_tlkImadL,9.67,6.63,1.29,0.62,1.85
+football,Ligue 1,Round 16,14/12/,Rennes,Brest,3,1,0,g_1_CI0FTw5k,1.89,3.88,4.09,2.22,0.82
+football,Ligue 1,Round 16,13/12/,Angers,Nantes,4,1,0,g_1_Y3NSxrr3,2.2,3.28,3.68,2.39,0.35
+football,Ligue 1,Round 15,08/12/,Lorient,Lyon,1,0,0,g_1_Qc01MMcM,4.06,3.46,2.02,2.57,0.44
+football,Ligue 1,Round 15,08/12/,Auxerre,Metz,3,1,0,g_1_Cj4QK9MH,2.06,3.5,3.86,1.94,0.55
+football,Ligue 1,Round 15,08/12/,Le Havre,Paris FC,0,0,1,g_1_4Q0IMVi5,2.95,3.15,2.67,1.84,1.23
+football,Ligue 1,Round 15,07/12/,Nice,Angers,0,1,2,g_1_bo9pQ4bc,1.78,3.78,4.85,1.31,0.83
+football,Ligue 1,Round 15,07/12/,PSG,Rennes,5,0,0,g_1_h8ptFvjd,1.33,6.39,8.18,2.22,0.24
+football,Ligue 1,Round 15,07/12/,Toulouse,Strasbourg,1,0,0,g_1_prsYG0Lq,2.61,3.37,2.86,0.5,0.06
+football,Ligue 1,Round 15,07/12/,Nantes,Lens,1,2,2,g_1_WvHb216j,5.12,4.0,1.71,1.2,2.3
+football,Ligue 1,Round 15,06/12/,Lille,Marseille,1,0,0,g_1_bDVHOiNh,2.52,3.53,2.86,0.35,0.53
+football,Ligue 1,Round 15,06/12/,Brest,Monaco,1,0,0,g_1_hp2gOrT9,3.42,3.93,2.07,1.53,0.6
+football,Ligue 1,Round 14,01/12/,Lyon,Nantes,3,0,0,g_1_G6a3D6cf,1.46,4.63,7.71,2.34,0.86
+football,Ligue 1,Round 14,01/12/,Angers,Lens,1,2,2,g_1_bkiK9OdJ,4.83,4.07,1.73,1.16,2.05
+football,Ligue 1,Round 14,01/12/,Le Havre,Lille,0,1,2,g_1_jqv6XRlQ,4.85,3.78,1.78,1.18,1.62
+football,Ligue 1,Round 14,01/12/,Lorient,Nice,3,1,0,g_1_xtCgONBC,2.46,3.48,2.97,2.38,0.82
+football,Ligue 1,Round 14,30/11/,Strasbourg,Brest,1,2,2,g_1_GQNpQqs0,1.83,3.87,4.41,0.8,1.05
+football,Ligue 1,Round 14,30/11/,Marseille,Toulouse,2,2,1,g_1_QaX9QDht,1.69,4.04,5.23,1.8,0.7
+football,Ligue 1,Round 14,30/11/,Paris FC,Auxerre,1,1,1,g_1_2NcBBpS6,1.9,3.59,4.44,1.8,1.11
+football,Ligue 1,Round 14,30/11/,Monaco,PSG,1,0,0,g_1_p6F1M1tP,4.73,4.31,1.7,0.52,1.33
+football,Ligue 1,Round 14,29/11/,Metz,Rennes,0,1,2,g_1_ATKxS5Cm,4.14,3.94,1.86,1.02,0.78
+football,Ligue 1,Round 13,24/11/,Lille,Paris FC,4,2,0,g_1_zmvUb7r1,1.71,4.0,5.12,4.03,1.52
+football,Ligue 1,Round 13,24/11/,Brest,Metz,3,2,0,g_1_fwWL0TDl,1.9,3.85,4.1,3.12,1.05
+football,Ligue 1,Round 13,24/11/,Nantes,Lorient,1,1,1,g_1_2uis8BLE,3.06,3.37,2.45,0.84,0.32
+football,Ligue 1,Round 13,24/11/,Toulouse,Angers,0,1,2,g_1_Ofuj6kjR,1.73,3.66,5.59,1.98,0.42
+football,Ligue 1,Round 13,23/11/,Auxerre,Lyon,0,0,1,g_1_80xxcoDD,4.2,3.58,1.94,2.08,1.57
+football,Ligue 1,Round 13,23/11/,PSG,Le Havre,3,0,0,g_1_fiBfFSSs,1.24,7.0,12.5,3.46,1.19
+football,Ligue 1,Round 13,23/11/,Rennes,Monaco,4,1,0,g_1_zZbep8T7,2.4,3.78,2.86,3.69,1.33
+football,Ligue 1,Round 13,23/11/,Lens,Strasbourg,1,0,0,g_1_GWrfnUbe,2.18,3.76,3.26,1.92,0.45
+football,Ligue 1,Round 13,22/11/,Nice,Marseille,1,5,2,g_1_O8KOKl5K,4.02,3.78,1.93,1.19,2.86
+football,Ligue 1,Round 12,10/11/,Lyon,PSG,2,3,2,g_1_6ZANesWi,5.88,4.19,1.61,0.68,1.42
+football,Ligue 1,Round 12,10/11/,Angers,Auxerre,2,0,0,g_1_zF2vhaVG,2.62,3.08,3.08,0.66,0.7
+football,Ligue 1,Round 12,10/11/,Metz,Nice,2,1,0,g_1_214WgL04,3.07,3.69,2.3,1.58,0.95
+football,Ligue 1,Round 12,10/11/,Strasbourg,Lille,2,0,0,g_1_rJpnljUr,2.65,3.82,2.55,1.08,0.28
+football,Ligue 1,Round 12,09/11/,Lorient,Toulouse,1,1,1,g_1_thP58KFc,3.16,3.37,2.4,1.36,1.31
+football,Ligue 1,Round 12,09/11/,Monaco,Lens,1,4,2,g_1_lISD6bpA,2.04,3.97,3.46,2.83,3.17
+football,Ligue 1,Round 12,09/11/,Le Havre,Nantes,1,1,1,g_1_Wtdmjw0T,1.95,3.39,4.46,0.94,0.21
+football,Ligue 1,Round 12,09/11/,Marseille,Brest,3,0,0,g_1_ER8xYwvo,0.0,0.0,0.0,3.46,0.74
+football,Ligue 1,Round 12,08/11/,Paris FC,Rennes,0,1,2,g_1_0dnJpHNj,2.39,3.69,2.93,1.98,0.75
+football,Ligue 1,Round 11,03/11/,Brest,Lyon,0,0,1,g_1_hlxsq4nn,3.7,3.48,2.12,1.49,0.2
+football,Ligue 1,Round 11,03/11/,Lens,Lorient,3,0,0,g_1_Gj7WO01U,1.58,4.19,6.19,2.08,1.82
+football,Ligue 1,Round 11,03/11/,Lille,Angers,1,0,0,g_1_nBFFSr25,1.39,5.34,8.14,2.04,0.36
+football,Ligue 1,Round 11,03/11/,Nantes,Metz,0,2,2,g_1_Q1zksrHb,2.15,3.69,3.38,0.81,1.34
+football,Ligue 1,Round 11,03/11/,Toulouse,Le Havre,0,0,1,g_1_voC7U4Xh,1.71,3.7,5.65,1.12,1.31
+football,Ligue 1,Round 11,02/11/,Rennes,Strasbourg,4,1,0,g_1_8Q3OQMWH,2.77,3.58,2.56,2.35,1.6
+football,Ligue 1,Round 11,02/11/,Auxerre,Marseille,0,1,2,g_1_UgX5w0GN,5.65,3.88,1.68,1.17,0.51
+football,Ligue 1,Round 11,02/11/,Monaco,Paris FC,0,1,2,g_1_MTTcuMoB,1.71,4.31,4.68,0.61,0.85
+football,Ligue 1,Round 11,02/11/,PSG,Nice,1,0,0,g_1_Krd6WQ2t,1.19,8.24,14.6,2.29,0.48
+football,Ligue 1,Round 10,30/10/,Marseille,Angers,2,2,1,g_1_fLYQLzkL,1.27,6.69,10.8,1.32,1.04
+football,Ligue 1,Round 10,30/10/,Nantes,Monaco,3,5,2,g_1_0MD5Ehse,4.63,4.11,1.75,1.62,4.31
+football,Ligue 1,Round 10,30/10/,Paris FC,Lyon,3,3,1,g_1_lrf0zz4E,2.98,3.56,2.42,0.63,1.26
+football,Ligue 1,Round 10,30/10/,Strasbourg,Auxerre,3,0,0,g_1_YZBDCWB7,1.72,4.11,4.89,4.06,0.43
+football,Ligue 1,Round 10,30/10/,Toulouse,Rennes,2,2,1,g_1_0vPuG5Ia,1.99,3.68,3.88,1.55,1.58
+football,Ligue 1,Round 10,30/10/,Le Havre,Brest,1,0,0,g_1_vPzXHRmm,2.98,3.08,2.7,1.0,0.55
+football,Ligue 1,Round 10,30/10/,Lorient,PSG,1,1,1,g_1_4fKdGECr,10.8,6.69,1.27,0.23,1.49
+football,Ligue 1,Round 10,30/10/,Metz,Lens,2,0,0,g_1_84SmEqmC,5.7,4.92,1.54,3.42,1.32
+football,Ligue 1,Round 10,30/10/,Nice,Lille,2,0,0,g_1_4WLdCNHO,3.92,3.98,1.9,1.77,0.99
+football,Ligue 1,Round 9,27/10/,Lyon,Strasbourg,2,1,0,g_1_hIVJAkPM,2.01,3.79,3.71,1.67,0.49
+football,Ligue 1,Round 9,27/10/,Angers,Lorient,2,0,0,g_1_Mmlr5Tnp,2.81,3.07,2.86,0.93,1.99
+football,Ligue 1,Round 9,27/10/,Auxerre,Le Havre,0,1,2,g_1_K2Kr9c5F,2.15,3.38,3.69,0.61,0.94
+football,Ligue 1,Round 9,27/10/,Rennes,Nice,1,2,2,g_1_CxHzBJz3,2.09,3.67,3.57,1.73,0.73
+football,Ligue 1,Round 9,26/10/,Lille,Metz,6,1,0,g_1_E1Di7yzS,1.25,7.0,11.8,2.92,1.29
+football,Ligue 1,Round 9,26/10/,Lens,Marseille,2,1,0,g_1_6ahWagS1,2.66,3.69,2.61,1.8,0.67
+football,Ligue 1,Round 9,26/10/,Monaco,Toulouse,1,0,0,g_1_UDij37Hd,2.15,3.69,3.38,3.08,0.68
+football,Ligue 1,Round 9,26/10/,Brest,PSG,0,3,2,g_1_Y5pINdK8,8.32,5.8,1.35,1.62,2.07
+football,Ligue 1,Round 9,25/10/,Paris FC,Nantes,1,2,2,g_1_AXbN1Fck,1.59,4.2,6.14,1.19,0.9
+football,Ligue 1,Round 8,20/10/,Nantes,Lille,0,2,2,g_1_Oxv3EXPc,5.67,4.02,1.65,0.45,2.6
+football,Ligue 1,Round 8,20/10/,Lorient,Brest,3,3,1,g_1_CbApdjAT,2.86,3.27,2.66,1.21,1.59
+football,Ligue 1,Round 8,20/10/,Rennes,Auxerre,2,2,1,g_1_K4XBCBfA,1.9,3.69,4.3,2.03,1.51
+football,Ligue 1,Round 8,20/10/,Toulouse,Metz,4,0,0,g_1_AZDTaYA4,1.57,4.31,6.15,2.55,0.08
+football,Ligue 1,Round 8,19/10/,Lens,Paris FC,2,1,0,g_1_617xbCuH,1.87,3.98,4.08,1.63,0.51
+football,Ligue 1,Round 8,19/10/,Marseille,Le Havre,6,2,0,g_1_xOA1da4C,1.32,5.56,10.6,4.0,0.48
+football,Ligue 1,Round 8,19/10/,Angers,Monaco,1,1,1,g_1_dWoHjUXj,5.61,4.08,1.65,1.77,1.89
+football,Ligue 1,Round 8,19/10/,Nice,Lyon,3,2,0,g_1_MDXYwilo,2.26,3.54,3.28,0.6,3.4
+football,Ligue 1,Round 8,18/10/,PSG,Strasbourg,3,3,1,g_1_xMFL1fth,1.38,5.13,8.73,2.67,2.14
+football,Ligue 1,Round 7,06/10/,Lille,PSG,1,1,1,g_1_G8MhbLZa,3.86,3.52,2.05,0.65,1.5
+football,Ligue 1,Round 7,06/10/,Le Havre,Rennes,2,2,1,g_1_8UwCorjf,3.2,3.61,2.27,1.72,1.11
+football,Ligue 1,Round 7,06/10/,Monaco,Nice,2,2,1,g_1_xlfhVM5D,1.94,3.78,3.98,2.98,1.15
+football,Ligue 1,Round 7,06/10/,Strasbourg,Angers,5,0,0,g_1_d4kSs0kJ,1.77,3.88,4.85,4.73,0.33
+football,Ligue 1,Round 7,05/10/,Lyon,Toulouse,1,2,2,g_1_nFk3m4Ls,2.02,3.46,4.06,1.17,1.18
+football,Ligue 1,Round 7,05/10/,Auxerre,Lens,1,2,2,g_1_8rJp0s5m,3.49,3.9,2.05,1.71,0.41
+football,Ligue 1,Round 7,05/10/,Brest,Nantes,0,0,1,g_1_lbxE53sQ,1.95,3.67,4.08,1.51,0.15
+football,Ligue 1,Round 7,05/10/,Metz,Marseille,0,3,2,g_1_GWbXhQcK,5.68,4.34,1.6,0.16,2.71
+football,Ligue 1,Round 7,04/10/,Paris FC,Lorient,2,0,0,g_1_GfsKqMK6,1.77,3.88,4.85,1.02,0.96
+football,Ligue 1,Round 6,29/09/,Rennes,Lens,0,0,1,g_1_MivfMRMr,2.7,3.59,2.62,1.18,1.03
+football,Ligue 1,Round 6,29/09/,Angers,Brest,0,2,2,g_1_27cNRmaL,3.38,3.08,2.44,0.48,1.57
+football,Ligue 1,Round 6,29/09/,Lille,Lyon,0,1,2,g_1_882yZ46l,2.31,3.39,3.29,1.47,0.52
+football,Ligue 1,Round 6,29/09/,Metz,Le Havre,0,0,1,g_1_jXVAIqM7,2.62,3.33,2.87,0.47,0.27
+football,Ligue 1,Round 6,28/09/,Nice,Paris FC,1,1,1,g_1_GANdtmEE,2.17,3.61,3.41,0.96,1.84
+football,Ligue 1,Round 6,28/09/,PSG,Auxerre,2,0,0,g_1_4zdpXry1,1.22,7.28,14.2,1.77,0.71
+football,Ligue 1,Round 6,28/09/,Toulouse,Nantes,2,2,1,g_1_f5x2K5ie,1.74,3.69,5.38,2.15,1.45
+football,Ligue 1,Round 6,28/09/,Lorient,Monaco,3,1,0,g_1_xQB5vRrR,3.9,3.79,1.96,1.98,0.93
+football,Ligue 1,Round 6,27/09/,Strasbourg,Marseille,1,2,2,g_1_UupGT9U8,3.34,3.57,2.22,1.36,2.01
+football,Ligue 1,Round 5,23/09/,Marseille,PSG,1,0,0,g_1_lp7T56x2,4.35,3.88,1.84,1.14,0.67
+football,Ligue 1,Round 5,22/09/,Auxerre,Toulouse,1,0,0,g_1_K6fWTIOi,3.47,3.37,2.25,0.75,2.33
+football,Ligue 1,Round 5,22/09/,Le Havre,Lorient,1,1,1,g_1_E5muSdg4,2.05,3.49,3.9,2.47,1.21
+football,Ligue 1,Round 5,22/09/,Monaco,Metz,5,2,0,g_1_nJomQzOG,1.33,6.01,8.88,3.5,2.16
+football,Ligue 1,Round 5,21/09/,Paris FC,Strasbourg,2,3,2,g_1_8SQDBy9N,2.4,3.48,3.06,1.6,2.38
+football,Ligue 1,Round 5,21/09/,Lens,Lille,3,0,0,g_1_t074FJ9b,2.41,3.57,2.99,3.55,1.91
+football,Ligue 1,Round 5,21/09/,Brest,Nice,4,1,0,g_1_h02p6FWp,3.05,3.65,2.34,2.03,2.33
+football,Ligue 1,Round 5,21/09/,Nantes,Rennes,2,2,1,g_1_02N5DcvB,4.19,3.58,1.95,2.12,1.37
+football,Ligue 1,Round 5,20/09/,Lyon,Angers,1,0,0,g_1_tK3L7S7k,1.5,4.59,6.98,1.81,1.18
+football,Ligue 1,Round 4,15/09/,Rennes,Lyon,3,1,0,g_1_8n9dHuun,2.7,3.34,2.7,2.19,1.71
+football,Ligue 1,Round 4,15/09/,Brest,Paris FC,1,2,2,g_1_0tnV0Kf5,2.67,3.46,2.65,2.57,1.55
+football,Ligue 1,Round 4,15/09/,Metz,Angers,1,1,1,g_1_8YTN2tQh,2.31,3.45,3.14,1.71,2.26
+football,Ligue 1,Round 4,15/09/,PSG,Lens,2,0,0,g_1_0S6dnLuC,1.35,5.89,7.55,1.07,1.16
+football,Ligue 1,Round 4,15/09/,Strasbourg,Le Havre,1,0,0,g_1_MezvabPH,1.86,3.74,4.25,1.36,0.64
+football,Ligue 1,Round 4,14/09/,Lille,Toulouse,2,1,0,g_1_ULwncxfU,1.86,3.73,4.23,2.22,0.81
+football,Ligue 1,Round 4,14/09/,Auxerre,Monaco,1,2,2,g_1_df05paAO,5.08,4.57,1.6,0.67,1.42
+football,Ligue 1,Round 4,14/09/,Nice,Nantes,1,0,0,g_1_C6zF42et,1.57,4.18,6.12,1.29,0.67
+football,Ligue 1,Round 4,13/09/,Marseille,Lorient,4,0,0,g_1_EB8llsBa,1.38,5.04,8.57,2.26,0.14
+football,Ligue 1,Round 3,01/09/,Lyon,Marseille,1,0,0,g_1_hdKuj3tm,3.0,3.46,2.39,3.04,0.76
+football,Ligue 1,Round 3,01/09/,Le Havre,Nice,3,1,0,g_1_4xaPmDaJ,3.16,3.36,2.34,2.56,0.63
+football,Ligue 1,Round 3,01/09/,Monaco,Strasbourg,3,2,0,g_1_r5atlMg2,1.44,5.32,6.33,1.94,1.63
+football,Ligue 1,Round 3,01/09/,Paris FC,Metz,3,2,0,g_1_WO0HkZU6,1.74,4.04,4.54,3.21,1.84
+football,Ligue 1,Round 3,31/08/,Angers,Rennes,1,1,1,g_1_xQ78ie0f,4.59,3.57,1.84,1.24,1.46
+football,Ligue 1,Round 3,31/08/,Toulouse,PSG,3,6,2,g_1_xhUujrPk,8.64,5.33,1.35,2.22,2.61
+football,Ligue 1,Round 3,31/08/,Nantes,Auxerre,1,0,0,g_1_Ua40gHVs,2.56,3.38,2.82,0.48,0.68
+football,Ligue 1,Round 3,31/08/,Lorient,Lille,1,7,2,g_1_MDT9ePIP,3.37,3.47,2.19,1.5,3.5
+football,Ligue 1,Round 3,30/08/,Lens,Brest,3,1,0,g_1_ABiSBPo9,1.91,3.69,4.05,3.99,1.08
+football,Ligue 1,Round 2,25/08/,Lille,Monaco,1,0,0,g_1_2BXAn9Ic,3.26,3.76,2.18,2.92,1.25
+football,Ligue 1,Round 2,25/08/,Le Havre,Lens,1,2,2,g_1_bwRJpmmA,4.3,3.69,1.9,1.89,1.07
+football,Ligue 1,Round 2,25/08/,Strasbourg,Nantes,1,0,0,g_1_pfk1cQWF,1.8,3.59,5.13,1.78,0.44
+football,Ligue 1,Round 2,25/08/,Toulouse,Brest,2,0,0,g_1_dY86yqAd,2.34,3.49,3.17,1.29,0.97
+football,Ligue 1,Round 2,24/08/,Lorient,Rennes2,4,0,0,g_1_WjPRrRHM,2.83,3.39,2.62,3.04,0.07
+football,Ligue 1,Round 2,24/08/,Lyon,Metz,3,0,0,g_1_xUogan23,1.44,5.13,7.18,2.76,0.57
+football,Ligue 1,Round 2,24/08/,Nice,Auxerre,3,1,0,g_1_jy6bw5up,1.9,3.78,4.19,1.95,1.51
+football,Ligue 1,Round 2,24/08/,Marseille,Paris FC,5,2,0,g_1_dEpPO5Qj,1.46,5.16,6.45,2.83,1.09
+football,Ligue 1,Round 2,23/08/,PSG,Angers,1,0,0,g_1_tMrAe41S,1.07,16.5,29.0,1.85,0.24
+football,Ligue 1,Round 1,18/08/,Nantes,PSG,0,1,2,g_1_OGGqWk5S,13.5,7.28,1.22,0.14,1.43
+football,Ligue 1,Round 1,18/08/,Angers,Paris FC,1,0,0,g_1_SOmYDjqp,3.08,3.38,2.44,0.97,0.92
+football,Ligue 1,Round 1,18/08/,Auxerre,Lorient,1,0,0,g_1_fyPSZX53,2.61,3.27,2.94,1.43,1.37
+football,Ligue 1,Round 1,18/08/,Metz,Strasbourg,0,1,2,g_1_lvxsCUDd,3.83,3.57,2.04,0.3,0.63
+football,Ligue 1,Round 1,17/08/,Brest,Lille,3,3,1,g_1_0E3gLYjA,2.5,3.27,3.07,2.02,1.62
+football,Ligue 1,Round 1,17/08/,Nice,Toulouse,0,1,2,g_1_dtc2JCLM,1.92,3.5,4.44,0.79,0.61
+football,Ligue 1,Round 1,17/08/,Monaco,Le Havre,3,1,0,g_1_j3IyYBzG,1.25,7.2,11.3,1.76,0.6
+football,Ligue 1,Round 1,17/08/,Lens,Lyon,0,1,2,g_1_S05oNfMc,2.57,3.49,2.82,1.38,1.41
+football,Ligue 1,Round 1,16/08/,Rennes,Marseille,1,0,0,g_1_ELNbaiUj,4.06,3.81,1.92,1.39,1.79
+football,Ligue 1,Round 21,08/02/,Nantes,Lyon,0,1,2,g_1_OSODrnRh,5.14,3.81,1.74,0.76,1.4
+football,Ligue 1,Round 21,08/02/,Brest,Lorient,2,0,0,g_1_6ihmSQtC,2.35,3.07,3.58,1.74,0.74
+football,Ligue 1,Round 21,08/02/,Lens,Rennes,3,1,0,g_1_KfIMtQe5,1.63,4.34,5.42,1.16,1.5
+football,Ligue 1,Round 21,07/02/,Metz,Lille,0,0,1,g_1_lzAwwreU,6.63,4.42,1.53,0.63,1.65
+football,Ligue 1,Round 21,09/02/,PSG,Marseille,5,0,0,g_1_xC0WV8sm,1.46,5.14,6.49,4.14,0.63
+football,Ligue 1,Round 21,09/02/,Angers,Toulouse,1,0,0,g_1_SKLUv4QH,3.72,3.21,2.22,1.04,0.51
+football,Ligue 1,Round 21,09/02/,Auxerre,Paris FC,0,0,1,g_1_jFQ5p8dt,2.55,3.37,2.93,0.95,0.77
+football,Ligue 1,Round 21,09/02/,Le Havre,Strasbourg,2,1,0,g_1_EHeeQ4BO,4.22,3.71,1.9,0.9,0.42
+football,Ligue 1,Round 21,08/02/,Nice,Monaco,0,0,1,g_1_px4vUnCa,3.56,3.87,2.04,0.57,0.62
+football,Ligue 1,Round 22,14/02/,Monaco,Nantes,3,1,0,g_1_MahveGGF,1.46,4.87,7.18,1.78,1.14
+football,Ligue 1,Round 22,14/02/,Rennes,PSG,3,1,0,g_1_EcXImY8k,8.18,5.38,1.38,1.36,3.59
+football,Ligue 1,Round 22,15/02/,Paris FC,Lens,0,5,2,g_1_IRomgfoS,4.16,3.6,1.95,0.6,3.76
+football,Ligue 1,Round 22,15/02/,Lille,Brest,1,1,1,g_1_nVy4g3uB,1.63,3.96,6.1,1.64,0.69
+football,Ligue 1,Round 22,15/02/,Marseille,Strasbourg,2,2,1,g_1_EHwdePAb,2.03,3.94,3.53,1.32,1.92
+football,Ligue 1,Round 22,16/02/,Lyon,Nice,2,0,0,g_1_Ikpmcotn,1.82,3.82,4.55,1.52,1.45
+football,Ligue 1,Round 22,16/02/,Lorient,Angers,2,0,0,g_1_EZlWdxn3,2.0,3.18,4.62,0.95,0.42
+football,Ligue 1,Round 22,16/02/,Metz,Auxerre,1,3,2,g_1_YwCqZYgd,3.08,3.08,2.62,0.8,0.79
+football,Ligue 1,Round 22,15/02/,Le Havre,Toulouse,2,1,0,g_1_tWgxyePq,3.54,3.14,2.33,1.16,2.36
+football,Ligue 1,Round 23,22/02/,PSG,Metz,3,0,0,g_1_MLTE7g0L,1.14,10.5,17.6,2.41,0.09
+football,Ligue 1,Round 23,22/02/,Toulouse,Paris FC,1,1,1,g_1_zPglMhFE,2.06,3.39,4.01,2.93,0.88
+football,Ligue 1,Round 23,22/02/,Lens,Monaco,2,3,2,g_1_06u69FV8,1.73,4.3,4.52,1.79,1.7
+football,Ligue 1,Round 23,21/02/,Brest,Marseille,2,0,0,g_1_h4Kp2XNr,4.08,3.88,1.9,1.26,1.68
+football,Ligue 1,Round 23,23/02/,Strasbourg,Lyon,3,1,0,g_1_YamKoCw2,2.34,3.57,3.09,2.14,0.33
+football,Ligue 1,Round 23,23/02/,Angers,Lille,0,1,2,g_1_rkcdKWqR,4.88,3.7,1.8,0.39,2.34
+football,Ligue 1,Round 23,23/02/,Nantes,Le Havre,2,0,0,g_1_KGB1bkN7,2.44,3.38,3.08,1.26,0.7
+football,Ligue 1,Round 23,23/02/,Nice,Lorient,3,3,1,g_1_n3Dg0Bhe,2.2,3.48,3.48,3.24,2.21
+football,Ligue 1,Round 23,22/02/,Auxerre,Rennes,0,3,2,g_1_SMYSEA7l,2.88,3.5,2.52,0.69,1.13
+football,Ligue 1,Round 24,01/03/,Le Havre,PSG,0,1,2,g_1_0lnzDlx1,8.88,6.01,1.33,0.68,3.82
+football,Ligue 1,Round 24,01/03/,Monaco,Angers,2,0,0,g_1_lASUYVbK,0.0,0.0,0.0,1.51,0.74
+football,Ligue 1,Round 24,01/03/,Rennes,Toulouse,1,0,0,g_1_dGuqBS6D,2.01,3.7,3.81,0.89,0.55
+football,Ligue 1,Round 24,28/02/,Strasbourg,Lens,1,1,1,g_1_dEAxVMcn,2.34,3.68,3.02,0.84,1.83

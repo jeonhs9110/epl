@@ -1,0 +1,391 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Serie B 2024 2025,Regular Season,23/06/,Salernitana,SampdoriaWinner,0,3,2,g_1_2BV8u0B6,2.17,3.42,3.29,0.6,0.81
+football,Serie B 2024 2025,Regular Season,16/06/,Sampdoria,Salernitana,2,0,0,g_1_foS0sMtf,2.27,2.83,3.79,1.87,0.62
+football,Serie B 2024 2025,Regular Season,02/06/,Spezia,CremoneseWinner,2,3,2,g_1_pnBj3fgU,2.34,3.32,3.04,1.14,1.62
+football,Serie B 2024 2025,Regular Season,30/05/,Cremonese,Spezia,0,0,1,g_1_vk8r5GOH,1.98,3.29,4.05,0.66,0.46
+football,Serie B 2024 2025,Regular Season,26/05/,SpeziaAdvancing to next round,Catanzaro,2,1,0,g_1_Um4G56R0,1.89,3.72,4.11,0.92,0.88
+football,Serie B 2024 2025,Regular Season,26/05/,CremoneseAdvancing to next round,Juve Stabia,3,0,0,g_1_I9pBRmlK,1.53,3.99,6.49,1.05,0.17
+football,Serie B 2024 2025,Regular Season,22/05/,Catanzaro,Spezia,0,2,2,g_1_zkB77Sdl,3.74,3.03,2.17,0.24,1.63
+football,Serie B 2024 2025,Regular Season,22/05/,Juve Stabia,Cremonese,2,1,0,g_1_212O3pdD,3.41,3.21,2.21,1.76,1.44
+football,Serie B 2024 2025,Regular Season,18/05/,Juve StabiaAdvancing to next round,Palermo,1,0,0,g_1_lAjFb9ad,2.81,3.11,2.63,1.13,0.4
+football,Serie B 2024 2025,Regular Season,18/05/,CatanzaroAdvancing to next round,Cesena,1,0,0,g_1_GGr1MCi3,2.17,3.03,3.74,0.47,1.66
+football,Serie B 2024 2025,Round 34,14/05/,Brescia,Reggiana,2,1,0,g_1_vHx0ZmRP,1.46,4.25,7.38,1.62,1.43
+football,Serie B 2024 2025,Round 34,14/05/,Cittadella,Salernitana,0,2,2,g_1_b1JWTRlm,3.3,3.21,2.26,0.92,1.53
+football,Serie B 2024 2025,Round 34,14/05/,Juve Stabia,Sampdoria,0,0,1,g_1_6RMvS5Ja,3.16,2.94,2.5,0.91,1.43
+football,Serie B 2024 2025,Round 34,14/05/,Mantova,Catanzaro,0,0,1,g_1_StBmQqlC,2.0,3.25,4.0,0.88,0.19
+football,Serie B 2024 2025,Round 34,14/05/,Modena,Cesena,0,1,2,g_1_CWXK7yYp,3.31,3.1,2.3,0.72,0.6
+football,Serie B 2024 2025,Round 34,14/05/,Palermo,Carrarese,1,1,1,g_1_SvG7VvQi,1.46,4.76,6.26,1.87,0.65
+football,Serie B 2024 2025,Round 34,14/05/,Pisa,Cremonese,2,1,0,g_1_0hEFTIf4,2.26,3.47,3.05,1.18,0.89
+football,Serie B 2024 2025,Round 34,14/05/,Sassuolo,Frosinone,0,1,2,g_1_dK7ORdPG,3.29,3.42,2.17,0.72,2.14
+football,Serie B 2024 2025,Round 34,14/05/,Spezia,Cosenza,3,1,0,g_1_lSPVPzfT,1.3,5.76,8.52,1.94,2.35
+football,Serie B 2024 2025,Round 34,14/05/,Sudtirol,Bari,0,0,1,g_1_Ya12KEHj,3.21,3.41,2.21,0.8,2.05
+football,Serie B 2024 2025,Round 38,10/05/,Cittadella,Bari,3,1,0,g_1_dhB9PRFi,2.88,3.21,2.5,1.86,0.85
+football,Serie B 2024 2025,Round 38,10/05/,Cosenza,Cesena,0,1,2,g_1_hK4IN5p4,3.95,3.34,1.98,1.08,0.32
+football,Serie B 2024 2025,Round 38,10/05/,Juve Stabia,Reggiana,1,2,2,g_1_QX2QLqFG,2.38,2.71,3.71,1.85,1.16
+football,Serie B 2024 2025,Round 38,10/05/,Mantova,Carrarese,2,1,0,g_1_MadZJNqT,2.04,3.09,4.08,1.36,0.99
+football,Serie B 2024 2025,Round 38,10/05/,Modena,Brescia,2,2,1,g_1_jFn5E17j,2.21,3.11,3.51,0.96,1.43
+football,Serie B 2024 2025,Round 38,10/05/,Palermo,Frosinone,2,0,0,g_1_WAPix5ac,1.93,3.23,4.37,1.33,1.59
+football,Serie B 2024 2025,Round 38,10/05/,Pisa,Sudtirol,3,3,1,g_1_vyTazqU9,2.42,2.92,3.32,1.31,2.1
+football,Serie B 2024 2025,Round 38,10/05/,Sampdoria,Salernitana,1,0,0,g_1_YyoYHzEr,2.43,3.14,3.04,0.96,0.72
+football,Serie B 2024 2025,Round 38,10/05/,Sassuolo,Catanzaro,0,2,2,g_1_6kqtGEre,1.98,3.38,3.87,0.93,0.51
+football,Serie B 2024 2025,Round 38,10/05/,Spezia,Cremonese,2,3,2,g_1_C2EtEhD7,2.52,3.13,2.93,1.99,1.94
+football,Serie B 2024 2025,Round 37,05/05/,Cremonese,Sassuolo,1,1,1,g_1_UHiSClWo,2.14,3.29,3.49,0.77,0.31
+football,Serie B 2024 2025,Round 37,04/05/,Bari,Pisa,1,0,0,g_1_8Y9fG2Lt,3.22,2.64,2.71,0.52,0.76
+football,Serie B 2024 2025,Round 37,04/05/,Brescia,Juve Stabia,0,0,1,g_1_SzQeEtjg,2.26,3.02,3.52,0.61,0.2
+football,Serie B 2024 2025,Round 37,04/05/,Carrarese,Modena,2,1,0,g_1_z1T3CKK5,2.39,2.9,3.39,1.1,1.56
+football,Serie B 2024 2025,Round 37,04/05/,Catanzaro,Sampdoria,2,2,1,g_1_dGHCAbkI,2.64,3.05,2.85,1.62,0.54
+football,Serie B 2024 2025,Round 37,04/05/,Cesena,Palermo,2,1,0,g_1_4tLK8xKU,2.8,3.06,2.68,0.95,2.45
+football,Serie B 2024 2025,Round 37,04/05/,Frosinone,Cittadella,1,1,1,g_1_2VkzBS0b,1.84,3.3,4.75,2.48,0.78
+football,Serie B 2024 2025,Round 37,04/05/,Reggiana,Spezia,2,1,0,g_1_bcqq96VA,3.51,3.11,2.21,0.48,0.67
+football,Serie B 2024 2025,Round 37,04/05/,Salernitana,Mantova,2,0,0,g_1_6Nni7p0N,1.91,3.42,4.12,0.51,0.49
+football,Serie B 2024 2025,Round 37,04/05/,Sudtirol,Cosenza,2,1,0,g_1_jeON1ONp,1.73,3.71,4.76,1.13,1.39
+football,Serie B 2024 2025,Round 36,02/05/,Sassuolo,Carrarese,2,0,0,g_1_dftxbL5C,1.83,3.63,4.21,1.43,1.05
+football,Serie B 2024 2025,Round 36,02/05/,Cittadella,Brescia,0,1,2,g_1_Meb67Yx9,3.25,3.02,2.39,0.65,0.57
+football,Serie B 2024 2025,Round 36,01/05/,Cosenza,Bari,1,0,0,g_1_rBnF5C7L,3.79,3.33,2.03,1.64,1.06
+football,Serie B 2024 2025,Round 36,01/05/,Mantova,Cesena,3,0,0,g_1_zNtgbUae,2.42,3.32,2.92,1.22,0.3
+football,Serie B 2024 2025,Round 36,01/05/,Modena,Reggiana,2,3,2,g_1_8zu1d8U7,2.02,3.1,4.17,0.74,1.1
+football,Serie B 2024 2025,Round 36,01/05/,Palermo,Sudtirol,1,2,2,g_1_OrNmKBME,1.63,3.72,5.78,1.02,2.25
+football,Serie B 2024 2025,Round 36,01/05/,Pisa,Frosinone,1,0,0,g_1_SElL136m,1.64,3.41,6.52,1.04,0.32
+football,Serie B 2024 2025,Round 36,01/05/,Sampdoria,Cremonese,0,0,1,g_1_lUxUasy0,3.59,3.35,2.08,0.54,0.75
+football,Serie B 2024 2025,Round 36,01/05/,Spezia,Salernitana,2,0,0,g_1_hMZpdazP,1.75,3.26,5.52,2.06,0.4
+football,Serie B 2024 2025,Round 36,01/05/,Juve Stabia,Catanzaro,2,0,0,g_1_vemp0jVr,2.31,3.15,3.26,2.01,0.59
+football,Serie B 2024 2025,Round 35,27/04/,Catanzaro,Palermo,1,3,2,g_1_C6lUYDWq,2.48,3.33,2.83,1.28,1.91
+football,Serie B 2024 2025,Round 35,27/04/,Sudtirol,Juve Stabia,2,0,0,g_1_fk6KqVp2,2.3,3.1,3.31,1.32,0.83
+football,Serie B 2024 2025,Round 35,26/04/,Cesena,Sassuolo,0,2,2,g_1_KWixXi1d,3.17,3.45,2.22,0.67,1.86
+football,Serie B 2024 2025,Round 35,26/04/,Cremonese,Mantova,4,2,0,g_1_0SUOfeg3,1.52,4.39,5.82,2.83,0.96
+football,Serie B 2024 2025,Round 35,25/04/,Bari,Modena,1,2,2,g_1_06glrI9c,2.33,3.14,3.24,1.94,2.45
+football,Serie B 2024 2025,Round 35,25/04/,Brescia,Pisa,1,2,2,g_1_dYnctdvA,3.27,3.22,2.26,0.33,0.45
+football,Serie B 2024 2025,Round 35,25/04/,Carrarese,Sampdoria,1,0,0,g_1_Uoo5vz9M,2.82,2.92,2.77,0.84,0.73
+football,Serie B 2024 2025,Round 35,25/04/,Reggiana,Cittadella,2,1,0,g_1_2iRuiDhS,2.05,3.3,3.75,1.1,1.52
+football,Serie B 2024 2025,Round 35,25/04/,Salernitana,Cosenza,3,1,0,g_1_bNCBoiGk,1.73,3.59,4.99,2.39,1.17
+football,Serie B 2024 2025,Round 35,25/04/,Frosinone,Spezia,2,2,1,g_1_8hYWhZNF,3.66,3.56,1.98,0.68,1.33
+football,Serie B 2024 2025,Round 33,14/04/,Mantova,Spezia,2,2,1,g_1_h0EIMAsK,3.85,3.85,1.86,1.88,1.07
+football,Serie B 2024 2025,Round 33,13/04/,Cesena,Frosinone,1,1,1,g_1_bR2N2kjl,2.37,3.03,3.28,1.24,1.05
+football,Serie B 2024 2025,Round 33,13/04/,Cremonese,Juve Stabia,1,1,1,g_1_S6fva7kD,1.63,3.78,5.55,0.78,0.26
+football,Serie B 2024 2025,Round 33,13/04/,Modena,Sassuolo,1,3,2,g_1_Or5lHl5s,3.45,3.21,2.19,0.8,0.96
+football,Serie B 2024 2025,Round 33,13/04/,Sampdoria,Cittadella,1,0,0,g_1_nNkEBpZI,1.74,3.42,5.28,0.6,0.29
+football,Serie B 2024 2025,Round 33,12/04/,Carrarese,Catanzaro,2,2,1,g_1_SrCi8BSQ,2.28,3.34,3.14,0.81,0.88
+football,Serie B 2024 2025,Round 33,12/04/,Cosenza,Brescia,1,1,1,g_1_fgdW0TK0,2.86,3.09,2.59,1.82,0.48
+football,Serie B 2024 2025,Round 33,12/04/,Reggiana,Pisa,0,2,2,g_1_pbgcFSZg,3.62,3.12,2.17,0.81,1.12
+football,Serie B 2024 2025,Round 33,12/04/,Salernitana,Sudtirol,2,1,0,g_1_hOd5D646,1.98,3.25,4.06,1.25,1.46
+football,Serie B 2024 2025,Round 33,12/04/,Bari,Palermo,2,1,0,g_1_6TNrAXcE,2.82,3.12,2.62,1.39,0.49
+football,Serie B 2024 2025,Round 32,07/04/,Spezia,Sampdoria,2,0,0,g_1_pOxlljye,1.81,3.52,4.52,2.28,0.68
+football,Serie B 2024 2025,Round 32,06/04/,Catanzaro,Bari,3,3,1,g_1_l6GSBYB4,2.3,3.21,3.21,1.54,1.21
+football,Serie B 2024 2025,Round 32,06/04/,Palermo,Sassuolo,5,3,0,g_1_69a1cfE8,3.01,3.42,2.31,1.62,1.39
+football,Serie B 2024 2025,Round 32,06/04/,Juve Stabia,Salernitana,1,0,0,g_1_OpzHkre2,2.19,2.99,3.74,1.2,0.53
+football,Serie B 2024 2025,Round 32,06/04/,Pisa,Modena,1,2,2,g_1_hQc9eYrL,1.93,3.53,3.93,1.65,1.34
+football,Serie B 2024 2025,Round 32,05/04/,Brescia,Mantova,1,2,2,g_1_8d8KDfsh,2.11,3.42,3.42,1.19,1.86
+football,Serie B 2024 2025,Round 32,05/04/,Cittadella,Carrarese,0,0,1,g_1_MJEzACtH,2.64,3.22,2.71,0.54,0.67
+football,Serie B 2024 2025,Round 32,05/04/,Frosinone,Cosenza,2,2,1,g_1_GKW8i4Qk,1.92,3.33,4.24,2.15,1.18
+football,Serie B 2024 2025,Round 32,05/04/,Sudtirol,Cesena,1,1,1,g_1_tjWdnU57,2.87,2.9,2.74,0.8,0.51
+football,Serie B 2024 2025,Round 32,05/04/,Reggiana,Cremonese,1,2,2,g_1_CAvtjC6r,3.74,3.09,2.14,1.6,1.17
+football,Serie B 2024 2025,Round 31,31/03/,Salernitana,Palermo,1,2,2,g_1_UkLhaeSb,2.61,3.21,2.76,1.32,1.55
+football,Serie B 2024 2025,Round 31,30/03/,Carrarese,Bari,2,1,0,g_1_n732lvEt,2.46,3.02,3.12,0.66,1.07
+football,Serie B 2024 2025,Round 31,30/03/,Cesena,Juve Stabia,1,2,2,g_1_rZdBnIrg,2.27,2.93,3.63,1.38,0.89
+football,Serie B 2024 2025,Round 31,30/03/,Sassuolo,Reggiana,5,1,0,g_1_dIv2eDRN,1.82,3.54,4.42,2.18,0.51
+football,Serie B 2024 2025,Round 31,30/03/,Cremonese,Cittadella,2,2,1,g_1_AolSrzrI,1.34,4.78,9.57,2.14,0.2
+football,Serie B 2024 2025,Round 31,29/03/,Cosenza2,Pisa,0,3,2,g_1_lWaJpdD5,4.37,3.23,1.93,0.03,2.05
+football,Serie B 2024 2025,Round 31,29/03/,Mantova,Sudtirol,2,0,0,g_1_IBizsECU,2.39,3.13,3.13,1.05,1.52
+football,Serie B 2024 2025,Round 31,29/03/,Modena,Catanzaro,2,1,0,g_1_dxNp1Hcn,2.09,3.26,3.68,0.54,1.09
+football,Serie B 2024 2025,Round 31,29/03/,Sampdoria,Frosinone,0,3,2,g_1_lhyfcZdB,1.85,3.25,4.75,1.38,1.43
+football,Serie B 2024 2025,Round 31,29/03/,Spezia,Brescia,0,1,2,g_1_tjGYkiko,1.69,3.63,5.3,1.69,1.98
+football,Serie B 2024 2025,Round 30,17/03/,Catanzaro,Cosenza,4,0,0,g_1_KI4nN1Fs,1.97,3.23,4.14,1.28,0.46
+football,Serie B 2024 2025,Round 30,16/03/,Pisa,Mantova,3,1,0,g_1_21MxYITa,1.56,4.01,6.02,1.74,0.89
+football,Serie B 2024 2025,Round 30,16/03/,Reggiana,Sampdoria,2,2,1,g_1_zTZqWdbC,2.78,2.83,2.9,2.36,1.52
+football,Serie B 2024 2025,Round 30,16/03/,Sudtirol,Carrarese,2,2,1,g_1_WfThUzTO,2.17,3.12,3.62,1.06,1.18
+football,Serie B 2024 2025,Round 30,16/03/,Bari,Salernitana,0,0,1,g_1_0UiEuAV8,2.46,3.02,3.12,0.66,0.7
+football,Serie B 2024 2025,Round 30,15/03/,Cesena,Spezia,0,0,1,g_1_Sr8fLupf,3.7,3.0,2.2,1.23,2.36
+football,Serie B 2024 2025,Round 30,15/03/,Cittadella,Sassuolo,1,2,2,g_1_Ms13JJE6,5.03,3.52,1.74,0.92,1.99
+football,Serie B 2024 2025,Round 30,15/03/,Frosinone,Brescia,2,1,0,g_1_feaBHcqJ,2.32,2.73,3.84,0.67,1.23
+football,Serie B 2024 2025,Round 30,15/03/,Juve Stabia,Modena,2,1,0,g_1_A3sbu1yQ,2.49,2.84,3.3,1.82,1.08
+football,Serie B 2024 2025,Round 30,15/03/,Palermo,Cremonese,2,3,2,g_1_tnYTZvam,2.71,3.01,2.81,1.27,2.9
+football,Serie B 2024 2025,Round 29,10/03/,Cittadella,Sudtirol,1,5,2,g_1_M9PDCB1M,3.03,2.78,2.73,1.1,1.91
+football,Serie B 2024 2025,Round 29,09/03/,Sassuolo,Bari,1,1,1,g_1_ELqRJS8k,1.57,4.1,5.81,0.57,0.44
+football,Serie B 2024 2025,Round 29,09/03/,Spezia,Pisa,3,2,0,g_1_YNaSH6w2,1.88,3.34,4.55,1.41,0.84
+football,Serie B 2024 2025,Round 29,09/03/,Brescia,Cesena,1,1,1,g_1_hUXdGg2c,2.66,2.94,2.94,0.76,1.18
+football,Serie B 2024 2025,Round 29,09/03/,Sampdoria,Palermo,1,1,1,g_1_IkbePloS,2.32,3.12,3.27,1.2,1.45
+football,Serie B 2024 2025,Round 29,08/03/,Carrarese,Frosinone,0,1,2,g_1_ldR5EXW9,2.36,3.01,3.31,2.05,0.57
+football,Serie B 2024 2025,Round 29,08/03/,Cremonese,Catanzaro,4,0,0,g_1_Y1Oi5Tgd,1.67,3.71,5.26,3.77,0.27
+football,Serie B 2024 2025,Round 29,08/03/,Mantova,Juve Stabia,1,1,1,g_1_Ec1vTWo3,2.52,3.03,3.03,0.44,0.56
+football,Serie B 2024 2025,Round 29,08/03/,Salernitana,Modena,1,0,0,g_1_MN4nRAGF,2.55,3.0,3.0,0.94,1.02
+football,Serie B 2024 2025,Round 29,08/03/,Cosenza,Reggiana,1,0,0,g_1_tf6p7kPq,2.66,2.94,2.94,0.57,1.25
+football,Serie B 2024 2025,Round 28,03/03/,Bari,Sampdoria,1,1,1,g_1_6wJuiwZo,2.44,2.99,3.19,0.94,2.08
+football,Serie B 2024 2025,Round 28,02/03/,Catanzaro,Reggiana,1,1,1,g_1_KGilmeYA,2.33,3.24,3.14,1.41,1.38
+football,Serie B 2024 2025,Round 28,02/03/,Modena,Cosenza,1,1,1,g_1_b7CN1fm4,1.74,3.52,5.03,0.9,0.6
+football,Serie B 2024 2025,Round 28,02/03/,Palermo,Brescia,1,0,0,g_1_fZ5WaYHG,1.81,3.41,4.76,2.28,0.56
+football,Serie B 2024 2025,Round 28,02/03/,Sassuolo,Pisa,1,0,0,g_1_2a9vbCnT,2.14,3.06,3.78,0.85,1.31
+football,Serie B 2024 2025,Round 28,01/03/,Carrarese,Cremonese,2,2,1,g_1_CjltkH3b,4.14,3.23,1.97,1.14,1.38
+football,Serie B 2024 2025,Round 28,01/03/,Cesena,Salernitana,2,0,0,g_1_tWucoZ2N,2.41,2.81,3.5,1.11,1.74
+football,Serie B 2024 2025,Round 28,01/03/,Frosinone,Mantova,2,1,0,g_1_CEWSuDQp,2.14,3.15,3.66,1.94,2.04
+football,Serie B 2024 2025,Round 28,01/03/,Juve Stabia,Cittadella,0,1,2,g_1_QgEF3GIi,1.74,3.22,5.79,0.74,0.67
+football,Serie B 2024 2025,Round 28,01/03/,Sudtirol,Spezia,1,1,1,g_1_nXpBhjAj,5.0,3.3,1.8,1.3,3.03
+football,Serie B 2024 2025,Round 27,24/02/,Salernitana,Frosinone2,1,1,1,g_1_CIADm4Sg,2.17,3.12,3.62,2.37,0.45
+football,Serie B 2024 2025,Round 27,23/02/,Brescia,Sudtirol,0,0,1,g_1_AuPt6USE,2.32,2.92,3.52,1.36,0.76
+football,Serie B 2024 2025,Round 27,23/02/,Cosenza,Palermo,0,3,2,g_1_tUbLbnLl,3.51,3.11,2.21,1.69,1.8
+football,Serie B 2024 2025,Round 27,23/02/,Spezia,Catanzaro,0,1,2,g_1_GA7UqMRI,1.57,3.94,6.07,2.72,0.82
+football,Serie B 2024 2025,Round 27,23/02/,Cremonese,Cesena,1,2,2,g_1_xdhUdQk1,1.86,3.34,4.55,1.06,0.6
+football,Serie B 2024 2025,Round 27,22/02/,Cittadella,Modena,0,2,2,g_1_WfDk48cR,3.41,2.81,2.46,0.84,1.55
+football,Serie B 2024 2025,Round 27,22/02/,Mantova,Bari,0,1,2,g_1_A9jxe4KD,2.55,3.0,3.0,0.43,0.78
+football,Serie B 2024 2025,Round 27,22/02/,Pisa,Juve Stabia,3,1,0,g_1_MmWYfnzK,1.84,3.41,4.52,1.73,0.89
+football,Serie B 2024 2025,Round 27,22/02/,Reggiana,Carrarese,2,2,1,g_1_j3M4kQcs,2.05,2.88,4.5,1.62,1.13
+football,Serie B 2024 2025,Round 27,22/02/,Sampdoria,Sassuolo,0,0,1,g_1_KrELorc6,3.48,3.14,2.22,0.11,0.46
+football,Serie B 2024 2025,Round 26,17/02/,Cesena,Pisa,1,1,1,g_1_Eu05X9Mk,3.29,2.93,2.43,0.56,1.27
+football,Serie B 2024 2025,Round 26,16/02/,Frosinone,Reggiana,1,1,1,g_1_M53DVmi2,2.42,2.83,3.43,0.82,0.73
+football,Serie B 2024 2025,Round 26,16/02/,Juve Stabia,Cosenza,3,0,0,g_1_21t0giq9,2.08,3.04,4.05,0.82,1.92
+football,Serie B 2024 2025,Round 26,16/02/,Palermo,Mantova,2,2,1,g_1_Eguvn9yq,1.65,3.5,6.0,1.73,0.91
+football,Serie B 2024 2025,Round 26,16/02/,Bari,Cremonese,1,1,1,g_1_2u5PtEa3,4.08,3.09,2.04,0.53,1.78
+football,Serie B 2024 2025,Round 26,15/02/,Carrarese,Salernitana,3,2,0,g_1_b7bYvhUF,2.63,2.81,3.11,1.86,1.3
+football,Serie B 2024 2025,Round 26,15/02/,Modena,Spezia,1,1,1,g_1_ARq8iVDL,3.52,3.22,2.16,0.74,1.73
+football,Serie B 2024 2025,Round 26,15/02/,Sassuolo,Brescia,2,0,0,g_1_n7wnpm6e,1.49,4.12,7.03,0.6,1.75
+football,Serie B 2024 2025,Round 26,15/02/,Sudtirol,Sampdoria2,2,1,0,g_1_rZWfrRz8,2.81,2.89,2.81,1.95,0.69
+football,Serie B 2024 2025,Round 26,15/02/,Catanzaro,Cittadella,1,0,0,g_1_WKdtwWbS,1.82,3.34,4.8,1.37,0.34
+football,Serie B 2024 2025,Round 25,10/02/,Juve Stabia,Bari,3,1,0,g_1_2szWMJ8U,2.21,2.91,3.82,2.28,1.39
+football,Serie B 2024 2025,Round 25,09/02/,Cremonese,Sudtirol,3,1,0,g_1_80YFQ195,1.68,3.93,4.79,2.17,0.33
+football,Serie B 2024 2025,Round 25,09/02/,Reggiana,Cesena,0,1,2,g_1_AmccwugB,2.43,2.86,3.38,0.44,0.47
+football,Serie B 2024 2025,Round 25,09/02/,Spezia,Palermo,2,2,1,g_1_zZCwJA7d,1.9,3.21,4.51,3.24,0.45
+football,Serie B 2024 2025,Round 25,09/02/,Sampdoria,Modena,1,0,0,g_1_EJOUKWxp,2.71,2.91,2.89,1.95,0.54
+football,Serie B 2024 2025,Round 25,08/02/,Cosenza,Carrarese,1,0,0,g_1_0zV7SNvg,2.82,2.77,2.92,0.22,0.48
+football,Serie B 2024 2025,Round 25,08/02/,Frosinone,Catanzaro,1,1,1,g_1_UFMOOuvI,2.34,3.14,3.21,1.44,0.71
+football,Serie B 2024 2025,Round 25,08/02/,Mantova,Sassuolo,0,3,2,g_1_t85tsNgn,3.62,3.52,2.01,0.36,1.59
+football,Serie B 2024 2025,Round 25,08/02/,Pisa,Cittadella,0,1,2,g_1_EL3lu1Ob,1.63,3.78,5.55,0.64,0.22
+football,Serie B 2024 2025,Round 25,08/02/,Brescia,Salernitana,0,0,1,g_1_48yaUqAt,2.81,3.01,2.71,0.76,0.35
+football,Serie B 2024 2025,Round 24,03/02/,Bari,Frosinone,2,1,0,g_1_fDlJ8TmK,2.04,3.18,3.97,1.59,1.46
+football,Serie B 2024 2025,Round 24,02/02/,Carrarese,Brescia,1,2,2,g_1_voQk37Bs,2.15,3.25,3.5,1.72,1.52
+football,Serie B 2024 2025,Round 24,02/02/,Salernitana,Cremonese,1,0,0,g_1_QHGPFpem,3.04,3.24,2.38,2.14,1.92
+football,Serie B 2024 2025,Round 24,02/02/,Sudtirol,Reggiana,2,0,0,g_1_ld1kAtPO,2.66,2.84,3.04,0.9,1.48
+football,Serie B 2024 2025,Round 24,02/02/,Modena,Mantova,3,1,0,g_1_GjLEc3uJ,1.84,3.52,4.44,1.55,1.56
+football,Serie B 2024 2025,Round 24,01/02/,Catanzaro,Cesena,4,2,0,g_1_nBTc1otf,2.29,3.08,3.38,1.38,1.48
+football,Serie B 2024 2025,Round 24,01/02/,Cittadella,Spezia,0,2,2,g_1_rwN6aPA6,5.2,3.17,1.82,0.79,2.17
+football,Serie B 2024 2025,Round 24,01/02/,Sampdoria,Cosenza,1,0,0,g_1_nX4YDOPa,2.17,3.12,3.62,0.82,1.09
+football,Serie B 2024 2025,Round 24,01/02/,Sassuolo,Juve Stabia,2,0,0,g_1_fc8tC2fC,1.66,3.68,5.47,0.75,0.55
+football,Serie B 2024 2025,Round 24,01/02/,Palermo,Pisa,1,2,2,g_1_fZPgL6XP,2.22,3.02,3.62,1.11,1.04
+football,Serie B 2024 2025,Round 23,27/01/,Cremonese,Modena,2,2,1,g_1_p6gtmeLq,2.02,3.22,3.98,1.56,2.04
+football,Serie B 2024 2025,Round 23,26/01/,Brescia,Catanzaro,2,3,2,g_1_b9Lhdabc,2.46,3.02,3.12,1.86,1.77
+football,Serie B 2024 2025,Round 23,26/01/,Pisa,Salernitana,1,0,0,g_1_EqjHl8dl,1.94,3.23,4.32,1.36,0.41
+football,Serie B 2024 2025,Round 23,26/01/,Reggiana,Palermo,2,1,0,g_1_nclPnnR0,2.52,2.82,3.27,0.41,0.97
+football,Serie B 2024 2025,Round 23,26/01/,Mantova,Sampdoria,2,2,1,g_1_KrYr7GCF,2.71,3.12,2.71,1.0,1.45
+football,Serie B 2024 2025,Round 23,25/01/,Cesena,Bari,1,1,1,g_1_h8E1fwT9,2.17,3.12,3.62,1.34,0.81
+football,Serie B 2024 2025,Round 23,25/01/,Cosenza,Cittadella,0,1,2,g_1_QLC9hHcM,2.44,3.09,3.09,1.68,0.35
+football,Serie B 2024 2025,Round 23,25/01/,Frosinone,Sudtirol,0,3,2,g_1_hWdloZkd,2.12,3.13,3.74,0.87,1.81
+football,Serie B 2024 2025,Round 23,25/01/,Juve Stabia,Carrarese,2,1,0,g_1_YRZz9xr3,2.01,3.11,4.21,0.74,0.71
+football,Serie B 2024 2025,Round 23,25/01/,Spezia,Sassuolo,2,1,0,g_1_rPsYpQeD,2.59,3.2,2.79,2.56,0.72
+football,Serie B 2024 2025,Round 22,20/01/,Carrarese,Spezia,0,4,2,g_1_p88noEYb,3.34,3.04,2.33,0.54,1.69
+football,Serie B 2024 2025,Round 22,19/01/,Catanzaro,Pisa,0,0,1,g_1_j5Bfqh3B,3.45,3.04,2.28,1.47,0.57
+football,Serie B 2024 2025,Round 22,19/01/,Palermo,Juve Stabia,1,0,0,g_1_YiJRs0q4,1.98,3.14,4.26,1.26,1.31
+football,Serie B 2024 2025,Round 22,19/01/,Sassuolo,Sudtirol,5,3,0,g_1_W2T6Ye6j,1.52,4.05,6.58,1.51,1.08
+football,Serie B 2024 2025,Round 22,19/01/,Bari,Brescia,2,2,1,g_1_ltFwmz4n,2.05,3.15,4.07,2.88,0.86
+football,Serie B 2024 2025,Round 22,18/01/,Cittadella,Mantova,1,2,2,g_1_CKa3sWXN,2.02,3.23,3.94,0.89,1.77
+football,Serie B 2024 2025,Round 22,18/01/,Cremonese,Cosenza,3,1,0,g_1_r3jZyAeo,1.61,3.62,6.28,2.56,0.55
+football,Serie B 2024 2025,Round 22,18/01/,Modena,Frosinone,1,1,1,g_1_0vLJqMEi,2.02,3.13,4.13,0.88,0.58
+football,Serie B 2024 2025,Round 22,18/01/,Salernitana,Reggiana,2,1,0,g_1_v5lSuvEG,2.34,2.9,3.5,2.06,0.97
+football,Serie B 2024 2025,Round 22,18/01/,Sampdoria,Cesena,1,2,2,g_1_nVizvIrT,2.39,2.98,3.29,0.77,1.55
+football,Serie B 2024 2025,Round 21,14/01/,Pisa,Carrarese,2,1,0,g_1_M5edzcKt,1.81,3.3,4.93,2.67,1.04
+football,Serie B 2024 2025,Round 21,13/01/,Brescia,Sampdoria,1,1,1,g_1_233kv6LE,2.93,3.13,2.52,1.61,0.37
+football,Serie B 2024 2025,Round 21,13/01/,Cesena,Cittadella,0,0,1,g_1_OIibxpjR,1.99,3.04,4.39,1.02,0.44
+football,Serie B 2024 2025,Round 21,12/01/,Cosenza,Mantova,2,2,1,g_1_f1rUWNDl,1.88,3.45,4.26,1.15,0.64
+football,Serie B 2024 2025,Round 21,12/01/,Frosinone,Cremonese,0,3,2,g_1_zBjxV1r1,3.29,2.93,2.43,1.3,1.55
+football,Serie B 2024 2025,Round 21,12/01/,Palermo,Modena,2,0,0,g_1_8OlpTuDD,2.18,3.07,3.66,2.22,0.91
+football,Serie B 2024 2025,Round 21,12/01/,Reggiana,Bari,0,0,1,g_1_UVb4Yzkg,2.27,2.93,3.63,0.37,0.79
+football,Serie B 2024 2025,Round 21,12/01/,Spezia,Juve Stabia,1,1,1,g_1_x2oLUhlI,1.9,3.21,4.51,1.82,0.32
+football,Serie B 2024 2025,Round 21,12/01/,Sudtirol,Catanzaro,1,1,1,g_1_YTvUSWIU,2.31,3.01,3.42,1.46,2.35
+football,Serie B 2024 2025,Round 21,12/01/,Salernitana,Sassuolo,1,2,2,g_1_jomDWEJ5,4.16,3.51,1.88,1.51,1.39
+football,Serie B 2024 2025,Round 20,30/12/,Sampdoria,Pisa,0,1,2,g_1_rscfKpUr,2.66,3.1,2.79,0.0,0.0
+football,Serie B 2024 2025,Round 20,30/12/,Catanzaro,Salernitana,1,0,0,g_1_xthtDTMF,2.21,3.21,3.41,0.0,0.0
+football,Serie B 2024 2025,Round 20,30/12/,Cittadella,Palermo,2,1,0,g_1_AgjlB7iS,2.98,2.86,2.67,0.0,0.0
+football,Serie B 2024 2025,Round 20,30/12/,Juve Stabia,Frosinone,1,1,1,g_1_zyzT3Pq2,2.22,3.02,3.62,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Bari,Spezia,2,0,0,g_1_l6dnin0d,3.01,2.9,2.63,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Carrarese,Cesena,2,0,0,g_1_tEbXEkh3,2.34,2.86,3.58,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Mantova,Reggiana,0,2,2,g_1_GWCFRSy9,3.14,3.04,2.43,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Modena,Sudtirol,0,0,1,g_1_OdGNP66L,2.04,3.06,4.17,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Sassuolo,Cosenza,2,1,0,g_1_Gfe2IObe,1.5,4.45,5.96,0.0,0.0
+football,Serie B 2024 2025,Round 20,29/12/,Cremonese,Brescia,1,1,1,g_1_UwXK5oFk,1.66,3.63,5.49,0.0,0.0
+football,Serie B 2024 2025,Round 19,27/12/,Sampdoria,Carrarese,1,1,1,g_1_0tOb0jwA,2.2,2.99,3.72,0.0,0.0
+football,Serie B 2024 2025,Round 19,27/12/,Palermo,Bari,1,0,0,g_1_8lGWdHWH,1.8,3.45,4.72,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Brescia,Modena,3,3,1,g_1_4fY4rIHO,3.11,2.92,2.54,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Cesena,Cremonese,0,1,2,g_1_K68E2L2t,3.01,3.02,2.54,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Cosenza,Catanzaro,1,1,1,g_1_v9OF0aXh,2.54,3.02,3.01,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Frosinone,Salernitana,2,0,0,g_1_nZRNbw25,2.29,3.08,3.38,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Reggiana,Juve Stabia,2,1,0,g_1_SSPj2C8c,2.78,2.63,3.14,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Spezia,Mantova,1,1,1,g_1_d8H7bU7M,1.52,4.15,6.32,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Sudtirol,Cittadella,1,2,2,g_1_Sj8wg8Vq,2.26,3.02,3.52,0.0,0.0
+football,Serie B 2024 2025,Round 19,26/12/,Pisa,Sassuolo,3,1,0,g_1_Emr4v9Gj,3.14,3.22,2.34,0.0,0.0
+football,Serie B 2024 2025,Round 18,23/12/,Cremonese,Sampdoria,1,1,1,g_1_z11FX036,1.85,3.45,4.4,0.0,0.0
+football,Serie B 2024 2025,Round 18,22/12/,Juve Stabia,Cesena,1,0,0,g_1_8EaNVvYI,2.49,2.93,3.18,0.0,0.0
+football,Serie B 2024 2025,Round 18,22/12/,Catanzaro,Spezia,0,1,2,g_1_hI9byq4s,3.74,3.03,2.17,0.0,0.0
+football,Serie B 2024 2025,Round 18,22/12/,Cittadella,Reggiana,3,1,0,g_1_vZ76ZMYg,2.86,2.98,2.69,0.0,0.0
+football,Serie B 2024 2025,Round 18,22/12/,Modena,Pisa,1,0,0,g_1_vmmulMmm,2.56,2.89,3.11,0.0,0.0
+football,Serie B 2024 2025,Round 18,21/12/,Bari,Sudtirol,0,1,2,g_1_tvttJ1lD,2.19,3.09,3.59,0.0,0.0
+football,Serie B 2024 2025,Round 18,21/12/,Carrarese,Cosenza,1,0,0,g_1_8pYRt5tK,2.3,2.88,3.61,0.0,0.0
+football,Serie B 2024 2025,Round 18,21/12/,Mantova,Frosinone,3,1,0,g_1_OMsAgrQP,2.46,3.02,3.12,0.0,0.0
+football,Serie B 2024 2025,Round 18,21/12/,Sassuolo,Palermo,2,1,0,g_1_8SvdpvmC,1.73,3.76,4.67,0.0,0.0
+football,Serie B 2024 2025,Round 18,21/12/,Salernitana,Brescia,0,0,1,g_1_02yln0Ia,2.21,3.21,3.41,0.0,0.0
+football,Serie B 2024 2025,Round 17,16/12/,Salernitana,Juve Stabia,1,2,2,g_1_fs8hS5RQ,2.26,3.11,3.41,0.0,0.0
+football,Serie B 2024 2025,Round 17,15/12/,Brescia,Carrarese,0,0,1,g_1_dfbPMOXj,2.06,3.22,3.82,0.0,0.0
+football,Serie B 2024 2025,Round 17,15/12/,Cittadella,Cremonese,0,0,1,g_1_KSqKr6fA,4.51,3.21,1.9,0.0,0.0
+football,Serie B 2024 2025,Round 17,15/12/,Palermo,Catanzaro,1,2,2,g_1_dSyhOy9e,1.71,3.63,5.04,0.0,0.0
+football,Serie B 2024 2025,Round 17,15/12/,Sampdoria,Spezia,0,0,1,g_1_CblPMqkl,3.24,2.87,2.5,0.0,0.0
+football,Serie B 2024 2025,Round 17,14/12/,Cesena,Cosenza,2,1,0,g_1_O0jBpSPc,1.98,3.14,4.26,0.0,0.0
+football,Serie B 2024 2025,Round 17,14/12/,Frosinone,Sassuolo,1,2,2,g_1_jF6iQcvq,4.32,3.59,1.83,0.0,0.0
+football,Serie B 2024 2025,Round 17,14/12/,Reggiana,Modena,0,1,2,g_1_nH4pURdE,2.89,2.81,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 17,14/12/,Sudtirol,Mantova,2,2,1,g_1_pCnXKNJ0,2.1,3.2,3.7,0.0,0.0
+football,Serie B 2024 2025,Round 17,14/12/,Pisa,Bari,2,0,0,g_1_4hu0MFw8,1.9,3.1,4.75,0.0,0.0
+football,Serie B 2024 2025,Round 16,09/12/,Sassuolo,Sampdoria,5,1,0,g_1_6PJpU6uH,1.67,3.84,5.05,0.0,0.0
+football,Serie B 2024 2025,Round 16,08/12/,Catanzaro,Brescia,2,1,0,g_1_rN6fJkRb,2.36,3.31,3.01,0.0,0.0
+football,Serie B 2024 2025,Round 16,08/12/,Cremonese,Reggiana,0,2,2,g_1_C2bBF7QN,1.71,3.71,4.93,0.0,0.0
+football,Serie B 2024 2025,Round 16,08/12/,Spezia,Cittadella,5,0,0,g_1_CMMhSpAT,1.59,3.71,6.24,0.0,0.0
+football,Serie B 2024 2025,Round 16,08/12/,Cosenza,Frosinone,0,1,2,g_1_jmA2HTeB,2.16,2.89,4.02,0.0,0.0
+football,Serie B 2024 2025,Round 16,07/12/,Bari,Cesena,1,0,0,g_1_Wrwx18BU,2.5,3.21,2.88,0.0,0.0
+football,Serie B 2024 2025,Round 16,07/12/,Carrarese,Palermo,1,0,0,g_1_neDoLBdn,3.39,3.25,2.2,0.0,0.0
+football,Serie B 2024 2025,Round 16,07/12/,Mantova,Pisa,2,3,2,g_1_xpSTXlth,3.63,3.33,2.07,0.0,0.0
+football,Serie B 2024 2025,Round 16,07/12/,Modena,Salernitana,1,1,1,g_1_AcQyWSA4,1.92,3.26,4.35,0.0,0.0
+football,Serie B 2024 2025,Round 16,07/12/,Juve Stabia,Sudtirol,2,1,0,g_1_MypsAolo,2.02,2.91,4.55,0.0,0.0
+football,Serie B 2024 2025,Round 15,02/12/,Salernitana,Carrarese,4,1,0,g_1_MgwD6Csg,2.21,3.11,3.51,0.0,0.0
+football,Serie B 2024 2025,Round 15,01/12/,Frosinone,Cesena,3,2,0,g_1_zNnwfZcm,3.38,3.08,2.29,0.0,0.0
+football,Serie B 2024 2025,Round 15,01/12/,Palermo,Spezia,2,0,0,g_1_vFqfjicC,2.3,3.1,3.31,0.0,0.0
+football,Serie B 2024 2025,Round 15,01/12/,Pisa,Cosenza,2,2,1,g_1_CSs2lVRO,1.98,3.34,3.95,0.0,0.0
+football,Serie B 2024 2025,Round 15,01/12/,Mantova,Modena,0,0,1,g_1_rmjohDSa,3.12,3.02,2.46,0.0,0.0
+football,Serie B 2024 2025,Round 15,30/11/,Brescia,Bari,1,1,1,g_1_jerJlvM7,2.81,3.01,2.71,0.0,0.0
+football,Serie B 2024 2025,Round 15,30/11/,Cittadella,Juve Stabia,2,2,1,g_1_GYZ4CsEE,2.84,3.04,2.66,0.0,0.0
+football,Serie B 2024 2025,Round 15,30/11/,Sampdoria,Catanzaro,3,3,1,g_1_r9RL4jC5,2.1,3.3,3.6,0.0,0.0
+football,Serie B 2024 2025,Round 15,30/11/,Sudtirol,Cremonese,0,4,2,g_1_jZUT2UtI,3.97,2.95,2.14,0.0,0.0
+football,Serie B 2024 2025,Round 15,30/11/,Reggiana,Sassuolo,0,2,2,g_1_ETZ48YCt,5.53,3.81,1.63,0.0,0.0
+football,Serie B 2024 2025,Round 14,25/11/,Palermo,Sampdoria,1,1,1,g_1_2V9VcraL,2.07,3.35,3.63,0.0,0.0
+football,Serie B 2024 2025,Round 14,24/11/,Bari,Cittadella,3,2,0,g_1_SvjfPNhd,1.81,3.52,4.52,0.0,0.0
+football,Serie B 2024 2025,Round 14,24/11/,Cremonese,Frosinone,1,0,0,g_1_l8Jyx1x2,1.66,3.52,5.79,0.0,0.0
+football,Serie B 2024 2025,Round 14,24/11/,Spezia,Sudtirol,3,0,0,g_1_fTlAj0ie,1.9,3.01,5.01,0.0,0.0
+football,Serie B 2024 2025,Round 14,24/11/,Cesena,Reggiana,1,1,1,g_1_McZdqqpS,1.71,3.42,5.53,0.0,0.0
+football,Serie B 2024 2025,Round 14,23/11/,Carrarese,Pisa,1,0,0,g_1_fortmRp3,3.45,2.9,2.36,0.0,0.0
+football,Serie B 2024 2025,Round 14,23/11/,Catanzaro,Mantova,2,2,1,g_1_lpyko5FF,1.93,3.53,3.93,0.0,0.0
+football,Serie B 2024 2025,Round 14,23/11/,Juve Stabia,Brescia,0,0,1,g_1_U3dOa4U8,2.02,3.23,3.94,0.0,0.0
+football,Serie B 2024 2025,Round 14,23/11/,Sassuolo,Salernitana,4,0,0,g_1_MFj2hMMr,1.68,3.65,5.33,0.0,0.0
+football,Serie B 2024 2025,Round 14,23/11/,Cosenza,Modena,1,1,1,g_1_trGTwN7k,2.73,2.78,3.03,0.0,0.0
+football,Serie B 2024 2025,Round 13,11/11/,Salernitana,Bari,0,2,2,g_1_zsBFW50M,2.58,3.23,2.78,0.0,0.0
+football,Serie B 2024 2025,Round 13,10/11/,Cittadella,Cesena,0,2,2,g_1_noOONAHi,3.0,3.0,2.55,0.0,0.0
+football,Serie B 2024 2025,Round 13,10/11/,Juve Stabia,Spezia,0,3,2,g_1_zLZvKSGG,2.81,2.89,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 13,10/11/,Reggiana,Catanzaro,2,2,1,g_1_GveEYRV9,2.11,3.11,3.81,0.0,0.0
+football,Serie B 2024 2025,Round 13,10/11/,Mantova,Cremonese,1,0,0,g_1_dzOmI6oT,4.12,3.42,1.91,0.0,0.0
+football,Serie B 2024 2025,Round 13,09/11/,Brescia,Cosenza,2,3,2,g_1_fiyw07Pp,2.4,2.93,3.34,0.0,0.0
+football,Serie B 2024 2025,Round 13,09/11/,Modena,Carrarese,2,0,0,g_1_SIEJCp9j,1.96,3.22,4.22,0.0,0.0
+football,Serie B 2024 2025,Round 13,09/11/,Pisa,Sampdoria,3,0,0,g_1_rRd6zl1c,2.09,3.04,3.99,0.0,0.0
+football,Serie B 2024 2025,Round 13,09/11/,Sudtirol,Sassuolo,0,1,2,g_1_6P1oRqOq,4.07,3.13,2.03,0.0,0.0
+football,Serie B 2024 2025,Round 13,09/11/,Frosinone,Palermo,1,1,1,g_1_rDHXLln4,3.01,3.22,2.41,0.0,0.0
+football,Serie B 2024 2025,Round 12,04/11/,Sampdoria,Brescia,0,1,2,g_1_hKWmMctm,1.85,3.63,4.13,0.0,0.0
+football,Serie B 2024 2025,Round 12,04/11/,Sassuolo,Mantova,1,0,0,g_1_EZKdKyBa,1.51,4.23,6.29,0.0,0.0
+football,Serie B 2024 2025,Round 12,03/11/,Catanzaro,Frosinone,0,0,1,g_1_UNG8PBVs,2.15,3.25,3.5,0.0,0.0
+football,Serie B 2024 2025,Round 12,03/11/,Cesena,Sudtirol,1,0,0,g_1_xlKGNk0f,2.01,3.11,4.21,0.0,0.0
+football,Serie B 2024 2025,Round 12,03/11/,Cosenza,Salernitana,1,1,1,g_1_WnDPLTU6,2.38,3.26,3.01,0.0,0.0
+football,Serie B 2024 2025,Round 12,03/11/,Cremonese,Pisa,1,3,2,g_1_40BXJ7aJ,2.1,3.2,3.7,0.0,0.0
+football,Serie B 2024 2025,Round 12,03/11/,Palermo,Cittadella,0,1,2,g_1_MytIRJIP,1.75,3.6,4.76,0.0,0.0
+football,Serie B 2024 2025,Round 12,02/11/,Bari,Reggiana,2,2,1,g_1_Iqmj7UFD,1.84,3.41,4.52,0.0,0.0
+football,Serie B 2024 2025,Round 12,02/11/,Carrarese,Juve Stabia,0,0,1,g_1_pjuxVX7K,2.58,2.94,3.03,0.0,0.0
+football,Serie B 2024 2025,Round 12,02/11/,Spezia,Modena,1,0,0,g_1_0jJ4IFuC,2.38,2.89,3.42,0.0,0.0
+football,Serie B 2024 2025,Round 11,31/10/,Cittadella,Sampdoria,0,0,1,g_1_YHET3e9L,3.2,3.09,2.38,0.0,0.0
+football,Serie B 2024 2025,Round 11,31/10/,Mantova,Palermo,0,0,1,g_1_QFg8dD1e,4.2,3.4,1.9,0.0,0.0
+football,Serie B 2024 2025,Round 11,31/10/,Pisa,Catanzaro,0,0,1,g_1_C8Z2IfOE,2.12,3.13,3.74,0.0,0.0
+football,Serie B 2024 2025,Round 11,31/10/,Sudtirol,Frosinone,1,1,1,g_1_CWHk9jo1,2.53,2.83,3.24,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Bari,Carrarese,0,0,1,g_1_WhYYsEn2,1.87,3.29,4.55,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Brescia,Spezia,1,1,1,g_1_xjLK5Hv9,3.27,3.12,2.32,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Juve Stabia,Sassuolo,2,2,1,g_1_Um0abZWr,3.33,3.01,2.35,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Modena,Cremonese,2,2,1,g_1_WCdGfiW7,2.88,2.88,2.75,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Reggiana,Cosenza,0,1,2,g_1_KYxBGYhR,2.34,2.98,3.38,0.0,0.0
+football,Serie B 2024 2025,Round 11,30/10/,Salernitana,Cesena,1,1,1,g_1_vJJsBCGl,2.36,3.21,3.11,0.0,0.0
+football,Serie B 2024 2025,Round 10,27/10/,Catanzaro,Sudtirol,3,0,0,g_1_GrV1gmkn,2.02,2.91,4.55,0.0,0.0
+football,Serie B 2024 2025,Round 10,27/10/,Frosinone,Pisa,0,0,1,g_1_z9TkrNto,3.02,3.12,2.46,0.0,0.0
+football,Serie B 2024 2025,Round 10,27/10/,Sampdoria,Mantova,1,0,0,g_1_8COq4434,1.7,3.59,5.24,0.0,0.0
+football,Serie B 2024 2025,Round 10,27/10/,Carrarese,Cittadella,3,0,0,g_1_0WfhZq4U,2.37,2.92,3.41,0.0,0.0
+football,Serie B 2024 2025,Round 10,27/10/,Sassuolo,Modena,2,0,0,g_1_4vIh2rYG,2.01,3.52,3.62,0.0,0.0
+football,Serie B 2024 2025,Round 10,26/10/,Cesena,Brescia,2,0,0,g_1_zoo3iRJb,1.76,3.72,4.52,0.0,0.0
+football,Serie B 2024 2025,Round 10,26/10/,Cosenza,Juve Stabia,1,1,1,g_1_rBlBk5lB,2.24,3.18,3.38,0.0,0.0
+football,Serie B 2024 2025,Round 10,26/10/,Cremonese,Salernitana,2,1,0,g_1_4QxKmqJN,1.72,3.74,4.8,0.0,0.0
+football,Serie B 2024 2025,Round 10,26/10/,Palermo,Reggiana,2,0,0,g_1_zaQy6QYi,1.86,3.52,4.22,0.0,0.0
+football,Serie B 2024 2025,Round 10,26/10/,Spezia,Bari,0,0,1,g_1_AwpQqzIk,1.93,3.14,4.53,0.0,0.0
+football,Serie B 2024 2025,Round 9,21/10/,Cesena,Sampdoria,3,5,2,g_1_MLqgQlLa,2.3,3.21,3.21,0.0,0.0
+football,Serie B 2024 2025,Round 9,20/10/,Carrarese,Mantova,1,1,1,g_1_lfWoSAjm,2.5,3.1,2.99,0.0,0.0
+football,Serie B 2024 2025,Round 9,20/10/,Juve Stabia,Cremonese,1,2,2,g_1_j1yAM6KO,3.24,3.14,2.33,0.0,0.0
+football,Serie B 2024 2025,Round 9,20/10/,Reggiana,Frosinone,2,0,0,g_1_zP9Svlzg,2.61,3.02,2.91,0.0,0.0
+football,Serie B 2024 2025,Round 9,20/10/,Brescia,Sassuolo,2,5,2,g_1_4MfFXWSP,3.67,3.48,2.01,0.0,0.0
+football,Serie B 2024 2025,Round 9,19/10/,Cittadella,Cosenza,0,0,1,g_1_Imw2OSkC,2.63,3.11,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 9,19/10/,Modena,Palermo,2,2,1,g_1_UR6KtA5t,2.51,3.09,2.98,0.0,0.0
+football,Serie B 2024 2025,Round 9,19/10/,Salernitana,Spezia,0,2,2,g_1_dvbywS45,2.55,3.0,3.0,0.0,0.0
+football,Serie B 2024 2025,Round 9,19/10/,Sudtirol,Pisa,1,2,2,g_1_441qy6ZH,2.71,2.61,3.26,0.0,0.0
+football,Serie B 2024 2025,Round 9,19/10/,Bari,Catanzaro,1,1,1,g_1_xG2T9TzJ,1.86,3.28,4.63,0.0,0.0
+football,Serie B 2024 2025,Round 8,06/10/,Catanzaro,Modena,2,2,1,g_1_tAM9caod,2.89,2.81,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 8,06/10/,Cosenza,Sudtirol,0,2,2,g_1_8GEeL2w3,2.36,3.01,3.31,0.0,0.0
+football,Serie B 2024 2025,Round 8,06/10/,Cremonese,Bari,1,1,1,g_1_4r84Jt8F,2.01,3.42,3.72,0.0,0.0
+football,Serie B 2024 2025,Round 8,06/10/,Mantova,Brescia,1,1,1,g_1_KG9yCb0k,2.89,3.11,2.56,0.0,0.0
+football,Serie B 2024 2025,Round 8,06/10/,Palermo,Salernitana,0,1,2,g_1_StDqAxV1,1.97,3.44,3.84,0.0,0.0
+football,Serie B 2024 2025,Round 8,05/10/,Frosinone,Carrarese,0,1,2,g_1_xd6CHKxS,1.93,3.43,4.04,0.0,0.0
+football,Serie B 2024 2025,Round 8,05/10/,Pisa,Cesena,3,1,0,g_1_8xjWXuN8,2.44,3.09,3.09,0.0,0.0
+football,Serie B 2024 2025,Round 8,05/10/,Sassuolo,Cittadella,6,1,0,g_1_8zBCDByf,1.67,3.84,5.05,0.0,0.0
+football,Serie B 2024 2025,Round 8,05/10/,Spezia,Reggiana,1,0,0,g_1_tl9KBk66,2.06,3.41,3.6,0.0,0.0
+football,Serie B 2024 2025,Round 8,05/10/,Sampdoria,Juve Stabia,1,2,2,g_1_EyI3FX6s,1.76,3.32,5.28,0.0,0.0
+football,Serie B 2024 2025,Round 7,01/10/,Brescia,Cremonese,3,2,0,g_1_rXZYBwqh,3.37,3.0,2.34,0.0,0.0
+football,Serie B 2024 2025,Round 7,01/10/,Sudtirol,Palermo,1,3,2,g_1_KfY0aLGq,2.63,3.1,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 7,29/09/,Cesena,Mantova,4,2,0,g_1_nPWk8erH,1.65,3.8,5.26,0.0,0.0
+football,Serie B 2024 2025,Round 7,29/09/,Juve Stabia,Pisa,2,0,0,g_1_ID6U0Dzi,2.9,3.2,2.5,0.0,0.0
+football,Serie B 2024 2025,Round 7,29/09/,Modena,Sampdoria,1,3,2,g_1_zkyF8Pgc,2.58,3.03,2.94,0.0,0.0
+football,Serie B 2024 2025,Round 7,29/09/,Salernitana,Catanzaro,0,0,1,g_1_82ZM63O9,1.97,3.44,3.84,0.0,0.0
+football,Serie B 2024 2025,Round 7,28/09/,Bari,Cosenza,1,1,1,g_1_jwmmlzio,2.02,3.23,3.94,0.0,0.0
+football,Serie B 2024 2025,Round 7,28/09/,Carrarese,Reggiana,0,0,1,g_1_vaTsAHD4,2.8,3.16,2.6,0.0,0.0
+football,Serie B 2024 2025,Round 7,28/09/,Sassuolo,Spezia,0,0,1,g_1_4USV4sgM,2.11,3.26,3.61,0.0,0.0
+football,Serie B 2024 2025,Round 7,28/09/,Cittadella,Frosinone,1,2,2,g_1_8vLb6ZCT,2.47,3.34,2.83,0.0,0.0
+football,Serie B 2024 2025,Round 6,22/09/,Frosinone,Bari,0,3,2,g_1_drYOcmOs,2.55,3.3,2.75,0.0,0.0
+football,Serie B 2024 2025,Round 6,22/09/,Mantova,Cittadella,1,0,0,g_1_48yXeRhf,2.53,3.14,2.91,0.0,0.0
+football,Serie B 2024 2025,Round 6,22/09/,Spezia,Carrarese,4,2,0,g_1_YL6GgdTN,1.83,3.44,4.54,0.0,0.0
+football,Serie B 2024 2025,Round 6,22/09/,Modena,Juve Stabia,3,0,0,g_1_0zVuf5N6,1.9,3.14,4.84,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Cosenza,Sassuolo,0,1,2,g_1_CAdh390K,2.88,3.13,2.56,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Palermo,Cesena,0,0,1,g_1_YmTmhqhJ,2.55,3.25,2.8,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Pisa,Brescia,2,1,0,g_1_dGBia0an,1.95,3.4,3.99,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Reggiana,Salernitana,0,0,1,g_1_4tFacvUb,2.3,3.21,3.21,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Sampdoria,Sudtirol,1,0,0,g_1_Qe38eIbB,1.96,3.27,4.12,0.0,0.0
+football,Serie B 2024 2025,Round 6,21/09/,Catanzaro,Cremonese,1,2,2,g_1_nX46u68D,2.71,3.22,2.64,0.0,0.0
+football,Serie B 2024 2025,Round 5,16/09/,Salernitana,Pisa,2,3,2,g_1_j5BcsSw1,3.13,3.13,2.39,0.0,0.0
+football,Serie B 2024 2025,Round 5,15/09/,Carrarese,Sassuolo,0,2,2,g_1_WWCyxX1L,3.53,3.43,2.07,0.0,0.0
+football,Serie B 2024 2025,Round 5,15/09/,Cosenza,Sampdoria,2,1,0,g_1_WfeOSSO7,2.3,3.1,3.31,0.0,0.0
+football,Serie B 2024 2025,Round 5,15/09/,Reggiana,Sudtirol,1,3,2,g_1_IiDkql9l,2.47,2.92,3.22,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Bari,Mantova,2,0,0,g_1_OGCsGku2,1.89,3.32,4.38,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Brescia,Frosinone,4,0,0,g_1_jN4TwgX8,2.55,3.23,2.81,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Cittadella,Catanzaro,0,0,1,g_1_OUiGUlfe,2.38,3.42,2.89,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Cremonese,Spezia,1,1,1,g_1_CjYAjWGE,2.07,3.43,3.53,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Juve Stabia,Palermo,1,3,2,g_1_b7WIlAoR,2.99,3.11,2.49,0.0,0.0
+football,Serie B 2024 2025,Round 5,14/09/,Cesena,Modena,2,2,1,g_1_S2b7WAPr,2.37,2.92,3.42,0.0,0.0
+football,Serie B 2024 2025,Round 4,02/09/,Catanzaro,Carrarese,3,1,0,g_1_v5l07LdU,2.11,3.12,3.78,0.0,0.0
+football,Serie B 2024 2025,Round 4,02/09/,Frosinone,Juve Stabia,0,0,1,g_1_fHO9ROsn,1.94,3.19,4.32,0.0,0.0
+football,Serie B 2024 2025,Round 4,02/09/,Mantova,Salernitana,1,0,0,g_1_jqIIP2Cb,2.34,3.45,2.94,0.0,0.0
+football,Serie B 2024 2025,Round 4,02/09/,Palermo,Cosenza,1,1,1,g_1_GUXb5YQq,1.94,3.55,3.85,0.0,0.0
+football,Serie B 2024 2025,Round 4,02/09/,Spezia,Cesena,2,1,0,g_1_WIX2NXnS,2.41,3.22,3.01,0.0,0.0
+football,Serie B 2024 2025,Round 4,01/09/,Modena,Cittadella,0,1,2,g_1_dtLQNtsB,1.94,3.25,4.26,0.0,0.0
+football,Serie B 2024 2025,Round 4,01/09/,Pisa,Reggiana,2,1,0,g_1_Ofy73Ced,1.81,3.62,4.36,0.0,0.0
+football,Serie B 2024 2025,Round 4,01/09/,Sassuolo,Cremonese,1,4,2,g_1_CGH1PgIF,2.63,3.26,2.7,0.0,0.0
+football,Serie B 2024 2025,Round 4,01/09/,Sudtirol,Brescia,1,2,2,g_1_21OYHBAk,2.25,2.9,3.74,0.0,0.0
+football,Serie B 2024 2025,Round 4,01/09/,Sampdoria,Bari,0,0,1,g_1_v3JgRFm3,2.1,3.2,3.7,0.0,0.0
+football,Serie B 2024 2025,Round 3,29/08/,Cesena,Catanzaro,2,0,0,g_1_zVpmZBZQ,1.73,3.59,4.99,0.0,0.0
+football,Serie B 2024 2025,Round 3,29/08/,Cosenza,Spezia,0,0,1,g_1_SSPRRTR0,2.52,3.27,2.82,0.0,0.0
+football,Serie B 2024 2025,Round 3,29/08/,Juve Stabia,Mantova,1,0,0,g_1_p4dhrkCs,2.61,3.21,2.76,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Bari,Sassuolo,1,1,1,g_1_Y54hDUC7,2.74,3.32,2.55,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Carrarese,Sudtirol,2,0,0,g_1_v3ivyY4E,3.29,2.98,2.39,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Cittadella,Pisa,0,3,2,g_1_W0WITkcl,3.97,3.18,2.04,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Cremonese,Palermo,0,1,2,g_1_YPSZP7dD,1.91,3.6,3.9,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Frosinone,Modena,1,1,1,g_1_EL5MmBlK,2.5,3.2,2.9,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Reggiana,Brescia,2,0,0,g_1_tWk1tTtf,2.81,3.01,2.71,0.0,0.0
+football,Serie B 2024 2025,Round 3,28/08/,Salernitana,Sampdoria,3,2,0,g_1_Eql9v7B6,2.46,3.26,2.91,0.0,0.0
+football,Serie B 2024 2025,Round 2,26/08/,Catanzaro,Juve Stabia,0,0,1,g_1_hCxNBHy3,2.15,3.25,3.5,0.0,0.0
+football,Serie B 2024 2025,Round 2,26/08/,Mantova,Cosenza,3,2,0,g_1_KvdW7ZzS,2.3,3.31,3.1,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Brescia,Cittadella,0,1,2,g_1_0IkylEqd,2.1,3.25,3.63,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Cremonese,Carrarese,1,0,0,g_1_CEhO9e6F,1.66,3.53,5.75,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Pisa,Palermo,2,0,0,g_1_CxyB0iT1,2.1,3.19,3.72,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Sampdoria,Reggiana,0,1,2,g_1_CSXdOfL8,1.66,3.63,5.49,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Sassuolo,Cesena,2,1,0,g_1_ptW4MYkL,2.09,3.45,3.47,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Spezia,Frosinone,2,1,0,g_1_4QCyHCDr,2.11,3.31,3.54,0.0,0.0
+football,Serie B 2024 2025,Round 2,25/08/,Sudtirol,Salernitana,3,2,0,g_1_CjGqFjre,2.28,3.14,3.34,0.0,0.0
+football,Serie B 2024 2025,Round 2,24/08/,Modena,Bari,2,1,0,g_1_4CX22Dbk,2.19,3.09,3.59,0.0,0.0
+football,Serie B 2024 2025,Round 1,19/08/,Catanzaro,Sassuolo,1,1,1,g_1_tYhtcc5C,3.38,3.28,2.18,0.0,0.0
+football,Serie B 2024 2025,Round 1,19/08/,Cesena,Carrarese,2,1,0,g_1_x0nkeyzP,1.68,3.53,5.55,0.0,0.0
+football,Serie B 2024 2025,Round 1,19/08/,Cosenza,Cremonese,1,0,0,g_1_SORbFvLt,4.04,3.43,1.93,0.0,0.0
+football,Serie B 2024 2025,Round 1,19/08/,Frosinone,Sampdoria,2,2,1,g_1_lvG7DIkg,2.81,3.21,2.56,0.0,0.0
+football,Serie B 2024 2025,Round 1,19/08/,Reggiana,Mantova,2,2,1,g_1_IXMN9zkI,2.89,3.27,2.46,0.0,0.0
+football,Serie B 2024 2025,Round 1,18/08/,Bari,Juve Stabia,1,3,2,g_1_EL1P0u6m,2.02,3.23,3.94,0.0,0.0
+football,Serie B 2024 2025,Round 1,18/08/,Pisa,Spezia,2,2,1,g_1_M5TEBdK5,2.32,3.28,3.17,0.0,0.0
+football,Serie B 2024 2025,Round 1,18/08/,Salernitana,Cittadella,2,1,0,g_1_joLV7EJU,2.3,3.31,3.1,0.0,0.0
+football,Serie B 2024 2025,Round 1,18/08/,Sudtirol,Modena,2,1,0,g_1_WvwvCQVo,2.61,2.69,3.32,0.0,0.0
+football,Serie B 2024 2025,Round 1,17/08/,Brescia,Palermo,1,0,0,g_1_8KfYbJz0,3.01,3.22,2.41,0.0,0.0

@@ -1,0 +1,558 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Championship 2023 2024,Regular Season,26/05/,Leeds,SouthamptonWinner,0,1,2,g_1_YJBMWNJa,2.26,3.4,3.4,0.66,0.56
+football,Championship 2023 2024,Regular Season,18/05/,SouthamptonAdvancing to next round,West Brom,3,1,0,g_1_INcgaD7l,0.0,0.0,0.0,1.51,0.58
+football,Championship 2023 2024,Regular Season,17/05/,LeedsAdvancing to next round,Norwich,4,0,0,g_1_pzkAeV6D,1.6,4.3,5.81,2.15,0.44
+football,Championship 2023 2024,Regular Season,12/05/,West Brom,Southampton,0,0,1,g_1_bwHM4ZqR,3.06,3.35,2.46,0.8,1.07
+football,Championship 2023 2024,Regular Season,12/05/,Norwich,Leeds,0,0,1,g_1_OK01cix1,3.31,3.5,2.26,0.44,0.29
+football,Championship 2023 2024,Round 46,04/05/,Birmingham,Norwich,1,0,0,g_1_4WLAk4Z3,2.58,3.84,2.61,1.31,0.1
+football,Championship 2023 2024,Round 46,04/05/,Coventry,QPR,1,2,2,g_1_IZPElOlA,1.94,3.92,3.83,1.6,0.53
+football,Championship 2023 2024,Round 46,04/05/,Ipswich,Huddersfield,2,0,0,g_1_0bFJmr4G,1.26,6.54,11.7,1.43,0.07
+football,Championship 2023 2024,Round 46,04/05/,Leeds,Southampton,1,2,2,g_1_vkENn2JM,1.7,4.4,4.68,0.83,1.02
+football,Championship 2023 2024,Round 46,04/05/,Leicester,Blackburn,0,2,2,g_1_8OIRoMYS,1.56,4.31,6.34,1.06,1.93
+football,Championship 2023 2024,Round 46,04/05/,Middlesbrough,Watford,3,1,0,g_1_AX4gstsp,1.78,4.27,4.27,1.76,0.82
+football,Championship 2023 2024,Round 46,04/05/,Plymouth,Hull,1,0,0,g_1_hdfbt0dj,4.22,4.1,1.82,0.46,0.5
+football,Championship 2023 2024,Round 46,04/05/,Rotherham,Cardiff,5,2,0,g_1_6FvA8wct,3.58,3.48,2.16,3.21,1.01
+football,Championship 2023 2024,Round 46,04/05/,Stoke,Bristol City,4,0,0,g_1_jsD1uKBd,2.24,3.45,3.4,1.67,1.16
+football,Championship 2023 2024,Round 46,04/05/,Sunderland,Sheffield Wed,0,2,2,g_1_4p1q43lc,2.3,3.58,3.16,1.56,1.14
+football,Championship 2023 2024,Round 46,04/05/,Swansea,Millwall,0,1,2,g_1_zkqE7cCn,2.05,3.69,3.69,1.63,0.57
+football,Championship 2023 2024,Round 46,04/05/,West Brom,Preston,3,0,0,g_1_ry0m3N33,1.53,4.07,7.64,2.39,0.14
+football,Championship 2023 2024,Round 44,01/05/,Coventry,Ipswich,1,2,2,g_1_dpLdP7Lb,4.16,4.16,1.82,0.9,1.56
+football,Championship 2023 2024,Round 45,30/04/,Preston,Leicester,0,3,2,g_1_zeWeY24T,4.29,4.35,1.76,0.31,3.28
+football,Championship 2023 2024,Round 45,28/04/,Hull,Ipswich,3,3,1,g_1_vTxmzPZG,2.83,3.56,2.52,2.58,1.73
+football,Championship 2023 2024,Round 45,27/04/,Blackburn,Coventry,0,0,1,g_1_hCzywRkb,2.3,3.68,3.08,1.72,0.28
+football,Championship 2023 2024,Round 45,27/04/,Bristol City,Rotherham,2,0,0,g_1_W2Zvxo54,1.39,5.1,8.66,1.89,0.31
+football,Championship 2023 2024,Round 45,27/04/,Cardiff,Middlesbrough,1,4,2,g_1_21EalzCO,4.61,3.89,1.79,1.74,1.54
+football,Championship 2023 2024,Round 45,27/04/,Huddersfield,Birmingham,1,1,1,g_1_0xvqy5KA,2.6,3.46,2.8,1.0,0.92
+football,Championship 2023 2024,Round 45,27/04/,Millwall,Plymouth,1,0,0,g_1_MiSiZrkN,2.05,3.49,3.9,1.01,0.32
+football,Championship 2023 2024,Round 45,27/04/,Norwich,Swansea,2,2,1,g_1_46hrDJlP,1.7,4.27,4.83,2.99,1.56
+football,Championship 2023 2024,Round 45,27/04/,Sheffield Wed,West Brom,3,0,0,g_1_WQHRStSj,2.89,3.3,2.63,1.79,1.31
+football,Championship 2023 2024,Round 45,27/04/,Southampton,Stoke,0,1,2,g_1_WIN2iQ4i,1.74,4.59,4.2,1.73,1.6
+football,Championship 2023 2024,Round 45,27/04/,Watford,Sunderland,1,0,0,g_1_A9M6jpKc,2.43,3.28,3.18,0.55,1.35
+football,Championship 2023 2024,Round 45,27/04/,QPR,Leeds,4,0,0,g_1_hzJNTMCp,4.89,4.46,1.66,0.71,1.04
+football,Championship 2023 2024,Round 38,25/04/,Coventry,Hull,2,3,2,g_1_ChwTrK5K,2.74,3.59,2.58,0.56,1.97
+football,Championship 2023 2024,Round 38,24/04/,Leicester,Southampton,5,0,0,g_1_4jI7yxbf,1.91,4.08,3.8,1.76,0.37
+football,Championship 2023 2024,Round 44,23/04/,Middlesbrough,Leeds,3,4,2,g_1_hCE5NojB,5.12,4.44,1.64,0.87,2.5
+football,Championship 2023 2024,Round 44,21/04/,Blackburn,Sheffield Wed,1,3,2,g_1_IgMhQm6h,2.16,3.58,3.48,0.57,1.3
+football,Championship 2023 2024,Round 44,21/04/,QPR,Preston,1,0,0,g_1_QPCDLPKN,1.94,3.56,4.27,1.72,0.57
+football,Championship 2023 2024,Round 44,20/04/,Cardiff,Southampton,2,1,0,g_1_fyBijdsC,9.9,5.86,1.32,1.9,2.0
+football,Championship 2023 2024,Round 44,20/04/,Huddersfield,Swansea,0,4,2,g_1_lbAekGdI,2.1,3.6,3.6,0.56,2.57
+football,Championship 2023 2024,Round 44,20/04/,Norwich,Bristol City,1,1,1,g_1_nZD9M55H,1.75,4.11,4.63,1.08,1.34
+football,Championship 2023 2024,Round 44,20/04/,Rotherham,Birmingham,0,0,1,g_1_r17IKqzU,4.94,4.07,1.72,0.29,0.19
+football,Championship 2023 2024,Round 44,20/04/,Stoke,Plymouth,3,0,0,g_1_pAgpG3ro,1.74,3.88,5.02,1.44,0.29
+football,Championship 2023 2024,Round 44,20/04/,Sunderland,Millwall,0,1,2,g_1_bDsSvmLo,2.23,3.31,3.56,0.78,0.35
+football,Championship 2023 2024,Round 44,20/04/,Watford,Hull,0,0,1,g_1_AmoWw7zh,2.97,3.48,2.46,1.11,2.39
+football,Championship 2023 2024,Round 44,20/04/,Leicester,West Brom,2,1,0,g_1_v9A1ORz5,1.56,4.1,6.86,2.52,2.59
+football,Championship 2023 2024,Round 36,17/04/,Southampton,Preston,3,0,0,g_1_COF1M5hj,1.32,5.85,9.96,2.42,0.06
+football,Championship 2023 2024,Round 43,13/04/,Birmingham,Coventry,3,0,0,g_1_YkKnUd7Q,3.6,3.7,2.07,1.69,0.52
+football,Championship 2023 2024,Round 43,13/04/,Bristol City,Huddersfield,1,1,1,g_1_8rBEPGFs,2.25,3.26,3.57,0.58,1.37
+football,Championship 2023 2024,Round 43,13/04/,Hull,QPR,3,0,0,g_1_25AIOzVm,2.09,3.46,3.81,1.18,1.36
+football,Championship 2023 2024,Round 43,13/04/,Ipswich,Middlesbrough,1,1,1,g_1_td9MNfpf,1.78,4.08,4.42,1.86,1.26
+football,Championship 2023 2024,Round 43,13/04/,Millwall,Cardiff,3,1,0,g_1_lOuihICa,2.02,3.31,4.29,1.01,0.31
+football,Championship 2023 2024,Round 43,13/04/,Preston,Norwich,0,1,2,g_1_Wp2ZKhUC,3.28,3.33,2.35,0.92,0.67
+football,Championship 2023 2024,Round 43,13/04/,Sheffield Wed,Stoke,1,1,1,g_1_pl6wKCqJ,2.74,3.34,2.74,1.22,0.49
+football,Championship 2023 2024,Round 43,13/04/,Southampton,Watford,3,2,0,g_1_pS8oS9yt,1.44,5.39,6.67,1.64,1.01
+football,Championship 2023 2024,Round 43,13/04/,Swansea,Rotherham,1,0,0,g_1_GpCmixS5,1.37,5.36,8.91,0.75,0.06
+football,Championship 2023 2024,Round 43,13/04/,West Brom,Sunderland,0,1,2,g_1_OI7kRTjn,1.97,3.69,3.96,0.25,0.35
+football,Championship 2023 2024,Round 43,13/04/,Leeds,Blackburn,0,1,2,g_1_bX3RMEa0,1.38,5.06,9.12,1.13,0.57
+football,Championship 2023 2024,Round 43,13/04/,Plymouth,Leicester,1,0,0,g_1_xO2VLYE6,6.65,4.86,1.48,0.23,1.51
+football,Championship 2023 2024,Round 42,11/04/,Swansea,Stoke,3,0,0,g_1_AXtmgbcg,2.62,3.49,2.77,1.65,0.27
+football,Championship 2023 2024,Round 42,11/04/,West Brom,Rotherham,2,0,0,g_1_jRUsVxhK,1.24,6.6,13.6,2.71,0.35
+football,Championship 2023 2024,Round 42,11/04/,Birmingham,Cardiff,0,1,2,g_1_GAsqfvrm,1.92,3.59,4.31,0.57,0.92
+football,Championship 2023 2024,Round 42,11/04/,Bristol City,Blackburn,5,0,0,g_1_pUwh8Fp7,2.66,3.34,2.82,2.16,0.33
+football,Championship 2023 2024,Round 42,11/04/,Hull,Middlesbrough,2,2,1,g_1_OKxd7ZaD,2.38,3.48,2.9,1.89,1.2
+football,Championship 2023 2024,Round 42,11/04/,Ipswich,Watford,0,0,1,g_1_CzWwWIxE,1.56,4.44,6.08,0.68,0.27
+football,Championship 2023 2024,Round 42,10/04/,Leeds,Sunderland,0,0,1,g_1_YTrCHJNK,1.36,5.12,10.1,0.54,0.2
+football,Championship 2023 2024,Round 42,10/04/,Millwall,Leicester,1,0,0,g_1_CKsGGwwR,5.39,3.9,1.7,0.67,0.33
+football,Championship 2023 2024,Round 42,10/04/,Plymouth,QPR,1,1,1,g_1_GlnyCcor,2.98,3.18,2.63,0.41,1.39
+football,Championship 2023 2024,Round 42,10/04/,Preston,Huddersfield,4,1,0,g_1_fuouBH0l,2.66,3.15,2.96,2.02,0.86
+football,Championship 2023 2024,Round 42,10/04/,Sheffield Wed,Norwich,2,2,1,g_1_l2pqAyGf,3.5,3.4,2.22,1.14,1.4
+football,Championship 2023 2024,Round 42,10/04/,Southampton,Coventry,2,1,0,g_1_25lm9eV0,1.73,4.31,4.58,1.5,1.67
+football,Championship 2023 2024,Round 41,06/04/,Blackburn,Southampton,0,0,1,g_1_f5UVqu2k,3.81,3.85,1.97,1.13,1.28
+football,Championship 2023 2024,Round 41,06/04/,Cardiff,Hull,1,3,2,g_1_dQ0Ca0KP,3.25,3.35,2.36,0.48,1.41
+football,Championship 2023 2024,Round 41,06/04/,Coventry,Leeds,2,1,0,g_1_jXNvrJW1,3.69,3.87,2.0,1.79,1.43
+football,Championship 2023 2024,Round 41,06/04/,Huddersfield,Millwall,1,0,0,g_1_rRAQ5MO8,2.6,3.05,3.15,1.56,1.01
+football,Championship 2023 2024,Round 41,06/04/,Leicester,Birmingham,2,1,0,g_1_025V4tvF,1.37,5.3,8.85,1.27,0.59
+football,Championship 2023 2024,Round 41,06/04/,Middlesbrough,Swansea,2,0,0,g_1_27wueKSt,1.77,4.24,4.37,1.21,0.51
+football,Championship 2023 2024,Round 41,06/04/,QPR,Sheffield Wed,0,2,2,g_1_xra9cbWl,1.97,3.38,4.43,1.21,1.04
+football,Championship 2023 2024,Round 41,06/04/,Stoke,West Brom,2,2,1,g_1_Ob1LfdG7,2.82,3.28,2.69,2.22,0.95
+football,Championship 2023 2024,Round 41,06/04/,Sunderland,Bristol City,0,0,1,g_1_Q3u4Jug8,2.29,3.3,3.45,1.89,0.75
+football,Championship 2023 2024,Round 41,06/04/,Watford,Preston,0,0,1,g_1_v7q8Ia8E,2.06,3.38,4.0,0.58,0.54
+football,Championship 2023 2024,Round 41,06/04/,Norwich,Ipswich,1,0,0,g_1_YF3w3K8R,2.77,3.69,2.51,0.54,0.8
+football,Championship 2023 2024,Round 41,06/04/,Rotherham,Plymouth,0,1,2,g_1_GYcDdIoe,3.88,3.68,1.99,0.31,1.48
+football,Championship 2023 2024,Round 40,02/04/,Leeds,Hull,3,1,0,g_1_zcgGkAYA,1.4,5.29,7.79,2.8,0.49
+football,Championship 2023 2024,Round 40,02/04/,Ipswich,Southampton,3,2,0,g_1_SWk8iW3b,2.35,3.8,2.93,1.04,1.52
+football,Championship 2023 2024,Round 40,01/04/,Birmingham,Preston,1,0,0,g_1_6H1aghZo,2.16,3.48,3.58,1.22,0.26
+football,Championship 2023 2024,Round 40,01/04/,Coventry,Cardiff,1,2,2,g_1_UJ8QycSI,1.48,4.43,7.67,0.89,1.19
+football,Championship 2023 2024,Round 40,01/04/,Middlesbrough,Sheffield Wed,2,0,0,g_1_SUAlX1Iq,1.82,3.83,4.56,2.06,0.32
+football,Championship 2023 2024,Round 40,01/04/,Plymouth,Bristol City,0,1,2,g_1_0r9dVumd,3.05,3.39,2.46,0.33,1.1
+football,Championship 2023 2024,Round 40,01/04/,Rotherham,Millwall,2,1,0,g_1_x0hufPPd,5.76,3.66,1.71,0.92,2.47
+football,Championship 2023 2024,Round 40,01/04/,Stoke,Huddersfield,1,1,1,g_1_ADjmh3f9,2.02,3.49,4.02,1.38,0.59
+football,Championship 2023 2024,Round 40,01/04/,Sunderland,Blackburn,1,5,2,g_1_OGfiiN9F,2.2,3.47,3.47,1.42,2.27
+football,Championship 2023 2024,Round 40,01/04/,Swansea,QPR,0,1,2,g_1_IZ180t5J,2.54,3.56,2.8,1.41,0.9
+football,Championship 2023 2024,Round 40,01/04/,West Brom,Watford,2,2,1,g_1_pWr0k1vS,1.94,3.6,4.24,1.07,1.37
+football,Championship 2023 2024,Round 40,01/04/,Leicester,Norwich,3,1,0,g_1_ILrLlUmH,1.62,4.44,5.31,2.13,0.95
+football,Championship 2023 2024,Round 39,30/03/,Watford,Leeds,2,2,1,g_1_hEcefYJu,6.85,4.86,1.47,0.68,1.0
+football,Championship 2023 2024,Round 39,30/03/,Blackburn,Ipswich,0,1,2,g_1_l2WgmZd6,3.83,3.85,1.97,0.55,0.63
+football,Championship 2023 2024,Round 39,30/03/,Cardiff,Sunderland,0,2,2,g_1_84KHwJc6,0.0,0.0,0.0,0.22,3.15
+football,Championship 2023 2024,Round 39,30/03/,Huddersfield,Coventry,1,3,2,g_1_YkY5pXtP,3.26,3.57,2.25,1.25,0.92
+football,Championship 2023 2024,Round 39,30/03/,Hull,Stoke,0,2,2,g_1_YZeQtFkt,1.93,3.84,3.96,0.67,1.46
+football,Championship 2023 2024,Round 39,30/03/,Norwich,Plymouth,2,1,0,g_1_OOlwvDZb,1.52,4.42,6.83,1.86,1.12
+football,Championship 2023 2024,Round 39,30/03/,Preston,Rotherham,3,0,0,g_1_xShswXl5,1.53,4.27,7.11,2.09,0.36
+football,Championship 2023 2024,Round 39,30/03/,QPR,Birmingham,2,1,0,g_1_AuikyBJH,1.98,3.6,4.03,1.47,0.95
+football,Championship 2023 2024,Round 39,30/03/,Sheffield Wed,Swansea,1,1,1,g_1_jT9MxwDC,2.51,3.44,2.92,1.92,1.03
+football,Championship 2023 2024,Round 39,30/03/,Southampton,Middlesbrough,1,1,1,g_1_x2NozVYN,1.54,4.81,5.74,2.53,0.55
+football,Championship 2023 2024,Round 39,29/03/,Millwall,West Brom,1,1,1,g_1_290UuZ4n,3.37,3.17,2.39,0.95,1.09
+football,Championship 2023 2024,Round 39,29/03/,Bristol City,Leicester,1,0,0,g_1_ShVcngCC,5.62,3.91,1.68,1.24,2.2
+football,Championship 2023 2024,Round 38,18/03/,Leeds,Millwall,2,0,0,g_1_8OObwbTs,1.33,5.66,9.77,1.37,0.59
+football,Championship 2023 2024,Round 38,17/03/,Birmingham,Watford,0,1,2,g_1_C2tsLGDD,2.35,3.33,3.28,1.81,1.46
+football,Championship 2023 2024,Round 38,17/03/,Ipswich,Sheffield Wed,6,0,0,g_1_6FxXsvLQ,1.61,4.26,5.75,3.43,0.62
+football,Championship 2023 2024,Round 38,17/03/,Middlesbrough,Blackburn,0,0,1,g_1_CGLFZFS6,1.82,3.69,4.75,1.12,0.66
+football,Championship 2023 2024,Round 38,17/03/,Plymouth,Preston,0,1,2,g_1_fuBKYZsD,2.34,3.36,3.26,0.62,1.12
+football,Championship 2023 2024,Round 38,17/03/,Rotherham,Huddersfield,0,0,1,g_1_0xb6dwzK,5.31,3.29,1.86,0.48,1.11
+football,Championship 2023 2024,Round 38,17/03/,Stoke,Norwich,0,3,2,g_1_vTdAeckQ,2.77,3.28,2.74,0.87,2.54
+football,Championship 2023 2024,Round 38,17/03/,Sunderland,QPR,0,0,1,g_1_bDwsjyDm,2.85,3.27,2.68,0.2,0.86
+football,Championship 2023 2024,Round 38,17/03/,West Brom,Bristol City,2,0,0,g_1_WQyklFs0,1.82,3.36,5.51,1.14,0.72
+football,Championship 2023 2024,Round 38,16/03/,Swansea,Cardiff,2,0,0,g_1_dUGDvar0,2.02,3.34,4.23,2.88,0.74
+football,Championship 2023 2024,Round 29,13/03/,Birmingham,Middlesbrough,0,1,2,g_1_0YLrumTC,2.95,3.58,2.31,0.42,1.17
+football,Championship 2023 2024,Round 37,10/03/,Bristol City,Swansea,1,0,0,g_1_OGI5tLDm,2.26,3.39,3.39,0.54,0.39
+football,Championship 2023 2024,Round 37,10/03/,Huddersfield,West Brom,1,4,2,g_1_vV7mp9pc,2.85,3.38,2.61,1.22,1.4
+football,Championship 2023 2024,Round 37,10/03/,Blackburn,Plymouth,1,1,1,g_1_QRJ5LP7d,1.89,3.66,4.41,1.04,1.53
+football,Championship 2023 2024,Round 37,10/03/,Hull,Leicester,2,2,1,g_1_IL6iqTa3,3.61,3.4,2.18,1.36,1.91
+football,Championship 2023 2024,Round 37,10/03/,Millwall,Birmingham,1,0,0,g_1_bXNlrmF9,2.26,3.3,3.5,0.51,0.85
+football,Championship 2023 2024,Round 37,10/03/,Norwich,Rotherham,5,0,0,g_1_xOMhs7UF,1.4,4.92,8.8,1.56,0.04
+football,Championship 2023 2024,Round 37,10/03/,Preston,Stoke,1,2,2,g_1_UJpMPvar,2.63,3.18,2.98,0.12,0.8
+football,Championship 2023 2024,Round 37,10/03/,QPR,Middlesbrough,0,2,2,g_1_rNlQObEl,2.25,3.68,3.17,0.41,0.3
+football,Championship 2023 2024,Round 37,10/03/,Southampton,Sunderland,4,2,0,g_1_4xwZMxq1,1.37,5.31,8.77,2.64,0.53
+football,Championship 2023 2024,Round 37,10/03/,Watford,Coventry,1,2,2,g_1_YBswMdb7,2.88,3.6,2.47,0.73,1.29
+football,Championship 2023 2024,Round 37,09/03/,Cardiff,Ipswich,2,1,0,g_1_27H9uuTg,4.97,3.84,1.76,1.03,0.46
+football,Championship 2023 2024,Round 37,09/03/,Sheffield Wed,Leeds,0,2,2,g_1_QovVNITf,6.03,4.58,1.55,0.76,1.92
+football,Championship 2023 2024,Round 36,07/03/,QPR,West Brom,2,2,1,g_1_SjvVRRUS,3.29,3.08,2.49,2.18,0.2
+football,Championship 2023 2024,Round 36,07/03/,Cardiff,Huddersfield,1,0,0,g_1_UF0XbTTE,2.55,3.25,3.02,0.83,1.39
+football,Championship 2023 2024,Round 36,07/03/,Middlesbrough,Norwich,3,1,0,g_1_bHZQS7FM,2.65,3.49,2.73,1.56,0.94
+football,Championship 2023 2024,Round 36,07/03/,Watford,Swansea,1,1,1,g_1_6uO0s1bs,2.22,3.5,3.4,2.03,1.76
+football,Championship 2023 2024,Round 36,06/03/,Ipswich,Bristol City,3,2,0,g_1_QRsEV9V3,1.63,4.08,5.78,2.37,0.92
+football,Championship 2023 2024,Round 36,06/03/,Blackburn,Millwall,1,1,1,g_1_Gd0N8nOj,2.2,3.37,3.57,0.64,0.31
+football,Championship 2023 2024,Round 36,06/03/,Coventry,Rotherham,5,0,0,g_1_hEq6XV0i,1.37,5.55,8.32,2.13,1.1
+football,Championship 2023 2024,Round 36,06/03/,Hull,Birmingham,1,1,1,g_1_W4rAWkGc,1.68,4.06,5.33,1.4,0.38
+football,Championship 2023 2024,Round 36,06/03/,Leeds,Stoke,1,0,0,g_1_x2oIUTpA,1.4,5.29,7.79,1.21,0.34
+football,Championship 2023 2024,Round 36,06/03/,Sheffield Wed,Plymouth,1,0,0,g_1_UaQdNowp,1.95,3.67,4.08,1.65,0.64
+football,Championship 2023 2024,Round 36,06/03/,Sunderland,Leicester,0,1,2,g_1_KQzNTm0G,4.44,3.89,1.82,0.57,1.15
+football,Championship 2023 2024,Round 35,03/03/,Birmingham,Southampton,3,4,2,g_1_2BRtd9vo,4.43,4.3,1.74,0.68,1.56
+football,Championship 2023 2024,Round 35,03/03/,Leicester,QPR,1,2,2,g_1_UHJSJCWi,1.57,4.41,6.04,1.0,1.12
+football,Championship 2023 2024,Round 35,03/03/,Millwall,Watford,1,0,0,g_1_Ct9XIWob,2.57,3.29,2.96,0.53,0.67
+football,Championship 2023 2024,Round 35,03/03/,Norwich,Sunderland,1,0,0,g_1_jX7yIj14,1.93,3.63,4.24,1.19,0.4
+football,Championship 2023 2024,Round 35,03/03/,Plymouth,Ipswich,0,2,2,g_1_p8MvHAGA,4.27,3.94,1.84,0.36,0.59
+football,Championship 2023 2024,Round 35,03/03/,Preston,Hull,0,0,1,g_1_ObLrGUVG,3.07,3.27,2.5,1.19,1.03
+football,Championship 2023 2024,Round 35,03/03/,Rotherham,Sheffield Wed,0,1,2,g_1_6NAmFloN,3.31,3.31,2.34,0.45,1.66
+football,Championship 2023 2024,Round 35,03/03/,Stoke,Middlesbrough,2,0,0,g_1_KQEiE80T,2.43,3.57,2.96,1.28,0.69
+football,Championship 2023 2024,Round 35,03/03/,Swansea,Blackburn,2,1,0,g_1_zg1Ta9E8,2.1,3.6,3.6,0.65,0.5
+football,Championship 2023 2024,Round 35,02/03/,Bristol City,Cardiff,0,1,2,g_1_MkcP0ka2,2.0,3.34,4.31,0.66,0.24
+football,Championship 2023 2024,Round 35,02/03/,Huddersfield,Leeds,1,1,1,g_1_GEFOKhHo,5.86,4.48,1.57,0.96,1.99
+football,Championship 2023 2024,Round 35,02/03/,West Brom,Coventry,2,1,0,g_1_x61J9S8p,2.14,3.46,3.66,0.37,1.77
+football,Championship 2023 2024,Round 34,25/02/,Blackburn,Norwich,1,1,1,g_1_jXLWmCnO,2.65,3.57,2.68,1.01,0.77
+football,Championship 2023 2024,Round 34,25/02/,Cardiff,Stoke,2,1,0,g_1_vRXvgwtd,2.74,3.3,2.74,0.61,1.65
+football,Championship 2023 2024,Round 34,25/02/,Ipswich,Birmingham,3,1,0,g_1_xOfk6g2h,1.53,4.61,6.33,2.75,0.4
+football,Championship 2023 2024,Round 34,25/02/,Middlesbrough,Plymouth,0,2,2,g_1_bwqb4XW4,1.47,4.87,6.87,0.53,1.76
+football,Championship 2023 2024,Round 34,25/02/,QPR,Rotherham,2,1,0,g_1_ADn23inB,1.66,3.71,6.19,1.21,1.06
+football,Championship 2023 2024,Round 34,25/02/,Sheffield Wed,Bristol City,2,1,0,g_1_4zn62B1H,2.74,3.34,2.74,1.29,0.38
+football,Championship 2023 2024,Round 34,25/02/,Southampton,Millwall,1,2,2,g_1_rRpA1VGN,1.45,4.77,7.77,1.42,1.28
+football,Championship 2023 2024,Round 34,25/02/,Sunderland,Swansea,1,2,2,g_1_IHWrhce2,2.18,3.46,3.55,0.89,2.22
+football,Championship 2023 2024,Round 34,25/02/,Watford,Huddersfield,1,2,2,g_1_02uF0kWT,2.04,3.56,3.87,1.04,0.77
+football,Championship 2023 2024,Round 34,24/02/,Hull,West Brom,1,1,1,g_1_Ucis8FXu,2.35,3.33,3.28,0.57,1.1
+football,Championship 2023 2024,Round 34,24/02/,Leeds,Leicester,3,1,0,g_1_GEgg5DHb,2.15,3.6,3.48,1.51,1.11
+football,Championship 2023 2024,Round 34,24/02/,Coventry,Preston,0,3,2,g_1_4zQzmW1U,1.68,4.05,4.81,0.94,1.28
+football,Championship 2023 2024,Round 29,21/02/,Cardiff,Blackburn,0,0,1,g_1_EXcqXhWR,3.31,3.31,2.34,0.56,0.24
+football,Championship 2023 2024,Round 29,21/02/,Ipswich,Rotherham,4,3,0,g_1_SvEU2jLJ,1.28,5.91,12.5,1.95,1.71
+football,Championship 2023 2024,Round 29,21/02/,Plymouth,West Brom,0,3,2,g_1_QFg5dlbm,3.48,3.58,2.16,0.1,2.11
+football,Championship 2023 2024,Round 29,21/02/,Southampton,Hull,1,2,2,g_1_vu9Agnr6,1.57,4.41,6.04,1.33,1.54
+football,Championship 2023 2024,Round 33,18/02/,Birmingham,Sunderland,2,1,0,g_1_4daelLt7,2.71,3.41,2.71,1.4,1.33
+football,Championship 2023 2024,Round 33,18/02/,Bristol City,QPR,0,1,2,g_1_rmbamudD,2.18,3.26,3.76,0.56,0.8
+football,Championship 2023 2024,Round 33,18/02/,Huddersfield,Hull,1,2,2,g_1_W2isCOYD,2.71,3.41,2.71,0.4,0.31
+football,Championship 2023 2024,Round 33,18/02/,Leicester,Middlesbrough,1,2,2,g_1_8SEAfd3t,1.55,4.85,5.53,2.24,0.66
+football,Championship 2023 2024,Round 33,18/02/,Millwall,Sheffield Wed,0,2,2,g_1_ji4FgGIn,2.26,3.33,3.49,0.37,1.16
+football,Championship 2023 2024,Round 33,18/02/,Norwich,Cardiff,4,1,0,g_1_hAZWfaBq,1.74,3.69,5.38,2.59,0.48
+football,Championship 2023 2024,Round 33,18/02/,Preston,Blackburn,2,2,1,g_1_bH7Nifma,2.68,3.32,2.81,1.16,0.7
+football,Championship 2023 2024,Round 33,18/02/,Rotherham,Watford,0,1,2,g_1_x86RjE25,4.1,3.49,2.0,1.26,0.25
+football,Championship 2023 2024,Round 33,18/02/,Stoke,Coventry,0,1,2,g_1_IJNOkYHB,2.93,3.46,2.5,0.66,1.59
+football,Championship 2023 2024,Round 33,18/02/,Swansea,Ipswich,1,2,2,g_1_W0YzfJQk,4.1,3.85,1.9,1.28,1.55
+football,Championship 2023 2024,Round 33,17/02/,Plymouth,Leeds,0,2,2,g_1_4f8JhzYh,8.14,5.34,1.39,0.9,1.08
+football,Championship 2023 2024,Round 33,17/02/,West Brom,Southampton,0,2,2,g_1_dAMSlhXH,3.14,3.8,2.23,0.63,1.34
+football,Championship 2023 2024,Round 32,15/02/,Millwall,Ipswich,0,4,2,g_1_jZhuh3sr,3.82,3.69,2.01,0.87,1.52
+football,Championship 2023 2024,Round 32,15/02/,Huddersfield,Sunderland,1,0,0,g_1_AuBCdqZQ,3.35,3.3,2.33,1.3,0.71
+football,Championship 2023 2024,Round 32,15/02/,Plymouth,Coventry,2,2,1,g_1_UPiqiNdl,3.37,3.88,2.1,1.08,2.42
+football,Championship 2023 2024,Round 32,15/02/,Preston,Middlesbrough,2,1,0,g_1_OnimjsCf,3.19,3.5,2.32,1.1,0.86
+football,Championship 2023 2024,Round 32,15/02/,Stoke,QPR,1,0,0,g_1_MX9jk1R0,2.22,3.4,3.5,0.64,0.37
+football,Championship 2023 2024,Round 32,14/02/,Bristol City,Southampton,3,1,0,g_1_MJUHz2C7,4.56,3.83,1.82,1.16,1.66
+football,Championship 2023 2024,Round 32,14/02/,West Brom,Cardiff,2,0,0,g_1_nTd4au3S,1.74,3.69,5.38,1.86,0.46
+football,Championship 2023 2024,Round 32,14/02/,Birmingham,Blackburn,1,0,0,g_1_rTVDyrc1,2.42,3.69,2.89,1.93,0.34
+football,Championship 2023 2024,Round 32,14/02/,Leicester,Sheffield Wed,2,0,0,g_1_OO80aok8,1.31,5.86,10.5,2.03,0.51
+football,Championship 2023 2024,Round 32,14/02/,Norwich,Watford,4,2,0,g_1_xSC4b54E,0.0,0.0,0.0,2.13,1.45
+football,Championship 2023 2024,Round 32,14/02/,Rotherham,Hull,1,2,2,g_1_WlC8cPJK,5.25,3.46,1.82,0.55,1.47
+football,Championship 2023 2024,Round 32,14/02/,Swansea,Leeds,0,4,2,g_1_YPh00LmM,5.55,4.62,1.58,0.55,1.77
+football,Championship 2023 2024,Round 31,11/02/,Coventry,Millwall,2,1,0,g_1_fqBzOOS1,1.78,4.08,4.42,1.79,0.86
+football,Championship 2023 2024,Round 31,11/02/,Blackburn,Stoke,3,1,0,g_1_r97WO4De,2.3,3.84,2.98,1.94,0.99
+football,Championship 2023 2024,Round 31,11/02/,Cardiff,Preston,0,2,2,g_1_0Cfh2sJ9,2.54,3.14,3.14,0.63,0.52
+football,Championship 2023 2024,Round 31,11/02/,Hull,Swansea,0,1,2,g_1_v3gd11YF,1.74,3.88,5.0,0.39,0.79
+football,Championship 2023 2024,Round 31,11/02/,Leeds,Rotherham,3,0,0,g_1_nwbMoSK8,1.19,8.06,15.6,3.0,0.21
+football,Championship 2023 2024,Round 31,11/02/,Middlesbrough,Bristol City,1,2,2,g_1_4EhRpnzF,1.81,3.93,4.48,0.98,1.66
+football,Championship 2023 2024,Round 31,11/02/,QPR,Norwich,2,2,1,g_1_r5iVq6kL,2.59,3.56,2.74,0.84,0.85
+football,Championship 2023 2024,Round 31,11/02/,Southampton,Huddersfield,5,3,0,g_1_Emr1vpDr,1.28,6.17,11.8,1.52,0.91
+football,Championship 2023 2024,Round 31,11/02/,Sunderland,Plymouth,3,1,0,g_1_dCX5w4Sl,1.54,4.61,6.14,0.87,0.32
+football,Championship 2023 2024,Round 31,11/02/,Watford,Leicester,1,2,2,g_1_z3W9xOse,3.68,3.83,2.01,1.11,1.53
+football,Championship 2023 2024,Round 31,10/02/,Ipswich,West Brom,2,2,1,g_1_8naIn852,1.97,3.63,4.04,1.92,0.39
+football,Championship 2023 2024,Round 31,10/02/,Sheffield Wed,Birmingham,2,0,0,g_1_xSjZrQ4R,2.43,3.5,3.0,1.71,1.49
+football,Championship 2023 2024,Round 30,04/02/,Middlesbrough,Sunderland,1,1,1,g_1_YaHxcLlb,2.1,3.35,3.92,1.48,1.24
+football,Championship 2023 2024,Round 30,04/02/,Blackburn,QPR,1,2,2,g_1_Ch7IiQCI,1.94,3.6,4.24,0.66,1.33
+football,Championship 2023 2024,Round 30,04/02/,Huddersfield,Sheffield Wed,4,0,0,g_1_QZDUbsKo,2.51,3.38,2.97,1.87,0.44
+football,Championship 2023 2024,Round 30,04/02/,Hull,Millwall,1,0,0,g_1_4QCYc1Zi,1.95,3.67,4.08,0.41,0.29
+football,Championship 2023 2024,Round 30,04/02/,Norwich,Coventry,2,1,0,g_1_CjGtdu44,2.43,3.46,3.04,1.3,1.22
+football,Championship 2023 2024,Round 30,04/02/,Preston,Ipswich,3,2,0,g_1_fF5oeaJA,3.83,3.61,2.03,0.66,2.82
+football,Championship 2023 2024,Round 30,04/02/,Rotherham,Southampton,0,2,2,g_1_h0OlfJYG,10.1,5.74,1.32,0.34,1.24
+football,Championship 2023 2024,Round 30,04/02/,Stoke,Leicester,0,5,2,g_1_nNNhgwlN,3.99,3.87,1.92,0.89,3.02
+football,Championship 2023 2024,Round 30,04/02/,Swansea,Plymouth,0,1,2,g_1_YHvGRWgk,2.02,3.73,3.73,1.72,1.01
+football,Championship 2023 2024,Round 30,04/02/,Watford,Cardiff,0,1,2,g_1_C8wKQj9e,1.92,3.69,4.18,1.13,0.5
+football,Championship 2023 2024,Round 30,04/02/,West Brom,Birmingham,1,0,0,g_1_QDMdhc3T,1.7,4.07,5.09,0.71,0.71
+football,Championship 2023 2024,Round 30,03/02/,Bristol City,Leeds,0,1,2,g_1_OUZozbso,4.56,3.83,1.82,0.36,1.31
+football,Championship 2023 2024,Round 29,01/02/,Sheffield Wed,Watford,0,0,1,g_1_bTiDfSSa,2.66,3.39,2.78,1.42,1.12
+football,Championship 2023 2024,Round 29,31/01/,Coventry,Bristol City,2,2,1,g_1_vPKnv7rJ,1.77,3.69,5.13,1.02,0.61
+football,Championship 2023 2024,Round 29,31/01/,Leicester,Swansea,3,1,0,g_1_jgkBSCvq,1.38,5.34,8.66,2.93,1.6
+football,Championship 2023 2024,Round 29,28/01/,QPR,Huddersfield,1,1,1,g_1_Kxg9e8Dg,1.96,3.6,4.11,0.39,1.67
+football,Championship 2023 2024,Round 29,28/01/,Millwall,Preston,1,1,1,g_1_CCk1cUrs,2.09,3.09,4.37,1.35,1.47
+football,Championship 2023 2024,Round 29,28/01/,Sunderland,Stoke,3,1,0,g_1_IV7Eh6cC,1.91,3.6,4.37,0.98,1.12
+football,Championship 2023 2024,Round 29,25/01/,Leeds,Norwich,1,0,0,g_1_6VCY1AzQ,1.41,5.08,8.11,1.49,0.43
+football,Championship 2023 2024,Round 28,23/01/,Leicester,Ipswich,1,1,1,g_1_KElikXjK,1.8,3.69,4.9,1.13,1.09
+football,Championship 2023 2024,Round 28,21/01/,Leeds,Preston,2,1,0,g_1_6BpmjDyE,1.33,6.06,8.95,2.29,1.05
+football,Championship 2023 2024,Round 28,21/01/,Blackburn,Huddersfield,1,1,1,g_1_QF70S9q7,1.85,3.85,4.36,1.13,1.3
+football,Championship 2023 2024,Round 28,21/01/,Bristol City,Watford,1,1,1,g_1_4664RTbD,2.39,3.37,3.18,1.14,1.2
+football,Championship 2023 2024,Round 28,21/01/,Middlesbrough,Rotherham,1,1,1,g_1_Eyleli6Q,1.34,5.66,9.22,0.85,0.53
+football,Championship 2023 2024,Round 28,21/01/,Norwich,West Brom,2,0,0,g_1_GpzNqBEs,2.74,3.34,2.74,1.82,1.76
+football,Championship 2023 2024,Round 28,21/01/,Plymouth,Cardiff,3,1,0,g_1_tKayZE1F,2.37,3.5,3.09,1.61,1.17
+football,Championship 2023 2024,Round 28,21/01/,QPR,Millwall,2,0,0,g_1_YLURrVTm,2.78,3.25,2.75,1.75,0.17
+football,Championship 2023 2024,Round 28,21/01/,Sheffield Wed,Coventry,1,2,2,g_1_CCTVskqf,3.8,3.83,1.98,1.05,1.06
+football,Championship 2023 2024,Round 28,21/01/,Stoke,Birmingham,1,2,2,g_1_6ZSZt9b0,2.03,3.7,3.72,2.1,0.45
+football,Championship 2023 2024,Round 28,20/01/,Swansea,Southampton,1,3,2,g_1_KAbuYYGL,5.89,4.36,1.58,2.32,3.48
+football,Championship 2023 2024,Round 28,20/01/,Sunderland,Hull,0,1,2,g_1_I9WwtTD6,1.84,3.66,4.69,0.69,0.12
+football,Championship 2023 2024,Round 27,14/01/,QPR,Watford,1,2,2,g_1_hlfgUVEf,2.83,3.26,2.69,1.51,0.4
+football,Championship 2023 2024,Round 27,14/01/,Ipswich,Sunderland,2,1,0,g_1_rFK9xf7E,2.13,3.52,3.62,2.62,0.65
+football,Championship 2023 2024,Round 27,14/01/,Birmingham,Swansea,2,2,1,g_1_z7UzyyX2,2.3,3.57,3.17,1.47,0.47
+football,Championship 2023 2024,Round 27,14/01/,Cardiff,Leeds,0,3,2,g_1_EcTvzen9,5.03,4.23,1.68,0.33,3.54
+football,Championship 2023 2024,Round 27,14/01/,Huddersfield,Plymouth,1,1,1,g_1_jLXNEjF7,2.22,3.72,3.21,0.79,0.79
+football,Championship 2023 2024,Round 27,14/01/,Millwall,Middlesbrough,1,3,2,g_1_0jFEyEMK,3.09,3.44,2.29,1.02,1.95
+football,Championship 2023 2024,Round 27,14/01/,Preston,Bristol City,2,0,0,g_1_vsEIzYyR,2.6,3.26,2.95,1.85,0.85
+football,Championship 2023 2024,Round 27,14/01/,Rotherham,Stoke,0,1,2,g_1_dM0pWipr,4.07,3.56,1.98,0.19,0.47
+football,Championship 2023 2024,Round 27,14/01/,Southampton,Sheffield Wed,4,0,0,g_1_AP4lVBal,1.37,5.85,7.8,2.42,0.46
+football,Championship 2023 2024,Round 27,14/01/,West Brom,Blackburn,4,1,0,g_1_WvgcTkU0,1.83,3.8,4.56,2.86,0.94
+football,Championship 2023 2024,Round 27,13/01/,Coventry,Leicester,3,1,0,g_1_voUJFWa1,3.55,3.57,2.13,1.37,1.13
+football,Championship 2023 2024,Round 27,13/01/,Hull,Norwich,1,2,2,g_1_4OL5wzh8,2.3,3.69,3.07,0.97,1.32
+football,Championship 2023 2024,Round 26,02/01/,Sheffield Wed,Hull,3,1,0,g_1_ldy7IYFr,3.12,3.27,2.47,1.13,1.02
+football,Championship 2023 2024,Round 26,02/01/,Blackburn,Rotherham,2,2,1,g_1_vPhq3gGe,1.51,4.61,6.53,2.82,1.47
+football,Championship 2023 2024,Round 26,02/01/,Bristol City,Millwall,0,1,2,g_1_IFim2DV1,2.18,3.4,3.61,0.48,0.61
+football,Championship 2023 2024,Round 26,02/01/,Leeds,Birmingham,3,0,0,g_1_I7cOQd82,1.31,6.11,9.67,1.36,0.77
+football,Championship 2023 2024,Round 26,02/01/,Leicester,Huddersfield,4,1,0,g_1_dbdSPGN8,1.26,6.39,11.8,2.01,1.1
+football,Championship 2023 2024,Round 26,02/01/,Middlesbrough,Coventry,1,3,2,g_1_jLeWOzwF,2.11,3.7,3.5,1.44,2.19
+football,Championship 2023 2024,Round 26,02/01/,Norwich,Southampton,1,1,1,g_1_4OazOfhL,3.45,3.85,2.08,0.81,2.51
+football,Championship 2023 2024,Round 26,02/01/,Plymouth,Watford,3,3,1,g_1_nmkuNE7R,2.69,3.84,2.51,1.34,1.62
+football,Championship 2023 2024,Round 26,02/01/,QPR,Cardiff,1,2,2,g_1_80xkDXvd,2.52,2.98,3.34,0.69,0.48
+football,Championship 2023 2024,Round 26,02/01/,Stoke,Ipswich,0,0,1,g_1_IVuBHhVl,3.29,3.35,2.34,0.4,0.58
+football,Championship 2023 2024,Round 26,02/01/,Swansea,West Brom,1,0,0,g_1_M3tgCif2,3.1,3.29,2.47,0.67,1.72
+football,Championship 2023 2024,Round 26,01/01/,Sunderland,Preston,2,0,0,g_1_dMvFGCpe,1.71,3.84,5.38,0.47,0.55
+football,Championship 2023 2024,Round 25,30/12/,West Brom,Leeds,1,0,0,g_1_p2gu4Z0k,3.69,3.37,2.16,1.55,1.06
+football,Championship 2023 2024,Round 25,30/12/,Birmingham,Bristol City,0,0,1,g_1_8Ojw72HT,3.16,3.48,2.34,0.1,0.81
+football,Championship 2023 2024,Round 25,30/12/,Cardiff,Leicester,0,2,2,g_1_noltFgAq,6.52,4.09,1.58,0.37,1.91
+football,Championship 2023 2024,Round 25,30/12/,Coventry,Swansea,2,2,1,g_1_QympEDPk,1.79,4.11,4.37,2.43,1.25
+football,Championship 2023 2024,Round 25,30/12/,Huddersfield,Middlesbrough,1,2,2,g_1_AXx52MPp,4.59,4.08,1.76,0.7,1.51
+football,Championship 2023 2024,Round 25,30/12/,Hull,Blackburn,3,2,0,g_1_OzRnR52o,1.82,4.15,4.19,1.79,0.84
+football,Championship 2023 2024,Round 25,30/12/,Ipswich,QPR,0,0,1,g_1_MLqjQPHi,1.57,4.27,6.22,0.49,0.33
+football,Championship 2023 2024,Round 25,30/12/,Millwall,Norwich,1,0,0,g_1_4pZfPqXc,2.4,3.46,3.08,2.27,0.54
+football,Championship 2023 2024,Round 25,30/12/,Preston,Sheffield Wed,0,1,2,g_1_ryYbO3n4,2.22,3.07,3.92,0.36,0.51
+football,Championship 2023 2024,Round 25,30/12/,Rotherham,Sunderland,1,1,1,g_1_CAx3NN1A,6.39,4.51,1.53,1.66,0.35
+football,Championship 2023 2024,Round 25,30/12/,Watford,Stoke,1,1,1,g_1_Wbky5Foq,2.04,3.6,3.83,1.25,0.75
+football,Championship 2023 2024,Round 25,30/12/,Southampton,Plymouth,2,1,0,g_1_j1y7MsHG,1.33,6.17,8.73,2.87,0.59
+football,Championship 2023 2024,Round 24,27/12/,Ipswich,Leicester,1,1,1,g_1_rH5DC6mh,3.38,3.54,2.21,0.89,0.22
+football,Championship 2023 2024,Round 24,27/12/,Birmingham,Stoke,1,3,2,g_1_G6kcAG6O,2.7,3.47,2.7,1.75,1.65
+football,Championship 2023 2024,Round 24,27/12/,Cardiff,Plymouth,2,2,1,g_1_G2cAKFnM,1.89,3.78,4.23,1.08,0.96
+football,Championship 2023 2024,Round 24,27/12/,Coventry,Sheffield Wed,2,0,0,g_1_U9g19zMU,1.83,3.64,4.81,0.37,1.09
+football,Championship 2023 2024,Round 24,27/12/,Huddersfield,Blackburn,3,0,0,g_1_d075ESIu,3.38,3.68,2.16,1.33,0.42
+football,Championship 2023 2024,Round 24,27/12/,Hull,Sunderland,0,1,2,g_1_zi69DnYo,2.75,3.46,2.65,0.72,0.97
+football,Championship 2023 2024,Round 24,27/12/,Rotherham,Middlesbrough,1,0,0,g_1_IZcQ94XA,5.29,4.08,1.68,0.09,1.25
+football,Championship 2023 2024,Round 24,27/12/,Southampton,Swansea,5,0,0,g_1_fgdEJZ1S,1.46,5.07,6.6,1.94,0.39
+football,Championship 2023 2024,Round 24,27/12/,Watford,Bristol City,1,4,2,g_1_CdcU8OnH,1.91,3.6,4.37,0.84,1.32
+football,Championship 2023 2024,Round 24,27/12/,West Brom,Norwich,1,0,0,g_1_jmdY7r2N,1.95,3.67,4.08,1.88,0.46
+football,Championship 2023 2024,Round 24,26/12/,Millwall,QPR,2,0,0,g_1_M74HBQ2b,2.23,3.25,3.65,1.44,0.58
+football,Championship 2023 2024,Round 24,26/12/,Preston,Leeds,2,1,0,g_1_4WgMApI4,7.04,4.07,1.56,0.37,1.5
+football,Championship 2023 2024,Round 23,24/12/,Blackburn,Watford,1,2,2,g_1_UkRFcwNI,2.68,3.5,2.7,0.65,2.05
+football,Championship 2023 2024,Round 23,24/12/,Leicester,Rotherham,3,0,0,g_1_b55TG0Nt,1.21,7.61,14.4,2.46,0.02
+football,Championship 2023 2024,Round 23,24/12/,Middlesbrough,West Brom,1,0,0,g_1_tUfYFKxm,2.56,3.18,3.08,2.0,0.35
+football,Championship 2023 2024,Round 23,24/12/,Norwich,Huddersfield,2,0,0,g_1_h4bxFvhg,1.63,4.05,5.82,0.91,0.13
+football,Championship 2023 2024,Round 23,24/12/,Plymouth,Birmingham,3,3,1,g_1_nRctEb7a,2.09,3.81,3.46,1.4,1.64
+football,Championship 2023 2024,Round 23,24/12/,QPR,Southampton,0,1,2,g_1_QHdpDIM5,4.85,3.57,1.84,0.42,1.48
+football,Championship 2023 2024,Round 23,24/12/,Sheffield Wed,Cardiff,1,2,2,g_1_M341MyI9,2.15,3.38,3.69,0.98,0.73
+football,Championship 2023 2024,Round 23,24/12/,Stoke,Millwall,0,0,1,g_1_rgikCxxC,2.03,3.8,3.65,0.89,0.09
+football,Championship 2023 2024,Round 23,24/12/,Sunderland,Coventry,0,3,2,g_1_MqjgBdiI,1.79,3.89,4.61,2.14,1.58
+football,Championship 2023 2024,Round 23,23/12/,Leeds,Ipswich,4,0,0,g_1_ddJ1LtFP,1.83,4.08,4.17,1.84,0.1
+football,Championship 2023 2024,Round 23,23/12/,Bristol City,Hull,3,2,0,g_1_8tQJdcxP,2.98,3.46,2.46,1.73,1.88
+football,Championship 2023 2024,Round 23,23/12/,Swansea,Preston,2,1,0,g_1_Yw85LeXF,1.97,3.65,4.04,0.72,0.34
+football,Championship 2023 2024,Round 22,19/12/,Birmingham,Leicester,2,3,2,g_1_rJzto0wD,6.53,4.61,1.51,0.54,2.51
+football,Championship 2023 2024,Round 22,17/12/,West Brom,Stoke,1,1,1,g_1_nRyBbJ7C,1.85,3.69,4.58,1.33,0.47
+football,Championship 2023 2024,Round 22,17/12/,Bristol City,Sunderland,1,0,0,g_1_M9ZqpKhJ,3.19,3.39,2.37,0.92,0.72
+football,Championship 2023 2024,Round 22,17/12/,Hull,Cardiff,3,0,0,g_1_lj6gOcmc,1.72,3.8,5.4,1.78,0.32
+football,Championship 2023 2024,Round 22,17/12/,Leeds,Coventry,1,1,1,g_1_xIHW7NpQ,1.53,4.25,7.0,1.53,0.41
+football,Championship 2023 2024,Round 22,17/12/,Millwall,Huddersfield,1,1,1,g_1_fc4b3sgs,1.73,3.8,5.32,1.55,0.64
+football,Championship 2023 2024,Round 22,17/12/,Plymouth,Rotherham,3,2,0,g_1_Ym32218m,1.77,4.07,4.56,2.69,1.44
+football,Championship 2023 2024,Round 22,17/12/,Preston,Watford,1,5,2,g_1_0AZb1LNg,2.83,3.09,2.83,2.11,3.0
+football,Championship 2023 2024,Round 22,17/12/,Sheffield Wed,QPR,2,1,0,g_1_v1Y20uw0,2.22,3.4,3.5,0.74,0.36
+football,Championship 2023 2024,Round 22,17/12/,Southampton,Blackburn,4,0,0,g_1_YNX6aah6,1.66,4.3,5.17,3.33,0.7
+football,Championship 2023 2024,Round 22,17/12/,Swansea,Middlesbrough,1,2,2,g_1_St5cNH23,3.37,3.52,2.23,1.33,1.01
+football,Championship 2023 2024,Round 22,16/12/,Ipswich,Norwich,2,2,1,g_1_OEDS83VJ,1.56,4.58,5.85,2.06,0.59
+football,Championship 2023 2024,Round 21,14/12/,Middlesbrough,Hull,1,2,2,g_1_hUsTm2gf,1.86,3.93,4.18,0.87,1.3
+football,Championship 2023 2024,Round 21,14/12/,Cardiff,Birmingham,0,1,2,g_1_CYMAaEAd,1.91,3.63,4.3,0.84,1.42
+football,Championship 2023 2024,Round 21,14/12/,Coventry,Southampton,1,1,1,g_1_nXvLkOOs,2.78,3.53,2.57,0.55,0.9
+football,Championship 2023 2024,Round 21,14/12/,Leicester,Millwall,3,2,0,g_1_tfvPlrvl,1.42,4.87,8.19,1.99,1.77
+football,Championship 2023 2024,Round 21,14/12/,Norwich,Sheffield Wed,3,1,0,g_1_zgXXnM80,1.81,3.8,4.27,1.31,0.85
+football,Championship 2023 2024,Round 21,14/12/,QPR,Plymouth,0,0,1,g_1_EqWyntO6,2.09,3.67,3.57,1.55,0.56
+football,Championship 2023 2024,Round 21,13/12/,Sunderland,Leeds,1,0,0,g_1_hWMn8Wv9,3.38,3.69,2.15,0.99,0.51
+football,Championship 2023 2024,Round 21,13/12/,Blackburn,Bristol City,2,1,0,g_1_nZVdo9Xe,1.98,3.72,3.63,0.96,1.13
+football,Championship 2023 2024,Round 21,13/12/,Huddersfield,Preston,1,3,2,g_1_0xz1pTn2,2.78,3.13,2.78,0.63,0.69
+football,Championship 2023 2024,Round 21,13/12/,Rotherham,West Brom,0,2,2,g_1_EuOr9CP2,5.89,3.89,1.66,0.04,0.55
+football,Championship 2023 2024,Round 21,13/12/,Stoke,Swansea,1,1,1,g_1_YsO60fej,2.09,3.57,3.67,2.48,0.65
+football,Championship 2023 2024,Round 21,13/12/,Watford,Ipswich,1,2,2,g_1_A7Hi7jfF,3.09,3.5,2.37,1.41,1.85
+football,Championship 2023 2024,Round 20,10/12/,Cardiff,Millwall,1,0,0,g_1_2aXz6GXS,2.23,3.25,3.65,0.7,0.62
+football,Championship 2023 2024,Round 20,10/12/,Huddersfield,Bristol City,1,1,1,g_1_n541dZuc,2.94,3.27,2.61,0.71,0.83
+football,Championship 2023 2024,Round 20,10/12/,Leicester,Plymouth,4,0,0,g_1_Qe35ege3,1.28,6.17,11.8,3.17,1.02
+football,Championship 2023 2024,Round 20,10/12/,Middlesbrough,Ipswich,0,2,2,g_1_KI29fDA9,2.25,3.68,3.17,0.44,1.17
+football,Championship 2023 2024,Round 20,10/12/,Norwich,Preston,0,0,1,g_1_YL6DgXPF,1.88,3.68,4.43,1.2,0.61
+football,Championship 2023 2024,Round 20,10/12/,QPR,Hull,2,0,0,g_1_GpdIhiuM,3.28,3.33,2.35,0.95,1.01
+football,Championship 2023 2024,Round 20,10/12/,Rotherham,Swansea,1,2,2,g_1_vLO21ztp,3.27,3.57,2.25,0.46,2.15
+football,Championship 2023 2024,Round 20,10/12/,Stoke,Sheffield Wed,0,1,2,g_1_fyeMiBfS,2.2,3.28,3.68,1.59,0.8
+football,Championship 2023 2024,Round 20,10/12/,Watford,Southampton,1,1,1,g_1_4AthnkIk,2.93,3.56,2.45,0.5,0.85
+football,Championship 2023 2024,Round 20,09/12/,Blackburn,Leeds,0,2,2,g_1_WdMEYVmj,4.17,4.6,1.74,0.66,0.95
+football,Championship 2023 2024,Round 20,09/12/,Sunderland,West Brom,2,1,0,g_1_QJslmV2q,2.31,3.37,3.32,1.26,0.7
+football,Championship 2023 2024,Round 20,09/12/,Coventry,Birmingham,2,0,0,g_1_AmLIXk3d,1.74,3.92,4.94,1.11,0.49
+football,Championship 2023 2024,Round 19,03/12/,Bristol City,Norwich,1,2,2,g_1_xMsxLCJj,2.34,3.33,3.29,1.16,0.52
+football,Championship 2023 2024,Round 19,03/12/,Birmingham,Rotherham,0,0,1,g_1_bVrYLh4p,1.63,3.85,6.29,0.66,1.29
+football,Championship 2023 2024,Round 19,03/12/,Hull,Watford,1,2,2,g_1_jPVJqddi,2.0,3.61,3.95,1.95,0.68
+football,Championship 2023 2024,Round 19,03/12/,Ipswich,Coventry,2,1,0,g_1_4SZNrGBc,1.76,4.11,4.59,1.41,1.16
+football,Championship 2023 2024,Round 19,03/12/,Leeds,Middlesbrough,3,2,0,g_1_niPSszR3,1.64,4.4,5.13,3.24,1.14
+football,Championship 2023 2024,Round 19,03/12/,Millwall,Sunderland,1,1,1,g_1_QsOWtftA,3.59,3.33,2.21,0.65,1.45
+football,Championship 2023 2024,Round 19,03/12/,Plymouth,Stoke,2,1,0,g_1_fHSztEeG,2.77,3.58,2.56,1.11,1.55
+football,Championship 2023 2024,Round 19,03/12/,Sheffield Wed,Blackburn,3,1,0,g_1_GWGqvhQS,2.86,3.42,2.57,1.11,1.34
+football,Championship 2023 2024,Round 19,03/12/,Southampton,Cardiff,2,0,0,g_1_tpqS7x3G,1.61,4.1,6.0,2.08,0.79
+football,Championship 2023 2024,Round 19,03/12/,Swansea,Huddersfield,1,1,1,g_1_KzrW6dIM,1.96,3.38,4.44,1.58,0.28
+football,Championship 2023 2024,Round 19,02/12/,West Brom,Leicester,1,2,2,g_1_xzNAZBYq,3.44,3.31,2.28,1.12,1.31
+football,Championship 2023 2024,Round 19,02/12/,Preston,QPR,0,2,2,g_1_Y7RvuYAM,2.14,3.3,3.84,0.2,1.32
+football,Championship 2023 2024,Round 18,30/11/,Ipswich,Millwall,3,1,0,g_1_8px1TzCA,1.64,4.1,5.64,1.03,0.36
+football,Championship 2023 2024,Round 18,30/11/,Blackburn,Birmingham,4,2,0,g_1_QLndUGd4,1.74,4.14,4.63,0.67,1.23
+football,Championship 2023 2024,Round 18,30/11/,Leeds,Swansea,3,1,0,g_1_YJqO8ImA,1.37,5.6,8.16,2.6,0.4
+football,Championship 2023 2024,Round 18,30/11/,Sheffield Wed,Leicester,1,1,1,g_1_Mmt5SfRG,5.68,3.92,1.67,1.35,0.62
+football,Championship 2023 2024,Round 18,30/11/,Southampton,Bristol City,1,0,0,g_1_GAu9REtN,1.66,4.21,5.27,0.86,0.68
+football,Championship 2023 2024,Round 18,30/11/,Sunderland,Huddersfield,1,2,2,g_1_f1vDQYeT,1.56,4.41,6.11,2.38,0.77
+football,Championship 2023 2024,Round 18,29/11/,Watford,Norwich,3,2,0,g_1_nVmhVdsb,2.12,3.58,3.59,2.19,0.66
+football,Championship 2023 2024,Round 18,29/11/,Cardiff,West Brom,0,1,2,g_1_fTpK9bY3,3.4,3.5,2.22,0.36,1.32
+football,Championship 2023 2024,Round 18,29/11/,Coventry,Plymouth,1,0,0,g_1_27FZCFRT,1.66,4.31,5.13,1.24,0.46
+football,Championship 2023 2024,Round 18,29/11/,Hull,Rotherham,4,1,0,g_1_x0618ZZp,1.51,4.32,7.28,3.34,0.46
+football,Championship 2023 2024,Round 18,29/11/,Middlesbrough,Preston,4,0,0,g_1_v5ppXICo,1.74,3.7,5.33,3.12,0.17
+football,Championship 2023 2024,Round 18,29/11/,QPR,Stoke,4,2,0,g_1_IeqlWxSi,3.15,3.17,2.52,2.34,0.91
+football,Championship 2023 2024,Round 17,26/11/,West Brom,Ipswich,2,0,0,g_1_8pGVDeCN,2.45,3.61,2.89,1.55,0.12
+football,Championship 2023 2024,Round 17,26/11/,Birmingham,Sheffield Wed,2,1,0,g_1_E55iDOLC,2.2,3.3,3.4,1.23,2.09
+football,Championship 2023 2024,Round 17,26/11/,Bristol City,Middlesbrough,3,2,0,g_1_hd4eCryJ,3.44,3.46,2.12,1.59,0.53
+football,Championship 2023 2024,Round 17,26/11/,Huddersfield,Southampton,1,1,1,g_1_4nW1KuTu,4.2,3.76,1.83,0.48,1.5
+football,Championship 2023 2024,Round 17,26/11/,Leicester,Watford,2,0,0,g_1_rwV5Jarn,1.65,3.98,5.2,3.11,0.52
+football,Championship 2023 2024,Round 17,26/11/,Millwall,Coventry,0,3,2,g_1_Q1KAIJch,2.63,3.24,2.74,2.17,2.36
+football,Championship 2023 2024,Round 17,26/11/,Norwich,QPR,1,0,0,g_1_v5OEHwDb,1.85,3.78,4.07,0.69,0.58
+football,Championship 2023 2024,Round 17,26/11/,Plymouth,Sunderland,2,0,0,g_1_YRNIGcS4,3.42,3.84,2.01,0.74,1.69
+football,Championship 2023 2024,Round 17,26/11/,Preston,Cardiff,1,2,2,g_1_b1iBBK3i,2.32,3.22,3.24,0.4,0.68
+football,Championship 2023 2024,Round 17,26/11/,Stoke,Blackburn,0,3,2,g_1_UgHREycH,2.23,3.64,3.05,0.93,1.16
+football,Championship 2023 2024,Round 17,26/11/,Swansea,Hull,2,2,1,g_1_C4eFAvJc,2.74,3.42,2.52,1.22,1.03
+football,Championship 2023 2024,Round 17,25/11/,Rotherham,Leeds,1,1,1,g_1_CIMMFHsB,9.0,5.35,1.33,0.65,2.08
+football,Championship 2023 2024,Round 16,12/11/,Cardiff,Norwich,2,3,2,g_1_674PmHBp,2.13,3.6,3.3,1.35,2.41
+football,Championship 2023 2024,Round 16,12/11/,Coventry,Stoke,0,0,1,g_1_IwjDa5iD,2.25,3.42,3.19,1.11,0.48
+football,Championship 2023 2024,Round 16,12/11/,Hull,Huddersfield,1,0,0,g_1_KrUeOlUD,1.81,3.6,4.53,1.25,0.1
+football,Championship 2023 2024,Round 16,12/11/,Ipswich,Swansea,3,2,0,g_1_pb3TnyRj,1.58,4.4,5.25,3.83,1.42
+football,Championship 2023 2024,Round 16,12/11/,Leeds,Plymouth,2,1,0,g_1_WIXaN8qK,1.25,6.5,10.5,1.47,1.38
+football,Championship 2023 2024,Round 16,12/11/,Middlesbrough,Leicester,1,0,0,g_1_QuX3MSbQ,2.91,3.62,2.32,1.07,0.91
+football,Championship 2023 2024,Round 16,12/11/,QPR,Bristol City,0,0,1,g_1_SlJVHn7s,2.99,3.28,2.43,0.34,0.39
+football,Championship 2023 2024,Round 16,12/11/,Sheffield Wed,Millwall,0,4,2,g_1_pQDzH6Mm,2.49,3.13,3.04,1.22,1.39
+football,Championship 2023 2024,Round 16,12/11/,Southampton,West Brom,2,1,0,g_1_OGCvGQyf,1.92,3.68,3.89,1.01,1.61
+football,Championship 2023 2024,Round 16,12/11/,Watford,Rotherham,5,0,0,g_1_WtGnE466,1.42,4.55,7.9,2.4,0.42
+football,Championship 2023 2024,Round 16,11/11/,Sunderland,Birmingham,3,1,0,g_1_IwCrFpi0,1.7,4.05,4.66,2.88,1.41
+football,Championship 2023 2024,Round 16,11/11/,Blackburn,Preston,1,2,2,g_1_vmi90ox7,1.94,3.74,3.72,1.41,1.15
+football,Championship 2023 2024,Round 12,08/11/,Rotherham,Ipswich,2,2,1,g_1_hCtyMwnf,5.75,4.4,1.54,1.28,0.9
+football,Championship 2023 2024,Round 15,05/11/,Norwich,Blackburn,1,3,2,g_1_2o6WbDq5,2.16,3.68,3.38,1.01,1.54
+football,Championship 2023 2024,Round 15,05/11/,Birmingham,Ipswich,2,2,1,g_1_8rm9sCEU,3.85,3.74,1.91,0.0,0.0
+football,Championship 2023 2024,Round 15,05/11/,Bristol City,Sheffield Wed,1,0,0,g_1_Y5EF2ept,2.16,3.38,3.42,0.72,0.23
+football,Championship 2023 2024,Round 15,05/11/,Huddersfield,Watford,0,0,1,g_1_CdDJ1Fan,3.4,3.42,2.16,0.12,0.33
+football,Championship 2023 2024,Round 15,05/11/,Millwall,Southampton,0,1,2,g_1_KMGRagUb,3.54,3.64,2.03,0.55,1.11
+football,Championship 2023 2024,Round 15,05/11/,Plymouth,Middlesbrough,3,3,1,g_1_EL9zbXbB,3.81,3.95,1.87,0.98,2.42
+football,Championship 2023 2024,Round 15,05/11/,Preston,Coventry,3,2,0,g_1_8r9vciEH,2.82,3.3,2.53,2.28,2.2
+football,Championship 2023 2024,Round 15,05/11/,Rotherham,QPR,1,1,1,g_1_p8W7uPrp,2.72,3.28,2.62,0.52,0.54
+football,Championship 2023 2024,Round 15,05/11/,Stoke,Cardiff,0,0,1,g_1_WMm1277f,2.06,3.4,3.7,0.28,0.22
+football,Championship 2023 2024,Round 15,05/11/,Swansea,Sunderland,0,0,1,g_1_ADn51RM0,2.83,3.46,2.45,0.76,1.62
+football,Championship 2023 2024,Round 15,05/11/,West Brom,Hull,3,1,0,g_1_2qRCvqbj,1.93,3.54,4.01,0.0,0.0
+football,Championship 2023 2024,Round 15,04/11/,Leicester,Leeds,0,1,2,g_1_tWHN0ZEh,2.0,3.82,3.46,0.69,1.44
+football,Championship 2023 2024,Round 14,31/10/,Coventry,West Brom,0,2,2,g_1_z1szVYUO,2.51,3.29,3.05,1.71,2.04
+football,Championship 2023 2024,Round 14,29/10/,Sheffield Wed,Rotherham,2,0,0,g_1_f5E0ofF5,1.84,3.7,4.61,2.67,0.36
+football,Championship 2023 2024,Round 14,28/10/,Blackburn,Swansea,0,1,2,g_1_zefh4Txr,1.95,3.88,3.83,2.32,0.6
+football,Championship 2023 2024,Round 14,28/10/,Cardiff,Bristol City,2,0,0,g_1_lbbd3mhl,2.06,3.61,3.71,0.9,0.95
+football,Championship 2023 2024,Round 14,28/10/,Hull,Preston,1,0,0,g_1_OGzIgI7P,1.98,3.56,4.07,0.37,0.34
+football,Championship 2023 2024,Round 14,28/10/,Ipswich,Plymouth,3,2,0,g_1_QPMqkxGt,1.39,5.86,7.13,2.25,1.38
+football,Championship 2023 2024,Round 14,28/10/,Middlesbrough,Stoke,0,2,2,g_1_MiGhmGpg,1.76,4.08,4.59,0.91,1.17
+football,Championship 2023 2024,Round 14,28/10/,QPR,Leicester,1,2,2,g_1_GEFdnz0a,6.65,4.86,1.48,0.51,1.01
+football,Championship 2023 2024,Round 14,28/10/,Sunderland,Norwich,3,1,0,g_1_0Iq1qYqI,2.0,3.85,3.69,2.32,0.71
+football,Championship 2023 2024,Round 14,28/10/,Watford,Millwall,2,2,1,g_1_fuq5rhaO,2.15,3.28,3.84,2.17,0.81
+football,Championship 2023 2024,Round 14,28/10/,Leeds,Huddersfield,4,1,0,g_1_8lClldVn,1.33,5.4,8.8,1.9,0.77
+football,Championship 2023 2024,Round 14,28/10/,Southampton,Birmingham,3,1,0,g_1_MRpcpEUB,1.59,4.25,5.35,2.49,0.69
+football,Championship 2023 2024,Round 13,26/10/,Stoke,Leeds,1,0,0,g_1_dArWVEFI,4.02,3.8,1.93,0.72,1.61
+football,Championship 2023 2024,Round 13,26/10/,Birmingham,Hull,0,2,2,g_1_CMdAzw1m,2.44,3.28,3.17,0.52,1.13
+football,Championship 2023 2024,Round 13,26/10/,Bristol City,Ipswich,0,1,2,g_1_UciFZdGg,4.36,3.85,1.85,0.94,1.61
+football,Championship 2023 2024,Round 13,26/10/,Plymouth,Sheffield Wed,3,0,0,g_1_8ljJYGVa,2.3,3.33,3.38,1.14,1.1
+football,Championship 2023 2024,Round 13,26/10/,Preston,Southampton,2,2,1,g_1_2BkNXzo6,3.06,3.38,2.45,0.74,0.64
+football,Championship 2023 2024,Round 13,26/10/,Rotherham,Coventry,2,0,0,g_1_EogRWf0C,5.59,3.81,1.7,1.54,1.66
+football,Championship 2023 2024,Round 13,25/10/,Leicester,Sunderland,1,0,0,g_1_0rTiIeoJ,1.55,4.41,6.3,1.39,0.96
+football,Championship 2023 2024,Round 13,25/10/,West Brom,QPR,2,0,0,g_1_YVc6yJos,1.69,3.92,5.48,2.92,0.14
+football,Championship 2023 2024,Round 13,25/10/,Huddersfield,Cardiff,0,4,2,g_1_vP8M9kFK,2.5,3.27,3.07,1.37,1.7
+football,Championship 2023 2024,Round 13,25/10/,Millwall,Blackburn,1,2,2,g_1_2m7zsuOJ,2.65,3.57,2.68,1.65,1.09
+football,Championship 2023 2024,Round 13,25/10/,Norwich,Middlesbrough,1,2,2,g_1_GjBvtawQ,2.7,3.7,2.57,0.44,1.04
+football,Championship 2023 2024,Round 13,25/10/,Swansea,Watford,0,1,2,g_1_IF7Q89UQ,2.66,3.34,2.83,0.79,0.71
+football,Championship 2023 2024,Round 12,21/10/,Blackburn,Cardiff,1,0,0,g_1_KMhLBBp8,1.99,3.5,4.1,0.99,0.57
+football,Championship 2023 2024,Round 12,21/10/,Bristol City,Coventry,1,0,0,g_1_Y79A5I1D,2.85,3.51,2.54,0.25,0.35
+football,Championship 2023 2024,Round 12,21/10/,Huddersfield,QPR,2,1,0,g_1_nBchU1vE,1.8,3.86,4.63,0.48,1.02
+football,Championship 2023 2024,Round 12,21/10/,Hull,Southampton,1,2,2,g_1_Q1ddTLgK,3.14,3.49,2.34,1.06,0.62
+football,Championship 2023 2024,Round 12,21/10/,Middlesbrough,Birmingham,1,0,0,g_1_rwi1Su9Q,1.75,3.91,4.89,0.97,0.24
+football,Championship 2023 2024,Round 12,21/10/,Norwich,Leeds,2,3,2,g_1_pnwTNaHs,3.73,3.73,2.02,0.82,0.97
+football,Championship 2023 2024,Round 12,21/10/,Stoke,Sunderland,2,1,0,g_1_zyWuLc10,2.48,3.24,3.14,0.48,1.11
+football,Championship 2023 2024,Round 12,21/10/,Swansea,Leicester,1,3,2,g_1_bDiPAVaE,4.52,4.05,1.78,0.15,1.84
+football,Championship 2023 2024,Round 12,21/10/,Watford,Sheffield Wed,1,0,0,g_1_ERUqKHG6,1.81,3.62,4.92,0.45,0.34
+football,Championship 2023 2024,Round 12,21/10/,West Brom,Plymouth,0,0,1,g_1_MiUmJyWC,1.67,3.92,5.68,0.75,0.49
+football,Championship 2023 2024,Round 12,21/10/,Preston,Millwall,1,1,1,g_1_v9xXMJWm,2.39,3.27,3.26,0.49,0.25
+football,Championship 2023 2024,Round 11,07/10/,Cardiff,Watford,1,1,1,g_1_hG0Zm8h1,2.18,3.3,3.72,0.57,2.3
+football,Championship 2023 2024,Round 11,07/10/,Coventry,Norwich,1,1,1,g_1_vTrAUAYd,2.61,3.27,2.94,1.77,0.37
+football,Championship 2023 2024,Round 11,07/10/,Ipswich,Preston,4,2,0,g_1_IJsETUm3,1.51,4.42,7.05,1.9,0.42
+football,Championship 2023 2024,Round 11,07/10/,Leeds,Bristol City,2,1,0,g_1_CtsISl39,1.48,4.86,6.65,2.23,0.55
+football,Championship 2023 2024,Round 11,07/10/,Leicester,Stoke,2,0,0,g_1_QqoMR8IF,1.46,4.6,7.62,1.76,0.32
+football,Championship 2023 2024,Round 11,07/10/,Millwall,Hull,2,2,1,g_1_6sajAtmr,2.57,3.28,2.98,0.96,1.24
+football,Championship 2023 2024,Round 11,07/10/,Plymouth,Swansea,1,3,2,g_1_6J4wmS77,2.56,3.58,2.77,1.26,2.05
+football,Championship 2023 2024,Round 11,07/10/,QPR,Blackburn,0,4,2,g_1_pYcf902l,3.46,3.81,2.09,0.92,2.01
+football,Championship 2023 2024,Round 11,07/10/,Sheffield Wed,Huddersfield,0,0,1,g_1_E72b8KHf,2.77,3.18,2.82,0.65,0.67
+football,Championship 2023 2024,Round 11,07/10/,Southampton,Rotherham,1,1,1,g_1_hb127vX0,1.31,6.11,9.67,1.9,0.07
+football,Championship 2023 2024,Round 11,07/10/,Sunderland,Middlesbrough,0,4,2,g_1_zNj76bn7,2.21,3.69,3.27,0.54,2.34
+football,Championship 2023 2024,Round 11,07/10/,Birmingham,West Brom,3,1,0,g_1_vywZ5Red,2.87,3.33,2.62,1.53,1.22
+football,Championship 2023 2024,Round 10,05/10/,Rotherham,Bristol City,1,2,2,g_1_6NvR7mRq,4.36,3.49,1.94,1.25,0.54
+football,Championship 2023 2024,Round 10,05/10/,Coventry,Blackburn,1,0,0,g_1_8najEklG,2.17,3.71,3.35,0.72,0.52
+football,Championship 2023 2024,Round 10,05/10/,Leeds,QPR,1,0,0,g_1_nwbfD93M,1.34,5.3,10.1,2.03,0.32
+football,Championship 2023 2024,Round 10,05/10/,Leicester,Preston,3,0,0,g_1_U1maCTIS,1.49,4.23,8.03,1.66,0.48
+football,Championship 2023 2024,Round 10,05/10/,Sunderland,Watford,2,0,0,g_1_0pvV67tj,1.99,3.49,4.15,1.38,0.52
+football,Championship 2023 2024,Round 10,05/10/,Swansea,Norwich,2,1,0,g_1_AiBUllwe,3.0,3.18,2.62,2.28,1.62
+football,Championship 2023 2024,Round 10,04/10/,Stoke,Southampton,0,1,2,g_1_0MerGBJ3,3.04,3.37,2.47,0.68,0.97
+football,Championship 2023 2024,Round 10,04/10/,West Brom,Sheffield Wed,1,0,0,g_1_vDfnFVY9,1.58,4.09,6.52,1.15,0.13
+football,Championship 2023 2024,Round 10,04/10/,Birmingham,Huddersfield,4,1,0,g_1_hKEiglCj,2.15,3.38,3.69,2.02,2.46
+football,Championship 2023 2024,Round 10,04/10/,Ipswich,Hull,3,0,0,g_1_6N2ZHXli,1.81,3.92,4.15,0.89,0.58
+football,Championship 2023 2024,Round 10,04/10/,Middlesbrough,Cardiff,2,0,0,g_1_W0CQkUNl,1.84,3.71,4.6,1.09,0.32
+football,Championship 2023 2024,Round 10,04/10/,Plymouth,Millwall,0,2,2,g_1_Ic6wHi4c,2.53,3.61,2.79,0.74,0.94
+football,Championship 2023 2024,Round 9,01/10/,Blackburn,Leicester,1,4,2,g_1_jXkAtBSp,4.0,3.92,1.9,1.24,1.97
+football,Championship 2023 2024,Round 9,30/09/,Bristol City,Stoke,2,3,2,g_1_hxUh5f5o,2.73,3.23,2.83,1.03,1.1
+football,Championship 2023 2024,Round 9,30/09/,Cardiff,Rotherham,2,0,0,g_1_0ILfej0R,1.59,3.84,6.99,1.03,0.17
+football,Championship 2023 2024,Round 9,30/09/,Huddersfield,Ipswich,1,1,1,g_1_WSSd4EKi,3.84,3.71,2.0,1.44,1.09
+football,Championship 2023 2024,Round 9,30/09/,Hull,Plymouth,1,1,1,g_1_Q3s03YZc,1.82,3.84,4.54,1.86,0.66
+football,Championship 2023 2024,Round 9,30/09/,Millwall,Swansea,0,3,2,g_1_2R7MjA8r,2.25,3.37,3.47,1.37,1.28
+football,Championship 2023 2024,Round 9,30/09/,Norwich,Birmingham,2,0,0,g_1_4ft42hk4,1.96,3.6,4.11,1.3,0.77
+football,Championship 2023 2024,Round 9,30/09/,Preston,West Brom,0,4,2,g_1_nJV81C4A,2.55,3.37,2.93,0.38,1.39
+football,Championship 2023 2024,Round 9,30/09/,QPR,Coventry,1,3,2,g_1_0MZC0WJG,2.83,3.44,2.58,0.91,1.47
+football,Championship 2023 2024,Round 9,30/09/,Watford,Middlesbrough,2,3,2,g_1_ETFmfUdp,2.66,3.45,2.74,1.31,0.78
+football,Championship 2023 2024,Round 9,30/09/,Southampton,Leeds,3,1,0,g_1_YZXKbAlT,3.14,3.7,2.26,1.09,0.46
+football,Championship 2023 2024,Round 9,30/09/,Sheffield Wed,Sunderland,0,3,2,g_1_fqZGajZM,3.58,3.47,2.16,0.55,1.72
+football,Championship 2023 2024,Round 8,26/09/,Coventry,Huddersfield,1,1,1,g_1_IJFAhHLu,1.94,3.69,4.09,1.05,0.39
+football,Championship 2023 2024,Round 8,24/09/,Sunderland,Cardiff,0,1,2,g_1_K8DncCVE,1.94,3.46,4.41,1.21,1.67
+football,Championship 2023 2024,Round 8,24/09/,Stoke,Hull,1,3,2,g_1_KlavnX4N,2.05,3.69,3.69,0.55,1.31
+football,Championship 2023 2024,Round 8,23/09/,Ipswich,Blackburn,4,3,0,g_1_dAEEiyyn,1.73,4.3,4.58,2.64,0.66
+football,Championship 2023 2024,Round 8,23/09/,Leeds,Watford,3,0,0,g_1_vZ3Jjejh,1.78,3.92,4.65,2.57,0.24
+football,Championship 2023 2024,Round 8,23/09/,Leicester,Bristol City,1,0,0,g_1_j97NkF5b,1.66,4.07,5.42,2.31,0.29
+football,Championship 2023 2024,Round 8,23/09/,Middlesbrough,Southampton,2,1,0,g_1_pW6RlZK4,2.33,3.56,3.12,3.11,1.44
+football,Championship 2023 2024,Round 8,23/09/,Plymouth,Norwich,6,2,0,g_1_OM5VmgzB,3.68,3.81,2.01,3.31,1.97
+football,Championship 2023 2024,Round 8,23/09/,Rotherham,Preston,1,1,1,g_1_tb0zmDkH,3.58,3.47,2.16,0.09,1.76
+football,Championship 2023 2024,Round 8,23/09/,Swansea,Sheffield Wed,3,0,0,g_1_IgWkdWpL,2.07,3.26,3.84,2.04,0.74
+football,Championship 2023 2024,Round 8,23/09/,West Brom,Millwall,0,0,1,g_1_EBbroiKT,2.11,3.35,3.63,1.5,1.16
+football,Championship 2023 2024,Round 8,23/09/,Birmingham,QPR,0,0,1,g_1_6oZ4XXkU,1.9,3.59,4.44,1.32,0.97
+football,Championship 2023 2024,Round 7,21/09/,Norwich,Leicester,0,2,2,g_1_pWpdZgLH,2.64,3.57,2.7,0.82,1.91
+football,Championship 2023 2024,Round 7,21/09/,Blackburn,Sunderland,1,3,2,g_1_I3RnwxMh,2.21,3.69,3.27,2.32,1.84
+football,Championship 2023 2024,Round 7,21/09/,Huddersfield,Stoke,2,2,1,g_1_bFrpxdya,3.06,3.37,2.45,1.03,2.81
+football,Championship 2023 2024,Round 7,21/09/,Hull,Leeds,0,0,1,g_1_x6slyGj5,3.92,3.72,1.97,0.84,1.27
+football,Championship 2023 2024,Round 7,21/09/,Millwall,Rotherham,3,0,0,g_1_WSthzz6B,1.71,3.69,5.72,1.26,0.47
+football,Championship 2023 2024,Round 7,21/09/,Watford,West Brom,2,2,1,g_1_Sfz1YDzO,2.17,3.27,3.8,0.81,0.55
+football,Championship 2023 2024,Round 7,20/09/,Sheffield Wed,Middlesbrough,1,1,1,g_1_pjTvubit,3.29,3.58,2.23,1.12,0.59
+football,Championship 2023 2024,Round 7,20/09/,Bristol City,Plymouth,4,1,0,g_1_UuzVmYID,1.62,4.26,5.57,1.33,0.46
+football,Championship 2023 2024,Round 7,20/09/,Cardiff,Coventry,3,2,0,g_1_neFvaY02,2.61,3.38,2.85,1.13,0.86
+football,Championship 2023 2024,Round 7,20/09/,Preston,Birmingham,2,1,0,g_1_YD0BdQMD,2.32,3.05,3.68,0.63,0.83
+football,Championship 2023 2024,Round 7,20/09/,QPR,Swansea,1,1,1,g_1_QoErbhG8,2.62,3.39,2.83,0.73,0.48
+football,Championship 2023 2024,Round 7,20/09/,Southampton,Ipswich,0,1,2,g_1_vDSrvI6n,2.16,3.57,3.48,0.85,0.67
+football,Championship 2023 2024,Round 6,17/09/,Millwall,Leeds,0,3,2,g_1_6qvubItL,3.69,3.69,2.05,0.37,2.51
+football,Championship 2023 2024,Round 6,17/09/,Cardiff,Swansea,2,0,0,g_1_8Aqbjtc2,2.53,3.2,3.1,1.39,0.37
+football,Championship 2023 2024,Round 6,16/09/,Blackburn,Middlesbrough,2,1,0,g_1_rBhpxyK1,2.34,3.65,3.05,2.38,2.22
+football,Championship 2023 2024,Round 6,16/09/,Bristol City,West Brom,0,0,1,g_1_dEdlyeZ7,2.31,3.29,3.39,1.11,0.48
+football,Championship 2023 2024,Round 6,16/09/,Huddersfield,Rotherham,2,0,0,g_1_AHpWavC8,1.86,3.61,4.64,1.64,0.31
+football,Championship 2023 2024,Round 6,16/09/,Norwich,Stoke,1,0,0,g_1_pzwqcxdR,1.93,3.56,4.33,1.24,0.74
+football,Championship 2023 2024,Round 6,16/09/,Preston,Plymouth,2,1,0,g_1_2FPAhd4r,1.94,3.76,4.0,1.56,1.56
+football,Championship 2023 2024,Round 6,16/09/,QPR,Sunderland,1,3,2,g_1_00rEiGJl,3.22,3.53,2.29,0.06,1.73
+football,Championship 2023 2024,Round 6,16/09/,Sheffield Wed,Ipswich,0,1,2,g_1_rPXIjzZf,4.11,3.56,1.98,0.28,1.44
+football,Championship 2023 2024,Round 6,16/09/,Watford,Birmingham,2,0,0,g_1_jkyRlE37,2.07,3.42,3.93,0.35,0.8
+football,Championship 2023 2024,Round 6,16/09/,Southampton,Leicester,1,4,2,g_1_MFWMkfl1,2.46,3.58,2.9,1.49,3.29
+football,Championship 2023 2024,Round 6,16/09/,Hull,Coventry,1,1,1,g_1_l8qzabRE,2.64,3.5,2.57,1.41,0.46
+football,Championship 2023 2024,Round 5,02/09/,Coventry,Watford,3,3,1,g_1_6Ps6OHk2,2.42,3.5,3.01,1.8,0.96
+football,Championship 2023 2024,Round 5,02/09/,Ipswich,Cardiff,3,2,0,g_1_zcojh2Sk,1.58,4.41,5.76,2.31,1.73
+football,Championship 2023 2024,Round 5,02/09/,Leeds,Sheffield Wed,0,0,1,g_1_rsRlm1S2,1.46,4.82,7.1,1.23,0.88
+football,Championship 2023 2024,Round 5,02/09/,Leicester,Hull,0,1,2,g_1_MXPhnLs9,1.52,4.55,6.57,1.09,0.32
+football,Championship 2023 2024,Round 5,02/09/,Middlesbrough,QPR,0,2,2,g_1_GfPdoucF,1.58,4.48,5.68,1.31,0.69
+football,Championship 2023 2024,Round 5,02/09/,Plymouth,Blackburn,3,0,0,g_1_UcT0paCL,3.09,3.73,2.28,1.13,1.42
+football,Championship 2023 2024,Round 5,02/09/,Rotherham,Norwich,2,1,0,g_1_CMI5qJRR,4.69,3.87,1.79,0.57,1.16
+football,Championship 2023 2024,Round 5,02/09/,Stoke,Preston,0,2,2,g_1_EV4Xvwzq,1.93,3.56,4.33,1.69,1.88
+football,Championship 2023 2024,Round 5,02/09/,West Brom,Huddersfield,1,2,2,g_1_0n3uwH4e,1.74,3.85,5.12,0.93,0.8
+football,Championship 2023 2024,Round 5,02/09/,Birmingham,Millwall,1,1,1,g_1_SYr2Pczd,2.37,3.24,3.34,2.02,0.44
+football,Championship 2023 2024,Round 5,02/09/,Sunderland,Southampton,5,0,0,g_1_Me4yvckk,3.05,3.64,2.34,1.9,0.95
+football,Championship 2023 2024,Round 5,02/09/,Swansea,Bristol City,1,2,2,g_1_UJpfiMsd,2.25,3.47,3.37,1.29,2.2
+football,Championship 2023 2024,Round 4,27/08/,Watford,Blackburn,0,1,2,g_1_MytfRJ5q,2.14,3.65,3.45,1.48,0.34
+football,Championship 2023 2024,Round 4,26/08/,Birmingham,Plymouth,2,1,0,g_1_tIKKCKjj,1.9,3.67,4.34,2.51,0.95
+football,Championship 2023 2024,Round 4,26/08/,Cardiff,Sheffield Wed,2,1,0,g_1_GC4JcO4S,2.27,3.2,3.61,1.07,0.91
+football,Championship 2023 2024,Round 4,26/08/,Coventry,Sunderland,0,0,1,g_1_K8JOBv6d,2.0,3.49,4.1,1.34,0.67
+football,Championship 2023 2024,Round 4,26/08/,Huddersfield,Norwich,0,4,2,g_1_YB76zOrc,3.84,3.71,2.0,0.81,2.59
+football,Championship 2023 2024,Round 4,26/08/,Ipswich,Leeds,3,4,2,g_1_Uw1FY1D9,2.49,3.7,2.79,1.99,1.37
+football,Championship 2023 2024,Round 4,26/08/,Millwall,Stoke,1,0,0,g_1_8UaJXLSF,2.61,3.27,2.94,0.94,1.37
+football,Championship 2023 2024,Round 4,26/08/,Preston,Swansea,2,1,0,g_1_MgsngrDq,2.48,3.41,3.0,0.58,0.37
+football,Championship 2023 2024,Round 4,26/08/,Rotherham,Leicester,1,2,2,g_1_x44NWurM,6.29,4.11,1.59,0.69,1.11
+football,Championship 2023 2024,Round 4,26/08/,Southampton,QPR,2,1,0,g_1_Gf3RVacS,1.37,5.2,9.36,0.45,0.81
+football,Championship 2023 2024,Round 4,26/08/,West Brom,Middlesbrough,4,2,0,g_1_YBqbQwLk,2.23,3.54,3.34,0.62,1.81
+football,Championship 2023 2024,Round 4,26/08/,Hull,Bristol City,1,1,1,g_1_nFBAZsb3,2.3,3.46,3.26,1.41,2.97
+football,Championship 2023 2024,Round 3,20/08/,Norwich,Millwall,3,1,0,g_1_r7AuMOT3,1.91,3.73,4.18,1.62,0.53
+football,Championship 2023 2024,Round 3,19/08/,Blackburn,Hull,1,2,2,g_1_M1Pp0s7p,1.94,3.71,4.08,1.63,2.13
+football,Championship 2023 2024,Round 3,19/08/,Bristol City,Birmingham,0,2,2,g_1_YyTla1Mj,2.37,3.29,3.29,0.5,1.47
+football,Championship 2023 2024,Round 3,19/08/,Leicester,Cardiff,2,1,0,g_1_Ue6BapzG,1.51,4.42,7.05,0.61,0.71
+football,Championship 2023 2024,Round 3,19/08/,Middlesbrough,Huddersfield,1,1,1,g_1_EX5yN4Ec,1.79,3.89,4.61,2.06,1.01
+football,Championship 2023 2024,Round 3,19/08/,QPR,Ipswich,0,1,2,g_1_4MblK2bG,4.76,4.07,1.74,1.18,1.3
+football,Championship 2023 2024,Round 3,19/08/,Sheffield Wed,Preston,0,1,2,g_1_IP2hJMDM,2.66,3.33,2.82,0.31,0.53
+football,Championship 2023 2024,Round 3,19/08/,Stoke,Watford,1,0,0,g_1_Cn2dItTS,2.41,3.38,3.14,0.59,0.59
+football,Championship 2023 2024,Round 3,19/08/,Sunderland,Rotherham,2,1,0,g_1_EelOD0yp,1.62,4.26,5.57,1.49,0.74
+football,Championship 2023 2024,Round 3,19/08/,Swansea,Coventry,1,1,1,g_1_xM5Fb4kM,2.29,3.45,3.3,0.63,0.68
+football,Championship 2023 2024,Round 3,19/08/,Plymouth,Southampton,1,2,2,g_1_Mc9qLrqA,4.94,3.92,1.74,1.16,2.66
+football,Championship 2023 2024,Round 3,19/08/,Leeds,West Brom,1,1,1,g_1_zs7XNpai,2.03,3.6,3.87,1.62,0.35
+football,Championship 2023 2024,Round 2,12/08/,Birmingham,Leeds,1,0,0,g_1_dhsv4j8I,3.58,3.37,2.21,0.74,0.46
+football,Championship 2023 2024,Round 2,12/08/,Cardiff,QPR,1,2,2,g_1_8tI21653,1.85,3.85,4.36,2.16,1.29
+football,Championship 2023 2024,Round 2,12/08/,Huddersfield,Leicester,0,1,2,g_1_2kUPRg0P,0.0,0.0,0.0,1.14,1.02
+football,Championship 2023 2024,Round 2,12/08/,Hull,Sheffield Wed,4,2,0,g_1_4bGiND8t,2.42,3.25,3.24,1.92,0.28
+football,Championship 2023 2024,Round 2,12/08/,Ipswich,Stoke,2,0,0,g_1_nN5dMXNn,2.15,3.64,3.44,1.94,0.48
+football,Championship 2023 2024,Round 2,12/08/,Millwall,Bristol City,0,1,2,g_1_0Q90Liwg,1.9,3.67,4.34,0.42,0.79
+football,Championship 2023 2024,Round 2,12/08/,Preston,Sunderland,2,1,0,g_1_fm94KBha,2.5,3.46,2.93,0.64,1.38
+football,Championship 2023 2024,Round 2,12/08/,Rotherham,Blackburn,2,2,1,g_1_Yw88JV75,3.43,3.53,2.19,0.7,2.58
+football,Championship 2023 2024,Round 2,12/08/,Southampton,Norwich,4,4,1,g_1_jF2DIkNB,2.0,3.71,3.84,2.78,2.0
+football,Championship 2023 2024,Round 2,12/08/,Watford,Plymouth,0,0,1,g_1_U51HH9xI,1.76,3.87,4.91,1.32,0.95
+football,Championship 2023 2024,Round 2,12/08/,West Brom,Swansea,3,2,0,g_1_j5770QK9,2.11,3.5,3.7,1.55,2.31
+football,Championship 2023 2024,Round 2,12/08/,Coventry,Middlesbrough,3,0,0,g_1_zqtr3ANO,2.44,3.38,3.08,0.89,1.21
+football,Championship 2023 2024,Round 1,07/08/,Sunderland,Ipswich,1,2,2,g_1_ETiZ4WhC,2.78,3.46,2.62,1.28,1.0
+football,Championship 2023 2024,Round 1,06/08/,Leeds,Cardiff,2,2,1,g_1_fwEb2njc,1.49,4.6,7.16,1.58,1.07
+football,Championship 2023 2024,Round 1,06/08/,Leicester,Coventry,2,1,0,g_1_0QmV5Cw6,1.8,3.86,4.64,1.64,2.08
+football,Championship 2023 2024,Round 1,05/08/,Blackburn,West Brom,2,1,0,g_1_EFC0jXwJ,2.72,3.39,2.72,1.52,0.84
+football,Championship 2023 2024,Round 1,05/08/,Bristol City,Preston,1,1,1,g_1_GKjqFGGJ,2.08,3.49,3.81,0.84,0.38
+football,Championship 2023 2024,Round 1,05/08/,Middlesbrough,Millwall,0,1,2,g_1_E59nEzWP,2.18,3.45,3.55,0.55,1.2
+football,Championship 2023 2024,Round 1,05/08/,Norwich,Hull,2,1,0,g_1_WpdE9fvs,1.78,3.81,4.83,2.23,0.28
+football,Championship 2023 2024,Round 1,05/08/,Plymouth,Huddersfield,3,1,0,g_1_AyeI8Egm,2.32,3.5,3.19,2.04,1.5
+football,Championship 2023 2024,Round 1,05/08/,Stoke,Rotherham,4,1,0,g_1_63lR6hOa,1.68,3.87,5.61,1.37,0.7
+football,Championship 2023 2024,Round 1,05/08/,Swansea,Birmingham,1,1,1,g_1_tzQGw3Dd,1.9,3.69,4.3,1.17,0.63
+football,Championship 2023 2024,Round 1,05/08/,Watford,QPR,4,0,0,g_1_SCkN7Y8g,1.85,3.69,4.61,2.59,0.37
+football,Championship 2023 2024,Round 1,05/08/,Sheffield Wed,Southampton,1,2,2,g_1_zPDdiDOC,3.51,3.46,2.18,0.5,1.54

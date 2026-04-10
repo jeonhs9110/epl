@@ -1,0 +1,214 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,2 Bundesliga,Round 20,01/02/,Dusseldorf,Paderborn,2,1,0,2.93,3.45,2.38,g_1_I9AFwtkI,0.53,0.75
+football,2 Bundesliga,Round 20,01/02/,Hertha Berlin,Darmstadt,2,2,1,2.16,3.61,3.21,g_1_xETwvA0b,1.82,2.72
+football,2 Bundesliga,Round 20,01/02/,SG Dynamo Dresden,Arminia Bielefeld,1,1,1,2.56,3.38,2.74,g_1_6gLfzSaN,0.97,1.64
+football,2 Bundesliga,Round 20,01/02/,Kaiserslautern,Elversberg,1,3,2,2.9,3.52,2.37,g_1_jN8NyKJU,0.46,3.19
+football,2 Bundesliga,Round 20,31/01/,Bochum,Schalke,2,0,0,2.29,3.2,3.15,g_1_lG3asOkg,0.75,1.07
+football,2 Bundesliga,Round 20,31/01/,Braunschweig,Karlsruher SC,1,0,0,2.08,3.42,3.42,g_1_bTHnxlVA,1.42,0.9
+football,2 Bundesliga,Round 20,31/01/,Holstein Kiel,Greuther Furth,1,2,2,1.68,3.88,4.65,g_1_S0FjqpLt,0.88,0.98
+football,2 Bundesliga,Round 20,31/01/,Magdeburg,Hannover,1,2,2,2.77,3.44,2.5,g_1_MsH6u2K5,0.57,1.63
+football,2 Bundesliga,Round 20,31/01/,Nurnberg,Preussen Munster,1,1,1,2.15,3.34,3.46,g_1_WGQVuWVo,1.81,0.89
+football,2 Bundesliga,Round 19,25/01/,Elversberg,Bochum,1,1,1,2.0,3.67,3.59,g_1_44uIYg7L,1.36,0.78
+football,2 Bundesliga,Round 19,25/01/,Paderborn,Preussen Munster,2,1,0,1.67,3.75,5.32,g_1_0zRmTXUr,3.13,1.35
+football,2 Bundesliga,Round 19,25/01/,Schalke,Kaiserslautern,2,2,1,1.94,3.36,4.18,g_1_6g5Wwkq1,1.13,0.94
+football,2 Bundesliga,Round 19,25/01/,Magdeburg,SG Dynamo Dresden,1,2,2,1.68,4.03,4.78,g_1_KxskRBae,1.77,1.29
+football,2 Bundesliga,Round 19,24/01/,Greuther Furth,Braunschweig,0,0,1,2.89,3.32,2.46,g_1_Yu7OuBEl,0.68,1.28
+football,2 Bundesliga,Round 19,24/01/,Hannover,Dusseldorf,2,1,0,1.82,3.87,4.08,g_1_8bNqmgME,3.27,0.55
+football,2 Bundesliga,Round 19,24/01/,Karlsruher SC,Hertha Berlin,2,2,1,3.62,3.74,1.97,g_1_S2pcPkU7,1.29,1.77
+football,2 Bundesliga,Round 19,24/01/,Arminia Bielefeld,Holstein Kiel,2,2,1,2.2,3.24,3.46,g_1_2LbuxTDD,1.71,1.0
+football,2 Bundesliga,Round 19,24/01/,Darmstadt,Nurnberg,2,0,0,1.95,3.7,3.7,g_1_GOQioXjR,1.2,1.29
+football,2 Bundesliga,Round 18,18/01/,Bochum,Darmstadt,3,3,1,2.46,3.32,2.89,g_1_YoSX1eWq,2.57,1.73
+football,2 Bundesliga,Round 18,18/01/,Holstein Kiel,Paderborn,2,0,0,2.96,3.37,2.4,g_1_lEj17H8M,1.44,0.89
+football,2 Bundesliga,Round 18,18/01/,Kaiserslautern,Hannover,3,1,0,3.09,3.54,2.24,g_1_zB8SNxg3,2.79,1.68
+football,2 Bundesliga,Round 18,18/01/,Hertha Berlin,Schalke,0,0,1,2.63,3.23,2.76,g_1_4j0qKfhS,1.71,0.55
+football,2 Bundesliga,Round 18,17/01/,Nurnberg,Elversberg,3,2,0,2.53,3.44,2.73,g_1_8O6zMGNF,3.22,2.29
+football,2 Bundesliga,Round 18,17/01/,Preussen Munster,Karlsruher SC,0,2,2,1.8,3.78,4.32,g_1_KG5EEYFk,1.09,1.26
+football,2 Bundesliga,Round 18,17/01/,SG Dynamo Dresden,Greuther Furth,2,0,0,1.88,3.78,3.92,g_1_8xn9zGx9,1.36,0.48
+football,2 Bundesliga,Round 18,17/01/,Braunschweig,Magdeburg,0,3,2,2.97,3.68,2.25,g_1_tWgNCCp2,0.23,2.54
+football,2 Bundesliga,Round 18,17/01/,Dusseldorf,Arminia Bielefeld,1,0,0,2.42,3.55,2.8,g_1_K2Qu0Z0d,1.36,0.36
+football,2 Bundesliga,Round 17,21/12/,Braunschweig,Schalke,2,1,0,3.18,3.33,2.28,g_1_tlmg9wvA,1.5,1.61
+football,2 Bundesliga,Round 17,21/12/,Nurnberg,Hannover,2,1,0,3.37,3.64,2.08,g_1_0fkQ54XH,0.92,1.45
+football,2 Bundesliga,Round 17,21/12/,Preussen Munster,Elversberg,1,1,1,3.22,3.36,2.26,g_1_pMgpBa9c,2.85,2.05
+football,2 Bundesliga,Round 17,21/12/,Holstein Kiel,SG Dynamo Dresden,2,1,0,2.11,3.51,3.41,g_1_2PligRmC,0.89,1.09
+football,2 Bundesliga,Round 17,20/12/,Bochum,Karlsruher SC,2,2,1,1.63,4.2,5.0,g_1_zwmai5IO,1.42,1.81
+football,2 Bundesliga,Round 17,20/12/,Dusseldorf,Greuther Furth,2,1,0,1.78,4.07,4.07,g_1_WEc99nYh,1.81,1.36
+football,2 Bundesliga,Round 17,20/12/,Kaiserslautern,Magdeburg,2,3,2,2.36,3.72,2.78,g_1_hUoI7Q25,2.05,2.47
+football,2 Bundesliga,Round 17,20/12/,Hertha Berlin,Arminia Bielefeld,1,1,1,1.97,3.32,4.13,g_1_hS6bmdHj,0.65,0.65
+football,2 Bundesliga,Round 17,20/12/,Paderborn,Darmstadt,2,2,1,2.08,3.65,3.35,g_1_Olf1B83t,2.43,1.0
+football,2 Bundesliga,Round 16,14/12/,Darmstadt,Preussen Munster,1,0,0,1.9,3.38,4.32,g_1_hfV8tl46,2.44,0.8
+football,2 Bundesliga,Round 16,14/12/,Elversberg,Dusseldorf,1,0,0,1.55,4.39,5.6,g_1_YqFZRlkD,0.81,1.69
+football,2 Bundesliga,Round 16,14/12/,Schalke,Nurnberg,1,0,0,1.88,3.75,3.95,g_1_EaG32VQP,0.45,0.91
+football,2 Bundesliga,Round 16,14/12/,Hannover,Bochum,0,0,1,1.83,3.44,4.62,g_1_KtX0rAZg,2.84,0.77
+football,2 Bundesliga,Round 16,13/12/,Arminia Bielefeld,Kaiserslautern,0,0,1,2.11,3.61,3.31,g_1_bXizc9lm,0.86,0.11
+football,2 Bundesliga,Round 16,13/12/,Karlsruher SC2,Paderborn,0,4,2,3.09,3.65,2.2,g_1_OEwhpW4s,0.08,2.84
+football,2 Bundesliga,Round 16,13/12/,Magdeburg,Holstein Kiel,3,3,1,2.13,3.54,3.34,g_1_EuhMkhsK,2.46,2.21
+football,2 Bundesliga,Round 16,13/12/,Greuther Furth,Hertha Berlin,3,3,1,4.07,3.81,1.84,g_1_lMOHvSYI,3.22,2.12
+football,2 Bundesliga,Round 16,13/12/,SG Dynamo Dresden,Braunschweig,2,3,2,2.28,3.42,3.11,g_1_6ceremJa,1.75,2.34
+football,2 Bundesliga,Round 15,07/12/,Braunschweig,Holstein Kiel,1,1,1,2.58,3.53,2.63,g_1_QJBRTAK0,2.25,0.72
+football,2 Bundesliga,Round 15,07/12/,Hertha Berlin,Magdeburg,0,2,2,1.7,3.92,4.76,g_1_hCOvwFcE,2.05,1.98
+football,2 Bundesliga,Round 15,07/12/,Nurnberg,Greuther Furth,2,2,1,1.69,4.07,4.7,g_1_Q5WhFB57,1.33,1.39
+football,2 Bundesliga,Round 15,07/12/,Darmstadt,Karlsruher SC,3,2,0,1.7,4.07,4.58,g_1_YLWnygSQ,2.78,0.81
+football,2 Bundesliga,Round 15,06/12/,Bochum,Arminia Bielefeld,1,0,0,2.5,3.43,2.78,g_1_6y23wOic,1.95,1.35
+football,2 Bundesliga,Round 15,06/12/,Kaiserslautern,SG Dynamo Dresden,3,1,0,1.95,3.92,3.5,g_1_4jrpHXze,1.26,0.79
+football,2 Bundesliga,Round 15,06/12/,Paderborn,Elversberg,1,2,2,2.5,3.53,2.71,g_1_vk0By2M9,0.47,1.02
+football,2 Bundesliga,Round 15,06/12/,Dusseldorf,Schalke,0,2,2,3.43,3.41,2.14,g_1_dQvxJg6r,0.94,2.45
+football,2 Bundesliga,Round 15,06/12/,Preussen Munster,Hannover,2,2,1,4.25,3.95,1.77,g_1_UiIIVWkl,1.78,1.36
+football,2 Bundesliga,Round 14,30/11/,Arminia Bielefeld,Preussen Munster,1,2,2,1.67,4.07,4.82,g_1_OEVzq2ET,1.89,1.7
+football,2 Bundesliga,Round 14,30/11/,Elversberg,Darmstadt,0,0,1,0.0,0.0,0.0,g_1_GU3oYp0B,1.1,0.69
+football,2 Bundesliga,Round 14,30/11/,SG Dynamo Dresden,Dusseldorf,2,1,0,2.27,3.43,3.13,g_1_fcM6wtxi,1.96,0.99
+football,2 Bundesliga,Round 14,30/11/,Magdeburg,Nurnberg,3,0,0,2.26,3.76,2.9,g_1_ldHhWOUN,3.26,0.49
+football,2 Bundesliga,Round 14,29/11/,Braunschweig,Kaiserslautern,2,0,0,3.33,3.57,2.12,g_1_2asSpOqH,1.61,0.54
+football,2 Bundesliga,Round 14,29/11/,Greuther Furth,Bochum,0,3,2,3.3,3.53,2.14,g_1_0zoBl6ph,1.1,1.75
+football,2 Bundesliga,Round 14,29/11/,Holstein Kiel,Hertha Berlin,0,1,2,2.34,3.55,2.92,g_1_fFFxz7Vb,0.71,0.97
+football,2 Bundesliga,Round 14,29/11/,Hannover,Karlsruher SC,3,0,0,1.45,4.86,6.38,g_1_8tbPQ2ho,2.73,0.48
+football,2 Bundesliga,Round 14,29/11/,Schalke,Paderborn,2,1,0,2.53,3.23,2.88,g_1_d2vKnpF4,1.67,0.57
+football,2 Bundesliga,Round 13,23/11/,Kaiserslautern,Holstein Kiel,4,1,0,2.29,3.44,3.09,g_1_CWcnPkHt,3.75,1.77
+football,2 Bundesliga,Round 13,23/11/,Karlsruher SC,Elversberg,2,3,2,3.37,3.47,2.14,g_1_YoneNTog,1.21,3.21
+football,2 Bundesliga,Round 13,23/11/,Nurnberg,Arminia Bielefeld,2,0,0,2.2,3.61,3.13,g_1_tCk3L7G5,1.49,0.74
+football,2 Bundesliga,Round 13,23/11/,Darmstadt,Greuther Furth,4,2,0,1.54,4.61,5.38,g_1_8OtKHPFU,2.23,1.3
+football,2 Bundesliga,Round 13,22/11/,Dusseldorf,Magdeburg,2,1,0,2.1,3.83,3.18,g_1_M7Ix5nWO,2.14,1.92
+football,2 Bundesliga,Round 13,22/11/,Paderborn,Hannover,0,2,2,2.15,3.64,3.2,g_1_252y781C,0.86,1.67
+football,2 Bundesliga,Round 13,22/11/,Preussen Munster,Schalke,0,0,1,3.5,3.22,2.19,g_1_nkCUyT0n,0.52,1.07
+football,2 Bundesliga,Round 13,22/11/,Bochum,SG Dynamo Dresden,1,2,2,1.93,3.46,4.07,g_1_Ui4T8UWa,2.62,1.05
+football,2 Bundesliga,Round 13,22/11/,Hertha Berlin,Braunschweig,1,0,0,1.57,4.06,5.88,g_1_zBrCJooI,1.04,1.97
+football,2 Bundesliga,Round 12,09/11/,Braunschweig,Bochum,0,2,2,3.07,3.68,2.2,g_1_nV505eQ7,2.16,1.66
+football,2 Bundesliga,Round 12,09/11/,Holstein Kiel,Dusseldorf,1,0,0,1.74,3.98,4.43,g_1_vovBfvCk,0.89,1.05
+football,2 Bundesliga,Round 12,09/11/,Magdeburg,Paderborn,0,1,2,4.07,3.81,1.84,g_1_00SJhIt2,1.6,1.27
+football,2 Bundesliga,Round 12,09/11/,Kaiserslautern,Hertha Berlin,0,1,2,2.26,3.58,3.02,g_1_6cF5GLY8,1.01,1.03
+football,2 Bundesliga,Round 12,08/11/,Arminia Bielefeld,Karlsruher SC,4,0,0,1.98,3.76,3.55,g_1_SQrmTbIE,2.59,0.33
+football,2 Bundesliga,Round 12,08/11/,Hannover,Darmstadt,2,3,2,2.19,3.46,3.26,g_1_2P8EEa3L,2.26,1.28
+football,2 Bundesliga,Round 12,08/11/,Schalke,Elversberg,1,0,0,2.6,3.13,2.87,g_1_fNmg7Hee,0.83,0.34
+football,2 Bundesliga,Round 12,08/11/,Greuther Furth,Preussen Munster,1,0,0,2.74,3.34,2.58,g_1_befp9wRr,0.23,0.47
+football,2 Bundesliga,Round 12,08/11/,SG Dynamo Dresden,Nurnberg,1,2,2,2.54,3.66,2.59,g_1_YPAKAj2m,0.66,0.57
+football,2 Bundesliga,Round 11,02/11/,Bochum,Magdeburg,2,0,0,2.17,3.57,3.22,g_1_SCD2T1Dj,3.2,1.59
+football,2 Bundesliga,Round 11,02/11/,Dusseldorf,Kaiserslautern,1,1,1,2.71,3.63,2.45,g_1_YqZdmN4M,0.77,0.85
+football,2 Bundesliga,Round 11,02/11/,Paderborn,Greuther Furth,2,1,0,0.0,0.0,0.0,g_1_QJVlkqzA,2.23,1.39
+football,2 Bundesliga,Round 11,02/11/,Darmstadt,Arminia Bielefeld,2,2,1,2.03,3.96,3.25,g_1_CzfW1MJF,2.02,0.63
+football,2 Bundesliga,Round 11,01/11/,Hertha Berlin,SG Dynamo Dresden,2,0,0,1.68,3.72,5.29,g_1_vNeO3rk3,1.63,0.73
+football,2 Bundesliga,Round 11,01/11/,Karlsruher SC,Schalke,2,1,0,3.13,3.23,2.37,g_1_IHATs1Sq,1.38,1.39
+football,2 Bundesliga,Round 11,01/11/,Nurnberg,Braunschweig,2,1,0,1.72,3.95,4.58,g_1_QsEytucd,0.66,0.85
+football,2 Bundesliga,Round 11,01/11/,Elversberg,Hannover,2,2,1,2.32,3.93,2.73,g_1_K60li55c,1.48,1.37
+football,2 Bundesliga,Round 11,01/11/,Preussen Munster,Holstein Kiel,2,1,0,3.26,3.41,2.21,g_1_82mu00lS,1.9,1.57
+football,2 Bundesliga,Round 10,26/10/,Braunschweig,Hannover,0,3,2,3.64,3.47,2.04,g_1_vmuFx6j4,1.24,2.59
+football,2 Bundesliga,Round 10,26/10/,Kaiserslautern,Nurnberg,1,1,1,2.3,3.73,2.86,g_1_jTwvygFa,1.28,2.72
+football,2 Bundesliga,Round 10,26/10/,Magdeburg,Preussen Munster,2,0,0,1.99,3.95,3.38,g_1_4CuWxFpm,1.57,1.06
+football,2 Bundesliga,Round 10,26/10/,Hertha Berlin,Dusseldorf,1,0,0,1.81,4.05,3.95,g_1_neXnZWqC,1.38,2.01
+football,2 Bundesliga,Round 10,25/10/,Arminia Bielefeld,Elversberg,2,0,0,3.1,3.65,2.2,g_1_02TNzpLG,0.76,0.92
+football,2 Bundesliga,Round 10,25/10/,Holstein Kiel,Bochum,1,1,1,1.93,4.06,3.48,g_1_Kv4aryNP,1.68,1.24
+football,2 Bundesliga,Round 10,25/10/,SG Dynamo Dresden,Paderborn,1,2,2,3.53,3.83,1.97,g_1_8SWVYNkT,1.14,1.5
+football,2 Bundesliga,Round 10,25/10/,Greuther Furth,Karlsruher SC,1,4,2,3.5,3.71,2.01,g_1_IsfKGOTp,1.15,1.66
+football,2 Bundesliga,Round 10,25/10/,Schalke,Darmstadt,1,0,0,1.83,3.63,4.35,g_1_Ykx7vSLi,1.84,0.45
+football,2 Bundesliga,Round 9,19/10/,Darmstadt,Magdeburg,0,0,1,1.85,3.82,4.02,g_1_d6I4Mg06,0.8,0.91
+football,2 Bundesliga,Round 9,19/10/,Elversberg,Greuther Furth,6,0,0,1.47,4.78,6.1,g_1_29xPRTKl,3.62,1.15
+football,2 Bundesliga,Round 9,19/10/,Nurnberg,Holstein Kiel,1,1,1,2.59,3.28,2.77,g_1_OhKdOFVg,1.56,1.11
+football,2 Bundesliga,Round 9,19/10/,Bochum,Hertha Berlin,3,2,0,2.78,3.46,2.48,g_1_6wigXkcR,1.79,2.02
+football,2 Bundesliga,Round 9,18/10/,Karlsruher SC,Kaiserslautern,2,3,2,2.41,3.63,2.76,g_1_C0LIVcwK,2.17,1.03
+football,2 Bundesliga,Round 9,18/10/,Paderborn,Arminia Bielefeld,4,3,0,1.68,3.72,5.29,g_1_MBhQP7k1,3.41,3.1
+football,2 Bundesliga,Round 9,18/10/,Preussen Munster,SG Dynamo Dresden,2,2,1,0.0,0.0,0.0,g_1_hYBDKXUI,1.63,1.5
+football,2 Bundesliga,Round 9,18/10/,Dusseldorf,Braunschweig,1,2,2,1.93,3.55,3.96,g_1_UydYNoKD,1.25,0.94
+football,2 Bundesliga,Round 9,18/10/,Hannover,Schalke,0,3,2,1.93,3.55,3.95,g_1_rqClQy1s,1.65,2.36
+football,2 Bundesliga,Round 8,05/10/,Arminia Bielefeld,Schalke,1,2,2,2.88,3.64,2.33,g_1_r55bB8z8,0.93,1.14
+football,2 Bundesliga,Round 8,05/10/,Greuther Furth,Hannover,2,2,1,4.34,4.1,1.73,g_1_GhEsFjyq,1.93,1.58
+football,2 Bundesliga,Round 8,05/10/,Magdeburg,Elversberg,0,4,2,2.62,3.76,2.47,g_1_zLw90iMk,1.46,3.24
+football,2 Bundesliga,Round 8,05/10/,SG Dynamo Dresden,Karlsruher SC,3,3,1,2.33,3.76,2.81,g_1_ABcpZBSE,1.31,1.84
+football,2 Bundesliga,Round 8,04/10/,Hertha Berlin,Preussen Munster,2,1,0,1.88,3.84,3.83,g_1_d8XAKCDL,4.79,1.65
+football,2 Bundesliga,Round 8,04/10/,Holstein Kiel,Darmstadt,1,1,1,0.0,0.0,0.0,g_1_GWQzJaxH,2.36,0.61
+football,2 Bundesliga,Round 8,04/10/,Kaiserslautern,Bochum,3,2,0,2.02,3.74,3.44,g_1_OfZ2MYr9,3.21,0.58
+football,2 Bundesliga,Round 8,04/10/,Braunschweig,Paderborn,1,2,2,3.75,3.87,1.9,g_1_MkHkDU5e,0.44,0.94
+football,2 Bundesliga,Round 8,04/10/,Dusseldorf,Nurnberg,2,3,2,2.41,3.63,2.76,g_1_8niGbVj2,1.29,2.37
+football,2 Bundesliga,Round 7,28/09/,Hannover,Arminia Bielefeld,3,1,0,1.89,3.68,3.98,g_1_f3cg6MhB,3.09,1.03
+football,2 Bundesliga,Round 7,28/09/,Nurnberg,Hertha Berlin,0,3,2,2.28,3.65,2.94,g_1_2T0140NN,0.53,1.16
+football,2 Bundesliga,Round 7,28/09/,Preussen Munster,Braunschweig,3,1,0,2.04,3.46,3.67,g_1_86NSKL74,1.47,0.87
+football,2 Bundesliga,Round 7,28/09/,Bochum,Dusseldorf,0,1,2,2.17,3.57,3.22,g_1_j9FRiNwI,1.13,1.15
+football,2 Bundesliga,Round 7,27/09/,Elversberg,Holstein Kiel,1,0,0,2.18,3.76,3.05,g_1_OMDZk18U,2.0,0.77
+football,2 Bundesliga,Round 7,27/09/,Karlsruher SC,Magdeburg,1,0,0,2.33,3.75,2.81,g_1_Ym9p8rOb,1.26,1.96
+football,2 Bundesliga,Round 7,27/09/,Paderborn,Kaiserslautern,2,0,0,2.06,3.77,3.32,g_1_QN5xA4gn,3.96,0.71
+football,2 Bundesliga,Round 7,27/09/,Darmstadt,SG Dynamo Dresden,2,0,0,1.66,4.4,4.49,g_1_KpsYbvoo,0.75,0.44
+football,2 Bundesliga,Round 7,27/09/,Schalke,Greuther Furth,1,0,0,1.75,4.1,4.2,g_1_CvUJMswh,2.23,0.28
+football,2 Bundesliga,Round 6,21/09/,Dusseldorf,Darmstadt,0,3,2,2.56,3.71,2.56,g_1_QmkTrSfm,0.78,2.22
+football,2 Bundesliga,Round 6,21/09/,Holstein Kiel,Karlsruher SC,3,0,0,1.94,3.65,3.81,g_1_zJQAQpuJ,1.64,1.23
+football,2 Bundesliga,Round 6,21/09/,SG Dynamo Dresden,Hannover,2,2,1,2.79,3.79,2.32,g_1_fsMIgq95,1.02,2.84
+football,2 Bundesliga,Round 6,21/09/,Nurnberg,Bochum,2,1,0,2.26,3.64,2.99,g_1_fTtpupfC,1.93,1.46
+football,2 Bundesliga,Round 6,20/09/,Braunschweig,Elversberg,1,4,2,3.42,3.65,2.06,g_1_Q1U1cR9t,0.85,1.83
+football,2 Bundesliga,Round 6,20/09/,Hertha Berlin,Paderborn,0,2,2,2.53,3.61,2.63,g_1_jezgwOOO,0.57,2.38
+football,2 Bundesliga,Round 6,20/09/,Magdeburg,Schalke,0,2,2,2.38,3.44,2.94,g_1_GE3cllXP,0.86,1.43
+football,2 Bundesliga,Round 6,20/09/,Arminia Bielefeld,Greuther Furth,1,3,2,1.69,3.95,4.8,g_1_nHIAe5vg,1.37,0.97
+football,2 Bundesliga,Round 6,20/09/,Kaiserslautern,Preussen Munster,4,1,0,1.93,3.55,3.95,g_1_MFrxs6Pa,2.26,1.45
+football,2 Bundesliga,Round 5,14/09/,Elversberg,SG Dynamo Dresden,2,2,1,1.92,3.79,3.73,g_1_8ADvxKs3,2.71,2.13
+football,2 Bundesliga,Round 5,14/09/,Greuther Furth,Kaiserslautern,0,3,2,2.38,3.44,2.94,g_1_6uEDlcR8,0.24,2.48
+football,2 Bundesliga,Round 5,14/09/,Preussen Munster,Dusseldorf,1,2,2,2.42,3.23,3.03,g_1_WQTgUSuf,1.94,1.55
+football,2 Bundesliga,Round 5,14/09/,Hannover,Hertha Berlin,0,3,2,1.66,4.14,4.81,g_1_IJXISF4k,1.58,1.09
+football,2 Bundesliga,Round 5,13/09/,Darmstadt,Braunschweig,2,1,0,1.61,4.44,4.86,g_1_vZLRQgZ1,1.09,0.81
+football,2 Bundesliga,Round 5,13/09/,Karlsruher SC,Nurnberg,2,1,0,2.07,3.56,3.48,g_1_nysmYysS,0.85,2.27
+football,2 Bundesliga,Round 5,13/09/,Schalke,Holstein Kiel,0,1,2,2.28,3.54,3.03,g_1_bDVoWlBs,0.63,0.99
+football,2 Bundesliga,Round 5,13/09/,Arminia Bielefeld,Magdeburg,2,0,0,2.02,3.94,3.29,g_1_ShN2S6A6,1.84,0.49
+football,2 Bundesliga,Round 5,13/09/,Paderborn,Bochum,1,0,0,1.85,3.86,3.97,g_1_tOBnzbCF,2.54,0.91
+football,2 Bundesliga,Round 4,31/08/,Kaiserslautern,Darmstadt,3,1,0,3.16,3.46,2.24,g_1_bufdPtbc,1.83,1.14
+football,2 Bundesliga,Round 4,31/08/,Magdeburg,Greuther Furth,4,5,2,1.93,3.85,3.65,g_1_n1Qw7arT,2.19,1.42
+football,2 Bundesliga,Round 4,31/08/,SG Dynamo Dresden,Schalke,0,1,2,2.19,3.44,3.28,g_1_h2ViEGkd,1.19,1.34
+football,2 Bundesliga,Round 4,31/08/,Dusseldorf,Karlsruher SC,0,0,1,2.43,3.55,2.78,g_1_6o7A1w6j,0.95,0.36
+football,2 Bundesliga,Round 4,30/08/,Bochum,Preussen Munster,1,2,2,2.04,3.61,3.43,g_1_0pSV8LDG,1.92,0.24
+football,2 Bundesliga,Round 4,30/08/,Braunschweig,Arminia Bielefeld,1,1,1,2.63,3.64,2.48,g_1_pxSqGxLq,1.38,1.24
+football,2 Bundesliga,Round 4,30/08/,Holstein Kiel,Hannover,1,2,2,2.43,3.74,2.65,g_1_vVwNAsq4,0.95,1.05
+football,2 Bundesliga,Round 4,30/08/,Hertha Berlin,Elversberg,0,2,2,1.92,3.63,3.83,g_1_04jDLbcM,0.49,1.76
+football,2 Bundesliga,Round 4,30/08/,Nurnberg,Paderborn,0,0,1,3.3,3.74,2.05,g_1_f7m5NKS9,0.95,1.19
+football,2 Bundesliga,Round 3,24/08/,Arminia Bielefeld,SG Dynamo Dresden,1,2,2,1.96,3.4,3.95,g_1_W4zFC3Ei,0.86,1.84
+football,2 Bundesliga,Round 3,24/08/,Darmstadt,Hertha Berlin,0,0,1,0.0,0.0,0.0,g_1_88KZFH3n,0.88,1.29
+football,2 Bundesliga,Round 3,24/08/,Greuther Furth,Holstein Kiel,0,2,2,2.93,3.74,2.23,g_1_xlCjCZ2B,0.74,3.68
+football,2 Bundesliga,Round 3,24/08/,Schalke,Bochum,2,1,0,2.19,3.59,3.09,g_1_IcKbADXN,1.62,1.7
+football,2 Bundesliga,Round 3,23/08/,Hannover,Magdeburg,3,1,0,2.11,3.43,3.42,g_1_rT3O80dJ,3.01,2.37
+football,2 Bundesliga,Round 3,23/08/,Karlsruher SC,Braunschweig,2,0,0,1.8,3.99,3.99,g_1_00hXbZDc,0.91,0.45
+football,2 Bundesliga,Round 3,23/08/,Paderborn,Dusseldorf,1,2,2,1.68,4.13,4.53,g_1_OQmNAMR6,1.56,1.62
+football,2 Bundesliga,Round 3,23/08/,Elversberg,Kaiserslautern,2,1,0,2.1,3.6,3.28,g_1_jDkFCrcf,2.22,1.37
+football,2 Bundesliga,Round 3,23/08/,Preussen Munster,Nurnberg,2,1,0,2.22,3.42,3.18,g_1_ET5U4ieo,1.11,1.15
+football,2 Bundesliga,Round 2,10/08/,Bochum,Elversberg,2,0,0,2.34,3.53,2.89,g_1_dxk7qpT7,2.27,0.23
+football,2 Bundesliga,Round 2,10/08/,Hertha Berlin,Karlsruher SC,0,0,1,1.82,4.04,3.84,g_1_xAPubqr1,0.66,1.4
+football,2 Bundesliga,Round 2,10/08/,Holstein Kiel,Arminia Bielefeld,0,2,2,2.43,3.5,2.77,g_1_zN0bo6be,1.24,1.04
+football,2 Bundesliga,Round 2,10/08/,Kaiserslautern,Schalke,1,0,0,2.57,3.47,2.63,g_1_pCp15RkR,1.44,0.41
+football,2 Bundesliga,Round 2,09/08/,Braunschweig,Greuther Furth,3,2,0,2.35,3.5,2.88,g_1_O25zKQ4K,1.98,1.39
+football,2 Bundesliga,Round 2,09/08/,Dusseldorf,Hannover,0,2,2,2.36,3.74,2.73,g_1_lpih7mLE,0.42,2.41
+football,2 Bundesliga,Round 2,09/08/,SG Dynamo Dresden,Magdeburg,1,2,2,2.8,3.64,2.34,g_1_fod6E4Ss,2.32,0.59
+football,2 Bundesliga,Round 2,09/08/,Nurnberg,Darmstadt,0,1,2,2.65,3.63,2.47,g_1_trWWa5Dl,0.81,1.26
+football,2 Bundesliga,Round 2,09/08/,Preussen Munster,Paderborn,1,1,1,3.27,3.32,2.22,g_1_r7SmdNCD,0.43,1.21
+football,2 Bundesliga,Round 1,03/08/,Greuther Furth,SG Dynamo Dresden,3,2,0,2.27,3.51,3.05,g_1_8CGJhl6L,2.03,1.04
+football,2 Bundesliga,Round 1,03/08/,Hannover,Kaiserslautern,1,0,0,2.15,3.72,3.14,g_1_MJzPW6q2,1.71,0.41
+football,2 Bundesliga,Round 1,03/08/,Magdeburg,Braunschweig,0,1,2,1.69,4.36,4.35,g_1_ULepvkiS,1.61,0.39
+football,2 Bundesliga,Round 1,03/08/,Arminia Bielefeld,Dusseldorf,5,1,0,2.7,3.66,2.45,g_1_SdcjmSTr,2.61,1.01
+football,2 Bundesliga,Round 1,02/08/,Darmstadt,Bochum,4,1,0,2.41,3.54,2.82,g_1_zaIBfAy9,2.95,1.41
+football,2 Bundesliga,Round 1,02/08/,Elversberg,Nurnberg,1,0,0,1.97,3.74,3.6,g_1_2gxyrXi3,1.06,0.84
+football,2 Bundesliga,Round 1,02/08/,Karlsruher SC,Preussen Munster,3,2,0,2.08,3.56,3.44,g_1_EgXGYSEk,1.68,0.64
+football,2 Bundesliga,Round 1,02/08/,Paderborn,Holstein Kiel,2,1,0,2.41,3.54,2.82,g_1_MehxtBMF,1.29,0.43
+football,2 Bundesliga,Round 1,02/08/,Schalke,Hertha Berlin,2,1,0,2.85,3.57,2.37,g_1_Mk1708Bi,1.28,0.54
+football,2 Bundesliga,Round 21,08/02/,Darmstadt,Kaiserslautern,4,0,0,2.17,3.33,3.43,g_1_6FdVn5qT,1.99,1.61
+football,2 Bundesliga,Round 21,07/02/,Elversberg,Hertha Berlin,0,3,2,0.0,0.0,0.0,g_1_Qw2RU5Np,1.4,1.23
+football,2 Bundesliga,Round 21,07/02/,Paderborn,Nurnberg,2,1,0,1.91,3.73,3.82,g_1_IXlDh9Fi,1.73,0.71
+football,2 Bundesliga,Round 21,07/02/,Schalke,SG Dynamo Dresden,2,2,1,1.78,3.74,4.47,g_1_xlpm5nac,1.58,0.98
+football,2 Bundesliga,Round 21,07/02/,Greuther Furth,Magdeburg,4,5,2,4.25,4.15,1.74,g_1_xbm1sq7j,1.77,1.58
+football,2 Bundesliga,Round 21,07/02/,Preussen Munster,Bochum,1,1,1,2.64,3.3,2.7,g_1_A1re3QT9,1.46,1.84
+football,2 Bundesliga,Round 21,08/02/,Arminia Bielefeld,Braunschweig,3,2,0,1.83,3.56,4.41,g_1_6Ty414bM,1.76,0.65
+football,2 Bundesliga,Round 21,08/02/,Hannover,Holstein Kiel,3,1,0,1.62,3.81,5.81,g_1_p08MlREG,3.66,0.75
+football,2 Bundesliga,Round 21,08/02/,Karlsruher SC,Dusseldorf,1,1,1,3.54,3.64,2.02,g_1_xz5Ejmp4,0.36,1.84
+football,2 Bundesliga,Round 22,14/02/,Dusseldorf,Preussen Munster,0,0,1,1.82,3.65,4.38,g_1_0jcwG3DF,1.46,0.67
+football,2 Bundesliga,Round 22,14/02/,Nurnberg,Karlsruher SC,5,1,0,1.7,4.17,4.49,g_1_S4DJeZR0,1.76,1.56
+football,2 Bundesliga,Round 22,15/02/,SG Dynamo Dresden,Elversberg,1,2,2,3.2,3.5,2.2,g_1_ptppCfCs,0.72,1.03
+football,2 Bundesliga,Round 22,14/02/,Braunschweig,Darmstadt,2,2,1,3.39,3.33,2.19,g_1_EcgEHGlK,1.97,1.34
+football,2 Bundesliga,Round 22,14/02/,Hertha Berlin,Hannover,2,3,2,2.97,3.63,2.27,g_1_Y1GRgDdD,1.63,2.82
+football,2 Bundesliga,Round 22,14/02/,Kaiserslautern,Greuther Furth,1,0,0,1.67,3.88,5.1,g_1_WxKAcecl,1.72,0.72
+football,2 Bundesliga,Round 22,15/02/,Bochum,Paderborn,0,0,1,2.73,3.44,2.53,g_1_bRGrfMjd,2.24,0.39
+football,2 Bundesliga,Round 22,15/02/,Holstein Kiel,Schalke,1,2,2,3.19,3.23,2.33,g_1_xCSZerMq,1.35,3.07
+football,2 Bundesliga,Round 22,15/02/,Magdeburg,Arminia Bielefeld,0,2,2,2.14,3.76,3.15,g_1_4O3UHPr3,1.58,1.14
+football,2 Bundesliga,Round 23,22/02/,Schalke,Magdeburg,5,3,0,1.95,4.23,3.29,g_1_6kVrJTPO,3.17,1.52
+football,2 Bundesliga,Round 23,21/02/,Darmstadt,Dusseldorf,2,1,0,2.07,3.56,3.48,g_1_vwvSMBQa,1.87,1.66
+football,2 Bundesliga,Round 23,21/02/,Elversberg,Braunschweig,3,1,0,1.62,4.22,5.02,g_1_ELy18CB6,2.41,0.55
+football,2 Bundesliga,Round 23,21/02/,Karlsruher SC,Holstein Kiel,3,1,0,2.44,3.3,2.94,g_1_nuamUgYP,2.39,1.37
+football,2 Bundesliga,Round 23,21/02/,Bochum,Nurnberg,1,1,1,2.14,3.53,3.3,g_1_t8wgAYtf,1.5,1.18
+football,2 Bundesliga,Round 23,21/02/,Greuther Furth,Arminia Bielefeld,2,1,0,4.14,3.84,1.82,g_1_YyXzLkeC,1.7,1.12
+football,2 Bundesliga,Round 23,22/02/,Hannover,SG Dynamo Dresden,0,0,1,1.51,4.54,5.81,g_1_WCzKOXem,0.64,0.44
+football,2 Bundesliga,Round 23,22/02/,Paderborn,Hertha Berlin,5,2,0,2.28,3.54,3.03,g_1_KY616jtJ,3.47,1.15
+football,2 Bundesliga,Round 23,22/02/,Preussen Munster,Kaiserslautern,2,3,2,2.48,3.29,2.9,g_1_pG0gwXAt,1.53,3.8
+football,2 Bundesliga,Round 24,01/03/,Greuther Furth,Schalke,1,1,1,4.66,3.98,1.7,g_1_8IDqllPb,0.67,1.81
+football,2 Bundesliga,Round 24,28/02/,Arminia Bielefeld,Hannover,0,1,2,2.78,3.77,2.34,g_1_KErPTJwp,1.5,1.34
+football,2 Bundesliga,Round 24,28/02/,Holstein Kiel,Elversberg,1,1,1,3.26,3.72,2.1,g_1_ht41yBug,1.05,0.94
+football,2 Bundesliga,Round 24,28/02/,Kaiserslautern,Paderborn,1,2,2,3.48,3.73,2.02,g_1_dvpRV69U,0.39,2.81
+football,2 Bundesliga,Round 24,28/02/,Dusseldorf,Bochum,2,1,0,2.17,3.84,3.02,g_1_0CjIXSvI,1.5,1.36
+football,2 Bundesliga,Round 24,28/02/,SG Dynamo Dresden,Darmstadt,3,1,0,2.53,3.56,2.66,g_1_SvnXRc8d,1.95,0.97

@@ -1,0 +1,322 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Eredivisie 2024 2025,Regular Season,02/06/,Willem II,TelstarWinner,1,3,2,2.25,3.24,3.35,g_1_KvGmRriJ,0.85,2.0
+football,Eredivisie 2024 2025,Regular Season,30/05/,Telstar,Willem II,2,2,1,2.47,3.24,2.96,g_1_nRHuT4M6,0.8,1.48
+football,Eredivisie 2024 2025,Regular Season,26/05/,AZ AlkmaarWinner,Twente,3,2,0,1.69,4.23,4.91,g_1_GEu1xAXp,2.79,2.08
+football,Eredivisie 2024 2025,Regular Season,25/05/,Willem IIAdvancing to next round,Dordrecht,4,2,0,1.93,3.65,3.84,g_1_EetyuFEq,1.12,0.61
+football,Eredivisie 2024 2025,Regular Season,24/05/,TelstarAdvancing to next round,Den Bosch,2,1,0,1.69,4.05,4.73,g_1_KQ2GTIpI,1.6,1.4
+football,Eredivisie 2024 2025,Regular Season,23/05/,TwenteAdvancing to next round,Nijmegen,3,2,0,1.76,3.95,4.75,g_1_0lMV0dy3,1.17,2.83
+football,Eredivisie 2024 2025,Regular Season,23/05/,AZ AlkmaarAdvancing to next round,Heerenveen,4,1,0,1.34,5.77,9.0,g_1_dGFvaz6F,3.16,0.54
+football,Eredivisie 2024 2025,Regular Season,22/05/,Dordrecht,Willem II,2,1,0,2.13,3.46,3.4,g_1_rDk5pyiM,0.81,3.27
+football,Eredivisie 2024 2025,Regular Season,21/05/,Den Bosch,Telstar,0,0,1,3.25,3.3,2.27,g_1_bBE7VvG5,1.48,0.52
+football,Eredivisie 2024 2025,Round 34,18/05/,Ajax,Twente,2,0,0,1.43,5.62,6.45,g_1_OrwJsE0m,1.74,0.79
+football,Eredivisie 2024 2025,Round 34,18/05/,AZ Alkmaar,Almere City,1,1,1,1.25,7.2,10.8,g_1_pbRRuhVa,1.5,0.43
+football,Eredivisie 2024 2025,Round 34,18/05/,Heerenveen,Feyenoord,2,0,0,3.55,4.29,1.94,g_1_hp6Aj9qI,2.07,1.1
+football,Eredivisie 2024 2025,Round 34,18/05/,Heracles,Nijmegen,1,2,2,2.38,3.57,3.02,g_1_ljOrxAUO,1.27,1.74
+football,Eredivisie 2024 2025,Round 34,18/05/,NAC Breda,Willem II,1,1,1,1.75,3.91,4.89,g_1_42bhdDFt,2.72,1.64
+football,Eredivisie 2024 2025,Round 34,18/05/,Sittard,Utrecht,0,0,1,0.0,0.0,0.0,g_1_hOUZwWaC,0.48,0.62
+football,Eredivisie 2024 2025,Round 34,18/05/,Sparta Rotterdam,PSV,1,3,2,9.74,6.17,1.3,g_1_0A9IlmEU,0.68,2.92
+football,Eredivisie 2024 2025,Round 34,18/05/,Waalwijk,G.A. Eagles,5,3,0,2.61,4.14,2.46,g_1_WUH1hVE5,3.09,4.49
+football,Eredivisie 2024 2025,Round 34,18/05/,Zwolle,Groningen,2,0,0,2.03,3.66,3.76,g_1_O4Egfipg,1.53,0.62
+football,Eredivisie 2024 2025,Round 34,18/05/,DordrechtAdvancing to next round,De Graafschap,2,0,0,2.26,3.68,2.96,g_1_Ew9kOTCk,0.72,1.68
+football,Eredivisie 2024 2025,Round 34,17/05/,Den Haag,TelstarAdvancing to next round,0,1,2,1.65,4.15,4.91,g_1_nTOAVBKF,1.02,0.94
+football,Eredivisie 2024 2025,Round 34,17/05/,Cambuur,Den BoschAdvancing to next round,1,1,1,0.0,0.0,0.0,g_1_EPTG9Ucd,2.67,0.59
+football,Eredivisie 2024 2025,Round 33,15/05/,Almere City,Sittard,1,1,1,1.87,3.83,4.26,g_1_dfv3Gy2l,0.97,1.09
+football,Eredivisie 2024 2025,Round 33,15/05/,Feyenoord,Waalwijk,2,0,0,0.0,0.0,0.0,g_1_xEaxVzHs,3.89,0.2
+football,Eredivisie 2024 2025,Round 33,15/05/,G.A. Eagles,Heerenveen,1,0,0,2.45,3.77,2.8,g_1_AuDqTEof,1.59,1.07
+football,Eredivisie 2024 2025,Round 33,15/05/,Groningen,Ajax,2,2,1,5.87,4.3,1.59,g_1_U7xBEFW0,1.78,0.8
+football,Eredivisie 2024 2025,Round 33,15/05/,Nijmegen,NAC Breda,3,0,0,1.47,4.92,6.74,g_1_676hRhG6,2.13,1.23
+football,Eredivisie 2024 2025,Round 33,15/05/,PSV,Heracles,4,1,0,1.06,13.0,29.0,g_1_vL40PWpJ,3.0,0.65
+football,Eredivisie 2024 2025,Round 33,15/05/,Twente,AZ Alkmaar,2,3,2,2.78,3.32,2.7,g_1_QZVJCg1D,2.08,2.04
+football,Eredivisie 2024 2025,Round 33,15/05/,Utrecht,Sparta Rotterdam,1,1,1,1.81,3.83,4.61,g_1_htO5zcgK,2.65,1.08
+football,Eredivisie 2024 2025,Round 33,15/05/,Willem II,Zwolle,1,2,2,2.97,3.38,2.51,g_1_fTnmmzwQ,1.0,1.09
+football,Eredivisie 2024 2025,Round 33,14/05/,De Graafschap,Dordrecht,0,0,1,1.8,4.15,3.8,g_1_fgSITkkS,0.8,0.6
+football,Eredivisie 2024 2025,Round 33,14/05/,Telstar,Den Haag,2,0,0,2.68,3.58,2.43,g_1_QDz2XXk3,0.97,0.78
+football,Eredivisie 2024 2025,Round 33,13/05/,Den Bosch,Cambuur,1,0,0,3.05,3.6,2.2,g_1_Icz8BjTq,0.99,1.3
+football,Eredivisie 2024 2025,Round 32,11/05/,Ajax,Nijmegen,0,3,2,1.23,7.09,12.7,g_1_pdET5olT,2.44,0.75
+football,Eredivisie 2024 2025,Round 32,11/05/,AZ Alkmaar,Groningen,3,0,0,1.77,3.89,4.8,g_1_dzrnOS3c,3.26,0.65
+football,Eredivisie 2024 2025,Round 32,11/05/,Feyenoord,PSV,2,3,2,3.23,4.03,2.11,g_1_QFZ2Kp3M,1.17,2.92
+football,Eredivisie 2024 2025,Round 32,11/05/,Twente,Utrecht,2,0,0,1.88,3.99,4.04,g_1_h2yeM6Y9,1.33,1.03
+football,Eredivisie 2024 2025,Round 32,11/05/,Zwolle,G.A. Eagles,1,1,1,2.41,4.1,2.69,g_1_G0tzD2ed,2.08,1.15
+football,Eredivisie 2024 2025,Round 32,11/05/,Almere City,Sparta Rotterdam,0,3,2,2.79,3.61,2.53,g_1_UTk00PBj,1.73,1.94
+football,Eredivisie 2024 2025,Round 32,11/05/,Sittard,NAC Breda,1,0,0,1.8,3.8,4.69,g_1_8zwSEOQq,1.43,1.07
+football,Eredivisie 2024 2025,Round 32,10/05/,Waalwijk,Heerenveen,3,1,0,3.39,4.01,2.06,g_1_ddJMz6m3,1.36,0.91
+football,Eredivisie 2024 2025,Round 32,10/05/,Willem II,Heracles,1,2,2,2.59,3.59,2.73,g_1_4MMUYqIF,0.87,2.22
+football,Eredivisie 2024 2025,Round 31,04/05/,G.A. Eagles,AZ Alkmaar,0,3,2,3.76,4.01,1.94,g_1_UoqWdj5b,0.78,1.62
+football,Eredivisie 2024 2025,Round 31,04/05/,Sparta Rotterdam,Twente,0,2,2,2.48,3.62,2.85,g_1_hldM77JG,0.69,0.69
+football,Eredivisie 2024 2025,Round 31,04/05/,NAC Breda,Zwolle,1,3,2,2.14,3.67,3.45,g_1_80MImnSp,0.8,1.45
+football,Eredivisie 2024 2025,Round 31,04/05/,PSV,Sittard,4,1,0,1.11,11.2,25.0,g_1_O845BkKi,2.99,0.29
+football,Eredivisie 2024 2025,Round 31,04/05/,Groningen,Waalwijk,6,1,0,1.45,4.6,8.28,g_1_I7FDv9kU,3.22,1.14
+football,Eredivisie 2024 2025,Round 31,04/05/,Heracles,Feyenoord,1,4,2,5.13,4.67,1.61,g_1_xCnveUZA,1.28,2.4
+football,Eredivisie 2024 2025,Round 31,03/05/,Nijmegen,Willem II,1,1,1,1.61,4.48,5.43,g_1_bRzmg84N,2.83,0.56
+football,Eredivisie 2024 2025,Round 30,27/04/,Almere City,G.A. Eagles,0,0,1,2.69,3.92,2.48,g_1_MqEi4DeR,1.93,0.22
+football,Eredivisie 2024 2025,Round 30,27/04/,Ajax,Sparta Rotterdam,1,1,1,1.49,4.92,6.47,g_1_0UPr6ZQE,3.21,1.06
+football,Eredivisie 2024 2025,Round 30,27/04/,Heerenveen,Nijmegen,1,0,0,2.32,3.68,3.05,g_1_O8M4tVKH,1.66,0.4
+football,Eredivisie 2024 2025,Round 30,27/04/,Sittard,Willem II,1,0,0,1.73,3.88,5.16,g_1_fTUmpDLh,1.61,0.23
+football,Eredivisie 2024 2025,Round 30,26/04/,Feyenoord,Zwolle,4,0,0,1.24,6.52,14.1,g_1_n3RunZjt,1.34,1.34
+football,Eredivisie 2024 2025,Round 30,26/04/,Waalwijk,Utrecht,0,4,2,4.02,3.96,1.89,g_1_GrJdrij5,0.84,2.05
+football,Eredivisie 2024 2025,Round 30,25/04/,Twente,PSV,1,3,2,4.84,4.64,1.64,g_1_M7dve9ID,0.82,2.09
+football,Eredivisie 2024 2025,Round 30,25/04/,AZ Alkmaar,NAC Breda,1,1,1,0.0,0.0,0.0,g_1_hS4NbiJl,1.4,0.43
+football,Eredivisie 2024 2025,Round 30,24/04/,Groningen,Heracles,4,1,0,2.04,3.28,4.27,g_1_lfbWdVm1,1.93,0.38
+football,Eredivisie 2024 2025,Round 31,20/04/,Utrecht,Ajax,4,0,0,3.89,3.73,1.98,g_1_YJkNbCzn,0.8,0.33
+football,Eredivisie 2024 2025,Round 31,20/04/,Heerenveen,Almere City,2,1,0,1.86,3.96,4.16,g_1_dM2D9Tl4,1.36,1.09
+football,Eredivisie 2024 2025,Round 29,13/04/,Willem II,Ajax,1,2,2,9.18,5.36,1.36,g_1_vPvlph4e,0.32,2.51
+football,Eredivisie 2024 2025,Round 29,13/04/,Heracles,AZ Alkmaar,1,0,0,3.63,3.58,2.1,g_1_h4vzwycS,1.42,0.58
+football,Eredivisie 2024 2025,Round 29,13/04/,Zwolle,Twente,1,1,1,3.86,3.81,1.97,g_1_0A11gds9,1.61,0.63
+football,Eredivisie 2024 2025,Round 29,13/04/,Utrecht,Groningen,3,1,0,1.94,3.52,4.32,g_1_vsYJtJc3,1.59,1.08
+football,Eredivisie 2024 2025,Round 29,13/04/,NAC Breda,G.A. Eagles,1,1,1,3.44,3.61,2.16,g_1_KEOEVhk2,1.87,1.11
+football,Eredivisie 2024 2025,Round 29,13/04/,PSV,Almere City,5,0,0,1.12,11.2,21.0,g_1_nRa9izCL,4.96,0.76
+football,Eredivisie 2024 2025,Round 29,13/04/,Sparta Rotterdam,Heerenveen,3,1,0,1.89,3.98,3.98,g_1_6BttnEZr,2.9,1.42
+football,Eredivisie 2024 2025,Round 29,12/04/,Sittard,Feyenoord,0,2,2,6.22,4.5,1.54,g_1_KjtSvcSF,0.3,1.75
+football,Eredivisie 2024 2025,Round 29,12/04/,Nijmegen,Waalwijk,2,1,0,1.77,4.0,4.63,g_1_ClL6XEKk,1.4,1.18
+football,Eredivisie 2024 2025,Round 28,06/04/,Ajax,NAC Breda,3,1,0,1.29,6.38,10.1,g_1_v3o9SSxg,1.99,0.66
+football,Eredivisie 2024 2025,Round 28,06/04/,G.A. Eagles,Utrecht,2,2,1,2.19,4.0,3.08,g_1_0zohSJrA,1.86,1.14
+football,Eredivisie 2024 2025,Round 28,06/04/,Sparta Rotterdam,Nijmegen,2,0,0,1.78,3.97,4.58,g_1_CztYIF5d,0.59,0.71
+football,Eredivisie 2024 2025,Round 28,06/04/,Waalwijk,Heracles,0,0,1,2.52,3.63,2.79,g_1_Kx1gQcDM,1.6,0.95
+football,Eredivisie 2024 2025,Round 28,06/04/,Almere City,Zwolle,2,2,1,2.53,3.37,2.94,g_1_p0lHQ675,3.17,1.29
+football,Eredivisie 2024 2025,Round 28,06/04/,Groningen,PSV,1,3,2,6.94,4.87,1.47,g_1_CE4c6xMj,0.7,1.49
+football,Eredivisie 2024 2025,Round 28,06/04/,Twente,Sittard,1,1,1,1.43,5.13,7.4,g_1_SMnpUuEc,1.78,0.72
+football,Eredivisie 2024 2025,Round 28,05/04/,AZ Alkmaar,Feyenoord,0,1,2,2.74,3.61,2.58,g_1_6FxQOpxI,0.85,0.23
+football,Eredivisie 2024 2025,Round 28,05/04/,Heerenveen,Willem II,3,1,0,1.56,4.44,6.14,g_1_jLiPKyyp,1.74,1.42
+football,Eredivisie 2024 2025,Round 25,03/04/,Feyenoord,Groningen,4,1,0,1.43,4.75,8.25,g_1_MN2DqRCi,1.12,0.86
+football,Eredivisie 2024 2025,Round 25,02/04/,AZ Alkmaar,Waalwijk,2,2,1,1.25,7.2,11.3,g_1_zXscsyWN,2.38,0.83
+football,Eredivisie 2024 2025,Round 27,30/03/,Feyenoord,G.A. Eagles,3,2,0,1.45,5.13,6.95,g_1_IBk1aU86,1.62,0.79
+football,Eredivisie 2024 2025,Round 27,30/03/,Heracles,Twente,2,1,0,4.07,3.8,1.92,g_1_6XVeLBVP,1.8,0.64
+football,Eredivisie 2024 2025,Round 27,30/03/,PSV,Ajax,0,2,2,0.0,0.0,0.0,g_1_SOHjAoNO,1.3,0.83
+football,Eredivisie 2024 2025,Round 27,30/03/,Utrecht,Heerenveen,2,0,0,1.88,3.87,4.19,g_1_OCdh1jvf,1.22,0.97
+football,Eredivisie 2024 2025,Round 27,30/03/,Nijmegen,AZ Alkmaar,3,3,1,4.21,3.63,1.93,g_1_xGMRFkgm,1.38,1.01
+football,Eredivisie 2024 2025,Round 27,30/03/,Zwolle,Waalwijk,2,0,0,1.99,3.76,3.81,g_1_WdOsC7hC,2.6,0.27
+football,Eredivisie 2024 2025,Round 27,30/03/,Sittard,Sparta Rotterdam,0,3,2,3.0,3.31,2.53,g_1_jPm9c8wJ,1.48,2.0
+football,Eredivisie 2024 2025,Round 27,30/03/,Willem II,Almere City,0,2,2,2.74,3.34,2.74,g_1_ryh0Ul8t,0.67,1.94
+football,Eredivisie 2024 2025,Round 27,30/03/,NAC Breda,Groningen,1,1,1,3.1,3.1,2.59,g_1_bVAzETNa,1.74,1.26
+football,Eredivisie 2024 2025,Round 26,17/03/,Ajax,AZ Alkmaar,2,2,1,1.93,3.82,3.98,g_1_CvWqzEue,1.42,0.72
+football,Eredivisie 2024 2025,Round 26,16/03/,Groningen,Sittard,1,0,0,1.98,3.44,4.27,g_1_prRwde2E,1.12,0.36
+football,Eredivisie 2024 2025,Round 26,16/03/,Twente,Feyenoord,2,6,2,2.61,3.59,2.71,g_1_h8UofZWQ,1.08,3.93
+football,Eredivisie 2024 2025,Round 26,16/03/,G.A. Eagles,Willem II,1,0,0,1.49,4.44,7.39,g_1_p69QniP0,0.99,0.19
+football,Eredivisie 2024 2025,Round 26,16/03/,Heerenveen,Heracles,1,1,1,1.87,3.74,4.36,g_1_WEHD8YoK,1.23,0.39
+football,Eredivisie 2024 2025,Round 26,16/03/,Waalwijk,PSV,0,3,2,8.57,6.16,1.33,g_1_48PRpVgD,0.12,2.0
+football,Eredivisie 2024 2025,Round 26,16/03/,Sparta Rotterdam,Zwolle,1,1,1,1.74,3.92,4.96,g_1_Gngp3C9s,1.6,0.82
+football,Eredivisie 2024 2025,Round 26,16/03/,Utrecht,Nijmegen,0,1,2,1.78,3.8,4.88,g_1_ChBIlDfl,1.75,1.53
+football,Eredivisie 2024 2025,Round 26,15/03/,Almere City,NAC Breda,1,1,1,2.28,3.5,3.27,g_1_4nliYiA7,1.44,0.83
+football,Eredivisie 2024 2025,Round 25,10/03/,Twente,Almere City,1,0,0,1.3,6.38,9.33,g_1_6FYSyFgo,1.86,0.71
+football,Eredivisie 2024 2025,Round 25,09/03/,Nijmegen,G.A. Eagles,2,3,2,2.59,3.57,2.74,g_1_j3fUuqCG,0.6,2.77
+football,Eredivisie 2024 2025,Round 25,09/03/,Zwolle,Ajax,0,1,2,6.37,4.28,1.57,g_1_lbMfd4dc,0.44,2.44
+football,Eredivisie 2024 2025,Round 25,09/03/,Willem II,Utrecht,2,3,2,3.6,3.6,2.1,g_1_GCxyxzBr,1.11,1.61
+football,Eredivisie 2024 2025,Round 25,09/03/,PSV,Heerenveen,2,1,0,1.25,7.2,11.3,g_1_pQF3frR9,2.93,0.71
+football,Eredivisie 2024 2025,Round 25,09/03/,Sittard,Heracles,1,0,0,2.43,3.58,2.95,g_1_fy1Ls5s4,2.48,0.19
+football,Eredivisie 2024 2025,Round 25,08/03/,NAC Breda,Sparta Rotterdam,1,1,1,3.45,3.3,2.29,g_1_bTcxvNtT,1.06,0.96
+football,Eredivisie 2024 2025,Round 24,03/03/,Sparta Rotterdam,Willem II,4,0,0,1.71,3.84,5.38,g_1_EHglqc1B,2.2,0.28
+football,Eredivisie 2024 2025,Round 24,02/03/,Almere City,Ajax,0,1,2,6.45,4.65,1.51,g_1_zcRmGbXO,0.68,0.67
+football,Eredivisie 2024 2025,Round 24,02/03/,Heracles,Zwolle,4,2,0,2.3,3.47,3.24,g_1_pSpWSyHU,2.91,0.74
+football,Eredivisie 2024 2025,Round 24,02/03/,Heerenveen,AZ Alkmaar,3,1,0,3.8,3.41,2.1,g_1_6ijtoJWb,1.92,1.14
+football,Eredivisie 2024 2025,Round 24,02/03/,Feyenoord,Nijmegen,0,0,1,1.48,4.9,6.71,g_1_tzlFWJH5,1.1,0.21
+football,Eredivisie 2024 2025,Round 24,02/03/,Groningen,Twente,1,1,1,4.22,3.43,1.99,g_1_ENdbz2It,1.15,1.4
+football,Eredivisie 2024 2025,Round 24,02/03/,G.A. Eagles,PSV,3,2,0,6.43,4.88,1.49,g_1_l0iNUcnI,1.95,1.25
+football,Eredivisie 2024 2025,Round 24,02/03/,Utrecht,NAC Breda,1,0,0,1.59,4.38,5.81,g_1_KKa6Yumg,2.31,0.5
+football,Eredivisie 2024 2025,Round 24,01/03/,Waalwijk,Sittard,1,2,2,2.23,3.61,3.28,g_1_0vLumu2n,1.38,2.33
+football,Eredivisie 2024 2025,Round 23,24/02/,AZ Alkmaar,Sittard,1,0,0,1.3,5.61,11.8,g_1_0bqIPB4L,1.44,0.49
+football,Eredivisie 2024 2025,Round 20,23/02/,Ajax,G.A. Eagles,2,0,0,1.49,5.1,6.65,g_1_xUmZKSH0,1.9,0.23
+football,Eredivisie 2024 2025,Round 20,23/02/,Twente,Nijmegen,2,0,0,1.53,4.55,5.6,g_1_UHPayl2s,2.21,1.6
+football,Eredivisie 2024 2025,Round 20,23/02/,Feyenoord,Almere City,2,1,0,1.25,6.43,13.4,g_1_xrT7ZRWg,2.16,1.0
+football,Eredivisie 2024 2025,Round 23,17/02/,Ajax,Heracles,4,0,0,1.35,5.85,8.48,g_1_hYuARXZ8,2.64,0.46
+football,Eredivisie 2024 2025,Round 23,16/02/,Twente,Waalwijk,2,0,0,1.37,6.11,7.35,g_1_4QvlKkSr,1.7,0.74
+football,Eredivisie 2024 2025,Round 23,16/02/,Zwolle,Heerenveen,1,1,1,2.77,3.58,2.5,g_1_K0yPL23m,0.79,1.29
+football,Eredivisie 2024 2025,Round 23,16/02/,Nijmegen,Almere City,2,2,1,1.59,4.19,6.13,g_1_Y5W4G7R7,1.04,0.72
+football,Eredivisie 2024 2025,Round 23,16/02/,Willem II,Groningen,1,3,2,2.82,2.94,2.97,g_1_2qTuIK2C,0.8,1.61
+football,Eredivisie 2024 2025,Round 23,16/02/,NAC Breda,Feyenoord,0,0,1,5.83,4.58,1.56,g_1_0COjvBJE,1.83,2.05
+football,Eredivisie 2024 2025,Round 23,16/02/,PSV,Utrecht,2,2,1,1.36,5.64,8.55,g_1_6HZWJtYa,3.34,1.47
+football,Eredivisie 2024 2025,Round 23,15/02/,G.A. Eagles,Sparta Rotterdam,1,0,0,2.13,3.76,3.39,g_1_xvwdITde,0.94,0.84
+football,Eredivisie 2024 2025,Round 22,10/02/,AZ Alkmaar,Zwolle,2,0,0,1.35,5.6,9.01,g_1_v9v00eyA,2.0,0.61
+football,Eredivisie 2024 2025,Round 22,10/02/,Heerenveen,Twente,3,3,1,3.64,3.86,2.01,g_1_Cx3N3Us2,1.86,1.05
+football,Eredivisie 2024 2025,Round 22,09/02/,Sittard,Ajax,0,2,2,6.94,4.87,1.47,g_1_hC4ZEfj3,0.67,2.35
+football,Eredivisie 2024 2025,Round 22,09/02/,Waalwijk,NAC Breda,5,0,0,2.32,3.84,2.95,g_1_4CaF5jDk,3.51,1.29
+football,Eredivisie 2024 2025,Round 22,09/02/,Utrecht,Almere City,0,1,2,1.43,5.13,7.48,g_1_4jOvgDTq,0.86,0.94
+football,Eredivisie 2024 2025,Round 22,09/02/,Feyenoord,Sparta Rotterdam,3,0,0,1.47,4.87,6.94,g_1_Q5Cmiibd,1.58,0.81
+football,Eredivisie 2024 2025,Round 22,09/02/,Groningen,Nijmegen,2,1,0,3.07,3.15,2.58,g_1_zyY8bZ5M,2.13,0.97
+football,Eredivisie 2024 2025,Round 22,09/02/,PSV,Willem II,1,1,1,1.16,9.19,16.6,g_1_MidjBCkS,0.94,0.68
+football,Eredivisie 2024 2025,Round 22,09/02/,Heracles,G.A. Eagles,4,2,0,3.0,3.5,2.43,g_1_lvbrDYKF,1.74,0.73
+football,Eredivisie 2024 2025,Round 21,03/02/,Willem II,AZ Alkmaar,0,2,2,6.19,3.71,1.66,g_1_6eth2H6c,0.22,2.27
+football,Eredivisie 2024 2025,Round 21,03/02/,Sparta Rotterdam,Groningen,1,0,0,1.78,3.78,4.85,g_1_jmb5vEEj,0.86,1.05
+football,Eredivisie 2024 2025,Round 21,02/02/,Ajax,Feyenoord,2,1,0,2.1,3.69,3.52,g_1_x44rn5Ga,2.91,0.74
+football,Eredivisie 2024 2025,Round 21,02/02/,G.A. Eagles,Twente,2,2,1,2.7,3.8,2.52,g_1_x2PORzVp,1.48,1.98
+football,Eredivisie 2024 2025,Round 21,02/02/,Almere City,Waalwijk,1,4,2,0.0,0.0,0.0,g_1_pU7jpqoC,1.51,2.51
+football,Eredivisie 2024 2025,Round 21,02/02/,Nijmegen,PSV,3,3,1,6.87,4.43,1.52,g_1_UeCAkvNi,2.27,2.48
+football,Eredivisie 2024 2025,Round 21,02/02/,Heerenveen,Sittard,2,2,1,1.79,3.89,4.61,g_1_f3czpziT,2.89,1.0
+football,Eredivisie 2024 2025,Round 21,02/02/,Zwolle,Utrecht,3,3,1,3.05,3.56,2.37,g_1_Ym9RodMG,0.7,2.2
+football,Eredivisie 2024 2025,Round 21,01/02/,NAC Breda,Heracles,1,1,1,1.78,3.7,5.09,g_1_QN5JmIi4,1.54,1.26
+football,Eredivisie 2024 2025,Round 17,29/01/,Heracles,Groningen,1,1,1,3.12,1.65,7.9,g_1_YBPelzQO,1.84,1.09
+football,Eredivisie 2024 2025,Round 20,27/01/,AZ Alkmaar,Sparta Rotterdam,1,2,2,1.58,4.1,6.4,g_1_YesrJ6nD,1.15,0.92
+football,Eredivisie 2024 2025,Round 20,26/01/,Waalwijk,Willem II,2,0,0,2.43,3.58,2.95,g_1_GlGZmRom,0.49,0.39
+football,Eredivisie 2024 2025,Round 20,26/01/,Sittard,Zwolle,1,4,2,2.24,3.65,3.22,g_1_Y9MGX516,1.55,2.02
+football,Eredivisie 2024 2025,Round 20,26/01/,Groningen,Heerenveen,1,0,0,2.38,3.19,3.37,g_1_pplTtAvK,0.6,0.91
+football,Eredivisie 2024 2025,Round 20,26/01/,PSV,NAC Breda,3,2,0,1.14,10.1,18.3,g_1_p6P3gmOP,2.14,0.97
+football,Eredivisie 2024 2025,Round 20,25/01/,Heracles,Utrecht,1,1,1,4.48,3.89,1.82,g_1_6NKOVqWI,1.58,1.14
+football,Eredivisie 2024 2025,Round 19,20/01/,Sparta Rotterdam,Waalwijk,1,1,1,1.5,4.6,6.92,g_1_pW8fSAPQ,1.59,2.93
+football,Eredivisie 2024 2025,Round 19,20/01/,Nijmegen,Sittard,4,1,0,1.69,4.0,5.31,g_1_CbloQ2xq,1.14,0.21
+football,Eredivisie 2024 2025,Round 19,19/01/,Almere City,Heracles,0,2,2,2.3,3.37,3.37,g_1_fNHK9sh2,1.01,0.65
+football,Eredivisie 2024 2025,Round 19,19/01/,Heerenveen,Ajax,0,2,2,5.57,4.16,1.64,g_1_bFAnUWfE,0.51,1.75
+football,Eredivisie 2024 2025,Round 19,19/01/,NAC Breda,Twente,2,1,0,5.1,3.73,1.77,g_1_8QsfOt7e,1.03,1.65
+football,Eredivisie 2024 2025,Round 19,19/01/,G.A. Eagles,Groningen,2,1,0,1.55,4.61,5.93,g_1_GS2FVOEL,1.11,1.05
+football,Eredivisie 2024 2025,Round 19,19/01/,Willem II,Feyenoord,1,1,1,7.86,4.9,1.43,g_1_4GkRMlml,0.43,0.88
+football,Eredivisie 2024 2025,Round 19,19/01/,Utrecht,AZ Alkmaar,0,0,1,2.57,3.48,2.64,g_1_MT96Xpp9,0.77,0.74
+football,Eredivisie 2024 2025,Round 19,19/01/,Zwolle,PSV,3,1,0,10.5,6.65,1.24,g_1_Gjo2MKy8,1.18,3.18
+football,Eredivisie 2024 2025,Round 18,13/01/,NAC Breda,Heerenveen,2,4,2,2.25,3.48,3.36,g_1_MeWwWX84,1.2,1.18
+football,Eredivisie 2024 2025,Round 18,12/01/,Feyenoord,Utrecht,1,2,2,1.4,5.64,7.18,g_1_2iaDFCON,1.95,0.83
+football,Eredivisie 2024 2025,Round 18,12/01/,Groningen,Almere City,0,0,1,1.94,3.44,4.42,g_1_zu8dJfPb,1.15,0.2
+football,Eredivisie 2024 2025,Round 18,12/01/,Twente,Willem II,6,2,0,1.32,5.38,11.4,g_1_txB4HYgB,3.22,0.89
+football,Eredivisie 2024 2025,Round 18,12/01/,PSV,AZ Alkmaar,2,2,1,1.42,5.55,6.87,g_1_Y7TBB3Nk,2.17,1.39
+football,Eredivisie 2024 2025,Round 18,12/01/,Zwolle,Nijmegen,0,1,2,3.12,3.42,2.39,g_1_S81vUBwH,0.42,0.91
+football,Eredivisie 2024 2025,Round 18,12/01/,Ajax,Waalwijk,2,1,0,1.14,11.0,16.5,g_1_vDEmLGfn,2.4,0.71
+football,Eredivisie 2024 2025,Round 18,12/01/,Heracles,Sparta Rotterdam,1,1,1,3.52,3.37,2.23,g_1_lrYVXgvh,1.19,2.07
+football,Eredivisie 2024 2025,Round 18,11/01/,Sittard,G.A. Eagles,0,3,2,2.96,3.48,2.47,g_1_YZkqAjno,1.1,2.94
+football,Eredivisie 2024 2025,Round 17,23/12/,Willem II,Nijmegen,4,1,0,3.58,3.38,2.2,g_1_SYpV2ZvI,1.39,1.54
+football,Eredivisie 2024 2025,Round 17,22/12/,PSV,Feyenoord,3,0,0,1.68,4.59,4.62,g_1_Cxe68wBt,1.5,1.3
+football,Eredivisie 2024 2025,Round 17,22/12/,Utrecht,Sittard,2,5,2,1.52,4.42,6.87,g_1_KlJuhIQa,1.43,1.87
+football,Eredivisie 2024 2025,Round 17,22/12/,Sparta Rotterdam,Ajax,0,2,2,4.88,3.97,1.74,g_1_tInN4eA5,0.64,1.67
+football,Eredivisie 2024 2025,Round 17,22/12/,AZ Alkmaar,Twente,1,0,0,2.12,3.35,3.84,g_1_COFXgvdm,1.38,0.36
+football,Eredivisie 2024 2025,Round 17,22/12/,Almere City,Heerenveen,3,0,0,3.03,3.46,2.43,g_1_Sjv1a0YP,1.18,1.36
+football,Eredivisie 2024 2025,Round 17,22/12/,G.A. Eagles,NAC Breda,2,1,0,1.54,4.64,5.93,g_1_0bRmjdeC,2.33,0.73
+football,Eredivisie 2024 2025,Round 17,21/12/,Waalwijk,Zwolle,1,1,1,2.74,3.66,2.54,g_1_K2bE6Hug,2.05,1.4
+football,Eredivisie 2024 2025,Round 16,16/12/,NAC Breda,AZ Alkmaar,1,2,2,3.71,3.49,2.11,g_1_8UX5uusf,0.72,1.48
+football,Eredivisie 2024 2025,Round 16,16/12/,Ajax,Almere City,3,0,0,1.2,8.17,13.8,g_1_SCijoADF,1.32,0.07
+football,Eredivisie 2024 2025,Round 16,15/12/,Nijmegen,Sparta Rotterdam,1,1,1,2.17,3.5,3.52,g_1_C2vcs1Cs,1.67,1.06
+football,Eredivisie 2024 2025,Round 16,15/12/,Twente,Groningen,2,0,0,1.37,5.12,9.4,g_1_0QkbqlrS,1.02,0.57
+football,Eredivisie 2024 2025,Round 16,15/12/,Utrecht,G.A. Eagles,3,3,1,2.1,3.49,3.73,g_1_KAWUwS5k,3.48,0.46
+football,Eredivisie 2024 2025,Round 16,15/12/,Feyenoord,Heracles,5,2,0,1.16,8.52,21.0,g_1_Q7Zxx6z2,3.38,0.85
+football,Eredivisie 2024 2025,Round 16,15/12/,Sittard,Waalwijk,3,2,0,1.69,3.98,5.36,g_1_63CPa9S8,2.87,1.64
+football,Eredivisie 2024 2025,Round 16,15/12/,Heerenveen,PSV,1,0,0,12.7,6.11,1.27,g_1_0pnFyctJ,1.01,1.01
+football,Eredivisie 2024 2025,Round 16,14/12/,Zwolle,Willem II,0,1,2,1.89,3.51,4.64,g_1_trWDwJB6,1.47,0.53
+football,Eredivisie 2024 2025,Round 15,09/12/,Almere City,Utrecht,1,3,2,5.07,3.91,1.73,g_1_CM2ZJXEG,1.15,1.65
+football,Eredivisie 2024 2025,Round 15,08/12/,AZ Alkmaar,Ajax,2,1,0,2.76,3.68,2.52,g_1_YyirIBqT,1.49,0.27
+football,Eredivisie 2024 2025,Round 15,08/12/,Willem II,Heerenveen,1,2,2,2.32,3.19,3.5,g_1_WpbsmWr3,0.7,1.87
+football,Eredivisie 2024 2025,Round 15,08/12/,Groningen,Zwolle,0,0,1,2.09,3.32,3.98,g_1_4KsECk7j,0.71,0.8
+football,Eredivisie 2024 2025,Round 15,08/12/,Heracles,Sittard,2,2,1,2.2,3.38,3.58,g_1_jDN8YWT9,1.43,0.71
+football,Eredivisie 2024 2025,Round 15,08/12/,Waalwijk,Feyenoord,2,3,2,11.8,7.0,1.25,g_1_IN7mRlMq,0.84,2.0
+football,Eredivisie 2024 2025,Round 15,08/12/,Sparta Rotterdam,NAC Breda,0,2,2,1.8,3.8,4.72,g_1_vwddPSjd,1.64,1.93
+football,Eredivisie 2024 2025,Round 15,08/12/,G.A. Eagles,Nijmegen,5,0,0,2.05,3.69,3.69,g_1_IaP0zgac,1.78,0.66
+football,Eredivisie 2024 2025,Round 15,07/12/,PSV,Twente,6,1,0,1.36,5.64,8.51,g_1_nuHHWAbM,2.23,1.03
+football,Eredivisie 2024 2025,Round 5,05/12/,Ajax,Utrecht,2,2,1,1.41,5.03,8.19,g_1_67YNPpCk,0.68,1.16
+football,Eredivisie 2024 2025,Round 14,02/12/,Nijmegen,Ajax,1,2,2,4.61,4.0,1.77,g_1_4daRLgp4,3.0,0.9
+football,Eredivisie 2024 2025,Round 14,01/12/,AZ Alkmaar,Heracles,1,0,0,1.43,5.08,7.62,g_1_h0dv0CNp,1.19,0.46
+football,Eredivisie 2024 2025,Round 14,01/12/,Twente,G.A. Eagles,3,2,0,1.68,4.42,4.76,g_1_pfqQNFFi,1.97,1.39
+football,Eredivisie 2024 2025,Round 14,01/12/,Utrecht,PSV,2,5,2,6.66,4.88,1.48,g_1_YFF75YaN,1.54,1.7
+football,Eredivisie 2024 2025,Round 14,01/12/,Zwolle,Sparta Rotterdam,1,0,0,2.82,3.62,2.5,g_1_QkCa7fVA,1.21,0.52
+football,Eredivisie 2024 2025,Round 14,01/12/,Feyenoord,Sittard,1,1,1,0.0,0.0,0.0,g_1_4zOj9G0b,1.42,1.24
+football,Eredivisie 2024 2025,Round 14,01/12/,Groningen,Willem II,2,0,0,2.01,3.37,4.23,g_1_CS5qBxWo,1.0,0.31
+football,Eredivisie 2024 2025,Round 14,01/12/,NAC Breda,Almere City,1,0,0,1.65,4.05,5.62,g_1_dICZJCcJ,0.72,0.36
+football,Eredivisie 2024 2025,Round 14,30/11/,Heerenveen,Waalwijk,1,1,1,1.65,4.14,5.49,g_1_O4ERLYS6,0.79,1.13
+football,Eredivisie 2024 2025,Round 13,25/11/,Ajax,Zwolle,2,0,0,1.13,10.7,21.0,g_1_SxLINfbf,1.0,1.14
+football,Eredivisie 2024 2025,Round 13,24/11/,Sparta Rotterdam,AZ Alkmaar,1,2,2,2.89,3.34,2.6,g_1_dlovVx6K,1.24,0.15
+football,Eredivisie 2024 2025,Round 13,24/11/,Willem II,NAC Breda,2,2,1,2.47,3.19,3.19,g_1_tMMAPGTs,1.89,1.38
+football,Eredivisie 2024 2025,Round 13,24/11/,Nijmegen,Utrecht,1,2,2,2.37,3.38,3.2,g_1_Usgh7ZDD,1.26,0.59
+football,Eredivisie 2024 2025,Round 13,24/11/,PSV,Groningen,5,0,0,1.15,9.19,17.9,g_1_fPvAfdU7,3.88,0.18
+football,Eredivisie 2024 2025,Round 13,24/11/,Sittard,Twente,1,2,2,4.74,3.76,1.81,g_1_YFaq9eq1,1.14,0.66
+football,Eredivisie 2024 2025,Round 13,24/11/,Feyenoord,Heerenveen,3,0,0,1.31,5.47,11.9,g_1_roL4GwiR,2.56,0.31
+football,Eredivisie 2024 2025,Round 13,24/11/,Heracles,Waalwijk,2,2,1,1.8,4.0,4.46,g_1_021yBHEl,2.95,2.32
+football,Eredivisie 2024 2025,Round 13,24/11/,G.A. Eagles,Almere City,3,0,0,1.54,4.31,6.67,g_1_zLHdIaME,2.92,0.43
+football,Eredivisie 2024 2025,Round 12,11/11/,AZ Alkmaar,Willem II,1,2,2,1.59,3.98,6.61,g_1_nay2dIae,2.22,0.76
+football,Eredivisie 2024 2025,Round 12,10/11/,Heerenveen,G.A. Eagles,1,0,0,2.62,3.39,2.83,g_1_tn61bvVr,0.2,0.74
+football,Eredivisie 2024 2025,Round 12,10/11/,Twente,Ajax,2,2,1,3.0,3.5,2.43,g_1_pGKV307L,1.48,2.43
+football,Eredivisie 2024 2025,Round 12,10/11/,Almere City,Feyenoord,1,4,2,8.45,4.59,1.44,g_1_llRM5Mx9,0.79,1.78
+football,Eredivisie 2024 2025,Round 12,10/11/,Waalwijk,Nijmegen,0,3,2,3.96,3.66,1.98,g_1_MsZzrJp2,0.6,1.43
+football,Eredivisie 2024 2025,Round 12,10/11/,NAC Breda,PSV,0,3,2,7.39,5.86,1.38,g_1_0SpSquGk,0.58,1.83
+football,Eredivisie 2024 2025,Round 12,10/11/,Zwolle,Sittard,3,1,0,2.6,3.5,2.78,g_1_WCfdk1hS,2.19,2.84
+football,Eredivisie 2024 2025,Round 12,10/11/,Groningen,Sparta Rotterdam,1,0,0,2.58,3.27,2.97,g_1_zo1miNNF,1.39,0.6
+football,Eredivisie 2024 2025,Round 12,09/11/,Utrecht,Heracles,1,0,0,1.51,4.58,6.59,g_1_2X2ugqg3,2.2,0.81
+football,Eredivisie 2024 2025,Round 11,04/11/,Waalwijk,Almere City,2,0,0,2.76,3.38,2.69,g_1_nPKhVu1d,0.6,0.31
+football,Eredivisie 2024 2025,Round 11,03/11/,Nijmegen,Groningen,6,0,0,2.11,3.18,4.14,g_1_tK9CkAnB,3.12,0.27
+football,Eredivisie 2024 2025,Round 11,03/11/,Sparta Rotterdam,Utrecht,1,4,2,2.86,3.58,2.48,g_1_08MpX1Wq,1.41,0.95
+football,Eredivisie 2024 2025,Round 11,03/11/,G.A. Eagles,Zwolle,2,2,1,1.6,4.28,5.88,g_1_Yg64iWHb,2.69,0.42
+football,Eredivisie 2024 2025,Round 11,03/11/,Feyenoord,AZ Alkmaar,3,2,0,1.69,3.78,5.82,g_1_CQxNvgYh,2.12,1.76
+football,Eredivisie 2024 2025,Round 11,03/11/,Sittard,Heerenveen,3,0,0,2.17,3.4,3.63,g_1_xSCeghmn,0.91,0.55
+football,Eredivisie 2024 2025,Round 11,03/11/,Ajax,PSV,3,2,0,2.62,3.85,2.57,g_1_MFxnZl2U,2.02,1.08
+football,Eredivisie 2024 2025,Round 11,03/11/,Heracles,NAC Breda,2,0,0,2.2,3.49,3.45,g_1_YuRVxX25,1.23,1.19
+football,Eredivisie 2024 2025,Round 11,03/11/,Willem II,Twente,0,1,2,5.86,3.67,1.7,g_1_t6UwyBXH,0.49,2.07
+football,Eredivisie 2024 2025,Round 4,31/10/,Feyenoord,Ajax,0,2,2,2.01,3.49,4.06,g_1_fZ7Fb8Dj,1.37,0.63
+football,Eredivisie 2024 2025,Round 10,28/10/,AZ Alkmaar,G.A. Eagles,2,2,1,1.71,3.87,5.28,g_1_Uoq4OXmC,1.73,1.25
+football,Eredivisie 2024 2025,Round 10,28/10/,Ajax,Willem II,1,0,0,1.41,5.13,7.98,g_1_40ZEtF3t,1.65,0.4
+football,Eredivisie 2024 2025,Round 10,27/10/,Twente,Heracles,5,0,0,1.25,7.2,10.9,g_1_2asCMBIO,2.36,0.16
+football,Eredivisie 2024 2025,Round 10,27/10/,Utrecht,Feyenoord,0,2,2,4.13,3.82,1.9,g_1_YJkeQgJa,0.25,1.67
+football,Eredivisie 2024 2025,Round 10,27/10/,Heerenveen,Sparta Rotterdam,2,0,0,2.36,3.69,2.98,g_1_QgnmSFlm,0.8,0.39
+football,Eredivisie 2024 2025,Round 10,27/10/,NAC Breda,Waalwijk,4,1,0,1.7,4.15,4.99,g_1_GrJU9YYI,3.01,0.49
+football,Eredivisie 2024 2025,Round 10,27/10/,PSV,Zwolle,6,0,0,1.14,10.8,17.6,g_1_tMAGXyRP,2.47,0.1
+football,Eredivisie 2024 2025,Round 10,26/10/,Sittard,Groningen,1,0,0,2.11,3.5,3.7,g_1_KGPLBf46,0.48,0.36
+football,Eredivisie 2024 2025,Round 10,26/10/,Almere City,Nijmegen,1,0,0,3.28,3.26,2.38,g_1_n3RDDGZg,0.33,1.82
+football,Eredivisie 2024 2025,Round 9,20/10/,Zwolle,NAC Breda,1,2,2,1.96,3.49,4.3,g_1_jyY4Fx5s,0.71,2.15
+football,Eredivisie 2024 2025,Round 9,20/10/,Groningen,Utrecht,0,1,2,2.93,3.49,2.49,g_1_EefmcekD,0.57,0.51
+football,Eredivisie 2024 2025,Round 9,20/10/,Heracles,Ajax,3,4,2,7.44,5.64,1.39,g_1_fiXZKbsK,0.83,3.57
+football,Eredivisie 2024 2025,Round 9,20/10/,Willem II,Sittard,0,0,1,2.34,3.26,3.38,g_1_6VjuaHK0,0.85,2.06
+football,Eredivisie 2024 2025,Round 9,20/10/,G.A. Eagles,Feyenoord,1,5,2,3.8,4.08,1.91,g_1_A3cW0wjl,0.4,2.27
+football,Eredivisie 2024 2025,Round 9,20/10/,Nijmegen,Heerenveen,3,0,0,1.92,3.83,4.02,g_1_pIsjL7y3,1.57,0.34
+football,Eredivisie 2024 2025,Round 9,20/10/,Waalwijk,Twente,2,2,1,7.44,5.91,1.38,g_1_vHzaJo6F,0.71,1.9
+football,Eredivisie 2024 2025,Round 9,20/10/,AZ Alkmaar,PSV,1,2,2,3.61,3.79,2.04,g_1_IBk4c4qd,0.34,1.73
+football,Eredivisie 2024 2025,Round 9,19/10/,Sparta Rotterdam,Almere City,2,2,1,1.76,4.04,4.66,g_1_dd1eaQEq,2.07,0.94
+football,Eredivisie 2024 2025,Round 8,07/10/,Sittard,AZ Alkmaar,1,0,0,5.05,3.57,1.81,g_1_QDAP4niM,1.8,0.89
+football,Eredivisie 2024 2025,Round 8,06/10/,Ajax,Groningen,3,1,0,1.3,6.41,9.62,g_1_YcdG8Uic,3.81,1.14
+football,Eredivisie 2024 2025,Round 8,06/10/,Feyenoord,Twente,2,1,0,1.75,4.16,4.56,g_1_MJGJ8nxi,1.05,0.74
+football,Eredivisie 2024 2025,Round 8,06/10/,Heerenveen,Zwolle,1,1,1,1.86,3.96,4.16,g_1_xEJXHjF4,1.38,0.59
+football,Eredivisie 2024 2025,Round 8,06/10/,G.A. Eagles,Heracles,4,1,0,1.61,4.45,5.45,g_1_6BfO68M9,2.99,0.49
+football,Eredivisie 2024 2025,Round 8,06/10/,Utrecht,Waalwijk,3,2,0,1.41,5.09,8.14,g_1_jyQmE8ET,1.52,0.84
+football,Eredivisie 2024 2025,Round 8,06/10/,PSV,Sparta Rotterdam,2,1,0,1.22,7.49,13.3,g_1_ULyuGUqH,1.6,1.95
+football,Eredivisie 2024 2025,Round 8,06/10/,NAC Breda,Nijmegen,1,0,0,3.43,3.31,2.29,g_1_lhwwd9ho,1.46,0.63
+football,Eredivisie 2024 2025,Round 8,05/10/,Almere City,Willem II,0,1,2,2.59,3.21,3.0,g_1_tnQOJCph,1.6,0.41
+football,Eredivisie 2024 2025,Round 7,30/09/,AZ Alkmaar,Utrecht,1,2,2,1.61,4.3,5.64,g_1_U7d61VUN,3.26,0.77
+football,Eredivisie 2024 2025,Round 7,29/09/,Waalwijk,Ajax,0,2,2,6.81,5.81,1.41,g_1_ribb3i0B,0.21,1.2
+football,Eredivisie 2024 2025,Round 7,29/09/,Groningen,G.A. Eagles,0,1,2,2.68,3.49,2.7,g_1_MyAk5DVb,0.49,2.55
+football,Eredivisie 2024 2025,Round 7,29/09/,Twente,NAC Breda,1,0,0,1.28,6.72,10.2,g_1_08t8hzng,1.42,0.32
+football,Eredivisie 2024 2025,Round 7,29/09/,Zwolle,Almere City,1,0,0,1.95,3.77,3.96,g_1_EB6s7Z0n,1.66,1.22
+football,Eredivisie 2024 2025,Round 7,29/09/,Sparta Rotterdam,Sittard,1,1,1,1.66,4.0,5.64,g_1_2XxPlhoI,1.56,0.96
+football,Eredivisie 2024 2025,Round 7,29/09/,Nijmegen,Feyenoord,1,1,1,6.09,4.19,1.59,g_1_8YqGjEG5,0.77,1.54
+football,Eredivisie 2024 2025,Round 7,28/09/,Willem II,PSV,0,2,2,9.2,6.01,1.33,g_1_zoyXnWFU,0.86,1.58
+football,Eredivisie 2024 2025,Round 7,28/09/,Heracles,Heerenveen,2,1,0,3.05,3.58,2.36,g_1_vghafdHt,1.25,0.64
+football,Eredivisie 2024 2025,Round 6,22/09/,Sittard,PSV,1,3,2,12.6,8.43,1.2,g_1_EDylmuAD,0.38,1.47
+football,Eredivisie 2024 2025,Round 6,22/09/,Almere City,Twente,0,5,2,6.08,4.84,1.52,g_1_zm8uiNAl,1.61,1.2
+football,Eredivisie 2024 2025,Round 6,22/09/,Feyenoord,NAC Breda,2,0,0,1.12,11.4,20.0,g_1_806mk1u1,2.25,0.18
+football,Eredivisie 2024 2025,Round 6,22/09/,Heerenveen,Groningen2,2,1,0,2.34,3.77,2.95,g_1_G2R8dqmR,1.88,0.21
+football,Eredivisie 2024 2025,Round 6,22/09/,Nijmegen,Heracles,1,2,2,1.66,4.31,5.13,g_1_8xO0b5IE,1.11,1.23
+football,Eredivisie 2024 2025,Round 6,22/09/,G.A. Eagles,Ajax,1,1,1,4.47,4.11,1.78,g_1_StoEz2Q7,0.59,1.17
+football,Eredivisie 2024 2025,Round 6,22/09/,Waalwijk,Sparta Rotterdam,1,2,2,3.98,3.98,1.89,g_1_Mqr6xOee,2.68,1.13
+football,Eredivisie 2024 2025,Round 6,21/09/,Utrecht,Willem II,3,2,0,1.7,3.91,5.4,g_1_QHlcvpRr,1.2,0.9
+football,Eredivisie 2024 2025,Round 6,21/09/,Zwolle,AZ Alkmaar,1,2,2,6.37,5.12,1.48,g_1_Uo3Rq63L,1.62,2.29
+football,Eredivisie 2024 2025,Round 3,19/09/,Ajax,Sittard,5,0,0,1.33,5.67,10.1,g_1_IkYj6aFa,3.45,0.09
+football,Eredivisie 2024 2025,Round 3,18/09/,Twente,Heerenveen,2,0,0,1.33,6.13,8.69,g_1_pOKq8Lpm,2.75,1.19
+football,Eredivisie 2024 2025,Round 5,15/09/,Heracles,Almere City,0,0,1,2.25,3.69,3.18,g_1_YJ9IoSY8,2.15,0.78
+football,Eredivisie 2024 2025,Round 5,15/09/,Willem II,Waalwijk,3,0,0,1.86,3.76,4.43,g_1_SMMWNOt2,2.02,1.08
+football,Eredivisie 2024 2025,Round 5,15/09/,Sparta Rotterdam,G.A. Eagles,1,2,2,2.04,3.64,3.77,g_1_zPshV6lS,1.41,0.93
+football,Eredivisie 2024 2025,Round 5,15/09/,AZ Alkmaar,Heerenveen,9,1,0,1.41,5.13,7.93,g_1_6qjyZlk3,5.25,1.48
+football,Eredivisie 2024 2025,Round 5,15/09/,NAC Breda,Sittard,1,0,0,3.1,3.62,2.31,g_1_6ggkBocd,0.56,0.6
+football,Eredivisie 2024 2025,Round 5,15/09/,Groningen,Feyenoord,2,2,1,4.78,4.0,1.75,g_1_bTksD7Sq,0.95,1.37
+football,Eredivisie 2024 2025,Round 5,14/09/,PSV,Nijmegen,2,0,0,1.16,9.17,16.7,g_1_vclqXSJF,1.72,0.09
+football,Eredivisie 2024 2025,Round 5,14/09/,Twente,Zwolle,1,1,1,1.32,6.42,8.73,g_1_EeEAIT4M,1.39,0.41
+football,Eredivisie 2024 2025,Round 4,01/09/,PSV,G.A. Eagles,3,0,0,1.14,9.88,20.0,g_1_6VA2KkzA,1.99,0.98
+football,Eredivisie 2024 2025,Round 4,01/09/,Zwolle,Heracles,3,0,0,2.09,3.78,3.47,g_1_nTf1MB5c,2.09,0.3
+football,Eredivisie 2024 2025,Round 4,01/09/,Utrecht,Twente,2,1,0,2.74,3.54,2.61,g_1_0YksHGTH,1.11,1.17
+football,Eredivisie 2024 2025,Round 4,01/09/,Willem II,Sparta Rotterdam,1,2,2,3.28,3.47,2.29,g_1_EHRa4wpC,0.3,0.69
+football,Eredivisie 2024 2025,Round 4,01/09/,Heerenveen,NAC Breda,4,0,0,1.68,4.06,5.33,g_1_WhbQKbUh,0.0,0.0
+football,Eredivisie 2024 2025,Round 4,01/09/,Sittard,Nijmegen,0,3,2,2.21,3.59,3.34,g_1_QeeIMKat,0.68,1.27
+football,Eredivisie 2024 2025,Round 4,31/08/,Almere City,Groningen,1,1,1,3.67,3.57,2.09,g_1_h8nZIxa5,1.36,1.24
+football,Eredivisie 2024 2025,Round 4,31/08/,Waalwijk,AZ Alkmaar,0,3,2,7.99,4.63,1.45,g_1_nVP72HEO,0.18,2.73
+football,Eredivisie 2024 2025,Round 3,25/08/,G.A. Eagles,Waalwijk,2,0,0,1.71,4.07,5.01,g_1_0jqDDsNP,2.55,0.41
+football,Eredivisie 2024 2025,Round 3,25/08/,Heracles,Willem II,1,1,1,2.46,3.48,2.97,g_1_xIcIi006,0.98,0.82
+football,Eredivisie 2024 2025,Round 3,25/08/,Sparta Rotterdam,Feyenoord,1,1,1,8.45,4.59,1.44,g_1_YqiRkvVI,1.09,0.99
+football,Eredivisie 2024 2025,Round 3,25/08/,Groningen,AZ Alkmaar,0,0,1,3.63,3.58,2.1,g_1_44aAgMVg,0.44,1.11
+football,Eredivisie 2024 2025,Round 3,25/08/,NAC Breda,Utrecht,1,2,2,3.86,3.58,2.03,g_1_A561er1s,0.65,2.31
+football,Eredivisie 2024 2025,Round 3,25/08/,Almere City,PSV,1,7,2,14.1,8.89,1.18,g_1_vNFV04wK,0.2,3.08
+football,Eredivisie 2024 2025,Round 3,25/08/,Nijmegen,Zwolle,1,0,0,1.64,4.0,5.85,g_1_dbjoghKD,1.95,1.27
+football,Eredivisie 2024 2025,Round 2,18/08/,NAC Breda,Ajax,2,1,0,6.37,5.12,1.48,g_1_lYnweEk1,0.76,1.18
+football,Eredivisie 2024 2025,Round 2,18/08/,Willem II,G.A. Eagles,2,0,0,2.56,3.43,2.87,g_1_UVWyczLl,1.09,0.51
+football,Eredivisie 2024 2025,Round 2,18/08/,Zwolle,Feyenoord,1,5,2,11.7,7.2,1.24,g_1_Yao62dcR,0.92,2.63
+football,Eredivisie 2024 2025,Round 2,18/08/,Heracles,PSV,1,3,2,16.6,9.59,1.15,g_1_xYic4ISE,1.2,1.82
+football,Eredivisie 2024 2025,Round 2,18/08/,Waalwijk,Groningen,1,2,2,3.06,3.37,2.45,g_1_ARaBtFz8,1.27,1.37
+football,Eredivisie 2024 2025,Round 2,18/08/,AZ Alkmaar,Nijmegen,1,0,0,1.51,4.58,6.59,g_1_lCB2ry6e,0.94,0.17
+football,Eredivisie 2024 2025,Round 2,18/08/,Twente,Sparta Rotterdam,1,1,1,1.65,4.23,5.34,g_1_d4gepcyq,1.42,1.08
+football,Eredivisie 2024 2025,Round 2,17/08/,Heerenveen,Utrecht,1,1,1,3.07,3.58,2.35,g_1_23yN25iA,0.93,0.34
+football,Eredivisie 2024 2025,Round 2,17/08/,Sittard,Almere City,3,0,0,1.8,3.7,4.88,g_1_UkwF4RMc,3.02,0.51
+football,Eredivisie 2024 2025,Round 1,11/08/,Ajax,Heerenveen,1,0,0,1.43,4.99,7.62,g_1_EseStOUj,1.01,0.17
+football,Eredivisie 2024 2025,Round 1,11/08/,G.A. Eagles,Sittard,0,2,2,2.11,3.38,3.82,g_1_489dnp7T,1.26,0.89
+football,Eredivisie 2024 2025,Round 1,11/08/,Utrecht,Zwolle,1,0,0,1.56,4.31,6.37,g_1_n7yoUpoo,1.62,0.29
+football,Eredivisie 2024 2025,Round 1,11/08/,Sparta Rotterdam,Heracles,0,0,1,1.43,5.13,7.44,g_1_zTHujS74,0.7,0.34
+football,Eredivisie 2024 2025,Round 1,11/08/,PSV,Waalwijk,5,1,0,1.08,15.7,25.0,g_1_v1OWilwh,2.31,1.2
+football,Eredivisie 2024 2025,Round 1,11/08/,Almere City2,AZ Alkmaar,0,1,2,5.54,3.76,1.71,g_1_rgLml6xH,0.32,0.61
+football,Eredivisie 2024 2025,Round 1,11/08/,Nijmegen,Twente,1,2,2,3.16,3.47,2.34,g_1_UkeEZ6NN,0.63,2.23
+football,Eredivisie 2024 2025,Round 1,10/08/,Feyenoord,Willem II,1,1,1,1.14,9.25,23.0,g_1_MPi6yThB,1.96,0.12
+football,Eredivisie 2024 2025,Round 1,10/08/,Groningen,NAC Breda,4,1,0,1.7,3.88,5.36,g_1_0A3cwkOb,2.41,1.27

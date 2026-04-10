@@ -1,0 +1,278 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Premier League,Round 23,27/01/,Everton,Leeds,1,1,1,2.46,3.28,3.13,g_1_neRXKc8l,0.69,1.37
+football,Premier League,Round 24,03/02/,Sunderland,Burnley,3,0,0,1.92,3.38,4.68,g_1_M7x6tWzP,1.2,0.06
+football,Premier League,Round 24,02/02/,Tottenham,Manchester City,2,2,1,5.17,4.19,1.67,g_1_CWHF0ZLt,1.05,2.08
+football,Premier League,Round 24,01/02/,Aston Villa,Brentford,0,1,2,2.29,3.48,3.26,g_1_YBkFXzhf,2.41,0.37
+football,Premier League,Round 24,01/02/,Manchester Utd,Fulham,3,2,0,1.57,4.85,5.36,g_1_hSpkpEy0,1.79,1.94
+football,Premier League,Round 24,01/02/,Nottingham,Crystal Palace,1,1,1,2.07,3.36,4.01,g_1_Quqcrh6C,0.49,1.9
+football,Premier League,Round 24,01/02/,Liverpool,Newcastle,4,1,0,1.63,4.46,5.14,g_1_bTitnz7m,2.28,0.36
+football,Premier League,Round 24,01/02/,Chelsea,West Ham,3,2,0,1.62,4.41,5.42,g_1_nkONThiJ,2.7,1.12
+football,Premier League,Round 24,01/02/,Brighton,Everton,1,1,1,1.96,3.6,4.11,g_1_vPKFVEM6,1.44,1.2
+football,Premier League,Round 24,01/02/,Leeds,Arsenal,0,4,2,6.0,4.3,1.58,g_1_Sp1AidqQ,0.15,2.19
+football,Premier League,Round 24,01/02/,Wolves,Bournemouth,0,2,2,2.93,3.56,2.45,g_1_Yo6ObDjg,1.38,1.36
+football,Premier League,Round 23,26/01/,Arsenal,Manchester Utd,2,3,2,1.58,4.58,5.52,g_1_YqgQO69M,1.19,0.71
+football,Premier League,Round 23,25/01/,Brentford,Nottingham,0,2,2,1.84,3.66,4.69,g_1_4YS4HO1d,1.81,0.78
+football,Premier League,Round 23,25/01/,Crystal Palace,Chelsea,1,3,2,3.7,3.58,2.08,g_1_hf9aw6OF,1.77,2.2
+football,Premier League,Round 23,25/01/,Newcastle,Aston Villa,0,2,2,0.0,0.0,0.0,g_1_tEAzuJaK,2.18,1.15
+football,Premier League,Round 23,25/01/,Bournemouth,Liverpool,3,2,0,4.59,4.11,1.76,g_1_IHUdJpXq,2.34,0.93
+football,Premier League,Round 23,25/01/,Burnley,Tottenham,2,2,1,4.18,3.46,1.99,g_1_KtBiuSg3,1.44,2.05
+football,Premier League,Round 23,25/01/,Fulham,Brighton,2,1,0,2.62,3.39,2.83,g_1_hhUuJyw1,1.05,1.59
+football,Premier League,Round 23,25/01/,Manchester City,Wolves,2,0,0,1.32,5.88,9.69,g_1_E7IlHF7D,0.86,0.61
+football,Premier League,Round 23,24/01/,West Ham,Sunderland,3,1,0,0.0,0.0,0.0,g_1_0bi7ZdNs,1.52,0.67
+football,Premier League,Round 22,20/01/,Brighton,Bournemouth,1,1,1,1.94,3.82,3.97,g_1_MBSHcUAN,1.02,1.28
+football,Premier League,Round 22,19/01/,Aston Villa,Everton,0,1,2,1.62,3.97,6.16,g_1_QqZ8ajtB,1.44,0.5
+football,Premier League,Round 22,18/01/,Wolves,Newcastle,0,0,1,4.92,4.11,1.71,g_1_QJkIQSvA,0.28,0.94
+football,Premier League,Round 22,18/01/,Nottingham,Arsenal,0,0,1,6.0,4.1,1.61,g_1_YVDiA7fT,0.34,2.1
+football,Premier League,Round 22,18/01/,Chelsea,Brentford,2,0,0,1.85,3.82,4.4,g_1_IsEmh8Yp,1.59,1.52
+football,Premier League,Round 22,18/01/,Leeds,Fulham,1,0,0,2.4,3.48,3.06,g_1_dQISFBQi,1.43,0.38
+football,Premier League,Round 22,18/01/,Liverpool,Burnley,1,1,1,1.25,6.79,12.5,g_1_4jMzEke4,3.19,0.4
+football,Premier League,Round 22,18/01/,Sunderland,Crystal Palace,2,1,0,2.45,3.26,3.17,g_1_xb9N4oIj,1.71,0.61
+football,Premier League,Round 22,18/01/,Tottenham,West Ham,1,2,2,1.91,3.87,4.02,g_1_Uid9SlAc,1.45,2.84
+football,Premier League,Round 22,17/01/,Manchester Utd,Manchester City,2,0,0,3.17,3.69,2.25,g_1_Q5AqCTPG,2.27,0.45
+football,Premier League,Round 21,09/01/,Arsenal,Liverpool,0,0,1,1.63,4.19,5.55,g_1_SC5rmMjl,0.57,0.31
+football,Premier League,Round 21,08/01/,Burnley,Manchester Utd,2,2,1,5.12,3.99,1.71,g_1_AZ3Bject,0.24,2.54
+football,Premier League,Round 21,08/01/,Newcastle,Leeds,4,3,0,1.63,3.96,6.1,g_1_d4sh3Ytn,2.43,1.89
+football,Premier League,Round 21,08/01/,Bournemouth,Tottenham,3,2,0,2.3,3.61,3.14,g_1_Ovaio0L0,1.26,1.24
+football,Premier League,Round 21,08/01/,Brentford,Sunderland,3,0,0,2.01,3.39,4.22,g_1_W42aqvjD,3.25,1.72
+football,Premier League,Round 21,08/01/,Crystal Palace,Aston Villa,0,0,1,3.16,3.48,2.34,g_1_r1HIlZRh,1.5,1.74
+football,Premier League,Round 21,08/01/,Everton2,Wolves,1,1,1,1.9,3.59,4.44,g_1_vTARnDd5,0.89,0.73
+football,Premier League,Round 21,08/01/,Fulham,Chelsea,2,1,0,4.03,3.58,1.98,g_1_Ct9ZpiRH,1.2,2.39
+football,Premier League,Round 21,08/01/,Manchester City,Brighton,1,1,1,1.52,4.64,6.31,g_1_882rqVeU,2.55,1.15
+football,Premier League,Round 21,07/01/,West Ham,Nottingham,1,2,2,2.81,3.58,2.53,g_1_IJV01CBb,0.95,1.38
+football,Premier League,Round 20,05/01/,Manchester City,Chelsea,1,1,1,1.51,5.12,5.8,g_1_lMp9YMye,1.02,1.85
+football,Premier League,Round 20,05/01/,Fulham,Liverpool,2,2,1,4.36,3.85,1.85,g_1_byvxt5qL,0.74,1.37
+football,Premier League,Round 20,05/01/,Everton,Brentford,2,4,2,2.48,3.24,3.14,g_1_QNuUsRE8,0.88,2.65
+football,Premier League,Round 20,05/01/,Newcastle,Crystal Palace,2,0,0,1.68,4.19,5.11,g_1_AyZHW067,2.08,0.7
+football,Premier League,Round 20,05/01/,Tottenham,Sunderland,1,1,1,2.0,3.58,3.99,g_1_xrR3f4bE,1.19,0.44
+football,Premier League,Round 20,04/01/,Leeds,Manchester Utd,1,1,1,3.05,3.27,2.52,g_1_tds1zq7r,0.9,1.59
+football,Premier League,Round 20,04/01/,Bournemouth,Arsenal,2,3,2,6.53,4.61,1.51,g_1_0M7yxyRk,1.44,1.13
+football,Premier League,Round 20,04/01/,Brighton,Burnley,2,0,0,1.48,4.62,7.18,g_1_8nBqzFe2,1.45,0.3
+football,Premier League,Round 20,04/01/,Wolves,West Ham,3,0,0,2.84,3.5,2.54,g_1_WtKChrTQ,1.87,0.25
+football,Premier League,Round 20,03/01/,Aston Villa,Nottingham,3,1,0,1.91,3.6,4.37,g_1_GlW4sc3S,1.59,0.89
+football,Premier League,Round 19,02/01/,Brentford,Tottenham,0,0,1,2.58,3.56,2.77,g_1_EqdmT6rI,0.92,0.86
+football,Premier League,Round 19,02/01/,Sunderland,Manchester City,0,0,1,7.56,5.08,1.43,g_1_SEKlou43,0.88,2.24
+football,Premier League,Round 19,02/01/,Crystal Palace,Fulham,1,1,1,2.17,3.33,3.71,g_1_844FWukA,1.93,1.76
+football,Premier League,Round 19,02/01/,Liverpool,Leeds,0,0,1,1.48,4.54,7.52,g_1_UJhOUJJM,2.07,0.69
+football,Premier League,Round 19,31/12/,Arsenal,Aston Villa,4,1,0,1.42,5.38,7.25,g_1_Kp3vVSD5,3.05,2.66
+football,Premier League,Round 19,31/12/,Manchester Utd,Wolves,1,1,1,1.39,5.52,7.75,g_1_vgvfPcsp,0.84,1.16
+football,Premier League,Round 19,31/12/,Burnley,Newcastle,1,3,2,5.64,4.3,1.61,g_1_pWIKAbSj,1.09,2.32
+football,Premier League,Round 19,31/12/,Chelsea,Bournemouth,2,2,1,1.6,4.55,5.37,g_1_0v17Y1Kc,2.31,3.14
+football,Premier League,Round 19,31/12/,Nottingham,Everton,0,2,2,1.9,3.63,4.36,g_1_zLX2NyCd,1.55,1.26
+football,Premier League,Round 19,31/12/,West Ham,Brighton,2,2,1,3.36,3.77,2.14,g_1_OtEcqJYF,2.06,2.94
+football,Premier League,Round 18,29/12/,Crystal Palace,Tottenham,0,1,2,2.35,3.49,3.14,g_1_Qm9dKBam,1.47,0.89
+football,Premier League,Round 18,28/12/,Sunderland,Leeds,1,1,1,2.78,3.26,2.74,g_1_j5BNYAEt,0.7,2.16
+football,Premier League,Round 18,28/12/,Chelsea,Aston Villa,1,2,2,1.85,4.11,4.07,g_1_f5IQPXyQ,2.15,1.19
+football,Premier League,Round 18,28/12/,Arsenal,Brighton,2,1,0,1.35,5.64,8.73,g_1_CpqN5Cpf,3.08,0.85
+football,Premier League,Round 18,28/12/,Brentford,Bournemouth,4,1,0,2.3,3.46,3.26,g_1_8CxW3jF6,3.66,2.72
+football,Premier League,Round 18,28/12/,Burnley,Everton,0,0,1,3.88,3.17,2.18,g_1_E9uv2UqJ,1.41,0.85
+football,Premier League,Round 18,28/12/,Liverpool,Wolves,2,1,0,1.25,7.2,11.3,g_1_MF25IkUa,1.55,1.07
+football,Premier League,Round 18,28/12/,West Ham,Fulham,0,1,2,3.09,3.4,2.42,g_1_CKaWWlqg,0.91,1.63
+football,Premier League,Round 18,27/12/,Nottingham,Manchester City,1,2,2,5.45,4.31,1.63,g_1_0tWDE7TO,0.55,1.45
+football,Premier League,Round 18,27/12/,Manchester Utd,Newcastle,1,0,0,2.69,3.79,2.54,g_1_fT0DGTbC,1.27,1.18
+football,Premier League,Round 17,23/12/,Fulham,Nottingham,1,0,0,2.54,3.35,2.94,g_1_QPr9bewR,1.5,0.67
+football,Premier League,Round 17,22/12/,Aston Villa,Manchester Utd,2,1,0,2.03,3.76,3.66,g_1_OtdbtdHr,1.55,1.34
+football,Premier League,Round 17,21/12/,Everton,Arsenal,0,1,2,6.81,4.2,1.55,g_1_hCp10H8E,0.2,2.01
+football,Premier League,Round 17,21/12/,Leeds,Crystal Palace,4,1,0,3.12,3.16,2.54,g_1_pAPugZ0l,2.68,1.57
+football,Premier League,Round 17,21/12/,Tottenham2,Liverpool,1,2,2,3.92,3.69,1.98,g_1_Kn4rDfhK,1.06,0.66
+football,Premier League,Round 17,21/12/,Bournemouth,Burnley,1,1,1,1.52,4.62,6.41,g_1_pdp7vzne,1.41,0.38
+football,Premier League,Round 17,21/12/,Brighton,Sunderland,0,0,1,1.9,3.78,4.19,g_1_hMmFxEG7,1.12,1.39
+football,Premier League,Round 17,21/12/,Manchester City,West Ham,3,0,0,1.22,7.96,11.7,g_1_hzTmiDV0,2.1,0.98
+football,Premier League,Round 17,21/12/,Wolves,Brentford,0,2,2,3.51,3.51,2.17,g_1_vXpF7YFs,1.27,1.28
+football,Premier League,Round 17,20/12/,Newcastle,Chelsea,2,2,1,3.05,3.69,2.32,g_1_EkHdki0D,2.3,1.22
+football,Premier League,Round 16,16/12/,Manchester Utd,Bournemouth,4,4,1,1.71,4.4,4.54,g_1_n1p7rqmT,3.4,1.94
+football,Premier League,Round 16,15/12/,Brentford,Leeds,1,1,1,2.1,3.35,3.88,g_1_0pMPV53N,0.72,1.51
+football,Premier League,Round 16,14/12/,Crystal Palace,Manchester City,0,3,2,4.35,3.88,1.84,g_1_ILhjnRm4,1.88,1.19
+football,Premier League,Round 16,14/12/,Nottingham,Tottenham,3,0,0,2.88,3.34,2.61,g_1_6oRwwNAj,2.31,0.33
+football,Premier League,Round 16,14/12/,Sunderland,Newcastle,1,0,0,3.44,3.44,2.23,g_1_buEP0Q2c,0.3,0.24
+football,Premier League,Round 16,14/12/,West Ham,Aston Villa,2,3,2,3.58,3.47,2.16,g_1_IsUQb4X9,1.02,0.67
+football,Premier League,Round 16,14/12/,Arsenal,Wolves,2,1,0,1.12,10.2,24.0,g_1_4ISGXRYA,1.13,0.37
+football,Premier League,Round 16,14/12/,Burnley,Fulham,2,3,2,3.99,3.58,2.0,g_1_dG7eQqRp,2.45,2.23
+football,Premier League,Round 16,14/12/,Chelsea,Everton,2,0,0,1.77,3.84,4.87,g_1_COkrlmJi,2.2,1.03
+football,Premier League,Round 16,14/12/,Liverpool,Brighton,2,0,0,1.8,4.0,4.45,g_1_vysap5IG,1.89,1.9
+football,Premier League,Round 15,09/12/,Wolves,Manchester Utd,1,4,2,5.2,4.11,1.68,g_1_WjF9Zm4b,0.41,4.24
+football,Premier League,Round 15,08/12/,Fulham,Crystal Palace,1,2,2,2.55,3.47,2.86,g_1_l8cJOWkt,0.76,1.66
+football,Premier League,Round 15,07/12/,Brighton,West Ham,1,1,1,1.66,4.29,5.06,g_1_z1s3Mt9C,1.87,1.15
+football,Premier League,Round 15,07/12/,Leeds,Liverpool,3,3,1,4.59,4.11,1.76,g_1_dY0RMAKh,1.5,1.91
+football,Premier League,Round 15,07/12/,Bournemouth,Chelsea,0,0,1,3.6,3.85,2.03,g_1_GbR1O2v0,1.42,0.92
+football,Premier League,Round 15,07/12/,Everton,Nottingham,3,0,0,2.09,3.32,3.98,g_1_rRpBKKwP,1.11,0.54
+football,Premier League,Round 15,07/12/,Manchester City,Sunderland,3,0,0,1.29,6.69,9.71,g_1_jXgzLlk5,2.42,0.71
+football,Premier League,Round 15,07/12/,Newcastle,Burnley,2,1,0,1.33,5.66,9.77,g_1_OphrJSJH,1.77,1.6
+football,Premier League,Round 15,07/12/,Tottenham,Brentford,2,0,0,2.42,3.37,3.12,g_1_AyR0yAZo,2.18,0.29
+football,Premier League,Round 15,06/12/,Aston Villa,Arsenal,2,1,0,4.55,3.56,1.89,g_1_roTgQO9m,2.17,1.93
+football,Premier League,Round 14,05/12/,Manchester Utd,West Ham,1,1,1,1.43,5.39,7.03,g_1_0OUQMk3e,1.79,0.79
+football,Premier League,Round 14,04/12/,Leeds,Chelsea,3,1,0,4.25,3.58,1.94,g_1_lWVnUXAL,2.78,0.96
+football,Premier League,Round 14,04/12/,Liverpool,Sunderland,1,1,1,1.4,5.64,7.18,g_1_8GCJOBYr,1.45,0.41
+football,Premier League,Round 14,04/12/,Arsenal,Brentford,2,0,0,1.45,4.63,8.12,g_1_MeC5HfRF,1.77,0.35
+football,Premier League,Round 14,04/12/,Brighton,Aston Villa,3,4,2,2.38,3.46,3.11,g_1_EgipACJk,2.21,2.4
+football,Premier League,Round 14,04/12/,Burnley,Crystal Palace,0,1,2,4.87,3.84,1.77,g_1_0Akh8jl2,0.95,0.59
+football,Premier League,Round 14,04/12/,Wolves,Nottingham,0,1,2,3.37,3.31,2.32,g_1_lpBLrXPE,0.92,0.74
+football,Premier League,Round 14,03/12/,Newcastle,Tottenham,2,2,1,1.9,3.85,4.1,g_1_MwJZKTX7,2.04,0.75
+football,Premier League,Round 14,03/12/,Bournemouth,Everton,0,1,2,2.2,3.58,3.38,g_1_ULFDFYeS,0.5,1.44
+football,Premier League,Round 14,03/12/,Fulham,Manchester City,4,5,2,5.45,4.31,1.63,g_1_GIXvWgt9,0.91,2.17
+football,Premier League,Round 13,01/12/,Chelsea,Arsenal,1,1,1,2.94,3.27,2.61,g_1_Imk5ldcT,0.8,1.26
+football,Premier League,Round 13,30/11/,Aston Villa,Wolves,1,0,0,1.51,4.58,6.69,g_1_Eehlhvb4,0.94,0.49
+football,Premier League,Round 13,30/11/,Nottingham,Brighton,0,2,2,2.9,3.34,2.59,g_1_8hnW2eCM,0.89,2.0
+football,Premier League,Round 13,30/11/,West Ham,Liverpool,0,2,2,5.19,4.67,1.61,g_1_QTIdJGd3,0.3,1.25
+football,Premier League,Round 13,30/11/,Crystal Palace,Manchester Utd,1,2,2,2.17,3.78,3.28,g_1_EJzyqzLj,1.83,1.19
+football,Premier League,Round 13,30/11/,Tottenham,Fulham,1,2,2,2.3,3.46,3.25,g_1_YZVAeD4d,0.86,0.45
+football,Premier League,Round 13,30/11/,Everton,Newcastle,1,4,2,2.74,3.3,2.74,g_1_vDfF6wDc,0.99,1.91
+football,Premier League,Round 13,30/11/,Brentford,Burnley,3,1,0,1.52,4.46,6.68,g_1_MLedjISG,3.06,0.95
+football,Premier League,Round 13,30/11/,Manchester City,Leeds,3,2,0,1.22,7.96,11.7,g_1_nwbN4HsA,3.1,1.54
+football,Premier League,Round 13,30/11/,Sunderland,Bournemouth,3,2,0,3.26,3.36,2.34,g_1_vyw2cZZq,1.28,1.7
+football,Premier League,Round 12,25/11/,Manchester Utd,Everton,0,1,2,1.86,3.71,4.49,g_1_Y1fLl5iC,1.71,0.21
+football,Premier League,Round 12,24/11/,Arsenal,Tottenham,4,1,0,1.5,4.41,7.12,g_1_xnqNuA8s,1.92,0.07
+football,Premier League,Round 12,23/11/,Leeds,Aston Villa,1,2,2,3.5,3.39,2.22,g_1_4M24hmhm,1.79,1.58
+football,Premier League,Round 12,23/11/,Newcastle,Manchester City,2,1,0,4.13,3.83,1.9,g_1_S2CgWdyo,2.24,2.49
+football,Premier League,Round 12,23/11/,Bournemouth,West Ham,2,2,1,1.7,4.22,4.89,g_1_AasVwlwf,4.05,0.65
+football,Premier League,Round 12,23/11/,Brighton,Brentford,2,1,0,2.2,3.48,3.48,g_1_6RzvxS76,1.22,1.9
+football,Premier League,Round 12,23/11/,Fulham,Sunderland,1,0,0,2.09,3.46,3.78,g_1_fmHYc9UP,2.16,0.17
+football,Premier League,Round 12,23/11/,Liverpool,Nottingham,0,3,2,1.46,4.6,7.62,g_1_0ldDjRMa,1.93,1.58
+football,Premier League,Round 12,23/11/,Wolves,Crystal Palace,0,2,2,4.54,3.84,1.82,g_1_ht4uf0Ti,1.79,1.27
+football,Premier League,Round 12,22/11/,Burnley,Chelsea,0,2,2,5.48,4.33,1.62,g_1_Eivnz6xJ,0.44,1.71
+football,Premier League,Round 11,10/11/,Manchester City,Liverpool,3,0,0,1.89,4.09,3.88,g_1_fD0PWWVQ,1.51,0.61
+football,Premier League,Round 11,09/11/,Aston Villa,Bournemouth,4,0,0,0.0,0.0,0.0,g_1_8dxrKgnL,1.69,1.61
+football,Premier League,Round 11,09/11/,Brentford,Newcastle,3,1,0,2.86,3.47,2.55,g_1_xCSDEX9r,2.35,0.44
+football,Premier League,Round 11,09/11/,Crystal Palace,Brighton,0,0,1,2.33,3.46,3.21,g_1_6iKUAk97,0.75,0.39
+football,Premier League,Round 11,09/11/,Nottingham,Leeds,3,1,0,2.21,3.1,3.92,g_1_xY3lRAgl,2.55,0.69
+football,Premier League,Round 11,09/11/,Chelsea,Wolves,3,0,0,1.38,5.13,8.73,g_1_bRGMCBve,3.31,0.17
+football,Premier League,Round 11,09/11/,Sunderland,Arsenal,2,2,1,8.09,4.44,1.46,g_1_pb7dPlO0,0.43,1.92
+football,Premier League,Round 11,09/11/,Everton,Fulham,2,0,0,2.34,3.36,3.26,g_1_Ma2HYh1E,1.44,0.4
+football,Premier League,Round 11,09/11/,West Ham,Burnley,3,2,0,1.86,3.71,4.45,g_1_YJmioWpK,3.02,1.06
+football,Premier League,Round 11,08/11/,Tottenham,Manchester Utd,2,2,1,3.18,3.51,2.31,g_1_6De5NShD,0.93,0.62
+football,Premier League,Round 10,04/11/,Sunderland,Everton,1,1,1,3.24,3.12,2.5,g_1_O82v0Yfk,1.22,0.89
+football,Premier League,Round 10,03/11/,Manchester City,Bournemouth,3,1,0,1.43,5.08,7.48,g_1_WhxaK2t4,2.22,0.72
+football,Premier League,Round 10,02/11/,West Ham,Newcastle,3,1,0,5.17,4.3,1.66,g_1_CUrZLFH8,1.75,0.52
+football,Premier League,Round 10,02/11/,Liverpool,Aston Villa,2,0,0,1.68,4.46,4.75,g_1_OSYjMOBi,1.19,0.41
+football,Premier League,Round 10,02/11/,Tottenham,Chelsea,0,1,2,3.37,3.57,2.2,g_1_KzdmbCP1,0.11,3.69
+football,Premier League,Round 10,02/11/,Brighton,Leeds,3,0,0,1.91,3.69,4.21,g_1_EgB7VpZb,3.07,0.49
+football,Premier League,Round 10,02/11/,Burnley,Arsenal,0,2,2,13.6,6.52,1.25,g_1_MJEFTO3B,0.42,2.42
+football,Premier League,Round 10,02/11/,Crystal Palace,Brentford,2,0,0,2.13,3.52,3.62,g_1_GI7OR2YN,0.7,0.54
+football,Premier League,Round 10,02/11/,Fulham,Wolves,3,0,0,1.79,3.84,4.71,g_1_ClgfMtdo,1.39,0.24
+football,Premier League,Round 10,02/11/,Nottingham,Manchester Utd,2,2,1,3.4,3.91,2.08,g_1_h8Q7ItBG,1.93,1.11
+football,Premier League,Round 9,27/10/,Everton,Tottenham,0,3,2,2.03,3.56,2.97,g_1_EXZWI7kg,1.74,1.72
+football,Premier League,Round 9,26/10/,Arsenal,Crystal Palace,1,0,0,1.39,5.09,8.57,g_1_t6dj6U5m,0.91,0.45
+football,Premier League,Round 9,26/10/,Aston Villa,Manchester City,1,0,0,4.55,3.82,1.82,g_1_EJfb48z0,0.82,1.18
+football,Premier League,Round 9,26/10/,Bournemouth,Nottingham,2,0,0,1.97,3.8,3.84,g_1_Aol72n5C,0.57,0.37
+football,Premier League,Round 9,26/10/,Wolves,Burnley,2,3,2,1.96,3.38,4.44,g_1_hvNbX64n,2.28,1.43
+football,Premier League,Round 9,26/10/,Brentford,Liverpool,3,2,0,4.23,4.08,1.82,g_1_2g6E0QZO,2.76,2.3
+football,Premier League,Round 9,26/10/,Manchester Utd,Brighton,4,2,0,1.96,3.94,3.75,g_1_rDRmFPlI,1.29,1.12
+football,Premier League,Round 9,25/10/,Chelsea,Sunderland,1,2,2,1.47,4.6,7.54,g_1_67WOKTKt,0.9,1.31
+football,Premier League,Round 9,25/10/,Newcastle,Fulham,2,1,0,1.66,4.16,5.31,g_1_2FskD3JU,2.13,1.53
+football,Premier League,Round 9,25/10/,Leeds,West Ham,2,1,0,1.93,3.68,4.18,g_1_AaTuHoK5,1.49,0.65
+football,Premier League,Round 8,21/10/,West Ham,Brentford,0,2,2,2.87,3.33,2.62,g_1_MLFJBjrQ,0.35,2.37
+football,Premier League,Round 8,20/10/,Liverpool,Manchester Utd,1,2,2,1.68,4.46,4.75,g_1_KUKzCax9,2.75,1.34
+football,Premier League,Round 8,19/10/,Tottenham,Aston Villa,1,2,2,2.19,3.53,3.43,g_1_GOSXmmjJ,0.75,0.32
+football,Premier League,Round 8,19/10/,Fulham,Arsenal,0,1,2,6.87,4.34,1.53,g_1_6kwlldp2,0.44,1.86
+football,Premier League,Round 8,18/10/,Brighton,Newcastle,2,1,0,2.95,3.6,2.42,g_1_6Rf1c0NF,0.92,1.45
+football,Premier League,Round 8,18/10/,Burnley,Leeds,2,0,0,3.52,3.37,2.23,g_1_Eib9evhS,0.46,2.62
+football,Premier League,Round 8,18/10/,Crystal Palace,Bournemouth,3,3,1,2.2,3.38,3.58,g_1_bPZujIFk,4.44,2.03
+football,Premier League,Round 8,18/10/,Manchester City,Everton,2,0,0,1.44,4.42,9.14,g_1_jHs8giMs,2.39,0.81
+football,Premier League,Round 8,18/10/,Sunderland,Wolves,2,0,0,2.56,3.08,3.18,g_1_f9vPk9L6,0.64,0.83
+football,Premier League,Round 8,18/10/,Nottingham,Chelsea,0,3,2,3.37,3.57,2.2,g_1_nqyHiVjf,2.35,1.68
+football,Premier League,Round 7,06/10/,Brentford,Manchester City,0,1,2,5.23,4.35,1.64,g_1_bkJWOuHj,0.0,0.0
+football,Premier League,Round 7,05/10/,Aston Villa,Burnley,2,1,0,1.57,4.2,6.47,g_1_6ivhWNOG,1.16,0.4
+football,Premier League,Round 7,05/10/,Everton,Crystal Palace,2,1,0,2.79,3.27,2.73,g_1_Kf4RpNwA,2.03,1.53
+football,Premier League,Round 7,05/10/,Newcastle,Nottingham,2,0,0,1.55,4.44,6.21,g_1_8KxFyJ0d,3.45,0.3
+football,Premier League,Round 7,05/10/,Wolves,Brighton,1,1,1,3.49,3.58,2.15,g_1_0EP0aMh3,0.55,0.92
+football,Premier League,Round 7,05/10/,Chelsea,Liverpool,2,1,0,3.17,3.69,2.25,g_1_Ec1Jnq9c,1.0,1.94
+football,Premier League,Round 7,04/10/,Arsenal,West Ham,2,0,0,1.18,8.24,15.4,g_1_KztpYqf4,2.78,0.49
+football,Premier League,Round 7,04/10/,Manchester Utd,Sunderland,2,0,0,1.62,4.41,5.42,g_1_Chq6wuWq,1.84,0.71
+football,Premier League,Round 7,04/10/,Leeds,Tottenham,1,2,2,3.02,3.44,2.45,g_1_tAhzq18M,1.68,0.53
+football,Premier League,Round 7,04/10/,Bournemouth,Fulham,3,1,0,2.04,3.46,3.98,g_1_2JX0U1gT,1.12,0.89
+football,Premier League,Round 6,30/09/,Everton,West Ham,1,1,1,1.63,4.0,6.0,g_1_js9fNSun,0.74,1.19
+football,Premier League,Round 6,29/09/,Newcastle,Arsenal,1,2,2,3.73,3.4,2.14,g_1_CUIIHO9N,0.61,2.05
+football,Premier League,Round 6,28/09/,Aston Villa,Fulham,3,1,0,2.16,3.37,3.69,g_1_CWkRLF4s,1.11,0.92
+football,Premier League,Round 6,28/09/,Tottenham,Wolves,1,1,1,1.52,4.31,7.03,g_1_bLiyz6Pi,0.87,1.15
+football,Premier League,Round 6,28/09/,Nottingham,Sunderland,0,1,2,1.78,3.85,4.81,g_1_WEakC2Xp,1.68,1.19
+football,Premier League,Round 6,27/09/,Chelsea,Brighton,1,3,2,1.98,3.83,3.8,g_1_4n4zIX36,1.81,2.29
+football,Premier League,Round 6,27/09/,Crystal Palace,Liverpool,2,1,0,4.58,3.69,1.85,g_1_CC7rGBYI,2.92,2.14
+football,Premier League,Round 6,27/09/,Leeds,Bournemouth,2,2,1,3.07,3.27,2.5,g_1_b7C2L6Ab,1.84,0.82
+football,Premier League,Round 6,27/09/,Manchester City,Burnley,5,1,0,1.18,8.06,16.1,g_1_vHKAJpuB,2.03,0.41
+football,Premier League,Round 6,27/09/,Brentford,Manchester Utd,3,1,0,3.49,3.84,2.07,g_1_pplZJgZg,1.99,2.03
+football,Premier League,Round 5,22/09/,Arsenal,Manchester City,1,1,1,2.12,3.69,3.48,g_1_OUNtGjHL,0.88,0.87
+football,Premier League,Round 5,21/09/,Bournemouth,Newcastle,0,0,1,2.5,3.27,3.07,g_1_fDECAUvq,0.46,0.14
+football,Premier League,Round 5,21/09/,Sunderland,Aston Villa,1,1,1,4.14,3.42,2.02,g_1_4QSa5fK0,1.04,0.79
+football,Premier League,Round 5,21/09/,Fulham,Brentford,3,1,0,2.1,3.35,3.9,g_1_6VpDEbcE,1.0,0.6
+football,Premier League,Round 5,21/09/,Manchester Utd,Chelsea,2,1,0,2.78,3.85,2.43,g_1_bTPi7Gkl,1.84,0.42
+football,Premier League,Round 5,20/09/,Brighton,Tottenham,2,2,1,2.24,3.69,3.19,g_1_GS2L889e,1.32,1.22
+football,Premier League,Round 5,20/09/,Burnley,Nottingham,1,1,1,3.47,3.37,2.25,g_1_lfGS6nv8,0.85,1.09
+football,Premier League,Round 5,20/09/,West Ham,Crystal Palace,1,2,2,3.06,3.48,2.4,g_1_QuH83YlD,0.67,2.31
+football,Premier League,Round 5,20/09/,Wolves,Leeds,1,3,2,3.05,3.15,2.59,g_1_hn9fRysK,1.79,0.49
+football,Premier League,Round 5,20/09/,Liverpool,Everton,2,1,0,1.54,4.28,6.77,g_1_vqqLCxSQ,0.9,0.71
+football,Premier League,Round 4,15/09/,Manchester City,Manchester Utd,3,0,0,1.67,4.26,4.79,g_1_tAlwdVPk,2.63,1.52
+football,Premier League,Round 4,14/09/,Burnley,Liverpool,0,1,2,9.69,5.82,1.3,g_1_231BsWAd,0.13,2.65
+football,Premier League,Round 4,14/09/,Brentford,Chelsea,2,2,1,4.5,3.78,1.8,g_1_Uk33qhtp,1.42,1.25
+football,Premier League,Round 4,14/09/,West Ham,Tottenham,0,3,2,3.37,3.57,2.15,g_1_S2UXHCn9,0.6,1.29
+football,Premier League,Round 4,13/09/,Bournemouth,Brighton,2,1,0,2.47,3.53,2.83,g_1_zkoV10dB,1.45,0.62
+football,Premier League,Round 4,13/09/,Crystal Palace,Sunderland,0,0,1,1.7,3.66,5.59,g_1_tn6j5Z23,1.77,0.36
+football,Premier League,Round 4,13/09/,Everton,Aston Villa,0,0,1,2.72,3.13,2.83,g_1_lC9b3DXF,2.08,0.54
+football,Premier League,Round 4,13/09/,Fulham,Leeds,1,0,0,2.04,3.46,3.82,g_1_ARc71i2S,0.85,0.79
+football,Premier League,Round 4,13/09/,Newcastle,Wolves,1,0,0,1.38,5.04,8.57,g_1_z9snf9f2,1.56,0.5
+football,Premier League,Round 4,13/09/,Arsenal,Nottingham,3,0,0,1.41,4.82,8.1,g_1_SOsN3MRb,1.84,0.2
+football,Premier League,Round 3,01/09/,Aston Villa,Crystal Palace,0,3,2,0.0,0.0,0.0,g_1_vLfbv6bm,1.14,2.65
+football,Premier League,Round 3,01/09/,Liverpool,Arsenal,1,0,0,2.29,3.42,3.22,g_1_KvGXh5Dt,0.53,0.49
+football,Premier League,Round 3,31/08/,Brighton,Manchester City,2,1,0,3.88,3.65,1.96,g_1_CYh6xpTa,2.29,1.82
+football,Premier League,Round 3,31/08/,Nottingham,West Ham,0,3,2,1.68,4.05,5.07,g_1_2N7lkNC5,0.73,2.42
+football,Premier League,Round 3,31/08/,Leeds,Newcastle,0,0,1,4.18,3.43,1.96,g_1_GQkNY1SO,0.69,0.46
+football,Premier League,Round 3,30/08/,Manchester Utd,Burnley,3,2,0,1.39,5.28,7.41,g_1_6eEuiqrg,3.63,1.2
+football,Premier League,Round 3,30/08/,Sunderland,Brentford,2,1,0,3.16,3.36,2.34,g_1_zy6dm1sI,1.54,1.19
+football,Premier League,Round 3,30/08/,Tottenham,Bournemouth,0,1,2,1.88,3.81,4.05,g_1_W2a5ouCU,0.19,1.59
+football,Premier League,Round 3,30/08/,Wolves,Everton,2,3,2,3.43,3.23,2.27,g_1_69gE5rcn,1.11,1.93
+football,Premier League,Round 3,30/08/,Chelsea,Fulham,2,0,0,1.67,3.99,5.18,g_1_80nFzOcC,2.35,1.02
+football,Premier League,Round 2,26/08/,Newcastle,Liverpool,2,3,2,3.13,3.65,2.23,g_1_fcMuMOrJ,0.98,0.69
+football,Premier League,Round 2,25/08/,Fulham,Manchester Utd,1,1,1,3.72,3.7,2.03,g_1_QHUOP6qf,1.76,1.62
+football,Premier League,Round 2,24/08/,Crystal Palace,Nottingham,1,1,1,2.41,3.33,3.18,g_1_OYDhXliK,1.1,0.93
+football,Premier League,Round 2,24/08/,Everton,Brighton,2,0,0,3.11,3.39,2.42,g_1_K4aORSEs,1.59,2.44
+football,Premier League,Round 2,24/08/,Arsenal,Leeds,5,0,0,1.36,5.6,8.65,g_1_zFCHVyGF,2.88,0.17
+football,Premier League,Round 2,23/08/,Bournemouth,Wolves,1,0,0,1.81,3.79,4.67,g_1_vovkDTal,1.29,0.47
+football,Premier League,Round 2,23/08/,Brentford,Aston Villa,1,0,0,3.67,3.58,2.09,g_1_00ScB7U0,1.22,1.2
+football,Premier League,Round 2,23/08/,Burnley,Sunderland,2,0,0,2.49,3.26,3.1,g_1_8QV59oaD,1.0,0.78
+football,Premier League,Round 2,23/08/,Manchester City,Tottenham,0,2,2,1.61,4.48,5.43,g_1_YsYWNpE6,1.55,1.11
+football,Premier League,Round 2,23/08/,West Ham,Chelsea,1,5,2,0.0,0.0,0.0,g_1_M3ERqSzQ,0.73,2.74
+football,Premier League,Round 1,19/08/,Leeds,Everton,1,0,0,2.5,3.33,3.03,g_1_ngWM9fgd,2.14,0.8
+football,Premier League,Round 1,18/08/,Manchester Utd,Arsenal,0,1,2,3.9,3.79,1.96,g_1_jRxEBGOq,1.52,1.3
+football,Premier League,Round 1,17/08/,Chelsea,Crystal Palace,0,0,1,1.79,3.83,4.71,g_1_thirHx1M,1.61,0.66
+football,Premier League,Round 1,17/08/,Nottingham,Brentford,3,1,0,1.89,3.56,4.5,g_1_0YV82wnT,1.83,1.49
+football,Premier League,Round 1,17/08/,Wolves,Manchester City,0,4,2,6.7,4.28,1.54,g_1_Kx3ZIbW9,0.56,2.46
+football,Premier League,Round 1,16/08/,Brighton,Fulham,1,1,1,1.85,3.79,4.44,g_1_KON04aHG,1.47,0.76
+football,Premier League,Round 1,16/08/,Sunderland,West Ham,3,0,0,3.65,3.26,2.22,g_1_d4HvcH9j,0.68,0.56
+football,Premier League,Round 1,16/08/,Tottenham,Burnley,3,0,0,1.58,4.02,6.77,g_1_CCaRKK1c,2.32,0.93
+football,Premier League,Round 1,16/08/,Aston Villa,Newcastle,0,0,1,2.33,3.56,3.12,g_1_CbKh6Ln4,0.2,1.44
+football,Premier League,Round 1,16/08/,Liverpool,Bournemouth,4,2,0,1.31,6.36,9.15,g_1_jqWq8sIi,2.21,1.7
+football,Premier League,Round 25,08/02/,Newcastle,Brentford,2,3,2,1.9,3.84,4.09,g_1_xKSwcCx3,2.24,1.79
+football,Premier League,Round 25,08/02/,Arsenal,Sunderland,3,0,0,1.28,6.27,11.5,g_1_K24WdiL5,1.5,0.19
+football,Premier League,Round 25,08/02/,Bournemouth,Aston Villa,1,1,1,2.86,3.67,2.45,g_1_GUcueVkI,2.06,0.44
+football,Premier League,Round 25,08/02/,Burnley,West Ham,0,2,2,3.26,3.76,2.18,g_1_UyEecLWo,1.33,1.02
+football,Premier League,Round 25,08/02/,Fulham,Everton,1,2,2,2.15,3.49,3.58,g_1_MqW2ea1b,1.97,1.88
+football,Premier League,Round 25,08/02/,Wolves,Chelsea,1,3,2,5.39,4.45,1.61,g_1_dMruej7F,1.06,3.44
+football,Premier League,Round 25,07/02/,Manchester Utd,Tottenham,2,0,0,1.62,4.62,5.13,g_1_pQuhZ8pd,1.78,0.49
+football,Premier League,Round 25,07/02/,Leeds,Nottingham,3,1,0,2.22,3.49,3.42,g_1_raKBgwWA,2.5,1.33
+football,Premier League,Round 25,09/02/,Liverpool,Manchester City,1,2,2,2.26,4.03,2.93,g_1_lbnqyVFq,1.21,2.75
+football,Premier League,Round 25,08/02/,Brighton,Crystal Palace,0,1,2,2.25,3.37,3.47,g_1_lrdmg9KU,0.74,1.16
+football,Premier League,Round 26,11/02/,West Ham,Manchester Utd,1,1,1,4.69,4.41,1.69,g_1_Kxy4K6zR,1.11,0.58
+football,Premier League,Round 26,11/02/,Chelsea,Leeds,2,2,1,1.55,4.44,6.27,g_1_dpRRonU1,3.13,1.44
+football,Premier League,Round 26,11/02/,Everton,Bournemouth,1,2,2,2.35,3.58,3.07,g_1_rw7M7TjL,2.95,1.33
+football,Premier League,Round 26,11/02/,Tottenham,Newcastle,1,2,2,2.9,3.76,2.38,g_1_OAseMS5E,1.85,2.48
+football,Premier League,Round 26,12/02/,Sunderland,Liverpool,0,1,2,4.71,3.93,1.77,g_1_W2uAbPD7,0.63,2.53
+football,Premier League,Round 26,12/02/,Aston Villa,Brighton,1,0,0,2.06,3.82,3.52,g_1_4nnmgUyS,0.72,0.5
+football,Premier League,Round 26,12/02/,Crystal Palace,Burnley,2,3,2,1.49,4.6,7.16,g_1_AP8E9kM8,1.8,0.53
+football,Premier League,Round 26,12/02/,Manchester City,Fulham,3,0,0,1.38,5.59,8.03,g_1_2Nmg27Er,1.37,1.42
+football,Premier League,Round 26,12/02/,Nottingham,Wolves,0,0,1,1.8,4.0,4.45,g_1_Ami10oqe,2.55,0.42
+football,Premier League,Round 26,13/02/,Brentford,Arsenal,1,1,1,5.5,3.88,1.69,g_1_lKNJm8ak,1.5,0.6
+football,Premier League,Round 31,19/02/,Wolves,Arsenal,2,2,1,13.3,6.79,1.24,g_1_rXDVZ0h4,0.29,1.61
+football,Premier League,Round 27,22/02/,Manchester City,Newcastle,2,1,0,1.57,4.82,5.4,g_1_QwtIRNsf,1.36,0.58
+football,Premier League,Round 27,22/02/,West Ham,Bournemouth,0,0,1,2.67,3.66,2.61,g_1_4laoTzJb,3.28,0.65
+football,Premier League,Round 27,22/02/,Aston Villa,Leeds,1,1,1,1.83,3.68,4.71,g_1_G8MZEpbl,1.46,1.36
+football,Premier League,Round 27,22/02/,Brentford,Brighton,0,2,2,2.26,3.47,3.33,g_1_CzGrDOS0,1.6,1.09
+football,Premier League,Round 27,22/02/,Chelsea,Burnley,1,1,1,1.28,6.37,11.2,g_1_IXIjB2cD,1.99,0.84
+football,Premier League,Round 27,24/02/,Everton,Manchester Utd,0,1,2,3.82,3.7,2.01,g_1_UBn9TqDs,0.64,1.27
+football,Premier League,Round 27,23/02/,Tottenham,Arsenal,1,4,2,7.48,4.75,1.46,g_1_rZAxVdln,0.76,2.07
+football,Premier League,Round 27,22/02/,Crystal Palace,Wolves,1,0,0,1.81,3.93,4.48,g_1_bTewZ5kK,2.0,1.63
+football,Premier League,Round 27,22/02/,Nottingham,Liverpool,0,1,2,3.93,4.0,1.9,g_1_bivQP1C6,1.19,1.73
+football,Premier League,Round 27,22/02/,Sunderland,Fulham,1,3,2,2.94,3.33,2.56,g_1_IgfRNusJ,1.85,1.88
+football,Premier League,Round 28,01/03/,Leeds,Manchester City,0,1,2,5.17,3.99,1.7,g_1_YsWzvhXG,1.49,2.0
+football,Premier League,Round 28,01/03/,Burnley,Brentford,3,4,2,4.45,4.0,1.8,g_1_42vKszYi,0.97,2.25
+football,Premier League,Round 28,01/03/,Liverpool,West Ham,5,2,0,1.46,5.13,6.67,g_1_KbUrxW1T,1.84,1.85
+football,Premier League,Round 28,01/03/,Newcastle,Everton,2,3,2,1.8,3.87,4.64,g_1_Wxb1fDHc,1.03,2.13
+football,Premier League,Round 28,28/02/,Bournemouth,Sunderland,1,1,1,1.85,3.79,4.44,g_1_hOA1PhIN,1.71,1.43
+football,Premier League,Round 28,28/02/,Wolves,Aston Villa,2,0,0,5.14,3.8,1.74,g_1_S4iAhinA,0.87,1.03

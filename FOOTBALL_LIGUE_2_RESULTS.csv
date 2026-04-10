@@ -1,0 +1,225 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Ligue 2,Round 20,27/01/,Le Mans,Dunkerque,1,0,0,g_1_I3urTYd2,2.64,2.99,2.94,1.53,1.23
+football,Ligue 2,Round 21,01/02/,St Etienne,Boulogne,0,1,2,g_1_2ZyRvbhn,1.46,4.8,6.35,0.19,1.04
+football,Ligue 2,Round 21,31/01/,Dunkerque,Annecy,0,1,2,g_1_042ERtwe,2.19,2.98,3.84,0.52,0.57
+football,Ligue 2,Round 21,31/01/,Troyes,Le Mans,0,2,2,g_1_phxIo2UQ,2.14,3.32,3.53,1.69,0.88
+football,Ligue 2,Round 21,31/01/,Bastia,Nancy,0,0,1,g_1_dWeNPK77,2.26,3.1,3.46,1.46,0.87
+football,Ligue 2,Round 21,31/01/,Clermont,Reims,0,1,2,g_1_E7Smtthl,4.36,3.51,1.86,0.46,1.54
+football,Ligue 2,Round 21,31/01/,Grenoble,Amiens,2,1,0,g_1_lQr9mOaE,2.07,3.18,3.92,1.49,0.45
+football,Ligue 2,Round 21,31/01/,Laval,Pau FC,0,1,2,g_1_Sxk7T28r,3.28,3.38,2.22,0.89,0.81
+football,Ligue 2,Round 21,31/01/,Montpellier,Guingamp,3,1,0,g_1_rmK4xbiD,2.46,3.21,2.99,2.49,1.38
+football,Ligue 2,Round 21,31/01/,Rodez,Red Star,1,1,1,g_1_r5DzZOpL,2.78,3.39,2.52,1.05,0.99
+football,Ligue 2,Round 20,25/01/,Reims,St Etienne,1,0,0,g_1_tbvSzQbB,2.1,3.48,3.48,0.42,1.2
+football,Ligue 2,Round 20,24/01/,Guingamp,Troyes,1,0,0,g_1_dWuaTsio,2.64,3.02,2.76,0.97,0.66
+football,Ligue 2,Round 20,24/01/,Red Star,Boulogne,2,2,1,g_1_bLBGKf7U,0.0,0.0,0.0,1.79,1.26
+football,Ligue 2,Round 20,24/01/,Amiens,Laval,0,0,1,g_1_OxYpioqh,2.71,2.99,2.86,1.23,0.87
+football,Ligue 2,Round 20,24/01/,Annecy,Clermont,2,1,0,g_1_pjszVfSk,1.98,3.36,4.03,2.58,0.7
+football,Ligue 2,Round 20,24/01/,Bastia,Montpellier,0,2,2,g_1_EBxzZ3TN,2.66,3.13,2.81,0.9,2.01
+football,Ligue 2,Round 20,24/01/,Nancy,Rodez,1,3,2,g_1_hIP1m3rH,2.08,3.51,3.51,2.59,2.09
+football,Ligue 2,Round 20,24/01/,Pau FC,Grenoble,2,2,1,g_1_phMgkPD4,1.73,3.72,4.9,3.07,0.49
+football,Ligue 2,Round 19,20/01/,Nancy,Guingamp,0,3,2,g_1_C47xQ8pg,2.68,3.26,2.68,0.22,1.3
+football,Ligue 2,Round 19,18/01/,St Etienne,Clermont,1,0,0,g_1_x6sBv8an,1.51,4.26,6.39,2.13,1.2
+football,Ligue 2,Round 19,17/01/,Grenoble,Red Star,0,3,2,g_1_Q7kB9m0C,3.06,3.28,2.38,0.42,2.6
+football,Ligue 2,Round 19,17/01/,Troyes,Reims,2,1,0,g_1_pWpJxnUb,2.42,3.18,3.08,2.24,1.83
+football,Ligue 2,Round 19,17/01/,Annecy,Amiens,2,0,0,g_1_nNwK7RUO,1.8,3.38,5.01,1.95,0.88
+football,Ligue 2,Round 19,17/01/,Boulogne,Montpellier,1,0,0,g_1_je88MGxI,3.26,3.2,2.31,0.34,0.35
+football,Ligue 2,Round 19,17/01/,Dunkerque,Pau FC,3,1,0,g_1_pI5pOnF5,1.86,3.6,4.24,1.33,2.41
+football,Ligue 2,Round 19,17/01/,Laval,Bastia,0,2,2,g_1_GxETRUFt,2.62,2.88,3.1,0.07,1.88
+football,Ligue 2,Round 19,17/01/,Rodez,Le Mans,1,1,1,g_1_tpagMQqI,2.79,3.3,2.55,0.46,1.27
+football,Ligue 2,Round 18,06/01/,Montpellier,Dunkerque,1,3,2,g_1_vJm1ecu2,2.36,3.21,3.16,1.55,2.72
+football,Ligue 2,Round 18,04/01/,Amiens,Nancy,1,2,2,g_1_C4PyeloJ,3.32,3.32,2.14,0.51,1.94
+football,Ligue 2,Round 18,04/01/,Bastia,Grenoble,1,0,0,g_1_Qq7OIiwQ,2.2,3.06,3.48,1.74,2.31
+football,Ligue 2,Round 18,04/01/,Clermont,Laval,4,1,0,g_1_Isn3B9Va,2.58,3.04,2.83,2.49,0.28
+football,Ligue 2,Round 18,04/01/,Guingamp,Boulogne,3,0,0,g_1_prw8Ox85,1.89,3.32,4.19,2.8,0.79
+football,Ligue 2,Round 18,04/01/,Le Mans,St Etienne,0,0,1,g_1_WCzmJ0X8,2.46,3.48,2.66,0.66,1.16
+football,Ligue 2,Round 18,04/01/,Pau FC,Rodez,3,3,1,g_1_MFhfDV0m,2.04,3.56,3.36,3.96,0.83
+football,Ligue 2,Round 18,04/01/,Reims,Annecy,2,1,0,g_1_zaUC0hHs,1.67,3.65,5.07,0.53,0.76
+football,Ligue 2,Round 18,03/01/,Troyes,Red Star,1,0,0,g_1_4vMTdAG6,1.8,3.48,4.41,1.95,1.02
+football,Ligue 2,Round 17,16/12/,Boulogne,Troyes,1,2,2,g_1_CUv0Qbwg,3.84,3.45,1.93,1.46,1.12
+football,Ligue 2,Round 17,14/12/,St Etienne,Bastia,2,2,1,g_1_rifhcJAk,1.62,3.75,5.46,2.56,0.79
+football,Ligue 2,Round 17,13/12/,Grenoble,Montpellier,1,1,1,g_1_C83M2umS,3.42,3.47,2.05,1.65,1.37
+football,Ligue 2,Round 17,13/12/,Red Star,Reims,0,0,1,g_1_jgFD41IF,3.46,3.29,2.1,0.29,0.59
+football,Ligue 2,Round 17,13/12/,Annecy,Le Mans,1,2,2,g_1_xjkvj23M,2.39,3.02,3.12,0.36,1.41
+football,Ligue 2,Round 17,13/12/,Laval,Dunkerque,1,2,2,g_1_UJ2Ngp4c,3.58,3.01,2.18,0.42,1.44
+football,Ligue 2,Round 17,13/12/,Nancy,Clermont,1,0,0,g_1_pdC56Nm3,2.0,3.37,3.68,1.72,0.7
+football,Ligue 2,Round 17,13/12/,Pau FC,Amiens,1,2,2,g_1_UmUIrKed,1.58,4.09,5.25,2.2,1.63
+football,Ligue 2,Round 17,13/12/,Rodez,Guingamp,2,1,0,g_1_dzWAptRq,2.42,3.42,2.76,1.71,3.1
+football,Ligue 2,Round 16,09/12/,Reims,Laval,4,0,0,g_1_IoxFS75b,1.69,3.74,4.75,1.11,0.65
+football,Ligue 2,Round 16,07/12/,Dunkerque,St Etienne,1,0,0,g_1_MJr6UTzn,2.54,3.39,2.62,1.29,0.93
+football,Ligue 2,Round 16,06/12/,Montpellier,Pau FC,0,1,2,g_1_jazNQozB,1.8,4.0,3.8,1.67,0.59
+football,Ligue 2,Round 16,06/12/,Troyes,Rodez,1,1,1,g_1_A1jOOP4N,1.79,3.74,4.09,2.41,1.22
+football,Ligue 2,Round 16,06/12/,Bastia,Red Star,0,3,2,g_1_tpsfJ3Sp,2.54,2.98,2.94,0.65,0.06
+football,Ligue 2,Round 16,06/12/,Clermont,Boulogne,1,1,1,g_1_G2oiSK8t,2.28,3.27,3.08,0.59,2.27
+football,Ligue 2,Round 16,06/12/,Grenoble,Nancy,1,0,0,g_1_AFVdwPJG,2.98,3.38,2.29,2.25,0.42
+football,Ligue 2,Round 16,06/12/,Guingamp,Annecy,0,3,2,g_1_U5Nluok4,2.18,3.38,3.18,1.06,1.62
+football,Ligue 2,Round 16,06/12/,Le Mans,Amiens,1,0,0,g_1_2DAyWtCj,1.37,4.75,7.99,1.23,0.13
+football,Ligue 2,Round 11,26/11/,Bastia,Laval,0,2,2,g_1_p25dvjnK,2.34,3.0,3.23,0.53,2.61
+football,Ligue 2,Round 15,25/11/,Reims,Montpellier,2,0,0,g_1_dvSfNCTI,2.15,3.26,3.36,1.34,0.98
+football,Ligue 2,Round 15,23/11/,St Etienne,Nancy,2,1,0,g_1_zPwnPYb6,1.57,3.87,5.75,2.0,1.82
+football,Ligue 2,Round 15,22/11/,Amiens,Guingamp,1,2,2,g_1_xUeaYxxK,3.93,3.41,1.92,1.74,3.12
+football,Ligue 2,Round 15,22/11/,Red Star,Clermont,2,2,1,g_1_QBPbU8Jl,1.79,3.37,4.67,1.07,0.44
+football,Ligue 2,Round 15,22/11/,Annecy,Bastia,1,0,0,g_1_KhREQQID,2.58,2.78,3.1,1.56,0.64
+football,Ligue 2,Round 15,22/11/,Boulogne,Grenoble,3,1,0,g_1_jNUuL31D,2.23,3.12,3.33,2.35,2.13
+football,Ligue 2,Round 15,22/11/,Laval,Troyes,0,1,2,g_1_YasVSGas,3.5,3.08,2.18,0.5,2.09
+football,Ligue 2,Round 15,22/11/,Pau FC,Le Mans,1,2,2,g_1_URzvRfUg,3.03,3.26,2.31,1.09,1.26
+football,Ligue 2,Round 15,22/11/,Rodez,Dunkerque,1,1,1,g_1_nRD7Snl1,2.63,3.26,2.63,0.61,0.72
+football,Ligue 2,Round 14,09/11/,Troyes,St Etienne,2,3,2,g_1_t4XI8hcS,2.42,3.34,2.8,1.39,0.76
+football,Ligue 2,Round 14,08/11/,Guingamp,Pau FC,2,2,1,g_1_67hYDmZ7,1.96,3.62,3.52,1.1,1.35
+football,Ligue 2,Round 14,08/11/,Le Mans,Red Star,0,0,1,g_1_C8aPF94e,2.42,2.96,3.15,0.67,0.59
+football,Ligue 2,Round 14,08/11/,Bastia,Reims,1,3,2,g_1_0lEk3WKk,3.38,3.01,2.27,1.26,2.37
+football,Ligue 2,Round 14,08/11/,Clermont,Amiens,2,1,0,g_1_CpHxPDs9,1.95,3.4,3.8,2.5,0.72
+football,Ligue 2,Round 14,08/11/,Dunkerque,Boulogne,1,1,1,g_1_U7tXMPW0,1.6,3.7,5.75,0.85,0.81
+football,Ligue 2,Round 14,08/11/,Grenoble,Rodez,2,1,0,g_1_4rdHHVZr,2.38,3.18,2.98,0.99,1.49
+football,Ligue 2,Round 14,08/11/,Montpellier,Annecy,1,0,0,g_1_Y1Cc1Ak2,1.78,3.48,4.53,1.61,1.0
+football,Ligue 2,Round 14,08/11/,Nancy,Laval,0,2,2,g_1_b1uKyiRE,1.87,3.34,4.25,0.87,1.67
+football,Ligue 2,Round 13,04/11/,Pau FC,Troyes,1,1,1,g_1_vac1f2xI,3.37,3.3,2.13,1.28,1.03
+football,Ligue 2,Round 13,02/11/,Red Star,St Etienne,2,1,0,g_1_COu2Czb3,3.08,3.48,2.18,1.73,1.74
+football,Ligue 2,Round 13,01/11/,Amiens,Grenoble,2,3,2,g_1_jwRJCqhn,2.98,3.18,2.38,1.51,2.75
+football,Ligue 2,Round 13,01/11/,Reims,Dunkerque,1,2,2,g_1_YwUAAESF,2.01,3.23,3.82,0.79,1.18
+football,Ligue 2,Round 13,01/11/,Annecy,Boulogne,1,1,1,g_1_OAwPOo2l,1.93,3.12,4.36,0.9,1.23
+football,Ligue 2,Round 13,01/11/,Bastia,Clermont,1,0,0,g_1_48u8jgyp,1.95,3.25,4.0,0.94,0.73
+football,Ligue 2,Round 13,01/11/,Guingamp,Laval,2,0,0,g_1_xfPRANMb,1.74,3.41,5.02,0.9,0.74
+football,Ligue 2,Round 13,01/11/,Le Mans,Nancy,1,0,0,g_1_nP09ht7U,1.95,3.3,3.95,1.3,0.53
+football,Ligue 2,Round 13,01/11/,Montpellier,Rodez,2,0,0,g_1_0zZGlX5d,1.73,3.71,4.51,2.81,0.52
+football,Ligue 2,Round 12,29/10/,Boulogne,Reims,2,6,2,g_1_4QdhU7vR,4.13,3.43,1.87,1.22,2.78
+football,Ligue 2,Round 12,29/10/,Clermont,Montpellier,1,1,1,g_1_j3AAo7gm,3.24,3.44,2.13,1.54,1.74
+football,Ligue 2,Round 12,29/10/,Dunkerque,Red Star,3,0,0,g_1_dGuBqoOa,2.15,3.21,3.41,2.37,1.01
+football,Ligue 2,Round 12,29/10/,Grenoble,Guingamp,0,0,1,g_1_rX3hdO75,2.83,3.13,2.53,0.14,0.47
+football,Ligue 2,Round 12,29/10/,Laval,Le Mans,1,1,1,g_1_GKCy068t,3.02,3.02,2.46,1.59,0.89
+football,Ligue 2,Round 12,29/10/,Nancy,Bastia,2,0,0,g_1_QeXRu3NO,2.43,2.94,3.14,0.79,0.32
+football,Ligue 2,Round 12,29/10/,Rodez,Annecy,2,1,0,g_1_4tqJsPhC,2.03,3.37,3.57,0.41,0.63
+football,Ligue 2,Round 12,29/10/,St Etienne,Pau FC,6,0,0,g_1_vPthTPwJ,1.71,3.81,4.52,4.41,0.93
+football,Ligue 2,Round 12,29/10/,Troyes,Amiens,3,1,0,g_1_AJ5pbpwg,1.41,4.79,6.56,3.09,0.47
+football,Ligue 2,Round 11,26/10/,Annecy,St Etienne,4,0,0,g_1_WbwpVo96,4.11,3.91,1.75,3.02,0.48
+football,Ligue 2,Round 11,25/10/,Amiens,Rodez,2,1,0,g_1_dtP1I8P0,3.18,3.08,2.33,0.8,2.4
+football,Ligue 2,Round 11,25/10/,Montpellier,Nancy,4,1,0,g_1_AqkyX7vf,1.98,3.46,3.64,0.88,0.52
+football,Ligue 2,Round 11,25/10/,Guingamp,Clermont,0,1,2,g_1_APQgKUfl,1.62,4.0,5.0,1.52,0.38
+football,Ligue 2,Round 11,25/10/,Le Mans,Boulogne,1,0,0,g_1_WCbpWT9E,1.84,3.49,4.18,1.35,0.09
+football,Ligue 2,Round 11,25/10/,Pau FC,Dunkerque,0,3,2,g_1_rBADvat3,2.44,3.39,2.74,1.01,2.8
+football,Ligue 2,Round 11,25/10/,Red Star,Grenoble,1,0,0,g_1_h8IAGnfD,1.82,3.48,4.3,0.86,0.96
+football,Ligue 2,Round 11,25/10/,Reims,Troyes,0,0,1,g_1_4nnTYT9s,2.03,3.5,3.42,0.99,0.99
+football,Ligue 2,Round 10,21/10/,Nancy,Amiens,0,1,2,g_1_MssWRLdc,1.69,3.72,4.79,1.64,1.46
+football,Ligue 2,Round 10,19/10/,St Etienne,Le Mans,2,3,2,g_1_ryf4DMs4,1.6,4.06,5.07,1.54,2.54
+football,Ligue 2,Round 10,18/10/,Dunkerque,Montpellier,0,1,2,g_1_CGoL9vsT,2.11,3.31,3.41,0.54,1.16
+football,Ligue 2,Round 10,18/10/,Laval,Red Star,0,1,2,g_1_jNYnOwdM,2.95,3.16,2.42,0.47,0.96
+football,Ligue 2,Round 10,18/10/,Boulogne,Guingamp,2,2,1,g_1_G4Gc8QH7,2.77,3.32,2.46,0.94,1.07
+football,Ligue 2,Round 10,18/10/,Clermont,Annecy,0,1,2,g_1_fykp4I4j,2.64,3.11,2.71,1.09,0.33
+football,Ligue 2,Round 9,05/10/,Montpellier,St Etienne,0,2,2,g_1_hnRB7Wgo,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Red Star,Rodez,1,1,1,g_1_fiqPGzXb,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Reims,Grenoble,2,4,2,g_1_zBjdFrDi,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Amiens,Boulogne,0,1,2,g_1_UmIkAnme,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Annecy,Laval,0,0,1,g_1_EJ8j2yI5,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Bastia,Dunkerque,0,0,1,g_1_bPkGId2n,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Guingamp,Nancy2,2,2,1,g_1_OWztDhWN,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Le Mans,Troyes,2,2,1,g_1_MqCb0FnI,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 9,04/10/,Pau FC,Clermont,3,1,0,g_1_ra07bgHU,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,30/09/,Boulogne,Red Star,1,2,2,g_1_8YTtC8Ir,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,28/09/,St Etienne,Guingamp,2,3,2,g_1_EaCZ9SJE,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Dunkerque,Amiens,6,2,0,g_1_YPANb2BD,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Laval,Montpellier,0,1,2,g_1_M5PmnPR7,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Clermont,Le Mans,1,1,1,g_1_IiFs4cmg,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Grenoble,Bastia,0,0,1,g_1_Y1Sz86lR,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Nancy,Reims,0,1,2,g_1_QwWvloce,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Rodez,Pau FC,1,2,2,g_1_pvHZ5JIt,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 8,27/09/,Troyes,Annecy,3,1,0,g_1_4pJ62pCl,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 7,24/09/,Amiens,St Etienne,0,1,2,g_1_tYYhckz9,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 7,24/09/,Annecy,Nancy,1,2,2,g_1_QePApCj3,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 7,24/09/,Bastia,Rodez,2,3,2,g_1_nBDJrjLF,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 7,24/09/,Guingamp,Dunkerque,2,1,0,g_1_hChby8Dk,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2,Round 7,24/09/,Le Mans,Grenoble,1,0,0,g_1_QPj6Zor2,1.89,3.45,3.99,0.41,1.22
+football,Ligue 2,Round 7,24/09/,Montpellier,Boulogne,1,3,2,g_1_xjwBHUfL,1.58,3.8,5.73,0.93,2.45
+football,Ligue 2,Round 7,24/09/,Pau FC,Laval,1,0,0,g_1_YRBRtUkS,2.18,3.3,3.25,1.72,0.46
+football,Ligue 2,Round 7,24/09/,Red Star,Troyes,1,3,2,g_1_bkXOM8bd,2.67,3.29,2.57,1.48,1.47
+football,Ligue 2,Round 7,24/09/,Reims,Clermont,4,1,0,g_1_IDSWk7Sr,1.53,4.16,5.7,2.45,0.72
+football,Ligue 2,Round 6,21/09/,St Etienne,Reims,3,2,0,g_1_hGlrEvGO,1.95,3.61,3.59,2.86,2.01
+football,Ligue 2,Round 6,20/09/,Montpellier,Bastia,2,0,0,g_1_v7N0WLVh,1.98,3.3,3.81,1.55,0.53
+football,Ligue 2,Round 6,20/09/,Troyes,Guingamp,5,2,0,g_1_ruUiYs1t,1.78,3.78,4.08,1.59,0.6
+football,Ligue 2,Round 6,20/09/,Boulogne,Pau FC,0,3,2,g_1_tOq2JjQ8,2.62,3.22,2.75,0.4,1.42
+football,Ligue 2,Round 6,20/09/,Dunkerque,Le Mans,2,2,1,g_1_CKL8Ua05,1.94,3.52,3.96,1.35,0.96
+football,Ligue 2,Round 6,20/09/,Grenoble,Annecy,1,3,2,g_1_OWItAVEj,2.41,3.15,3.12,0.73,1.77
+football,Ligue 2,Round 6,20/09/,Laval,Amiens,0,3,2,g_1_4SeTXY6c,1.89,3.32,4.49,1.71,1.74
+football,Ligue 2,Round 6,20/09/,Nancy,Red Star,0,1,2,g_1_ChayWCyA,2.47,3.14,3.04,0.44,1.14
+football,Ligue 2,Round 6,20/09/,Rodez,Clermont,0,1,2,g_1_2NwGOUTq,2.24,3.36,3.25,1.74,0.4
+football,Ligue 2,Round 1,17/09/,Boulogne,Bastia,1,0,0,g_1_8zVpfzcc,3.44,3.14,2.18,0.94,1.26
+football,Ligue 2,Round 5,16/09/,Guingamp,Montpellier,1,0,0,g_1_W00ZF0oC,2.89,3.29,2.38,1.32,0.91
+football,Ligue 2,Round 5,14/09/,Clermont,St Etienne,1,2,2,g_1_Uy4IJrnm,4.08,3.78,1.78,0.39,1.44
+football,Ligue 2,Round 5,13/09/,Annecy,Reims,1,1,1,g_1_Q3cRHMGa,3.76,3.35,1.98,0.3,2.01
+football,Ligue 2,Round 5,13/09/,Grenoble,Dunkerque,1,0,0,g_1_21py752s,2.8,3.36,2.42,0.58,0.84
+football,Ligue 2,Round 5,13/09/,Amiens,Bastia,0,0,1,g_1_Y5InP4OP,3.41,3.33,2.1,0.44,0.31
+football,Ligue 2,Round 5,13/09/,Boulogne,Laval,1,2,2,g_1_lUdGemY1,3.18,3.33,2.2,1.45,1.1
+football,Ligue 2,Round 5,13/09/,Le Mans,Rodez,0,1,2,g_1_ARmq5qXg,2.05,3.49,3.38,1.32,1.5
+football,Ligue 2,Round 5,13/09/,Pau FC2,Red Star,0,3,2,g_1_Icz011WI,2.77,3.22,2.52,0.73,3.08
+football,Ligue 2,Round 5,13/09/,Troyes,Nancy,3,0,0,g_1_rH34CRvK,2.34,3.16,3.06,4.08,1.43
+football,Ligue 2,Round 4,31/08/,St Etienne,Grenoble,1,1,1,g_1_faFdEShA,1.45,4.18,7.14,1.88,0.64
+football,Ligue 2,Round 4,30/08/,Bastia,Guingamp,1,3,2,g_1_jNGIlOnD,1.76,3.66,4.41,1.0,1.73
+football,Ligue 2,Round 4,30/08/,Reims,Le Mans,1,0,0,g_1_0bsUeKxq,2.08,3.25,3.55,1.07,0.23
+football,Ligue 2,Round 4,30/08/,Dunkerque,Troyes,2,0,0,g_1_IFTVcSPQ,2.4,3.31,2.86,0.72,1.26
+football,Ligue 2,Round 4,30/08/,Laval,Clermont,0,0,1,g_1_UwZphxx8,2.06,3.35,3.5,0.73,0.34
+football,Ligue 2,Round 4,30/08/,Montpellier,Amiens,1,1,1,g_1_dQzwfb7e,1.63,3.87,5.09,2.16,0.6
+football,Ligue 2,Round 4,30/08/,Nancy,Pau FC,2,2,1,g_1_2m52h6ml,1.97,3.35,3.81,1.81,1.1
+football,Ligue 2,Round 4,30/08/,Red Star,Annecy,1,0,0,g_1_AkQNaleE,1.85,3.38,4.31,1.12,0.29
+football,Ligue 2,Round 4,30/08/,Rodez,Boulogne,1,0,0,g_1_8Kl8c93k,2.0,3.08,4.1,1.04,1.65
+football,Ligue 2,Round 3,26/08/,Pau FC,Reims,2,0,0,g_1_86Z1hoWj,2.87,3.67,2.23,0.98,0.28
+football,Ligue 2,Round 3,24/08/,Boulogne,St Etienne,0,1,2,g_1_xxbx3VuS,4.9,3.61,1.7,0.45,0.69
+football,Ligue 2,Round 3,23/08/,Guingamp,Red Star,0,4,2,g_1_Kt1E1k94,2.17,3.4,3.19,0.85,1.97
+football,Ligue 2,Round 3,23/08/,Troyes,Montpellier,1,0,0,g_1_YqRmGlOc,2.17,3.51,3.1,1.0,0.36
+football,Ligue 2,Round 3,23/08/,Amiens,Annecy,0,1,2,g_1_6JAKu8no,2.66,3.08,2.72,1.02,0.5
+football,Ligue 2,Round 3,23/08/,Clermont,Grenoble,2,1,0,g_1_nFm73Bvh,2.09,3.31,3.46,1.15,1.12
+football,Ligue 2,Round 3,23/08/,Dunkerque,Nancy,1,3,2,g_1_G8fNaTwH,2.5,3.05,2.94,1.83,1.14
+football,Ligue 2,Round 3,23/08/,Le Mans,Bastia,1,0,0,g_1_zyKloUON,2.79,3.26,2.48,1.42,0.77
+football,Ligue 2,Round 3,23/08/,Rodez,Laval,1,1,1,g_1_v9QumjfB,2.73,3.28,2.51,2.23,0.52
+football,Ligue 2,Round 2,19/08/,Le Mans,Montpellier,1,2,2,g_1_MBIvKiQO,2.39,3.53,2.73,0.54,1.06
+football,Ligue 2,Round 2,17/08/,St Etienne,Rodez,4,0,0,g_1_0xlkveBt,1.66,4.23,4.33,3.11,0.39
+football,Ligue 2,Round 2,16/08/,Annecy,Dunkerque,2,2,1,g_1_0I56YjuI,2.86,3.33,2.39,1.67,0.3
+football,Ligue 2,Round 2,16/08/,Reims,Guingamp,1,0,0,g_1_EoFWLDeC,2.14,3.48,3.17,1.98,1.04
+football,Ligue 2,Round 2,16/08/,Bastia,Pau FC,1,1,1,g_1_YkncxZug,1.7,3.92,4.8,1.55,1.45
+football,Ligue 2,Round 2,16/08/,Clermont,Troyes,0,0,1,g_1_hh2bzDA5,2.82,3.34,2.49,0.39,0.96
+football,Ligue 2,Round 2,16/08/,Grenoble,Laval,1,1,1,g_1_6eSXlCPb,2.72,3.26,2.63,1.48,0.55
+football,Ligue 2,Round 2,16/08/,Nancy,Boulogne,1,0,0,g_1_GM9T4iBF,1.73,3.65,5.05,0.25,0.6
+football,Ligue 2,Round 2,16/08/,Red Star,Amiens,1,3,2,g_1_CdZOjYfn,1.92,3.52,4.07,1.24,1.87
+football,Ligue 2,Round 1,12/08/,Amiens,Reims,2,2,1,g_1_YPbM2rc4,5.64,3.97,1.65,1.78,1.6
+football,Ligue 2,Round 1,10/08/,Dunkerque,Clermont,2,2,1,g_1_0C0E44Si,2.29,3.29,3.4,1.48,0.91
+football,Ligue 2,Round 1,10/08/,Laval,St Etienne,3,3,1,g_1_0hIVb0dT,2.84,3.35,2.59,1.63,0.79
+football,Ligue 2,Round 1,10/08/,Montpellier,Red Star,1,1,1,g_1_hSEN0MRG,1.83,3.61,4.68,0.29,0.93
+football,Ligue 2,Round 1,10/08/,Pau FC,Annecy,2,0,0,g_1_h6wmlqrB,2.44,3.25,3.14,1.58,0.36
+football,Ligue 2,Round 1,10/08/,Rodez,Nancy,0,0,1,g_1_p4IRt1zo,2.63,3.33,2.82,2.37,1.23
+football,Ligue 2,Round 1,10/08/,Troyes,Grenoble,2,1,0,g_1_n9zuj5Db,0.0,0.0,0.0,1.61,0.21
+football,Ligue 2,Round 1,09/08/,Guingamp,Le Mans,3,3,1,g_1_jssWiRrn,2.05,3.44,3.87,2.16,1.74
+football,Ligue 2,Round 10,18/10/,Grenoble,Pau FC,1,1,1,g_1_S2SQGeld,3.17,3.11,2.31,1.19,2.38
+football,Ligue 2,Round 10,18/10/,Rodez,Reims,2,2,1,g_1_v3mDB0CG,3.43,3.53,2.02,1.14,0.96
+football,Ligue 2,Round 10,18/10/,Troyes,Bastia,1,0,0,g_1_rcVvQaR9,1.76,3.48,4.71,0.36,1.04
+football,Ligue 2,Round 22,08/02/,St Etienne,Montpellier,1,0,0,g_1_be2i01qK,2.09,3.54,3.43,1.7,0.19
+football,Ligue 2,Round 22,07/02/,Le Mans,Laval,1,1,1,g_1_r9eukyyJ,1.88,3.1,5.08,1.61,1.33
+football,Ligue 2,Round 22,07/02/,Nancy,Troyes,2,1,0,g_1_nes55dLa,3.34,3.38,2.19,1.45,0.8
+football,Ligue 2,Round 22,07/02/,Annecy,Grenoble,1,1,1,g_1_rNzE3zjC,1.91,3.4,4.25,1.03,0.48
+football,Ligue 2,Round 22,07/02/,Boulogne,Rodez,1,2,2,g_1_AauZxxNb,2.34,3.3,3.09,0.94,1.05
+football,Ligue 2,Round 22,07/02/,Dunkerque,Guingamp,0,0,1,g_1_Mg7Wjc66,2.27,3.27,3.27,0.98,1.3
+football,Ligue 2,Round 22,07/02/,Red Star,Pau FC,0,3,2,g_1_AFmRCvTP,2.29,3.3,3.2,1.27,1.71
+football,Ligue 2,Round 22,07/02/,Reims,Bastia,0,0,1,g_1_fRmNfu7s,1.79,3.28,5.28,1.36,0.45
+football,Ligue 2,Round 22,10/02/,Amiens,Clermont,4,3,0,g_1_Esqc7Ijm,2.72,3.31,2.62,2.15,2.08
+football,Ligue 2,Round 23,14/02/,Amiens,Dunkerque,1,4,2,g_1_pEVd3ReT,3.82,3.51,1.98,1.56,2.98
+football,Ligue 2,Round 23,14/02/,Clermont,Rodez,1,2,2,g_1_GYwt79d4,2.45,3.33,2.91,1.0,0.86
+football,Ligue 2,Round 23,14/02/,Laval,Annecy,2,2,1,g_1_4bCTc5Jj,3.08,2.97,2.56,1.18,1.21
+football,Ligue 2,Round 23,14/02/,Pau FC,Boulogne,1,2,2,g_1_4bYsyGiB,1.89,3.46,4.28,1.18,0.97
+football,Ligue 2,Round 23,14/02/,Red Star,Nancy,2,1,0,g_1_UHuY8VRi,1.97,3.32,4.13,1.03,0.21
+football,Ligue 2,Round 23,15/02/,Guingamp,St Etienne,1,2,2,g_1_bHeWHQAM,2.58,3.79,2.49,1.65,1.81
+football,Ligue 2,Round 23,14/02/,Grenoble,Reims,0,0,1,g_1_Uy4FL8Bc,4.55,3.54,1.82,0.45,1.74
+football,Ligue 2,Round 23,14/02/,Montpellier,Le Mans,4,2,0,g_1_jihOJntA,2.38,3.01,3.32,1.61,1.05
+football,Ligue 2,Round 23,17/02/,Bastia,Troyes,0,0,1,g_1_C0Xl5mRG,2.63,3.15,2.82,1.74,0.19
+football,Ligue 2,Round 24,22/02/,St Etienne,Laval,2,1,0,g_1_I1x3C4Yq,1.55,3.96,6.42,2.17,0.37
+football,Ligue 2,Round 24,21/02/,Reims,Amiens,0,0,1,g_1_G8fkYoe3,1.36,5.11,8.17,1.04,1.23
+football,Ligue 2,Round 24,21/02/,Troyes,Pau FC,4,3,0,g_1_2PIWpPv9,1.91,3.72,3.83,2.49,1.68
+football,Ligue 2,Round 24,21/02/,Annecy,Red Star,2,1,0,g_1_GWxxPsIk,2.48,3.09,3.09,1.6,1.69
+football,Ligue 2,Round 24,21/02/,Boulogne,Clermont,0,2,2,g_1_xCWkZgMN,2.38,3.04,3.3,0.24,2.16
+football,Ligue 2,Round 24,21/02/,Dunkerque,Bastia,1,1,1,g_1_pln6U3fS,2.17,3.03,3.83,0.54,1.51
+football,Ligue 2,Round 24,21/02/,Nancy,Grenoble,0,0,1,g_1_OYccWPPF,1.95,3.45,4.01,1.58,0.68
+football,Ligue 2,Round 24,21/02/,Rodez,Montpellier,1,0,0,g_1_jFzBAr3d,2.88,3.43,2.42,0.7,1.28
+football,Ligue 2,Round 24,24/02/,Le Mans,Guingamp,1,1,1,g_1_biCuq39L,2.66,3.3,2.68,0.86,1.64
+football,Ligue 2,Round 25,01/03/,Pau FC,St Etienne,0,3,2,g_1_YkfBZkxP,3.06,3.73,2.18,0.44,2.53
+football,Ligue 2,Round 25,28/02/,Guingamp,Rodez,0,0,1,g_1_jkiKyL1e,1.87,3.74,4.0,0.74,0.58
+football,Ligue 2,Round 25,28/02/,Red Star,Le Mans,0,0,1,g_1_O0fnuf8m,2.29,3.3,3.2,0.53,0.54
+football,Ligue 2,Round 25,28/02/,Bastia,Annecy,0,2,2,g_1_x6kSZbW7,2.43,2.9,3.38,1.34,1.93
+football,Ligue 2,Round 25,28/02/,Clermont,Dunkerque,2,1,0,g_1_UZ2BwsXr,2.79,3.1,2.69,1.12,1.29
+football,Ligue 2,Round 25,28/02/,Grenoble,Boulogne,0,0,1,g_1_ddDMTXqo,0.0,0.0,0.0,0.56,0.25
+football,Ligue 2,Round 25,28/02/,Laval,Nancy,1,1,1,g_1_KSmewYx0,2.46,3.08,3.1,1.35,1.37
+football,Ligue 2,Round 25,28/02/,Montpellier,Reims,0,0,1,g_1_OEZKggNt,3.05,3.39,2.33,0.82,1.11

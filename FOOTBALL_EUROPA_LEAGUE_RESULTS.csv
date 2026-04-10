@@ -1,0 +1,243 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Europa League,Round 8,30/01/,Aston Villa,Salzburg,3,2,0,g_1_dtgagL7e,0.0,0.0,0.0,1.55,2.22
+football,Europa League,Round 8,30/01/,Basel,Plzen,0,1,2,g_1_67A6TD6M,2.0,3.99,3.58,0.82,1.04
+football,Europa League,Round 8,30/01/,Betis,Feyenoord,2,1,0,g_1_t4qHtrOk,1.54,4.88,5.65,1.24,1.7
+football,Europa League,Round 8,30/01/,Celtic,Utrecht,4,2,0,g_1_WUXov4Ks,1.46,4.87,7.18,2.66,0.41
+football,Europa League,Round 8,30/01/,Crvena zvezda,Celta Vigo,1,1,1,g_1_b17t6J8b,2.38,3.62,3.0,1.0,1.29
+football,Europa League,Round 8,30/01/,FC Porto,Rangers,3,1,0,g_1_8t2K6ysJ,1.25,6.79,12.5,1.6,0.42
+football,Europa League,Round 8,30/01/,FCSB,Fenerbahce,1,1,1,g_1_CC5WiTml,6.41,4.44,1.54,1.77,1.55
+football,Europa League,Round 8,30/01/,G.A. Eagles,Braga,0,0,1,g_1_4taE2p26,5.13,4.31,1.66,0.18,0.44
+football,Europa League,Round 8,30/01/,Genk,Malmo FF,2,1,0,g_1_W6NkcbqA,1.36,5.6,8.65,3.26,0.53
+football,Europa League,Round 8,30/01/,Lille,Freiburg,1,0,0,g_1_zeSM1kaM,1.99,3.68,3.88,1.62,0.63
+football,Europa League,Round 8,30/01/,Ludogorets,Nice,1,0,0,g_1_YgdLOwwo,0.0,0.0,0.0,1.67,1.19
+football,Europa League,Round 8,30/01/,Lyon,PAOK,4,2,0,g_1_rPmGJiel,2.54,3.39,2.92,2.52,0.65
+football,Europa League,Round 8,30/01/,Maccabi Tel Aviv,Bologna,0,3,2,g_1_MFAcd3tQ,9.45,5.77,1.33,0.86,3.29
+football,Europa League,Round 8,30/01/,Midtjylland,Din. Zagreb,2,0,0,g_1_YNmxfbcD,1.89,3.88,4.09,1.21,0.8
+football,Europa League,Round 8,30/01/,Nottingham,Ferencvaros,4,0,0,g_1_KAztrDLF,1.6,4.02,6.44,2.88,0.65
+football,Europa League,Round 8,30/01/,Panathinaikos,AS Roma,1,1,1,g_1_2P8Hs9jg,5.16,3.35,1.86,0.8,1.38
+football,Europa League,Round 8,30/01/,Sturm Graz,Brann,1,0,0,g_1_riCQCqr4,2.82,3.28,2.69,0.85,2.29
+football,Europa League,Round 8,30/01/,Stuttgart,Young Boys,3,2,0,g_1_pfZe5tJt,1.25,7.2,11.3,3.48,1.53
+football,Europa League,Round 7,23/01/,AS Roma,Stuttgart,2,0,0,g_1_tAK8qVLt,2.17,3.49,3.54,1.0,1.65
+football,Europa League,Round 7,23/01/,Braga,Nottingham,1,0,0,g_1_IqRQBluK,3.17,3.18,2.49,0.55,1.79
+football,Europa League,Round 7,23/01/,Celta Vigo,Lille,2,1,0,g_1_vsEnIAq3,2.22,3.37,3.54,1.27,1.55
+football,Europa League,Round 7,23/01/,Din. Zagreb,FCSB,4,1,0,g_1_QcpUeKS0,1.75,3.96,4.82,2.84,0.24
+football,Europa League,Round 7,23/01/,Ferencvaros,Panathinaikos,1,1,1,g_1_hOYmtijS,2.5,3.17,3.17,1.49,0.73
+football,Europa League,Round 7,23/01/,Nice,G.A. Eagles,3,1,0,g_1_WAD1EdJ8,2.06,4.01,3.39,2.42,1.78
+football,Europa League,Round 7,23/01/,Rangers,Ludogorets,1,0,0,g_1_bkkcxZVA,1.91,3.93,3.93,1.43,0.97
+football,Europa League,Round 7,23/01/,Salzburg,Basel,3,1,0,g_1_0h6BwIBt,2.29,3.97,2.93,1.63,0.37
+football,Europa League,Round 7,23/01/,Utrecht,Genk,0,2,2,g_1_SYGbexEM,3.49,3.58,2.15,2.06,1.61
+football,Europa League,Round 7,23/01/,Bologna,Celtic,2,2,1,g_1_SdRfxrkf,1.73,4.07,4.83,2.64,2.1
+football,Europa League,Round 7,23/01/,Brann,Midtjylland,3,3,1,g_1_29xTcGHU,3.79,3.58,2.05,3.32,1.86
+football,Europa League,Round 7,23/01/,Fenerbahce,Aston Villa,0,1,2,g_1_n9Uhjeen,2.53,3.58,2.81,1.08,1.69
+football,Europa League,Round 7,23/01/,Feyenoord,Sturm Graz,3,0,0,g_1_KIIvkCFG,1.33,6.27,8.36,1.37,0.15
+football,Europa League,Round 7,23/01/,Freiburg,Maccabi Tel Aviv,1,0,0,g_1_dxJBYalJ,1.28,6.69,10.3,2.45,0.17
+football,Europa League,Round 7,23/01/,Malmo FF,Crvena zvezda,0,1,2,g_1_KGek4cwB,4.86,4.19,1.7,0.41,1.24
+football,Europa League,Round 7,23/01/,PAOK,Betis,2,0,0,g_1_v1A3AJsf,2.18,3.55,3.45,2.9,0.73
+football,Europa League,Round 7,23/01/,Plzen,FC Porto,1,1,1,g_1_6H5YwRkI,5.38,3.84,1.71,0.34,2.14
+football,Europa League,Round 7,23/01/,Young Boys,Lyon,0,1,2,g_1_QHzUdFVp,4.45,4.0,1.8,0.86,0.6
+football,Europa League,Round 6,12/12/,Basel,Aston Villa,1,2,2,g_1_Eyl2nDfB,4.57,4.3,1.73,0.88,0.48
+football,Europa League,Round 6,12/12/,Brann,Fenerbahce,0,4,2,g_1_jwZvlomD,3.78,3.6,2.05,0.24,3.73
+football,Europa League,Round 6,12/12/,Celta Vigo,Bologna,1,2,2,g_1_pja8pLa4,2.3,3.57,3.17,0.34,2.2
+football,Europa League,Round 6,12/12/,Celtic,AS Roma,0,3,2,g_1_lICttdFl,0.0,0.0,0.0,1.33,1.47
+football,Europa League,Round 6,12/12/,FC Porto,Malmo FF,2,1,0,g_1_2cCSYv8L,1.18,8.47,14.7,2.81,0.81
+football,Europa League,Round 6,12/12/,FCSB,Feyenoord,4,3,0,g_1_tY6mmjpT,4.91,4.04,1.73,1.28,2.12
+football,Europa League,Round 6,12/12/,Freiburg,Salzburg,1,0,0,g_1_6k9Jydtg,1.46,5.13,6.67,2.61,0.43
+football,Europa League,Round 6,12/12/,Lyon,G.A. Eagles,2,1,0,g_1_IBNFKINi,1.25,7.58,10.6,3.06,0.47
+football,Europa League,Round 6,12/12/,Panathinaikos,Plzen,0,0,1,g_1_b5koMVbd,2.31,3.39,3.29,1.35,0.35
+football,Europa League,Round 6,12/12/,Din. Zagreb,Betis,1,3,2,g_1_0Eajeswq,4.09,3.73,1.93,0.77,1.86
+football,Europa League,Round 6,12/12/,Ferencvaros,Rangers,2,1,0,g_1_xz1lve1b,1.74,4.19,4.6,1.71,1.15
+football,Europa League,Round 6,12/12/,Ludogorets,PAOK,3,3,1,g_1_S0NvFEiT,3.9,3.49,2.05,2.19,3.4
+football,Europa League,Round 6,12/12/,Midtjylland,Genk,1,0,0,g_1_MaUKaxmI,1.74,4.31,4.44,2.17,0.95
+football,Europa League,Round 6,12/12/,Nice,Braga,0,1,2,g_1_2H2c6S2s,3.26,3.72,2.19,1.5,0.73
+football,Europa League,Round 6,12/12/,Sturm Graz,Crvena zvezda,0,1,2,g_1_jy4Y7uvn,3.49,3.9,2.05,1.5,1.57
+football,Europa League,Round 6,12/12/,Stuttgart,Maccabi Tel Aviv,4,1,0,g_1_6mnUjs4m,1.18,8.06,16.1,2.55,0.57
+football,Europa League,Round 6,12/12/,Utrecht,Nottingham,1,2,2,g_1_AwEIE5Di,4.43,3.83,1.84,0.74,1.65
+football,Europa League,Round 6,12/12/,Young Boys,Lille,1,0,0,g_1_jLXidTMq,5.16,4.33,1.65,1.66,0.83
+football,Europa League,Round 5,28/11/,Betis,Utrecht,2,1,0,g_1_KKVxPIdm,0.0,0.0,0.0,1.94,0.77
+football,Europa League,Round 5,28/11/,Bologna,Salzburg,4,1,0,g_1_zV0zYDuI,1.42,5.26,7.51,3.91,2.07
+football,Europa League,Round 5,28/11/,Crvena zvezda,FCSB,1,0,0,g_1_xfcM0OWI,1.4,5.38,7.69,1.75,0.79
+football,Europa League,Round 5,28/11/,G.A. Eagles,Stuttgart,0,4,2,g_1_EVjPtwaT,6.84,5.39,1.43,0.2,2.34
+football,Europa League,Round 5,28/11/,Genk,Basel,2,1,0,g_1_EZQC1bI5,1.93,4.18,3.65,0.86,0.65
+football,Europa League,Round 5,28/11/,Maccabi Tel Aviv,Lyon,0,6,2,g_1_GxnOHVP0,5.39,4.1,1.66,0.46,4.17
+football,Europa League,Round 5,28/11/,Nottingham,Malmo FF,3,0,0,g_1_h2qY6gfo,1.33,5.66,9.77,2.2,0.06
+football,Europa League,Round 5,28/11/,Panathinaikos,Sturm Graz,2,1,0,g_1_vJ5ZANCG,1.54,4.44,6.41,0.66,0.25
+football,Europa League,Round 5,28/11/,Rangers,Braga,1,1,1,g_1_U9cttHWo,3.94,3.82,1.94,1.69,1.68
+football,Europa League,Round 5,28/11/,AS Roma,Midtjylland,2,1,0,g_1_MVAlvzp1,0.0,0.0,0.0,0.84,0.73
+football,Europa League,Round 5,28/11/,Aston Villa,Young Boys,2,1,0,g_1_6BpflZPb,1.19,8.95,12.8,2.18,0.38
+football,Europa League,Round 5,28/11/,FC Porto,Nice,3,0,0,g_1_Mm4Kz1w9,1.57,4.61,5.64,1.48,0.95
+football,Europa League,Round 5,28/11/,Fenerbahce,Ferencvaros,1,1,1,g_1_Auqoma3C,0.0,0.0,0.0,1.33,0.68
+football,Europa League,Round 5,28/11/,Feyenoord,Celtic,1,3,2,g_1_ChFWjYp4,1.75,4.11,4.63,1.85,1.3
+football,Europa League,Round 5,28/11/,Lille,Din. Zagreb,4,0,0,g_1_2JXPvMh2,1.42,5.13,7.7,3.19,0.15
+football,Europa League,Round 5,28/11/,Ludogorets,Celta Vigo,3,2,0,g_1_MD9gEy2B,4.2,3.58,1.94,2.6,2.0
+football,Europa League,Round 5,28/11/,PAOK,Brann,1,1,1,g_1_bqEA9hFj,1.58,4.28,6.11,1.2,1.84
+football,Europa League,Round 5,28/11/,Plzen,Freiburg,0,0,1,g_1_n5f5VZyA,2.82,3.33,2.66,1.29,0.87
+football,Europa League,Round 4,07/11/,Aston Villa,Maccabi Tel Aviv,2,0,0,g_1_WdfqWiAU,1.22,7.75,12.2,2.07,1.1
+football,Europa League,Round 4,07/11/,Betis,Lyon,2,0,0,g_1_rHX1mvNE,1.63,4.48,5.17,0.89,0.44
+football,Europa League,Round 4,07/11/,Bologna,Brann,0,0,1,g_1_Qmq7nsVi,1.42,5.01,7.92,1.01,0.42
+football,Europa League,Round 4,07/11/,Braga,Genk,3,4,2,g_1_As6546Xg,1.76,4.04,4.66,2.55,1.08
+football,Europa League,Round 4,07/11/,Ferencvaros,Ludogorets,3,1,0,g_1_QBsXqZj3,1.62,4.22,5.67,1.98,0.66
+football,Europa League,Round 4,07/11/,PAOK,Young Boys,4,0,0,g_1_6oZVGzNG,1.46,5.34,6.3,3.8,0.19
+football,Europa League,Round 4,07/11/,Plzen,Fenerbahce,0,0,1,g_1_O8ht7EBr,3.66,3.48,2.13,1.16,1.05
+football,Europa League,Round 4,07/11/,Rangers,AS Roma,0,2,2,g_1_fsCYCco2,5.46,4.15,1.65,0.91,2.05
+football,Europa League,Round 4,07/11/,Stuttgart,Feyenoord,2,0,0,g_1_2LfFPzV7,1.74,4.32,4.41,1.73,0.89
+football,Europa League,Round 4,07/11/,Basel,FCSB,3,1,0,g_1_6R06U896,1.72,4.11,4.89,3.91,1.15
+football,Europa League,Round 4,07/11/,Crvena zvezda,Lille,1,0,0,g_1_vTYD3BU9,2.72,3.52,2.64,1.71,1.59
+football,Europa League,Round 4,07/11/,Din. Zagreb,Celta Vigo,0,3,2,g_1_EJQOH1kK,2.29,3.4,3.34,0.75,1.44
+football,Europa League,Round 4,07/11/,Malmo FF,Panathinaikos,0,1,2,g_1_bgPsaKEc,3.17,3.57,2.3,1.42,1.35
+football,Europa League,Round 4,07/11/,Midtjylland,Celtic,3,1,0,g_1_0UeFdCz9,1.96,3.87,3.81,2.73,0.98
+football,Europa League,Round 4,07/11/,Nice,Freiburg,1,3,2,g_1_WSzuq8Oa,0.0,0.0,0.0,1.79,2.14
+football,Europa League,Round 4,07/11/,Salzburg,G.A. Eagles,2,0,0,g_1_S4cSZZA5,1.68,4.27,4.95,2.33,1.37
+football,Europa League,Round 4,07/11/,Sturm Graz,Nottingham,0,0,1,g_1_vgvmsngC,4.93,3.84,1.77,0.09,1.7
+football,Europa League,Round 4,07/11/,Utrecht,FC Porto,1,1,1,g_1_bTcbTIVr,5.1,3.57,1.8,0.54,1.22
+football,Europa League,Round 3,24/10/,AS Roma,Plzen,1,2,2,g_1_UXV9oIiR,1.33,5.77,9.45,2.28,0.16
+football,Europa League,Round 3,24/10/,Celta Vigo,Nice,2,1,0,g_1_Sx7ACzlL,1.79,3.89,4.61,1.31,1.18
+football,Europa League,Round 3,24/10/,Celtic,Sturm Graz,2,1,0,g_1_KYISY8r2,0.0,0.0,0.0,4.02,0.46
+football,Europa League,Round 3,24/10/,Feyenoord,Panathinaikos,3,1,0,g_1_j7hJsU7j,1.55,4.47,6.19,2.63,1.13
+football,Europa League,Round 3,24/10/,Freiburg,Utrecht,2,0,0,g_1_ILCxIJ2n,1.55,4.34,6.45,1.57,0.97
+football,Europa League,Round 3,24/10/,Lille,PAOK,3,4,2,g_1_6Fz65Xac,1.55,4.44,6.21,1.66,2.19
+football,Europa League,Round 3,24/10/,Maccabi Tel Aviv,Midtjylland,0,3,2,g_1_0AP2zMJ6,3.41,3.72,2.14,0.95,1.44
+football,Europa League,Round 3,24/10/,Malmo FF,Din. Zagreb,1,1,1,g_1_p2HfCuDs,3.26,3.5,2.28,0.64,2.44
+football,Europa League,Round 3,24/10/,Nottingham,FC Porto,2,0,0,g_1_vV3tx5KU,2.46,3.34,3.08,2.08,0.6
+football,Europa League,Round 3,24/10/,Young Boys,Ludogorets,3,2,0,g_1_Or9kYjAs,1.76,4.08,4.59,4.35,1.0
+football,Europa League,Round 3,24/10/,Braga,Crvena zvezda,2,0,0,g_1_ULNt5hte,2.11,3.86,3.35,1.73,0.41
+football,Europa League,Round 3,24/10/,Brann,Rangers,3,0,0,g_1_GQLNhfGi,2.22,3.61,3.3,2.33,1.26
+football,Europa League,Round 3,24/10/,FCSB,Bologna,1,2,2,g_1_rkX6hFdk,7.15,4.19,1.54,0.66,1.72
+football,Europa League,Round 3,24/10/,Fenerbahce,Stuttgart,1,0,0,g_1_pQ3vj7I0,2.52,3.5,2.88,1.8,1.0
+football,Europa League,Round 3,24/10/,G.A. Eagles,Aston Villa,2,1,0,g_1_tj4rSr9d,8.1,4.87,1.43,0.83,2.82
+football,Europa League,Round 3,24/10/,Genk,Betis,0,0,1,g_1_hnqpNdRa,3.56,3.69,2.09,0.23,0.79
+football,Europa League,Round 3,24/10/,Lyon,Basel,2,0,0,g_1_6Xgc2y8N,1.61,4.66,5.18,2.47,1.19
+football,Europa League,Round 3,24/10/,Salzburg,Ferencvaros,2,3,2,g_1_lExgLzdC,2.21,3.8,3.18,1.3,2.78
+football,Europa League,Round 2,03/10/,Basel,Stuttgart,2,0,0,g_1_hKx43Kmg,3.57,4.21,1.95,1.42,2.54
+football,Europa League,Round 2,03/10/,Celta Vigo,PAOK,3,1,0,g_1_EidcXe7c,1.62,4.22,5.67,2.7,0.75
+football,Europa League,Round 2,03/10/,FC Porto,Crvena zvezda,2,1,0,g_1_AkCPumL5,1.61,4.27,5.68,2.65,0.52
+football,Europa League,Round 2,03/10/,Feyenoord,Aston Villa,0,2,2,g_1_ALhon40S,3.67,3.58,2.09,1.47,0.63
+football,Europa League,Round 2,03/10/,Genk,Ferencvaros,0,1,2,g_1_C8FKzVDk,1.88,4.06,3.96,1.19,1.19
+football,Europa League,Round 2,03/10/,Lyon,Salzburg,2,0,0,g_1_MRz1JEQO,1.77,4.19,4.43,3.21,0.51
+football,Europa League,Round 2,03/10/,Maccabi Tel Aviv,Din. Zagreb,1,3,2,g_1_6eUSctbl,3.08,3.38,2.44,0.59,0.69
+football,Europa League,Round 2,03/10/,Nottingham,Midtjylland,2,3,2,g_1_ADnWpUgm,1.34,6.16,8.16,2.05,2.1
+football,Europa League,Round 2,03/10/,Sturm Graz,Rangers,2,1,0,g_1_6Fh5zD0N,2.09,3.78,3.47,1.65,1.87
+football,Europa League,Round 2,03/10/,AS Roma,Lille,0,1,2,g_1_2qXgKugS,1.76,4.0,4.68,2.61,1.13
+football,Europa League,Round 2,03/10/,Bologna,Freiburg,1,1,1,g_1_Em6oGcXb,1.91,3.51,4.48,0.8,2.08
+football,Europa League,Round 2,03/10/,Brann,Utrecht,1,0,0,g_1_tKku8FcS,2.22,3.61,3.3,0.66,0.51
+football,Europa League,Round 2,03/10/,Celtic,Braga,0,2,2,g_1_xnRl3WA7,1.66,4.31,5.13,0.64,1.09
+football,Europa League,Round 2,03/10/,FCSB,Young Boys,0,2,2,g_1_Aa7cWUvf,2.77,3.49,2.62,0.69,1.5
+football,Europa League,Round 2,03/10/,Fenerbahce,Nice,2,1,0,g_1_hSOackQQ,1.73,4.08,4.83,1.53,1.29
+football,Europa League,Round 2,03/10/,Ludogorets,Betis,0,2,2,g_1_zmf6UvZP,5.61,3.78,1.7,0.44,0.74
+football,Europa League,Round 2,03/10/,Panathinaikos,G.A. Eagles,1,2,2,g_1_pEseyHMj,0.0,0.0,0.0,2.23,1.02
+football,Europa League,Round 2,03/10/,Plzen,Malmo FF2,3,0,0,g_1_xj1xOiUq,1.9,3.69,4.3,2.17,0.36
+football,Europa League,Round 1,26/09/,Aston Villa,Bologna,1,0,0,g_1_YP0zU4vp,1.78,3.62,5.23,1.45,1.24
+football,Europa League,Round 1,26/09/,Ferencvaros,Plzen,1,1,1,g_1_vBXIwDnK,2.3,3.33,3.38,0.93,0.68
+football,Europa League,Round 1,26/09/,Rangers,Genk,0,1,2,g_1_OWYyVjOp,0.0,0.0,0.0,0.89,3.78
+football,Europa League,Round 1,26/09/,Salzburg,FC Porto,0,1,2,g_1_tt1Ukn13,4.61,3.89,1.79,1.36,1.23
+football,Europa League,Round 1,26/09/,Stuttgart,Celta Vigo,2,1,0,g_1_hG2GraUG,2.1,3.63,3.59,1.51,0.46
+football,Europa League,Round 1,26/09/,Utrecht,Lyon,0,1,2,g_1_EwHOIdh4,2.94,3.27,2.6,1.25,1.04
+football,Europa League,Round 1,26/09/,Young Boys,Panathinaikos,1,4,2,g_1_rgsgowYO,2.36,3.69,2.98,1.73,1.25
+football,Europa League,Round 1,26/09/,G.A. Eagles,FCSB,0,1,2,g_1_44LFjgR1,1.72,4.11,4.89,1.39,0.66
+football,Europa League,Round 1,26/09/,Lille,Brann,2,1,0,g_1_CzM0f7id,1.55,4.39,6.33,1.56,1.2
+football,Europa League,Round 1,25/09/,Betis,Nottingham,2,2,1,g_1_CE8B8cC6,2.31,3.58,3.13,0.49,3.27
+football,Europa League,Round 1,25/09/,Braga,Feyenoord,1,0,0,g_1_fei7Rd0e,2.1,3.58,3.61,0.68,0.27
+football,Europa League,Round 1,25/09/,Crvena zvezda,Celtic,1,1,1,g_1_Q77qPDXQ,2.34,3.65,3.03,1.6,1.68
+football,Europa League,Round 1,25/09/,Din. Zagreb,Fenerbahce,3,1,0,g_1_z97eGlEF,3.3,3.5,2.26,1.5,0.17
+football,Europa League,Round 1,25/09/,Freiburg,Basel,2,1,0,g_1_vuaESnvJ,1.51,4.68,6.5,0.92,1.1
+football,Europa League,Round 1,25/09/,Malmo FF,Ludogorets,1,2,2,g_1_rTc2CFWN,1.65,4.02,5.67,0.65,3.02
+football,Europa League,Round 1,25/09/,Nice,AS Roma,1,2,2,g_1_Ic4cxEED,3.48,3.36,2.25,0.96,0.8
+football,Europa League,Round 1,25/09/,Midtjylland,Sturm Graz,2,0,0,g_1_fms1jjWP,1.68,4.58,4.58,0.56,0.9
+football,Europa League,Round 1,25/09/,PAOK,Maccabi Tel Aviv,0,0,1,g_1_C4uXF9fD,2.13,3.62,3.52,1.44,1.56
+football,Europa League,Round 1,29/08/,Braga (Por),Lincoln Red Imps (Gib),5,1,0,g_1_tOwR7DJk,1.14,8.04,22.0,0.0,0.0
+football,Europa League,Round 1,29/08/,FCSB (Rou),Aberdeen (Sco),3,0,0,g_1_GML4GZPc,1.52,4.18,6.53,1.48,1.12
+football,Europa League,Round 1,29/08/,Dyn. Kyiv (Ukr),Maccabi Tel Aviv (Isr)Winner,1,0,0,g_1_UafDCiPM,2.17,3.72,3.1,0.0,0.0
+football,Europa League,Round 1,29/08/,Genk (Bel),Lech Poznan (Pol),1,2,2,g_1_EBrv0Eh3,1.54,4.44,5.64,1.48,1.06
+football,Europa League,Round 1,29/08/,Utrecht (Ned),Zrinjski (Bih),0,0,1,g_1_4rhnbhAT,1.37,4.77,9.01,1.12,0.39
+football,Europa League,Round 1,29/08/,Young Boys (Sui),Slovan Bratislava (Svk),3,2,0,g_1_WWlLqg8M,1.66,4.13,4.78,1.04,1.87
+football,Europa League,Round 1,29/08/,Ludogorets (Bul),Shkendija (Mkd),4,1,0,g_1_0GbQc99j,1.34,5.43,8.17,2.02,1.15
+football,Europa League,Round 1,29/08/,PAOK (Gre),Rijeka (Cro),5,0,0,g_1_EcFztglo,1.46,4.33,7.22,2.36,0.59
+football,Europa League,Round 1,29/08/,Samsunspor (Tur),Panathinaikos (Gre),0,0,1,g_1_x6DsZAZo,2.52,3.42,2.76,0.6,0.97
+football,Europa League,Round 1,29/08/,Sigma Olomouc (Cze),Malmo FF (Swe),0,2,2,g_1_UwukJn1m,3.21,3.72,2.12,1.41,2.15
+football,Europa League,Round 1,29/08/,KuPS (Fin),Midtjylland (Den),0,2,2,g_1_l2jKglsB,4.47,3.74,1.78,0.58,4.6
+football,Europa League,Round 1,28/08/,AEK Larnaca (Cyp),Brann (Nor),0,4,2,g_1_65Tur6IG,2.25,3.46,3.14,1.24,1.8
+football,Europa League,Round 1,22/08/,Lincoln Red Imps (Gib),Braga (Por),0,4,2,g_1_dj2fDZeS,21.0,9.93,1.11,0.0,0.0
+football,Europa League,Round 1,22/08/,Aberdeen (Sco),FCSB (Rou),2,2,1,g_1_OSYIhWXj,2.96,3.37,2.43,1.43,1.79
+football,Europa League,Round 1,22/08/,Rijeka (Cro),PAOK (Gre),1,0,0,g_1_rBh3b14C,3.56,2.95,2.34,0.0,0.0
+football,Europa League,Round 1,22/08/,Lech Poznan (Pol),Genk (Bel),1,5,2,g_1_n5jhxB0d,0.0,0.0,0.0,0.85,3.41
+football,Europa League,Round 1,22/08/,Slovan Bratislava (Svk),Young Boys (Sui),0,1,2,g_1_z5eCoFwA,2.34,3.81,2.8,0.7,0.72
+football,Europa League,Round 1,22/08/,Maccabi Tel Aviv (Isr),Dyn. Kyiv (Ukr),3,1,0,g_1_MZj5EDfA,2.68,3.42,2.63,0.0,0.0
+football,Europa League,Round 1,22/08/,Panathinaikos (Gre),Samsunspor (Tur),2,1,0,g_1_nsYXE7lU,1.6,3.87,6.11,0.89,0.38
+football,Europa League,Round 1,22/08/,Shkendija (Mkd),Ludogorets (Bul),2,1,0,g_1_UX7f3VoT,4.33,3.01,2.07,0.0,0.0
+football,Europa League,Round 1,22/08/,Zrinjski (Bih),Utrecht (Ned),0,2,2,g_1_dIlv0EuH,4.57,3.86,1.76,0.58,1.96
+football,Europa League,Round 1,22/08/,Brann (Nor),AEK Larnaca (Cyp),2,1,0,g_1_pjuXqSm4,1.73,3.97,4.58,0.0,0.0
+football,Europa League,Round 1,22/08/,Malmo FF (Swe),Sigma Olomouc (Cze),3,0,0,g_1_belJO8wQ,1.52,4.05,7.08,0.0,0.0
+football,Europa League,Round 1,22/08/,Midtjylland (Den),KuPS (Fin),4,0,0,g_1_txmCeACb,1.19,7.79,12.9,1.58,0.97
+football,Europa League,Round 1,15/08/,Legia (Pol),AEK Larnaca (Cyp),2,1,0,g_1_65DqpB7E,1.59,4.31,5.38,1.65,1.15
+football,Europa League,Round 1,15/08/,Braga (Por),CFR Cluj (Rou),2,0,0,g_1_pdz2YSQh,1.34,5.34,9.95,0.0,0.0
+football,Europa League,Round 1,15/08/,Drita (Kos),FCSB (Rou),1,3,2,g_1_bwVIjrYi,3.57,3.78,1.99,0.0,0.0
+football,Europa League,Round 1,15/08/,Maccabi Tel Aviv (Isr),Hamrun (Mlt),3,1,0,g_1_651mL50c,1.2,7.71,11.9,0.0,0.0
+football,Europa League,Round 1,15/08/,Shakhtar Donetsk (Ukr),Panathinaikos (Gre),0,1,2,g_1_4UbEmGwQ,1.7,3.67,5.35,0.96,0.72
+football,Europa League,Round 1,15/08/,Utrecht (Ned),Servette (Sui),2,1,0,g_1_KGuKfXpg,1.57,4.58,5.28,2.33,1.17
+football,Europa League,Round 1,15/08/,Breidablik (Ice),Zrinjski (Bih),1,2,2,g_1_pbiTFAOH,1.95,3.59,3.9,0.0,0.0
+football,Europa League,Round 1,15/08/,Brann (Nor),Hacken (Swe),0,1,2,g_1_G8IJRYG6,1.7,4.31,4.45,0.0,0.0
+football,Europa League,Round 1,15/08/,Noah (Arm),Lincoln Red Imps (Gib),0,1,2,g_1_bLFdHNaM,1.25,6.59,10.9,0.0,0.0
+football,Europa League,Round 1,15/08/,Wolfsberger AC (Aut),PAOK (Gre),0,1,2,g_1_bL9Awj1M,2.83,3.09,2.7,1.47,0.68
+football,Europa League,Round 1,15/08/,Midtjylland (Den),Fredrikstad (Nor),2,0,0,g_1_YH6qGoBO,1.54,4.89,5.14,1.54,0.39
+football,Europa League,Round 1,15/08/,KuPS (Fin),RFS (Lat),1,0,0,g_1_MN24e88a,2.37,3.6,2.88,0.0,0.0
+football,Europa League,Round 1,13/08/,Shelbourne (Irl),Rijeka (Cro),1,3,2,g_1_WzoDJhPh,5.88,3.68,1.65,0.0,0.0
+football,Europa League,Round 1,08/08/,FCSB (Rou),Drita (Kos),3,2,0,g_1_bmYWSvto,1.39,4.68,9.45,0.0,0.0
+football,Europa League,Round 1,08/08/,Servette (Sui),Utrecht (Ned),1,3,2,g_1_E3AJdgGt,4.58,3.89,1.78,1.21,1.41
+football,Europa League,Round 1,08/08/,Panathinaikos (Gre),Shakhtar Donetsk (Ukr),0,0,1,g_1_lMGRPCoJ,2.93,3.48,2.45,0.0,0.0
+football,Europa League,Round 1,08/08/,Zrinjski (Bih),Breidablik (Ice),1,1,1,g_1_Or3KHWg5,1.64,3.99,5.7,0.0,0.0
+football,Europa League,Round 1,08/08/,PAOK (Gre),Wolfsberger AC (Aut),0,0,1,g_1_IB12uCW9,1.47,4.63,7.22,0.29,0.91
+football,Europa League,Round 1,08/08/,Hacken (Swe),Brann (Nor),0,2,2,g_1_KtPATfnf,2.79,3.7,2.45,0.0,0.0
+football,Europa League,Round 1,08/08/,AEK Larnaca (Cyp),Legia (Pol),4,1,0,g_1_vaLcM7F7,2.75,3.41,2.57,1.76,1.26
+football,Europa League,Round 1,08/08/,CFR Cluj (Rou),Braga (Por),1,2,2,g_1_lUtgzkdt,5.48,3.45,1.74,0.0,0.0
+football,Europa League,Round 1,08/08/,Fredrikstad (Nor),Midtjylland (Den),1,3,2,g_1_xjDzI7tC,4.28,3.81,1.85,1.12,1.7
+football,Europa League,Round 1,08/08/,Lincoln Red Imps (Gib),Noah (Arm),1,1,1,g_1_vJaeJqV9,5.19,3.77,1.73,0.0,0.0
+football,Europa League,Round 1,07/08/,Rijeka (Cro),Shelbourne (Irl),1,2,2,g_1_z9i4LEft,1.32,4.92,12.0,0.0,0.0
+football,Europa League,Round 1,07/08/,RFS (Lat),KuPS (Fin),1,2,2,g_1_Qe9ecUwm,1.83,3.46,4.71,0.0,0.0
+football,Europa League,Round 1,06/08/,Hamrun (Mlt),Maccabi Tel Aviv (Isr),1,2,2,g_1_jcJ0c28j,8.31,5.72,1.33,0.0,0.0
+football,Europa League,Round 1,01/08/,Braga (Por),Levski Sofia (Bul),1,0,0,g_1_lEbcaWpe,1.47,4.51,7.19,0.0,0.0
+football,Europa League,Round 1,01/08/,Hibernian (Sco),Midtjylland (Den),1,2,2,g_1_f7JW6Cxg,3.84,4.2,1.84,1.36,2.18
+football,Europa League,Round 1,01/08/,Legia (Pol),Ostrava (Cze),2,1,0,g_1_8QTUdfWP,1.37,5.26,8.3,0.0,0.0
+football,Europa League,Round 1,01/08/,Shakhtar Donetsk (Ukr),Besiktas (Tur),2,0,0,g_1_dh5c4KHU,2.63,3.77,2.52,0.95,0.67
+football,Europa League,Round 1,01/08/,Utrecht (Ned),Sheriff Tiraspol (Mda),4,1,0,g_1_Snh5X7we,1.38,5.06,8.4,2.07,1.12
+football,Europa League,Round 1,01/08/,CFR Cluj (Rou),Lugano (Sui),1,0,0,g_1_fw4qSipI,2.79,3.14,2.74,0.55,1.21
+football,Europa League,Round 1,01/08/,Hacken (Swe),Anderlecht (Bel),3,1,0,g_1_4YvVeT3M,2.72,3.67,2.49,0.0,0.0
+football,Europa League,Round 1,01/08/,AEK Larnaca (Cyp),Celje (Slo),2,1,0,g_1_ML3EPsHj,1.83,3.71,4.41,0.0,0.0
+football,Europa League,Round 1,25/07/,Lugano (Sui),CFR Cluj (Rou),0,0,1,g_1_bBAzUDF5,2.01,3.6,3.7,0.94,1.03
+football,Europa League,Round 1,25/07/,Anderlecht (Bel),Hacken (Swe),1,0,0,g_1_IHtNckZ9,1.61,4.59,4.85,0.0,0.0
+football,Europa League,Round 1,25/07/,Besiktas (Tur),Shakhtar Donetsk (Ukr),2,4,2,g_1_zwHl6tmI,2.14,3.78,3.17,0.0,0.0
+football,Europa League,Round 1,25/07/,Celje (Slo),AEK Larnaca (Cyp),1,1,1,g_1_QkIrV3gT,2.65,3.21,2.8,0.0,0.0
+football,Europa League,Round 1,25/07/,Levski Sofia (Bul),Braga (Por),0,0,1,g_1_tlek1hGr,6.66,3.84,1.57,0.0,0.0
+football,Europa League,Round 1,25/07/,Midtjylland (Den),Hibernian (Sco),1,1,1,g_1_buQN8Y7t,1.28,6.21,9.83,1.66,0.48
+football,Europa League,Round 1,25/07/,Ostrava (Cze),Legia (Pol),2,2,1,g_1_hIorZjvJ,2.51,3.49,2.77,0.0,0.0
+football,Europa League,Round 1,25/07/,Sheriff Tiraspol (Mda),Utrecht (Ned),1,3,2,g_1_tWgcZT8r,4.28,3.76,1.83,1.26,0.34
+football,Europa League,Round 1,18/07/,Partizan (Srb),AEK Larnaca (Cyp),2,2,1,g_1_lYEAbbm3,3.87,3.36,2.06,0.0,0.0
+football,Europa League,Round 1,18/07/,Celje (Slo),Sabah Baku (Aze),3,3,1,g_1_IRLQfGnS,1.93,3.79,3.87,0.0,0.0
+football,Europa League,Round 1,18/07/,H. Beer Sheva (Isr),Levski Sofia (Bul),1,2,2,g_1_YcIZdoCb,1.92,3.17,4.91,0.0,0.0
+football,Europa League,Round 1,18/07/,Prishtina (Kos),Sheriff Tiraspol (Mda),2,1,0,g_1_SvvinUct,2.82,3.42,2.53,0.0,0.0
+football,Europa League,Round 1,18/07/,CFR Cluj (Rou),Paks (Hun),3,0,0,g_1_lzpHv4dU,1.35,5.21,9.1,0.0,0.0
+football,Europa League,Round 1,18/07/,Hacken (Swe),Trnava (Svk),2,2,1,g_1_Kfh0rnc5,1.46,4.36,7.9,0.0,0.0
+football,Europa League,Round 1,18/07/,Aktobe (Kaz),Legia (Pol),0,1,2,g_1_0CYFxHQq,5.47,3.69,1.7,0.0,0.0
+football,Europa League,Round 1,18/07/,Ilves (Fin),Shakhtar Donetsk (Ukr),0,0,1,g_1_tl5YTnrC,6.23,4.76,1.49,0.0,0.0
+football,Europa League,Round 1,11/07/,Legia (Pol),Aktobe (Kaz),1,0,0,g_1_6BGsePtB,1.25,5.91,13.5,0.0,0.0
+football,Europa League,Round 1,11/07/,Trnava (Svk),Hacken (Swe),0,1,2,g_1_0hxap8Sh,3.61,3.69,2.0,0.0,0.0
+football,Europa League,Round 1,11/07/,Shakhtar Donetsk (Ukr),Ilves (Fin),6,0,0,g_1_KYGPV8Da,1.2,6.82,14.9,0.0,0.0
+football,Europa League,Round 1,11/07/,Levski Sofia (Bul),H. Beer Sheva (Isr),0,0,1,g_1_vaPQb7sn,2.44,3.34,2.96,0.0,0.0
+football,Europa League,Round 1,11/07/,Paks (Hun),CFR Cluj (Rou),0,0,1,g_1_SKe8tQRH,4.19,3.56,1.9,0.0,0.0
+football,Europa League,Round 1,11/07/,Sheriff Tiraspol (Mda),Prishtina (Kos),4,0,0,g_1_lE8tSQCO,1.5,3.95,7.86,0.0,0.0
+football,Europa League,Round 1,11/07/,AEK Larnaca (Cyp),Partizan (Srb),1,0,0,g_1_8xxOzeed,1.52,4.27,6.45,0.0,0.0
+football,Europa League,Round 1,11/07/,Sabah Baku (Aze),Celje (Slo),2,3,2,g_1_MaSHdxIF,2.46,3.37,2.9,0.0,0.0
+football,Europa League,Regular Season,20/02/,Celtic,Stuttgart,1,4,2,g_1_hCLVBZwC,3.83,4.04,1.92,2.09,1.88
+football,Europa League,Regular Season,20/02/,Lille,Crvena zvezda,0,1,2,g_1_zJe3QYh5,1.57,4.44,5.9,0.47,2.34
+football,Europa League,Regular Season,20/02/,Ludogorets,Ferencvaros,2,1,0,g_1_xMEFFHvm,2.86,3.37,2.61,0.47,1.58
+football,Europa League,Regular Season,20/02/,Panathinaikos,Plzen,2,2,1,g_1_Y5mpH9bf,2.15,3.33,3.78,0.87,0.76
+football,Europa League,Regular Season,20/02/,Brann,Bologna,0,1,2,g_1_ziHIMjhU,4.41,3.58,1.91,0.5,0.94
+football,Europa League,Regular Season,20/02/,Din. Zagreb,Genk,1,3,2,g_1_Eqk0DRcJ,1.96,3.6,4.11,1.53,1.41
+football,Europa League,Regular Season,20/02/,Fenerbahce,Nottingham,0,3,2,g_1_fufmUGgt,2.69,3.21,2.88,0.47,2.73
+football,Europa League,Regular Season,20/02/,PAOK,Celta Vigo,1,2,2,g_1_Ueq7Oi6K,2.93,3.16,2.68,0.61,1.2
+football,Europa League,Regular Season,27/02/,Bologna,Brann,1,0,0,g_1_j3iStfwn,1.58,4.58,5.6,1.22,0.51
+football,Europa League,Regular Season,27/02/,Celta Vigo,PAOK,1,0,0,g_1_QupxJVTs,1.69,3.98,5.36,1.35,0.35
+football,Europa League,Regular Season,27/02/,Genk,Din. Zagreb,3,3,1,g_1_tjTqLwHP,2.53,3.46,2.9,3.41,1.61
+football,Europa League,Regular Season,27/02/,Nottingham,Fenerbahce,1,2,2,g_1_25ceSfOh,1.58,4.67,5.44,0.98,1.77
+football,Europa League,Regular Season,27/02/,Crvena zvezda,Lille,0,2,2,g_1_rqaBOCNH,2.94,3.78,2.35,0.89,1.19
+football,Europa League,Regular Season,27/02/,Ferencvaros,Ludogorets,2,0,0,g_1_pnINDe9a,1.58,4.41,5.86,1.75,0.9
+football,Europa League,Regular Season,27/02/,Plzen,Panathinaikos,1,2,2,g_1_6JohFmT6,2.2,3.28,3.68,0.96,1.36
+football,Europa League,Regular Season,27/02/,Stuttgart,Celtic,0,1,2,g_1_QPJwAD8O,1.36,6.11,7.64,2.12,0.3

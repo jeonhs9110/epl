@@ -1,0 +1,381 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Ligue 2 2023 2024,Round 38,18/05/,Angers,Dunkerque,0,0,1,g_1_CnU5M1Ut,1.53,4.52,6.18,0.56,0.14
+football,Ligue 2 2023 2024,Round 38,18/05/,Auxerre,Concarneau,4,1,0,g_1_lhPUGcbI,1.4,5.94,6.5,3.16,0.94
+football,Ligue 2 2023 2024,Round 38,18/05/,Bastia,Paris FC,1,1,1,g_1_GvRMIJT5,3.76,4.18,1.88,1.44,0.22
+football,Ligue 2 2023 2024,Round 38,18/05/,Bordeaux,Pau FC,3,2,0,g_1_KCXDKuag,1.78,4.18,4.28,1.45,1.4
+football,Ligue 2 2023 2024,Round 38,18/05/,Caen,Valenciennes,3,0,0,g_1_2X6Hv1jP,1.37,5.24,8.82,2.99,0.97
+football,Ligue 2 2023 2024,Round 38,18/05/,Grenoble,Amiens,1,3,2,g_1_fVPQHwqC,2.25,3.55,3.23,1.28,1.55
+football,Ligue 2 2023 2024,Round 38,18/05/,Guingamp,Laval,0,1,2,g_1_QkY9LLqm,1.76,3.94,4.66,1.41,1.08
+football,Ligue 2 2023 2024,Round 38,18/05/,Quevilly Rouen,St Etienne,2,1,0,g_1_0SSYFHDO,4.79,4.36,1.67,1.17,2.79
+football,Ligue 2 2023 2024,Round 38,18/05/,Rodez,AC Ajaccio,2,0,0,g_1_4tgqzLbt,1.48,4.69,6.78,1.25,0.52
+football,Ligue 2 2023 2024,Round 38,18/05/,Troyes,Annecy,1,1,1,g_1_b3WHJaEa,2.54,3.91,2.59,1.75,1.23
+football,Ligue 2 2023 2024,Round 37,11/05/,AC Ajaccio,Grenoble,1,2,2,g_1_xlr9BcIN,2.3,3.23,3.44,0.52,2.14
+football,Ligue 2 2023 2024,Round 37,11/05/,Amiens,Auxerre,0,0,1,g_1_bcq5Cw3H,3.83,3.83,1.95,1.49,0.49
+football,Ligue 2 2023 2024,Round 37,11/05/,Annecy,Angers,1,2,2,g_1_WAsDAHXT,3.55,3.75,2.05,1.2,0.72
+football,Ligue 2 2023 2024,Round 37,11/05/,Concarneau,Bordeaux,4,2,0,g_1_ji8rQdXG,2.99,3.53,2.39,2.89,0.74
+football,Ligue 2 2023 2024,Round 37,11/05/,Dunkerque,Caen,2,2,1,g_1_vH4vRxIA,3.74,3.63,2.03,1.48,1.74
+football,Ligue 2 2023 2024,Round 37,11/05/,Laval,Troyes,1,2,2,g_1_I1GVSbmb,2.21,3.59,3.29,2.03,0.53
+football,Ligue 2 2023 2024,Round 37,11/05/,Paris FC,Guingamp,2,1,0,g_1_dhFZRI24,2.38,3.3,3.2,1.53,1.26
+football,Ligue 2 2023 2024,Round 37,11/05/,Pau FC,Bastia,1,2,2,g_1_8WYv6yto,1.79,3.84,4.6,0.21,1.94
+football,Ligue 2 2023 2024,Round 37,11/05/,St Etienne,Rodez,1,1,1,g_1_AyDNUKIo,1.73,4.36,4.36,1.87,0.88
+football,Ligue 2 2023 2024,Round 37,11/05/,Valenciennes,Quevilly Rouen,2,1,0,g_1_lSBRTvYi,3.18,3.48,2.3,0.2,1.07
+football,Ligue 2 2023 2024,Round 36,05/05/,Guingamp,St Etienne,2,2,1,g_1_2eLiH1ln,3.03,3.48,2.39,1.84,1.66
+football,Ligue 2 2023 2024,Round 36,04/05/,Auxerre,Paris FC,2,0,0,g_1_CWurcb3U,1.9,3.82,3.81,1.58,0.56
+football,Ligue 2 2023 2024,Round 36,04/05/,Angers,Pau FC,2,1,0,g_1_vslVa0JB,1.69,4.17,4.95,1.26,0.63
+football,Ligue 2 2023 2024,Round 36,04/05/,Bastia,Amiens,1,2,2,g_1_YusvbvlO,2.49,3.05,3.26,0.74,1.95
+football,Ligue 2 2023 2024,Round 36,04/05/,Bordeaux,AC Ajaccio,4,0,0,g_1_jHiZbKYH,2.02,3.36,4.13,1.89,0.38
+football,Ligue 2 2023 2024,Round 36,04/05/,Caen,Laval,1,0,0,g_1_O4MmIsZu,2.21,3.29,3.59,1.61,0.29
+football,Ligue 2 2023 2024,Round 36,04/05/,Grenoble,Concarneau,2,1,0,g_1_bNE0FuJb,2.18,3.74,3.22,1.54,1.29
+football,Ligue 2 2023 2024,Round 36,04/05/,Quevilly Rouen,Dunkerque,1,2,2,g_1_hpE4EaY4,2.09,3.65,3.54,0.67,1.18
+football,Ligue 2 2023 2024,Round 36,04/05/,Rodez,Annecy,1,3,2,g_1_WzD8DJmB,2.01,4.11,3.39,1.35,2.51
+football,Ligue 2 2023 2024,Round 36,04/05/,Troyes,Valenciennes,0,1,2,g_1_pKAdGL3h,1.66,4.15,5.19,0.73,1.14
+football,Ligue 2 2023 2024,Round 35,30/04/,Dunkerque,Auxerre,1,3,2,g_1_6TkN1Mla,4.43,3.84,1.82,0.43,1.84
+football,Ligue 2 2023 2024,Round 35,28/04/,AC Ajaccio,Quevilly Rouen,1,1,1,g_1_jcTinskC,3.08,2.95,2.69,0.77,0.89
+football,Ligue 2 2023 2024,Round 35,28/04/,Amiens,Troyes,0,0,1,g_1_C6UmmNZ5,2.57,3.34,2.88,0.29,0.89
+football,Ligue 2 2023 2024,Round 35,28/04/,Annecy,Bastia,3,2,0,g_1_bNSeo14I,1.91,3.57,4.29,1.33,1.33
+football,Ligue 2 2023 2024,Round 35,28/04/,Concarneau,Rodez,1,2,2,g_1_pKlR0t45,3.21,3.51,2.28,0.62,1.56
+football,Ligue 2 2023 2024,Round 35,28/04/,Laval,Bordeaux,1,0,0,g_1_A1dE3rKn,2.71,3.41,2.68,0.66,0.2
+football,Ligue 2 2023 2024,Round 35,28/04/,Paris FC,Angers,3,1,0,g_1_lheI22Zh,2.27,3.41,3.3,2.23,0.85
+football,Ligue 2 2023 2024,Round 35,28/04/,Pau FC,Guingamp,1,2,2,g_1_xERapLJO,2.77,3.29,2.7,0.65,2.04
+football,Ligue 2 2023 2024,Round 35,28/04/,Valenciennes,Grenoble,2,0,0,g_1_GvcA4O4t,3.3,3.41,2.27,1.73,0.58
+football,Ligue 2 2023 2024,Round 35,27/04/,St Etienne,Caen,1,0,0,g_1_vJ5r94dP,1.65,4.11,5.4,0.74,1.08
+football,Ligue 2 2023 2024,Round 34,24/04/,Auxerre,Laval,4,0,0,g_1_xxEDoAb1,1.57,4.13,6.38,1.33,0.3
+football,Ligue 2 2023 2024,Round 34,24/04/,Bastia,Concarneau,2,0,0,g_1_fDO8njqe,2.33,3.2,3.41,1.96,0.18
+football,Ligue 2 2023 2024,Round 34,24/04/,Bordeaux,Dunkerque,2,0,0,g_1_GMP4mWTl,1.79,3.84,4.6,1.45,0.33
+football,Ligue 2 2023 2024,Round 34,24/04/,Caen,Annecy,2,1,0,g_1_zNWGpUD7,2.52,3.42,2.89,1.95,0.2
+football,Ligue 2 2023 2024,Round 34,24/04/,Grenoble,St Etienne,0,2,2,g_1_MHyyjPkm,3.76,3.54,2.05,0.99,2.64
+football,Ligue 2 2023 2024,Round 34,24/04/,Guingamp,Angers,1,2,2,g_1_SGJ28X5E,2.34,3.22,3.37,2.01,1.12
+football,Ligue 2 2023 2024,Round 34,24/04/,Quevilly Rouen,Amiens,3,3,1,g_1_Gvyukq5g,2.34,3.23,3.34,1.18,1.45
+football,Ligue 2 2023 2024,Round 34,24/04/,Rodez,Paris FC,1,0,0,g_1_Usuql3Ka,2.57,3.26,2.94,0.45,1.0
+football,Ligue 2 2023 2024,Round 34,24/04/,Troyes,Pau FC,2,2,1,g_1_rRxXj5zs,2.33,3.51,3.11,1.31,1.29
+football,Ligue 2 2023 2024,Round 34,24/04/,Valenciennes,AC Ajaccio,1,0,0,g_1_lQKb9Dj8,5.13,2.83,2.06,0.92,1.35
+football,Ligue 2 2023 2024,Round 33,21/04/,AC Ajaccio,Caen,2,1,0,g_1_rgwZZCak,2.48,3.0,3.34,1.12,0.41
+football,Ligue 2 2023 2024,Round 33,21/04/,Amiens,Dunkerque,0,1,2,g_1_UkZUzgpq,2.42,3.16,3.26,0.76,1.0
+football,Ligue 2 2023 2024,Round 33,21/04/,Angers,Troyes,2,1,0,g_1_GbsIdz72,1.84,3.57,4.72,0.37,0.76
+football,Ligue 2 2023 2024,Round 33,21/04/,Annecy,Grenoble,0,1,2,g_1_xGxwZWEe,2.1,3.26,3.94,1.17,1.17
+football,Ligue 2 2023 2024,Round 33,21/04/,Concarneau,Quevilly Rouen,0,0,1,g_1_pvZYhh6R,3.15,3.15,2.5,1.23,0.49
+football,Ligue 2 2023 2024,Round 33,21/04/,Guingamp,Bastia,0,1,2,g_1_lCuQfEyF,1.9,3.38,4.67,1.07,0.43
+football,Ligue 2 2023 2024,Round 33,21/04/,Paris FC,Valenciennes,2,1,0,g_1_2FqUgYjL,1.37,5.02,9.49,1.98,0.16
+football,Ligue 2 2023 2024,Round 33,21/04/,Pau FC,Laval,3,0,0,g_1_G6ysYjU1,2.4,3.23,3.23,1.01,0.76
+football,Ligue 2 2023 2024,Round 33,21/04/,St Etienne,Bordeaux,2,1,0,g_1_fktMefM8,1.96,3.81,3.81,1.79,0.55
+football,Ligue 2 2023 2024,Round 33,20/04/,Rodez,Auxerre,2,0,0,g_1_nmL0lCEr,2.92,3.56,2.43,2.83,1.1
+football,Ligue 2 2023 2024,Round 32,16/04/,Grenoble,Angers,0,0,1,g_1_pIcbtFML,3.52,3.1,2.33,1.2,0.5
+football,Ligue 2 2023 2024,Round 32,14/04/,Bordeaux,Bastia,2,3,2,g_1_jaEeMgVk,1.92,3.63,4.15,1.62,1.68
+football,Ligue 2 2023 2024,Round 32,14/04/,Caen,Rodez,1,0,0,g_1_UkDaLDpd,2.24,3.44,3.34,0.22,1.44
+football,Ligue 2 2023 2024,Round 32,14/04/,Concarneau,Amiens,0,0,1,g_1_WEXORF7S,2.9,3.1,2.71,0.67,0.34
+football,Ligue 2 2023 2024,Round 32,14/04/,Dunkerque,Guingamp,0,1,2,g_1_Grgfse7F,3.55,3.13,2.3,0.44,0.99
+football,Ligue 2 2023 2024,Round 32,14/04/,Laval,Annecy,0,3,2,g_1_fT4oqHx3,2.28,3.21,3.51,0.55,1.73
+football,Ligue 2 2023 2024,Round 32,14/04/,Quevilly Rouen,Auxerre,4,3,0,g_1_O8d2uZyS,3.25,3.4,2.3,3.25,2.14
+football,Ligue 2 2023 2024,Round 32,14/04/,Troyes,Paris FC,1,2,2,g_1_xhfjryh9,3.37,3.01,2.46,1.46,1.13
+football,Ligue 2 2023 2024,Round 32,14/04/,Valenciennes,Pau FC,1,4,2,g_1_rg1spcNd,3.34,3.23,2.34,0.65,1.85
+football,Ligue 2 2023 2024,Round 32,13/04/,AC Ajaccio,St Etienne,2,0,0,g_1_YNJjNZFq,3.94,3.21,2.13,1.47,0.28
+football,Ligue 2 2023 2024,Round 31,09/04/,Auxerre,Troyes,2,0,0,g_1_8bR4Wwgc,1.46,4.84,6.83,2.48,0.61
+football,Ligue 2 2023 2024,Round 31,07/04/,Angers,Laval,1,1,1,g_1_CWcGP7Kp,2.14,3.14,3.97,1.04,0.92
+football,Ligue 2 2023 2024,Round 31,07/04/,Annecy,Valenciennes,2,1,0,g_1_G0CpVTdN,1.59,3.89,6.66,3.59,1.07
+football,Ligue 2 2023 2024,Round 31,07/04/,Bastia,Dunkerque,1,1,1,g_1_QZ1KORZj,2.01,3.39,4.11,0.48,1.3
+football,Ligue 2 2023 2024,Round 31,07/04/,Caen,Bordeaux,0,1,2,g_1_2Zu8Vc83,2.33,3.41,3.2,1.18,1.45
+football,Ligue 2 2023 2024,Round 31,07/04/,Guingamp,Amiens,0,0,1,g_1_tQvCUHN9,2.02,3.36,4.13,1.64,0.67
+football,Ligue 2 2023 2024,Round 31,07/04/,Paris FC,Grenoble,2,1,0,g_1_OlUGTywG,2.0,3.29,4.31,1.94,0.6
+football,Ligue 2 2023 2024,Round 31,07/04/,Pau FC,AC Ajaccio,1,1,1,g_1_fiBlUmCT,2.58,2.99,3.19,0.81,0.08
+football,Ligue 2 2023 2024,Round 31,07/04/,Rodez,Quevilly Rouen,3,3,1,g_1_xhYKSehM,2.31,3.29,3.34,1.27,0.97
+football,Ligue 2 2023 2024,Round 31,06/04/,St Etienne,Concarneau,1,0,0,g_1_U7S0XJwi,1.44,4.62,7.99,1.45,0.24
+football,Ligue 2 2023 2024,Round 30,02/04/,AC Ajaccio,Auxerre,0,1,2,g_1_pIL4Ud6C,4.06,3.21,2.09,1.75,0.8
+football,Ligue 2 2023 2024,Round 30,31/03/,Amiens,Pau FC,2,3,2,g_1_WEH0Vxi6,1.98,3.43,4.16,1.65,1.75
+football,Ligue 2 2023 2024,Round 30,31/03/,Bordeaux,Paris FC,3,3,1,g_1_StB9TGLI,2.35,3.38,3.17,1.19,2.11
+football,Ligue 2 2023 2024,Round 30,31/03/,Concarneau,Angers,2,4,2,g_1_QBJXXVC4,3.83,3.37,2.09,1.08,2.56
+football,Ligue 2 2023 2024,Round 30,31/03/,Dunkerque,Annecy,0,2,2,g_1_EyGTYBcb,2.6,3.12,3.02,0.46,1.36
+football,Ligue 2 2023 2024,Round 30,31/03/,Grenoble,Guingamp,0,0,1,g_1_KYIyXkSA,3.01,3.01,2.7,0.79,0.8
+football,Ligue 2 2023 2024,Round 30,31/03/,Laval,Bastia,1,2,2,g_1_hMRKzYSo,2.1,3.06,4.29,1.2,1.25
+football,Ligue 2 2023 2024,Round 30,31/03/,Quevilly Rouen,Caen,1,2,2,g_1_bPHuW9sH,2.45,3.09,3.3,1.23,1.39
+football,Ligue 2 2023 2024,Round 30,31/03/,Troyes,Rodez,2,3,2,g_1_WCQOZirh,2.99,3.41,2.45,1.21,2.01
+football,Ligue 2 2023 2024,Round 30,30/03/,Valenciennes,St Etienne,0,2,2,g_1_46YxCljo,6.74,4.49,1.5,0.43,0.72
+football,Ligue 2 2023 2024,Round 29,17/03/,Angers,Amiens,1,3,2,g_1_SKZYGwxD,1.82,3.37,5.27,1.25,1.52
+football,Ligue 2 2023 2024,Round 29,17/03/,Annecy,Bordeaux,3,1,0,g_1_KfWQIa70,2.77,3.32,2.68,1.57,0.96
+football,Ligue 2 2023 2024,Round 29,17/03/,Bastia,St Etienne,0,4,2,g_1_6BYxGciJ,3.91,3.4,2.06,1.24,1.69
+football,Ligue 2 2023 2024,Round 29,17/03/,Guingamp,Valenciennes,3,0,0,g_1_va3iZKis,1.54,3.9,7.69,1.28,0.24
+football,Ligue 2 2023 2024,Round 29,17/03/,Laval,Dunkerque,1,2,2,g_1_MJGPw1qQ,2.04,3.06,4.58,1.9,0.59
+football,Ligue 2 2023 2024,Round 29,17/03/,Paris FC,AC Ajaccio,2,0,0,g_1_Ik2eYv7m,2.21,2.95,4.1,0.79,0.56
+football,Ligue 2 2023 2024,Round 29,17/03/,Pau FC,Concarneau,2,0,0,g_1_boVUHJM6,2.06,3.4,3.91,1.68,0.56
+football,Ligue 2 2023 2024,Round 29,17/03/,Quevilly Rouen,Troyes,1,1,1,g_1_b1JhXbMg,2.02,3.36,4.13,0.93,0.46
+football,Ligue 2 2023 2024,Round 29,17/03/,Rodez,Grenoble,3,1,0,g_1_xhIdWIy0,2.13,3.37,3.73,1.92,1.06
+football,Ligue 2 2023 2024,Round 29,16/03/,Auxerre,Caen,2,1,0,g_1_8GCLvsUJ,1.76,3.71,5.04,1.21,0.78
+football,Ligue 2 2023 2024,Round 28,12/03/,Grenoble,Laval,0,2,2,g_1_xWtMJuhf,2.34,2.94,3.72,0.12,2.21
+football,Ligue 2 2023 2024,Round 28,10/03/,AC Ajaccio,Annecy,1,3,2,g_1_xI1m5tw1,2.11,2.89,4.63,0.7,2.07
+football,Ligue 2 2023 2024,Round 28,10/03/,Amiens,Rodez,1,1,1,g_1_bR2q6MNf,2.63,3.0,3.1,1.27,1.33
+football,Ligue 2 2023 2024,Round 28,10/03/,Bordeaux,Quevilly Rouen,0,0,1,g_1_Ktih40h7,2.21,3.49,3.38,0.63,1.31
+football,Ligue 2 2023 2024,Round 28,10/03/,Caen,Paris FC,0,1,2,g_1_nmqvS3pE,2.49,3.05,3.26,0.65,1.13
+football,Ligue 2 2023 2024,Round 28,10/03/,Concarneau,Guingamp,2,3,2,g_1_voOIKLxl,3.67,3.06,2.29,1.55,1.77
+football,Ligue 2 2023 2024,Round 28,10/03/,Dunkerque,Pau FC,1,0,0,g_1_pOOEL1Ns,2.35,3.13,3.44,1.39,0.15
+football,Ligue 2 2023 2024,Round 28,10/03/,Troyes,Bastia,2,0,0,g_1_rFxmQsFQ,2.69,3.08,2.95,0.98,0.41
+football,Ligue 2 2023 2024,Round 28,10/03/,Valenciennes,Angers,0,0,1,g_1_QwrrRNaK,5.16,2.99,1.97,0.19,0.71
+football,Ligue 2 2023 2024,Round 28,09/03/,St Etienne,Auxerre,1,0,0,g_1_Yqed3K7D,2.68,3.26,2.81,1.51,0.69
+football,Ligue 2 2023 2024,Round 27,05/03/,Angers,AC Ajaccio,3,1,0,g_1_44sAiN81,2.11,2.96,4.46,1.62,0.45
+football,Ligue 2 2023 2024,Round 27,03/03/,Annecy,Quevilly Rouen,0,0,1,g_1_b7v2gqvk,3.09,2.96,2.68,0.7,0.32
+football,Ligue 2 2023 2024,Round 27,03/03/,Auxerre,Valenciennes,0,0,1,g_1_KCPdFQ08,1.38,5.11,8.42,1.4,0.29
+football,Ligue 2 2023 2024,Round 27,03/03/,Bastia,Grenoble,1,0,0,g_1_retEjsO7,2.62,3.18,2.95,2.85,0.21
+football,Ligue 2 2023 2024,Round 27,03/03/,Dunkerque,Concarneau,2,2,1,g_1_CA4y8rgr,2.3,3.23,3.44,0.82,1.47
+football,Ligue 2 2023 2024,Round 27,03/03/,Guingamp,Troyes,0,0,1,g_1_hQN4D4VK,1.86,3.52,4.65,1.17,0.2
+football,Ligue 2 2023 2024,Round 27,03/03/,Laval,Amiens,1,1,1,g_1_b3O0EpGE,2.26,3.18,3.59,0.69,0.22
+football,Ligue 2 2023 2024,Round 27,03/03/,Pau FC,Caen,2,3,2,g_1_Asr6h3ge,2.98,3.29,2.52,0.99,1.45
+football,Ligue 2 2023 2024,Round 27,03/03/,Rodez,Bordeaux,2,2,1,g_1_j13u728l,2.52,3.58,2.78,0.83,0.7
+football,Ligue 2 2023 2024,Round 27,02/03/,Paris FC,St Etienne,0,0,1,g_1_6TR8COpR,2.61,3.22,2.92,0.6,1.12
+football,Ligue 2 2023 2024,Round 26,27/02/,Caen,Angers,2,0,0,g_1_As6E2mH2,2.58,3.18,2.99,0.7,0.54
+football,Ligue 2 2023 2024,Round 26,25/02/,AC Ajaccio,Amiens,0,0,1,g_1_CzlSt6fq,2.26,3.03,3.79,0.69,0.32
+football,Ligue 2 2023 2024,Round 26,25/02/,Auxerre,Bastia,1,1,1,g_1_dvIWw4v2,1.59,4.15,5.97,1.71,1.18
+football,Ligue 2 2023 2024,Round 26,25/02/,Bordeaux,Guingamp,1,0,0,g_1_jRnWuQ9k,2.2,3.34,3.55,1.28,0.49
+football,Ligue 2 2023 2024,Round 26,25/02/,Concarneau,Laval,1,3,2,g_1_p0bRao1L,2.67,3.01,3.04,1.86,2.46
+football,Ligue 2 2023 2024,Round 26,25/02/,Grenoble,Pau FC,0,1,2,g_1_EZ2Vb5GR,1.88,3.54,4.52,1.56,2.12
+football,Ligue 2 2023 2024,Round 26,25/02/,Quevilly Rouen,Paris FC,0,0,1,g_1_GrkcfPOr,2.51,3.25,3.03,0.95,0.58
+football,Ligue 2 2023 2024,Round 26,25/02/,Troyes,Dunkerque,1,2,2,g_1_69aN0RoF,2.19,3.34,3.55,1.19,0.53
+football,Ligue 2 2023 2024,Round 26,25/02/,Valenciennes,Rodez,0,2,2,g_1_OpAI17W8,2.99,3.33,2.5,0.3,2.02
+football,Ligue 2 2023 2024,Round 26,24/02/,St Etienne,Annecy,2,1,0,g_1_ImJSvpPe,1.64,3.97,5.74,1.21,1.9
+football,Ligue 2 2023 2024,Round 25,20/02/,Amiens,Bordeaux,1,1,1,g_1_Sp1LpFeH,2.94,3.16,2.63,1.75,0.71
+football,Ligue 2 2023 2024,Round 25,18/02/,Annecy,Auxerre,0,2,2,g_1_6y0PqZAN,5.27,3.95,1.69,0.71,0.91
+football,Ligue 2 2023 2024,Round 25,18/02/,Bastia,Rodez,0,2,2,g_1_xdUw3dBo,2.28,3.28,3.44,1.21,0.91
+football,Ligue 2 2023 2024,Round 25,18/02/,Concarneau,Paris FC,2,2,1,g_1_KvQbbYPG,3.94,3.15,2.15,2.07,0.42
+football,Ligue 2 2023 2024,Round 25,18/02/,Dunkerque,Valenciennes,2,1,0,g_1_6yMfaEAA,2.37,3.06,3.48,1.25,0.86
+football,Ligue 2 2023 2024,Round 25,18/02/,Guingamp,Caen,1,0,0,g_1_pMXo1ztb,2.14,3.39,3.65,0.53,0.5
+football,Ligue 2 2023 2024,Round 25,18/02/,Laval,AC Ajaccio,1,1,1,g_1_GnTs2GQi,2.55,2.7,3.64,0.62,0.84
+football,Ligue 2 2023 2024,Round 25,18/02/,Pau FC,Quevilly Rouen,0,2,2,g_1_0baTrgQT,2.76,3.29,2.7,1.09,1.47
+football,Ligue 2 2023 2024,Round 25,18/02/,Troyes,Grenoble,3,1,0,g_1_OCWk0fe4,2.85,3.37,2.58,1.83,1.29
+football,Ligue 2 2023 2024,Round 25,17/02/,Angers,St Etienne,0,3,2,g_1_zijevDYp,2.18,3.38,3.36,0.66,0.96
+football,Ligue 2 2023 2024,Round 24,13/02/,St Etienne,Troyes,5,0,0,g_1_CEvjVZeU,1.8,3.75,4.69,1.8,0.25
+football,Ligue 2 2023 2024,Round 24,11/02/,AC Ajaccio,Guingamp,3,0,0,g_1_xdnwYyCB,3.04,3.01,2.67,2.02,0.19
+football,Ligue 2 2023 2024,Round 24,11/02/,Annecy,Concarneau,0,3,2,g_1_jajsXeRH,2.23,3.12,3.74,0.57,2.61
+football,Ligue 2 2023 2024,Round 24,11/02/,Bordeaux,Grenoble,1,0,0,g_1_YNunWFtO,2.09,3.64,3.53,1.18,1.09
+football,Ligue 2 2023 2024,Round 24,11/02/,Caen,Amiens,2,0,0,g_1_tUEakwsn,2.14,3.33,3.74,0.86,0.87
+football,Ligue 2 2023 2024,Round 24,11/02/,Paris FC,Pau FC,1,1,1,g_1_xd88mHBb,1.74,3.74,5.2,1.16,1.3
+football,Ligue 2 2023 2024,Round 24,11/02/,Quevilly Rouen,Bastia,0,1,2,g_1_WI7CnyR4,2.0,3.29,4.31,0.2,1.05
+football,Ligue 2 2023 2024,Round 24,11/02/,Rodez,Dunkerque,0,0,1,g_1_A96GoetB,1.98,3.43,4.16,0.84,0.21
+football,Ligue 2 2023 2024,Round 24,11/02/,Valenciennes,Laval,1,1,1,g_1_Oh44lcdh,2.97,2.89,2.84,0.42,0.41
+football,Ligue 2 2023 2024,Round 24,10/02/,Auxerre,Angers,1,0,0,g_1_2wGejJRu,1.75,3.86,4.88,1.14,0.66
+football,Ligue 2 2023 2024,Round 23,06/02/,Bastia,AC Ajaccio,1,0,0,g_1_joB8IdCO,2.65,2.8,3.32,0.38,0.36
+football,Ligue 2 2023 2024,Round 23,04/02/,Amiens,Paris FC,1,1,1,g_1_4U8dLbS5,3.1,3.0,2.63,0.59,1.42
+football,Ligue 2 2023 2024,Round 23,04/02/,Angers,Rodez,2,1,0,g_1_CfC4JxcI,2.15,3.61,3.4,1.04,1.16
+football,Ligue 2 2023 2024,Round 23,04/02/,Concarneau,Valenciennes,1,0,0,g_1_4rlVZcsa,2.23,3.12,3.74,0.85,0.35
+football,Ligue 2 2023 2024,Round 23,04/02/,Grenoble,Caen,5,1,0,g_1_rZnZYHd5,2.34,3.34,3.23,2.7,0.7
+football,Ligue 2 2023 2024,Round 23,04/02/,Guingamp2,Annecy,1,4,2,g_1_EgeIx0ct,1.5,4.34,7.23,1.42,2.87
+football,Ligue 2 2023 2024,Round 23,04/02/,Laval,Quevilly Rouen,2,4,2,g_1_hjkistkP,2.32,3.3,3.3,1.05,1.58
+football,Ligue 2 2023 2024,Round 23,04/02/,Pau FC,Auxerre,2,2,1,g_1_rL70KIsC,4.3,3.84,1.84,0.93,1.73
+football,Ligue 2 2023 2024,Round 23,04/02/,Troyes,Bordeaux,2,1,0,g_1_8GfMyKCn,3.34,3.5,2.22,2.52,2.02
+football,Ligue 2 2023 2024,Round 23,03/02/,Dunkerque,St Etienne,1,0,0,g_1_n7gQzvSh,3.54,3.38,2.18,0.7,0.87
+football,Ligue 2 2023 2024,Round 22,30/01/,Bordeaux,Angers,1,0,0,g_1_QNLU6aDC,2.17,3.58,3.38,0.63,1.45
+football,Ligue 2 2023 2024,Round 22,28/01/,AC Ajaccio,Concarneau,1,0,0,g_1_48XL8Lr0,1.97,3.09,4.89,0.8,0.39
+football,Ligue 2 2023 2024,Round 22,28/01/,Annecy,Pau FC,0,0,1,g_1_raWP7ub6,2.21,3.38,3.49,0.3,1.37
+football,Ligue 2 2023 2024,Round 22,28/01/,Auxerre,Guingamp,1,1,1,g_1_hUDGU25J,2.09,3.44,3.75,0.87,0.39
+football,Ligue 2 2023 2024,Round 22,28/01/,Caen,Troyes,0,0,1,g_1_WKCKTMKP,1.9,3.5,4.45,1.29,0.24
+football,Ligue 2 2023 2024,Round 22,28/01/,Paris FC,Dunkerque,1,2,2,g_1_EuGqO0rm,1.72,3.6,5.66,1.96,1.19
+football,Ligue 2 2023 2024,Round 22,28/01/,Quevilly Rouen,Grenoble,1,1,1,g_1_82FmNKcg,2.62,3.18,2.95,2.03,1.35
+football,Ligue 2 2023 2024,Round 22,28/01/,Rodez,Laval,1,2,2,g_1_M5JiMvDa,2.28,3.21,3.51,1.75,1.42
+football,Ligue 2 2023 2024,Round 22,28/01/,Valenciennes,Bastia,3,1,0,g_1_zkHuPtTt,3.1,3.0,2.63,2.41,0.79
+football,Ligue 2 2023 2024,Round 22,27/01/,St Etienne,Amiens,0,1,2,g_1_vRPY5JSI,1.97,3.3,4.46,0.71,0.29
+football,Ligue 2 2023 2024,Round 21,24/01/,Amiens,Annecy,1,0,0,g_1_6etuPLBq,2.03,3.57,3.8,1.16,0.33
+football,Ligue 2 2023 2024,Round 21,24/01/,Angers,Quevilly Rouen,3,2,0,g_1_ELqmNatd,2.09,3.49,3.7,1.7,0.61
+football,Ligue 2 2023 2024,Round 21,24/01/,Bastia,Caen,1,2,2,g_1_WdEXUBa2,2.18,3.17,3.81,1.45,2.76
+football,Ligue 2 2023 2024,Round 21,24/01/,Bordeaux,Valenciennes,3,1,0,g_1_hCriMJe2,1.61,3.97,6.11,0.97,1.16
+football,Ligue 2 2023 2024,Round 21,24/01/,Concarneau,Troyes,1,0,0,g_1_drUDAsEm,2.3,3.44,3.07,0.55,0.67
+football,Ligue 2 2023 2024,Round 21,24/01/,Dunkerque,AC Ajaccio,2,0,0,g_1_EJv9BNbs,2.83,2.95,2.91,0.36,0.31
+football,Ligue 2 2023 2024,Round 21,24/01/,Grenoble,Auxerre,1,1,1,g_1_zZSH91Tg,3.04,3.49,2.38,2.36,1.2
+football,Ligue 2 2023 2024,Round 21,24/01/,Guingamp,Rodez,3,3,1,g_1_4ACuTkUE,1.88,3.44,4.66,2.67,1.89
+football,Ligue 2 2023 2024,Round 21,24/01/,Laval,Paris FC,1,1,1,g_1_AmDyUVE8,2.34,3.18,3.4,0.9,1.02
+football,Ligue 2 2023 2024,Round 21,24/01/,Pau FC,St Etienne,0,1,2,g_1_KbpqOuRk,2.97,3.45,2.44,0.5,1.07
+football,Ligue 2 2023 2024,Round 20,16/01/,Auxerre,Bordeaux,3,1,0,g_1_nTUVGOJM,1.88,3.79,4.2,1.69,1.19
+football,Ligue 2 2023 2024,Round 20,14/01/,Bastia,Angers,2,0,0,g_1_hUyNIpkA,2.71,3.08,2.92,1.84,0.26
+football,Ligue 2 2023 2024,Round 20,14/01/,Caen,Concarneau,1,0,0,g_1_tjUZFrZS,2.04,3.52,3.84,0.58,0.29
+football,Ligue 2 2023 2024,Round 20,14/01/,Grenoble,Dunkerque,2,2,1,g_1_hUchYPlc,1.73,3.92,4.96,1.28,1.21
+football,Ligue 2 2023 2024,Round 20,14/01/,Paris FC,Annecy,2,1,0,g_1_0zB6AMdj,2.02,3.43,4.01,1.67,0.7
+football,Ligue 2 2023 2024,Round 20,14/01/,Quevilly Rouen,Guingamp,0,1,2,g_1_6X1dXq43,2.9,3.06,2.74,0.36,0.78
+football,Ligue 2 2023 2024,Round 20,14/01/,Rodez,Pau FC,2,1,0,g_1_ldi1W3J9,1.86,3.98,4.04,0.87,1.89
+football,Ligue 2 2023 2024,Round 20,14/01/,Troyes,AC Ajaccio,3,1,0,g_1_vR9A9tCd,2.81,3.08,2.81,1.31,0.56
+football,Ligue 2 2023 2024,Round 20,14/01/,Valenciennes,Amiens,0,1,2,g_1_raG1B2sp,3.37,2.95,2.5,0.62,1.48
+football,Ligue 2 2023 2024,Round 20,13/01/,St Etienne,Laval,0,0,1,g_1_zgRRH44G,2.12,3.39,3.71,0.54,1.73
+football,Ligue 2 2023 2024,Round 19,20/12/,AC Ajaccio,Valenciennes,2,1,0,g_1_zXki5RKA,1.97,2.97,5.22,0.76,0.41
+football,Ligue 2 2023 2024,Round 19,20/12/,Amiens,Caen,0,0,1,g_1_tAjm6754,2.54,3.22,3.01,0.44,1.08
+football,Ligue 2 2023 2024,Round 19,20/12/,Angers,Guingamp,1,0,0,g_1_YP4d2P4T,2.21,3.28,3.59,0.86,2.44
+football,Ligue 2 2023 2024,Round 19,20/12/,Annecy,Rodez,1,2,2,g_1_ENle4ozH,2.94,3.28,2.56,1.37,1.3
+football,Ligue 2 2023 2024,Round 19,20/12/,Concarneau,Grenoble,0,3,2,g_1_EwwJJQZ3,3.3,3.41,2.27,1.44,3.02
+football,Ligue 2 2023 2024,Round 19,20/12/,Dunkerque,Bordeaux,0,2,2,g_1_p4YEK6Kc,4.14,3.59,1.94,0.45,1.91
+football,Ligue 2 2023 2024,Round 19,20/12/,Laval,Auxerre,1,3,2,g_1_48eSd3Sj,3.68,3.48,2.1,0.29,1.36
+football,Ligue 2 2023 2024,Round 19,20/12/,Paris FC,Quevilly Rouen,2,2,1,g_1_6DZALn5i,2.32,3.3,3.3,1.65,0.77
+football,Ligue 2 2023 2024,Round 19,20/12/,Pau FC,Troyes,1,1,1,g_1_fZ5h35kN,2.1,3.68,3.48,2.0,1.51
+football,Ligue 2 2023 2024,Round 19,20/12/,St Etienne,Bastia,3,2,0,g_1_j5iOcqDp,1.85,3.59,4.62,1.79,1.61
+football,Ligue 2 2023 2024,Round 18,17/12/,Bastia,Quevilly Rouen,0,0,1,g_1_25CAhly5,2.84,3.15,2.73,0.51,0.71
+football,Ligue 2 2023 2024,Round 18,17/12/,Caen,Dunkerque,1,0,0,g_1_zJAIjS5H,2.01,3.67,3.78,1.6,1.0
+football,Ligue 2 2023 2024,Round 18,17/12/,Grenoble,Annecy,1,0,0,g_1_prcv8Tzh,2.09,3.33,3.9,1.13,0.13
+football,Ligue 2 2023 2024,Round 18,17/12/,Guingamp,Concarneau,0,1,2,g_1_Iy5hpQro,1.65,3.93,5.76,1.4,0.85
+football,Ligue 2 2023 2024,Round 18,17/12/,Laval,Pau FC,1,1,1,g_1_GSIQl6zU,1.92,3.46,4.4,1.14,0.76
+football,Ligue 2 2023 2024,Round 18,17/12/,Rodez,Amiens,2,2,1,g_1_S6nq7mjb,2.27,3.17,3.58,1.2,0.38
+football,Ligue 2 2023 2024,Round 18,17/12/,Troyes,Angers,1,4,2,g_1_6ibz99Lo,4.21,3.69,1.9,0.3,4.14
+football,Ligue 2 2023 2024,Round 18,17/12/,Valenciennes,Paris FC,0,1,2,g_1_Y3TLknLN,3.95,3.37,2.06,0.79,0.85
+football,Ligue 2 2023 2024,Round 18,16/12/,Auxerre,AC Ajaccio,2,0,0,g_1_tdBEi8jB,1.62,3.95,6.06,1.0,0.02
+football,Ligue 2 2023 2024,Round 18,16/12/,Bordeaux,St Etienne,0,0,1,g_1_pUH5gULb,2.01,3.78,3.67,1.35,0.37
+football,Ligue 2 2023 2024,Round 17,07/12/,Annecy,Caen,1,2,2,g_1_x0MQhcVm,2.62,3.28,2.87,0.8,0.64
+football,Ligue 2 2023 2024,Round 17,06/12/,AC Ajaccio,Laval,2,0,0,g_1_rwNMgwGs,2.77,2.77,3.18,1.32,0.17
+football,Ligue 2 2023 2024,Round 17,06/12/,Angers,Grenoble,1,0,0,g_1_YRFZjy00,1.99,3.32,4.29,1.06,0.69
+football,Ligue 2 2023 2024,Round 17,06/12/,Concarneau,Auxerre,1,2,2,g_1_CGJcejin,5.44,3.73,1.71,0.66,1.31
+football,Ligue 2 2023 2024,Round 17,06/12/,Dunkerque,Bastia,0,5,2,g_1_bDFgdWyt,2.24,3.06,3.82,0.62,1.95
+football,Ligue 2 2023 2024,Round 17,06/12/,Paris FC,Rodez,2,0,0,g_1_KrEskFUC,2.31,3.29,3.34,0.56,2.44
+football,Ligue 2 2023 2024,Round 17,06/12/,Pau FC,Valenciennes,3,1,0,g_1_j3QUiHpf,2.13,3.29,3.82,2.49,1.46
+football,Ligue 2 2023 2024,Round 17,06/12/,Quevilly Rouen,Bordeaux,3,2,0,g_1_6wJ1fA6h,2.66,3.4,2.73,1.35,1.24
+football,Ligue 2 2023 2024,Round 17,06/12/,St Etienne,Guingamp,1,3,2,g_1_CIEwjeF6,2.34,3.19,3.39,0.86,1.65
+football,Ligue 2 2023 2024,Round 17,06/12/,Troyes,Amiens,2,0,0,g_1_bZColZqJ,2.87,3.28,2.62,0.84,0.84
+football,Ligue 2 2023 2024,Round 16,03/12/,AC Ajaccio,Angers,1,1,1,g_1_jqbqtKor,3.05,2.92,2.74,1.23,0.75
+football,Ligue 2 2023 2024,Round 16,03/12/,Amiens,St Etienne,1,0,0,g_1_p2LGp0wR,2.67,3.18,2.88,0.35,0.6
+football,Ligue 2 2023 2024,Round 16,03/12/,Auxerre,Quevilly Rouen,3,2,0,g_1_x00ewIV0,1.7,3.85,5.39,1.36,0.82
+football,Ligue 2 2023 2024,Round 16,03/12/,Caen,Bastia,1,0,0,g_1_KOk0xxo7,1.9,3.5,4.45,1.15,0.71
+football,Ligue 2 2023 2024,Round 16,03/12/,Guingamp,Paris FC,0,1,2,g_1_OhtjaahK,2.23,3.31,3.52,0.57,0.75
+football,Ligue 2 2023 2024,Round 16,03/12/,Laval,Grenoble,1,1,1,g_1_p2sn0uwE,2.49,3.15,3.15,0.6,0.94
+football,Ligue 2 2023 2024,Round 16,03/12/,Pau FC,Dunkerque,1,1,1,g_1_UZdmuv1l,2.21,3.29,3.59,2.15,1.32
+football,Ligue 2 2023 2024,Round 16,03/12/,Rodez,Concarneau,2,0,0,g_1_tUzebJ7Q,1.92,3.63,4.15,1.66,0.29
+football,Ligue 2 2023 2024,Round 16,03/12/,Valenciennes,Annecy,0,0,1,g_1_Wbg4yd0D,2.64,3.21,2.9,1.46,0.91
+football,Ligue 2 2023 2024,Round 16,02/12/,Bordeaux,Troyes,0,1,2,g_1_b91ivbGf,1.49,4.63,6.68,1.5,1.38
+football,Ligue 2 2023 2024,Round 13,29/11/,Concarneau,Pau FC,1,2,2,g_1_Cf4mOoQd,2.27,3.41,3.3,1.0,0.56
+football,Ligue 2 2023 2024,Round 15,28/11/,Angers,Caen,3,0,0,g_1_tfKoXt9R,1.94,3.56,4.19,1.76,0.57
+football,Ligue 2 2023 2024,Round 15,26/11/,Amiens,Concarneau,1,1,1,g_1_boJ4m2g8,2.09,3.43,3.75,1.57,0.5
+football,Ligue 2 2023 2024,Round 15,26/11/,Annecy,AC Ajaccio,2,0,0,g_1_CKFsYMgL,3.46,2.89,2.5,1.34,0.24
+football,Ligue 2 2023 2024,Round 15,26/11/,Bastia,Auxerre,0,0,1,g_1_r36DS0Hr,4.41,3.78,1.84,0.3,1.49
+football,Ligue 2 2023 2024,Round 15,26/11/,Dunkerque,Laval,0,2,2,g_1_CrbUOIG7,3.02,3.33,2.47,1.41,0.45
+football,Ligue 2 2023 2024,Round 15,26/11/,Grenoble,Rodez,2,1,0,g_1_xxI8nM8E,2.06,3.41,3.87,0.45,0.78
+football,Ligue 2 2023 2024,Round 15,26/11/,Paris FC,Bordeaux,1,2,2,g_1_vVaMQvne,2.66,3.44,2.71,1.46,0.54
+football,Ligue 2 2023 2024,Round 15,26/11/,Quevilly Rouen,Valenciennes,0,0,1,g_1_WbHCotOK,1.81,3.51,5.05,0.94,0.34
+football,Ligue 2 2023 2024,Round 15,26/11/,Troyes,Guingamp,0,1,2,g_1_YiaQPb11,3.05,3.41,2.42,0.37,1.63
+football,Ligue 2 2023 2024,Round 15,25/11/,St Etienne,Pau FC,1,2,2,g_1_QReIRKWl,1.7,4.01,5.01,1.04,1.41
+football,Ligue 2 2023 2024,Round 14,12/11/,AC Ajaccio,Troyes,1,0,0,g_1_KQj4K3PL,1.82,3.44,4.6,0.87,0.17
+football,Ligue 2 2023 2024,Round 14,12/11/,Amiens,Grenoble,1,2,2,g_1_x21aLqAF,2.47,3.2,2.94,2.05,0.2
+football,Ligue 2 2023 2024,Round 14,12/11/,Auxerre,St Etienne,5,2,0,g_1_UatvE12k,1.76,3.94,4.25,1.52,1.32
+football,Ligue 2 2023 2024,Round 14,12/11/,Caen,Quevilly Rouen,3,3,1,g_1_nyyqDLHe,2.32,3.28,3.1,1.19,1.78
+football,Ligue 2 2023 2024,Round 14,12/11/,Laval,Concarneau,0,3,2,g_1_vVNUzP92,1.84,3.45,4.46,1.55,1.68
+football,Ligue 2 2023 2024,Round 14,12/11/,Paris FC,Bastia,1,0,0,g_1_j5RYZrP8,1.84,3.55,4.29,1.97,1.16
+football,Ligue 2 2023 2024,Round 14,12/11/,Pau FC,Angers,4,4,1,g_1_YTf8JNvS,3.61,3.18,2.14,1.53,2.71
+football,Ligue 2 2023 2024,Round 14,12/11/,Rodez,Guingamp,0,0,1,g_1_YTGwZ2vF,2.22,3.42,3.18,0.22,0.76
+football,Ligue 2 2023 2024,Round 14,12/11/,Valenciennes,Dunkerque,0,1,2,g_1_QRZnCuX1,2.3,3.28,3.14,0.41,1.08
+football,Ligue 2 2023 2024,Round 14,11/11/,Bordeaux,Annecy,3,1,0,g_1_j9szFsmq,1.54,4.15,5.96,1.03,0.46
+football,Ligue 2 2023 2024,Round 13,07/11/,Guingamp,Auxerre,2,1,0,g_1_2PMd1OIq,3.18,3.2,2.32,0.48,1.21
+football,Ligue 2 2023 2024,Round 13,05/11/,Angers,Valenciennes,2,0,0,g_1_UX5KKCJ4,1.67,3.72,5.94,1.18,0.5
+football,Ligue 2 2023 2024,Round 13,05/11/,Annecy,Laval,1,3,2,g_1_zB6GLh4b,2.99,3.19,2.58,0.78,0.38
+football,Ligue 2 2023 2024,Round 13,05/11/,Bastia,Bordeaux,3,1,0,g_1_8O4OJWYA,3.72,3.52,2.07,1.26,0.28
+football,Ligue 2 2023 2024,Round 13,05/11/,Dunkerque,Amiens,0,1,2,g_1_AkQ4a2md,3.06,3.32,2.45,1.12,0.57
+football,Ligue 2 2023 2024,Round 13,05/11/,Grenoble,AC Ajaccio,0,3,2,g_1_jo3iN5u3,2.43,3.08,3.33,0.77,0.93
+football,Ligue 2 2023 2024,Round 13,05/11/,Quevilly Rouen,Rodez,3,1,0,g_1_bB2eMPf9,2.16,3.39,3.6,0.92,0.28
+football,Ligue 2 2023 2024,Round 13,05/11/,Troyes,Caen,2,1,0,g_1_dnM00rYk,2.71,3.41,2.68,0.94,1.07
+football,Ligue 2 2023 2024,Round 13,04/11/,St Etienne,Paris FC,0,1,2,g_1_QaaTIjlH,1.74,3.74,4.63,0.7,0.95
+football,Ligue 2 2023 2024,Round 12,31/10/,St Etienne,Angers,2,0,0,g_1_rNUk5XJH,2.53,3.3,2.97,1.89,0.81
+football,Ligue 2 2023 2024,Round 12,29/10/,Amiens,Laval,0,0,1,g_1_GfBt9FKh,2.48,3.14,2.97,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Auxerre,Dunkerque,0,1,2,g_1_QoKf4iZN,1.35,5.2,7.95,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Bastia,Guingamp,0,0,1,g_1_UJQo6D4B,2.76,3.1,2.66,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Concarneau,AC Ajaccio,2,1,0,g_1_f1b8NEZo,3.01,2.92,2.61,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Paris FC,Troyes,2,2,1,g_1_GAa4OfKu,1.93,3.68,3.73,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Pau FC,Grenoble,3,2,0,g_1_d6Sw8ZZb,3.34,3.26,2.21,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Quevilly Rouen,Annecy,1,2,2,g_1_xQmDMYlh,2.0,3.3,3.92,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,29/10/,Valenciennes,Caen,2,2,1,g_1_4xJb3BlU,2.78,3.15,2.6,0.0,0.0
+football,Ligue 2 2023 2024,Round 12,28/10/,Bordeaux,Rodez,2,2,1,g_1_zcRs7gk5,1.64,4.1,4.9,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,24/10/,Laval,St Etienne,0,1,2,g_1_fNiI8o9C,2.48,3.28,3.05,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,AC Ajaccio,Pau FC,2,0,0,g_1_SA01CT9m,1.86,3.3,5.15,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Angers,Bordeaux,2,0,0,g_1_Y739A7v0,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Annecy,Amiens,1,1,1,g_1_MXa5BmPg,2.68,3.3,2.78,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Dunkerque,Paris FC,1,3,2,g_1_6LL6FHsP,2.66,3.3,2.79,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Grenoble,Valenciennes,3,3,1,g_1_rsDYAyjt,1.7,3.85,5.39,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Guingamp,Quevilly Rouen,2,2,1,g_1_OddM75OI,2.25,3.38,3.38,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Rodez,Bastia,1,1,1,g_1_x4CxAe5n,1.91,3.71,4.12,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,22/10/,Troyes,Concarneau,0,0,1,g_1_2meQ6PwP,2.09,3.65,3.54,0.0,0.0
+football,Ligue 2 2023 2024,Round 11,21/10/,Caen,Auxerre,1,1,1,g_1_GWhE9Rg6,3.38,3.59,2.17,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Amiens,Angers,1,4,2,g_1_QNyKajQs,2.67,3.18,2.88,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Bastia,Annecy,2,1,0,g_1_nwQScUff,2.26,3.34,3.39,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Concarneau,Dunkerque,4,3,0,g_1_UZKQIVWJ,2.38,3.52,3.01,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Guingamp,Grenoble,2,2,1,g_1_2TSveSvD,2.27,3.3,3.41,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Paris FC,Auxerre,0,2,2,g_1_GWWrfnfJ,3.55,3.65,2.08,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Quevilly Rouen,Pau FC,2,2,1,g_1_8QJUHknQ,1.95,3.58,4.09,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Rodez,Caen,5,3,0,g_1_lK1cD9fs,2.55,3.26,2.96,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,St Etienne,AC Ajaccio,0,0,1,g_1_tEvWdlA0,2.19,3.15,3.81,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,08/10/,Valenciennes,Troyes,1,1,1,g_1_K4wzd8P6,2.34,3.45,3.14,0.0,0.0
+football,Ligue 2 2023 2024,Round 10,07/10/,Bordeaux,Laval,0,1,2,g_1_8nRObAul,1.95,3.58,4.09,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,05/10/,St Etienne,Dunkerque,2,0,0,g_1_2R1ok0CM,1.61,4.08,5.97,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,04/10/,Bordeaux,Caen,1,1,1,g_1_2DMCz1cT,2.07,3.52,3.72,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,03/10/,AC Ajaccio,Bastia,2,0,0,g_1_6LqD3aRF,2.3,2.94,3.83,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Angers,Concarneau,2,0,0,g_1_fq1kpBQf,1.68,3.89,5.45,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Annecy,Paris FC,2,2,1,g_1_YTCtnXer,2.76,3.37,2.66,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Auxerre,Rodez,3,1,0,g_1_6J4gqVu1,1.61,4.09,5.88,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Caen,Guingamp,0,1,2,g_1_0t4crke7,0.0,0.0,0.0,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Dunkerque,Quevilly Rouen,0,1,2,g_1_fuol5C2K,2.62,3.34,2.82,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Grenoble,Bordeaux,2,0,0,g_1_l2ph4WHQ,2.77,3.34,2.66,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Laval,Valenciennes,1,0,0,g_1_vX21s9AD,1.85,3.34,5.13,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,01/10/,Pau FC,Amiens,1,0,0,g_1_CKBpoiBl,3.3,3.2,2.38,0.0,0.0
+football,Ligue 2 2023 2024,Round 9,30/09/,Troyes,St Etienne,0,1,2,g_1_Glnp6hmE,3.41,3.71,2.11,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Amiens,AC Ajaccio,0,0,1,g_1_6a8xiMsA,2.3,3.1,3.33,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Auxerre,Annecy,4,0,0,g_1_dl1klKRS,1.42,4.7,7.12,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Bastia,Pau FC,1,4,2,g_1_lOcsjtcG,1.79,3.65,4.44,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Caen,Grenoble,1,2,2,g_1_bcmHqvzp,1.87,3.5,4.21,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Guingamp,Bordeaux,0,0,1,g_1_Ia3IsI4d,2.72,3.3,2.56,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Paris FC,Laval,0,1,2,g_1_W2i061sc,2.49,3.2,2.88,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Quevilly Rouen,Angers,0,1,2,g_1_p6e45Ld3,2.77,3.14,2.61,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Rodez,Troyes,2,1,0,g_1_SUp94uC9,2.15,3.52,3.24,0.0,0.0
+football,Ligue 2 2023 2024,Round 8,27/09/,Valenciennes,Concarneau,0,1,2,g_1_v94Erbkj,2.27,3.24,3.25,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,AC Ajaccio,Paris FC,2,1,0,g_1_SfUaw3DA,2.13,3.37,3.73,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Amiens,Valenciennes,0,0,1,g_1_YXUevqb4,1.81,3.61,4.89,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Angers,Bastia,2,0,0,g_1_OMN8ysrN,2.02,3.43,4.03,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Concarneau,St Etienne,0,1,2,g_1_bZ4UhrDc,3.41,3.41,2.22,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Dunkerque,Rodez,1,2,2,g_1_Kr6QgOci,2.42,3.16,3.26,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Grenoble,Quevilly Rouen,2,1,0,g_1_S89Yi2S3,2.33,3.2,3.41,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Laval,Guingamp,2,1,0,g_1_Kh9vWK5p,2.34,3.22,3.37,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,24/09/,Pau FC,Annecy,0,3,2,g_1_6oT3xNSG,2.57,3.5,2.78,0.0,0.0
+football,Ligue 2 2023 2024,Round 7,23/09/,Troyes,Auxerre,1,2,2,g_1_IwSsVvLj,3.92,3.87,1.91,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,19/09/,Guingamp,AC Ajaccio,3,0,0,g_1_Ua2ZMsTT,2.21,3.09,3.85,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Annecy,Troyes,0,0,1,g_1_rqGDR5Eb,2.25,3.46,3.31,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Auxerre,Pau FC,2,2,1,g_1_vB9MPqqB,1.43,4.85,7.66,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Bastia,Laval,0,3,2,g_1_0KAIQPT4,2.46,3.08,3.28,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Dunkerque,Grenoble,0,0,1,g_1_bFxqsoEo,2.62,3.34,2.82,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Paris FC,Amiens,3,0,0,g_1_W8l1I1yo,2.68,3.26,2.81,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Quevilly Rouen,Concarneau,2,3,2,g_1_x6ymt5Ti,1.86,3.41,4.9,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Rodez,Angers,4,1,0,g_1_KUQiuPrb,2.81,3.26,2.68,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,17/09/,Valenciennes,Bordeaux,1,2,2,g_1_nyDUNNDN,3.7,3.3,2.16,0.0,0.0
+football,Ligue 2 2023 2024,Round 6,16/09/,Caen,St Etienne,1,2,2,g_1_YX8QO3bH,2.04,3.67,3.67,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,AC Ajaccio,Dunkerque,2,2,1,g_1_jkizEnpa,1.98,3.36,4.27,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Amiens,Guingamp,4,1,0,g_1_dSiWESUh,2.33,3.41,3.2,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Angers,Paris FC,2,0,0,g_1_nHpqCQEB,1.99,3.47,4.08,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Concarneau,Annecy,1,1,1,g_1_AVH5TRqn,2.29,3.36,3.31,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Grenoble,Bastia,0,0,1,g_1_4hH9Soah,2.21,3.29,3.59,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Laval,Caen,2,1,0,g_1_YXne9ObU,3.19,3.19,2.45,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Pau FC,Rodez,2,2,1,g_1_4hevD6a5,2.89,3.3,2.58,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,St Etienne,Valenciennes,0,0,1,g_1_fsliA4qO,1.55,4.13,6.71,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,03/09/,Troyes,Quevilly Rouen,2,2,1,g_1_beE1U7Uu,2.89,3.4,2.53,0.0,0.0
+football,Ligue 2 2023 2024,Round 5,02/09/,Bordeaux,Auxerre,2,4,2,g_1_Q7qmBpUH,2.06,3.64,3.65,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,29/08/,Annecy,St Etienne,1,1,1,g_1_CMxXIyWQ,3.36,3.31,2.29,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Auxerre,Grenoble,0,0,1,g_1_QTI7CZ8f,1.79,3.93,4.49,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Bastia,Troyes,3,2,0,g_1_dfE3DFgl,1.96,3.7,3.9,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Caen,AC Ajaccio,3,0,0,g_1_4KHBBgO0,1.86,3.41,4.9,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Dunkerque,Angers,0,1,2,g_1_Eka2YGVD,2.86,3.33,2.6,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Guingamp,Pau FC,4,0,0,g_1_nq7GADw7,1.74,3.59,5.39,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Paris FC,Concarneau,3,0,0,g_1_0nBK9XhD,2.54,3.37,2.9,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Quevilly Rouen,Laval,0,0,1,g_1_jFMVGl0t,2.06,3.4,3.91,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,27/08/,Rodez,Valenciennes,0,1,2,g_1_IygSF8Fn,1.99,3.47,4.08,0.0,0.0
+football,Ligue 2 2023 2024,Round 4,26/08/,Bordeaux,Amiens,2,0,0,g_1_I3FaEevr,1.76,3.94,4.66,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,22/08/,AC Ajaccio,Bordeaux,0,0,1,g_1_KSDg5I1R,3.01,3.19,2.56,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Amiens,Bastia,2,1,0,g_1_C2Ek6bnL,2.31,3.29,3.34,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Annecy,Dunkerque,3,0,0,g_1_My0L0xAr,2.83,3.19,2.7,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Concarneau,Caen,0,2,2,g_1_6PZOKc1E,3.68,3.48,2.1,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Grenoble,Troyes,0,0,1,g_1_0nZSJHGK,2.23,3.62,3.21,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Laval,Rodez,1,0,0,g_1_SYzLLwn8,2.16,3.39,3.6,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Pau FC,Paris FC,2,0,0,g_1_40kQadPl,2.62,3.18,2.95,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,St Etienne,Quevilly Rouen,2,1,0,g_1_CQhYczf1,1.92,3.63,4.15,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,20/08/,Valenciennes,Guingamp,0,0,1,g_1_jHixcf97,3.38,3.17,2.35,0.0,0.0
+football,Ligue 2 2023 2024,Round 3,19/08/,Angers,Auxerre,2,2,1,g_1_I3gUbGve,2.58,3.3,2.89,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,15/08/,Bordeaux,Concarneau,1,0,0,g_1_YczDhuIL,1.74,3.8,5.02,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Angers,Annecy,0,0,1,g_1_jZp8gL2F,1.71,3.81,5.29,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Auxerre,Amiens,0,1,2,g_1_lOurmJuq,1.75,3.94,4.73,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Bastia,Valenciennes,3,0,0,g_1_WrgGiaXR,1.74,3.67,5.24,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Caen,Pau FC,2,0,0,g_1_SEvnnwek,1.7,3.78,5.51,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Grenoble,Paris FC,2,0,0,g_1_xpMx9022,2.21,3.48,3.37,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Guingamp,Dunkerque,0,1,2,g_1_pjZjocAe,1.96,3.6,4.03,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Quevilly Rouen,AC Ajaccio,0,1,2,g_1_jmQt8KH8,2.33,3.17,3.44,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,13/08/,Troyes,Laval,3,1,0,g_1_OtYfpHP1,2.29,3.29,3.4,0.0,0.0
+football,Ligue 2 2023 2024,Round 2,12/08/,Rodez,St Etienne,2,1,0,g_1_YBFo7vXE,3.68,3.61,2.05,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,08/08/,Pau FC,Bordeaux,3,0,0,g_1_vaDYE3bR,4.42,3.43,1.93,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,AC Ajaccio,Rodez,1,1,1,g_1_rXJPGPTE,2.1,3.13,3.89,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Amiens,Quevilly Rouen,1,0,0,g_1_hriXAZud,2.5,3.4,2.75,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Annecy,Guingamp,1,4,2,g_1_dzOTFqqL,4.21,3.2,1.99,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Concarneau,Bastia,0,0,1,g_1_SOc881ye,3.14,3.14,2.4,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Dunkerque,Troyes,2,2,1,g_1_t8a0AN6r,2.69,3.44,2.53,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Laval,Angers,1,0,0,g_1_WYkyAge2,2.65,3.16,2.75,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Paris FC,Caen,0,2,2,g_1_lAKLH5E8,3.44,3.44,2.11,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,06/08/,Valenciennes,Auxerre,1,4,2,g_1_AJLHIoa2,3.92,3.35,2.0,0.0,0.0
+football,Ligue 2 2023 2024,Round 1,05/08/,St Etienne,Grenoble,0,1,2,g_1_lYb49sMl,1.61,4.21,5.71,0.0,0.0

@@ -1,0 +1,311 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Ligue 1 2023 2024,Regular Season,03/06/,Metz,St EtienneWinner,2,2,1,g_1_KxqNRpgn,2.42,3.28,2.77,2.03,2.59
+football,Ligue 1 2023 2024,Regular Season,31/05/,St Etienne,Metz,2,1,0,g_1_6exBKToJ,1.93,3.34,4.15,1.41,0.17
+football,Ligue 1 2023 2024,Regular Season,25/05/,St EtienneAdvancing to next round,Rodez,2,0,0,g_1_UmxckAJN,1.86,3.67,4.45,2.33,0.81
+football,Ligue 1 2023 2024,Regular Season,22/05/,RodezAdvancing to next round,Paris FC,3,2,0,g_1_xbTyN52l,2.35,3.38,3.17,1.81,1.73
+football,Ligue 1 2023 2024,Round 34,20/05/,Le Havre,Marseille,1,2,2,g_1_88K4TzrO,4.87,3.84,1.77,1.51,1.32
+football,Ligue 1 2023 2024,Round 34,20/05/,Lens,Montpellier,2,2,1,g_1_2ek4VdDB,1.36,5.64,8.46,4.32,0.72
+football,Ligue 1 2023 2024,Round 34,20/05/,Lille,Nice,2,2,1,g_1_naJ8SfcU,1.55,4.51,6.06,1.06,0.86
+football,Ligue 1 2023 2024,Round 34,20/05/,Lorient,Clermont,5,0,0,g_1_8Yk0Wxb5,1.65,4.29,5.21,4.53,0.92
+football,Ligue 1 2023 2024,Round 34,20/05/,Lyon,Strasbourg,2,1,0,g_1_xObInbrn,1.34,5.56,9.77,2.99,1.11
+football,Ligue 1 2023 2024,Round 34,20/05/,Metz,PSG,0,2,2,g_1_OKfEmvTu,4.74,3.76,1.81,0.9,2.14
+football,Ligue 1 2023 2024,Round 34,20/05/,Monaco,Nantes,4,0,0,g_1_tnl8UGSH,1.53,5.13,5.55,1.34,0.67
+football,Ligue 1 2023 2024,Round 34,20/05/,Reims,Rennes,2,1,0,g_1_fVodXIra,3.16,3.48,2.34,1.26,1.2
+football,Ligue 1 2023 2024,Round 34,20/05/,Toulouse,Brest,0,3,2,g_1_C6diYbTh,3.14,3.65,2.28,0.0,0.0
+football,Ligue 1 2023 2024,Round 32,16/05/,Nice,PSG,1,2,2,g_1_QaTiUKED,2.14,3.78,3.34,1.34,0.76
+football,Ligue 1 2023 2024,Round 32,16/05/,Reims,Marseille,1,0,0,g_1_v3HZh4iE,4.23,3.85,1.87,0.9,1.51
+football,Ligue 1 2023 2024,Round 33,13/05/,Clermont,Lyon,0,1,2,g_1_UgsuZ3Hu,5.29,4.31,1.64,1.16,0.31
+football,Ligue 1 2023 2024,Round 33,13/05/,Marseille,Lorient,3,1,0,g_1_EqlVsvqD,1.49,4.47,7.44,3.19,1.28
+football,Ligue 1 2023 2024,Round 33,13/05/,Montpellier,Monaco,0,2,2,g_1_27umXsnh,4.49,4.49,1.71,0.82,1.95
+football,Ligue 1 2023 2024,Round 33,13/05/,Nantes,Lille,1,2,2,g_1_8ptqYNWo,5.26,3.87,1.72,0.72,1.47
+football,Ligue 1 2023 2024,Round 33,13/05/,PSG,Toulouse,1,3,2,g_1_OfeIptaf,0.0,0.0,0.0,1.77,1.52
+football,Ligue 1 2023 2024,Round 33,13/05/,Rennes,Lens,1,1,1,g_1_KMlRrKT6,2.3,3.69,3.07,1.39,0.48
+football,Ligue 1 2023 2024,Round 33,13/05/,Strasbourg,Metz,2,1,0,g_1_6JpNq0E0,2.17,3.71,3.35,1.14,0.91
+football,Ligue 1 2023 2024,Round 33,11/05/,Brest,Reims,1,1,1,g_1_0hbjW11b,1.66,4.4,5.43,1.23,0.5
+football,Ligue 1 2023 2024,Round 33,11/05/,Nice,Le Havre,1,0,0,g_1_hzmZtbbJ,1.58,4.07,6.61,1.38,0.34
+football,Ligue 1 2023 2024,Round 32,07/05/,Lille,Lyon,3,4,2,g_1_n9UmV0a7,2.06,3.85,3.49,0.93,2.44
+football,Ligue 1 2023 2024,Round 32,05/05/,Brest,Nantes,0,0,1,g_1_p4dEoMql,1.74,3.69,5.38,0.4,1.4
+football,Ligue 1 2023 2024,Round 32,05/05/,Metz,Rennes,2,3,2,g_1_xvcAn2Us,3.96,3.69,1.97,0.61,1.96
+football,Ligue 1 2023 2024,Round 32,05/05/,Monaco,Clermont,4,1,0,g_1_UXZrWtp1,1.33,6.69,7.72,3.14,1.32
+football,Ligue 1 2023 2024,Round 32,04/05/,Le Havre,Strasbourg,3,1,0,g_1_zVArirMQ,2.53,3.3,3.01,1.83,0.66
+football,Ligue 1 2023 2024,Round 32,04/05/,Lens,Lorient,2,0,0,g_1_h6LwhO6K,1.46,5.07,6.8,2.04,0.56
+football,Ligue 1 2023 2024,Round 32,04/05/,Toulouse,Montpellier,1,2,2,g_1_jsyuXMUf,2.07,3.87,3.67,1.51,0.37
+football,Ligue 1 2023 2024,Round 31,29/04/,Marseille,Lens,2,1,0,g_1_hnghtR78,2.26,3.77,3.25,1.57,0.97
+football,Ligue 1 2023 2024,Round 31,29/04/,Lyon,Monaco,3,2,0,g_1_0Cd0v5xL,2.35,4.08,2.78,2.51,1.7
+football,Ligue 1 2023 2024,Round 31,29/04/,Rennes,Brest,4,5,2,g_1_jsF9HsV7,2.2,3.38,3.58,2.34,1.84
+football,Ligue 1 2023 2024,Round 31,28/04/,Clermont,Reims,4,1,0,g_1_v3e4wPiR,3.45,3.8,2.09,3.1,0.69
+football,Ligue 1 2023 2024,Round 31,28/04/,Lorient,Toulouse,1,2,2,g_1_WxhduoNE,2.44,3.62,2.91,1.61,1.81
+football,Ligue 1 2023 2024,Round 31,28/04/,Strasbourg,Nice,1,3,2,g_1_xvB5INF1,3.61,3.4,2.18,0.65,1.61
+football,Ligue 1 2023 2024,Round 31,28/04/,Metz,Lille,1,2,2,g_1_ppYWYr0r,6.03,4.07,1.62,0.97,0.63
+football,Ligue 1 2023 2024,Round 31,28/04/,PSG,Le Havre,3,3,1,g_1_rHB1J30e,1.36,6.21,7.55,2.97,1.04
+football,Ligue 1 2023 2024,Round 31,27/04/,Montpellier2,Nantes,1,1,1,g_1_dKyyY2Fl,2.1,3.61,3.61,0.69,1.3
+football,Ligue 1 2023 2024,Round 29,25/04/,Marseille,Nice,2,2,1,g_1_bkwuGUg3,2.18,3.34,3.65,1.75,1.3
+football,Ligue 1 2023 2024,Round 29,25/04/,Monaco,Lille,1,0,0,g_1_W2ymE8OF,2.42,3.85,2.79,1.75,0.99
+football,Ligue 1 2023 2024,Round 29,25/04/,Lorient,PSG,1,4,2,g_1_hCxqFl99,6.5,4.92,1.49,0.95,1.5
+football,Ligue 1 2023 2024,Round 30,22/04/,PSG,Lyon,4,1,0,g_1_v9AW5pWe,1.59,4.91,5.06,2.29,0.83
+football,Ligue 1 2023 2024,Round 30,22/04/,Toulouse,Marseille,2,2,1,g_1_Ia9z54o2,2.78,3.34,2.7,0.54,0.94
+football,Ligue 1 2023 2024,Round 30,22/04/,Brest,Monaco2,0,2,2,g_1_4QCcKqok,2.73,3.57,2.6,0.59,0.96
+football,Ligue 1 2023 2024,Round 30,21/04/,Le Havre,Metz,0,1,2,g_1_x4t1LPVr,0.0,0.0,0.0,0.61,0.93
+football,Ligue 1 2023 2024,Round 30,21/04/,Lille,Strasbourg,1,0,0,g_1_6F2ITmO2,1.61,4.07,6.06,0.9,1.06
+football,Ligue 1 2023 2024,Round 30,21/04/,Reims,Montpellier,1,2,2,g_1_SUjRRRhF,2.25,3.84,3.07,1.45,0.91
+football,Ligue 1 2023 2024,Round 30,21/04/,Lens,Clermont,1,0,0,g_1_tYfVQo8L,1.43,4.6,8.96,1.82,0.65
+football,Ligue 1 2023 2024,Round 30,21/04/,Nantes,Rennes,0,3,2,g_1_zefZP5NR,3.18,3.34,2.41,0.17,2.29
+football,Ligue 1 2023 2024,Round 30,20/04/,Nice,Lorient,3,0,0,g_1_p61MS7w9,1.58,4.41,5.93,2.45,0.45
+football,Ligue 1 2023 2024,Round 29,15/04/,Lyon,Brest,4,3,0,g_1_lvWiDSwM,2.05,3.46,3.95,1.86,1.76
+football,Ligue 1 2023 2024,Round 29,14/04/,Clermont,Montpellier,1,1,1,g_1_SUUeCngS,3.38,3.68,2.16,1.2,1.2
+football,Ligue 1 2023 2024,Round 29,14/04/,Le Havre,Nantes,0,1,2,g_1_pAHN761q,2.52,2.97,3.37,0.99,0.61
+football,Ligue 1 2023 2024,Round 29,14/04/,Rennes,Toulouse,1,2,2,g_1_pnZzHAvc,1.82,3.69,4.75,0.83,0.6
+football,Ligue 1 2023 2024,Round 29,14/04/,Strasbourg,Reims,3,1,0,g_1_rsehhR1d,2.56,3.46,2.85,2.41,0.41
+football,Ligue 1 2023 2024,Round 29,13/04/,Metz,Lens,2,1,0,g_1_dpLR6QGk,5.95,4.09,1.62,0.78,1.57
+football,Ligue 1 2023 2024,Round 28,08/04/,Nantes,Lyon,1,3,2,g_1_K0ZGBF2H,3.71,3.38,2.15,1.16,1.8
+football,Ligue 1 2023 2024,Round 28,08/04/,Monaco,Rennes,1,0,0,g_1_jLs0Fc3h,1.78,4.32,4.24,1.79,1.24
+football,Ligue 1 2023 2024,Round 28,07/04/,Montpellier,Lorient,2,0,0,g_1_dQdpfmXq,1.85,4.1,4.1,2.33,1.09
+football,Ligue 1 2023 2024,Round 28,07/04/,Reims,Nice,0,0,1,g_1_OYu8DyY4,2.9,3.18,2.69,0.5,2.33
+football,Ligue 1 2023 2024,Round 28,07/04/,Toulouse,Strasbourg,0,0,1,g_1_YqmeGwln,2.16,3.58,3.48,0.78,0.48
+football,Ligue 1 2023 2024,Round 28,07/04/,Brest,Metz,4,3,0,g_1_4jdlg7nj,1.51,4.27,7.33,3.37,1.68
+football,Ligue 1 2023 2024,Round 28,07/04/,PSG,Clermont,1,1,1,g_1_fgliHJYu,1.32,5.88,9.69,2.72,0.28
+football,Ligue 1 2023 2024,Round 28,07/04/,Lens,Le Havre,1,1,1,g_1_xxpCCemB,1.51,4.27,7.33,0.76,1.69
+football,Ligue 1 2023 2024,Round 28,06/04/,Lille,Marseille,3,1,0,g_1_UBt4EHIb,2.0,3.6,3.95,1.33,0.83
+football,Ligue 1 2023 2024,Round 27,01/04/,Marseille,PSG,0,2,2,g_1_fu9I2KJn,3.89,3.85,1.95,1.2,2.14
+football,Ligue 1 2023 2024,Round 27,01/04/,Strasbourg,Rennes,2,0,0,g_1_0I9E304t,3.26,3.57,2.25,2.58,0.92
+football,Ligue 1 2023 2024,Round 27,31/03/,Clermont,Toulouse,0,3,2,g_1_xO4wbdYH,3.92,3.65,1.99,0.6,1.82
+football,Ligue 1 2023 2024,Round 27,31/03/,Le Havre,Montpellier,0,2,2,g_1_KnfrcGmO,2.74,3.3,2.74,1.0,1.95
+football,Ligue 1 2023 2024,Round 27,31/03/,Nice,Nantes,1,2,2,g_1_bX5ZbxJB,1.82,3.46,5.25,1.28,1.53
+football,Ligue 1 2023 2024,Round 27,31/03/,Lorient,Brest,0,1,2,g_1_8rDM1vZh,4.22,3.26,2.05,1.04,0.48
+football,Ligue 1 2023 2024,Round 27,31/03/,Lyon,Reims,1,1,1,g_1_Uc1VaI35,2.04,3.64,3.76,1.65,1.46
+football,Ligue 1 2023 2024,Round 27,31/03/,Metz,Monaco,2,5,2,g_1_IXCodz3U,5.29,4.31,1.64,1.75,2.1
+football,Ligue 1 2023 2024,Round 27,30/03/,Lille,Lens,2,1,0,g_1_j72R0bla,2.15,3.31,3.78,1.84,0.71
+football,Ligue 1 2023 2024,Round 26,18/03/,Montpellier,PSG,2,6,2,g_1_bHHBqcJO,6.91,4.87,1.47,2.5,1.61
+football,Ligue 1 2023 2024,Round 26,18/03/,Rennes,Marseille,2,0,0,g_1_rLNrjszs,2.66,3.45,2.74,1.45,0.86
+football,Ligue 1 2023 2024,Round 26,17/03/,Clermont,Le Havre,2,1,0,g_1_UyQfmuKa,2.9,3.32,2.61,1.17,1.25
+football,Ligue 1 2023 2024,Round 26,17/03/,Monaco,Lorient,2,2,1,g_1_joRjlL4g,1.4,5.64,8.2,2.74,0.6
+football,Ligue 1 2023 2024,Round 26,17/03/,Reims,Metz,2,1,0,g_1_C0FanaZ5,1.76,3.81,4.98,2.13,0.65
+football,Ligue 1 2023 2024,Round 26,17/03/,Brest,Lille,1,1,1,g_1_b9Nn8tdP,2.64,3.08,3.07,0.84,0.83
+football,Ligue 1 2023 2024,Round 26,17/03/,Lens,Nice,1,3,2,g_1_Q3J3oJlC,1.98,3.56,4.07,0.91,1.97
+football,Ligue 1 2023 2024,Round 26,17/03/,Nantes,Strasbourg,1,3,2,g_1_KQI7pw4I,2.02,3.37,4.21,0.87,1.84
+football,Ligue 1 2023 2024,Round 26,16/03/,Toulouse,Lyon,2,3,2,g_1_MBMnk1km,2.88,3.29,2.64,2.38,1.26
+football,Ligue 1 2023 2024,Round 25,11/03/,Marseille,Nantes,2,0,0,g_1_rL1Dz2zf,1.53,4.11,7.45,1.54,0.94
+football,Ligue 1 2023 2024,Round 25,11/03/,Lille,Rennes,2,2,1,g_1_GYaLYu56,1.96,3.49,4.3,2.42,1.32
+football,Ligue 1 2023 2024,Round 25,10/03/,Le Havre,Toulouse,1,0,0,g_1_Q3sCe3CJ,3.15,3.06,2.58,1.02,0.27
+football,Ligue 1 2023 2024,Round 25,10/03/,Metz,Clermont,1,0,0,g_1_xvoGfNRP,2.16,3.38,3.69,1.31,0.69
+football,Ligue 1 2023 2024,Round 25,10/03/,Strasbourg,Monaco,0,1,2,g_1_UHc9yrLm,3.51,3.85,2.06,0.37,1.16
+football,Ligue 1 2023 2024,Round 25,10/03/,PSG,Reims,2,2,1,g_1_ng84xO5s,1.5,4.81,6.29,1.28,1.42
+football,Ligue 1 2023 2024,Round 25,10/03/,Lens,Brest,1,0,0,g_1_C0gUWJZI,2.14,3.24,3.92,0.84,0.71
+football,Ligue 1 2023 2024,Round 25,10/03/,Lorient,Lyon,0,2,2,g_1_xr1HZLk0,3.66,3.45,2.14,0.06,0.64
+football,Ligue 1 2023 2024,Round 25,09/03/,Nice,Montpellier,1,2,2,g_1_Y9fQXaKC,1.78,3.86,4.8,1.04,1.17
+football,Ligue 1 2023 2024,Round 24,04/03/,Lyon,Lens,0,3,2,g_1_2mRvM2L0,2.54,3.37,2.94,2.3,3.25
+football,Ligue 1 2023 2024,Round 24,04/03/,Rennes,Lorient,1,2,2,g_1_SUYRO4yr,1.52,4.42,6.83,1.14,1.84
+football,Ligue 1 2023 2024,Round 24,03/03/,Brest,Le Havre,1,0,0,g_1_ppMxs4cQ,1.6,3.84,6.91,0.92,0.61
+football,Ligue 1 2023 2024,Round 24,03/03/,Montpellier,Strasbourg,2,2,1,g_1_j97ZsprK,2.06,3.65,3.69,1.22,1.73
+football,Ligue 1 2023 2024,Round 24,03/03/,Nantes,Metz,0,2,2,g_1_CI8VrQSD,1.86,3.45,4.96,1.03,1.86
+football,Ligue 1 2023 2024,Round 24,03/03/,Toulouse,Nice,2,1,0,g_1_6LXVNOjl,3.46,3.26,2.3,1.59,1.27
+football,Ligue 1 2023 2024,Round 24,03/03/,Clermont,Marseille,1,5,2,g_1_dAQrLMz7,5.5,4.27,1.63,0.7,2.54
+football,Ligue 1 2023 2024,Round 24,03/03/,Reims,Lille,0,1,2,g_1_ADUnKtjD,3.06,3.48,2.4,0.69,1.03
+football,Ligue 1 2023 2024,Round 24,02/03/,Monaco,PSG,0,0,1,g_1_OdSzNr6f,3.49,4.1,2.0,1.57,1.6
+football,Ligue 1 2023 2024,Round 23,26/02/,Marseille,Montpellier,4,1,0,g_1_zwRaLVUk,1.71,4.07,4.98,2.21,0.74
+football,Ligue 1 2023 2024,Round 23,26/02/,PSG,Rennes,1,1,1,g_1_MVpPRXiM,1.35,5.6,8.92,1.96,0.78
+football,Ligue 1 2023 2024,Round 23,25/02/,Le Havre,Reims,1,2,2,g_1_Ob7fsDi9,3.37,3.47,2.25,1.92,3.71
+football,Ligue 1 2023 2024,Round 23,25/02/,Nice,Clermont,0,0,1,g_1_2qJoqZMd,1.44,4.87,7.7,1.86,2.14
+football,Ligue 1 2023 2024,Round 23,25/02/,Toulouse,Lille,3,1,0,g_1_hEyeMBFq,4.14,3.52,1.98,2.38,0.61
+football,Ligue 1 2023 2024,Round 23,25/02/,Lens,Monaco,2,3,2,g_1_tzIkrgx3,2.35,3.58,3.07,2.39,2.28
+football,Ligue 1 2023 2024,Round 23,25/02/,Strasbourg,Brest,0,3,2,g_1_GhpTQi7S,2.85,3.18,2.74,0.21,2.27
+football,Ligue 1 2023 2024,Round 23,25/02/,Lorient,Nantes,0,1,2,g_1_ETP3Kkpd,2.96,3.15,2.66,0.54,0.57
+football,Ligue 1 2023 2024,Round 23,24/02/,Metz,Lyon,1,2,2,g_1_zZAbtX6F,4.08,3.64,1.96,1.56,1.47
+football,Ligue 1 2023 2024,Round 22,19/02/,Brest,Marseille,1,0,0,g_1_runLSDxG,2.5,3.17,3.17,1.48,0.51
+football,Ligue 1 2023 2024,Round 22,19/02/,Reims,Lens,1,1,1,g_1_UFWFVFhc,2.29,3.3,3.44,1.14,1.33
+football,Ligue 1 2023 2024,Round 22,18/02/,Monaco,Toulouse,1,2,2,g_1_Ym3ROqKp,1.62,4.07,6.03,1.65,1.15
+football,Ligue 1 2023 2024,Round 22,18/02/,Montpellier,Metz,3,0,0,g_1_2TUNTgN9,1.66,4.06,5.52,3.19,1.39
+football,Ligue 1 2023 2024,Round 22,18/02/,Rennes,Clermont,3,1,0,g_1_tdBaTPBT,1.62,4.07,6.03,4.04,0.89
+football,Ligue 1 2023 2024,Round 22,18/02/,Strasbourg,Lorient,1,3,2,g_1_25CeU5dN,1.74,3.84,5.12,1.69,1.97
+football,Ligue 1 2023 2024,Round 22,18/02/,Nantes,PSG,0,2,2,g_1_OxWJUZ73,7.56,4.47,1.48,1.57,1.78
+football,Ligue 1 2023 2024,Round 22,18/02/,Lille,Le Havre,3,0,0,g_1_Cv2VN3Zj,1.5,4.37,7.28,3.87,0.63
+football,Ligue 1 2023 2024,Round 22,17/02/,Lyon,Nice,1,0,0,g_1_GCSBWewi,2.76,3.27,2.76,1.12,0.84
+football,Ligue 1 2023 2024,Round 21,12/02/,Nice,Monaco,2,3,2,g_1_W6BzZTsh,2.37,3.31,3.26,2.44,2.17
+football,Ligue 1 2023 2024,Round 21,12/02/,Montpellier,Lyon,1,2,2,g_1_KtNjVosH,2.97,3.39,2.5,1.53,1.24
+football,Ligue 1 2023 2024,Round 21,11/02/,Clermont,Brest,1,1,1,g_1_lr6uYmcb,3.99,3.38,2.06,0.93,0.83
+football,Ligue 1 2023 2024,Round 21,11/02/,Lorient,Reims,2,0,0,g_1_hGCWZ9So,4.41,3.82,1.85,1.93,1.13
+football,Ligue 1 2023 2024,Round 21,11/02/,Toulouse,Nantes,1,2,2,g_1_2iXMF6sU,2.07,3.5,3.81,0.97,0.34
+football,Ligue 1 2023 2024,Round 21,11/02/,Le Havre,Rennes,0,1,2,g_1_Me4mWRRA,3.81,3.46,2.09,0.85,0.58
+football,Ligue 1 2023 2024,Round 21,11/02/,PSG,Lille,3,1,0,g_1_KSsIGnSN,1.76,3.89,4.86,2.69,1.35
+football,Ligue 1 2023 2024,Round 21,11/02/,Lens,Strasbourg,3,1,0,g_1_SY4qX7C4,1.73,4.06,5.23,1.34,1.52
+football,Ligue 1 2023 2024,Round 21,10/02/,Marseille,Metz,1,1,1,g_1_vDOlBQko,1.43,4.87,7.94,2.25,0.81
+football,Ligue 1 2023 2024,Round 20,05/02/,Lyon,Marseille,1,0,0,g_1_bgicLADh,2.83,3.44,2.58,1.32,0.29
+football,Ligue 1 2023 2024,Round 20,05/02/,Brest,Nice,0,0,1,g_1_txqEHSCH,2.85,3.05,2.85,0.83,0.63
+football,Ligue 1 2023 2024,Round 20,04/02/,Lille,Clermont,4,0,0,g_1_4WigMjbn,1.45,4.87,7.47,2.38,0.54
+football,Ligue 1 2023 2024,Round 20,04/02/,Metz,Lorient,1,2,2,g_1_YBqAI8cB,2.09,3.26,4.07,0.87,0.97
+football,Ligue 1 2023 2024,Round 20,04/02/,Reims,Toulouse,2,3,2,g_1_Cde1KUSb,1.88,3.49,4.76,2.19,1.37
+football,Ligue 1 2023 2024,Round 20,04/02/,Monaco,Le Havre,1,1,1,g_1_QugkNWrt,1.6,4.11,6.13,1.49,0.09
+football,Ligue 1 2023 2024,Round 20,04/02/,Nantes,Lens,0,1,2,g_1_fLp6Jlr5,3.83,3.5,2.06,0.45,1.73
+football,Ligue 1 2023 2024,Round 20,04/02/,Rennes,Montpellier,2,1,0,g_1_Q5Mr2mDU,1.55,4.25,6.58,2.06,1.14
+football,Ligue 1 2023 2024,Round 20,03/02/,Strasbourg,PSG,1,2,2,g_1_nFNv3TcO,5.89,4.58,1.56,2.24,1.96
+football,Ligue 1 2023 2024,Round 19,29/01/,PSG,Brest,2,2,1,g_1_4YMa2d7D,1.46,5.14,6.63,1.96,1.01
+football,Ligue 1 2023 2024,Round 19,29/01/,Toulouse,Lens,0,2,2,g_1_IyBsRupE,3.72,3.7,2.03,1.79,0.9
+football,Ligue 1 2023 2024,Round 19,28/01/,Clermont,Strasbourg,1,1,1,g_1_bgVR5VD5,3.28,3.38,2.33,1.17,1.22
+football,Ligue 1 2023 2024,Round 19,28/01/,Lorient,Le Havre,3,3,1,g_1_CxTF8XTn,3.34,3.14,2.42,1.03,1.42
+football,Ligue 1 2023 2024,Round 19,28/01/,Reims,Nantes,0,0,1,g_1_tIKW4kTB,0.0,0.0,0.0,1.27,1.28
+football,Ligue 1 2023 2024,Round 19,28/01/,Montpellier,Lille,0,0,1,g_1_hhOz49rI,4.15,3.49,1.99,0.75,0.68
+football,Ligue 1 2023 2024,Round 19,28/01/,Marseille,Monaco2,2,2,1,g_1_UDwB9DEt,2.46,3.71,2.95,1.91,0.39
+football,Ligue 1 2023 2024,Round 19,28/01/,Nice,Metz,1,0,0,g_1_K2WN6Bba,1.47,4.27,8.64,2.36,0.09
+football,Ligue 1 2023 2024,Round 19,27/01/,Lyon,Rennes,2,3,2,g_1_jTRJ7iqg,2.41,3.49,3.03,1.05,0.85
+football,Ligue 1 2023 2024,Round 18,15/01/,Lens,PSG,0,2,2,g_1_C4km7Khr,3.79,4.1,1.91,2.64,1.38
+football,Ligue 1 2023 2024,Round 18,15/01/,Le Havre,Lyon2,3,1,0,g_1_KUhe5bNf,3.43,3.19,2.34,0.9,0.69
+football,Ligue 1 2023 2024,Round 18,14/01/,Brest,Montpellier,2,0,0,g_1_QsOe3xh7,1.78,3.8,4.85,2.8,0.49
+football,Ligue 1 2023 2024,Round 18,14/01/,Metz,Toulouse,0,1,2,g_1_bLia4Ix1,3.14,3.29,2.45,0.8,1.05
+football,Ligue 1 2023 2024,Round 18,14/01/,Nantes,Clermont,1,2,2,g_1_Q7gi6v8l,1.91,3.72,4.18,1.8,1.07
+football,Ligue 1 2023 2024,Round 18,14/01/,Lille,Lorient,3,0,0,g_1_6NCKB0pR,1.3,6.06,10.1,2.91,0.14
+football,Ligue 1 2023 2024,Round 18,14/01/,Rennes,Nice,2,0,0,g_1_K6A8E208,2.48,3.34,3.04,2.15,0.67
+football,Ligue 1 2023 2024,Round 18,14/01/,Monaco,Reims,1,3,2,g_1_SWDGCtVK,1.72,4.11,4.89,1.16,1.27
+football,Ligue 1 2023 2024,Round 18,13/01/,Marseille,Strasbourg,1,1,1,g_1_bc9CDMFE,1.64,4.1,5.64,1.39,0.95
+football,Ligue 1 2023 2024,Round 17,21/12/,Brest,Lorient,4,0,0,g_1_I1WPkJN7,1.73,3.84,5.26,1.93,0.22
+football,Ligue 1 2023 2024,Round 17,21/12/,Clermont,Rennes,1,3,2,g_1_YDUDhLwk,3.16,3.31,2.42,0.57,1.97
+football,Ligue 1 2023 2024,Round 17,21/12/,Lyon,Nantes,1,0,0,g_1_ETmsbsGR,1.9,3.72,4.22,1.79,0.52
+football,Ligue 1 2023 2024,Round 17,21/12/,Montpellier,Marseille,1,1,1,g_1_6RSLja81,4.04,3.63,1.97,1.17,1.22
+football,Ligue 1 2023 2024,Round 17,21/12/,Nice,Lens,2,0,0,g_1_Gxz9g1Or,2.21,3.33,3.59,2.69,0.49
+football,Ligue 1 2023 2024,Round 17,21/12/,PSG,Metz,3,1,0,g_1_OveU0qW8,1.14,9.1,22.0,2.04,0.12
+football,Ligue 1 2023 2024,Round 17,21/12/,Reims,Le Havre,1,0,0,g_1_C4THiuge,1.77,3.88,4.85,0.92,0.23
+football,Ligue 1 2023 2024,Round 17,21/12/,Strasbourg,Lille,2,1,0,g_1_63pZa3oF,3.7,3.5,2.11,0.7,0.72
+football,Ligue 1 2023 2024,Round 17,21/12/,Toulouse,Monaco,1,2,2,g_1_K6lwaN0L,3.85,4.1,1.9,1.49,2.11
+football,Ligue 1 2023 2024,Round 16,18/12/,Lille,PSG,1,1,1,g_1_rPFVurfq,4.51,3.9,1.81,1.29,1.53
+football,Ligue 1 2023 2024,Round 16,18/12/,Marseille,Clermont,2,1,0,g_1_UHZfnpHF,1.48,4.65,7.15,2.31,0.18
+football,Ligue 1 2023 2024,Round 16,17/12/,Lorient,Strasbourg,1,2,2,g_1_ngUao4WL,2.45,3.26,3.17,0.82,0.89
+football,Ligue 1 2023 2024,Round 16,17/12/,Metz,Montpellier,0,1,2,g_1_pldQ1PG2,3.38,3.33,2.3,0.71,0.6
+football,Ligue 1 2023 2024,Round 16,17/12/,Toulouse,Rennes,0,0,1,g_1_jRzimQ19,3.47,3.46,2.2,0.74,0.74
+football,Ligue 1 2023 2024,Round 16,17/12/,Nantes,Brest,0,2,2,g_1_vi9vvMOe,2.64,3.16,2.98,0.94,1.69
+football,Ligue 1 2023 2024,Round 16,17/12/,Lens,Reims,2,0,0,g_1_dSJZv29k,2.25,3.39,3.43,0.95,1.01
+football,Ligue 1 2023 2024,Round 16,17/12/,Le Havre,Nice,3,1,0,g_1_Is8rwtv2,4.37,3.09,2.09,1.92,1.67
+football,Ligue 1 2023 2024,Round 16,16/12/,Monaco,Lyon,0,1,2,g_1_QqT3pOoS,1.78,4.05,4.52,1.28,0.68
+football,Ligue 1 2023 2024,Round 15,11/12/,Lorient,Marseille,2,4,2,g_1_nukRW4HS,5.45,3.8,1.71,2.15,2.5
+football,Ligue 1 2023 2024,Round 15,11/12/,Lyon,Toulouse,3,0,0,g_1_llygSOPq,1.79,4.09,4.73,1.94,1.5
+football,Ligue 1 2023 2024,Round 15,10/12/,Clermont,Lille,0,0,1,g_1_dEv1Q2fd,4.73,3.59,1.85,1.06,0.9
+football,Ligue 1 2023 2024,Round 15,10/12/,Metz,Brest,0,1,2,g_1_bJIqknXd,3.65,3.25,2.23,0.19,0.25
+football,Ligue 1 2023 2024,Round 15,10/12/,Strasbourg,Le Havre,2,1,0,g_1_jDeIYQnG,2.3,3.12,3.64,1.08,1.65
+football,Ligue 1 2023 2024,Round 15,10/12/,Nice,Reims,2,1,0,g_1_INucRruj,1.94,3.49,4.36,0.79,1.03
+football,Ligue 1 2023 2024,Round 15,10/12/,PSG,Nantes,2,1,0,g_1_djdEZ6X9,1.3,6.17,9.95,2.05,0.69
+football,Ligue 1 2023 2024,Round 15,10/12/,Rennes,Monaco,1,2,2,g_1_4GaMXp2M,2.82,3.69,2.46,1.72,0.86
+football,Ligue 1 2023 2024,Round 15,09/12/,Montpellier,Lens,0,0,1,g_1_d4yml6n3,3.7,3.5,2.11,1.29,1.29
+football,Ligue 1 2023 2024,Round 12,08/12/,Brest,Strasbourg,1,1,1,g_1_UJKbMdcg,1.85,3.59,4.73,0.0,0.0
+football,Ligue 1 2023 2024,Round 10,07/12/,Marseille,Lyon,3,0,0,g_1_0noNeWX7,1.9,3.72,4.22,1.95,0.17
+football,Ligue 1 2023 2024,Round 14,04/12/,Marseille,Rennes,2,0,0,g_1_rTXpYgd5,1.91,3.84,4.03,0.93,0.4
+football,Ligue 1 2023 2024,Round 14,04/12/,Lille,Metz,2,0,0,g_1_jgygWXQH,1.45,4.6,8.2,3.15,1.87
+football,Ligue 1 2023 2024,Round 14,03/12/,Brest,Clermont,3,0,0,g_1_IacAzmI3,1.72,3.8,5.4,1.32,0.7
+football,Ligue 1 2023 2024,Round 14,03/12/,Monaco,Montpellier,2,0,0,g_1_C2xkXDBB,1.66,4.1,5.45,1.85,0.71
+football,Ligue 1 2023 2024,Round 14,03/12/,Toulouse,Lorient,1,1,1,g_1_4xZtZZta,1.96,3.38,4.44,0.99,0.65
+football,Ligue 1 2023 2024,Round 14,03/12/,Le Havre,PSG,0,2,2,g_1_xltDyT2c,9.42,5.1,1.37,1.65,1.36
+football,Ligue 1 2023 2024,Round 14,03/12/,Nantes,Nice,1,0,0,g_1_bcs9x9mi,4.08,3.28,2.08,1.08,0.82
+football,Ligue 1 2023 2024,Round 14,03/12/,Lens,Lyon,3,2,0,g_1_pfgRDPAj,1.79,3.84,4.72,1.96,2.7
+football,Ligue 1 2023 2024,Round 14,02/12/,Reims,Strasbourg,2,1,0,g_1_WjkNE5ep,1.78,3.84,4.78,1.73,2.1
+football,Ligue 1 2023 2024,Round 8,30/11/,Montpellier,Clermont,1,1,1,g_1_fTf8114T,1.85,3.69,4.58,2.44,0.37
+football,Ligue 1 2023 2024,Round 13,27/11/,Lyon,Lille,0,2,2,g_1_xjBJHYBO,3.1,3.5,2.38,2.28,1.58
+football,Ligue 1 2023 2024,Round 13,27/11/,Rennes,Reims,3,1,0,g_1_4xDBJfsC,2.18,3.7,3.3,0.96,0.22
+football,Ligue 1 2023 2024,Round 13,26/11/,Lorient,Metz,2,3,2,g_1_baCFIEdI,2.15,3.45,3.63,0.91,1.01
+football,Ligue 1 2023 2024,Round 13,26/11/,Montpellier,Brest,1,3,2,g_1_MDqxzGRh,2.21,3.38,3.54,1.61,1.24
+football,Ligue 1 2023 2024,Round 13,26/11/,Nantes,Le Havre,0,0,1,g_1_AwtYzdCn,1.94,3.31,4.7,1.54,0.22
+football,Ligue 1 2023 2024,Round 13,26/11/,Nice,Toulouse,1,0,0,g_1_E7f2tIlP,1.54,4.31,6.67,0.86,1.22
+football,Ligue 1 2023 2024,Round 13,26/11/,Strasbourg,Marseille,1,1,1,g_1_jZ87KzS5,4.34,3.67,1.9,1.17,1.73
+football,Ligue 1 2023 2024,Round 13,26/11/,Clermont,Lens,0,3,2,g_1_GGtUyxct,3.83,3.57,2.04,0.34,0.55
+football,Ligue 1 2023 2024,Round 13,25/11/,PSG,Monaco,5,2,0,g_1_8AJ2LGCa,1.48,5.27,6.66,2.4,1.36
+football,Ligue 1 2023 2024,Round 12,13/11/,Lens,Marseille,1,0,0,g_1_x8QKTv5J,2.46,3.47,2.98,1.6,1.25
+football,Ligue 1 2023 2024,Round 12,13/11/,Rennes,Lyon,0,1,2,g_1_lnpQ7cr0,1.81,4.06,4.32,0.8,1.54
+football,Ligue 1 2023 2024,Round 12,12/11/,Clermont,Lorient,1,0,0,g_1_pEwZ5yDC,2.25,3.37,3.47,1.25,0.21
+football,Ligue 1 2023 2024,Round 12,12/11/,Lille,Toulouse,1,1,1,g_1_SxqU6Hc6,1.58,4.41,5.86,2.62,0.14
+football,Ligue 1 2023 2024,Round 12,12/11/,Metz,Nantes,3,1,0,g_1_dh7iOISt,3.36,3.26,2.34,1.16,1.2
+football,Ligue 1 2023 2024,Round 12,12/11/,Le Havre,Monaco,0,0,1,g_1_jBUOSbKP,4.84,4.22,1.75,1.63,0.62
+football,Ligue 1 2023 2024,Round 12,12/11/,Reims,PSG,0,3,2,g_1_O4xw5eSI,5.17,4.3,1.66,1.22,1.73
+football,Ligue 1 2023 2024,Round 12,11/11/,Montpellier,Nice,0,0,1,g_1_zq6eNxrm,3.89,3.5,2.12,0.59,0.69
+football,Ligue 1 2023 2024,Round 11,06/11/,Nice,Rennes,2,0,0,g_1_rksI9JDm,2.16,3.48,3.78,1.61,0.8
+football,Ligue 1 2023 2024,Round 11,06/11/,Monaco,Brest,2,0,0,g_1_bH5oFujQ,1.78,3.85,4.81,0.77,0.81
+football,Ligue 1 2023 2024,Round 11,05/11/,Nantes,Reims,0,1,2,g_1_fPpM8wTg,2.87,3.33,2.62,1.37,1.14
+football,Ligue 1 2023 2024,Round 11,05/11/,Strasbourg,Clermont,0,0,1,g_1_YFXh9k27,2.34,3.26,3.36,0.72,0.8
+football,Ligue 1 2023 2024,Round 11,05/11/,Toulouse,Le Havre,1,2,2,g_1_nJyc89HD,2.0,3.49,4.1,1.8,0.98
+football,Ligue 1 2023 2024,Round 11,05/11/,Lyon,Metz,1,1,1,g_1_0QiDAabs,1.67,3.84,5.82,2.1,0.66
+football,Ligue 1 2023 2024,Round 11,05/11/,Marseille,Lille,0,0,1,g_1_ji2wH1LD,1.95,3.67,4.08,0.68,0.28
+football,Ligue 1 2023 2024,Round 11,05/11/,Lorient,Lens,0,0,1,g_1_Us1sGLzK,4.85,3.65,1.82,0.44,0.68
+football,Ligue 1 2023 2024,Round 11,04/11/,PSG,Montpellier,3,0,0,g_1_vgYlAVn1,1.26,7.22,11.6,1.39,0.42
+football,Ligue 1 2023 2024,Round 10,30/10/,Rennes,Strasbourg,1,1,1,g_1_MenJdCI1,1.52,4.55,6.57,1.06,0.9
+football,Ligue 1 2023 2024,Round 10,29/10/,Lille,Monaco,2,0,0,g_1_l2v5KFA8,2.58,3.71,2.68,0.63,0.7
+football,Ligue 1 2023 2024,Round 10,29/10/,Metz,Le Havre,0,0,1,g_1_t0JqDX2r,3.03,3.16,2.6,0.54,0.59
+football,Ligue 1 2023 2024,Round 10,29/10/,Montpellier,Toulouse,3,0,0,g_1_KjImCiIl,1.86,3.86,4.26,2.88,1.03
+football,Ligue 1 2023 2024,Round 10,29/10/,Brest,PSG,2,3,2,g_1_02ZpBBXf,6.29,4.41,1.55,1.46,1.86
+football,Ligue 1 2023 2024,Round 10,29/10/,Lens,Nantes,4,0,0,g_1_OKWHHDfR,1.69,4.31,4.84,1.81,1.02
+football,Ligue 1 2023 2024,Round 10,29/10/,Reims,Lorient,1,0,0,g_1_AHSDIguL,1.81,4.08,4.33,0.66,0.42
+football,Ligue 1 2023 2024,Round 10,28/10/,Clermont,Nice,0,1,2,g_1_Shw9JZPE,4.36,3.43,2.02,0.0,0.0
+football,Ligue 1 2023 2024,Round 9,23/10/,Lyon,Clermont,1,2,2,g_1_AaHwHt4G,1.89,3.6,4.47,1.3,0.87
+football,Ligue 1 2023 2024,Round 9,23/10/,Monaco,Metz,2,1,0,g_1_EXNUI2Z3,1.34,5.6,9.21,1.62,0.97
+football,Ligue 1 2023 2024,Round 9,22/10/,Lille,Brest,1,0,0,g_1_hOMYHMlA,1.85,3.49,4.91,1.89,0.54
+football,Ligue 1 2023 2024,Round 9,22/10/,Nantes,Montpellier,2,0,0,g_1_tnvBbYmk,2.99,3.57,2.41,1.57,0.52
+football,Ligue 1 2023 2024,Round 9,22/10/,Toulouse,Reims,1,1,1,g_1_67KMKO4i,2.89,3.52,2.5,0.5,1.23
+football,Ligue 1 2023 2024,Round 9,22/10/,Lorient,Rennes,2,1,0,g_1_KAOQJrKc,3.92,3.9,1.93,0.51,1.21
+football,Ligue 1 2023 2024,Round 9,22/10/,Nice,Marseille,1,0,0,g_1_nPv7aEYr,2.25,3.39,3.43,0.71,0.91
+football,Ligue 1 2023 2024,Round 9,22/10/,PSG,Strasbourg,3,0,0,g_1_42tvduSj,1.22,7.49,12.8,2.02,0.28
+football,Ligue 1 2023 2024,Round 9,21/10/,Le Havre,Lens,0,0,1,g_1_vXdEch3e,4.73,3.59,1.85,1.5,1.55
+football,Ligue 1 2023 2024,Round 8,09/10/,Rennes,PSG,1,3,2,g_1_UL9r75zh,4.59,3.88,1.8,1.14,3.42
+football,Ligue 1 2023 2024,Round 8,09/10/,Lens,Lille,1,1,1,g_1_YD6a3NZG,2.33,3.49,3.18,2.24,1.55
+football,Ligue 1 2023 2024,Round 8,08/10/,Brest,Toulouse,1,1,1,g_1_QBszcLCp,1.76,3.95,5.18,1.72,1.02
+football,Ligue 1 2023 2024,Round 8,08/10/,Lyon,Lorient,3,3,1,g_1_Qm3i5q54,1.81,4.16,4.52,1.34,1.14
+football,Ligue 1 2023 2024,Round 8,08/10/,Marseille,Le Havre,3,0,0,g_1_nc4m6Pkb,1.48,4.65,7.15,3.06,0.16
+football,Ligue 1 2023 2024,Round 8,08/10/,Reims,Monaco,1,3,2,g_1_KA2e43KA,2.92,3.84,2.34,2.03,1.1
+football,Ligue 1 2023 2024,Round 8,08/10/,Metz,Nice,0,1,2,g_1_Gxd42skN,5.78,4.09,1.63,0.26,1.08
+football,Ligue 1 2023 2024,Round 8,07/10/,Strasbourg,Nantes,1,2,2,g_1_jVAv8oLo,2.38,3.36,3.21,0.62,2.5
+football,Ligue 1 2023 2024,Round 7,02/10/,Rennes,Nantes,3,1,0,g_1_xSp5gn6h,1.71,4.06,5.03,2.54,0.96
+football,Ligue 1 2023 2024,Round 7,02/10/,Lorient,Montpellier,0,3,2,g_1_YgvEiQz5,3.08,3.46,2.4,0.77,2.55
+football,Ligue 1 2023 2024,Round 7,01/10/,Le Havre,Lille,0,2,2,g_1_xSMdq2ro,4.9,3.69,1.8,0.86,1.1
+football,Ligue 1 2023 2024,Round 7,01/10/,Nice,Brest,0,0,1,g_1_tKsMk45H,1.78,3.95,4.65,0.99,0.18
+football,Ligue 1 2023 2024,Round 7,01/10/,Toulouse,Metz,3,0,0,g_1_jVl9h6Lb,1.96,3.69,4.02,1.47,0.49
+football,Ligue 1 2023 2024,Round 7,01/10/,Reims,Lyon,2,0,0,g_1_2ZVUmrzU,2.01,3.88,3.62,1.97,0.61
+football,Ligue 1 2023 2024,Round 7,01/10/,Monaco,Marseille,3,2,0,g_1_CpwIjpjB,2.32,3.87,2.93,1.05,1.03
+football,Ligue 1 2023 2024,Round 7,01/10/,Clermont,PSG,0,0,1,g_1_KAtQlOKN,7.83,4.94,1.43,0.91,2.46
+football,Ligue 1 2023 2024,Round 7,30/09/,Strasbourg,Lens,0,1,2,g_1_r5o1fSjn,3.91,3.52,2.04,0.32,0.77
+football,Ligue 1 2023 2024,Round 6,27/09/,Lille,Reims,1,2,2,g_1_nNmvumia,1.89,3.88,4.09,0.96,0.57
+football,Ligue 1 2023 2024,Round 6,25/09/,PSG,Marseille,4,0,0,g_1_vcpWt9Mn,1.53,4.79,6.56,1.54,0.66
+football,Ligue 1 2023 2024,Round 6,25/09/,Montpellier,Rennes,0,0,1,g_1_fgvazP5U,2.94,3.58,2.43,1.54,1.0
+football,Ligue 1 2023 2024,Round 6,24/09/,Le Havre,Clermont,2,1,0,g_1_MutixoyI,2.41,3.2,3.3,1.15,0.54
+football,Ligue 1 2023 2024,Round 6,24/09/,Lens,Toulouse,2,1,0,g_1_QDnrv765,1.47,4.58,7.48,2.46,0.38
+football,Ligue 1 2023 2024,Round 6,24/09/,Metz,Strasbourg,0,1,2,g_1_G2uey5jO,2.79,3.29,2.71,0.92,0.47
+football,Ligue 1 2023 2024,Round 6,24/09/,Brest,Lyon,1,0,0,g_1_4Ence8yt,2.89,3.41,2.56,2.02,0.33
+football,Ligue 1 2023 2024,Round 6,24/09/,Nantes,Lorient,5,3,0,g_1_8xxmwRLB,2.22,3.39,3.5,2.29,1.53
+football,Ligue 1 2023 2024,Round 6,23/09/,Monaco,Nice,0,1,2,g_1_ImqztTyg,2.28,3.69,3.12,2.06,1.16
+football,Ligue 1 2023 2024,Round 5,18/09/,Lyon,Le Havre,0,0,1,g_1_4lHuuOm6,1.68,4.11,5.2,1.23,0.92
+football,Ligue 1 2023 2024,Round 5,18/09/,Marseille,Toulouse,0,0,1,g_1_hAcz15AP,1.45,5.07,7.02,1.38,0.73
+football,Ligue 1 2023 2024,Round 5,17/09/,Clermont,Nantes,0,1,2,g_1_Ox0rt4Ya,1.95,3.85,3.87,0.54,0.89
+football,Ligue 1 2023 2024,Round 5,17/09/,Reims,Brest,1,2,2,g_1_pn1vspJg,1.93,3.56,4.33,2.05,1.61
+football,Ligue 1 2023 2024,Round 5,17/09/,Strasbourg,Montpellier,2,2,1,g_1_fJq2dPIt,2.76,3.53,2.6,2.75,1.23
+football,Ligue 1 2023 2024,Round 5,17/09/,Lorient,Monaco,2,2,1,g_1_j5JixMXO,5.2,4.07,1.69,0.89,1.63
+football,Ligue 1 2023 2024,Round 5,17/09/,Lens,Metz,0,1,2,g_1_ruGqvr3C,1.55,4.47,6.19,1.81,0.28
+football,Ligue 1 2023 2024,Round 5,17/09/,Rennes,Lille,2,2,1,g_1_x2Fmw2II,2.18,3.55,3.45,0.05,0.25
+football,Ligue 1 2023 2024,Round 5,16/09/,PSG,Nice,2,3,2,g_1_Ohl6eqYn,1.66,4.53,4.79,0.79,1.05
+football,Ligue 1 2023 2024,Round 4,04/09/,Lyon,PSG,1,4,2,g_1_hlMalSQJ,5.9,4.29,1.59,0.55,2.97
+football,Ligue 1 2023 2024,Round 4,04/09/,Nice,Strasbourg,2,0,0,g_1_jP1zrQ3m,1.94,3.5,4.33,1.99,0.28
+football,Ligue 1 2023 2024,Round 4,03/09/,Le Havre,Lorient,3,0,0,g_1_rJv9R4J6,2.42,3.4,3.25,1.67,0.55
+football,Ligue 1 2023 2024,Round 4,03/09/,Lille,Montpellier,1,0,0,g_1_4YSHPrlJ,2.08,3.91,3.58,1.11,0.68
+football,Ligue 1 2023 2024,Round 4,03/09/,Metz,Reims,2,2,1,g_1_xMcWr6ls,4.29,3.91,1.9,0.99,0.68
+football,Ligue 1 2023 2024,Round 4,03/09/,Toulouse,Clermont,2,2,1,g_1_Wry5Sp40,2.14,3.57,3.51,0.55,1.14
+football,Ligue 1 2023 2024,Round 4,03/09/,Monaco,Lens,3,0,0,g_1_QsUDQOYC,1.94,3.94,3.79,0.91,0.74
+football,Ligue 1 2023 2024,Round 4,03/09/,Brest,Rennes,0,0,1,g_1_xMy1TQlf,3.86,3.53,2.05,1.3,0.26
+football,Ligue 1 2023 2024,Round 4,02/09/,Nantes,Marseille,1,1,1,g_1_WvL3mntQ,5.64,4.45,1.59,0.76,2.35
+football,Ligue 1 2023 2024,Round 3,28/08/,Nice,Lyon,0,0,1,g_1_pOdMz9dK,2.0,3.87,3.89,1.09,0.09
+football,Ligue 1 2023 2024,Round 3,28/08/,Lorient,Lille,4,1,0,g_1_WKhIyksE,4.08,3.67,1.95,0.0,0.0
+football,Ligue 1 2023 2024,Round 3,27/08/,Clermont,Metz,0,1,2,g_1_dl1SERZ0,1.95,3.67,4.08,0.38,0.89
+football,Ligue 1 2023 2024,Round 3,27/08/,Montpellier,Reims,1,3,2,g_1_tfrhVnKs,2.16,3.57,3.48,1.16,1.47
+football,Ligue 1 2023 2024,Round 3,27/08/,Strasbourg,Toulouse,2,0,0,g_1_bVxcU6Zm,2.22,3.4,3.5,2.04,0.29
+football,Ligue 1 2023 2024,Round 3,27/08/,Rennes,Le Havre,2,2,1,g_1_jPFVDok7,1.54,4.31,6.61,3.14,0.51
+football,Ligue 1 2023 2024,Round 3,27/08/,PSG,Lens,3,1,0,g_1_UFEZC54D,1.63,4.25,5.56,1.34,0.45
+football,Ligue 1 2023 2024,Round 3,27/08/,Marseille,Brest,2,0,0,g_1_Ic2OF7Kf,1.54,4.31,6.67,2.79,1.92
+football,Ligue 1 2023 2024,Round 3,26/08/,Nantes,Monaco,3,3,1,g_1_vodQZSBQ,4.54,3.86,1.82,0.91,4.11
+football,Ligue 1 2023 2024,Round 2,21/08/,Lens,Rennes,1,1,1,g_1_tE4iDEbd,2.35,3.58,3.07,0.86,1.21
+football,Ligue 1 2023 2024,Round 2,21/08/,Monaco,Strasbourg,3,0,0,g_1_MV8FHTkr,1.75,4.32,4.37,0.73,0.44
+football,Ligue 1 2023 2024,Round 2,20/08/,Le Havre,Brest,1,2,2,g_1_nFBrFzUq,3.02,3.14,2.63,1.24,1.17
+football,Ligue 1 2023 2024,Round 2,20/08/,Lorient,Nice,1,1,1,g_1_Y7iwyIj3,3.59,3.33,2.21,0.63,1.82
+football,Ligue 1 2023 2024,Round 2,20/08/,Reims,Clermont,2,0,0,g_1_Uw1mEfqj,0.0,0.0,0.0,2.06,0.28
+football,Ligue 1 2023 2024,Round 2,20/08/,Lille,Nantes,2,0,0,g_1_fHhZybyc,1.48,4.87,6.66,1.9,0.96
+football,Ligue 1 2023 2024,Round 2,20/08/,Toulouse,PSG,1,1,1,g_1_zZCJGm5l,4.93,4.08,1.72,0.29,0.54
+football,Ligue 1 2023 2024,Round 2,20/08/,Lyon,Montpellier,1,4,2,g_1_jqnrzx69,1.86,4.14,3.97,0.28,2.79
+football,Ligue 1 2023 2024,Round 2,19/08/,Metz,Marseille,2,2,1,g_1_UZpnZeLF,5.14,4.07,1.7,0.43,1.62
+football,Ligue 1 2023 2024,Round 1,14/08/,Strasbourg,Lyon,2,1,0,g_1_8h4QErsU,2.68,3.69,2.58,1.13,1.24
+football,Ligue 1 2023 2024,Round 1,14/08/,Rennes,Metz,5,1,0,g_1_O4vzZoSo,1.63,4.31,5.45,4.18,0.38
+football,Ligue 1 2023 2024,Round 1,13/08/,Clermont,Monaco,2,4,2,g_1_tWXTFORN,3.28,3.46,2.29,1.48,2.59
+football,Ligue 1 2023 2024,Round 1,13/08/,Montpellier,Le Havre,2,2,1,g_1_x8rvY5sh,1.75,3.88,5.38,1.65,1.32
+football,Ligue 1 2023 2024,Round 1,13/08/,Nantes,Toulouse,1,2,2,g_1_A1jhA2ko,3.09,3.5,2.37,1.07,1.12
+football,Ligue 1 2023 2024,Round 1,13/08/,Brest,Lens,3,2,0,g_1_bNWnWqC4,3.92,3.3,2.11,2.86,0.84
+football,Ligue 1 2023 2024,Round 1,13/08/,PSG,Lorient,0,0,1,g_1_2uZPG4CH,1.43,4.94,7.75,0.65,0.03
+football,Ligue 1 2023 2024,Round 1,13/08/,Marseille,Reims,2,1,0,g_1_KWXrXPdb,1.9,3.67,4.34,1.11,0.69
+football,Ligue 1 2023 2024,Round 1,12/08/,Nice,Lille,1,1,1,g_1_SdyiV3RA,2.47,3.53,2.92,0.57,1.24

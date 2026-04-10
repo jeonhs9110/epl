@@ -1,0 +1,255 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,odds_1,odds_x,odds_2,match_id,home_xg,away_xg
+football,Laliga,Round 21,27/01/,Girona,Getafe,1,1,1,2.14,3.09,4.16,g_1_2oKiOvaE,0.75,0.81
+football,Laliga,Round 22,03/02/,Mallorca,Sevilla,4,1,0,2.75,3.06,2.93,g_1_27eSzIrK,2.64,1.13
+football,Laliga,Round 22,02/02/,Ath Bilbao,Real Sociedad,1,1,1,0.0,0.0,0.0,g_1_EoFXEzM0,0.96,1.66
+football,Laliga,Round 22,02/02/,Getafe,Celta Vigo,0,0,1,3.06,2.93,2.77,g_1_8K2YW8sn,0.43,0.18
+football,Laliga,Round 22,02/02/,Betis,Valencia,2,1,0,1.83,3.46,5.09,g_1_MBIuDEjD,1.88,1.91
+football,Laliga,Round 22,01/02/,Real Madrid,Rayo Vallecano2,2,1,0,1.24,7.2,11.9,g_1_GjkkTQtB,2.21,1.03
+football,Laliga,Round 22,01/02/,Elche,Barcelona,1,3,2,8.7,6.39,1.32,g_1_runNPizJ,1.0,6.44
+football,Laliga,Round 22,01/02/,Levante,Atl. Madrid,0,0,1,5.32,3.84,1.72,g_1_nDhERD56,0.37,0.85
+football,Laliga,Round 22,01/02/,Osasuna,Villarreal,2,2,1,2.76,3.38,2.69,g_1_YknbVe6s,1.37,0.92
+football,Laliga,Round 22,31/01/,Oviedo,Girona,1,0,0,3.01,3.09,2.67,g_1_UZjsVnCb,1.4,0.65
+football,Laliga,Round 22,31/01/,Espanyol,Alaves,1,2,2,1.96,3.14,4.96,g_1_Eaf6TZzf,0.67,1.74
+football,Laliga,Round 21,26/01/,Alaves,Betis,2,1,0,2.85,3.08,2.81,g_1_QRDI5BRk,1.32,1.26
+football,Laliga,Round 21,26/01/,Real Sociedad,Celta Vigo,3,1,0,2.2,3.38,3.58,g_1_8Szk4J7r,1.61,1.6
+football,Laliga,Round 21,26/01/,Barcelona,Oviedo,3,0,0,1.12,10.9,21.0,g_1_GUeAB1F8,2.08,0.48
+football,Laliga,Round 21,25/01/,Atl. Madrid,Mallorca,3,0,0,1.33,5.56,10.1,g_1_bgRP3kd2,1.47,0.46
+football,Laliga,Round 21,25/01/,Villarreal,Real Madrid,0,2,2,4.09,4.1,1.84,g_1_fqaWGdil,0.57,1.64
+football,Laliga,Round 21,25/01/,Sevilla,Ath Bilbao,2,1,0,0.0,0.0,0.0,g_1_lrfI9upL,2.07,2.15
+football,Laliga,Round 21,25/01/,Valencia,Espanyol,3,2,0,2.45,3.17,3.26,g_1_zuS50y77,2.29,1.4
+football,Laliga,Round 21,24/01/,Rayo Vallecano,Osasuna,1,3,2,2.27,3.2,3.61,g_1_bDD0MITQ,0.76,1.22
+football,Laliga,Round 21,24/01/,Levante,Elche,3,2,0,0.0,0.0,0.0,g_1_EPwc2cxe,2.61,0.64
+football,Laliga,Round 20,20/01/,Elche,Sevilla,2,2,1,2.42,3.16,3.31,g_1_GUunFObn,1.54,3.01
+football,Laliga,Round 20,19/01/,Real Sociedad,Barcelona,2,1,0,0.0,0.0,0.0,g_1_YTYwDgZF,1.01,3.68
+football,Laliga,Round 20,19/01/,Celta Vigo,Rayo Vallecano,3,0,0,1.92,3.33,4.79,g_1_ETmqeLDU,1.87,1.11
+football,Laliga,Round 20,19/01/,Atl. Madrid,Alaves,1,0,0,1.4,4.85,9.14,g_1_p8hqiCCd,1.78,0.85
+football,Laliga,Round 20,18/01/,Getafe,Valencia,0,1,2,2.58,2.8,3.49,g_1_pAX2BtbB,0.62,0.89
+football,Laliga,Round 20,18/01/,Betis,Villarreal,2,0,0,2.56,3.58,2.77,g_1_tGkycsqI,1.07,1.02
+football,Laliga,Round 20,18/01/,Osasuna,Oviedo,3,2,0,1.77,3.58,5.37,g_1_j9azgYsp,1.37,1.33
+football,Laliga,Round 20,18/01/,Mallorca,Ath Bilbao,3,2,0,3.91,3.09,2.22,g_1_x2uVEF43,2.79,2.08
+football,Laliga,Round 20,17/01/,Real Madrid,Levante,2,0,0,1.14,10.5,17.6,g_1_tfxnBX3S,2.88,0.8
+football,Laliga,Round 20,17/01/,Espanyol,Girona,0,2,2,1.94,3.47,4.42,g_1_OfqfD2Tb,1.06,1.96
+football,Laliga,Round 19,13/01/,Sevilla,Celta Vigo,0,1,2,2.75,3.16,2.85,g_1_t2A2rrUO,0.27,1.63
+football,Laliga,Round 19,12/01/,Levante,Espanyol,1,1,1,3.46,3.39,2.23,g_1_xOhK0Pqg,1.11,1.36
+football,Laliga,Round 19,11/01/,Rayo Vallecano,Mallorca,2,1,0,1.94,3.26,4.83,g_1_pldSb3E5,2.36,0.72
+football,Laliga,Round 19,11/01/,Valencia,Elche,1,1,1,2.05,3.28,4.2,g_1_G84B2oFt,1.94,0.18
+football,Laliga,Round 19,11/01/,Girona,Osasuna,1,0,0,2.61,3.27,2.94,g_1_6Lw7g8xQ,0.65,1.4
+football,Laliga,Round 19,11/01/,Villarreal,Alaves,3,1,0,1.49,4.6,7.16,g_1_GfPxln0m,1.5,0.94
+football,Laliga,Round 19,10/01/,Oviedo,Betis,1,1,1,4.2,3.53,1.97,g_1_pzHgp4aC,1.24,2.23
+football,Laliga,Round 19,10/01/,Getafe,Real Sociedad,1,2,2,3.58,3.07,2.35,g_1_QP0KV4pJ,0.27,1.56
+football,Laliga,Round 18,05/01/,Real Sociedad,Atl. Madrid,1,1,1,4.04,3.9,1.9,g_1_zHuMM91l,1.73,1.24
+football,Laliga,Round 18,05/01/,Alaves,Oviedo,1,1,1,1.99,2.85,5.62,g_1_zq2gLdQq,1.83,2.43
+football,Laliga,Round 18,05/01/,Mallorca,Girona,1,2,2,2.34,3.16,3.47,g_1_lK5ey9Gs,1.26,1.51
+football,Laliga,Round 18,05/01/,Real Madrid,Betis,5,1,0,1.5,4.69,6.5,g_1_4dXxJR0D,2.94,1.05
+football,Laliga,Round 18,04/01/,Sevilla,Levante,0,3,2,1.78,3.92,4.65,g_1_MX33Znof,1.71,1.03
+football,Laliga,Round 18,04/01/,Espanyol,Barcelona,0,2,2,6.31,4.64,1.52,g_1_rsqUKmW0,1.6,1.94
+football,Laliga,Round 18,04/01/,Elche,Villarreal,1,3,2,0.0,0.0,0.0,g_1_bHmlsvm3,1.32,1.75
+football,Laliga,Round 18,04/01/,Osasuna,Ath Bilbao,1,1,1,3.17,2.94,2.66,g_1_WUoduIHF,0.68,1.46
+football,Laliga,Round 18,03/01/,Celta Vigo,Valencia,4,1,0,2.06,3.36,4.03,g_1_r951Jzed,2.7,1.93
+football,Laliga,Round 18,03/01/,Rayo Vallecano,Getafe,1,1,1,2.06,2.95,4.86,g_1_W2POtVhK,0.96,0.66
+football,Laliga,Round 17,23/12/,Ath Bilbao,Espanyol,1,2,2,0.0,0.0,0.0,g_1_AXt6at4N,1.6,0.9
+football,Laliga,Round 17,22/12/,Betis,Getafe,4,0,0,1.75,3.41,5.97,g_1_63SyfKRp,3.3,1.42
+football,Laliga,Round 17,22/12/,Elche,Rayo Vallecano,4,0,0,2.57,2.98,3.28,g_1_MBAOHNJi,2.51,0.95
+football,Laliga,Round 17,22/12/,Villarreal,Barcelona,0,2,2,4.21,4.51,1.75,g_1_lnU5U03c,1.66,2.71
+football,Laliga,Round 17,21/12/,Girona,Atl. Madrid,0,3,2,5.42,3.87,1.7,g_1_dhsK6cBj,1.06,0.9
+football,Laliga,Round 17,21/12/,Real Madrid,Sevilla,2,0,0,0.0,0.0,0.0,g_1_ji2uEuJG,2.33,1.56
+football,Laliga,Round 17,21/12/,Osasuna,Alaves,3,0,0,0.0,0.0,0.0,g_1_x80mCJmT,2.02,0.56
+football,Laliga,Round 17,21/12/,Levante,Real Sociedad,1,1,1,3.06,3.37,2.45,g_1_UyEWF1l4,1.3,1.38
+football,Laliga,Round 17,20/12/,Oviedo,Celta Vigo,0,0,1,3.71,3.33,2.17,g_1_pENESvY9,0.63,0.66
+football,Laliga,Round 17,20/12/,Valencia,Mallorca,1,1,1,2.15,3.28,3.84,g_1_jBQMQI2M,1.29,0.19
+football,Laliga,Round 16,16/12/,Rayo Vallecano,Betis,0,0,1,2.74,3.26,2.78,g_1_jHoWn3KH,1.86,0.81
+football,Laliga,Round 16,15/12/,Alaves,Real Madrid,1,2,2,6.29,4.11,1.59,g_1_SGak33m1,1.36,1.83
+football,Laliga,Round 16,15/12/,Celta Vigo,Ath Bilbao,2,0,0,2.94,3.27,2.61,g_1_I3mOlPk5,1.34,1.61
+football,Laliga,Round 16,14/12/,Sevilla,Oviedo,4,0,0,2.08,3.28,4.08,g_1_UNYc12ZA,2.03,0.64
+football,Laliga,Round 16,14/12/,Getafe,Espanyol,0,1,2,2.64,2.91,3.25,g_1_0rss5pzn,0.24,0.51
+football,Laliga,Round 16,14/12/,Barcelona,Osasuna,2,0,0,1.2,7.97,14.6,g_1_EBj7h7jt,2.41,0.37
+football,Laliga,Round 16,14/12/,Mallorca,Elche,3,1,0,2.57,2.98,3.28,g_1_AJ1XpskU,2.45,0.29
+football,Laliga,Round 16,13/12/,Atl. Madrid,Valencia,2,1,0,1.32,5.61,10.7,g_1_YD2c1sID,1.01,1.17
+football,Laliga,Round 16,13/12/,Real Sociedad,Girona,1,2,2,1.81,3.79,4.67,g_1_McVk3O4b,0.92,1.43
+football,Laliga,Round 15,09/12/,Osasuna,Levante,2,0,0,1.71,4.0,5.12,g_1_viR1C7QE,1.05,0.48
+football,Laliga,Round 15,08/12/,Real Madrid2,Celta Vigo,0,2,2,1.26,6.83,10.6,g_1_QTz8jQ3e,2.46,1.55
+football,Laliga,Round 15,08/12/,Espanyol,Rayo Vallecano,1,0,0,2.39,3.27,3.26,g_1_bJjTc8BL,1.33,0.26
+football,Laliga,Round 15,08/12/,Valencia,Sevilla,1,1,1,2.06,3.51,3.83,g_1_Wl6t5PIl,1.19,0.32
+football,Laliga,Round 15,07/12/,Elche,Girona,3,0,0,2.09,3.32,3.98,g_1_Q5hLaUt9,2.02,0.94
+football,Laliga,Round 15,07/12/,Ath Bilbao,Atl. Madrid,1,0,0,3.07,3.3,2.49,g_1_CQAYyRl2,1.15,0.69
+football,Laliga,Round 15,07/12/,Betis,Barcelona,3,5,2,4.09,4.1,1.84,g_1_I3XahnZr,2.52,2.83
+football,Laliga,Round 15,07/12/,Alaves,Real Sociedad,1,0,0,2.82,2.94,2.97,g_1_407QwmKk,1.38,1.17
+football,Laliga,Round 15,06/12/,Villarreal,Getafe,2,0,0,1.66,3.85,5.91,g_1_nqPGl4Y7,0.61,0.22
+football,Laliga,Round 15,06/12/,Oviedo2,Mallorca,0,0,1,2.77,3.01,2.97,g_1_zJKAAoeR,1.18,0.68
+football,Laliga,Round 19,04/12/,Ath Bilbao,Real Madrid,0,3,2,4.36,3.85,1.85,g_1_IacCXQF6,0.84,2.2
+football,Laliga,Round 19,03/12/,Barcelona,Atl. Madrid,3,1,0,1.76,4.46,4.21,g_1_CMIonQUa,3.6,0.98
+football,Laliga,Round 14,02/12/,Rayo Vallecano,Valencia,1,1,1,2.06,3.39,4.01,g_1_YeuKWVCM,1.57,0.63
+football,Laliga,Round 14,01/12/,Girona,Real Madrid,1,1,1,7.58,5.6,1.39,g_1_KYY3zEDc,0.8,2.52
+football,Laliga,Round 14,01/12/,Celta Vigo,Espanyol,0,1,2,1.9,3.59,4.44,g_1_4QjHCALj,0.63,0.38
+football,Laliga,Round 14,01/12/,Sevilla,Betis,0,2,2,2.7,3.34,2.78,g_1_C2SooVRF,0.34,1.1
+football,Laliga,Round 14,30/11/,Real Sociedad,Villarreal,2,3,2,2.88,3.5,2.52,g_1_4vWkR9zp,1.02,1.51
+football,Laliga,Round 14,30/11/,Atl. Madrid,Oviedo,2,0,0,1.28,6.11,12.2,g_1_YwUqVIyI,1.93,0.94
+football,Laliga,Round 14,30/11/,Levante,Ath Bilbao,0,2,2,4.15,3.54,1.97,g_1_h0Cpmic3,1.3,2.9
+football,Laliga,Round 14,30/11/,Barcelona,Alaves,3,1,0,1.26,6.69,10.9,g_1_06PbPm5d,2.23,1.59
+football,Laliga,Round 14,29/11/,Mallorca,Osasuna,2,2,1,2.45,3.17,3.26,g_1_CtiBYirA,1.49,1.09
+football,Laliga,Round 14,29/11/,Getafe,Elche,1,0,0,2.23,2.96,4.08,g_1_KSVgq9dS,1.06,0.51
+football,Laliga,Round 13,25/11/,Espanyol,Sevilla,2,1,0,0.0,0.0,0.0,g_1_GxOpMNhm,1.09,1.82
+football,Laliga,Round 13,24/11/,Elche,Real Madrid,2,2,1,7.1,5.39,1.42,g_1_pfXERqVP,1.44,3.49
+football,Laliga,Round 13,24/11/,Getafe,Atl. Madrid,0,1,2,4.95,3.41,1.87,g_1_UulKzN7t,0.7,1.0
+football,Laliga,Round 13,24/11/,Betis,Girona,1,1,1,1.54,4.68,5.98,g_1_4bfS3twJ,1.43,1.47
+football,Laliga,Round 13,23/11/,Oviedo,Rayo Vallecano,0,0,1,3.65,3.26,2.22,g_1_rkF1IuhC,0.43,1.74
+football,Laliga,Round 13,23/11/,Villarreal,Mallorca,2,1,0,1.42,5.13,7.7,g_1_xCzyXv75,2.23,1.02
+football,Laliga,Round 13,23/11/,Osasuna,Real Sociedad,1,3,2,0.0,0.0,0.0,g_1_AyHgK1Na,1.34,1.63
+football,Laliga,Round 13,23/11/,Barcelona,Ath Bilbao,4,0,0,1.44,5.13,7.02,g_1_vH8AGJMO,1.99,0.8
+football,Laliga,Round 13,22/11/,Alaves,Celta Vigo,0,1,2,2.75,3.06,2.93,g_1_dYjK5286,0.67,1.37
+football,Laliga,Round 13,22/11/,Valencia,Levante,1,0,0,2.05,3.6,3.78,g_1_jexTY0xg,1.49,0.72
+football,Laliga,Round 12,10/11/,Celta Vigo,Barcelona,2,4,2,4.46,4.43,1.72,g_1_WGlgi3gD,0.58,3.3
+football,Laliga,Round 12,10/11/,Mallorca,Getafe,1,0,0,2.57,2.98,3.28,g_1_I7NB9p9s,1.11,0.75
+football,Laliga,Round 12,10/11/,Valencia,Betis,1,1,1,3.89,3.46,2.06,g_1_bNtuF6oK,1.93,1.6
+football,Laliga,Round 12,10/11/,Rayo Vallecano,Real Madrid,0,0,1,5.71,4.85,1.54,g_1_44cxeofl,1.2,0.98
+football,Laliga,Round 12,09/11/,Ath Bilbao,Oviedo,1,0,0,1.62,3.58,7.53,g_1_Asx3tnue,1.7,0.22
+football,Laliga,Round 12,09/11/,Espanyol,Villarreal,0,2,2,3.04,3.47,2.42,g_1_pKG507WQ,0.5,1.6
+football,Laliga,Round 12,09/11/,Atl. Madrid,Levante,3,1,0,1.25,7.2,11.3,g_1_dbzBvQ97,2.92,1.19
+football,Laliga,Round 12,09/11/,Sevilla,Osasuna,1,0,0,2.37,3.19,3.39,g_1_jLLJ7Owf,1.69,1.28
+football,Laliga,Round 12,08/11/,Girona,Alaves,1,0,0,2.22,3.38,3.51,g_1_A10pgPO0,0.85,1.84
+football,Laliga,Round 12,08/11/,Elche,Real Sociedad,1,1,1,3.34,3.17,2.41,g_1_C6Ic2T1E,0.8,1.36
+football,Laliga,Round 11,04/11/,Oviedo,Osasuna,0,0,1,3.26,3.17,2.45,g_1_rTLM0GQ9,0.95,0.83
+football,Laliga,Round 11,03/11/,Betis,Mallorca,3,0,0,1.58,4.34,5.98,g_1_Mahulws4,2.37,0.61
+football,Laliga,Round 11,03/11/,Barcelona,Elche,3,1,0,1.2,7.97,14.6,g_1_EZlXkaCi,1.88,0.66
+football,Laliga,Round 11,03/11/,Alaves,Espanyol,2,1,0,2.54,3.17,3.11,g_1_xhCOm9VN,1.22,1.06
+football,Laliga,Round 11,02/11/,Levante,Celta Vigo,1,2,2,3.23,3.44,2.33,g_1_n1SD2xdc,1.2,2.0
+football,Laliga,Round 11,02/11/,Real Madrid,Valencia,4,0,0,1.16,8.81,17.8,g_1_jupdpetT,2.71,0.49
+football,Laliga,Round 11,02/11/,Real Sociedad,Ath Bilbao,3,2,0,2.78,2.99,2.97,g_1_f7uSvZ3j,1.52,0.83
+football,Laliga,Round 11,02/11/,Atl. Madrid,Sevilla,3,0,0,1.42,4.89,8.24,g_1_YNcfrmgo,3.53,0.46
+football,Laliga,Round 11,01/11/,Villarreal,Rayo Vallecano,4,0,0,1.76,3.89,4.86,g_1_lSmfr8Ar,3.02,1.02
+football,Laliga,Round 11,01/11/,Getafe,Girona,2,1,0,2.17,3.1,4.03,g_1_rFtlnHBG,0.88,1.43
+football,Laliga,Round 10,28/10/,Betis,Atl. Madrid,0,2,2,3.55,3.59,2.13,g_1_SMhtyWoI,1.07,0.6
+football,Laliga,Round 10,27/10/,Rayo Vallecano,Alaves,1,0,0,2.22,3.07,3.92,g_1_f9fYxhH5,1.17,0.84
+football,Laliga,Round 10,27/10/,Osasuna,Celta Vigo,2,3,2,2.4,3.26,3.26,g_1_CpRbgD1n,2.31,1.95
+football,Laliga,Round 10,27/10/,Real Madrid,Barcelona,2,1,0,1.94,4.43,3.48,g_1_OlnkZ9GU,3.63,1.03
+football,Laliga,Round 10,26/10/,Mallorca,Levante,1,1,1,1.96,3.6,4.11,g_1_tQIFkV0B,1.58,2.09
+football,Laliga,Round 10,26/10/,Valencia,Villarreal,0,2,2,3.83,3.64,2.02,g_1_bs1PvEng,0.8,2.18
+football,Laliga,Round 10,26/10/,Ath Bilbao,Getafe,0,1,2,1.67,3.59,6.48,g_1_EyKaOh2C,0.38,0.93
+football,Laliga,Round 10,25/10/,Espanyol,Elche,1,0,0,1.99,3.46,4.18,g_1_YaF7iiWb,1.93,0.86
+football,Laliga,Round 10,25/10/,Girona,Oviedo,3,3,1,1.73,3.66,5.61,g_1_M1N7MWWO,2.03,1.8
+football,Laliga,Round 10,25/10/,Real Sociedad,Sevilla,2,1,0,2.03,3.62,3.84,g_1_QFmItzIt,1.6,0.22
+football,Laliga,Round 9,21/10/,Alaves,Valencia,0,0,1,2.13,3.18,4.04,g_1_IVwtCOCk,0.74,0.45
+football,Laliga,Round 9,20/10/,Getafe2,Real Madrid,0,1,2,7.62,4.6,1.46,g_1_dxR7QNRr,0.52,2.31
+football,Laliga,Round 9,20/10/,Levante,Rayo Vallecano,0,3,2,2.76,3.27,2.76,g_1_42UFO1de,0.91,1.55
+football,Laliga,Round 9,19/10/,Celta Vigo,Real Sociedad,1,1,1,2.0,3.58,3.99,g_1_EHNrWq4L,0.95,1.55
+football,Laliga,Round 9,19/10/,Elche,Ath Bilbao,0,0,1,4.3,3.37,1.99,g_1_QHIOMuR7,1.08,0.25
+football,Laliga,Round 9,19/10/,Atl. Madrid,Osasuna,1,0,0,1.38,5.12,9.17,g_1_QeslA2s2,2.58,1.14
+football,Laliga,Round 9,19/10/,Villarreal,Betis,2,2,1,2.15,3.69,3.38,g_1_hOAApqJE,0.67,1.18
+football,Laliga,Round 9,18/10/,Barcelona,Girona,2,1,0,1.22,7.28,13.5,g_1_t4PzY5Z8,1.61,1.54
+football,Laliga,Round 9,18/10/,Sevilla,Mallorca,1,3,2,1.86,3.49,4.86,g_1_I9QjQEXa,1.25,1.85
+football,Laliga,Round 9,18/10/,Oviedo,Espanyol,0,2,2,3.03,3.19,2.58,g_1_pdSrSz3m,0.77,3.73
+football,Laliga,Round 8,06/10/,Celta Vigo,Atl. Madrid,1,1,1,5.12,3.64,1.78,g_1_nTOS475M,1.92,0.3
+football,Laliga,Round 8,06/10/,Espanyol,Betis,1,2,2,2.78,3.46,2.62,g_1_hU37cPcd,2.28,1.4
+football,Laliga,Round 8,06/10/,Real Sociedad,Rayo Vallecano,0,1,2,2.13,3.5,3.62,g_1_Yc29HpkS,0.79,0.8
+football,Laliga,Round 8,05/10/,Sevilla,Barcelona,4,1,0,6.0,5.13,1.5,g_1_d2AbaoTq,2.79,2.25
+football,Laliga,Round 8,05/10/,Alaves,Elche,3,1,0,2.28,3.07,3.76,g_1_693gj8jT,2.42,0.39
+football,Laliga,Round 8,05/10/,Real Madrid,Villarreal,3,1,0,1.4,5.13,8.19,g_1_QDzK6TzA,3.51,1.0
+football,Laliga,Round 8,05/10/,Ath Bilbao,Mallorca,2,1,0,1.65,3.67,6.62,g_1_2ukPpnEj,2.05,0.31
+football,Laliga,Round 8,04/10/,Girona,Valencia,2,1,0,2.42,3.31,3.16,g_1_ImXB8k6c,1.02,1.14
+football,Laliga,Round 8,04/10/,Oviedo,Levante,0,2,2,2.47,3.19,3.19,g_1_tjp2J6KF,1.31,1.94
+football,Laliga,Round 8,04/10/,Osasuna,Getafe,2,1,0,2.18,2.95,4.27,g_1_pOjgLSk3,0.43,0.82
+football,Laliga,Round 7,01/10/,Valencia,Oviedo,1,2,2,1.78,3.51,5.42,g_1_CAAphULG,1.51,0.77
+football,Laliga,Round 7,29/09/,Betis,Osasuna,2,0,0,1.86,3.61,4.61,g_1_CElVaLNP,0.76,0.7
+football,Laliga,Round 7,29/09/,Barcelona,Real Sociedad,2,1,0,1.38,5.34,8.66,g_1_WIBrxIVI,2.21,0.97
+football,Laliga,Round 7,28/09/,Elche,Celta Vigo,2,1,0,2.91,3.25,2.64,g_1_rVITeCMi,3.58,0.77
+football,Laliga,Round 7,28/09/,Rayo Vallecano,Sevilla,0,1,2,0.0,0.0,0.0,g_1_vPY9hwGa,1.88,0.63
+football,Laliga,Round 7,28/09/,Villarreal,Ath Bilbao,1,0,0,2.01,3.39,4.22,g_1_GOQsY8Up,1.22,1.44
+football,Laliga,Round 7,28/09/,Mallorca,Alaves,1,0,0,2.5,2.86,3.57,g_1_CxXHjHpC,0.74,0.78
+football,Laliga,Round 7,27/09/,Atl. Madrid,Real Madrid,5,2,0,3.37,3.57,2.2,g_1_QL8zvv16,2.34,0.67
+football,Laliga,Round 7,27/09/,Getafe,Levante,1,1,1,2.17,3.1,4.03,g_1_rcu1faom,0.56,1.24
+football,Laliga,Round 7,27/09/,Girona,Espanyol,0,0,1,2.78,3.35,2.68,g_1_4p7xfji4,1.08,1.08
+football,Laliga,Round 6,26/09/,Oviedo,Barcelona,1,3,2,0.0,0.0,0.0,g_1_Wbm1PvnD,1.04,2.06
+football,Laliga,Round 6,26/09/,Osasuna,Elche,1,1,1,1.89,3.27,5.11,g_1_dtHJsM1s,0.9,0.82
+football,Laliga,Round 6,25/09/,Atl. Madrid,Rayo Vallecano,3,2,0,1.46,4.41,8.56,g_1_82XLShy8,3.61,1.6
+football,Laliga,Round 6,25/09/,Real Sociedad,Mallorca,1,0,0,1.78,3.61,5.22,g_1_UgFRu0Wg,2.76,0.77
+football,Laliga,Round 6,25/09/,Getafe,Alaves,1,1,1,2.06,2.95,4.86,g_1_AqahR0H0,0.24,0.57
+football,Laliga,Round 6,24/09/,Levante,Real Madrid,1,4,2,0.0,0.0,0.0,g_1_rZEDYrPQ,1.6,3.94
+football,Laliga,Round 6,24/09/,Sevilla,Villarreal,1,2,2,3.58,3.47,2.16,g_1_2JepTMnl,0.98,1.95
+football,Laliga,Round 6,24/09/,Ath Bilbao,Girona,1,1,1,1.53,4.34,6.87,g_1_0xUDUE6e,1.47,0.78
+football,Laliga,Round 6,24/09/,Espanyol,Valencia,2,2,1,2.45,3.17,3.26,g_1_ALG5z5fE,2.58,0.74
+football,Laliga,Round 5,22/09/,Barcelona,Getafe,3,0,0,1.27,6.27,12.2,g_1_Cdi2GOoo,1.97,0.27
+football,Laliga,Round 5,22/09/,Elche,Oviedo,1,0,0,2.06,3.39,4.01,g_1_Y1xcx684,1.54,1.09
+football,Laliga,Round 5,21/09/,Mallorca,Atl. Madrid,1,1,1,5.41,3.66,1.74,g_1_drnnGFi2,0.6,2.25
+football,Laliga,Round 5,21/09/,Rayo Vallecano,Celta Vigo,1,1,1,2.0,3.58,3.99,g_1_lxZXwJq9,1.08,0.81
+football,Laliga,Round 5,21/09/,Valencia,Ath Bilbao,2,0,0,3.8,3.17,2.22,g_1_0GhwIyNk,1.88,0.49
+football,Laliga,Round 5,21/09/,Alaves,Sevilla,1,2,2,2.43,2.99,3.51,g_1_GQ5WLpON,0.95,0.48
+football,Laliga,Round 5,21/09/,Villarreal,Osasuna,2,1,0,1.71,3.8,5.46,g_1_vNu5Wzxq,2.55,1.8
+football,Laliga,Round 5,20/09/,Real Madrid,Espanyol,2,0,0,1.2,7.42,15.9,g_1_8vkZycEL,1.18,0.96
+football,Laliga,Round 5,20/09/,Girona2,Levante,0,4,2,1.9,3.78,4.19,g_1_fHQ5zpwH,0.5,2.88
+football,Laliga,Round 5,20/09/,Betis,Real Sociedad,3,1,0,0.0,0.0,0.0,g_1_S4ZlvSwh,2.25,0.68
+football,Laliga,Round 4,16/09/,Espanyol,Mallorca,3,2,0,2.19,3.14,3.76,g_1_CEpYCkug,2.46,2.22
+football,Laliga,Round 4,15/09/,Barcelona,Valencia,6,0,0,1.37,5.33,8.1,g_1_0zHFf8PO,4.02,0.18
+football,Laliga,Round 4,15/09/,Osasuna,Rayo Vallecano,2,0,0,2.85,2.95,2.85,g_1_vRyk97vI,1.59,1.09
+football,Laliga,Round 4,14/09/,Levante,Betis,2,2,1,4.0,3.59,1.95,g_1_QHA7Rlfn,0.73,2.13
+football,Laliga,Round 4,14/09/,Celta Vigo,Girona,1,1,1,1.72,3.83,5.05,g_1_4lsQEBAt,2.51,0.64
+football,Laliga,Round 4,14/09/,Atl. Madrid,Villarreal,2,0,0,1.75,3.82,4.82,g_1_hAD7dUfC,1.0,1.03
+football,Laliga,Round 4,14/09/,Ath Bilbao,Alaves,0,1,2,1.63,3.73,6.3,g_1_zgVc7o9U,1.07,0.08
+football,Laliga,Round 4,13/09/,Real Sociedad,Real Madrid,1,2,2,5.93,4.26,1.57,g_1_KbCNN6gB,2.23,2.42
+football,Laliga,Round 4,13/09/,Getafe,Oviedo,2,0,0,2.03,2.92,4.83,g_1_6DwsBT95,0.75,0.46
+football,Laliga,Round 4,13/09/,Sevilla,Elche,2,2,1,1.92,3.33,4.54,g_1_nXbGPSOb,0.4,0.96
+football,Laliga,Round 3,01/09/,Rayo Vallecano,Barcelona,1,1,1,7.26,5.31,1.4,g_1_tAIR5YXP,1.85,1.82
+football,Laliga,Round 3,01/09/,Espanyol,Osasuna,1,0,0,2.59,3.05,3.05,g_1_0tKPoDtf,1.21,1.37
+football,Laliga,Round 3,01/09/,Betis,Ath Bilbao,1,2,2,3.29,3.24,2.33,g_1_AesKRHaT,0.62,1.1
+football,Laliga,Round 3,01/09/,Celta Vigo,Villarreal,1,1,1,3.41,3.54,2.15,g_1_YR3q6sS8,0.96,1.04
+football,Laliga,Round 3,31/08/,Real Madrid,Mallorca,2,1,0,1.18,8.01,13.9,g_1_Y7c6bjQa,1.82,0.72
+football,Laliga,Round 3,31/08/,Girona,Sevilla,0,2,2,2.48,3.14,3.14,g_1_hlxXqiB6,2.13,1.32
+football,Laliga,Round 3,31/08/,Oviedo,Real Sociedad,1,0,0,3.54,3.16,2.26,g_1_E3QurVuJ,0.5,1.07
+football,Laliga,Round 3,31/08/,Alaves,Atl. Madrid,1,1,1,5.93,3.55,1.69,g_1_IJLdrvz2,0.91,1.07
+football,Laliga,Round 3,30/08/,Valencia,Getafe,3,0,0,2.34,2.93,3.68,g_1_0fab0Cem,1.08,0.74
+football,Laliga,Round 3,30/08/,Elche,Levante,2,0,0,2.17,3.28,3.63,g_1_4EQGmZBs,1.12,0.71
+football,Laliga,Round 6,28/08/,Celta Vigo,Betis,1,1,1,2.38,3.44,3.03,g_1_xdzmmrvK,0.83,0.33
+football,Laliga,Round 2,26/08/,Sevilla,Getafe,1,2,2,2.02,3.14,4.38,g_1_nVoIkMsS,0.51,0.71
+football,Laliga,Round 2,26/08/,Ath Bilbao,Rayo Vallecano,1,0,0,1.7,3.55,5.87,g_1_WS6uJN6j,1.51,0.29
+football,Laliga,Round 2,25/08/,Oviedo,Real Madrid,0,3,2,9.5,5.31,1.36,g_1_Q1IzwqbM,0.51,2.68
+football,Laliga,Round 2,25/08/,Real Sociedad,Espanyol,2,2,1,1.9,3.59,4.44,g_1_v5rAirDF,1.09,1.81
+football,Laliga,Round 2,25/08/,Villarreal,Girona,5,0,0,1.5,4.41,7.12,g_1_W2Nlp05k,2.29,0.14
+football,Laliga,Round 2,25/08/,Osasuna,Valencia,1,0,0,2.25,3.37,3.47,g_1_4nURv5T9,0.83,0.41
+football,Laliga,Round 2,24/08/,Levante,Barcelona,2,3,2,13.2,6.79,1.24,g_1_jq2FV0jd,2.14,1.93
+football,Laliga,Round 2,24/08/,Atl. Madrid,Elche,1,1,1,1.3,5.86,10.7,g_1_dMQJtRbc,1.73,0.57
+football,Laliga,Round 2,24/08/,Mallorca,Celta Vigo,1,1,1,3.46,3.26,2.3,g_1_rwk1g4r3,0.67,0.74
+football,Laliga,Round 2,23/08/,Betis,Alaves,1,0,0,1.89,3.5,4.63,g_1_dp96XMLq,1.95,1.13
+football,Laliga,Round 1,20/08/,Real Madrid,Osasuna,1,0,0,1.24,7.2,11.9,g_1_bk18CtYr,1.64,0.36
+football,Laliga,Round 1,19/08/,Elche,Betis,1,1,1,3.45,3.33,2.27,g_1_UZAxI2AL,0.64,1.86
+football,Laliga,Round 1,18/08/,Espanyol,Atl. Madrid,2,1,0,5.64,4.0,1.66,g_1_tEUsdLm2,1.26,1.1
+football,Laliga,Round 1,18/08/,Ath Bilbao,Sevilla,3,2,0,1.61,3.94,6.42,g_1_Snne5PQF,2.89,1.0
+football,Laliga,Round 1,18/08/,Celta Vigo,Getafe,0,2,2,1.71,3.6,5.91,g_1_l2z433eS,0.73,1.43
+football,Laliga,Round 1,17/08/,Alaves,Levante,2,1,0,2.15,3.18,3.99,g_1_KMrm7od3,1.29,0.87
+football,Laliga,Round 1,17/08/,Valencia,Real Sociedad,1,1,1,2.5,3.07,3.27,g_1_K4kHAK2e,2.04,0.81
+football,Laliga,Round 1,17/08/,Mallorca2,Barcelona,0,3,2,9.22,5.41,1.36,g_1_Y7HTJOu9,0.2,2.14
+football,Laliga,Round 1,16/08/,Villarreal,Oviedo,2,0,0,1.43,4.84,8.15,g_1_SUhP8bX7,2.44,0.92
+football,Laliga,Round 1,16/08/,Girona,Rayo Vallecano,1,3,2,2.46,3.33,3.24,g_1_pnyZcsJk,0.56,3.44
+football,Laliga,Round 23,08/02/,Real Sociedad,Elche,3,1,0,1.66,4.18,5.36,g_1_bZ6uvreT,2.64,1.28
+football,Laliga,Round 23,08/02/,Barcelona,Mallorca,3,0,0,1.16,10.1,14.7,g_1_UgFOsQe4,2.63,0.8
+football,Laliga,Round 23,07/02/,Celta Vigo,Osasuna,1,2,2,2.08,3.31,4.02,g_1_j93Xu4QG,2.39,0.67
+football,Laliga,Round 23,09/02/,Valencia,Real Madrid,0,2,2,5.17,4.3,1.66,g_1_GQ5bf3uA,0.44,1.03
+football,Laliga,Round 23,09/02/,Atl. Madrid,Betis,0,1,2,1.5,4.88,6.29,g_1_OdCGqnRi,0.66,0.7
+football,Laliga,Round 23,09/02/,Ath Bilbao,Levante,4,2,0,1.66,4.0,5.64,g_1_8lUTLrZp,2.08,0.51
+football,Laliga,Round 23,09/02/,Sevilla,Girona,1,1,1,2.09,3.56,3.9,g_1_ADzbdPAc,0.81,2.45
+football,Laliga,Round 23,08/02/,Alaves,Getafe,0,2,2,2.5,2.68,3.88,g_1_CIrbR4BN,2.02,1.91
+football,Laliga,Round 23,10/02/,Villarreal,Espanyol,4,1,0,1.76,4.08,4.59,g_1_IJmCYLIj,0.76,0.43
+football,Laliga,Round 24,14/02/,Elche,Osasuna,0,0,1,2.93,3.23,2.63,g_1_8OpwmLXq,1.7,0.77
+football,Laliga,Round 24,15/02/,Real Madrid,Real Sociedad,4,1,0,1.43,4.99,7.74,g_1_2sUu7tPF,3.1,1.67
+football,Laliga,Round 24,15/02/,Sevilla,Alaves,1,1,1,2.17,3.0,4.25,g_1_b9Nl5KgS,0.27,1.06
+football,Laliga,Round 24,15/02/,Getafe,Villarreal,2,1,0,3.33,2.93,2.57,g_1_Gllooa2d,1.49,0.6
+football,Laliga,Round 24,14/02/,Espanyol,Celta Vigo,2,2,1,2.56,3.16,3.09,g_1_OI5e1Bhf,0.72,2.74
+football,Laliga,Round 24,16/02/,Mallorca,Betis,1,2,2,3.12,3.27,2.47,g_1_j57m3XNs,1.01,2.12
+football,Laliga,Round 24,16/02/,Levante,Valencia,0,2,2,2.9,3.27,2.63,g_1_UTVX82f3,0.62,0.68
+football,Laliga,Round 24,16/02/,Rayo Vallecano,Atl. Madrid,3,0,0,4.9,3.69,1.8,g_1_j72Tcxn2,1.56,1.1
+football,Laliga,Round 24,15/02/,Oviedo,Ath Bilbao,1,2,2,3.6,2.97,2.41,g_1_UiEKabHk,0.34,1.28
+football,Laliga,Round 24,17/02/,Girona,Barcelona,2,1,0,8.2,5.91,1.35,g_1_d4kFLuv9,2.86,2.71
+football,Laliga,Round 16,19/02/,Levante,Villarreal,0,1,2,4.16,3.85,1.88,g_1_MyfFjoLh,0.92,2.4
+football,Laliga,Round 25,22/02/,Atl. Madrid,Espanyol,4,2,0,1.48,4.63,7.34,g_1_hlfbLWqQ,2.89,1.06
+football,Laliga,Round 25,22/02/,Osasuna,Real Madrid,2,1,0,4.92,4.11,1.71,g_1_2wYeU9Mt,2.29,1.7
+football,Laliga,Round 25,22/02/,Betis,Rayo Vallecano,1,1,1,0.0,0.0,0.0,g_1_KbvwElx0,1.86,0.88
+football,Laliga,Round 25,21/02/,Real Sociedad,Oviedo,3,3,1,1.57,3.94,7.17,g_1_WIPCQRL5,2.0,1.68
+football,Laliga,Round 25,21/02/,Ath Bilbao,Elche,2,1,0,1.74,3.78,5.18,g_1_ChHBcTiJ,2.97,0.82
+football,Laliga,Round 25,24/02/,Alaves,Girona,2,2,1,2.51,3.16,3.16,g_1_Kpa4akN6,1.94,2.22
+football,Laliga,Round 25,23/02/,Villarreal,Valencia,2,1,0,1.72,4.11,4.89,g_1_OhM4Smig,2.34,1.54
+football,Laliga,Round 25,23/02/,Celta Vigo,Mallorca,2,0,0,1.8,3.59,5.13,g_1_hCxoCS6C,2.51,0.04
+football,Laliga,Round 25,23/02/,Barcelona,Levante,3,0,0,1.11,13.1,17.7,g_1_OWpUFA7m,2.87,0.53
+football,Laliga,Round 25,22/02/,Getafe,Sevilla,0,1,2,2.4,2.86,3.78,g_1_CEhnA6yP,0.32,0.32
+football,Laliga,Round 26,01/03/,Oviedo,Atl. Madrid,0,1,2,5.15,3.57,1.8,g_1_0GKWFVOp,1.1,0.97
+football,Laliga,Round 26,01/03/,Mallorca,Real Sociedad,0,1,2,3.24,3.38,2.34,g_1_nkxpPZ1b,0.66,0.43
+football,Laliga,Round 26,01/03/,Barcelona,Villarreal,4,1,0,1.39,5.86,7.13,g_1_QHILO5jI,3.2,1.31
+football,Laliga,Round 26,28/02/,Rayo Vallecano,Ath Bilbao,1,1,1,2.61,3.17,3.02,g_1_tWw0Li1N,1.44,0.54
+football,Laliga,Round 26,28/02/,Levante,Alaves,2,0,0,2.8,3.16,2.8,g_1_84QhNDWA,2.35,1.35

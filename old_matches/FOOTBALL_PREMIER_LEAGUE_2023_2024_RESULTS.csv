@@ -1,0 +1,381 @@
+sports,league,round,date,home team,away team,home team total goal,away team total goal,result,match_id,odds_1,odds_x,odds_2,home_xg,away_xg
+football,Premier League 2023 2024,Round 38,20/05/,Arsenal,Everton,2,1,0,g_1_jXP8f29S,1.24,7.7,10.6,3.12,0.5
+football,Premier League 2023 2024,Round 38,20/05/,Brentford,Newcastle,2,4,2,g_1_htCzjMHq,3.11,4.03,2.17,1.07,3.47
+football,Premier League 2023 2024,Round 38,20/05/,Brighton,Manchester Utd,0,2,2,g_1_z51uktXk,2.76,4.1,2.36,1.76,1.37
+football,Premier League 2023 2024,Round 38,20/05/,Burnley,Nottingham,1,2,2,g_1_nu5ql0nd,3.05,3.88,2.25,1.1,1.45
+football,Premier League 2023 2024,Round 38,20/05/,Chelsea,Bournemouth,2,1,0,g_1_0rgRCqPd,1.41,5.39,7.52,0.9,2.34
+football,Premier League 2023 2024,Round 38,20/05/,Crystal Palace,Aston Villa,5,0,0,g_1_vZiVB3v3,1.65,4.67,4.74,2.31,1.2
+football,Premier League 2023 2024,Round 38,20/05/,Liverpool,Wolves,2,0,0,g_1_dAnzBNg9,1.14,10.3,17.7,4.46,0.62
+football,Premier League 2023 2024,Round 38,20/05/,Luton,Fulham,2,4,2,g_1_z1ovAs9F,3.17,3.99,2.15,2.0,1.02
+football,Premier League 2023 2024,Round 38,20/05/,Manchester City,West Ham,3,1,0,g_1_Sd97hFwr,1.08,16.6,23.0,2.2,0.37
+football,Premier League 2023 2024,Round 38,20/05/,Sheffield Utd,Tottenham,0,3,2,g_1_t0DBiZhl,7.94,5.91,1.36,1.05,3.4
+football,Premier League 2023 2024,Round 34,16/05/,Manchester Utd,Newcastle,3,2,0,g_1_C43exrWn,2.86,4.09,2.29,2.58,1.97
+football,Premier League 2023 2024,Round 34,16/05/,Brighton,Chelsea,1,2,2,g_1_ro9WXSv1,3.44,4.12,2.01,1.22,1.27
+football,Premier League 2023 2024,Round 34,15/05/,Tottenham,Manchester City,0,2,2,g_1_I163zM0a,6.88,6.13,1.38,1.52,2.15
+football,Premier League 2023 2024,Round 37,14/05/,Aston Villa,Liverpool,3,3,1,g_1_GziuczET,3.78,4.85,1.78,3.31,1.72
+football,Premier League 2023 2024,Round 37,13/05/,Manchester Utd,Arsenal,0,1,2,g_1_ERUq06ui,9.21,6.11,1.32,0.71,1.48
+football,Premier League 2023 2024,Round 37,12/05/,Nottingham,Chelsea,2,3,2,g_1_nuTibpA3,4.5,4.11,1.77,1.6,1.81
+football,Premier League 2023 2024,Round 37,11/05/,Bournemouth,Brentford,1,2,2,g_1_2XnybGbN,2.16,3.68,3.38,0.59,1.6
+football,Premier League 2023 2024,Round 37,11/05/,Everton,Sheffield Utd,1,0,0,g_1_YFw7hfMp,1.43,5.13,7.44,2.0,0.62
+football,Premier League 2023 2024,Round 37,11/05/,Newcastle,Brighton,1,1,1,g_1_hITmaQfc,1.61,4.82,4.97,2.21,1.5
+football,Premier League 2023 2024,Round 37,11/05/,Tottenham,Burnley,2,1,0,g_1_0rXec4P9,1.31,6.71,8.55,2.58,0.71
+football,Premier League 2023 2024,Round 37,11/05/,West Ham,Luton,3,1,0,g_1_r7M0dOvG,1.86,4.09,4.02,2.3,0.47
+football,Premier League 2023 2024,Round 37,11/05/,Wolves,Crystal Palace,1,3,2,g_1_McL4erfM,3.37,3.57,2.2,1.16,3.0
+football,Premier League 2023 2024,Round 37,11/05/,Fulham,Manchester City,0,4,2,g_1_C6xBiEyi,13.4,7.49,1.22,0.1,2.87
+football,Premier League 2023 2024,Round 36,07/05/,Crystal Palace,Manchester Utd,4,0,0,g_1_jT5F2vph,2.05,3.88,3.5,1.4,0.33
+football,Premier League 2023 2024,Round 36,06/05/,Liverpool,Tottenham,4,2,0,g_1_YieK1bab,1.48,5.85,5.4,3.19,1.16
+football,Premier League 2023 2024,Round 36,05/05/,Brighton,Aston Villa,1,0,0,g_1_xWC2qHqU,2.63,3.84,2.56,2.47,0.06
+football,Premier League 2023 2024,Round 36,05/05/,Chelsea,West Ham,5,0,0,g_1_hrmC3KUo,1.53,5.08,5.59,4.31,0.93
+football,Premier League 2023 2024,Round 36,05/05/,Manchester City,Wolves,5,1,0,g_1_tIbSaxUA,1.09,14.7,21.0,3.03,0.37
+football,Premier League 2023 2024,Round 36,04/05/,Brentford,Fulham,0,0,1,g_1_KfIcpcUN,2.06,3.9,3.46,1.11,1.13
+football,Premier League 2023 2024,Round 36,04/05/,Burnley,Newcastle,1,4,2,g_1_vuaUvyho,3.65,4.1,1.95,1.17,3.03
+football,Premier League 2023 2024,Round 36,04/05/,Sheffield Utd,Nottingham,1,3,2,g_1_K8cWbdqH,4.98,4.27,1.68,2.26,1.49
+football,Premier League 2023 2024,Round 36,04/05/,Arsenal,Bournemouth,3,0,0,g_1_t4JgowFH,1.22,7.28,14.0,3.45,0.4
+football,Premier League 2023 2024,Round 36,04/05/,Luton,Everton,1,1,1,g_1_CrfO0IE4,2.86,3.83,2.38,0.87,1.64
+football,Premier League 2023 2024,Round 26,03/05/,Chelsea,Tottenham,2,0,0,g_1_lUEplQC8,2.36,4.08,2.76,1.71,1.87
+football,Premier League 2023 2024,Round 35,29/04/,Nottingham,Manchester City,0,2,2,g_1_CORxkLFh,12.9,6.11,1.26,1.47,0.7
+football,Premier League 2023 2024,Round 35,28/04/,Bournemouth,Brighton,3,0,0,g_1_ETaCYaVB,1.98,4.27,3.44,2.33,1.1
+football,Premier League 2023 2024,Round 35,28/04/,Tottenham,Arsenal,2,3,2,g_1_jFQtluVb,4.63,4.31,1.72,2.27,1.0
+football,Premier League 2023 2024,Round 35,28/04/,Aston Villa,Chelsea,2,2,1,g_1_hKbGXJpI,2.14,3.85,3.29,0.85,1.47
+football,Premier League 2023 2024,Round 35,28/04/,Everton,Brentford,1,0,0,g_1_nsbKWw0O,2.77,3.6,2.56,0.89,0.93
+football,Premier League 2023 2024,Round 35,27/04/,Fulham,Crystal Palace,1,1,1,g_1_0p2OVcFU,2.14,3.6,3.49,1.27,0.97
+football,Premier League 2023 2024,Round 35,27/04/,Manchester Utd,Burnley,1,1,1,g_1_Q7TUjsot,1.51,5.08,5.83,1.64,1.57
+football,Premier League 2023 2024,Round 35,27/04/,Newcastle,Sheffield Utd,5,1,0,g_1_4bSYk10n,1.22,7.96,12.0,2.43,1.64
+football,Premier League 2023 2024,Round 35,27/04/,Wolves,Luton,2,1,0,g_1_nsKknJaB,1.9,3.94,4.01,1.17,0.45
+football,Premier League 2023 2024,Round 35,27/04/,West Ham,Liverpool,2,2,1,g_1_YwGomap5,5.33,4.86,1.57,0.82,1.74
+football,Premier League 2023 2024,Round 29,26/04/,Brighton,Manchester City,0,4,2,g_1_44mim5qC,8.64,5.64,1.36,0.41,1.36
+football,Premier League 2023 2024,Round 29,25/04/,Crystal Palace,Newcastle,2,0,0,g_1_A1jaoqEO,3.27,3.68,2.21,0.96,0.42
+football,Premier League 2023 2024,Round 29,25/04/,Everton,Liverpool,2,0,0,g_1_C6UsASjP,7.44,5.13,1.43,0.93,1.91
+football,Premier League 2023 2024,Round 29,25/04/,Manchester Utd,Sheffield Utd,4,2,0,g_1_MuKH3QTh,1.33,6.13,8.69,2.62,0.86
+football,Premier League 2023 2024,Round 29,25/04/,Wolves,Bournemouth,0,1,2,g_1_I7DQ14b5,2.68,3.83,2.52,0.53,1.99
+football,Premier League 2023 2024,Round 29,24/04/,Arsenal,Chelsea,5,0,0,g_1_QDlmloU5,1.45,5.13,6.84,3.41,1.66
+football,Premier League 2023 2024,Round 34,22/04/,Fulham,Liverpool,1,3,2,g_1_hGjNfjnE,4.61,4.6,1.68,0.69,1.12
+football,Premier League 2023 2024,Round 34,21/04/,Aston Villa,Bournemouth,3,1,0,g_1_Us5SY8Pf,1.85,4.11,4.04,2.02,1.55
+football,Premier League 2023 2024,Round 34,21/04/,Crystal Palace,West Ham,5,2,0,g_1_Q9byXnf7,2.26,3.59,3.24,2.66,1.32
+football,Premier League 2023 2024,Round 34,21/04/,Everton,Nottingham,2,0,0,g_1_40cuW69D,2.25,3.26,3.57,0.42,0.85
+football,Premier League 2023 2024,Round 34,21/04/,Wolves,Arsenal,0,2,2,g_1_dh57ZuG5,10.6,6.39,1.28,0.13,1.27
+football,Premier League 2023 2024,Round 34,20/04/,Luton,Brentford,1,5,2,g_1_UuEjwOGt,2.92,3.71,2.38,0.25,3.68
+football,Premier League 2023 2024,Round 34,20/04/,Sheffield Utd,Burnley,1,4,2,g_1_Ov7ay2og,2.76,3.5,2.62,2.92,1.94
+football,Premier League 2023 2024,Round 33,16/04/,Chelsea,Everton,6,0,0,g_1_KYplrD28,1.7,4.11,5.06,2.92,1.39
+football,Premier League 2023 2024,Round 33,15/04/,Arsenal,Aston Villa,0,2,2,g_1_A33cLkee,1.29,6.49,10.3,1.49,0.97
+football,Premier League 2023 2024,Round 33,14/04/,Liverpool,Crystal Palace,0,1,2,g_1_YykhsXHE,1.22,7.96,12.1,2.97,1.94
+football,Premier League 2023 2024,Round 33,14/04/,West Ham,Fulham,0,2,2,g_1_zL5OZlAl,2.38,3.67,2.96,1.02,3.15
+football,Premier League 2023 2024,Round 33,14/04/,Bournemouth,Manchester Utd,2,2,1,g_1_WC4gMVuk,2.49,4.13,2.58,1.68,1.08
+football,Premier League 2023 2024,Round 33,13/04/,Brentford,Sheffield Utd,2,0,0,g_1_vw81K9A1,1.54,4.81,5.84,1.1,0.81
+football,Premier League 2023 2024,Round 33,13/04/,Burnley,Brighton,1,1,1,g_1_IT65JTP7,3.85,4.1,1.9,1.74,1.03
+football,Premier League 2023 2024,Round 33,13/04/,Manchester City,Luton,5,1,0,g_1_SbldtiXK,1.09,15.4,20.0,3.34,0.7
+football,Premier League 2023 2024,Round 33,13/04/,Nottingham,Wolves,2,2,1,g_1_dU6KzVfr,2.1,3.5,3.73,1.94,1.01
+football,Premier League 2023 2024,Round 33,13/04/,Newcastle,Tottenham,4,0,0,g_1_6km0uBnR,2.7,4.07,2.41,2.65,0.69
+football,Premier League 2023 2024,Round 32,08/04/,Tottenham,Nottingham,3,1,0,g_1_EeOMRiIR,1.47,5.37,6.12,1.28,1.31
+football,Premier League 2023 2024,Round 32,08/04/,Sheffield Utd,Chelsea,2,2,1,g_1_KYOISX2L,6.81,5.28,1.44,1.47,0.41
+football,Premier League 2023 2024,Round 32,07/04/,Manchester Utd,Liverpool,2,2,1,g_1_trQETDmF,4.69,4.67,1.66,0.0,0.0
+football,Premier League 2023 2024,Round 32,07/04/,Brighton,Arsenal,0,3,2,g_1_zokF8CBk,6.43,4.61,1.52,0.38,3.55
+football,Premier League 2023 2024,Round 32,06/04/,Aston Villa,Brentford,3,3,1,g_1_dfjB9hdq,1.63,4.08,5.81,1.04,1.21
+football,Premier League 2023 2024,Round 32,06/04/,Everton,Burnley,1,0,0,g_1_WCrO6jt2,1.74,3.88,5.0,0.74,0.41
+football,Premier League 2023 2024,Round 32,06/04/,Fulham,Newcastle,0,1,2,g_1_pGW5VZI2,2.53,3.67,2.76,1.33,0.63
+football,Premier League 2023 2024,Round 32,06/04/,Luton,Bournemouth,2,1,0,g_1_O6V9UgY8,3.72,3.87,1.98,1.33,0.3
+football,Premier League 2023 2024,Round 32,06/04/,Wolves,West Ham,1,2,2,g_1_llFlNBQr,2.85,3.66,2.46,1.62,1.23
+football,Premier League 2023 2024,Round 32,06/04/,Crystal Palace,Manchester City,2,4,2,g_1_I9vK7WQe,10.7,5.09,1.35,1.4,2.08
+football,Premier League 2023 2024,Round 31,05/04/,Chelsea,Manchester Utd,4,3,0,g_1_jgBWGz49,1.86,4.25,3.86,2.82,1.54
+football,Premier League 2023 2024,Round 31,05/04/,Liverpool,Sheffield Utd,3,1,0,g_1_nL4uFEYL,1.08,16.6,23.0,1.74,0.64
+football,Premier League 2023 2024,Round 31,04/04/,Manchester City,Aston Villa,4,1,0,g_1_QB3qEYmS,1.22,7.28,13.9,2.66,0.84
+football,Premier League 2023 2024,Round 31,04/04/,Arsenal,Luton,2,0,0,g_1_8AVXeZRq,1.15,9.79,15.9,0.93,0.19
+football,Premier League 2023 2024,Round 31,04/04/,Brentford,Brighton,0,0,1,g_1_2XUyegsj,2.63,3.88,2.55,0.56,1.19
+football,Premier League 2023 2024,Round 31,03/04/,West Ham,Tottenham,1,1,1,g_1_dWBSHGl3,3.55,4.26,1.94,1.02,0.89
+football,Premier League 2023 2024,Round 31,03/04/,Bournemouth,Crystal Palace,1,0,0,g_1_n7P60FJS,1.89,3.93,4.05,1.22,0.1
+football,Premier League 2023 2024,Round 31,03/04/,Burnley,Wolves,1,1,1,g_1_tOTufDdd,2.43,3.69,2.88,0.98,0.84
+football,Premier League 2023 2024,Round 31,03/04/,Newcastle,Everton,1,1,1,g_1_4dFzGfJF,1.96,3.85,3.85,2.67,1.48
+football,Premier League 2023 2024,Round 31,03/04/,Nottingham,Fulham,3,1,0,g_1_IuDOIdZd,2.85,3.46,2.56,1.51,1.24
+football,Premier League 2023 2024,Round 30,01/04/,Manchester City,Arsenal,0,0,1,g_1_z3ro5w5c,1.98,3.83,3.76,1.01,0.7
+football,Premier League 2023 2024,Round 30,31/03/,Liverpool,Brighton,2,1,0,g_1_Mavs6Jki,1.32,6.13,9.14,2.78,0.43
+football,Premier League 2023 2024,Round 30,31/03/,Brentford,Manchester Utd,1,1,1,g_1_U5ierGcp,3.47,4.06,2.02,2.67,0.5
+football,Premier League 2023 2024,Round 30,31/03/,Aston Villa,Wolves,2,0,0,g_1_jLBYarTH,1.58,4.44,5.72,0.81,1.23
+football,Premier League 2023 2024,Round 30,31/03/,Bournemouth,Everton,2,1,0,g_1_CUCU0ODB,0.0,0.0,0.0,1.63,1.08
+football,Premier League 2023 2024,Round 30,31/03/,Chelsea,Burnley,2,2,1,g_1_8djaszDj,1.3,6.57,9.38,3.33,1.71
+football,Premier League 2023 2024,Round 30,31/03/,Nottingham,Crystal Palace,1,1,1,g_1_dIWg3HZ9,2.29,3.37,3.37,0.99,1.05
+football,Premier League 2023 2024,Round 30,31/03/,Sheffield Utd,Fulham,3,3,1,g_1_Qiyb2ykG,4.98,4.07,1.71,1.66,1.54
+football,Premier League 2023 2024,Round 30,31/03/,Tottenham,Luton,2,1,0,g_1_4rz21e4M,1.24,8.31,9.64,2.55,0.43
+football,Premier League 2023 2024,Round 30,30/03/,Newcastle,West Ham,4,3,0,g_1_IRXk4cK3,1.84,4.28,3.94,3.9,1.46
+football,Premier League 2023 2024,Round 29,17/03/,West Ham,Aston Villa,1,1,1,g_1_449M2pqa,2.47,3.8,2.76,1.77,0.54
+football,Premier League 2023 2024,Round 29,17/03/,Fulham,Tottenham,3,0,0,g_1_EFG95nat,3.51,4.1,1.99,2.93,2.31
+football,Premier League 2023 2024,Round 29,17/03/,Burnley,Brentford,2,1,0,g_1_bRnenPbI,3.27,3.8,2.17,2.89,1.09
+football,Premier League 2023 2024,Round 29,17/03/,Luton,Nottingham,1,1,1,g_1_rkLD46En,2.58,3.49,2.8,0.47,1.54
+football,Premier League 2023 2024,Round 17,14/03/,Bournemouth,Luton,4,3,0,g_1_zkobxEe6,1.57,4.81,5.41,2.58,2.09
+football,Premier League 2023 2024,Round 28,12/03/,Chelsea,Newcastle,3,2,0,g_1_xlGack7J,1.87,4.16,3.9,1.67,0.83
+football,Premier League 2023 2024,Round 28,11/03/,Liverpool,Manchester City,1,1,1,g_1_MLiWiTUt,3.63,3.85,2.02,2.82,1.5
+football,Premier League 2023 2024,Round 28,10/03/,Brighton,Nottingham,1,0,0,g_1_OWCIY5UI,1.66,4.35,5.07,0.51,0.64
+football,Premier League 2023 2024,Round 28,10/03/,West Ham,Burnley,2,2,1,g_1_Uoevj7ag,1.68,4.1,5.28,1.75,0.58
+football,Premier League 2023 2024,Round 28,10/03/,Aston Villa,Tottenham,0,4,2,g_1_ptEEZoFC,2.37,4.08,2.75,0.82,1.78
+football,Premier League 2023 2024,Round 28,10/03/,Arsenal,Brentford,2,1,0,g_1_2HO9zSa6,1.22,7.28,14.0,1.26,0.94
+football,Premier League 2023 2024,Round 28,10/03/,Bournemouth,Sheffield Utd,2,2,1,g_1_lEK5y8p0,1.38,5.8,7.67,2.7,1.15
+football,Premier League 2023 2024,Round 28,10/03/,Crystal Palace,Luton,1,1,1,g_1_GvF3d9MP,1.92,3.83,4.0,2.69,0.57
+football,Premier League 2023 2024,Round 28,10/03/,Wolves,Fulham,2,1,0,g_1_8xfrkREa,2.41,3.49,3.05,0.46,1.24
+football,Premier League 2023 2024,Round 28,09/03/,Manchester Utd,Everton,2,0,0,g_1_zPezimpm,1.86,3.85,4.32,2.93,1.26
+football,Premier League 2023 2024,Round 27,05/03/,Sheffield Utd,Arsenal,0,6,2,g_1_G0McwUFm,14.3,7.97,1.2,0.26,1.95
+football,Premier League 2023 2024,Round 27,04/03/,Manchester City,Manchester Utd,3,1,0,g_1_2gtNqWxK,1.29,6.83,9.51,3.15,0.19
+football,Premier League 2023 2024,Round 27,03/03/,Burnley,Bournemouth,0,2,2,g_1_vL8Uwtk1,3.8,3.69,2.02,1.6,1.19
+football,Premier League 2023 2024,Round 27,03/03/,Luton,Aston Villa,2,3,2,g_1_jJxJpCND,4.57,4.41,1.71,2.29,1.81
+football,Premier League 2023 2024,Round 27,03/03/,Brentford,Chelsea,2,2,1,g_1_0U9QvMZf,3.43,3.67,2.14,2.07,1.66
+football,Premier League 2023 2024,Round 27,03/03/,Everton,West Ham,1,3,2,g_1_8fDYx047,2.23,3.65,3.25,2.47,1.21
+football,Premier League 2023 2024,Round 27,03/03/,Fulham,Brighton,3,0,0,g_1_noCxxKJD,2.48,3.56,2.89,1.09,1.11
+football,Premier League 2023 2024,Round 27,03/03/,Newcastle,Wolves,3,0,0,g_1_dGuRrjhQ,1.76,4.27,4.4,2.29,0.7
+football,Premier League 2023 2024,Round 27,03/03/,Nottingham,Liverpool,0,1,2,g_1_bPRhvA0s,5.55,4.4,1.61,1.1,2.1
+football,Premier League 2023 2024,Round 27,03/03/,Tottenham,Crystal Palace,3,1,0,g_1_fiL1xlVg,1.55,4.58,6.03,1.58,0.41
+football,Premier League 2023 2024,Round 26,27/02/,West Ham,Brentford,4,2,0,g_1_42GHtr5r,2.27,3.65,3.15,1.56,1.05
+football,Premier League 2023 2024,Round 26,25/02/,Wolves,Sheffield Utd,1,0,0,g_1_I5KLu2Kl,1.48,4.6,7.38,1.23,0.58
+football,Premier League 2023 2024,Round 26,25/02/,Arsenal,Newcastle,4,1,0,g_1_vaXgR25e,1.4,5.59,7.37,2.4,0.14
+football,Premier League 2023 2024,Round 26,25/02/,Bournemouth,Manchester City,0,1,2,g_1_08YkSrjk,7.56,4.62,1.46,0.79,1.53
+football,Premier League 2023 2024,Round 26,25/02/,Aston Villa,Nottingham,4,2,0,g_1_MNMbQMK1,1.58,4.58,5.51,3.35,2.45
+football,Premier League 2023 2024,Round 26,25/02/,Brighton,Everton,1,1,1,g_1_zRQ2Ptz8,1.86,3.9,4.23,1.36,0.28
+football,Premier League 2023 2024,Round 26,25/02/,Crystal Palace,Burnley,3,0,0,g_1_SKDlmpSE,1.95,3.56,4.19,2.67,0.1
+football,Premier League 2023 2024,Round 26,25/02/,Manchester Utd,Fulham,1,2,2,g_1_nNTkoOdR,1.64,4.36,5.21,1.66,1.1
+football,Premier League 2023 2024,Round 26,22/02/,Liverpool,Luton,4,1,0,g_1_8WUon4sL,1.31,6.48,8.99,3.35,1.03
+football,Premier League 2023 2024,Round 18,21/02/,Manchester City,Brentford,1,0,0,g_1_lYE0wFcc,1.2,7.97,14.3,2.46,0.34
+football,Premier League 2023 2024,Round 25,20/02/,Everton,Crystal Palace,1,1,1,g_1_QwIFQVEp,1.83,3.46,5.09,1.66,0.62
+football,Premier League 2023 2024,Round 25,19/02/,Luton,Manchester Utd,1,2,2,g_1_tn02lZ6i,4.27,4.06,1.82,1.75,3.11
+football,Premier League 2023 2024,Round 25,18/02/,Sheffield Utd,Brighton,0,5,2,g_1_f96Ipi6G,4.76,4.42,1.68,0.64,3.34
+football,Premier League 2023 2024,Round 25,18/02/,Manchester City,Chelsea,1,1,1,g_1_Kxa6mgMc,1.36,5.91,7.94,2.81,1.42
+football,Premier League 2023 2024,Round 25,18/02/,Burnley,Arsenal,0,5,2,g_1_8bVmVB6T,10.7,5.86,1.3,0.28,2.6
+football,Premier League 2023 2024,Round 25,18/02/,Fulham,Aston Villa,1,2,2,g_1_4UGJPkUj,3.08,3.84,2.25,1.26,1.66
+football,Premier League 2023 2024,Round 25,18/02/,Newcastle,Bournemouth,2,2,1,g_1_EabAnDy4,1.95,4.1,3.63,2.53,2.16
+football,Premier League 2023 2024,Round 25,18/02/,Nottingham,West Ham,2,0,0,g_1_CpHDoXjA,2.32,3.61,3.1,2.79,0.6
+football,Premier League 2023 2024,Round 25,18/02/,Tottenham,Wolves,1,2,2,g_1_WYToTOzq,1.53,5.13,5.55,1.12,1.59
+football,Premier League 2023 2024,Round 25,17/02/,Brentford,Liverpool,1,4,2,g_1_feRqWiiN,5.08,4.27,1.66,1.31,2.11
+football,Premier League 2023 2024,Round 24,13/02/,Crystal Palace,Chelsea,1,3,2,g_1_I9G5IYMN,5.06,4.07,1.7,0.5,1.24
+football,Premier League 2023 2024,Round 24,12/02/,Aston Villa,Manchester Utd,1,2,2,g_1_vJH1JE7H,2.27,3.87,3.01,2.77,1.81
+football,Premier League 2023 2024,Round 24,11/02/,West Ham,Arsenal,0,6,2,g_1_YuwyYDMA,5.86,4.31,1.59,0.3,3.65
+football,Premier League 2023 2024,Round 24,11/02/,Nottingham,Newcastle,2,3,2,g_1_nPvTZZib,3.32,3.83,2.13,1.17,0.5
+football,Premier League 2023 2024,Round 24,11/02/,Fulham,Bournemouth,3,1,0,g_1_zoBAHhxU,2.45,3.69,2.85,1.41,2.3
+football,Premier League 2023 2024,Round 24,11/02/,Liverpool,Burnley,3,1,0,g_1_xfcxDCpo,1.18,7.99,17.7,2.2,0.61
+football,Premier League 2023 2024,Round 24,11/02/,Luton,Sheffield Utd,1,3,2,g_1_jcoKydNo,1.72,3.99,5.04,1.67,1.71
+football,Premier League 2023 2024,Round 24,11/02/,Tottenham,Brighton,2,1,0,g_1_QFwXYg74,1.74,4.45,4.28,1.54,1.25
+football,Premier League 2023 2024,Round 24,11/02/,Wolves,Brentford,0,2,2,g_1_CWyuXXyH,2.19,3.57,3.39,1.02,1.92
+football,Premier League 2023 2024,Round 24,10/02/,Manchester City,Everton,2,0,0,g_1_40kOzGxh,1.22,7.28,14.1,1.38,0.24
+football,Premier League 2023 2024,Round 23,06/02/,Brentford,Manchester City,1,3,2,g_1_QFiS4FhO,7.91,5.29,1.4,1.08,2.35
+football,Premier League 2023 2024,Round 23,05/02/,Arsenal,Liverpool,3,1,0,g_1_WhhO5ewI,2.24,3.71,3.19,3.68,0.46
+football,Premier League 2023 2024,Round 23,04/02/,Bournemouth,Nottingham,1,1,1,g_1_h2gK6yOB,1.7,4.4,4.68,1.05,0.59
+football,Premier League 2023 2024,Round 23,04/02/,Chelsea,Wolves,2,4,2,g_1_rXLtOxgn,1.58,4.31,6.08,1.94,2.01
+football,Premier League 2023 2024,Round 23,04/02/,Manchester Utd,West Ham,3,0,0,g_1_jcPlMGNb,1.57,4.45,5.88,0.81,1.74
+football,Premier League 2023 2024,Round 23,04/02/,Sheffield Utd,Aston Villa,0,5,2,g_1_pdIcKfhB,5.31,4.31,1.64,1.27,2.34
+football,Premier League 2023 2024,Round 23,04/02/,Brighton,Crystal Palace,4,1,0,g_1_vJeW3Z7U,1.74,3.87,5.1,1.68,0.32
+football,Premier League 2023 2024,Round 23,04/02/,Burnley,Fulham,2,2,1,g_1_4tNxPIwt,3.0,3.41,2.48,1.72,1.21
+football,Premier League 2023 2024,Round 23,04/02/,Newcastle,Luton,4,4,1,g_1_YLEgLzw5,1.56,4.61,5.84,2.17,1.99
+football,Premier League 2023 2024,Round 23,03/02/,Everton,Tottenham,2,2,1,g_1_C6QpNd8h,3.34,3.83,2.13,2.49,0.9
+football,Premier League 2023 2024,Round 22,02/02/,Wolves,Manchester Utd,3,4,2,g_1_vPKBAJOn,3.13,3.6,2.31,2.13,2.73
+football,Premier League 2023 2024,Round 22,02/02/,West Ham,Bournemouth,1,1,1,g_1_d0V6Ba9t,2.28,3.69,3.12,1.15,1.09
+football,Premier League 2023 2024,Round 22,01/02/,Liverpool,Chelsea,4,1,0,g_1_nkOJ8cga,1.66,4.3,5.17,2.9,0.54
+football,Premier League 2023 2024,Round 22,01/02/,Manchester City,Burnley,3,1,0,g_1_QuNN7H85,1.1,12.1,22.0,1.76,1.39
+football,Premier League 2023 2024,Round 22,01/02/,Tottenham,Brentford,3,2,0,g_1_fiquGu1P,1.61,4.44,5.45,3.26,1.93
+football,Premier League 2023 2024,Round 22,31/01/,Aston Villa,Newcastle,1,3,2,g_1_Yobpfbv6,1.96,4.09,3.63,1.39,2.54
+football,Premier League 2023 2024,Round 22,31/01/,Crystal Palace,Sheffield Utd,3,2,0,g_1_hSOF9wvg,1.63,3.83,6.52,1.29,0.72
+football,Premier League 2023 2024,Round 22,31/01/,Fulham,Everton,0,0,1,g_1_pM1lgIgC,2.19,3.24,3.77,1.82,1.25
+football,Premier League 2023 2024,Round 22,31/01/,Luton,Brighton,4,0,0,g_1_Spighx9I,4.2,4.2,1.8,2.59,0.76
+football,Premier League 2023 2024,Round 22,31/01/,Nottingham,Arsenal,1,2,2,g_1_6yjcidOO,9.05,5.0,1.39,0.36,1.25
+football,Premier League 2023 2024,Round 21,23/01/,Brighton,Wolves,0,0,1,g_1_d20Di5I7,1.71,4.15,4.85,1.39,1.59
+football,Premier League 2023 2024,Round 21,22/01/,Bournemouth,Liverpool,0,4,2,g_1_Wf31f7Yl,4.81,4.6,1.65,1.52,1.71
+football,Premier League 2023 2024,Round 21,21/01/,Sheffield Utd,West Ham,2,2,1,g_1_vPbtevPa,3.12,3.37,2.42,2.05,2.18
+football,Premier League 2023 2024,Round 21,21/01/,Brentford,Nottingham,3,2,0,g_1_IB19ho31,1.82,3.81,4.56,1.47,1.22
+football,Premier League 2023 2024,Round 21,20/01/,Arsenal,Crystal Palace,5,0,0,g_1_Ao25gRme,1.26,6.11,13.0,3.5,0.38
+football,Premier League 2023 2024,Round 21,15/01/,Manchester Utd,Tottenham,2,2,1,g_1_rc5Xd0fm,1.98,4.06,3.58,0.91,1.46
+football,Premier League 2023 2024,Round 21,14/01/,Everton,Aston Villa,0,0,1,g_1_466Tctus,2.81,3.56,2.54,1.28,1.02
+football,Premier League 2023 2024,Round 21,14/01/,Newcastle,Manchester City,2,3,2,g_1_0YaxdK9g,5.12,4.1,1.69,1.15,3.27
+football,Premier League 2023 2024,Round 21,13/01/,Chelsea,Fulham,1,0,0,g_1_CAr0F8AE,1.64,4.27,5.34,2.39,0.87
+football,Premier League 2023 2024,Round 21,13/01/,Burnley,Luton,1,1,1,g_1_b7vdGle8,2.12,3.48,3.7,0.91,0.72
+football,Premier League 2023 2024,Round 20,03/01/,West Ham,Brighton,0,0,1,g_1_CAMUaTAR,2.93,3.61,2.43,0.61,1.48
+football,Premier League 2023 2024,Round 20,02/01/,Liverpool,Newcastle,4,2,0,g_1_URtWvSY1,1.42,5.38,7.12,7.2,0.67
+football,Premier League 2023 2024,Round 20,31/12/,Fulham,Arsenal,2,1,0,g_1_WtOSu8Je,6.66,4.09,1.57,1.31,1.63
+football,Premier League 2023 2024,Round 20,31/12/,Tottenham,Bournemouth,3,1,0,g_1_ImNQ09eL,1.73,4.61,4.23,2.2,1.64
+football,Premier League 2023 2024,Round 20,31/12/,Nottingham,Manchester Utd,2,1,0,g_1_vcOM1ktF,3.64,3.68,2.06,0.92,0.72
+football,Premier League 2023 2024,Round 20,31/12/,Aston Villa,Burnley,3,2,0,g_1_ARZJsUlq,1.41,5.33,7.65,3.0,0.98
+football,Premier League 2023 2024,Round 20,31/12/,Crystal Palace,Brentford,3,1,0,g_1_lIYNtl4k,2.1,3.38,3.85,1.0,1.4
+football,Premier League 2023 2024,Round 20,31/12/,Manchester City,Sheffield Utd,2,0,0,g_1_MLTH2VQ8,1.09,14.7,21.0,2.26,0.33
+football,Premier League 2023 2024,Round 20,31/12/,Wolves,Everton,3,0,0,g_1_lWDdemJr,2.96,3.32,2.55,2.23,0.52
+football,Premier League 2023 2024,Round 20,30/12/,Luton,Chelsea,2,3,2,g_1_rVUD3BB2,5.39,4.45,1.61,2.81,1.57
+football,Premier League 2023 2024,Round 19,29/12/,Arsenal,West Ham,0,2,2,g_1_xbmlUAKq,1.31,6.11,9.67,2.87,1.51
+football,Premier League 2023 2024,Round 19,29/12/,Brighton,Tottenham,4,2,0,g_1_ABodSlkd,2.81,3.81,2.43,3.62,2.15
+football,Premier League 2023 2024,Round 19,28/12/,Everton,Manchester City,1,3,2,g_1_rHkukCd9,6.26,4.1,1.59,1.03,2.8
+football,Premier League 2023 2024,Round 19,28/12/,Brentford,Wolves,1,4,2,g_1_WKnhTUZk,2.35,3.47,3.14,2.32,1.8
+football,Premier League 2023 2024,Round 19,28/12/,Chelsea,Crystal Palace,2,1,0,g_1_lfjyjhs3,1.74,3.81,5.2,2.59,0.99
+football,Premier League 2023 2024,Round 19,27/12/,Manchester Utd,Aston Villa,3,2,0,g_1_dKgqlWBF,2.44,3.84,2.78,1.02,1.73
+football,Premier League 2023 2024,Round 19,27/12/,Burnley,Liverpool,0,2,2,g_1_A3iXjYRd,8.84,5.34,1.37,0.72,1.75
+football,Premier League 2023 2024,Round 19,27/12/,Bournemouth,Fulham,3,0,0,g_1_0xdMYjCS,1.95,3.88,3.83,1.89,0.25
+football,Premier League 2023 2024,Round 19,27/12/,Sheffield Utd,Luton,2,3,2,g_1_IZshnAtS,0.0,0.0,0.0,2.78,0.58
+football,Premier League 2023 2024,Round 19,26/12/,Newcastle,Nottingham,1,3,2,g_1_vqqlmjRL,1.43,5.31,6.93,2.77,3.64
+football,Premier League 2023 2024,Round 18,24/12/,Wolves,Chelsea,2,1,0,g_1_ID6HZWdM,3.56,3.72,2.08,1.39,1.94
+football,Premier League 2023 2024,Round 18,24/12/,Liverpool,Arsenal,1,1,1,g_1_OfNEFB5j,2.27,3.83,3.03,1.01,0.87
+football,Premier League 2023 2024,Round 18,24/12/,Fulham,Burnley,0,2,2,g_1_p4OAGijp,1.72,3.72,5.56,1.23,0.47
+football,Premier League 2023 2024,Round 18,24/12/,Luton,Newcastle,1,0,0,g_1_xbBdveri,5.77,4.29,1.6,1.8,1.55
+football,Premier League 2023 2024,Round 18,24/12/,Nottingham,Bournemouth,2,3,2,g_1_Wd45xZC3,2.94,3.46,2.49,0.8,1.7
+football,Premier League 2023 2024,Round 18,24/12/,Tottenham,Everton,2,1,0,g_1_Am39ygS9,1.69,4.31,4.83,1.25,1.86
+football,Premier League 2023 2024,Round 18,23/12/,West Ham,Manchester Utd,2,0,0,g_1_vN7DzDsG,2.26,3.86,3.03,1.35,0.92
+football,Premier League 2023 2024,Round 18,23/12/,Aston Villa,Sheffield Utd,1,1,1,g_1_QJsvMDSM,1.21,7.28,14.9,0.87,0.52
+football,Premier League 2023 2024,Round 18,22/12/,Crystal Palace,Brighton,1,1,1,g_1_4AtrLXsT,3.45,3.3,2.29,1.2,1.13
+football,Premier League 2023 2024,Round 17,18/12/,Liverpool,Manchester Utd,0,0,1,g_1_23yKQyEi,1.37,6.09,7.41,2.66,0.52
+football,Premier League 2023 2024,Round 17,17/12/,Arsenal,Brighton,2,0,0,g_1_Eup2yYAC,1.46,5.12,6.61,2.21,0.72
+football,Premier League 2023 2024,Round 17,17/12/,Brentford,Aston Villa,1,2,2,g_1_82q6zhQI,3.48,3.61,2.14,0.54,1.31
+football,Premier League 2023 2024,Round 17,17/12/,West Ham,Wolves,3,0,0,g_1_WdrzNgDG,1.9,3.67,4.34,0.99,0.61
+football,Premier League 2023 2024,Round 17,17/12/,Burnley,Everton,0,2,2,g_1_KvCZIPfo,3.63,3.57,2.1,0.8,1.29
+football,Premier League 2023 2024,Round 17,17/12/,Chelsea,Sheffield Utd,2,0,0,g_1_OCxGRHbo,1.2,7.97,13.8,2.75,0.35
+football,Premier League 2023 2024,Round 17,17/12/,Manchester City,Crystal Palace,2,2,1,g_1_dvjNPeTc,1.18,8.06,16.1,1.57,1.98
+football,Premier League 2023 2024,Round 17,17/12/,Newcastle,Fulham,3,0,0,g_1_zVlROFr4,1.86,3.82,4.33,3.78,0.31
+football,Premier League 2023 2024,Round 17,16/12/,Nottingham,Tottenham,0,2,2,g_1_IgvWNZcA,5.19,4.27,1.66,1.47,1.31
+football,Premier League 2023 2024,Round 16,11/12/,Tottenham,Newcastle,4,1,0,g_1_vNikvzRg,2.06,3.86,3.5,3.99,1.52
+football,Premier League 2023 2024,Round 16,10/12/,Everton,Chelsea,2,0,0,g_1_0xKSMYeJ,2.74,3.56,2.59,0.95,0.83
+football,Premier League 2023 2024,Round 16,10/12/,Fulham,West Ham,5,0,0,g_1_lhDAoIYJ,2.35,3.56,3.09,2.4,1.5
+football,Premier League 2023 2024,Round 16,10/12/,Luton,Manchester City,1,2,2,g_1_SrCEpxlQ,14.9,7.97,1.19,0.36,1.37
+football,Premier League 2023 2024,Round 16,10/12/,Aston Villa,Arsenal,1,0,0,g_1_QJRFPzC0,3.65,3.8,2.03,0.49,1.51
+football,Premier League 2023 2024,Round 16,10/12/,Brighton,Burnley,1,1,1,g_1_vNVJOfR6,1.57,4.31,6.27,2.52,1.02
+football,Premier League 2023 2024,Round 16,10/12/,Manchester Utd,Bournemouth,0,3,2,g_1_YPlstdds,1.65,4.45,5.02,0.96,1.26
+football,Premier League 2023 2024,Round 16,10/12/,Sheffield Utd,Brentford,1,0,0,g_1_p0houGBm,4.65,3.92,1.78,0.77,0.72
+football,Premier League 2023 2024,Round 16,10/12/,Wolves,Nottingham,1,1,1,g_1_IDjgwft0,1.9,3.36,4.87,1.19,0.82
+football,Premier League 2023 2024,Round 16,09/12/,Crystal Palace,Liverpool,1,2,2,g_1_MoLONEtD,7.17,4.87,1.46,1.99,1.26
+football,Premier League 2023 2024,Round 15,08/12/,Tottenham,West Ham,1,2,2,g_1_AoQrXIJQ,1.67,4.22,5.14,1.59,1.83
+football,Premier League 2023 2024,Round 15,08/12/,Everton,Newcastle,3,0,0,g_1_MPqlByc7,3.55,3.5,2.16,3.17,1.27
+football,Premier League 2023 2024,Round 15,07/12/,Aston Villa,Manchester City,1,0,0,g_1_EattDcSf,5.74,4.27,1.61,2.06,0.86
+football,Premier League 2023 2024,Round 15,07/12/,Manchester Utd,Chelsea,2,1,0,g_1_WdSBQGdf,2.61,3.59,2.7,4.11,1.43
+football,Premier League 2023 2024,Round 15,07/12/,Brighton,Brentford,2,1,0,g_1_hjupCHs1,1.78,4.05,4.52,1.4,1.15
+football,Premier League 2023 2024,Round 15,07/12/,Crystal Palace,Bournemouth,0,2,2,g_1_h6T7Rdsl,2.3,3.57,3.17,0.71,1.97
+football,Premier League 2023 2024,Round 15,07/12/,Fulham,Nottingham,5,0,0,g_1_0GrhAeCD,1.98,3.5,4.15,2.08,0.32
+football,Premier League 2023 2024,Round 15,07/12/,Sheffield Utd,Liverpool,0,2,2,g_1_GOQvYb4K,16.4,7.61,1.19,0.69,1.91
+football,Premier League 2023 2024,Round 15,06/12/,Luton,Arsenal,3,4,2,g_1_2LMzZvkE,17.2,8.08,1.18,0.47,2.79
+football,Premier League 2023 2024,Round 15,06/12/,Wolves,Burnley,1,0,0,g_1_CfCASxSs,1.89,3.67,4.39,0.85,0.85
+football,Premier League 2023 2024,Round 14,04/12/,Manchester City,Tottenham,3,3,1,g_1_xKn2KuzL,1.28,6.69,10.3,2.87,0.54
+football,Premier League 2023 2024,Round 14,03/12/,Bournemouth,Aston Villa,2,2,1,g_1_hWCb0Krk,3.35,4.11,2.05,1.81,1.0
+football,Premier League 2023 2024,Round 14,03/12/,Chelsea,Brighton,3,2,0,g_1_thggM158,1.61,4.45,5.39,1.91,0.92
+football,Premier League 2023 2024,Round 14,03/12/,Liverpool,Fulham,4,3,0,g_1_KrhcLLKE,1.26,7.08,10.8,2.51,1.21
+football,Premier League 2023 2024,Round 14,03/12/,West Ham,Crystal Palace,1,1,1,g_1_WziyEwDl,1.89,3.67,4.39,1.1,0.83
+football,Premier League 2023 2024,Round 14,03/12/,Newcastle,Manchester Utd,1,0,0,g_1_GAo6JakR,2.0,3.85,3.69,2.98,0.38
+football,Premier League 2023 2024,Round 14,03/12/,Nottingham,Everton,0,1,2,g_1_YkYXEJcr,2.85,3.16,2.75,0.61,0.63
+football,Premier League 2023 2024,Round 14,03/12/,Arsenal,Wolves,2,1,0,g_1_WMB2avbe,1.24,6.79,13.3,2.89,0.77
+football,Premier League 2023 2024,Round 14,03/12/,Brentford,Luton,3,1,0,g_1_Eo17bbD1,1.55,4.31,6.54,2.84,0.18
+football,Premier League 2023 2024,Round 14,03/12/,Burnley,Sheffield Utd,5,0,0,g_1_Sl5BcIS7,1.82,3.69,4.75,1.41,0.38
+football,Premier League 2023 2024,Round 13,28/11/,Fulham,Wolves,3,2,0,g_1_x0jTpuq2,2.44,3.38,3.08,2.97,1.46
+football,Premier League 2023 2024,Round 13,27/11/,Everton,Manchester Utd,0,3,2,g_1_b9iPoLTe,3.01,3.38,2.49,1.67,2.23
+football,Premier League 2023 2024,Round 13,26/11/,Tottenham,Aston Villa,1,2,2,g_1_p6Df10Tr,2.43,3.85,2.79,2.09,1.77
+football,Premier League 2023 2024,Round 13,26/11/,Brentford,Arsenal,0,1,2,g_1_hClHmsaq,6.18,4.12,1.6,1.08,1.49
+football,Premier League 2023 2024,Round 13,26/11/,Burnley,West Ham,1,2,2,g_1_4nhLn1Ek,3.72,3.72,2.1,1.4,1.07
+football,Premier League 2023 2024,Round 13,26/11/,Luton,Crystal Palace,2,1,0,g_1_EHZB9OL2,4.19,3.49,2.04,0.92,1.02
+football,Premier League 2023 2024,Round 13,26/11/,Newcastle,Chelsea,4,1,0,g_1_nVXJ72jF,2.73,3.74,2.62,2.58,0.66
+football,Premier League 2023 2024,Round 13,26/11/,Nottingham,Brighton,2,3,2,g_1_0YyO6M5L,3.34,3.65,2.26,1.49,1.66
+football,Premier League 2023 2024,Round 13,26/11/,Sheffield Utd,Bournemouth,1,3,2,g_1_rcRS5tLR,3.35,3.66,2.25,0.53,2.76
+football,Premier League 2023 2024,Round 13,25/11/,Manchester City,Liverpool,1,1,1,g_1_h8YF8ry9,1.77,4.4,4.5,1.38,0.55
+football,Premier League 2023 2024,Round 12,13/11/,Chelsea,Manchester City,4,4,1,g_1_UVvS9XFo,5.41,3.84,1.71,3.07,3.28
+football,Premier League 2023 2024,Round 12,12/11/,Aston Villa,Fulham,3,1,0,g_1_EJ4IkUUT,1.69,4.1,5.12,3.48,0.7
+football,Premier League 2023 2024,Round 12,12/11/,Brighton,Sheffield Utd,1,1,1,g_1_GSjpolwo,1.28,6.49,10.8,1.76,0.57
+football,Premier League 2023 2024,Round 12,12/11/,Liverpool,Brentford,3,0,0,g_1_QcYz8Bpb,1.39,5.59,7.63,1.32,1.52
+football,Premier League 2023 2024,Round 12,12/11/,West Ham,Nottingham,3,2,0,g_1_YNyq6kFA,1.83,3.8,4.56,1.32,1.34
+football,Premier League 2023 2024,Round 12,12/11/,Bournemouth,Newcastle,2,0,0,g_1_86ZHij0H,4.08,3.67,1.95,0.71,0.29
+football,Premier League 2023 2024,Round 12,12/11/,Arsenal,Burnley,3,1,0,g_1_ncYLjAFN,1.26,6.53,14.0,2.31,0.28
+football,Premier League 2023 2024,Round 12,12/11/,Crystal Palace,Everton,2,3,2,g_1_rZrW8iVi,2.56,3.31,3.1,1.73,1.51
+football,Premier League 2023 2024,Round 12,12/11/,Manchester Utd,Luton,1,0,0,g_1_4lXv7Va4,1.33,6.11,10.0,2.0,0.41
+football,Premier League 2023 2024,Round 12,11/11/,Wolves,Tottenham,2,1,0,g_1_CEzm59UG,0.0,0.0,0.0,1.87,0.82
+football,Premier League 2023 2024,Round 11,07/11/,Tottenham2,Chelsea,1,4,2,g_1_EqzEhWpB,2.31,3.7,3.21,0.86,3.47
+football,Premier League 2023 2024,Round 11,06/11/,Luton,Liverpool,1,1,1,g_1_W0vgcfWu,12.6,7.96,1.21,0.74,3.48
+football,Premier League 2023 2024,Round 11,05/11/,Nottingham,Aston Villa,2,0,0,g_1_IHt5fhGb,4.27,3.84,1.86,0.44,1.25
+football,Premier League 2023 2024,Round 11,05/11/,Newcastle,Arsenal,1,0,0,g_1_vRs1eY0h,2.88,3.09,2.78,1.06,0.53
+football,Premier League 2023 2024,Round 11,05/11/,Brentford,West Ham,3,2,0,g_1_MkBzuDGB,2.06,3.89,3.68,1.23,1.87
+football,Premier League 2023 2024,Round 11,05/11/,Burnley,Crystal Palace,0,2,2,g_1_0tAvvXVH,3.29,3.31,2.44,1.22,1.39
+football,Premier League 2023 2024,Round 11,05/11/,Everton,Brighton,1,1,1,g_1_f39rwioO,2.93,3.86,2.41,0.77,0.58
+football,Premier League 2023 2024,Round 11,05/11/,Manchester City,Bournemouth,6,1,0,g_1_AiwcdEon,1.11,12.6,29.0,1.74,0.62
+football,Premier League 2023 2024,Round 11,05/11/,Sheffield Utd,Wolves,2,1,0,g_1_0tW9gCV4,3.95,3.83,2.0,1.04,1.35
+football,Premier League 2023 2024,Round 11,04/11/,Fulham,Manchester Utd,0,1,2,g_1_6wDnxB0U,3.29,3.71,2.26,0.96,0.65
+football,Premier League 2023 2024,Round 10,30/10/,Manchester Utd,Manchester City,0,3,2,g_1_W0INsFWh,5.64,4.3,1.61,0.94,4.09
+football,Premier League 2023 2024,Round 10,29/10/,Aston Villa,Luton,3,1,0,g_1_SSk1QD1I,1.37,5.59,8.11,2.63,0.11
+football,Premier League 2023 2024,Round 10,29/10/,Brighton,Fulham,1,1,1,g_1_6Jl5PXGO,1.68,4.08,5.24,1.2,0.66
+football,Premier League 2023 2024,Round 10,29/10/,Liverpool,Nottingham,3,0,0,g_1_IcEJreHn,1.24,7.2,12.0,3.1,0.45
+football,Premier League 2023 2024,Round 10,29/10/,West Ham,Everton,0,1,2,g_1_QNHRtZoa,2.03,3.66,3.8,0.52,0.46
+football,Premier League 2023 2024,Round 10,29/10/,Wolves,Newcastle,2,2,1,g_1_4EGVug15,4.37,3.93,1.83,1.01,2.13
+football,Premier League 2023 2024,Round 10,28/10/,Arsenal,Sheffield Utd,5,0,0,g_1_p40dRgnC,1.14,9.53,21.0,2.58,0.03
+football,Premier League 2023 2024,Round 10,28/10/,Bournemouth,Burnley,2,1,0,g_1_W0dhSZW5,2.21,3.59,3.34,1.21,0.77
+football,Premier League 2023 2024,Round 10,28/10/,Chelsea,Brentford,0,2,2,g_1_YPxmlHgP,1.66,4.32,5.55,1.79,2.34
+football,Premier League 2023 2024,Round 10,28/10/,Crystal Palace,Tottenham,1,2,2,g_1_zZOEqy2t,4.84,3.87,1.82,0.54,1.23
+football,Premier League 2023 2024,Round 9,24/10/,Tottenham,Fulham,2,0,0,g_1_xvclTFHa,1.5,4.69,6.65,1.58,0.92
+football,Premier League 2023 2024,Round 9,23/10/,Aston Villa,West Ham,4,1,0,g_1_xQHFEG26,1.9,3.83,4.1,1.96,1.13
+football,Premier League 2023 2024,Round 9,22/10/,Sheffield Utd,Manchester Utd,1,2,2,g_1_bmbpUe2g,7.57,5.8,1.38,1.44,1.03
+football,Premier League 2023 2024,Round 9,22/10/,Chelsea,Arsenal,2,2,1,g_1_pjLNCfXI,3.46,3.26,2.3,1.39,1.05
+football,Premier League 2023 2024,Round 9,21/10/,Bournemouth,Wolves,1,2,2,g_1_bZIBFdm0,2.49,3.5,2.92,0.54,1.14
+football,Premier League 2023 2024,Round 9,21/10/,Brentford,Burnley,3,0,0,g_1_6aMJDzIC,1.71,3.91,5.2,2.06,0.17
+football,Premier League 2023 2024,Round 9,21/10/,Manchester City,Brighton,2,1,0,g_1_ptI9zbPP,1.37,6.13,7.22,0.77,0.57
+football,Premier League 2023 2024,Round 9,21/10/,Newcastle,Crystal Palace,4,0,0,g_1_2L4yWHXt,1.46,4.6,7.62,2.15,0.31
+football,Premier League 2023 2024,Round 9,21/10/,Nottingham,Luton,2,2,1,g_1_tC3uVymm,1.7,3.77,5.61,2.39,1.79
+football,Premier League 2023 2024,Round 9,21/10/,Liverpool,Everton,2,0,0,g_1_nea6yvAJ,1.42,5.39,7.25,2.4,0.12
+football,Premier League 2023 2024,Round 8,09/10/,Arsenal,Manchester City,1,0,0,g_1_Od6ZF5sq,3.31,3.35,2.32,0.46,0.47
+football,Premier League 2023 2024,Round 8,08/10/,Brighton,Liverpool,2,2,1,g_1_2m5wFPdk,3.5,4.32,2.01,2.31,2.74
+football,Premier League 2023 2024,Round 8,08/10/,West Ham,Newcastle,2,2,1,g_1_27P2HIIm,3.35,3.78,2.21,1.09,1.93
+football,Premier League 2023 2024,Round 8,08/10/,Wolves,Aston Villa,1,1,1,g_1_GAT6GxYg,3.62,3.78,2.11,1.27,1.74
+football,Premier League 2023 2024,Round 8,08/10/,Crystal Palace,Nottingham,0,0,1,g_1_bFbnD3R1,2.2,3.19,3.8,0.92,1.32
+football,Premier League 2023 2024,Round 8,07/10/,Burnley,Chelsea,1,4,2,g_1_pCfrEqCe,5.64,4.04,1.65,0.49,1.49
+football,Premier League 2023 2024,Round 8,07/10/,Everton,Bournemouth,3,0,0,g_1_CInUym42,1.9,3.67,4.34,2.09,0.81
+football,Premier League 2023 2024,Round 8,07/10/,Fulham,Sheffield Utd,3,1,0,g_1_j9oYz7J8,1.57,4.11,6.66,2.22,0.61
+football,Premier League 2023 2024,Round 8,07/10/,Manchester Utd,Brentford,2,1,0,g_1_8pQbIb3s,1.65,4.3,5.22,1.16,0.97
+football,Premier League 2023 2024,Round 8,07/10/,Luton,Tottenham,0,1,2,g_1_WK2VZQYE,7.8,5.13,1.42,0.8,2.27
+football,Premier League 2023 2024,Round 2,04/10/,Luton,Burnley,1,2,2,g_1_v7i1fwb8,3.13,3.17,2.53,1.26,0.96
+football,Premier League 2023 2024,Round 7,03/10/,Fulham,Chelsea,0,2,2,g_1_nHh6GHGd,3.82,3.48,2.08,1.08,1.73
+football,Premier League 2023 2024,Round 7,01/10/,Nottingham,Brentford,1,1,1,g_1_bFMfNmk9,2.56,3.09,3.17,0.42,1.61
+football,Premier League 2023 2024,Round 7,01/10/,Tottenham,Liverpool2,2,1,0,g_1_AkQbM74F,3.29,3.87,2.14,0.0,0.0
+football,Premier League 2023 2024,Round 7,30/09/,Bournemouth,Arsenal,0,4,2,g_1_xr3WMJwT,6.06,4.61,1.54,0.58,3.16
+football,Premier League 2023 2024,Round 7,30/09/,Everton,Luton,1,2,2,g_1_8Qg2Hc1j,1.63,3.89,6.27,2.74,0.78
+football,Premier League 2023 2024,Round 7,30/09/,Manchester Utd,Crystal Palace,0,1,2,g_1_Q1OnP9Kd,1.56,4.28,6.5,1.73,0.81
+football,Premier League 2023 2024,Round 7,30/09/,Newcastle,Burnley,2,0,0,g_1_4hNjOTZ2,1.42,5.13,7.64,2.98,0.8
+football,Premier League 2023 2024,Round 7,30/09/,West Ham,Sheffield Utd,2,0,0,g_1_hEF3LRJL,1.46,4.62,7.64,1.98,0.94
+football,Premier League 2023 2024,Round 7,30/09/,Wolves,Manchester City,2,1,0,g_1_W4E7KoZR,8.19,5.08,1.41,0.39,0.77
+football,Premier League 2023 2024,Round 7,30/09/,Aston Villa,Brighton,6,1,0,g_1_E3fbIwnp,2.7,3.69,2.56,1.48,1.64
+football,Premier League 2023 2024,Round 6,25/09/,Sheffield Utd,Newcastle,0,8,2,g_1_fJDRNaOM,6.57,4.41,1.54,0.86,3.77
+football,Premier League 2023 2024,Round 6,24/09/,Arsenal,Tottenham,2,2,1,g_1_zevkAtfN,1.63,4.46,5.2,2.14,1.69
+football,Premier League 2023 2024,Round 6,24/09/,Brighton,Bournemouth,3,1,0,g_1_fuLL4KHp,1.51,4.88,6.07,1.58,1.41
+football,Premier League 2023 2024,Round 6,24/09/,Chelsea,Aston Villa,0,1,2,g_1_nZ77SN9i,1.93,3.82,4.0,1.54,1.12
+football,Premier League 2023 2024,Round 6,24/09/,Liverpool,West Ham,3,1,0,g_1_r11GQ1v4,1.38,5.38,8.18,3.42,1.22
+football,Premier League 2023 2024,Round 6,24/09/,Burnley,Manchester Utd,0,1,2,g_1_YVJP3vXj,4.62,3.9,1.79,0.97,0.86
+football,Premier League 2023 2024,Round 6,24/09/,Brentford,Everton,1,3,2,g_1_Eowg909T,1.98,3.83,4.03,1.16,1.67
+football,Premier League 2023 2024,Round 6,23/09/,Crystal Palace,Fulham,0,0,1,g_1_0xCBRsPc,2.03,3.34,4.2,0.32,0.72
+football,Premier League 2023 2024,Round 6,23/09/,Luton,Wolves,1,1,1,g_1_Mi0KPLgA,3.38,3.35,2.29,1.8,0.54
+football,Premier League 2023 2024,Round 6,23/09/,Manchester City,Nottingham,2,0,0,g_1_GSENOu9G,1.18,8.68,15.2,1.45,0.87
+football,Premier League 2023 2024,Round 5,19/09/,Nottingham,Burnley,1,1,1,g_1_8rmYDOfb,2.0,3.6,3.95,0.73,0.58
+football,Premier League 2023 2024,Round 5,18/09/,Everton,Arsenal,0,1,2,g_1_MiEFesuU,6.68,4.61,1.5,0.27,1.09
+football,Premier League 2023 2024,Round 5,17/09/,Bournemouth,Chelsea,0,0,1,g_1_lvG7c3AH,4.33,3.89,1.84,1.16,1.73
+football,Premier League 2023 2024,Round 5,17/09/,Newcastle,Brentford,1,0,0,g_1_v9rUE4uh,1.64,4.1,5.64,1.42,0.52
+football,Premier League 2023 2024,Round 5,16/09/,Aston Villa,Crystal Palace,3,1,0,g_1_SUEBdNPN,1.9,3.63,4.34,1.56,1.08
+football,Premier League 2023 2024,Round 5,16/09/,Fulham,Luton,1,0,0,g_1_bD5si1mo,1.66,3.67,6.5,1.23,1.35
+football,Premier League 2023 2024,Round 5,16/09/,Manchester Utd,Brighton,1,3,2,g_1_0IqQFpQo,1.97,4.1,3.58,0.95,1.84
+football,Premier League 2023 2024,Round 5,16/09/,Tottenham,Sheffield Utd,2,1,0,g_1_nZoxDrA4,1.31,5.86,10.2,1.68,0.61
+football,Premier League 2023 2024,Round 5,16/09/,West Ham,Manchester City,1,3,2,g_1_UcysC2PA,6.13,4.3,1.58,0.84,3.41
+football,Premier League 2023 2024,Round 5,16/09/,Wolves,Liverpool,1,3,2,g_1_tYvoBMvH,5.27,4.45,1.67,0.57,3.0
+football,Premier League 2023 2024,Round 4,04/09/,Arsenal,Manchester Utd,3,1,0,g_1_f7qWcC40,1.86,4.19,3.9,1.41,0.94
+football,Premier League 2023 2024,Round 4,03/09/,Crystal Palace,Wolves,3,2,0,g_1_vm7g2Ren,1.94,3.7,4.34,1.82,0.7
+football,Premier League 2023 2024,Round 4,03/09/,Liverpool,Aston Villa,3,0,0,g_1_MBdb1oBh,1.62,4.86,5.17,1.94,0.67
+football,Premier League 2023 2024,Round 4,03/09/,Brighton,Newcastle,3,1,0,g_1_zHivdjZC,2.83,3.92,2.37,1.38,1.32
+football,Premier League 2023 2024,Round 4,02/09/,Brentford,Bournemouth,2,2,1,g_1_hh2ZdWJ6,1.72,4.08,4.88,2.91,2.02
+football,Premier League 2023 2024,Round 4,02/09/,Burnley,Tottenham,2,5,2,g_1_E7jreAlJ,3.6,3.91,2.01,1.34,2.34
+football,Premier League 2023 2024,Round 4,02/09/,Chelsea,Nottingham,0,1,2,g_1_0d8k37tt,1.42,4.87,8.19,2.07,0.7
+football,Premier League 2023 2024,Round 4,02/09/,Manchester City,Fulham,5,1,0,g_1_Uy06aPu5,1.19,8.17,14.1,2.11,1.37
+football,Premier League 2023 2024,Round 4,02/09/,Sheffield Utd,Everton,2,2,1,g_1_8SbAbqeB,3.36,3.43,2.27,0.86,2.62
+football,Premier League 2023 2024,Round 4,02/09/,Luton,West Ham,1,2,2,g_1_zF0205Qb,4.99,4.08,1.71,1.39,0.91
+football,Premier League 2023 2024,Round 3,28/08/,Newcastle,Liverpool,1,2,2,g_1_MgoOaYZm,2.4,3.87,2.81,1.67,0.73
+football,Premier League 2023 2024,Round 3,27/08/,Burnley,Aston Villa,1,3,2,g_1_fq1q7GsE,3.66,3.46,2.13,0.63,2.11
+football,Premier League 2023 2024,Round 3,27/08/,Sheffield Utd,Manchester City,1,2,2,g_1_0ppSbhkf,13.8,7.49,1.21,0.81,3.98
+football,Premier League 2023 2024,Round 3,27/08/,Brighton,West Ham,1,3,2,g_1_hvN0rX4D,1.57,4.88,5.28,1.42,2.4
+football,Premier League 2023 2024,Round 3,26/08/,Arsenal,Fulham,2,2,1,g_1_6NOhpgz1,1.3,5.82,11.0,3.15,0.55
+football,Premier League 2023 2024,Round 3,26/08/,Brentford,Crystal Palace,1,1,1,g_1_EmOdqDk7,2.18,3.45,3.55,0.94,0.69
+football,Premier League 2023 2024,Round 3,26/08/,Everton,Wolves,0,1,2,g_1_294i5fCQ,2.48,3.41,3.0,1.07,1.14
+football,Premier League 2023 2024,Round 3,26/08/,Manchester Utd,Nottingham,3,2,0,g_1_4IjJ0EKs,1.38,5.13,8.83,2.62,1.02
+football,Premier League 2023 2024,Round 3,26/08/,Bournemouth,Tottenham,0,2,2,g_1_SWPloZKf,3.91,3.87,1.94,0.69,1.66
+football,Premier League 2023 2024,Round 3,26/08/,Chelsea,Luton,3,0,0,g_1_8n5m6zcK,1.28,6.27,11.5,2.17,0.43
+football,Premier League 2023 2024,Round 2,22/08/,Crystal Palace,Arsenal,0,1,2,g_1_W4AAXFje,4.83,3.49,1.86,0.9,1.88
+football,Premier League 2023 2024,Round 2,21/08/,West Ham,Chelsea,3,1,0,g_1_W4Wumejr,3.6,3.72,2.06,1.96,2.34
+football,Premier League 2023 2024,Round 2,20/08/,Aston Villa,Everton,4,0,0,g_1_hEB6Yeyk,1.78,3.89,4.68,3.17,0.71
+football,Premier League 2023 2024,Round 2,20/08/,Manchester City,Newcastle,1,0,0,g_1_Icj5gcDE,1.79,3.79,4.76,0.96,0.25
+football,Premier League 2023 2024,Round 2,20/08/,Tottenham,Manchester Utd,2,0,0,g_1_EPqEiyrR,3.38,3.84,2.11,1.91,1.94
+football,Premier League 2023 2024,Round 2,19/08/,Fulham,Brentford,0,3,2,g_1_ETaFWZ51,2.69,3.26,2.83,0.5,3.49
+football,Premier League 2023 2024,Round 2,19/08/,Liverpool,Bournemouth,3,1,0,g_1_Q33JVgL7,1.22,7.69,13.1,2.64,1.52
+football,Premier League 2023 2024,Round 2,19/08/,Wolves,Brighton,1,4,2,g_1_p8zpnF5l,4.25,4.05,1.82,1.82,1.98
+football,Premier League 2023 2024,Round 2,19/08/,Nottingham,Sheffield Utd,2,1,0,g_1_zZpAhHSK,1.87,3.49,4.78,1.21,0.43
+football,Premier League 2023 2024,Round 1,15/08/,Manchester Utd,Wolves,1,0,0,g_1_MVKzvIDR,1.29,6.49,10.0,1.49,2.14
+football,Premier League 2023 2024,Round 1,14/08/,Chelsea,Liverpool,1,1,1,g_1_v7VVvbbL,3.45,3.72,2.12,1.31,1.23
+football,Premier League 2023 2024,Round 1,13/08/,Brentford,Tottenham,2,2,1,g_1_Q3RRuvqF,2.81,3.7,2.48,2.07,1.37
+football,Premier League 2023 2024,Round 1,13/08/,Newcastle,Aston Villa,5,1,0,g_1_WtSNtKT8,1.64,4.1,5.64,3.1,1.66
+football,Premier League 2023 2024,Round 1,12/08/,Bournemouth,West Ham,1,1,1,g_1_YZ9yLx7k,2.88,3.57,2.48,1.13,1.14
+football,Premier League 2023 2024,Round 1,12/08/,Brighton,Luton,4,1,0,g_1_Sd9uKdMe,1.28,6.59,10.4,3.68,1.26
+football,Premier League 2023 2024,Round 1,12/08/,Everton,Fulham,0,1,2,g_1_6m8qJGy2,2.37,3.29,3.29,3.07,1.56
+football,Premier League 2023 2024,Round 1,12/08/,Sheffield Utd,Crystal Palace,0,1,2,g_1_hjTJs0E2,3.68,3.28,2.2,0.39,1.58
+football,Premier League 2023 2024,Round 1,12/08/,Arsenal,Nottingham,2,1,0,g_1_KW5XLIiq,1.2,7.42,16.9,0.66,1.12
+football,Premier League 2023 2024,Round 1,12/08/,Burnley,Manchester City,0,3,2,g_1_EkT4QbqS,9.98,5.36,1.34,0.34,2.25
