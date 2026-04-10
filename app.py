@@ -1617,17 +1617,16 @@ def train_rl():
     try:
         if model_current is None:
             return jsonify({'status': 'error', 'message': 'Main model must be trained first.'})
-            
-        print("Starting RL Policy Training...")
-        # Train new agent
-        policy_agent = pm.PolicyNetwork().to(DEVICE) # Reset
-        policy_agent = pm.train_policy_gradient(model_current, policy_agent, epochs=30)
-        
-        # Save
-        if not os.path.exists('models'): os.makedirs('models')
-        torch.save(policy_agent.state_dict(), 'models/policy_agent.pth')
-        
-        return jsonify({'status': 'success', 'message': 'RL Agent trained and saved!'})
+
+        print("Starting RL Policy Training (PPO)...")
+        new_agent = pm.PPOAgent(state_dim=RL_STATE_DIM, action_dim=4, lr=0.0003, entropy_coef=0.15).to(DEVICE)
+        policy_agent = pm.train_ppo_agent(model_current, new_agent, epochs=20)
+
+        if not os.path.exists('models'):
+            os.makedirs('models')
+        torch.save(policy_agent.state_dict(), 'models/ppo_agent.pth')
+
+        return jsonify({'status': 'success', 'message': 'PPO Agent trained and saved!'})
     except Exception as e:
         traceback.print_exc()
         return jsonify({'status': 'error', 'message': str(e)})
