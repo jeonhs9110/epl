@@ -1,0 +1,86 @@
+<!-- STRATEGY SIMULATION TAB -->
+<div class="tab-pane fade" id="simulation">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-gradient bg-primary text-white pt-4 pb-4">
+            <h3 class="fw-bold text-center">🧪 Strategy Lab</h3>
+        </div>
+        <div class="card-body p-4">
+
+            <div class="alert alert-info border-info shadow-sm mb-4">
+                <h5 class="fw-bold"><i class="bi bi-info-circle-fill me-2"></i> Optimization Required</h5>
+                <p class="mb-0">Before generating a strategy report, please go to the
+                    <strong>Optimal Prediction Percentage</strong> and <strong>Optimal RL Confidence</strong>
+                    tabs to calculate the latest thresholds.
+                </p>
+            </div>
+
+            <!-- Backtest Controls -->
+            <div class="row g-3 mb-3 align-items-end">
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">Start Date</label>
+                    <input type="date" class="form-control" id="simStart">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label fw-semibold">End Date</label>
+                    <input type="date" class="form-control" id="simEnd">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label fw-semibold">Bankroll ($)</label>
+                    <input type="number" class="form-control" id="simBankroll" value="1000" min="1">
+                </div>
+                <div class="col-md-2 text-center">
+                    <button class="btn btn-primary w-100" onclick="runStrategyBacktest()">
+                        <i class="bi bi-play-fill me-1"></i> Run Backtest
+                    </button>
+                </div>
+            </div>
+
+            <!-- Weekly Report Button -->
+            <div class="col-md-12 mt-3 text-center">
+                <hr class="my-4">
+                <button class="btn btn-outline-dark btn-lg px-5 shadow-sm" onclick="getWeeklyReport()">
+                    📑 Generate 2026+ Profit Report (Pools)
+                </button>
+                <p class="text-muted small mt-2">Interval Prediction Pools (Tue-Wed, Thu-Fri, Sat-Sun)</p>
+            </div>
+
+            <div id="simLoading" class="text-center my-5" style="display:none;">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;"></div>
+                <p class="mt-2 text-muted fw-bold">Calculating...</p>
+            </div>
+
+            <!-- Weekly Report Container -->
+            <div id="weeklyReportArea" style="display:none;">
+                <div class="alert alert-success border-success text-center shadow-sm">
+                    <h4 class="fw-bold mb-0">Weekly Profit Report (2026+)</h4>
+                    <small>Model > 60% | RL Agent > 75% | Pool Intervals</small>
+                </div>
+                <div id="weeklyReportContent"></div>
+            </div>
+
+            <!-- Backtest Results -->
+            <div id="simResults" style="display:none;">
+                <div class="p-3 border rounded shadow-sm bg-white mb-4" style="height: 500px;">
+                    <canvas id="simChart"></canvas>
+                </div>
+
+                <h5 class="fw-bold text-secondary">Recent Trade Log (Last 50)</h5>
+                <div class="table-responsive" style="max-height: 300px; overflow-y: auto;">
+                    <table class="table table-sm table-hover text-center align-middle">
+                        <thead class="table-light sticky-top">
+                            <tr>
+                                <th>Date</th>
+                                <th>Match</th>
+                                <th>Strategy</th>
+                                <th>Pick</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody id="simLogBody"></tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+<!-- OPTIMAL PREDICTION PERCENTAGE TAB -->
+<div class="tab-pane fade" id="stats" role="tabpanel">
+    <div class="card p-5 hover-elevate shadow-sm border-0">
+        <h3 class="text-primary fw-bold mb-4"><i class="bi bi-percent me-2"></i> Optimal Prediction
+            Percentage (Model)</h3>
+        <p class="lead text-muted">Analysis based on recent 400 matches.</p>
+
+        <div class="text-center my-5">
+            <button class="btn btn-primary btn-lg px-5 py-3 shadow" onclick="runCalibration()">
+                <i class="bi bi-search me-2"></i> Calculate Optimal Percentage
+            </button>
+        </div>
+
+        <div id="calibrationLoading" class="mt-4" style="display:none;">
+            <div class="progress mb-3" style="height: 25px;">
+                <div id="calibProgBar"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-primary"
+                    role="progressbar" style="width: 0%"></div>
+            </div>
+            <div id="calibTerminal"
+                class="bg-black text-success font-monospace p-3 text-start overflow-auto shadow-sm rounded"
+                style="height: 300px; font-size: 0.85rem;">
+                <span class="text-secondary">$ ready...</span><br>
+            </div>
+        </div>
+
+        <div id="calibrationResult" class="mt-5 p-4 bg-white rounded shadow-sm border"
+            style="display:none;">
+        </div>
+
+        <hr class="my-5">
+        <h4 class="fw-bold mb-3 text-primary"><i class="bi bi-activity me-2"></i>Model Performance Stats</h4>
+        <p class="text-muted mb-3">Hit rate and yield breakdown by prediction type.</p>
+        <div class="text-center mb-4">
+            <button class="btn btn-outline-primary px-4" onclick="getStats()">
+                <i class="bi bi-bar-chart me-2"></i> Load Performance Stats
+            </button>
+        </div>
+
+        <div id="statsLoading" class="text-center my-3" style="display:none;">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="mt-2 text-muted">Calculating...</p>
+        </div>
+
+        <div id="rlStatsCard" class="card border-0 shadow-sm p-4 mb-4" style="display:none;">
+            <h6 class="fw-bold text-dark mb-3"><i class="bi bi-robot me-2"></i>RL Agent Performance</h6>
+            <div class="row text-center g-3">
+                <div class="col-6 col-md-3">
+                    <div class="bg-light rounded p-3">
+                        <div class="text-muted small">Yield</div>
+                        <div id="rlYield" class="fw-bold fs-5">—</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-light rounded p-3">
+                        <div class="text-muted small">Win Rate</div>
+                        <div id="rlWinRate" class="fw-bold fs-5">—</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-light rounded p-3">
+                        <div class="text-muted small">Bets Placed</div>
+                        <div id="rlBets" class="fw-bold fs-5">—</div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="bg-light rounded p-3">
+                        <div class="text-muted small">Passes</div>
+                        <div id="rlPasses" class="fw-bold fs-5">—</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="graphContainer" class="text-center mb-4" style="display:none;">
+            <img id="calibImage" src="" alt="Calibration Chart"
+                class="img-fluid rounded shadow-sm border" style="max-height:400px;">
+        </div>
+
+        <div id="statsTableContainer" class="gap-4" style="display:none;">
+            <div class="flex-fill">
+                <h6 class="fw-bold mb-2 text-dark">Current Period</h6>
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered table-hover">
+                        <thead class="table-dark">
+                            <tr><th>Type</th><th>Confidence</th><th>Hit Rate</th><th>Profit</th><th>Status</th></tr>
+                        </thead>
+                        <tbody id="statsBodyCurrent"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="flex-fill">
+                <h6 class="fw-bold mb-2 text-dark">Previous Period</h6>
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered table-hover">
+                        <thead class="table-dark">
+                            <tr><th>Type</th><th>Confidence</th><th>Hit Rate</th><th>Profit</th><th>Status</th></tr>
+                        </thead>
+                        <tbody id="statsBodyPrev"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

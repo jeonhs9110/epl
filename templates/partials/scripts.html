@@ -1,0 +1,1359 @@
+<!-- SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script id="fobo-league-teams" type="application/json">{{ league_teams | tojson | safe }}</script>
+<script id="fobo-leagues" type="application/json">{{ leagues | tojson | safe }}</script>
+<script>
+    const foboLeagueTeams = JSON.parse(document.getElementById('fobo-league-teams').textContent);
+    const foboLeagues = JSON.parse(document.getElementById('fobo-leagues').textContent);
+    let myChart = null;
+    let currentStrategyMatches = [];
+    let globalBetHistory = [];
+
+    window.onload = function () {
+        const today = new Date();
+
+        document.getElementById('predDate').valueAsDate = today;
+        document.getElementById('calDate').valueAsDate = today;
+
+        const pLeague = document.getElementById('predLeague');
+        const pwLeague = document.getElementById('powerLeague');
+
+        foboLeagues.forEach(l => {
+            // Filter out old seasons (consistent with backend filtering)
+            if (l.includes('2022 2023') || l.includes('2023 2024') || l.includes('2024 2025')) return;
+
+            pLeague.add(new Option(l, l));
+            pwLeague.add(new Option(l, l));
+        });
+        updateTeams('pred');
+
+        // --- LOAD OPTIMAL THRESHOLDS ---
+        fetch('/get_optimal_thresholds')
+            .then(res => res.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    document.getElementById('sliderPred').value = data.pred;
+                    document.getElementById('sliderRL').value = data.rl;
+
+                    // Update Labels immediately
+                    document.getElementById('lblPred').innerText = data.pred + '%';
+                    document.getElementById('lblRL').innerText = data.rl + '%';
+                }
+            })
+            .catch(err => console.error("Error loading thresholds:", err));
+    };
+
+    function updateTeams(type) {
+        const leagueSelect = document.getElementById(type + 'League');
+        const teams = foboLeagueTeams[leagueSelect.value];
+        if (!teams) return;
+        if (type === 'pred') {
+            const h = document.getElementById('predHome'), a = document.getElementById('predAway');
+            h.innerHTML = ''; a.innerHTML = '';
+            teams.forEach(t => { h.add(new Option(t, t)); a.add(new Option(t, t)); });
+        }
+    }
+
+    async function getDailyMatches() {
+        const startInput = document.getElementById('calDate');
+
+        if (!startInput.value) startInput.valueAsDate = new Date();
+
+        document.getElementById('calLoading').style.display = 'block';
+        document.getElementById('dailyScheduleContainer').innerHTML = '';
+
+        try {
+            const res = await fetch('/get_daily_matches', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    start_date: startInput.value,
+                    end_date: startInput.value // Same date for single day view
+                })
+            });
+            const result = await res.json();
+            document.getElementById('calLoading').style.display = 'none';
+
+            if (result.status === 'success') {
+                const container = document.getElementById('dailyScheduleContainer');
+                container.innerHTML = ''; // Clear previous content
+
+                if (result.matches.length === 0) {
+                    container.innerHTML = '<div class="alert alert-secondary text-center">No matches scheduled for this date (or scrape required).</div>';
+                    document.getElementById('dailyExportBtns').style.display = 'none';
+                    return;
+                }
+
+                document.getElementById('dailyExportBtns').style.display = 'flex';
+
+                // Sort matches: Certain (HOME, DRAW, AWAY) first, then PASS
+                result.matches.sort((a, b) => {
+                    const isCertA = a.rl_label && !a.rl_label.includes('PASS') && a.rl_label !== 'N/A';
+                    const isCertB = b.rl_label && !b.rl_label.includes('PASS') && b.rl_label !== 'N/A';
+                    if (isCertA && !isCertB) return -1;
+                    if (!isCertA && isCertB) return 1;
+                    return 0;
+                });
+
+                result.matches.forEach(m => {
+                    // Helper for styled values
+                    const styleVal = (val, isPct = true) => {
+                        if (val === undefined || val === null) return '-';
+                        return isPct ? `<strong>${val}%</strong>` : `<strong>${val}</strong>`;
+                    };
+
+                    // Helper to generate History Table Rows
+                    const genHistoryRows = (historyList) => {
+                        if (!historyList || historyList.length === 0) return '<tr><td colspan="4" class="text-muted small">No recent info</td></tr>';
+                        return historyList.map(h => {
+                            let badge = 'secondary';
+                            if (h.result === 'W') badge = 'success';
+                            if (h.result === 'L') badge = 'danger';
+                            if (h.result === 'D') badge = 'warning text-dark';
+                            return `
+                            <tr class="small">
+                                <td>${h.date}</td>
+                                <td>${h.matchup}</td>
+                                <td>${h.score}</td>
+                                <td><span class="badge bg-${badge}">${h.result}</span></td>
+                            </tr>`;
+                        }).join('');
+                    };
+
+                    const oddsSrc = m.odds_source || 'implied_elo';
+                    const oddsUsed = m.odds_used || [0, 0, 0];
+                    const oddsSrcBadge = oddsSrc === 'real'
+                        ? `<span class="badge" style="background:rgba(0,176,80,0.12);color:#00b050;font-size:0.65rem;">✅ Real Odds ${oddsUsed[0]}/${oddsUsed[1]}/${oddsUsed[2]}</span>`
+                        : `<span class="badge" style="background:rgba(255,152,0,0.12);color:#f57f17;font-size:0.65rem;">⚙️ ELO Implied ${oddsUsed[0]}/${oddsUsed[1]}/${oddsUsed[2]}</span>`;
+
+                    const cardHtml = `
+                    <div class="card border mb-3 shadow-sm bg-white" style="page-break-inside: avoid;">
+                        <div class="card-header text-center bg-white border-bottom-0 pb-0 pt-4">
+                            <h3 class="fw-bold text-dark">${m.home} vs ${m.away}</h3>
+                            <p class="text-muted small">${m.league} • ${m.date || 'Today'} ${m.time && m.time !== '00:00' ? m.time : ''} &nbsp; ${oddsSrcBadge}</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="alert alert-${m.rl_color || 'secondary'} border-${m.rl_color || 'secondary'} mb-3 text-center shadow-sm bg-opacity-10">
+                                <div class="d-flex justify-content-center align-items-center mb-2">
+                                    <span class="fs-5 me-2">🤖</span>
+                                    <strong>RL Reinforced Training:</strong>
+                                </div>
+                                <h2 class="fw-bold mb-1">${m.rl_label || 'N/A'} <span class="fs-3">${m.rl_icon || ''}</span></h2>
+                                <p class="mb-0 small text-muted font-monospace">Confidence: ${m.rl_conf || '0'}% (${m.rl_desc || 'No Info'})</p>
+                                ${m.rl_label && m.rl_label.includes('PASS') && m.rec_label !== '-' ? `
+                                <div class="mt-2 pt-2 border-top border-secondary border-opacity-25">
+                                    <span class="badge bg-secondary">Model Lean: ${m.rec_label}</span>
+                                </div>
+                                ` : ''}
+                            </div>
+                            <table class="table table-bordered text-center mb-0 align-middle">
+                                <thead>
+                                    <tr class="align-middle">
+                                        <th style="width: 20%;">Market</th>
+                                        <th class="text-secondary" style="width: 20%;">
+                                            Final
+                                            ${m.is_hybrid ? '<br><span class="badge bg-dark small" style="font-size:0.6rem;">XY Boost</span>' : ''}
+                                        </th>
+                                        <th class="text-primary" style="width: 20%;">Best Loss</th>
+                                        <th class="text-info" style="width: 20%;">Best Acc</th>
+                                        <th class="bg-success text-white" style="width: 20%;">Avg</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>📊 Proj. xG</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="fw-bold">${m.avg_home_xg} - ${m.avg_away_xg}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>🎯 Score</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="fw-bold fs-5">${m.pred_score}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>🏠 Home Win</td>
+                                        <td class="${m.is_hybrid ? 'fw-bold text-dark' : ''}">
+                                            ${styleVal(m.final_win)}
+                                        </td>
+                                        <td>${styleVal(m.loss_win)}</td>
+                                        <td>${styleVal(m.acc_win)}</td>
+                                        <td>${styleVal(m.avg_win)}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>🤝 Draw</td>
+                                        <td class="${m.is_hybrid ? 'fw-bold text-dark' : ''}">
+                                            ${styleVal(m.final_draw)}
+                                        </td>
+                                        <td>${styleVal(m.loss_draw)}</td>
+                                        <td>${styleVal(m.acc_draw)}</td>
+                                        <td>${styleVal(m.avg_draw)}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>✈️ Away Win</td>
+                                        <td class="${m.is_hybrid ? 'fw-bold text-dark' : ''}">
+                                            ${styleVal(m.final_loss)}
+                                        </td>
+                                        <td>${styleVal(m.loss_loss)}</td>
+                                        <td>${styleVal(m.acc_loss)}</td>
+                                        <td>${styleVal(m.avg_loss)}</td>
+                                    </tr>
+                                    <tr class="table-light"><td colspan="5" class="p-1"></td></tr>
+                                    <tr>
+                                        <td>Over 2.5</td>
+                                        <td>${styleVal(m.final_o25)}</td>
+                                        <td>${styleVal(m.loss_o25)}</td>
+                                        <td>${styleVal(m.acc_o25)}</td>
+                                        <td>${styleVal(m.avg_o25)}</td>
+                                    </tr>
+                                    <tr class="btts-row">
+                                        <td>BTTS</td>
+                                        <td>${styleVal(m.final_btts)}</td>
+                                        <td>${styleVal(m.loss_btts)}</td>
+                                        <td>${styleVal(m.acc_btts)}</td>
+                                        <td class="text-danger">${styleVal(m.avg_btts)}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <!-- Detailed Form Section -->
+                            <div class="row mt-4 g-3">
+                                <div class="col-md-6">
+                                    <div class="p-2 border rounded bg-light">
+                                        <div class="text-center fw-bold text-primary mb-2">${m.home} Recent Form</div>
+                                        <table class="table table-sm table-borderless mb-0">
+                                            <tbody>${genHistoryRows(m.home_form)}</tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="p-2 border rounded bg-light">
+                                        <div class="text-center fw-bold text-danger mb-2">${m.away} Recent Form</div>
+                                        <table class="table table-sm table-borderless mb-0">
+                                            <tbody>${genHistoryRows(m.away_form)}</tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3 text-muted"><small>FOBO AI • ${new Date().toLocaleDateString()}</small></div>
+                        </div>
+                    </div>`;
+
+                    container.innerHTML += cardHtml;
+                });
+            } else {
+                alert('Error: ' + result.message);
+            }
+        } catch (e) {
+            console.error(e);
+            alert('Connection Error');
+            document.getElementById('calLoading').style.display = 'none';
+        }
+    }
+
+    function adjustThreshold(sliderId, delta) {
+        const slider = document.getElementById(sliderId);
+        let val = parseInt(slider.value);
+        val += delta;
+        if (val < parseInt(slider.min)) val = parseInt(slider.min);
+        if (val > parseInt(slider.max)) val = parseInt(slider.max);
+        slider.value = val;
+        updateFilters();
+    }
+
+    function updateFilters() {
+        const predVal = parseFloat(document.getElementById('sliderPred').value);
+        const rlVal = parseFloat(document.getElementById('sliderRL').value);
+
+        // Update labels
+        document.getElementById('lblPred').innerText = predVal + '%';
+        document.getElementById('lblRL').innerText = rlVal + '%';
+
+        renderMatches(predVal, rlVal);
+    }
+
+    function renderMatches(predThresh, rlThresh) {
+        const bankers = [];
+        const predPicks = [];
+        const rlPicks = [];
+
+        currentStrategyMatches.forEach(m => {
+            const isPred = m.pred_conf >= predThresh;
+            const isRL = m.rl_pick !== 'PASS' && m.rl_conf >= rlThresh;
+
+            // 1. Bankers (Intersection + Agreement)
+            if (isPred && isRL && m.pred_pick === m.rl_pick) {
+                bankers.push(m);
+            }
+
+            // 2. Best Prediction
+            if (isPred) {
+                predPicks.push(m);
+            }
+
+            // 3. RL Picks
+            if (isRL) {
+                rlPicks.push(m);
+            }
+        });
+
+        const fillList = (items, listId, type) => {
+            const list = document.getElementById(listId);
+            list.innerHTML = '';
+            if (items.length === 0) {
+                list.innerHTML = '<li class="list-group-item text-muted text-center">No matches meet this criteria. Try lowering the threshold.</li>';
+                return;
+            }
+
+            items.forEach(i => {
+                let pickObj = type === 'rl' ? i.rl_pick : i.pred_pick;
+                let confObj = type === 'rl' ? i.rl_conf : i.pred_conf;
+
+                let extra = '';
+                if (type === 'pred' && i.rl_pick !== 'PASS') extra = ` <span class="badge bg-secondary opacity-50 ms-1">RL: ${i.rl_pick}</span>`;
+                if (type === 'rl') extra = ` <span class="badge bg-secondary opacity-50 ms-1">Model: ${i.pred_pick} (${i.pred_conf}%)</span>`;
+                if (type === 'banker') extra = ` <span class="badge bg-success ms-1">AGREEMENT</span>`;
+
+                const globalIdx = currentStrategyMatches.indexOf(i);
+
+                const inHistory = globalBetHistory.some(b => b.home === i.home && b.away === i.away && b.match_date === i.date);
+
+                let checkboxHtml = '';
+                if (inHistory) {
+                    checkboxHtml = `<span class="badge bg-success" style="width: 1.5em; height: 1.5em; display:flex; align-items:center; justify-content:center;" title="Already in Bet History"><i class="bi bi-check-lg"></i></span>`;
+                } else {
+                    checkboxHtml = `<input class="form-check-input mb-0 strategy-cb" type="checkbox" data-idx="${globalIdx}" style="width: 1.5em; height: 1.5em; cursor: pointer;">`;
+                }
+
+                list.innerHTML += `
+                 <li class="list-group-item hover-elevate p-0">
+                    <div class="d-flex justify-content-between align-items-center p-3">
+                        <div class="d-flex align-items-center gap-3">
+                            ${checkboxHtml}
+                            <div onclick="toggleStrategyPrediction(${globalIdx})" style="cursor: pointer;">
+                                <strong>${i.match}</strong>
+                                <div class="small text-muted">${i.date} ${i.time && i.time !== '00:00' ? i.time : ''} • ${i.league}</div>
+                            </div>
+                        </div>
+                        <div onclick="toggleStrategyPrediction(${globalIdx})" style="cursor: pointer;" class="d-flex flex-column align-items-end gap-1">
+                            <span class="badge rounded-pill bg-primary fs-6">${pickObj} (${confObj}%)${extra}</span>
+                            ${i.odds_source === 'implied_elo'
+                        ? `<span style="font-size:0.65rem;color:#f57f17;">⚙️ ELO implied</span>`
+                        : `<span style="font-size:0.65rem;color:#00b050;">✅ Real odds</span>`}
+                        </div>
+                    </div>
+                    <div id="strat-detail-${globalIdx}" style="display:none;" class="bg-light border-top p-3">
+                        <!-- Detail content will be loaded here -->
+                    </div>
+                 </li>`;
+            });
+        };
+
+        fillList(bankers, 'listBankers', 'banker');
+        fillList(predPicks, 'listAcca', 'pred');
+        fillList(rlPicks, 'listRL', 'rl');
+    }
+
+    function loadPredictionFromStrategy(index) {
+        const m = currentStrategyMatches[index];
+        if (!m) return;
+
+        // 1. Switch to Prediction Tab
+        const triggerEl = document.querySelector('button[data-bs-target="#predict"]');
+        const tab = bootstrap.Tab.getOrCreateInstance(triggerEl);
+        tab.show();
+
+        // 2. Set Values
+        const lSelect = document.getElementById('predLeague');
+        lSelect.value = m.league;
+
+        updateTeams('pred');
+
+        document.getElementById('predHome').value = m.home;
+        document.getElementById('predAway').value = m.away;
+        document.getElementById('predDate').value = m.date;
+
+        // 3. Run Prediction
+        getPrediction();
+
+        // Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // --- UNIFIED PREDICTION RENDERING ---
+    function renderUnifiedPrediction(result, h, a, showExport) {
+        const m_final = result.model_final;
+        const m_loss = result.model_loss;
+        const m_acc = result.model_acc;
+        const getVal = (obj, key) => obj ? obj[key] + '%' : '-';
+        const getScore = (obj) => obj ? obj.predicted_score : '-';
+
+        // ODDS SOURCE BADGE
+        const src = result.odds_source || 'implied_elo';
+        const usedOdds = result.odds_used || [0, 0, 0];
+        const oddsBadge = src === 'real'
+            ? `<span class="badge rounded-pill" style="background:rgba(0,176,80,0.15);color:#00b050;border:1px solid rgba(0,176,80,0.3);font-size:0.72rem;">✅ Real Odds &nbsp;<span class="fw-normal opacity-75">${usedOdds[0]} / ${usedOdds[1]} / ${usedOdds[2]}</span></span>`
+            : `<span class="badge rounded-pill" style="background:rgba(255,152,0,0.12);color:#f57f17;border:1px solid rgba(255,152,0,0.3);font-size:0.72rem;">⚙️ ELO Implied Odds &nbsp;<span class="fw-normal opacity-75">${usedOdds[0]} / ${usedOdds[1]} / ${usedOdds[2]}</span></span>`;
+
+        // RL BADGE
+        let rlHtml = '';
+        if (result.rl_agent && result.rl_agent.recommendation !== 'N/A') {
+            let rl = result.rl_agent;
+            rlHtml = `
+            <div class="alert alert-warning text-center fw-bold shadow-sm" style="border: 2px solid #ffc107;">
+                🤖 RL Agent Advice: <span class="text-dark display-6 d-block my-1">${rl.recommendation}</span>
+                <small class="text-muted">Confidence: ${rl.confidence}% (Optimized for High Probability)</small>
+            </div>`;
+        }
+
+        // Form Rows Helper
+        const genFormRows = (list) => {
+            if (!list || list.length === 0) return '<tr><td colspan="4">No recent info</td></tr>';
+            return list.map(m => `<tr><td>${m.date}</td><td><small>${m.matchup}</small></td><td><strong>${m.score}</strong></td><td><span class="form-badge-${m.result}">${m.result}</span></td></tr>`).join('');
+        };
+
+        const exportBtns = showExport ? `
+        <div class="d-flex justify-content-center gap-2 mb-4">
+            <button class="btn btn-outline-secondary" onclick="copyHTML()">📋 Copy HTML Code</button>
+            <button class="btn btn-outline-success" onclick="downloadImage()">📸 Download Image</button>
+        </div>` : '';
+
+        // Generate Add to History section
+        let historyBtnHtml = '';
+        if (!showExport) {
+            const matchDataStr = encodeURIComponent(JSON.stringify({
+                home: h,
+                away: a,
+                date: result.match_date || new Date().toISOString().split('T')[0],
+                pred_score: getScore(result.average) || '-',
+                pred_win: result.average?.win || 0,
+                pred_draw: result.average?.draw || 0,
+                pred_loss: result.average?.loss || 0,
+                rl_pick: result.rl_agent ? result.rl_agent.recommendation : 'N/A'
+            }));
+
+            historyBtnHtml = `
+            <div class="mt-4 p-3 bg-light rounded text-center border">
+                <h6 class="fw-bold mb-3">Add to Bet History</h6>
+                <div class="d-flex justify-content-center align-items-center gap-2">
+                    <select class="form-select w-auto" id="betChoice_${h.replace(/\s+/g, '')}_${a.replace(/\s+/g, '')}">
+                        <option value="Home Win">Home Win</option>
+                        <option value="Draw">Draw</option>
+                        <option value="Away Win">Away Win</option>
+                        <option value="Over 2.5">Over 2.5</option>
+                        <option value="Under 2.5">Under 2.5</option>
+                        <option value="BTTS Yes">BTTS Yes</option>
+                        <option value="BTTS No">BTTS No</option>
+                    </select>
+                    <button class="btn btn-success fw-bold" onclick="addBetToHistory('${matchDataStr}', 'betChoice_${h.replace(/\s+/g, '')}_${a.replace(/\s+/g, '')}')">
+                        <i class="bi bi-plus-circle"></i> Save Bet
+                    </button>
+                </div>
+            </div>`;
+        }
+
+        const cardId = showExport ? 'id="exportTarget"' : '';
+
+        return `
+        ${rlHtml}
+        <div ${cardId} class="card p-3 border-primary mb-3 bg-white fade-in-up">
+            <h2 class="text-center mb-2">${h} vs ${a}</h2>
+            <div class="text-center mb-3">${oddsBadge}</div>
+            <table class="table table-bordered text-center align-middle">
+                <thead>
+                    <tr>
+                        <th>Market</th>
+                        <th class="text-secondary">Model 1<br><small>(Final State)</small></th>
+                        <th class="text-primary">Model 2<br><small>(Best Loss)</small></th>
+                        <th class="text-success">Model 3<br><small>(Best Acc)</small></th>
+                        <th class="bg-info text-white">Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>📊 Proj. xG</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td class="fw-bold">${(result.average?.projected_home_xg || 0)} - ${(result.average?.projected_away_xg || 0)}</td>
+                    </tr>
+                    <tr>
+                        <td>🎯 Score</td>
+                        <td>${getScore(m_final)}</td>
+                        <td class="fw-bold">${getScore(m_loss)}</td>
+                        <td>${getScore(m_acc)}</td>
+                        <td class="fw-bold">${getScore(result.average)}</td>
+                    </tr>
+                    <tr>
+                        <td>🏠 Home Win</td>
+                        <td>${getVal(m_final, 'win')}</td>
+                        <td class="fw-bold text-primary">${getVal(m_loss, 'win')}</td>
+                        <td class="text-success">${getVal(m_acc, 'win')}</td>
+                        <td class="fw-bold bg-light">${getVal(result.average, 'win')}</td>
+                    </tr>
+                    <tr>
+                        <td>🤝 Draw</td>
+                        <td>${getVal(m_final, 'draw')}</td>
+                        <td class="fw-bold text-primary">${getVal(m_loss, 'draw')}</td>
+                        <td class="text-success">${getVal(m_acc, 'draw')}</td>
+                        <td class="fw-bold bg-light">${getVal(result.average, 'draw')}</td>
+                    </tr>
+                    <tr>
+                        <td>✈️ Away Win</td>
+                        <td>${getVal(m_final, 'loss')}</td>
+                        <td class="fw-bold text-primary">${getVal(m_loss, 'loss')}</td>
+                        <td class="text-success">${getVal(m_acc, 'loss')}</td>
+                        <td class="fw-bold bg-light">${getVal(result.average, 'loss')}</td>
+                    </tr>
+                    <tr class="table-light"><td colspan="5"></td></tr>
+                    <tr>
+                        <td>Over 2.5</td>
+                        <td>${getVal(m_final, 'over_2_5')}</td>
+                        <td class="fw-bold text-primary">${getVal(m_loss, 'over_2_5')}</td>
+                        <td class="text-success">${getVal(m_acc, 'over_2_5')}</td>
+                        <td class="fw-bold bg-light">${getVal(result.average, 'over_2_5')}</td>
+                    </tr>
+                    <tr class="btts-row">
+                        <td>BTTS</td>
+                        <td>${getVal(m_final, 'btts_yes')}</td>
+                        <td class="fw-bold text-danger">${getVal(m_loss, 'btts_yes')}</td>
+                        <td class="text-success">${getVal(m_acc, 'btts_yes')}</td>
+                        <td class="fw-bold bg-light">${getVal(result.average, 'btts_yes')}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                     <div class="card p-2">
+                        <h6 class="text-center text-primary">${h} Form</h6>
+                        <table class="table table-sm text-center mb-0"><tbody>
+                            ${genFormRows(result.home_recent)}
+                        </tbody></table>
+                     </div>
+                </div>
+                 <div class="col-md-6">
+                     <div class="card p-2">
+                        <h6 class="text-center text-danger">${a} Form</h6>
+                        <table class="table table-sm text-center mb-0"><tbody>
+                            ${genFormRows(result.away_recent)}
+                        </tbody></table>
+                     </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-2 text-muted"><small>FOBO AI Prediction Engine • ${new Date().toLocaleDateString()}</small></div>
+        </div>
+        ${historyBtnHtml}
+        ${exportBtns}`;
+    }
+
+    async function toggleStrategyPrediction(index) {
+        const containerId = `strat-detail-${index}`;
+        const container = document.getElementById(containerId);
+
+        if (container.style.display === 'block') {
+            container.style.display = 'none';
+            return;
+        }
+
+        container.style.display = 'block';
+        if (container.innerHTML.trim() !== '') return; // Already loaded
+
+        const m = currentStrategyMatches[index];
+        if (!m) return;
+
+        container.innerHTML = '<div class="text-center p-3"><div class="spinner-border text-primary"></div><p class="small text-muted">Running Context-Aware Prediction...</p></div>';
+
+        try {
+            const res = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ league: m.league, home: m.home, away: m.away, date: m.date })
+            });
+            const result = await res.json();
+
+            if (result.status === 'success') {
+                container.innerHTML = renderUnifiedPrediction(result, m.home, m.away, false);
+            } else {
+                container.innerHTML = `<div class="alert alert-danger">${result.message}</div>`;
+            }
+        } catch (e) {
+            container.innerHTML = `<div class="alert alert-danger">Connection Error: ${e}</div>`;
+        }
+    }
+
+    async function fetchBetHistoryData() {
+        try {
+            const res = await fetch('/api/bet_history');
+            const result = await res.json();
+            if (result.status === 'success') {
+                globalBetHistory = result.data || [];
+            }
+        } catch (e) { console.error('Failed to pre-fetch history', e); }
+    }
+
+    async function getStrategy() {
+        const start = document.getElementById('stratStart').value;
+        const end = document.getElementById('stratEnd').value;
+
+        if (!start || !end) { alert('Please select a date range.'); return; }
+
+        document.getElementById('stratLoading').style.display = 'block';
+        document.getElementById('stratResults').style.display = 'none';
+
+        try {
+            const res = await fetch('/strategy/dynamic_report', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ start_date: start, end_date: end })
+            });
+            const result = await res.json();
+            document.getElementById('stratLoading').style.display = 'none';
+
+            if (result.status === 'success') {
+                currentStrategyMatches = result.matches || [];
+
+                await fetchBetHistoryData();
+
+                if (result.debug) {
+                    console.log("DEBUG:", result.debug);
+                    alert(result.debug);
+                }
+
+                document.getElementById('stratResults').style.display = 'block';
+                updateFilters();
+
+            } else {
+                alert(result.message);
+            }
+        } catch (e) {
+            alert('Error: ' + e);
+            document.getElementById('stratLoading').style.display = 'none';
+        }
+    }
+
+    // --- GNN GRAPH ---
+    function getGNNGraph() {
+        const league = document.getElementById('powerLeague').value;
+        const container = document.getElementById('gnn-network');
+        const statusDiv = document.getElementById('powerLoading');
+
+        container.innerHTML = '';
+        statusDiv.style.display = 'block';
+
+        axios.get(`/gnn-graph/${league}`)
+            .then(response => {
+                statusDiv.style.display = 'none';
+                const data = response.data;
+
+                if (!data.nodes || data.nodes.length === 0) {
+                    container.innerHTML = '<p class="text-center text-muted mt-5">No graph data available for this league.</p>';
+                    return;
+                }
+
+                const nodes = new vis.DataSet(data.nodes);
+                const edges = new vis.DataSet(data.edges);
+
+                const options = {
+                    nodes: {
+                        shape: 'dot',
+                        font: { size: 16, color: '#343a40', face: 'Segoe UI' },
+                        borderWidth: 2,
+                        shadow: true
+                    },
+                    edges: {
+                        width: 2,
+                        smooth: { type: 'continuous' },
+                        arrows: {
+                            to: {
+                                enabled: true,
+                                scaleFactor: 1.2,
+                                type: 'arrow'
+                            }
+                        }
+                    },
+                    physics: {
+                        stabilization: false,
+                        barnesHut: {
+                            gravitationalConstant: -3000,
+                            springConstant: 0.04,
+                            springLength: 150
+                        }
+                    },
+                    interaction: {
+                        hover: true,
+                        tooltipDelay: 200
+                    }
+                };
+
+                const network = new vis.Network(container, { nodes, edges }, options);
+
+                network.once("stabilizationIterationsDone", function () {
+                    network.setOptions({ physics: false });
+                });
+            })
+            .catch(error => {
+                console.error("GNN Graph Error:", error);
+                statusDiv.style.display = 'none';
+                container.innerHTML = '<p class="text-danger text-center mt-5">Error fetching graph data.</p>';
+            });
+    }
+
+    let simChartInstance = null;
+    async function runStrategyBacktest() {
+        const start = document.getElementById('simStart').value;
+        const end = document.getElementById('simEnd').value;
+        const bankroll = document.getElementById('simBankroll').value;
+
+        if (!start || !end) { alert("Please select date range."); return; }
+
+        document.getElementById('simLoading').style.display = 'block';
+        document.getElementById('simResults').style.display = 'none';
+
+        try {
+            const res = await fetch('/run_strategy_backtest', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ start_date: start, end_date: end, bankroll: bankroll })
+            });
+            const result = await res.json();
+            document.getElementById('simLoading').style.display = 'none';
+
+            if (result.status === 'success') {
+                document.getElementById('simResults').style.display = 'block';
+
+                const ctx = document.getElementById('simChart').getContext('2d');
+                if (simChartInstance) simChartInstance.destroy();
+
+                simChartInstance = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: result.equity.dates,
+                        datasets: [
+                            { label: 'Model Pure ($10)', data: result.equity.model, borderColor: '#6c757d', tension: 0.1, fill: false },
+                            { label: 'RL Sniper 90% ($10)', data: result.equity.rl_sniper, borderColor: '#0d6efd', tension: 0.1, fill: false, borderWidth: 3 },
+                            { label: 'Consensus ($10)', data: result.equity.consensus, borderColor: '#198754', tension: 0.1, fill: false },
+                            { label: 'RL Draw Hunter ($10)', data: result.equity.rl_draw, borderColor: '#ffc107', tension: 0.1, fill: false }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        interaction: { intersect: false, mode: 'index' },
+                        scales: { y: { beginAtZero: false, title: { display: true, text: 'Equity ($)' } } },
+                        plugins: { title: { display: true, text: 'Portfolio Performance (Start: $10/each)' } }
+                    }
+                });
+
+                const tbody = document.getElementById('simLogBody');
+                tbody.innerHTML = '';
+                result.log.slice().reverse().forEach(row => {
+                    let resClass = row.res > 0 ? 'text-success fw-bold' : 'text-danger';
+                    let resSign = row.res > 0 ? '+' : '';
+                    tbody.innerHTML += `
+                    <tr>
+                        <td>${row.date}</td>
+                        <td>${row.match}</td>
+                        <td><span class="badge bg-secondary">${row.strat}</span></td>
+                        <td>${row.pick}</td>
+                        <td class="${resClass}">${resSign}${row.res.toFixed(2)}</td>
+                    </tr>`;
+                });
+
+            } else {
+                alert("Sim Error: " + result.message);
+            }
+        } catch (e) {
+            alert("Network Error: " + e);
+            document.getElementById('simLoading').style.display = 'none';
+        }
+    }
+
+    function shiftDate(days) {
+        const dateInput = document.getElementById('calDate');
+        if (!dateInput.value) dateInput.valueAsDate = new Date();
+        const current = new Date(dateInput.value);
+        current.setDate(current.getDate() + days);
+        dateInput.value = current.toISOString().split('T')[0];
+        getDailyMatches(); // Auto-refresh
+    }
+
+    async function getStats() {
+        document.getElementById('statsLoading').style.display = 'block';
+        document.getElementById('statsTableContainer').style.display = 'none';
+        document.getElementById('graphContainer').style.display = 'none';
+        try {
+            const res = await fetch('/get_calibration');
+            const result = await res.json();
+            document.getElementById('statsLoading').style.display = 'none';
+            if (result.status === 'success') {
+                // RL Stats
+                if (result.rl_stats) {
+                    const total = result.rl_stats.bets + result.rl_stats.passes;
+                    const winRate = result.rl_stats.bets > 0 ? (result.rl_stats.wins / result.rl_stats.bets * 100).toFixed(1) : 0;
+                    const yieldVal = result.rl_stats.yield.toFixed(1);
+                    const yieldColor = result.rl_stats.yield >= 0 ? 'text-success' : 'text-danger';
+
+                    document.getElementById('rlYield').innerText = (result.rl_stats.yield > 0 ? '+' : '') + yieldVal + 'u';
+                    document.getElementById('rlYield').className = "fw-bold " + yieldColor;
+                    document.getElementById('rlWinRate').innerText = winRate + '%';
+                    document.getElementById('rlBets').innerText = result.rl_stats.bets;
+                    document.getElementById('rlPasses').innerText = result.rl_stats.passes;
+
+                    document.getElementById('rlStatsCard').style.display = 'block';
+                }
+
+                if (result.graph_image) {
+                    document.getElementById('calibImage').src = "data:image/png;base64," + result.graph_image;
+                    document.getElementById('graphContainer').style.display = 'block';
+                }
+                const popTable = (data, bodyId) => {
+                    const tbody = document.getElementById(bodyId); tbody.innerHTML = '';
+                    if (!data) return;
+                    data.forEach(row => {
+                        const roiClass = row.Profit.includes('-') ? 'text-danger' : 'text-success fw-bold';
+                        let badge = '';
+                        if (row.Status === 'Value') badge = '<span class="badge bg-success">Value</span>';
+                        else if (row.Status === 'Accurate') badge = '<span class="badge bg-primary">Accurate</span>';
+                        else badge = '<span class="badge bg-secondary">Check</span>';
+                        tbody.innerHTML += `<tr><td>${row.Type}</td><td>${row.Confidence}</td><td><strong>${row.HitRate}</strong></td><td class="${roiClass}">${row.Profit}</td><td>${badge}</td></tr>`;
+                    });
+                };
+                popTable(result.current_table, 'statsBodyCurrent');
+                popTable(result.prev_table, 'statsBodyPrev');
+                document.getElementById('statsTableContainer').style.display = 'flex';
+            } else alert('Error: ' + result.message);
+        } catch (e) { alert("Error: " + e); document.getElementById('statsLoading').style.display = 'none'; }
+    }
+
+    async function loadTrainingChart() {
+        const res = await fetch('/get_training_history');
+        const data = await res.json();
+        const epochs = data.map(d => d.epoch), losses = data.map(d => d.loss), accs = data.map(d => d.accuracy);
+        const minLoss = Math.min(...losses), bestIndex = losses.indexOf(minLoss), bestEpoch = epochs[bestIndex];
+        const ctx = document.getElementById('trainingChart').getContext('2d');
+        if (myChart) myChart.destroy();
+        myChart = new Chart(ctx, {
+            type: 'line',
+            data: { labels: epochs, datasets: [{ label: 'Loss', data: losses, borderColor: 'red', yAxisID: 'y' }, { label: 'Acc %', data: accs, borderColor: 'blue', yAxisID: 'y1' }] },
+            options: { responsive: true, scales: { y: { display: true, position: 'left' }, y1: { display: true, position: 'right' } } },
+            plugins: [{
+                id: 'vLine', afterDatasetsDraw: (chart) => {
+                    const { ctx, chartArea: { top, bottom }, scales: { x } } = chart;
+                    const xPos = x.getPixelForValue(bestEpoch);
+                    ctx.save(); ctx.beginPath(); ctx.strokeStyle = 'green'; ctx.lineWidth = 2; ctx.setLineDash([5, 5]);
+                    ctx.moveTo(xPos, top); ctx.lineTo(xPos, bottom); ctx.stroke(); ctx.restore();
+                }
+            }]
+        });
+    }
+
+    async function trainRLAgent() {
+        if (!confirm('This will retrain the RL Policy Agent on recent match data. Continue?')) return;
+        try {
+            const res = await fetch('/train_rl', { method: 'POST' });
+            const result = await res.json();
+            alert(result.message);
+        } catch (e) {
+            alert('Training failed: ' + e);
+        }
+    }
+
+    // --- WEEKLY REPORT ---
+    async function getWeeklyReport() {
+        const loading = document.getElementById('simLoading');
+        const target = document.getElementById('weeklyReportContent');
+        const container = document.getElementById('weeklyReportArea');
+        const simRes = document.getElementById('simResults');
+
+        loading.style.display = 'block';
+        if (simRes) simRes.style.display = 'none';
+        container.style.display = 'none';
+        target.innerHTML = '';
+
+        try {
+            const res = await fetch('/strategy/weekly_report');
+            const result = await res.json();
+            loading.style.display = 'none';
+
+            if (result.status === 'success') {
+                container.style.display = 'block';
+
+                if (result.report.length === 0) {
+                    target.innerHTML = '<div class="alert alert-warning">No data found matching criteria (2026+).</div>';
+                    return;
+                }
+
+                let html = '';
+                result.report.forEach(week => {
+                    html += `<div class="card mb-4 border-secondary">
+                        <div class="card-header bg-secondary text-white fw-bold d-flex justify-content-between">
+                            <span>🗓️ ${week.week}</span>
+                            <span class="badge bg-light">Weekly Summary</span>
+                        </div>
+                        <div class="card-body p-0">`;
+
+                    week.intervals.forEach(intv => {
+                        let statusBadge = intv.pool_status === 'WIN' ?
+                            `<span class="badge bg-success fs-6"><i class="bi bi-check-circle"></i> POOL WIN</span>` :
+                            `<span class="badge bg-danger fs-6"><i class="bi bi-x-circle"></i> POOL LOSS</span>`;
+
+                        let poolTotalClass = intv.pool_status === 'WIN' ? 'text-success' : 'text-danger text-decoration-line-through opacity-50';
+
+                        html += `<div class="p-3 border-bottom interval-block">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="fw-bold text-primary mb-0">${intv.name}</h5>
+                                <div>${statusBadge}</div>
+                            </div>
+                            <table class="table table-sm table-bordered text-center align-middle mb-2 bg-white">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Match</th>
+                                        <th>Pick</th>
+                                        <th>Model Prob</th>
+                                        <th>Odds</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+                                <tbody>`;
+
+                        intv.pool.forEach(p => {
+                            let resIcon = p.result === 'HIT' ? '✅' : '❌';
+                            html += `<tr>
+                                <td class="text-start small">${p.match}</td>
+                                <td class="fw-bold">${p.pick}</td>
+                                <td>${p.prob.toFixed(1)}%</td>
+                                <td>${p.odds.toFixed(2)}</td>
+                                <td>${resIcon}</td>
+                            </tr>`;
+                        });
+
+                        html += `</tbody></table>
+                            <div class="text-end fw-bold">
+                                Success Total Odds: <span class="${poolTotalClass} fs-4 ms-2">${intv.total_odds > 0 ? intv.total_odds.toFixed(2) : '0.00'}</span>
+                            </div>
+                        </div>`;
+                    });
+
+                    html += `</div></div>`;
+                });
+
+                target.innerHTML = html;
+            } else {
+                alert("Error: " + result.message);
+            }
+        } catch (e) {
+            alert("Report Error: " + e);
+            loading.style.display = 'none';
+        }
+    }
+
+    async function getPrediction() {
+        const h = document.getElementById('predHome').value;
+        const a = document.getElementById('predAway').value;
+        const l = document.getElementById('predLeague').value;
+        const d = document.getElementById('predDate').value;
+
+        document.getElementById('resultArea').innerHTML = '<div class="text-center mt-5"><div class="spinner-border"></div></div>';
+        try {
+            const res = await fetch('/predict', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ league: l, home: h, away: a, date: d }) });
+            const result = await res.json();
+            if (result.status === 'success') {
+                const html = renderUnifiedPrediction(result, h, a, true);
+                document.getElementById('resultArea').innerHTML = html;
+
+                document.getElementById('recentMatchesArea').style.display = 'none';
+            }
+        } catch (e) { document.getElementById('resultArea').innerHTML = `<div class="alert alert-danger">${e}</div>`; }
+    }
+
+    async function scrapeUpcoming() {
+        if (!confirm("Scrape upcoming matches for the next 30 days? This may take a moment.")) return;
+        document.getElementById('calLoading').style.display = 'block';
+        try {
+            const res = await fetch('/scrape_upcoming', { method: 'POST' });
+            const result = await res.json();
+            alert(result.message);
+            getDailyMatches(); // Refresh view
+        } catch (e) {
+            alert("Scraping failed: " + e);
+        } finally {
+            document.getElementById('calLoading').style.display = 'none';
+        }
+    }
+
+    function copyHTML() {
+        const html = document.getElementById('exportTarget').outerHTML;
+        navigator.clipboard.writeText(html).then(() => alert('HTML copied to clipboard!'));
+    }
+
+    function downloadImage() {
+        const element = document.getElementById('exportTarget');
+        html2canvas(element).then(canvas => {
+            const link = document.createElement('a');
+            link.download = 'fobo_prediction.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        });
+    }
+
+    function copyDailyHTML() {
+        const html = document.getElementById('dailyScheduleContainer').innerHTML;
+        navigator.clipboard.writeText(html).then(() => alert('Daily Schedule HTML copied!'));
+    }
+
+    function downloadDailyImage() {
+        const element = document.getElementById('dailyScheduleContainer');
+        html2canvas(element).then(canvas => {
+            const link = document.createElement('a');
+            link.download = 'fobo_daily_schedule.png';
+            link.href = canvas.toDataURL();
+            link.click();
+        });
+    }
+
+    async function runCalibration() {
+        document.getElementById('calibrationLoading').style.display = 'block';
+        document.getElementById('calibrationResult').style.display = 'none';
+        const term = document.getElementById('calibTerminal');
+        const prog = document.getElementById('calibProgBar');
+        term.innerHTML = '<span class="text-secondary">$ starting calibration...</span><br>';
+        prog.style.width = '0%';
+        prog.textContent = '0%';
+
+        try {
+            const response = await fetch('/get_calibration');
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value, { stream: true });
+                const lines = chunk.split('\n');
+
+                for (let line of lines) {
+                    if (!line.trim()) continue;
+                    try {
+                        const data = JSON.parse(line);
+
+                        if (data.log) {
+                            term.innerHTML += `> ${data.log}<br>`;
+                            term.scrollTop = term.scrollHeight;
+                        }
+
+                        if (data.progress !== undefined) {
+                            prog.style.width = data.progress + '%';
+                            prog.textContent = data.progress + '%';
+                        }
+
+                        if (data.status === 'complete' && data.result) {
+                            const div = document.getElementById('calibrationResult');
+                            div.style.display = 'block';
+                            div.innerHTML = `<h2 class="display-4 fw-bold text-primary">${data.result.optimal_threshold}%</h2>
+                                             <p class="lead">${data.result.details}</p>`;
+                        }
+
+                        if (data.status === 'error') {
+                            term.innerHTML += `<span class="text-danger">ERROR: ${data.log}</span><br>`;
+                        }
+
+                    } catch (e) { console.error("JSON Parse Error", e); }
+                }
+            }
+        } catch (e) {
+            term.innerHTML += `<span class="text-danger">FATAL ERROR: ${e}</span><br>`;
+        }
+    }
+
+    async function runRLOptimization() {
+        document.getElementById('rlLoading').style.display = 'block';
+        document.getElementById('rlResult').style.display = 'none';
+        const term = document.getElementById('rlTerminal');
+        const prog = document.getElementById('rlProgBar');
+        term.innerHTML = '<span class="text-secondary">$ starting rl optimization...</span><br>';
+        prog.style.width = '0%';
+        prog.textContent = '0%';
+
+        try {
+            const response = await fetch('/get_rl_optimal');
+            const reader = response.body.getReader();
+            const decoder = new TextDecoder();
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+
+                const chunk = decoder.decode(value, { stream: true });
+                const lines = chunk.split('\n');
+
+                for (let line of lines) {
+                    if (!line.trim()) continue;
+                    try {
+                        const data = JSON.parse(line);
+
+                        if (data.log) {
+                            term.innerHTML += `> ${data.log}<br>`;
+                            term.scrollTop = term.scrollHeight;
+                        }
+
+                        if (data.progress !== undefined) {
+                            prog.style.width = data.progress + '%';
+                            prog.textContent = data.progress + '%';
+                        }
+
+                        if (data.status === 'complete' && data.result) {
+                            const div = document.getElementById('rlResult');
+                            div.style.display = 'block';
+                            div.innerHTML = `<h2 class="display-4 fw-bold text-dark">${data.result.optimal_threshold}%</h2>
+                                             <p class="lead">${data.result.details}</p>`;
+                        }
+                        if (data.status === 'error') {
+                            term.innerHTML += `<span class="text-danger">ERROR: ${data.log}</span><br>`;
+                        }
+                    } catch (e) { console.error("JSON Parse Error", e); }
+                }
+            }
+        } catch (e) {
+            term.innerHTML += `<span class="text-danger">FATAL ERROR: ${e}</span><br>`;
+        }
+    }
+
+    // --- BET HISTORY LOGIC ---
+
+    function toggleAllHistory() {
+        const isChecked = document.getElementById('historySelectAll').checked;
+        document.querySelectorAll('.history-cb').forEach(cb => cb.checked = isChecked);
+    }
+
+    async function loadBetHistory() {
+        const tbody = document.getElementById('historyBody');
+        const loading = document.getElementById('historyLoading');
+
+        if (!tbody) return;
+
+        tbody.innerHTML = '';
+        loading.style.display = 'block';
+
+        try {
+            const res = await fetch('/api/bet_history');
+            const result = await res.json();
+            loading.style.display = 'none';
+
+            if (result.status === 'success') {
+                const data = result.data || [];
+                globalBetHistory = data;
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="9" class="text-muted py-4">No bet history found.</td></tr>';
+                    return;
+                }
+
+                data.forEach(bet => {
+                    let outcomeHtml = '';
+                    if (bet.outcome === 'Hit') outcomeHtml = `<span class="badge bg-success">Hit ✅</span>`;
+                    else if (bet.outcome === 'Miss') outcomeHtml = `<span class="badge bg-danger">Miss ❌</span>`;
+                    else if (bet.outcome === 'Passed') outcomeHtml = `<span class="badge bg-secondary">Passed ➖</span>`;
+                    else outcomeHtml = `<span class="badge bg-warning">Pending ⏳</span>`;
+
+                    let actualScoreHtml = bet.actual_score !== 'N/A' && bet.actual_score ? `<div class="small text-muted mt-1">Score: ${bet.actual_score}</div>` : '';
+
+                    let dateAdded = new Date(bet.added_at).toLocaleString();
+
+                    tbody.innerHTML += `
+                    <tr>
+                        <td><input class="form-check-input history-cb" type="checkbox" value="${bet.id}"></td>
+                        <td class="small text-muted">${dateAdded}</td>
+                        <td class="fw-bold">${bet.home} <br><small class="fw-light d-block text-center mt-1">vs</small> ${bet.away}</td>
+                        <td>${bet.match_date}</td>
+                        <td class="small text-muted">
+                            1: ${parseFloat(bet.odds_1 || 0).toFixed(2)}<br>
+                            X: ${parseFloat(bet.odds_x || 0).toFixed(2)}<br>
+                            2: ${parseFloat(bet.odds_2 || 0).toFixed(2)}
+                        </td>
+                        <td><small>Model: ${bet.pred_score}<br>RL: ${bet.rl_pick}</small></td>
+                        <td class="fw-bold text-primary">${bet.user_choice}</td>
+                        <td>${outcomeHtml}${bet.outcome !== 'Pending' ? actualScoreHtml : ''}</td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-danger" onclick="removeBet('${bet.id}')"><i class="bi bi-trash"></i></button>
+                        </td>
+                    </tr>`;
+                });
+            } else {
+                tbody.innerHTML = `<tr><td colspan="9" class="text-danger">Error: ${result.message}</td></tr>`;
+            }
+        } catch (e) {
+            loading.style.display = 'none';
+            tbody.innerHTML = `<tr><td colspan="9" class="text-danger">Failed to load history: ${e}</td></tr>`;
+        }
+    }
+
+    async function removeBet(id) {
+        if (!confirm("Are you sure you want to delete this bet?")) return;
+        try {
+            const res = await fetch('/api/bet_history/remove', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id: id })
+            });
+            const result = await res.json();
+            if (result.status === 'success') {
+                loadBetHistory();
+            } else {
+                alert("Error removing bet: " + result.message);
+            }
+        } catch (e) {
+            alert("Request failed: " + e);
+        }
+    }
+
+    async function clearSelectedHistory() {
+        const checkboxes = document.querySelectorAll('.history-cb:checked');
+        if (checkboxes.length === 0) return;
+        if (!confirm(`Delete ${checkboxes.length} selected bets?`)) return;
+
+        for (let cb of checkboxes) {
+            try {
+                await fetch('/api/bet_history/remove', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ id: cb.value })
+                });
+            } catch (e) {
+                console.error("Failed to remove ID", cb.value);
+            }
+        }
+        loadBetHistory();
+    }
+
+    async function addBetToHistory(matchDataStr, selectId) {
+        const data = JSON.parse(decodeURIComponent(matchDataStr));
+        const choice = document.getElementById(selectId).value;
+        data.user_choice = choice;
+
+        try {
+            const res = await fetch('/api/bet_history/add', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+            const result = await res.json();
+            if (result.status === 'success') {
+                alert('Bet saved to history!');
+                loadBetHistory();
+            } else {
+                alert('Error: ' + result.message);
+            }
+        } catch (e) {
+            alert('Request failed: ' + e);
+        }
+    }
+
+    async function sendSelectedToHistory() {
+        const checkboxes = document.querySelectorAll('.strategy-cb:checked');
+        if (checkboxes.length === 0) {
+            alert("Please select at least one match to send to bet history.");
+            return;
+        }
+
+        const matchesToSave = [];
+        checkboxes.forEach(cb => {
+            const idx = cb.getAttribute('data-idx');
+            const m = currentStrategyMatches[idx];
+
+            matchesToSave.push({
+                home: m.home,
+                away: m.away,
+                date: m.date,
+                pred_score: `${m.pred_pick} (${m.pred_conf}%)`,
+                rl_pick: `${m.rl_pick} (${m.rl_conf}%)`,
+                user_choice: m.rl_pick !== 'PASS' ? m.rl_pick : m.pred_pick,
+                odds_1: m.odds_1,
+                odds_x: m.odds_x,
+                odds_2: m.odds_2
+            });
+        });
+
+        try {
+            const res = await fetch('/api/bet_history/add_batch', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ matches: matchesToSave })
+            });
+            const result = await res.json();
+            if (result.status === 'success') {
+                alert(`Successfully sent ${matchesToSave.length} matches to Bet History.`);
+                checkboxes.forEach(cb => cb.checked = false);
+                await fetchBetHistoryData();
+                updateFilters();
+                loadBetHistory();
+            } else {
+                alert("Error saving: " + result.message);
+            }
+        } catch (e) {
+            alert("Failed to save bets: " + e);
+        }
+    }
+
+    // Initialize history on load
+    document.addEventListener('DOMContentLoaded', () => {
+        const historyTabTrigger = document.querySelector('button[data-bs-target="#history"]');
+        if (historyTabTrigger) {
+            historyTabTrigger.addEventListener('shown.bs.tab', function (event) {
+                loadBetHistory();
+            });
+        }
+    });
+
+</script>
+
+<script>
+    (function () {
+        const titles = {
+            '#predict': ['Match Predictor', 'Select teams to run a full AI analysis'],
+            '#calendar': ['Daily Schedule', 'Browse all AI-predicted matches for today'],
+            '#power': ['GNN Power Rankings', 'Visualising transitive strength learned by the graph network'],
+            '#stats': ['Optimal Prediction Threshold', 'Calculate the best confidence cutoff based on last 400 matches'],
+            '#train': ['Optimal RL Confidence', 'Find the sweet spot for the Reinforcement Learning agent'],
+            '#strategy': ['Strategy Generator', 'Filter and rank picks using your custom thresholds'],
+            '#simulation': ['Strategy Lab', 'Run simulations and generate weekly profit reports'],
+            '#history': ['Bet History', 'Track your picks, outcomes, and long-term P&L'],
+            '#insights': ['AI Insights — Engine v7', 'Deep dive into the architecture powering every prediction'],
+        };
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.td-nav-link').forEach(function (btn) {
+                btn.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // 1. Update button states
+                    document.querySelectorAll('.td-nav-link').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    var targetId = this.getAttribute('data-bs-target');
+
+                    // 2. Hide all panes
+                    document.querySelectorAll('.tab-pane').forEach(function (pane) {
+                        pane.classList.remove('show', 'active');
+                    });
+
+                    // 3. Show target pane
+                    var targetPane = document.querySelector(targetId);
+                    if (targetPane) {
+                        targetPane.classList.add('show', 'active');
+                    }
+
+                    // 4. Update Header Titles
+                    if (titles[targetId]) {
+                        document.getElementById('pageTitle').textContent = titles[targetId][0];
+                        document.getElementById('pageSub').textContent = titles[targetId][1];
+                    }
+                });
+            });
+        });
+    })();
+</script>

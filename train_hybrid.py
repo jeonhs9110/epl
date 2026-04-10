@@ -1,8 +1,7 @@
 import torch
 import numpy as np
-import pandas as pd
 import xgboost as xgb
-from sklearn.metrics import accuracy_score, classification_report, brier_score_loss
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.calibration import CalibratedClassifierCV
 import os
 import joblib
@@ -22,7 +21,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
 
 import prediction_model as pm
-from prediction_model import LeagueAwareModel, get_master_data, SoccerDataset, get_dataloader, calculate_probabilities
+from prediction_model import LeagueAwareModel, get_master_data, get_dataloader, calculate_probabilities
 
 DEVICE = pm.DEVICE
 print(f"Using Device: {DEVICE}")
@@ -58,11 +57,11 @@ def extract_embeddings_dataset(model, loader):
             hg, ag = batch['hg'], batch['ag']
             
             # 1. Get Model Embeddings (Features)
-            # [Batch, 1056]
+            # [Batch, 2080] = 6*EMBED_DIM(256) + LEAGUE_EMBED_DIM(32) + 2*EMBED_DIM(256) tactical
             feats = model.extract_features(b_h_seq, b_a_seq, b_h_id, b_a_id, b_l_id, b_h_elo, b_a_elo)
-            
+
             # 2. Get Model Predictions (Lambdas, Rho, xG) for Feature Delta
-            # Model now returns: lambdas, rho, h_xg, a_xg, final_embed
+            # Model returns: lambdas, rho, xg_params, h_s, a_s
             lambdas, rho, _, _, _ = model(b_h_seq, b_a_seq, b_h_id, b_a_id, b_l_id, b_odds, b_h_elo, b_a_elo)
             
             # CPU conversion for loop
@@ -127,7 +126,7 @@ def extract_embeddings_dataset(model, loader):
     y = np.concatenate(labels)
     
     # Combine Embeddings + Odds + Deltas for XGBoost Input
-    # [N, 1056 + 3 + 6]
+    # [N, 2080 + 3 + 6] = [N, 2089]
     X_final = np.hstack([X_emb, X_odds, X_deltas])
     
     return X_final, y

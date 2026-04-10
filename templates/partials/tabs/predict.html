@@ -1,0 +1,38 @@
+<!-- PREDICTION TAB -->
+<div class="tab-pane fade show active" id="predict">
+    <div class="card p-4 hover-elevate mb-4">
+        <div class="row g-3">
+            <div class="col-md-3"><label class="form-label fw-bold">Select League</label><select
+                    class="form-select form-select-lg" id="predLeague"
+                    onchange="updateTeams('pred')"></select></div>
+            <div class="col-md-3"><label class="form-label fw-bold">Home Team</label><select
+                    class="form-select form-select-lg" id="predHome"></select></div>
+            <div class="col-md-3"><label class="form-label fw-bold">Away Team</label><select
+                    class="form-select form-select-lg" id="predAway"></select></div>
+            <div class="col-md-3"><label class="form-label fw-bold">Match Date</label><input
+                    type="date" class="form-control form-control-lg" id="predDate"></div>
+        </div>
+        <button class="btn btn-primary btn-lg mt-4 w-100" onclick="getPrediction()">Run Prediction
+            Models</button>
+    </div>
+    <div id="resultArea"></div>
+    <!-- RECENT MATCHES DISPLAY -->
+    <div id="recentMatchesArea" class="row mt-4" style="display:none;">
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5 class="text-center text-primary fw-bold" id="homeFormTitle">Home Team Form</h5>
+                <table class="table table-sm text-center">
+                    <tbody id="homeFormBody"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5 class="text-center text-danger fw-bold" id="awayFormTitle">Away Team Form</h5>
+                <table class="table table-sm text-center">
+                    <tbody id="awayFormBody"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

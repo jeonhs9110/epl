@@ -705,8 +705,6 @@ def predict():
                     
             return 1.0
 
-            return 1.0
-
         # Get Team Names for Rank Lookup
         h_name = data['home']
         a_name = data['away']
@@ -783,56 +781,56 @@ def predict():
             draw_mult *= 1.1
             under_mult *= 1.15
 
-        # --- 5. TIGHT MATCH & APPLY LOGIC (Loop) ---
-        
-        # Apply to ALL models (Final, Loss, Acc)
-        for res in all_results:
-            # Local multipliers for this model
-            m_h_boost = h_boost * streak_h_mult
-            m_a_boost = a_boost * streak_a_mult
-            m_draw_mult = draw_mult
-            m_under_mult = under_mult
-            
-            # Tight Match Theory (Model Specific)
-            # Proxy: High BTTS (>55) but Low Over 2.5 (<45) -> Low scoring draw likely
-            if res['btts_yes'] >= 55.0 and res['over_2_5'] < 45.0:
-                m_draw_mult *= 1.15
-            
-            # Apply Win/Draw/Loss Multipliers
-            if m_h_boost != 1.0 or m_a_boost != 1.0 or m_draw_mult != 1.0:
-                w = res['win'] * m_h_boost
-                d = res['draw'] * m_draw_mult
-                l = res['loss'] * m_a_boost
-                tot = w + d + l
-                if tot > 0:
-                    res['win'] = round((w / tot) * 100, 1)
-                    res['draw'] = round((d / tot) * 100, 1)
-                    res['loss'] = round((l / tot) * 100, 1)
-
-            # Apply Over/Under Multipliers
-            if m_under_mult != 1.0:
-                u = res['under_2_5'] * m_under_mult
-                o = res['over_2_5']
-                tot = u + o
-                if tot > 0:
-                    res['under_2_5'] = round((u / tot) * 100, 1)
-                    res['over_2_5'] = round((o / tot) * 100, 1)
-
-        # --- AVERAGE CALCULATION (Weighted by 3 Models) ---
+        # --- 5. AVERAGE RAW MODEL OUTPUTS (Before contextual adjustments) ---
+        # Individual model results (res_final, res_loss, res_acc) are kept as pure model
+        # outputs so the UI comparison table shows unmodified per-checkpoint probabilities.
+        # Contextual boosts are applied once to the consensus average below.
         res_avg = {}
         if all_results:
             keys = ['win', 'draw', 'loss', 'over_2_5', 'under_2_5', 'btts_yes', 'btts_no']
             for k in keys:
                 val = sum([r[k] for r in all_results]) / len(all_results)
                 res_avg[k] = round(val, 1)
-            
-            # For score, use Best Loss (res_loss) as representative or average score?
-            # Averaging strings "1-0" is hard. Use Best Loss model's score.
-            # Fallback to first available.
+
+            # Score is a string ("1-0") — use best-loss model's score; fall back to first.
             rep = res_loss if res_loss else all_results[0]
             res_avg['predicted_score'] = rep['predicted_score']
         else:
             res_avg = None
+
+        # --- 6. APPLY CONTEXTUAL BOOSTS TO CONSENSUS AVERAGE (Single Pass) ---
+        # Boosts are external contextual signals (form, fatigue, H2H, fortress).
+        # Applying them once to the averaged output is cleaner than boosting each model
+        # independently (which causes three separate renormalisations before averaging).
+        if res_avg:
+            m_h_boost = h_boost * streak_h_mult
+            m_a_boost = a_boost * streak_a_mult
+            m_draw_mult = draw_mult
+            m_under_mult = under_mult
+
+            # Tight Match Theory: High BTTS (>55) but Low Over 2.5 (<45) → draw boost
+            if res_avg['btts_yes'] >= 55.0 and res_avg['over_2_5'] < 45.0:
+                m_draw_mult *= 1.15
+
+            # Apply Win/Draw/Loss Multipliers
+            if m_h_boost != 1.0 or m_a_boost != 1.0 or m_draw_mult != 1.0:
+                w = res_avg['win'] * m_h_boost
+                d = res_avg['draw'] * m_draw_mult
+                l = res_avg['loss'] * m_a_boost
+                tot = w + d + l
+                if tot > 0:
+                    res_avg['win'] = round((w / tot) * 100, 1)
+                    res_avg['draw'] = round((d / tot) * 100, 1)
+                    res_avg['loss'] = round((l / tot) * 100, 1)
+
+            # Apply Over/Under Multipliers
+            if m_under_mult != 1.0:
+                u = res_avg['under_2_5'] * m_under_mult
+                o = res_avg['over_2_5']
+                tot = u + o
+                if tot > 0:
+                    res_avg['under_2_5'] = round((u / tot) * 100, 1)
+                    res_avg['over_2_5'] = round((o / tot) * 100, 1)
         
         # --- TECHNICAL FACTOR REPORT ---
         tech_report = {
@@ -1342,8 +1340,6 @@ def get_daily_matches():
                         a_id_t = torch.tensor([a_id], device=DEVICE)
                         l_id_t = torch.tensor([l_id], device=DEVICE)
 
-                        l_id_t = torch.tensor([l_id], device=DEVICE)
-
                         if model_current:
                             with torch.no_grad():
                                 # ELO
@@ -1384,7 +1380,6 @@ def get_daily_matches():
                                     rl_label = "PASS (Uncertain)"
                                     rl_color = "warning"
                                     rl_icon = "🛑"
-                                    rl_desc = "Risk too high / No Value"
                                     rl_desc = "Risk too high / No Value"
                     except Exception as e:
                         print(f"RL Error: {e}")
@@ -1745,10 +1740,7 @@ def run_strategy_backtest():
                         h_id_t = torch.tensor([h_id], device=DEVICE)
                         a_id_t = torch.tensor([a_id], device=DEVICE)
                         l_id_t = torch.tensor([l_id], device=DEVICE)
-                        
-                        a_id_t = torch.tensor([a_id], device=DEVICE)
-                        l_id_t = torch.tensor([l_id], device=DEVICE)
-                        
+
                         with torch.no_grad():
                             # ELO
                             h_elo_val = elo_ratings.get(h_id, 1500.0)
@@ -1919,6 +1911,9 @@ def get_weekly_report():
         h_elo_t = torch.tensor([h_elo_norm], dtype=torch.float32).to(DEVICE)
         a_elo_t = torch.tensor([a_elo_norm], dtype=torch.float32).to(DEVICE)
         
+        if model_final is None or policy_agent is None:
+            continue
+
         try:
             # DL Model
             with torch.no_grad():
@@ -1961,13 +1956,13 @@ def get_weekly_report():
                 pick = "HOME"
                 pick_prob = h_prob
                 is_hit = (actual_res == 'H')
-                odds_val = row['odds_1']
+                odds_val = float(row.get('odds_1', 0.0))
             # Check Away
             elif a_prob > 65 and rl_act == 2 and rl_conf > 75:
                 pick = "AWAY"
                 pick_prob = a_prob
                 is_hit = (actual_res == 'A')
-                odds_val = row['odds_2']
+                odds_val = float(row.get('odds_2', 0.0))
                 
             if pick:
                 # Add to candidate list
@@ -2597,10 +2592,13 @@ def get_strategy_dynamic():
             
         for idx, row in df.iterrows():
             try:
+                if model_current is None or policy_agent is None:
+                    continue
+
                 date = row['date_obj']
                 h_id, a_id = row['home_id'], row['away_id']
                 l_id = row['league_id']
-                
+
                 # Model Inference
                 h_seq = torch.from_numpy(pm.get_team_history(h_id, date, master_df)).float().unsqueeze(0).to(DEVICE)
                 a_seq = torch.from_numpy(pm.get_team_history(a_id, date, master_df)).float().unsqueeze(0).to(DEVICE)

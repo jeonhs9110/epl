@@ -1,0 +1,41 @@
+<!-- OPTIMAL RL CONFIDENCE TAB -->
+<div class="tab-pane fade" id="train" role="tabpanel">
+    <div class="card p-5 hover-elevate shadow-sm border-0">
+        <h3 class="fw-bold mb-4 text-dark">Optimal Confidence Level for RL Agent</h3>
+        <p class="lead text-muted">Analysis based on recent 400 matches.</p>
+
+        <div class="text-center my-5">
+            <button class="btn btn-dark btn-lg px-5 py-3 shadow" onclick="runRLOptimization()">
+                <i class="bi bi-cpu me-2"></i> Calculate RL Threshold
+            </button>
+        </div>
+
+        <div id="rlLoading" class="mt-4" style="display:none;">
+            <div class="progress mb-3" style="height: 25px;">
+                <div id="rlProgBar"
+                    class="progress-bar progress-bar-striped progress-bar-animated bg-dark"
+                    role="progressbar" style="width: 0%"></div>
+            </div>
+            <div id="rlTerminal"
+                class="bg-black text-success font-monospace p-3 text-start overflow-auto shadow-sm rounded"
+                style="height: 300px; font-size: 0.85rem;">
+                <span class="text-secondary">$ ready...</span><br>
+            </div>
+        </div>
+
+        <div id="rlResult" class="mt-5 p-4 bg-white rounded shadow-sm border" style="display:none;">
+        </div>
+
+        <hr class="my-5">
+        <h4 class="fw-bold mb-3 text-dark"><i class="bi bi-graph-up me-2"></i>Training History</h4>
+        <p class="text-muted mb-3">Loss and accuracy curves over training epochs.</p>
+        <div class="text-center mb-4">
+            <button class="btn btn-outline-dark px-4" onclick="loadTrainingChart()">
+                <i class="bi bi-bar-chart-line me-2"></i> Load Training Chart
+            </button>
+        </div>
+        <div class="p-3 bg-white rounded border shadow-sm">
+            <canvas id="trainingChart" height="100"></canvas>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+<!-- POWER RANKINGS TAB (GNN Graph) -->
+<div class="tab-pane fade" id="power">
+    <div class="card p-4 hover-elevate">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h3 class="fw-bold mb-0">🕸️ GNN Dominance Graph</h3>
+                <p class="text-muted small mb-0">Visualizing the "Transitive Strength" learned by the model.</p>
+            </div>
+            <div class="d-flex gap-2 align-items-center">
+                <label class="fw-bold">League:</label>
+                <select class="form-select w-auto" id="powerLeague" onchange="getGNNGraph()"></select>
+                <button class="btn btn-outline-primary btn-sm" onclick="getGNNGraph()">🔄 Refresh
+                    Interaction</button>
+            </div>
+        </div>
+
+        <div id="powerLoading" class="text-center" style="display:none;">
+            <div class="spinner-border text-primary"></div>
+            <p>Constructing Neural Graph...</p>
+        </div>
+
+        <div id="gnn-network"
+            style="height: 600px; border: 1px solid #e0e0e0; background-color: var(--surface-color-solid); border-radius: 12px; border: 1px solid var(--border-color); box-shadow: inset 0 0 20px rgba(0,0,0,0.5);">
+        </div>
+
+        <div class="alert alert-info mt-3">
+            <div class="d-flex align-items-start">
+                <i class="bi bi-info-circle fs-4 me-3 mt-1"></i>
+                <div class="flex-grow-1">
+                    <strong class="d-block mb-2">📖 How to read this graph:</strong>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="mb-0 small">
+                                <li><strong>Nodes (Circles):</strong> Represent Teams. Size = Current Points (Power).</li>
+                                <li><strong>Edges (Arrows):</strong> Represent a "Win". Arrow points from Winner → Loser.</li>
+                                <li><strong>Clustering:</strong> Teams that beat the same opponents naturally cluster together.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="d-flex flex-wrap gap-2 align-items-center">
+                                <span class="badge" style="background-color: #ffd700; color: #333;">🥇 Top Tier (60+ pts)</span>
+                                <span class="badge" style="background-color: #97c2fc; color: #333;">🔵 Mid Table</span>
+                                <span class="badge" style="background-color: #ffcccc; color: #333;">🔴 Relegation Zone (&lt;30 pts)</span>
+                                <span class="badge" style="background-color: #84a98c; color: #fff;">→ Home Win</span>
+                                <span class="badge" style="background-color: #e76f51; color: #fff;">→ Away Win</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

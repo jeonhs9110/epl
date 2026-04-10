@@ -140,13 +140,21 @@ def train_deep_model():
     
     ppo_agent = PPOAgent(state_dim=STATE_DIM, action_dim=ACTION_DIM, lr=0.0003, entropy_coef=0.15).to(DEVICE)
     
-    # Train PPO
-    # We use the TRAINED model as the environment/state-provider
+    # Reload best-loss weights before PPO training.
+    # During the DL training loop the model variable ends on the final epoch,
+    # which may differ from the best-loss checkpoint saved to CURRENT_MODEL_PATH.
+    # At inference, model_current always loads CURRENT_MODEL_PATH (best-loss), so the
+    # PPO agent must be trained on exactly those weights to keep embedding spaces aligned.
+    if not os.environ.get('FOBO_SKIP_DL_TRAIN', 'false').lower() == 'true':
+        if os.path.exists(CURRENT_MODEL_PATH):
+            model.load_state_dict(torch.load(CURRENT_MODEL_PATH, map_location=DEVICE))
+            print("Reloaded best-loss weights for PPO training (aligns with inference model_current).")
+
     rl_epochs = 20
     if os.environ.get('FOBO_TEST_MODE', 'false').lower() == 'true':
         print("\n  TEST MODE ACTIVE: Reducing RL Epochs to 1.  \n")
         rl_epochs = 1
-        
+
     trained_agent = train_ppo_agent(model, ppo_agent, epochs=rl_epochs)
     
     # Save Agent
