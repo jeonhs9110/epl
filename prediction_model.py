@@ -25,14 +25,23 @@ ENCODER_FILE = 'encoders.pkl'
 
 if torch.cuda.is_available():
     DEVICE = torch.device('cuda')
-    print(f"\n[CUDA STATUS] SUCCESS: CUDA is available. Using {torch.cuda.get_device_name(0)}")
+    _CUDA_MSG = f"\n[CUDA STATUS] SUCCESS: CUDA is available. Using {torch.cuda.get_device_name(0)}"
 else:
     DEVICE = torch.device('cpu')
-    print("\n[CUDA STATUS] WARNING: CUDA NOT DETECTED. Using CPU. This will be slow.\n")
+    _CUDA_MSG = "\n[CUDA STATUS] WARNING: CUDA NOT DETECTED. Using CPU."
+
+# Print CUDA status only once per process (avoids duplicate prints on re-import)
+if not globals().get('_CUDA_PRINTED'):
+    print(_CUDA_MSG)
+    _CUDA_PRINTED = True
 
 
-# HYPERPARAMETERS (Level 6 - Advanced)
-BATCH_SIZE = 512
+# HYPERPARAMETERS — auto-scale for CPU vs GPU
+if DEVICE.type == 'cuda':
+    BATCH_SIZE = 512
+else:
+    # Smaller batches reduce memory pressure and per-step latency on CPU
+    BATCH_SIZE = 64
 SEQ_LENGTH = 10 # Global maximum sequence length for the PyTorch tensor
 
 import json
@@ -211,7 +220,16 @@ def get_master_data():
     
     master_df = pd.concat(df_list, ignore_index=True)
     master_df = master_df.sort_values('date_obj').reset_index(drop=True)
-    
+
+    # --- FILTER OLD SEASONS ---
+    # Only train on 2024-25 season onwards (data files are kept but excluded here).
+    training_cutoff = pd.Timestamp(2024, 8, 1)
+    pre_filter_len = len(master_df)
+    master_df = master_df[master_df['date_obj'] >= training_cutoff].reset_index(drop=True)
+    dropped = pre_filter_len - len(master_df)
+    if dropped > 0:
+        print(f"    [FILTER] Excluded {dropped} matches before 2024-25 season (keeping {len(master_df)}).")
+
     # --- LOAD OR CREATE ENCODERS ---
     le_team, le_league = load_encoders()
     
@@ -366,11 +384,6 @@ class SoccerDataset(Dataset):
             h_elos_norm = (h_elos - self.min_elo) / (self.max_elo - self.min_elo)
             a_elos_norm = (a_elos - self.min_elo) / (self.max_elo - self.min_elo)
 
-        # Date Weights
-        date_23_24_start = pd.Timestamp(2023, 8, 1)
-        date_24_25_start = pd.Timestamp(2024, 8, 1)
-        date_25_curr_start = pd.Timestamp(2025, 8, 1)
-        
         # League Position Variance
         league_points = {}
         
@@ -515,26 +528,33 @@ class SoccerDataset(Dataset):
                 if l_id not in league_points: league_points[l_id] = {}
                 if h_id not in league_points[l_id]: league_points[l_id][h_id] = 0
                 if a_id not in league_points[l_id]: league_points[l_id][a_id] = 0
-                
+
                 if hgs[idx] > ags[idx]: league_points[l_id][h_id] += 3
                 elif ags[idx] > hgs[idx]: league_points[l_id][a_id] += 3
                 else:
                     league_points[l_id][h_id] += 1
                     league_points[l_id][a_id] += 1
-                
+
+                # When odds are missing, xG/scores may also be unreliable (scraped as 0).
+                # Use goals for league points (above) since 0-0 is a valid score,
+                # but substitute 0.0 xG with the goals themselves as a proxy so
+                # team_history averages aren't dragged down by fake zeros.
+                safe_hxg = hxgs[idx] if hxgs[idx] > 0.0 else float(hgs[idx])
+                safe_axg = axgs[idx] if axgs[idx] > 0.0 else float(ags[idx])
+
                 if h_id not in team_history: team_history[h_id] = []
                 if a_id not in team_history: team_history[a_id] = []
-                team_history[h_id].append((match_date, hgs[idx], ags[idx], hxgs[idx], axgs[idx], 1.0, l_var))
-                team_history[a_id].append((match_date, ags[idx], hgs[idx], axgs[idx], hxgs[idx], 0.0, l_var))
-                
-                # Update Stats for Contrastive
+                team_history[h_id].append((match_date, hgs[idx], ags[idx], safe_hxg, safe_axg, 1.0, l_var))
+                team_history[a_id].append((match_date, ags[idx], hgs[idx], safe_axg, safe_hxg, 0.0, l_var))
+
+                # Update Stats for Contrastive (use safe xG values)
                 if h_id not in self.team_stats: self.team_stats[h_id] = [0,0,0]
                 if a_id not in self.team_stats: self.team_stats[a_id] = [0,0,0]
                 self.team_stats[h_id][0] += hgs[idx]
-                self.team_stats[h_id][1] += hxgs[idx]
+                self.team_stats[h_id][1] += safe_hxg
                 self.team_stats[h_id][2] += 1
                 self.team_stats[a_id][0] += ags[idx]
-                self.team_stats[a_id][1] += axgs[idx]
+                self.team_stats[a_id][1] += safe_axg
                 self.team_stats[a_id][2] += 1
                 continue
 
@@ -1228,12 +1248,11 @@ def get_dataloader(batch_size=32):
     df, le_t, le_l = get_master_data()
     if df is None: return None, None
     ds = SoccerDataset(df)
-    # num_workers=2: background prefetch (safe on Windows with spawn start method)
-    # persistent_workers keeps worker processes alive between batches
-    # pin_memory only useful on CUDA
+    # pin_memory only useful on CUDA; num_workers>0 adds overhead on CPU-only Windows
     use_pin = torch.cuda.is_available()
+    n_workers = 2 if use_pin else 0
     loader = DataLoader(ds, batch_size=batch_size, shuffle=True,
-                        num_workers=2, persistent_workers=True, pin_memory=use_pin)
+                        num_workers=n_workers, persistent_workers=(n_workers > 0), pin_memory=use_pin)
     return loader, loader
 
 # ==========================================
@@ -1359,7 +1378,8 @@ def train_ppo_agent(model, agent, epochs=50):
     model.eval()
     master, _, _ = get_master_data()
     if master is None: return
-    train_loader = DataLoader(SoccerDataset(master, tail=2000), batch_size=1, shuffle=True)
+    ppo_tail = 2000 if DEVICE.type == 'cuda' else 800
+    train_loader = DataLoader(SoccerDataset(master, tail=ppo_tail), batch_size=1, shuffle=True)
     update_timestep = 512
     time_step = 0
     agent.train()
@@ -1410,8 +1430,7 @@ def train_ppo_agent(model, agent, epochs=50):
             a_lam = lambdas[0, 1].item()
             rho_val = rho[0].item()
             
-            # Use fewer sims during training (1000 vs 5000) — sufficient for reward signal, 5× faster
-            model_probs = calculate_probabilities(h_lam, a_lam, rho_val, n_sims=1000)
+            model_probs = calculate_probabilities(h_lam, a_lam, rho_val)
             p_map = {0: model_probs['home_win'], 1: model_probs['draw'], 2: model_probs['away_win']}
             
             reward = 0
