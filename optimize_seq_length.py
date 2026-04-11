@@ -130,7 +130,7 @@ for l_name, l_id in league_ids.items():
 print("\n\nFINAL OPTIMAL SEQUENCE LENGTHS DICTIONARY:")
 print(json.dumps(best_lengths, indent=4))
 
-output_file = 'optimal_seq_lengths.json'
+output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'optimal_seq_lengths.json')
 with open(output_file, 'w') as f:
     json.dump(best_lengths, f, indent=4)
 print(f"Saved optimal lengths to {output_file}")

@@ -134,7 +134,14 @@ def main():
                 os.environ["FOBO_SKIP_DL_TRAIN"] = "true"
                 print("SKIPPING DL Training: Generating PPO Agent only.")
             else:
-                 os.environ["FOBO_SKIP_DL_TRAIN"] = "false"
+                os.environ["FOBO_SKIP_DL_TRAIN"] = "false"
+
+            # SKIP PPO PROMPT
+            if input("SKIP PPO Training (Use existing ppo_agent.pth)? [y/N]: ").strip().lower() == 'y':
+                os.environ["FOBO_SKIP_PPO_TRAIN"] = "true"
+                print("SKIPPING PPO Training: Using saved agent.")
+            else:
+                os.environ["FOBO_SKIP_PPO_TRAIN"] = "false"
             
             # FORCE DL TRAINING BEFORE HYBRID (Fixes Model Mismatch)
             _skip_dl = os.environ.get("FOBO_SKIP_DL_TRAIN", "false").lower() == "true"
@@ -163,11 +170,15 @@ def main():
     # 3.5 HYBRID TRAINING (XGBoost)
     print("\n[STEP 3.5] HYBRID ENSEMBLE TRAINING")
     if retrain == 'y':
-        print("Training Hybrid XGBoost Model...")
+        skip_xgb = input("SKIP XGBoost training (use existing saved model, calibrator only)? [y/N]: ").strip().lower() == 'y'
+        if skip_xgb:
+            os.environ['FOBO_SKIP_XGB_TRAIN'] = 'true'
+            print(">> Skipping XGBoost training. Running calibrator only.")
         if train_hybrid.train_hybrid():
             print(">> Hybrid Model Trained Successfully.")
         else:
             print(">> [WARNING] Hybrid Training Failed. App will fall back to Deep Learning only.")
+        os.environ.pop('FOBO_SKIP_XGB_TRAIN', None)
     else:
         print(">> Skipping Hybrid Training (Configured to use pre-existing).")
 
@@ -193,4 +204,7 @@ def main():
         print(f"Error running app.py: {e}")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nPipeline stopped by user.")

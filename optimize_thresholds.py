@@ -1,3 +1,4 @@
+import os
 import prediction_model as pm
 import pandas as pd
 import numpy as np
@@ -6,6 +7,8 @@ from scipy.stats import poisson
 
 # Configuration
 DEVICE = pm.DEVICE
+_DIR = os.path.dirname(os.path.abspath(__file__))
+_MODELS_DIR = os.path.join(_DIR, 'models')
 
 def calculate_advanced_stats(home_lam, away_lam):
     # Safety Check
@@ -42,7 +45,7 @@ def find_optimal_thresholds():
     
     model = pm.LeagueAwareModel(num_teams, num_leagues).to(DEVICE)
     try:
-        model.load_state_dict(torch.load('models/FOBO_LEAGUE_AWARE_current.pth', map_location=DEVICE))
+        model.load_state_dict(torch.load(os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_current.pth'), map_location=DEVICE))
         model.eval()
         print("Model Loaded.")
     except Exception as e:
@@ -52,7 +55,7 @@ def find_optimal_thresholds():
     RL_STATE_DIM = (pm.EMBED_DIM * 6) + pm.LEAGUE_EMBED_DIM
     agent = pm.PPOAgent(RL_STATE_DIM).to(DEVICE)
     try:
-        agent.load_state_dict(torch.load('models/policy_agent.pth', map_location=DEVICE))
+        agent.load_state_dict(torch.load(os.path.join(_MODELS_DIR, 'ppo_agent.pth'), map_location=DEVICE))
         print("RL Agent Loaded.")
     except:
         print("RL Agent not found! Proceeding with only Model stats if possible.")

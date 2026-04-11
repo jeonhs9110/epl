@@ -12,7 +12,8 @@ import shutil
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import json
 
-TRAINING_HISTORY_FILE = 'training_history.json'
+_DIR = os.path.dirname(os.path.abspath(__file__))
+TRAINING_HISTORY_FILE = os.path.join(_DIR, 'training_history.json')
 
 matplotlib.use('Agg')  # Required for non-GUI backend
 import matplotlib.pyplot as plt
@@ -39,10 +40,12 @@ print(f"\nUSING DEVICE (Inherited): {DEVICE}\n")
 # Calculate RL State Dim dynamically
 # Level 8 Upgrade: 6 * EMBED_DIM (base) + LEAGUE_DIM + (2 * EMBED_DIM for cross attention)
 RL_STATE_DIM = (pm.EMBED_DIM * 6) + pm.LEAGUE_EMBED_DIM + (pm.EMBED_DIM * 2)
-CURRENT_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_current.pth' # Best Loss
-PREVIOUS_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_previous.pth'
-FINAL_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_final.pth'
-ACC_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_best_acc.pth'
+_MODELS_DIR = os.path.join(_DIR, 'models')
+os.makedirs(_MODELS_DIR, exist_ok=True)
+CURRENT_MODEL_PATH = os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_current.pth') # Best Loss
+PREVIOUS_MODEL_PATH = os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_previous.pth')
+FINAL_MODEL_PATH = os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_final.pth')
+ACC_MODEL_PATH = os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_best_acc.pth')
 
 # CHECK ENV VAR FOR TRAINING OVERRIDE
 env_skip = os.environ.get('FOBO_SKIP_TRAINING', 'false').lower()
@@ -76,6 +79,7 @@ model_acc = None    # Best accuracy weights
 policy_agent = None ## RL AGENT
 hybrid_model = None ## XGBOOST HYBRID
 lgbm_model = None   ## LIGHTGBM HYBRID
+calibrator = None   ## PROBABILITY CALIBRATOR (PLATT SCALING)
 le_team = None
 training_history = load_history()
 le_league = None
@@ -448,7 +452,7 @@ def initialize_system():
     
     # 6. Load or Train RL Agent
     global policy_agent
-    policy_path = 'models/ppo_agent.pth'
+    policy_path = os.path.join(_MODELS_DIR, 'ppo_agent.pth')
     policy_agent = pm.PPOAgent(state_dim=RL_STATE_DIM).to(DEVICE)
     
     rl_needs_training = False
@@ -478,7 +482,7 @@ def initialize_system():
              torch.save(policy_agent.state_dict(), policy_path)
     
     # 7. Load Hybrid Model (XGBoost)
-    hybrid_path = 'models/xgb_classifier.json'
+    hybrid_path = os.path.join(_MODELS_DIR, 'xgb_classifier.json')
     if xgb and os.path.exists(hybrid_path):
         try:
             hybrid_model = xgb.XGBClassifier()
@@ -493,7 +497,7 @@ def initialize_system():
 
     # 8. Load LightGBM Model
     global lgbm_model
-    lgbm_path = 'models/lgbm_classifier.joblib'
+    lgbm_path = os.path.join(_MODELS_DIR, 'lgbm_classifier.joblib')
     if os.path.exists(lgbm_path):
         try:
             import joblib
@@ -504,6 +508,20 @@ def initialize_system():
             lgbm_model = None
     else:
         lgbm_model = None
+
+    # 9. Load Probability Calibrator (Platt scaling for XGBoost)
+    global calibrator
+    calibrator_path = os.path.join(_MODELS_DIR, 'calibrator.joblib')
+    if os.path.exists(calibrator_path):
+        try:
+            import joblib
+            calibrator = joblib.load(calibrator_path)
+            print("Loaded Probability Calibrator.")
+        except Exception as e:
+            print(f"Failed to load Calibrator: {e}")
+            calibrator = None
+    else:
+        calibrator = None
 
     print("System Initialization Complete.")
 
@@ -1580,8 +1598,10 @@ def predict_match_internal(model, h_id, a_id, l_id, date_str, df, odds_tuple=(0.
             
             # Voter 2: XGBoost
             if hybrid_model:
-                 xgb_probs = hybrid_model.predict_proba(X_in)[0] * 100
-                 probs_list.append(xgb_probs.tolist())
+                 xgb_probs = hybrid_model.predict_proba(X_in)[0]
+                 if calibrator:
+                     xgb_probs = calibrator.predict_proba([xgb_probs])[0]
+                 probs_list.append((xgb_probs * 100).tolist())
                  
             # Voter 3: LightGBM
             if lgbm_model:
@@ -1622,9 +1642,7 @@ def train_rl():
         new_agent = pm.PPOAgent(state_dim=RL_STATE_DIM, action_dim=4, lr=0.0003, entropy_coef=0.15).to(DEVICE)
         policy_agent = pm.train_ppo_agent(model_current, new_agent, epochs=20)
 
-        if not os.path.exists('models'):
-            os.makedirs('models')
-        torch.save(policy_agent.state_dict(), 'models/ppo_agent.pth')
+        torch.save(policy_agent.state_dict(), os.path.join(_MODELS_DIR, 'ppo_agent.pth'))
 
         return jsonify({'status': 'success', 'message': 'PPO Agent trained and saved!'})
     except Exception as e:
@@ -2698,7 +2716,7 @@ def get_optimal_thresholds():
     })
 
 # --- BET HISTORY API ---
-BET_HISTORY_FILE = 'bet_history.json'
+BET_HISTORY_FILE = os.path.join(_DIR, 'bet_history.json')
 
 def load_bet_history():
     if os.path.exists(BET_HISTORY_FILE):

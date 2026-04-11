@@ -1,18 +1,20 @@
 import os
 import torch
 import json
-from torch.optim.lr_scheduler import CosineAnnealingLR, LinearLR, SequentialLR
+from torch.optim.lr_scheduler import LinearLR, SequentialLR
 
 # Import Prediction Model (Shared Logic)
 import prediction_model as pm
 from prediction_model import LeagueAwareModel, train_one_epoch, get_dataloader, PPOAgent, train_ppo_agent
 
 # Config matches app.py
-TRAINING_HISTORY_FILE = 'training_history.json'
-CURRENT_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_current.pth'
-PREVIOUS_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_previous.pth'
-FINAL_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_final.pth'
-ACC_MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_best_acc.pth'
+_DIR = os.path.dirname(os.path.abspath(__file__))
+TRAINING_HISTORY_FILE = os.path.join(_DIR, 'training_history.json')
+CURRENT_MODEL_PATH = os.path.join(_DIR, 'models', 'FOBO_LEAGUE_AWARE_current.pth')
+PREVIOUS_MODEL_PATH = os.path.join(_DIR, 'models', 'FOBO_LEAGUE_AWARE_previous.pth')
+FINAL_MODEL_PATH = os.path.join(_DIR, 'models', 'FOBO_LEAGUE_AWARE_final.pth')
+ACC_MODEL_PATH = os.path.join(_DIR, 'models', 'FOBO_LEAGUE_AWARE_best_acc.pth')
+os.makedirs(os.path.join(_DIR, 'models'), exist_ok=True)
 
 DEVICE = pm.DEVICE
 
@@ -39,7 +41,7 @@ def train_deep_model():
         print("\n  TEST MODE ACTIVE: Training limited to 1 Epoch.  \n")
     else:
         EPOCHS = 1000
-    PATIENCE = 100
+    PATIENCE = 150
 
     # 1. Load Data
     print("Loading Dataset...")
@@ -59,15 +61,15 @@ def train_deep_model():
     train_loader, _ = get_dataloader(batch_size=pm.BATCH_SIZE)
     if train_loader is None: return False
     
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
-    
-    # Warmup for 10 epochs (linear: 0 → 1.0 of base LR),
-    # then cosine anneal from base LR down to 1e-6.
+    optimizer = torch.optim.AdamW(model.parameters(), lr=3e-4, weight_decay=1e-4)
+
+    # Warmup for 10 epochs then cosine annealing WITH warm restarts (T_0=100, T_mult=2).
+    # Restarts let the model escape plateaus — each restart halves the LR floor.
+    from torch.optim.lr_scheduler import CosineAnnealingWarmRestarts
     WARMUP_EPOCHS = 10
     warmup_scheduler = LinearLR(optimizer, start_factor=0.1, end_factor=1.0,
                                 total_iters=WARMUP_EPOCHS)
-    cosine_scheduler = CosineAnnealingLR(optimizer, T_max=max(EPOCHS - WARMUP_EPOCHS, 1),
-                                         eta_min=1e-6)
+    cosine_scheduler = CosineAnnealingWarmRestarts(optimizer, T_0=100, T_mult=2, eta_min=1e-6)
     scheduler = SequentialLR(optimizer,
                              schedulers=[warmup_scheduler, cosine_scheduler],
                              milestones=[WARMUP_EPOCHS])
@@ -150,16 +152,18 @@ def train_deep_model():
             model.load_state_dict(torch.load(CURRENT_MODEL_PATH, map_location=DEVICE))
             print("Reloaded best-loss weights for PPO training (aligns with inference model_current).")
 
-    rl_epochs = 20
-    if os.environ.get('FOBO_TEST_MODE', 'false').lower() == 'true':
-        print("\n  TEST MODE ACTIVE: Reducing RL Epochs to 1.  \n")
-        rl_epochs = 1
+    _ppo_save_path = os.path.join(_DIR, 'models', 'ppo_agent.pth')
 
-    trained_agent = train_ppo_agent(model, ppo_agent, epochs=rl_epochs)
-    
-    # Save Agent
-    torch.save(trained_agent.state_dict(), "models/ppo_agent.pth")
-    print(">> PPO Agent Optimized and Saved to models/ppo_agent.pth")
+    if os.environ.get('FOBO_SKIP_PPO_TRAIN', 'false').lower() == 'true' and os.path.exists(_ppo_save_path):
+        print(">> Skipping PPO Training: Loading existing ppo_agent.pth")
+        ppo_agent.load_state_dict(torch.load(_ppo_save_path, map_location=DEVICE))
+    else:
+        rl_epochs = 20
+        if os.environ.get('FOBO_TEST_MODE', 'false').lower() == 'true':
+            print("\n  TEST MODE ACTIVE: Reducing RL Epochs to 1.  \n")
+            rl_epochs = 1
+        train_ppo_agent(model, ppo_agent, epochs=rl_epochs, save_path=_ppo_save_path)
+        print(">> PPO Agent Optimized and Saved to models/ppo_agent.pth")
 
     
     return True

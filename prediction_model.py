@@ -21,7 +21,7 @@ import pickle
 # ==========================================
 warnings.filterwarnings("ignore")
 
-ENCODER_FILE = 'encoders.pkl'
+ENCODER_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'encoders.pkl')
 
 if torch.cuda.is_available():
     DEVICE = torch.device('cuda')
@@ -54,9 +54,10 @@ LEAGUE_SEQ_LENGTHS = {
     'LaLiga': 7,
 }
 
-if os.path.exists('optimal_seq_lengths.json'):
+_seq_lengths_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'optimal_seq_lengths.json')
+if os.path.exists(_seq_lengths_file):
     try:
-        with open('optimal_seq_lengths.json', 'r') as f:
+        with open(_seq_lengths_file, 'r') as f:
             valid_lengths = json.load(f)
             # Only update if valid dictionary loaded
             if isinstance(valid_lengths, dict) and valid_lengths:
@@ -69,12 +70,12 @@ EMBED_DIM = 256
 LEAGUE_EMBED_DIM = 32
 NUM_HEADS = 8
 NUM_LAYERS = 3
-DROPOUT = 0.2
-LEARNING_RATE = 1e-4
+DROPOUT = 0.1
+LEARNING_RATE = 3e-4
 
 # GNN CONFIG
 GAT_HEADS = 4
-GAT_DROPOUT = 0.2
+GAT_DROPOUT = 0.1
 
 
 # ==========================================
@@ -144,7 +145,8 @@ def load_encoders():
     return None, None
 
 def get_master_data():
-    all_files = glob.glob('*_RESULTS.csv') + glob.glob('old_matches/*_RESULTS.csv')
+    _base = os.path.dirname(os.path.abspath(__file__))
+    all_files = glob.glob(os.path.join(_base, '*_RESULTS.csv')) + glob.glob(os.path.join(_base, 'old_matches', '*_RESULTS.csv'))
     if not all_files: return None, None, None
 
     today = datetime.now()
@@ -1372,7 +1374,7 @@ class PPOAgent(nn.Module):
 
         self.policy_old.load_state_dict(self.actor.state_dict())
 
-def train_ppo_agent(model, agent, epochs=50):
+def train_ppo_agent(model, agent, epochs=50, save_path=None):
     # Simplified PPO Loop
     memory = PPOMemory()
     model.eval()
@@ -1393,6 +1395,7 @@ def train_ppo_agent(model, agent, epochs=50):
     for epoch in range(epochs):
         print(f"  > Start Epoch {epoch+1}/{epochs}")
         for batch_idx, batch in enumerate(train_loader):
+
             if batch_idx % 100 == 0: print(f"    Batch {batch_idx}/{len(train_loader)}", end='\r')
             time_step += 1
             with torch.no_grad():
@@ -1480,6 +1483,9 @@ def train_ppo_agent(model, agent, epochs=50):
                 agent.update(memory)
                 memory.clear_memory()
                 time_step = 0
+        # Save checkpoint after every epoch so progress is never lost
+        if save_path:
+            torch.save(agent.state_dict(), save_path)
     return agent
 
 

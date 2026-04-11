@@ -2,7 +2,6 @@ import torch
 import numpy as np
 import xgboost as xgb
 from sklearn.metrics import accuracy_score, classification_report
-from sklearn.calibration import CalibratedClassifierCV
 import os
 import joblib
 import sys
@@ -27,10 +26,13 @@ DEVICE = pm.DEVICE
 print(f"Using Device: {DEVICE}")
 
 # CONFIG
-MODEL_PATH = 'models/FOBO_LEAGUE_AWARE_current.pth'
-HYBRID_MODEL_PATH = 'models/xgb_classifier.json'
-CALIBRATOR_PATH = 'models/calibrator.joblib'
-LGBM_MODEL_PATH = 'models/lgbm_classifier.joblib'
+_DIR = os.path.dirname(os.path.abspath(__file__))
+_MODELS_DIR = os.path.join(_DIR, 'models')
+os.makedirs(_MODELS_DIR, exist_ok=True)
+MODEL_PATH = os.path.join(_MODELS_DIR, 'FOBO_LEAGUE_AWARE_current.pth')
+HYBRID_MODEL_PATH = os.path.join(_MODELS_DIR, 'xgb_classifier.json')
+CALIBRATOR_PATH = os.path.join(_MODELS_DIR, 'calibrator.joblib')
+LGBM_MODEL_PATH = os.path.join(_MODELS_DIR, 'lgbm_classifier.joblib')
 
 def extract_embeddings_dataset(model, loader):
     model.eval()
@@ -183,32 +185,7 @@ def train_hybrid():
     # scale_pos_weight is for binary; for multi-class we pass sample_weight
     sample_weights = np.array([total / (3 * class_counts[yi]) for yi in y])
 
-    # 4a. Train XGBoost with improved hyperparameters
-    print("Training XGBoost Classifier (Hybrid Ensemble)...")
-    
-    # GPU Check for XGBoost
-    tree_method = 'hist'
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    print(f"XGBoost Config: Tree Method='{tree_method}', Device='{device}'")
-    
-    clf = xgb.XGBClassifier(
-        n_estimators=800,
-        learning_rate=0.04,
-        max_depth=6,
-        min_child_weight=3,
-        subsample=0.85,
-        colsample_bytree=0.80,
-        reg_alpha=0.1,
-        reg_lambda=1.2,
-        objective='multi:softprob',
-        num_class=3,
-        tree_method=tree_method, 
-        device=device,
-        eval_metric='mlogloss',
-        early_stopping_rounds=30
-    )
-    
-    # Split for validation AND calibration
+    # Split for validation AND calibration (always needed for calibrator)
     from sklearn.model_selection import train_test_split
     X_train_full, X_calib, y_train_full, y_calib, sw_train_full, sw_calib = train_test_split(
         X, y, sample_weights, test_size=0.2, random_state=42
@@ -216,18 +193,31 @@ def train_hybrid():
     X_train, X_val, y_train, y_val, sw_train, sw_val = train_test_split(
         X_train_full, y_train_full, sw_train_full, test_size=0.1, random_state=42
     )
-    # Reserve a small eval set for the calibration BRIER SCORE (not used for fitting)
     X_calib_fit, X_calib_eval, y_calib_fit, y_calib_eval = train_test_split(
         X_calib, y_calib, test_size=0.15, random_state=0
     )
-    
-    print(f"Split: Train={len(X_train)}, Val={len(X_val)}, Calib-fit={len(X_calib_fit)}, Calib-eval={len(X_calib_eval)}")
-    
-    # Fit XGBoost
-    clf.fit(X_train, y_train,
-            sample_weight=sw_train,
-            eval_set=[(X_val, y_val)],
-            verbose=50)
+
+    # 4a. Train XGBoost (or load existing if skip requested)
+    skip_xgb = os.environ.get('FOBO_SKIP_XGB_TRAIN', 'false').lower() == 'true'
+    clf = xgb.XGBClassifier(objective='multi:softprob', num_class=3)
+
+    if skip_xgb and os.path.exists(HYBRID_MODEL_PATH):
+        print(">> Loading existing XGBoost model (skipping training)...")
+        clf.load_model(HYBRID_MODEL_PATH)
+    else:
+        print("Training XGBoost Classifier (Hybrid Ensemble)...")
+        tree_method = 'hist'
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        print(f"XGBoost Config: Tree Method='{tree_method}', Device='{device}'")
+        clf.set_params(
+            n_estimators=800, learning_rate=0.04, max_depth=6,
+            min_child_weight=3, subsample=0.85, colsample_bytree=0.80,
+            reg_alpha=0.1, reg_lambda=1.2, tree_method=tree_method,
+            device=device, eval_metric='mlogloss', early_stopping_rounds=30
+        )
+        print(f"Split: Train={len(X_train)}, Val={len(X_val)}, Calib-fit={len(X_calib_fit)}, Calib-eval={len(X_calib_eval)}")
+        clf.fit(X_train, y_train, sample_weight=sw_train,
+                eval_set=[(X_val, y_val)], verbose=50)
     
     # 4b. Optionally train LightGBM as second ensemble member
     clf_lgb = None
@@ -253,33 +243,37 @@ def train_hybrid():
         print(f"  LightGBM Calibration Accuracy: {lgb_acc:.4f}")
         joblib.dump(clf_lgb, LGBM_MODEL_PATH)
 
-    # 5. Evaluate Uncalibrated
+    # 5. Save XGB immediately — before anything else can crash
+    clf.save_model(HYBRID_MODEL_PATH)
+    print(f"XGBoost model saved to {HYBRID_MODEL_PATH}")
+
+    # 6. Evaluate Uncalibrated
     y_pred = clf.predict(X_calib_eval)
     print("\n[Uncalibrated XGB] Classification Report:")
     print(classification_report(y_calib_eval, y_pred, target_names=['Home', 'Draw', 'Away']))
-    
-    # 6. Probability Calibration (Platt Scaling on calib-fit, evaluated on calib-eval)
+
+    # 7. Probability Calibration — manual Platt scaling via LogisticRegression on XGB's
+    # predicted probabilities. This never refits XGB, avoiding the eval_set/early-stopping issue.
     print("\nTraining Probability Calibrator (Sigmoid/Platt Scaling)...")
-    calibrated_clf = CalibratedClassifierCV(estimator=clf, method='sigmoid', cv='prefit')
-    calibrated_clf.fit(X_calib_fit, y_calib_fit)
-    
-    # Evaluate on the HELD-OUT calib-eval set (not the set used to fit the calibrator)
+    from sklearn.linear_model import LogisticRegression
+    probs_uncal_fit = clf.predict_proba(X_calib_fit)
+    platt = LogisticRegression(C=1.0, max_iter=1000, solver='lbfgs')
+    platt.fit(probs_uncal_fit, y_calib_fit)
+    joblib.dump(platt, CALIBRATOR_PATH)
+
+    # Evaluate on HELD-OUT calib-eval set
     probs_uncal = clf.predict_proba(X_calib_eval)
-    probs_cal   = calibrated_clf.predict_proba(X_calib_eval)
-    
+    probs_cal   = platt.predict_proba(probs_uncal)
+
     # One-hot y for brier score
     y_calib_oh = np.eye(3)[y_calib_eval]
-    
+
     brier_uncal = np.mean((probs_uncal - y_calib_oh)**2)
     brier_cal   = np.mean((probs_cal   - y_calib_oh)**2)
-    
+
     print(f"Brier Score (held-out, lower = better): Uncalibrated={brier_uncal:.4f}, Calibrated={brier_cal:.4f}")
     if brier_uncal > 0:
         print(f"Calibration Improvement: {((brier_uncal - brier_cal)/brier_uncal)*100:.2f}%")
-    
-    # 7. Save
-    clf.save_model(HYBRID_MODEL_PATH)
-    joblib.dump(calibrated_clf, CALIBRATOR_PATH)
     
     if os.path.exists(HYBRID_MODEL_PATH) and os.path.exists(CALIBRATOR_PATH):
         print(f"Saved models to {HYBRID_MODEL_PATH} and {CALIBRATOR_PATH}")

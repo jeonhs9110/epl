@@ -1,33 +1,15 @@
-# ── Intermediate training checkpoints (not needed to run the app) ─────────────
-models/*_current.pth
-models/*_previous.pth
-
-# ── Python cache ──────────────────────────────────────────────────────────────
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
+*.egg-info/
+.env
 
-# ── Scraper browser/debug artefacts (root-level only) ─────────────────────────
-# Note: templates/**/*.html are Jinja2 source files — kept tracked below
-/*.html
-/*.png
-
-# ── Jinja2 templates (source code — always track) ─────────────────────────────
-!templates/
-!templates/**
-
-# ── User-generated runtime data ───────────────────────────────────────────────
-bet_history.json
-training_history.json
-
-# ── Claude Code local settings ────────────────────────────────────────────────
-.claude/
-
-# ── OS / editor noise ─────────────────────────────────────────────────────────
+# Temp / OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
+desktop.ini
 
-# ── Sensitive / personal ──────────────────────────────────────────────────────
-.env
+# Logs & runtime
+*.log
+nohup.out
