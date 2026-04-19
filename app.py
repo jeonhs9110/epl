@@ -3196,6 +3196,66 @@ def admin_reload_models():
 _openai_client = None
 _openai_model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
+# Full pipeline context fed into every chatbot call so the assistant can
+# answer "why is this probability what it is?" with real grounding, not
+# generic football chatter. Keep it concise — gpt-4o-mini charges per token.
+PIPELINE_CONTEXT = """
+You are the FOBO AI assistant for a football outcome prediction dashboard.
+Treat numbers as MODEL OUTPUTS and explain where they come from — never
+invent stats that aren't in the match context.
+
+HOW THE SYSTEM PRODUCES EACH MATCH'S NUMBERS (important background):
+
+1. Data: 13 European leagues scraped from Flashscore. Each match has date,
+   teams, final score (for historical), pre-match odds 1/X/2, and xG.
+   Incremental scraper — only new matches are fetched.
+
+2. LeagueAwareModel (Transformer + GAT):
+   • A Temporal Transformer with learnable positional encoding reads each
+     team's last N matches (N per-league tuned: EPL~10, Championship~5).
+   • A Graph Attention Network (GNN) propagates team strength across a
+     match-adjacency graph — this is how the model KNOWS that a weak team
+     playing a strong one will likely sit deep and defend, pulling both
+     sides' xG down. Flat team embeddings can't see this.
+   • Outputs Poisson rate parameters λ_home, λ_away and the Dixon-Coles
+     correlation ρ (not a softmax over W/D/L).
+
+3. Dixon-Coles correction + Poisson grid (this is where BTTS, Over 2.5,
+   W/D/L all come from analytically):
+   • Build P(h,a) = Poisson(h|λ_home) · Poisson(a|λ_away) on a 10×10 grid.
+   • Apply Dixon-Coles correction with ρ=-0.10 to 4 low-score cells
+     (0-0, 0-1, 1-0, 1-1) — upweights draws, downweights 1-0/0-1.
+   • Renormalise so grid sums to 1.0.
+   • Home Win = Σ{h>a} P(h,a), Draw = Σ{h=a}, Away Win = Σ{h<a}
+   • Over 2.5 = Σ{h+a≥3}, BTTS Yes = Σ{h≥1 AND a≥1}
+
+4. Hybrid Ensemble: XGBoost + LightGBM are trained on the DL model's
+   2089-dim embeddings (not raw features). Three models' W/D/L probs are
+   averaged. Platt scaling calibrates XGBoost so reported 70% matches
+   empirical 70% hit rate.
+
+5. PPO Decision Agent (Kelly-shaped reward):
+   • Observes the 2080-dim DL state embedding, outputs one of {Home, Draw,
+     Away, Pass} plus a confidence score.
+   • Reward uses Kelly Criterion f* = (b·p − q)/b. If f* ≤ 0, expected value
+     is negative → PASS is rewarded. Correct picks earn odds-proportional
+     reward (capped 3×). Wrong picks cost −2. This teaches the agent that
+     high probability ≠ profitable pick — only probability ABOVE market's
+     implied probability counts as edge.
+
+RESPONSE RULES:
+• When citing probabilities, say where they come from (e.g. "the ensemble
+  average", "the Dixon-Coles-corrected Poisson grid", "the PPO agent").
+• Rank picks by expected value (model_prob × odds − 1), not raw probability.
+• If the RL agent says PASS, respect it unless model probability × odds − 1
+  is clearly positive and the user explicitly overrides.
+• Be honest about uncertainty. Football is ~45-50% ceiling predictability.
+• Reply in the user's language (English or Korean).
+• DO NOT use heavy gambling vocabulary — say "prediction", "pick",
+  "outcome", "market's implied probability" rather than "bet/betting/
+  bookmaker/bankroll".
+"""
+
 
 def _get_openai_client():
     global _openai_client
@@ -3250,18 +3310,21 @@ def chat_match_report():
         resp = client.chat.completions.create(
             model=_openai_model,
             messages=[
+                {"role": "system", "content": PIPELINE_CONTEXT},
                 {"role": "system", "content": (
-                    "You are a concise football betting analyst. Given one match with model probabilities, "
-                    "xG, BTTS, Over/Under 2.5, bookmaker odds, and RL agent recommendation, write a short "
-                    "report in two sections: WHY THESE NUMBERS (2-4 bullets explaining what's driving the "
-                    "model) and SUGGESTED BET (one recommended market with reasoning, or 'Pass' if no edge). "
-                    "Be honest about uncertainty. Output 120 words maximum. Reply in the same language as "
-                    "the user (if match has Korean-looking fields treat as Korean; otherwise English)."
+                    "TASK: Given ONE match, produce a 2-section report:\n"
+                    "• WHY THESE NUMBERS — 2-4 bullets tying the numbers to the pipeline "
+                    "(e.g. 'xG 1.8-1.1 from the Transformer + GAT suggests home dominance because…', "
+                    "'Dixon-Coles pushes Draw up slightly because both xG are under 1.5…', "
+                    "'ensemble average aligns with XGBoost — not a pure DL opinion').\n"
+                    "• SUGGESTED PICK — either one market (Home/Draw/Away/Over2.5/BTTS) with reasoning "
+                    "rooted in expected value, or 'Pass — PPO agent found no edge'.\n"
+                    "Output ≤120 words. Reply in the user's language."
                 )},
                 {"role": "user", "content": f"Match data: {ctx}"},
             ],
             temperature=0.3,
-            max_tokens=400,
+            max_tokens=450,
         )
         text = resp.choices[0].message.content
         return jsonify({"status": "success", "report": text})
@@ -3292,18 +3355,22 @@ def chat_ask():
         resp = client.chat.completions.create(
             model=_openai_model,
             messages=[
+                {"role": "system", "content": PIPELINE_CONTEXT},
                 {"role": "system", "content": (
-                    "You are a football betting chatbot for FOBO AI. Answer ONLY using the match data "
-                    "provided below — do not reference matches outside this list. Be concise, honest, and "
-                    "cite probabilities when recommending. If asked for top picks, rank by expected value "
-                    "(model probability × odds - 1), favouring RL-approved non-PASS picks. When none of the "
-                    "matches offer positive EV, say so clearly. Reply in the user's language (Korean or English)."
+                    "TASK: You are the chatbot in the FOBO AI dashboard. Answer ONLY using the match "
+                    "list below — do NOT reference matches outside this list or invent stats.\n"
+                    "• For 'top N picks' questions, rank by expected value (model_prob × odds − 1), "
+                    "preferring RL-approved (non-PASS) picks, and cite the numbers.\n"
+                    "• If no match has positive EV, say so clearly and recommend passing.\n"
+                    "• When explaining, cite the pipeline components (GNN, Dixon-Coles, PPO, ensemble) "
+                    "where relevant so the user understands WHY the numbers are what they are.\n"
+                    "• Reply in the user's language (English or Korean)."
                 )},
                 {"role": "system", "content": f"Today's matches:\n{match_lines}"},
                 {"role": "user", "content": question},
             ],
             temperature=0.4,
-            max_tokens=500,
+            max_tokens=550,
         )
         text = resp.choices[0].message.content
         return jsonify({"status": "success", "answer": text})
