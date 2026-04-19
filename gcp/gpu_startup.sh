@@ -39,8 +39,10 @@ fi
 cd "$WORKDIR"
 
 # 4. Python deps (CUDA-enabled torch from the DL VM image, keep whatever is installed)
+# --ignore-installed avoids Ubuntu 22.04 distutils-packages (e.g. blinker) breaking
+# the install when pip tries to uninstall them.
 pip3 install --upgrade pip
-pip3 install -r requirements.txt
+pip3 install --ignore-installed --no-warn-conflicts -r requirements.txt
 # If the base image doesn't already have CUDA torch, install the CUDA wheel:
 python3 -c "import torch; print(torch.cuda.is_available())" \
   || pip3 install torch --index-url https://download.pytorch.org/whl/cu121
