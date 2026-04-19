@@ -11,14 +11,15 @@
     <div class="insights-hero">
         <div class="td-card-label mb-2">FOBO AI</div>
         <h1 class="mb-2" style="font-family:'Space Grotesk',sans-serif; font-weight:700;">
-            <span class="lang-en">Football Outcome Betting Optimiser</span>
+            <span class="lang-en">Football Outcome Prediction Optimiser</span>
             <span class="lang-ko" style="display:none;">축구 경기 결과 베팅 최적화 AI</span>
         </h1>
         <p class="lead mb-4" style="max-width:820px; margin:0 auto;">
             <span class="lang-en">
                 A multi-stage machine-learning pipeline that scrapes 13 European leagues,
                 fuses transformer + graph-attention + gradient boosting models, and uses
-                reinforcement learning to decide <em>when a bet is mathematically justified</em>.
+                reinforcement learning to decide <em>when a prediction carries enough
+                statistical edge to act on</em>.
             </span>
             <span class="lang-ko" style="display:none;">
                 유럽 13개 리그의 경기 데이터를 수집하고, 트랜스포머·그래프 어텐션·그래디언트 부스팅 모델을
@@ -40,32 +41,105 @@
         <p class="lang-en">
             FOBO AI ingests historical results from 13 European leagues, trains a hybrid
             deep-learning + tree-based ensemble, and applies a reinforcement-learning agent
-            to decide when a bet is mathematically justified. The final output is served
-            via this web dashboard.
+            to decide when a prediction carries enough statistical edge to act on. The
+            final output is served via this web dashboard.
         </p>
         <p class="lang-ko" style="display:none;">
             FOBO AI는 유럽 13개 리그의 경기 기록을 수집해 딥러닝·트리 앙상블을 학습시키고,
             강화학습 에이전트가 수학적으로 합리적인 베팅 순간을 판단합니다. 최종 결과는
             본 웹 대시보드를 통해 제공됩니다.
         </p>
-        <table class="table table-sm table-bordered mt-3">
+        <table class="table table-sm table-bordered mt-3 align-middle">
             <thead class="table-light">
                 <tr>
-                    <th>#</th>
+                    <th><span class="lang-en">Process</span><span class="lang-ko" style="display:none;">순서</span></th>
                     <th><span class="lang-en">Stage</span><span class="lang-ko" style="display:none;">단계</span></th>
                     <th><span class="lang-en">Module</span><span class="lang-ko" style="display:none;">모듈</span></th>
                     <th><span class="lang-en">Purpose</span><span class="lang-ko" style="display:none;">역할</span></th>
+                    <th><span class="lang-en">Result / Insight</span><span class="lang-ko" style="display:none;">결과 / 인사이트</span></th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td>①</td><td>Scraping</td><td><code>scrape_flashscore.py</code></td><td><span class="lang-en">Parallel scraping of results, odds, xG</span><span class="lang-ko" style="display:none;">경기 결과·배당·xG 병렬 수집</span></td></tr>
-                <tr><td>②</td><td>Validation</td><td><code>check_data.py</code></td><td><span class="lang-en">CSV integrity, column checks</span><span class="lang-ko" style="display:none;">CSV 무결성·컬럼 검증</span></td></tr>
-                <tr><td>③</td><td>Seq Optimisation</td><td><code>optimize_seq_length.py</code></td><td><span class="lang-en">Tune per-league LSTM look-back window</span><span class="lang-ko" style="display:none;">리그별 LSTM 과거 창 크기 최적화</span></td></tr>
-                <tr><td>④</td><td>DL Training</td><td><code>train_dl.py</code></td><td><span class="lang-en">Train LeagueAwareModel with Dixon-Coles NLL</span><span class="lang-ko" style="display:none;">Dixon-Coles NLL로 모델 학습</span></td></tr>
-                <tr><td>⑤</td><td>PPO RL</td><td><code>prediction_model.py</code></td><td><span class="lang-en">Fine-tune bet decision agent with Kelly reward</span><span class="lang-ko" style="display:none;">Kelly 보상으로 베팅 에이전트 파인튜닝</span></td></tr>
-                <tr><td>⑥</td><td>Hybrid Ensemble</td><td><code>train_hybrid.py</code></td><td><span class="lang-en">XGBoost + LightGBM on DL embeddings</span><span class="lang-ko" style="display:none;">딥러닝 임베딩 위에 XGBoost + LightGBM 적용</span></td></tr>
-                <tr><td>⑦</td><td>Calibration</td><td><code>train_hybrid.py</code></td><td><span class="lang-en">Platt/Sigmoid probability scaling</span><span class="lang-ko" style="display:none;">Platt/Sigmoid 확률 보정</span></td></tr>
-                <tr><td>⑧</td><td>Flask API</td><td><code>app.py</code></td><td><span class="lang-en">REST endpoints + this frontend</span><span class="lang-ko" style="display:none;">REST 엔드포인트 + 본 프론트엔드</span></td></tr>
+                <tr>
+                    <td>①</td>
+                    <td>Scraping</td>
+                    <td><code>scrape_flashscore.py</code></td>
+                    <td><span class="lang-en">Parallel scraping of results, odds, xG</span><span class="lang-ko" style="display:none;">경기 결과·배당·xG 병렬 수집</span></td>
+                    <td class="small">
+                        <span class="lang-en">13 CSV files (one per league) with match date, teams, final score, pre-match odds 1/X/2, and expected goals. Subsequent runs only fetch matches missing from the existing CSV — no re-scraping.</span>
+                        <span class="lang-ko" style="display:none;">리그별 CSV 13개 (날짜·팀·결과·사전 배당·xG). 재실행 시에는 기존 CSV에 없는 신규 경기만 수집합니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>②</td>
+                    <td>Validation</td>
+                    <td><code>check_data.py</code></td>
+                    <td><span class="lang-en">CSV integrity, column checks</span><span class="lang-ko" style="display:none;">CSV 무결성·컬럼 검증</span></td>
+                    <td class="small">
+                        <span class="lang-en">Catches broken scrapes early (missing columns, bad dates, duplicate match IDs) before feeding training. No silent data rot.</span>
+                        <span class="lang-ko" style="display:none;">학습 전에 손상된 스크랩(컬럼 누락·날짜 오류·중복 match_id)을 조기에 탐지합니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>③</td>
+                    <td>Seq Optimisation</td>
+                    <td><code>optimize_seq_length.py</code></td>
+                    <td><span class="lang-en">Tune per-league LSTM look-back window</span><span class="lang-ko" style="display:none;">리그별 LSTM 과거 창 크기 최적화</span></td>
+                    <td class="small">
+                        <span class="lang-en">Different leagues need different history depths. Premier League teams behave consistently over ~10 matches; the Championship is much more volatile and stabilises around 5. Grid search picks the right N per league.</span>
+                        <span class="lang-ko" style="display:none;">리그마다 최적의 참조 경기 수가 다릅니다. EPL은 약 10경기 흐름이 안정적이지만, Championship은 5경기 정도에서 안정됩니다. 그리드 서치로 리그별 최적 N을 선택합니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>④</td>
+                    <td>DL Training<br><span class="small text-muted">Transformer + GAT + Dixon-Coles</span></td>
+                    <td><code>train_dl.py</code></td>
+                    <td><span class="lang-en">Train LeagueAwareModel with Dixon-Coles NLL</span><span class="lang-ko" style="display:none;">Dixon-Coles NLL로 LeagueAwareModel 학습</span></td>
+                    <td class="small">
+                        <span class="lang-en">Outputs expected goals λ_home, λ_away, and the Dixon-Coles correlation ρ for every fixture. The GNN (Graph Attention Network) inside the model propagates team strength across the match graph — so when a weak team plays a strong one, the model can infer that the weak team will likely sit deep and defend, pulling xG down on both sides. Flat embeddings alone never capture this.</span>
+                        <span class="lang-ko" style="display:none;">모든 경기에 대해 λ_home, λ_away와 Dixon-Coles 상관 ρ를 출력합니다. 모델 내부의 GNN(그래프 어텐션)은 팀의 상대적 강점을 경기 그래프로 전파합니다 — 예를 들어 약팀이 강팀을 상대할 때 수비 중심으로 경기를 운영하리라는 맥락을 포착해 양팀 xG를 동시에 조정합니다. 평면 임베딩으로는 담을 수 없는 정보입니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>⑤</td>
+                    <td>PPO RL</td>
+                    <td><code>prediction_model.py</code></td>
+                    <td><span class="lang-en">Fine-tune decision agent with Kelly reward</span><span class="lang-ko" style="display:none;">Kelly 보상으로 의사결정 에이전트 파인튜닝</span></td>
+                    <td class="small">
+                        <span class="lang-en">Per match, outputs one of {Home, Draw, Away, Pass} plus a confidence score. Learns that 55% predicted home-win is only worth acting on when implied odds say under 55% — otherwise the agent correctly passes.</span>
+                        <span class="lang-ko" style="display:none;">경기마다 {홈, 무승부, 원정, 스킵} 중 하나와 확신도를 출력합니다. "모델 홈 승리 확률 55%"도 북메이커의 내재 확률이 55% 미만일 때만 가치가 있음을 학습합니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>⑥</td>
+                    <td>Hybrid Ensemble</td>
+                    <td><code>train_hybrid.py</code></td>
+                    <td><span class="lang-en">XGBoost + LightGBM on DL embeddings</span><span class="lang-ko" style="display:none;">딥러닝 임베딩 위에 XGBoost + LightGBM 적용</span></td>
+                    <td class="small">
+                        <span class="lang-en">Three models average their W/D/L probabilities. Trees catch sharp tabular cliffs (e.g. "no home goals in 3 matches") that the transformer blurs; the transformer catches long-range patterns trees can't. Diverse errors → better calibration.</span>
+                        <span class="lang-ko" style="display:none;">세 모델의 승/무/패 확률을 평균합니다. 트리는 "최근 3홈경기 무득점" 같은 날카로운 표 형태의 경계에 강하고, 트랜스포머는 장기 시계열에 강합니다. 오차 유형이 다르기 때문에 앙상블 보정이 개선됩니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>⑦</td>
+                    <td>Calibration</td>
+                    <td><code>train_hybrid.py</code></td>
+                    <td><span class="lang-en">Platt/Sigmoid probability scaling</span><span class="lang-ko" style="display:none;">Platt/Sigmoid 확률 보정</span></td>
+                    <td class="small">
+                        <span class="lang-en">XGBoost's raw "70%" often reflects less actual certainty. Platt scaling fits a logistic layer on held-out data so reported probabilities line up with real-world hit rate — essential for honest Kelly-Criterion position sizing.</span>
+                        <span class="lang-ko" style="display:none;">XGBoost의 원시 70%가 실제 신뢰도를 그대로 반영하지 않을 수 있습니다. Platt 스케일링이 검증 데이터로 로지스틱 층을 학습시켜 확률과 실제 적중률을 일치시킵니다 — Kelly 크기 산정의 전제 조건입니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>⑧</td>
+                    <td>Flask API</td>
+                    <td><code>app.py</code></td>
+                    <td><span class="lang-en">REST endpoints + this frontend</span><span class="lang-ko" style="display:none;">REST 엔드포인트 + 본 프론트엔드</span></td>
+                    <td class="small">
+                        <span class="lang-en">Serves /predict, /daily_matches, /scrape_upcoming, /update_mode/* and the chatbot endpoints 24/7. All artefacts load into memory at boot so per-request latency stays under 200ms.</span>
+                        <span class="lang-ko" style="display:none;">/predict, /daily_matches, /scrape_upcoming, /update_mode/*, 챗봇 엔드포인트를 24/7 제공합니다. 모든 모델은 기동 시 메모리에 로드되어 요청당 지연이 200ms 이하로 유지됩니다.</span>
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
@@ -180,11 +254,12 @@
 
     <!-- 4. PPO RL -->
     <div class="td-card">
-        <div class="td-card-label">④ <span class="lang-en">Reinforcement Learning — PPO Bet Agent</span><span class="lang-ko" style="display:none;">강화학습 — PPO 베팅 에이전트</span></div>
+        <div class="td-card-label">④ <span class="lang-en">Reinforcement Learning — PPO Decision Agent</span><span class="lang-ko" style="display:none;">강화학습 — PPO 베팅 에이전트</span></div>
         <p class="lang-en">
-            Prediction accuracy alone doesn't guarantee profit. A 55% home-win prediction
-            is only profitable if the bookmaker's implied probability is <em>under</em> 55%.
-            The PPO agent learns this decision boundary directly from simulated P&amp;L feedback.
+            Prediction accuracy alone doesn't guarantee a positive decision. A 55% home-win
+            prediction is only worth acting on if the market's implied probability is
+            <em>under</em> 55%. The PPO agent learns this decision boundary directly from
+            simulated outcome feedback.
         </p>
         <p class="lang-ko" style="display:none;">
             예측 정확도만으로 수익이 보장되지 않습니다. 55% 홈 승리 예측도 북메이커의 내재 확률이
@@ -207,9 +282,10 @@
         <h6 class="mt-3"><span class="lang-en">Actions &amp; Kelly-Criterion Reward</span><span class="lang-ko" style="display:none;">행동·Kelly 기준 보상</span></h6>
         <p class="small lang-en">
             The agent picks one of 4 actions per match:
-            <b>0 Bet Home</b>, <b>1 Bet Draw</b>, <b>2 Bet Away</b>, <b>3 Pass</b>.
-            Rewards use the Kelly Criterion — the mathematically optimal bet-sizing formula
-            that maximises long-run bankroll growth:
+            <b>0 Home</b>, <b>1 Draw</b>, <b>2 Away</b>, <b>3 Pass</b>.
+            Rewards are shaped by the Kelly Criterion — a mathematically optimal position
+            sizing formula that maximises long-run growth under an uncertain probability
+            model:
         </p>
         <p class="small lang-ko" style="display:none;">
             에이전트는 경기마다 4가지 행동 중 하나를 선택합니다:
@@ -219,9 +295,9 @@
         <pre class="small bg-dark text-white p-2 rounded"><code>f* = (b·p − q) / b
   b = odds − 1,  p = model win prob,  q = 1 − p</code></pre>
         <p class="small lang-en">
-            If Kelly ≤ 0, expected value is negative and passing is rewarded. Winning bets
-            earn odds-proportional reward (capped at 3× to prevent longshot addiction).
-            Losing bets incur −2 to discourage poor-value picks.
+            If Kelly ≤ 0, expected value is negative and passing is rewarded. Correct picks
+            earn odds-proportional reward (capped at 3× to prevent longshot-chasing behaviour).
+            Incorrect picks incur a −2 penalty to discourage low-edge decisions.
         </p>
         <p class="small lang-ko" style="display:none;">
             Kelly ≤ 0이면 기대값이 음수이므로 베팅 스킵에 보상을 주고, 베팅 성공 시에는 배당에
@@ -271,8 +347,8 @@
             <li>Compute W/D/L probabilities analytically via Poisson integration</li>
             <li>Extract 2080-dim feature vector → run XGBoost + calibrator + LightGBM</li>
             <li>Average all model probabilities → ensemble W/D/L</li>
-            <li>Pass state to PPO agent → betting action + Kelly fraction</li>
-            <li>Return JSON with probabilities, score, xG, BTTS, Over 2.5, bet suggestion</li>
+            <li>Pass state to PPO agent → recommended action + Kelly fraction</li>
+            <li>Return JSON with probabilities, score, xG, BTTS, Over 2.5, and suggested pick</li>
         </ol>
         <ol class="small lang-ko" style="display:none;">
             <li>저장된 LabelEncoder로 팀명·리그 인코딩</li>
@@ -298,7 +374,7 @@
             </div>
             <div class="col-md-6">
                 <h6><span class="lang-en">Prediction vs decision</span><span class="lang-ko" style="display:none;">예측과 결정의 분리</span></h6>
-                <p class="small lang-en">DL answers "what will happen"; PPO answers "should I bet". Separating these lets each be trained with the right loss signal.</p>
+                <p class="small lang-en">DL answers "what will happen"; PPO answers "should I act". Separating these lets each be trained with the right loss signal.</p>
                 <p class="small lang-ko" style="display:none;">DL은 "무엇이 일어날까"에, PPO는 "베팅해야 하나"에 답합니다. 분리함으로써 각각 올바른 손실 신호로 학습됩니다.</p>
             </div>
             <div class="col-md-6 mt-3">
