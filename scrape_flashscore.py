@@ -6,8 +6,7 @@ import math
 from datetime import datetime
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import browser_utils
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -188,13 +187,15 @@ def process_match_batch(matches_batch, batch_id):
     options.add_argument('--disable-gpu')
     options.add_argument('--no-sandbox')
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-    
+
     # Anti-detection
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+    browser_utils.apply_cloud_options(options)
+    browser_utils.strip_incompatible_options(options)
+    driver = webdriver.Chrome(service=browser_utils.build_service(), options=options)
     
     processed_matches = []
     
@@ -291,14 +292,16 @@ def scrape_flashscore_final(url, force_full=False):
     # 1. Setup Main Browser to get List
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
-    
+
     # Anti-detection for main window too
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+    browser_utils.apply_cloud_options(options)
+    browser_utils.strip_incompatible_options(options)
+    driver = webdriver.Chrome(service=browser_utils.build_service(), options=options)
     
     # Remove navigator.webdriver flag
     driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {

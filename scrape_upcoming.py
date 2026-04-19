@@ -4,8 +4,7 @@ import re
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import browser_utils
 import os
 import time
 import random
@@ -98,11 +97,13 @@ def process_upcoming_batch(matches_batch, batch_id):
     options.add_argument('--disable-blink-features=AutomationControlled')
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option('useAutomationExtension', False)
-    
+
     # Using full browser to avoid detection issues, consistent with other scrapers
-    # options.add_argument('--headless=new') 
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    # options.add_argument('--headless=new')
+
+    browser_utils.apply_cloud_options(options)
+    browser_utils.strip_incompatible_options(options)
+    driver = webdriver.Chrome(service=browser_utils.build_service(), options=options)
     
     processed_matches = []
     
@@ -169,14 +170,16 @@ def scrape_fixtures(days=30):
     def init_driver():
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
-        
+
         # Anti-detection
         options.add_argument('--disable-blink-features=AutomationControlled')
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-        
-        d = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+
+        browser_utils.apply_cloud_options(options)
+        browser_utils.strip_incompatible_options(options)
+        d = webdriver.Chrome(service=browser_utils.build_service(), options=options)
         
         # Remove navigator.webdriver flag
         d.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {

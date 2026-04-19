@@ -336,6 +336,15 @@ def initialize_system():
     global model_prev, model_current, model_final, model_acc, le_team, le_league, master_df, training_history
     print("\n=== FOBO AI STARTUP (Level 4: Context-Aware Engine) ===")
 
+    # 0. Pull latest artifacts from Cloud Storage (no-op if FOBO_GCS_BUCKET unset)
+    try:
+        import storage_sync
+        if storage_sync.is_enabled():
+            print("[STARTUP] Pulling data + models from Cloud Storage...")
+            storage_sync.pull_artifacts(["data", "models", "history", "encoders"])
+    except Exception as e:
+        print(f"[STARTUP] GCS pull failed (continuing with local files): {e}")
+
     # 1. Load Data
     master_df, le_team, le_league = pm.get_master_data()
     

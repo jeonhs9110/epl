@@ -1,0 +1,26 @@
+# Files not to upload when building from source with gcloud.
+# Keep the image slim and avoid leaking local credentials.
+
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Historical archive (large, not needed in the container — bucket has latest)
+old_matches/FOOTBALL_*.csv
+
+# Large docs not needed in the image
+FOBO_AI_Pipeline_Documentation.pdf
+
+# Local credentials — NEVER upload
+creds.json
+*.key.json
+service-account*.json
+
+# Local dev
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,97 @@
+"""
+GPU-VM training job: pull data -> train everything -> push models -> shut down.
+
+Designed to be the one and only thing the GPU VM ever does. Flow:
+  1. Pull CSVs + encoders from GCS bucket.
+  2. Run full update pipeline (TEST_MODE=false, GPU will auto-detect).
+  3. Push updated models + history back to bucket.
+  4. Stop this Compute Engine instance (so you stop paying for GPU time).
+
+Env vars expected:
+  FOBO_GCS_BUCKET        — shared bucket (e.g. "fobo-ai-shared")
+  FOBO_SHUTDOWN_ON_EXIT  — "true" to auto-stop the VM at the end (default true)
+  FOBO_TEST_MODE         — "true" for a smoke test (1 epoch, no scraping)
+
+Run manually:   python gcp/gpu_train.py
+Via startup:    gcloud compute instances create ... --metadata-from-file=startup-script=gcp/gpu_train.sh
+"""
+
+import os
+import sys
+import traceback
+
+# Make sure we can import the project root when invoked as `python gcp/gpu_train.py`
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(HERE, ".."))
+if ROOT not in sys.path:
+    sys.path.insert(0, ROOT)
+
+
+def shutdown_vm():
+    """Best-effort self-shutdown via the Compute Engine metadata server."""
+    import subprocess
+    print("\n[GPU_TRAIN] Shutting down VM...")
+    try:
+        # Preferred: let the metadata service resolve the instance and zone
+        subprocess.run(
+            ["gcloud", "compute", "instances", "stop", os.environ.get("HOSTNAME", "self"),
+             "--zone", os.environ.get("FOBO_GCP_ZONE", "us-central1-a")],
+            check=False,
+            timeout=60,
+        )
+    except Exception as e:
+        print(f"[GPU_TRAIN] gcloud shutdown failed: {e}; falling back to `sudo shutdown`")
+        try:
+            subprocess.run(["sudo", "shutdown", "-h", "now"], check=False, timeout=30)
+        except Exception as e2:
+            print(f"[GPU_TRAIN] shutdown failed: {e2}")
+
+
+def main():
+    print("=" * 60)
+    print("FOBO AI — GPU Training Job")
+    print("=" * 60)
+
+    import storage_sync
+    import update_pipeline
+
+    if not storage_sync.is_enabled():
+        print("[GPU_TRAIN] FOBO_GCS_BUCKET not set — will use local files only.")
+    else:
+        print("[GPU_TRAIN] Pulling latest data + encoders from bucket...")
+        storage_sync.pull_artifacts(["data", "encoders", "history"])
+
+    test_mode = os.environ.get("FOBO_TEST_MODE", "false").lower() == "true"
+    print(f"[GPU_TRAIN] Running update pipeline (test_mode={test_mode})...")
+
+    def cli_cb(step_idx, total_steps, step_name, sub_message="", sub_pct=0.0):
+        overall = int(100 * (step_idx - 1 + sub_pct) / total_steps)
+        print(f"  [{overall:3d}%] Step {step_idx}/{total_steps}: {step_name} — {sub_message}")
+
+    try:
+        result = update_pipeline.run_update_pipeline(progress_cb=cli_cb, test_mode=test_mode)
+        print(f"\n[GPU_TRAIN] Pipeline {result['status']}: {result['message']}")
+        for s in result["steps"]:
+            print(f"  [{s['status']}] {s['name']}")
+    except Exception as e:
+        traceback.print_exc()
+        print(f"[GPU_TRAIN] FATAL: {e}")
+        # Still try to push whatever we have
+        if storage_sync.is_enabled():
+            storage_sync.push_artifacts(["models", "history"])
+        if os.environ.get("FOBO_SHUTDOWN_ON_EXIT", "true").lower() == "true":
+            shutdown_vm()
+        sys.exit(1)
+
+    # update_pipeline.py already pushes at the end when bucket is set,
+    # but push again to be safe.
+    if storage_sync.is_enabled():
+        print("[GPU_TRAIN] Pushing models + history to bucket...")
+        storage_sync.push_artifacts(["models", "history"])
+
+    if os.environ.get("FOBO_SHUTDOWN_ON_EXIT", "true").lower() == "true":
+        shutdown_vm()
+
+
+if __name__ == "__main__":
+    main()

@@ -57,6 +57,7 @@ def run_update_pipeline(progress_cb=None, test_mode=False):
     import scrape_flashscore
     import scrape_upcoming
     import check_data
+    import storage_sync
     from league_urls import LEAGUE_URLS
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -207,5 +208,14 @@ def run_update_pipeline(progress_cb=None, test_mode=False):
         traceback.print_exc()
         _report(cb, step, name, f"ERROR: {e}", 1.0)
         steps_log.append({"step": step, "name": name, "status": "error", "error": str(e)})
+
+    # --- POST-STEP: sync artifacts to GCS if bucket configured ---
+    if storage_sync.is_enabled():
+        try:
+            cats = ["data", "models", "history"]
+            _report(cb, TOTAL_STEPS, "Uploading to Cloud Storage", ",".join(cats), 1.0)
+            storage_sync.push_artifacts(cats)
+        except Exception as e:
+            print(f"[UPDATE] GCS push failed (non-fatal): {e}")
 
     return {"status": "success", "message": "Update pipeline complete", "steps": steps_log}
