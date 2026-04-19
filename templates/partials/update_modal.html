@@ -14,32 +14,26 @@
                 <!-- PRE-START: config panel -->
                 <div id="updateConfigPanel">
                     <p class="text-muted small mb-3">
-                        Runs the full refresh pipeline in one shot:
-                        historical odds → league results → upcoming fixtures →
-                        validation → DL training → hybrid XGBoost → RL agent.
+                        Refreshes match data for all 13 leagues using Selenium workers,
+                        then re-runs predictions with the <b>existing trained model</b>.
+                        No GPU training happens here — that's a separate, admin-triggered job.
                     </p>
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input" type="checkbox" id="updateTestMode">
-                        <label class="form-check-label" for="updateTestMode">
-                            <strong>Test Mode</strong>
-                            <span class="text-muted small d-block">
-                                Skip scraping, 1-epoch training, ~2 min total. Use this to verify
-                                the pipeline end-to-end before running a full update.
-                            </span>
-                        </label>
-                    </div>
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input" type="checkbox" id="updateScrapeOnly">
-                        <label class="form-check-label" for="updateScrapeOnly">
-                            <strong>Scrape Only</strong>
-                            <span class="text-muted small d-block">
-                                Refresh match data without retraining (steps 1–4 only).
-                                Runs automatically every day at 11:00 KST on the cloud deployment.
-                            </span>
-                        </label>
+                    <div class="alert alert-info small py-2 mb-3">
+                        <i class="bi bi-info-circle"></i>
+                        This will:
+                        <ol class="mb-0 mt-1">
+                            <li>Re-scrape results for all 13 European leagues (only new matches)</li>
+                            <li>Re-scrape upcoming fixtures for the next 30 days</li>
+                            <li>Validate the updated CSVs</li>
+                            <li>Push everything to Cloud Storage for backup</li>
+                        </ol>
+                        <div class="mt-2 text-muted" style="font-size:0.75rem;">
+                            Approx. 20–40 min depending on how many new matches exist.
+                            Runs automatically every day at <b>11:00 KST</b> on the cloud deployment.
+                        </div>
                     </div>
                     <button class="btn btn-primary w-100" id="updateStartBtn" onclick="startUpdate()">
-                        <i class="bi bi-play-fill"></i> Start Update
+                        <i class="bi bi-cloud-download"></i> Scrape Fresh Match Data
                     </button>
                 </div>
 
@@ -118,15 +112,14 @@
     }
 
     async function startUpdate() {
-        const testMode = document.getElementById('updateTestMode').checked;
-        const scrapeOnly = document.getElementById('updateScrapeOnly').checked;
+        // CPU VM has no GPU — always force scrape-only (no training).
         document.getElementById('updateStartBtn').disabled = true;
 
         try {
             const res = await fetch('/update_mode/start', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ test_mode: testMode, scrape_only: scrapeOnly })
+                body: JSON.stringify({ test_mode: false, scrape_only: true })
             });
             const result = await res.json();
             if (res.status === 409) {

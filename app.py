@@ -1793,6 +1793,14 @@ def update_mode_start():
         req = request.get_json(silent=True) or {}
         test_mode = bool(req.get("test_mode", False))
         scrape_only = bool(req.get("scrape_only", False))
+        # Hard guard: on CPU-only deployments (no CUDA), never allow training.
+        # Protects visitors/bots from kicking off a multi-hour CPU-locked job.
+        if not torch.cuda.is_available() and not scrape_only:
+            return jsonify({
+                "status": "error",
+                "message": "This VM has no GPU. Only scrape-only updates are allowed here. "
+                           "Set scrape_only=true. Full training runs on the admin-triggered GPU VM."
+            }), 403
         total = 4 if scrape_only else 7
         UPDATE_STATE.update({
             "running": True,
