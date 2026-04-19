@@ -207,8 +207,11 @@ def train_hybrid():
     else:
         print("Training XGBoost Classifier (Hybrid Ensemble)...")
         tree_method = 'hist'
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        print(f"XGBoost Config: Tree Method='{tree_method}', Device='{device}'")
+        # Some CUDA driver / XGBoost combinations segfault in libc when training on GPU
+        # (seen on DL Platform common-cu129). Allow forcing CPU via env var.
+        force_cpu = os.environ.get("FOBO_XGB_CPU", "false").lower() == "true"
+        device = 'cpu' if force_cpu else ('cuda' if torch.cuda.is_available() else 'cpu')
+        print(f"XGBoost Config: Tree Method='{tree_method}', Device='{device}' (force_cpu={force_cpu})")
         clf.set_params(
             n_estimators=800, learning_rate=0.04, max_depth=6,
             min_child_weight=3, subsample=0.85, colsample_bytree=0.80,
@@ -235,7 +238,7 @@ def train_hybrid():
             class_weight='balanced',
             objective='multiclass',
             num_class=3,
-            device='gpu' if torch.cuda.is_available() else 'cpu',
+            device='cpu' if force_cpu else ('gpu' if torch.cuda.is_available() else 'cpu'),
             verbose=-1
         )
         clf_lgb.fit(X_train, y_train, sample_weight=sw_train)

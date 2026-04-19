@@ -68,6 +68,9 @@ export FOBO_GCS_BUCKET="$BUCKET"
 export FOBO_GCP_ZONE="$ZONE"
 export FOBO_TEST_MODE="$TEST_MODE"
 export FOBO_SHUTDOWN_ON_EXIT=true
+# Force XGBoost/LightGBM to CPU — cuda mode on DL Platform common-cu129
+# segfaults inside libc. DL training (PyTorch) still runs on GPU.
+export FOBO_XGB_CPU=true
 
 # Optional: tell the CPU VM to reload its models as soon as training finishes.
 export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")
