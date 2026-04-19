@@ -71,6 +71,10 @@ export FOBO_SHUTDOWN_ON_EXIT=true
 # Force XGBoost/LightGBM to CPU — cuda mode on DL Platform common-cu129
 # segfaults inside libc. DL training (PyTorch) still runs on GPU.
 export FOBO_XGB_CPU=true
+# Skip re-scraping historical match odds. The committed old_matches/*.csv
+# in the repo already have odds filled in; no reason to burn 10+ min of
+# Selenium time re-fetching what we already have.
+export FOBO_SKIP_HISTORICAL_UPDATE=true
 
 # Optional: tell the CPU VM to reload its models as soon as training finishes.
 export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")

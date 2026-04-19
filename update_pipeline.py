@@ -74,10 +74,14 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
     step = 1
     name = "Updating historical odds"
     _report_tot(step, name, "Starting...", 0.0)
+    skip_historical = os.environ.get("FOBO_SKIP_HISTORICAL_UPDATE", "false").lower() == "true"
     try:
         script_path = os.path.join(script_dir, "old_matches", "update_odds_old_matches.py")
         if test_mode:
             _report_tot(step, name, "TEST MODE: skipped", 1.0)
+            steps_log.append({"step": step, "name": name, "status": "skipped"})
+        elif skip_historical:
+            _report_tot(step, name, "SKIP: using existing old_matches/ CSVs", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
         elif os.path.exists(script_path):
             subprocess.run([sys.executable, script_path], check=True, cwd=script_dir)
