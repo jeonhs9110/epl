@@ -1663,6 +1663,108 @@ def scrape_upcoming_route():
         return jsonify({'status': 'error', 'message': str(e)})
 
 
+# --- ROUTE 11b: UPDATE MODE (background pipeline with progress tracking) ---
+import threading
+from datetime import datetime as _dt
+
+UPDATE_STATE = {
+    "running": False,
+    "test_mode": False,
+    "step": 0,
+    "total_steps": 7,
+    "step_name": "Idle",
+    "sub_message": "",
+    "sub_pct": 0.0,
+    "overall_pct": 0.0,
+    "log": [],
+    "status": "idle",        # idle | running | complete | error
+    "started_at": None,
+    "finished_at": None,
+    "result": None,
+}
+_update_lock = threading.Lock()
+
+
+def _update_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pct=0.0):
+    overall = 100.0 * (step_idx - 1 + max(0.0, min(sub_pct, 1.0))) / total_steps
+    with _update_lock:
+        UPDATE_STATE["step"] = step_idx
+        UPDATE_STATE["total_steps"] = total_steps
+        UPDATE_STATE["step_name"] = step_name
+        UPDATE_STATE["sub_message"] = sub_message
+        UPDATE_STATE["sub_pct"] = round(sub_pct, 3)
+        UPDATE_STATE["overall_pct"] = round(overall, 1)
+        entry = f"[{_dt.now().strftime('%H:%M:%S')}] Step {step_idx}/{total_steps} — {step_name}"
+        if sub_message:
+            entry += f" — {sub_message}"
+        UPDATE_STATE["log"].append(entry)
+        # Cap log to last 200 entries to keep payload small
+        if len(UPDATE_STATE["log"]) > 200:
+            UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
+
+
+def _run_update_thread(test_mode):
+    import update_pipeline
+    try:
+        result = update_pipeline.run_update_pipeline(
+            progress_cb=_update_progress_cb,
+            test_mode=test_mode,
+        )
+        with _update_lock:
+            UPDATE_STATE["status"] = "complete" if result["status"] == "success" else "error"
+            UPDATE_STATE["result"] = result
+            UPDATE_STATE["running"] = False
+            UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+            UPDATE_STATE["overall_pct"] = 100.0
+            UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FINISHED: {result['status']}")
+    except Exception as e:
+        traceback.print_exc()
+        with _update_lock:
+            UPDATE_STATE["status"] = "error"
+            UPDATE_STATE["result"] = {"status": "error", "message": str(e)}
+            UPDATE_STATE["running"] = False
+            UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+            UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FATAL: {e}")
+
+
+@app.route('/update_mode/start', methods=['POST'])
+def update_mode_start():
+    with _update_lock:
+        if UPDATE_STATE["running"]:
+            return jsonify({
+                "status": "error",
+                "message": "Update already in progress. Check status endpoint.",
+            }), 409
+        # Reset state
+        req = request.get_json(silent=True) or {}
+        test_mode = bool(req.get("test_mode", False))
+        UPDATE_STATE.update({
+            "running": True,
+            "test_mode": test_mode,
+            "step": 0,
+            "total_steps": 7,
+            "step_name": "Starting...",
+            "sub_message": "",
+            "sub_pct": 0.0,
+            "overall_pct": 0.0,
+            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode})"],
+            "status": "running",
+            "started_at": _dt.now().isoformat(),
+            "finished_at": None,
+            "result": None,
+        })
+
+    t = threading.Thread(target=_run_update_thread, args=(test_mode,), daemon=True)
+    t.start()
+    return jsonify({"status": "success", "message": "Update started", "test_mode": test_mode})
+
+
+@app.route('/update_mode/status', methods=['GET'])
+def update_mode_status():
+    with _update_lock:
+        return jsonify(dict(UPDATE_STATE))
+
+
 
 
 # --- ROUTE 12: STRATEGY BACKTEST SIMULATION ---

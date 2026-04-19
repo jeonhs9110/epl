@@ -63,6 +63,39 @@ def run_power_mode():
     print("\n[POWER MODE] Configuring Full Training...")
     return True # Indicates Power Mode was run, proceed to training with overrides
 
+def _cli_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pct=0.0):
+    """Simple terminal progress line for Update Mode."""
+    bar_width = 24
+    filled = int(bar_width * (step_idx - 1 + sub_pct) / total_steps)
+    bar = "#" * filled + "-" * (bar_width - filled)
+    overall = int(100 * (step_idx - 1 + sub_pct) / total_steps)
+    msg = f"[{bar}] {overall:3d}%  Step {step_idx}/{total_steps}: {step_name}"
+    if sub_message:
+        msg += f" — {sub_message}"
+    print(msg)
+
+
+def run_update_mode():
+    """Non-interactive update: historical odds -> results -> upcoming -> validate -> train all."""
+    print("\n" + "="*60)
+    print("UPDATE MODE ACTIVATED")
+    print("="*60 + "\n")
+
+    test = input("Run in TEST MODE? (skip scraping + 1-epoch training; ~2 min) [y/N]: ").strip().lower() == 'y'
+    if test:
+        print(">> TEST MODE enabled.\n")
+
+    import update_pipeline
+    result = update_pipeline.run_update_pipeline(progress_cb=_cli_progress_cb, test_mode=test)
+
+    print("\n" + "="*60)
+    print(f"UPDATE MODE {'COMPLETE' if result['status'] == 'success' else 'FAILED'}")
+    print("="*60)
+    for s in result["steps"]:
+        print(f"  Step {s['step']} [{s['status']}]: {s['name']}")
+    return result["status"] == "success"
+
+
 def main():
     print("\n" + "="*60)
     print("FOBO AI UNIFIED PIPELINE")
@@ -73,8 +106,15 @@ def main():
     pm = input("\nEnable POWER MODE? (Updates everything + Full Training) [y/N]: ").strip().lower()
     if pm == 'y':
         is_power_mode = run_power_mode()
-    
+
+    # 0.5 UPDATE MODE CHECK (only if Power Mode declined)
+    is_update_mode = False
     if not is_power_mode:
+        um = input("\nEnable UPDATE MODE? (Refresh matches + upcoming + retrain all, non-interactive) [y/N]: ").strip().lower()
+        if um == 'y':
+            is_update_mode = run_update_mode()
+
+    if not is_power_mode and not is_update_mode:
         # 1. SCRAPING STAGE
         print("\n[STEP 1] DATA ACQUISITION")
         scrape_flashscore.run_scraper_interface()
@@ -98,8 +138,14 @@ def main():
 
     # 3. CONFIGURATION STAGE
     print("\n[STEP 3] MODEL CONFIGURATION")
-    
-    if is_power_mode:
+
+    if is_update_mode:
+        # Update mode already trained DL + Hybrid + RL. Skip all training prompts.
+        retrain = 'n'
+        os.environ['FOBO_SKIP_TRAINING'] = 'true'
+        os.environ['FOBO_SKIP_DL_TRAIN'] = 'true'
+        print(">> Update Mode: training already done. Launching app with fresh models.")
+    elif is_power_mode:
          # Force Retrain settings
          retrain = 'y'
          os.environ['FOBO_SKIP_TRAINING'] = 'false'
