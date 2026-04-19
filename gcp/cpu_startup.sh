@@ -53,6 +53,8 @@ docker build -f gcp/Dockerfile.cpu -t fobo-cpu .
 # 3. Stop any previous container then run fresh
 docker rm -f fobo 2>/dev/null || true
 ADMIN_TOKEN=$(curl -fsS -H "Metadata-Flavor: Google" "$META/admin-token" 2>/dev/null || echo "")
+OPENAI_API_KEY=$(curl -fsS -H "Metadata-Flavor: Google" "$META/openai-api-key" 2>/dev/null || echo "")
+OPENAI_MODEL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/openai-model" 2>/dev/null || echo "gpt-4o-mini")
 
 docker run -d \
   --name fobo \
@@ -62,6 +64,8 @@ docker run -d \
   -e FOBO_GCS_BUCKET="$BUCKET" \
   -e FOBO_SKIP_TRAINING=true \
   -e FOBO_ADMIN_TOKEN="$ADMIN_TOKEN" \
+  -e OPENAI_API_KEY="$OPENAI_API_KEY" \
+  -e OPENAI_MODEL="$OPENAI_MODEL" \
   fobo-cpu
 
 echo "[cpu_startup] $(date -u +%FT%TZ) container started"
