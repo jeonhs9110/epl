@@ -44,6 +44,10 @@ else
 fi
 cd "$WORKDIR"
 
+# Clean up any leftover build cache or dead containers from a previous failed run
+docker rm -f fobo 2>/dev/null || true
+docker system prune -af --volumes 2>/dev/null || true
+
 docker build -f gcp/Dockerfile.cpu -t fobo-cpu .
 
 # 3. Stop any previous container then run fresh

@@ -36,10 +36,14 @@ RUN wget -q -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-
 
 WORKDIR /app
 
-# Requirements first for better layer caching
+# Install CPU-only torch FIRST so the subsequent requirements.txt install
+# sees torch already satisfied and doesn't pull the 5GB CUDA wheel.
+RUN pip install --no-cache-dir \
+    torch --index-url https://download.pytorch.org/whl/cpu
+
+# Then the rest of requirements (torch is already satisfied, skipped).
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt \
-    && pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+RUN pip install --no-cache-dir -r requirements.txt
 
 # App code
 COPY . .
