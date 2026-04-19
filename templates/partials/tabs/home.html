@@ -390,6 +390,82 @@
         </div>
     </div>
 
+    <!-- Results & Honest Limitations -->
+    <div class="td-card">
+        <div class="td-card-label">⑧ <span class="lang-en">Results &amp; Honest Limitations</span><span class="lang-ko" style="display:none;">성능 및 한계</span></div>
+
+        <p class="lang-en">
+            What the model is actually good at, based on rolling backtests on the
+            last season of the 13 supported leagues:
+        </p>
+        <p class="lang-ko" style="display:none;">
+            지원 13개 리그의 최근 시즌 롤링 백테스트 결과, 본 모델이 실제로 강점을 보이는
+            영역은 다음과 같습니다:
+        </p>
+
+        <div class="row g-3 mt-2">
+            <div class="col-md-4">
+                <div class="p-3 border rounded-3 h-100 text-center" style="background: rgba(0,176,80,0.05);">
+                    <div class="display-6 fw-bold" style="color: var(--green);">~90%</div>
+                    <div class="small fw-bold mb-1">
+                        <span class="lang-en">Model-only, conf ≥ 77%</span>
+                        <span class="lang-ko" style="display:none;">모델 단독, 신뢰도 ≥ 77%</span>
+                    </div>
+                    <div class="small text-muted">
+                        <span class="lang-en">Hit rate when the ensemble's top-market probability clears 77% and the match already belongs to the "favoured" side.</span>
+                        <span class="lang-ko" style="display:none;">앙상블 최상위 마켓 확률이 77%를 넘고 경기가 "우세" 측에 속할 때의 적중률입니다.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded-3 h-100 text-center" style="background: rgba(0,176,80,0.10); border-color: rgba(0,176,80,0.35) !important;">
+                    <div class="display-6 fw-bold" style="color: var(--green);">~95%</div>
+                    <div class="small fw-bold mb-1">
+                        <span class="lang-en">Model + RL consensus, conf ≥ 90%</span>
+                        <span class="lang-ko" style="display:none;">모델 + RL 합의, 신뢰도 ≥ 90%</span>
+                    </div>
+                    <div class="small text-muted">
+                        <span class="lang-en">When the PPO agent independently agrees with the ensemble at ≥ 90% confidence, observed hit rate lifts another ~5 pts — the RL layer filters the outliers that pure probability misses.</span>
+                        <span class="lang-ko" style="display:none;">PPO 에이전트가 앙상블과 독립적으로 ≥ 90% 확신도에서 합의할 때 적중률이 약 5%p 추가 상승합니다. RL 계층이 확률만으로는 놓치는 이상치를 걸러냅니다.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 border rounded-3 h-100 text-center" style="background: rgba(41,182,246,0.05);">
+                    <div class="display-6 fw-bold" style="color: var(--cyan);">&lt; 1.80</div>
+                    <div class="small fw-bold mb-1">
+                        <span class="lang-en">Typical odds zone</span>
+                        <span class="lang-ko" style="display:none;">주요 배당 구간</span>
+                    </div>
+                    <div class="small text-muted">
+                        <span class="lang-en">Almost all high-confidence picks fall on heavy favourites (odds under 1.80). The model is designed to filter these, not to hunt longshots.</span>
+                        <span class="lang-ko" style="display:none;">고신뢰도 추천의 대부분은 강한 우세 팀(배당 1.80 미만)에 몰립니다. 장기 언더독 발굴이 아닌 우세 매치 필터링을 위한 설계입니다.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning mt-4 mb-0" style="border-left: 4px solid var(--gold);">
+            <h6 class="fw-bold mb-2">
+                <i class="bi bi-exclamation-triangle"></i>
+                <span class="lang-en">Honest limitations</span>
+                <span class="lang-ko" style="display:none;">솔직한 한계</span>
+            </h6>
+            <ul class="small mb-0 lang-en">
+                <li><b>There is no right answer in football.</b> Barcelona loses to Girona, 13th-placed sides knock out title contenders in cup competitions. A 95% model confidence still means 1-in-20 picks will be wrong — sometimes in a row.</li>
+                <li><b>The model filters, it does not guarantee.</b> Strongest use case is <em>single high-confidence picks</em>. Parlays of 5+ selections compound the 5% residual error and become net-negative expected value.</li>
+                <li><b>Favoured-odds bias.</b> Because most high-confidence picks sit below 1.80, the long-run financial edge is thin even at 90%+ hit rate. This is a <em>pattern-recognition research project</em>, not a profit engine.</li>
+                <li><b>Built for personal education.</b> Every reported number comes from backtesting on historical matches, not live wagers. Past performance does not predict future results. Do not use this system to make real betting decisions without understanding the limitations above.</li>
+            </ul>
+            <ul class="small mb-0 lang-ko" style="display:none;">
+                <li><b>축구에 정답은 없습니다.</b> 바르셀로나가 지로나에 지고, 하위권 팀이 컵 대회에서 우승 후보를 꺾기도 합니다. 모델이 95% 확신을 보여도 20번 중 1번은 틀리며, 연속적으로 틀리는 구간도 발생합니다.</li>
+                <li><b>이 모델은 필터링이지 보장이 아닙니다.</b> 가장 효과적인 사용처는 <em>단일 고신뢰 추천</em>입니다. 5개 이상 조합의 파를레이는 5% 잔여 오차가 누적되어 기대값이 음수로 내려갑니다.</li>
+                <li><b>우세팀 배당 편향.</b> 고신뢰 추천의 대부분이 배당 1.80 미만에 몰리므로, 적중률 90% 이상이어도 장기 수익 마진은 얇습니다. 이 프로젝트는 <em>패턴 인식 연구</em>이지 수익 엔진이 아닙니다.</li>
+                <li><b>개인 학습 목적.</b> 보고된 모든 수치는 과거 경기 백테스트 기준이며 실제 베팅 결과가 아닙니다. 과거 성능이 미래를 보장하지 않습니다. 위 한계를 이해하지 않은 채 실제 베팅에 활용하지 마세요.</li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Call to action -->
     <div class="text-center my-5">
         <p class="text-muted small lang-en">Explore the dashboard using the sidebar — start with <b>Predict Match</b>, watch live scrapes in <b>Run Update</b>, or browse today's fixtures in <b>Daily Schedule</b>.</p>
