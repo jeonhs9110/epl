@@ -111,10 +111,12 @@ def main():
         sys.exit(1)
 
     # update_pipeline.py already pushes at the end when bucket is set,
-    # but push again to be safe.
+    # but push again to be safe. Include "data" so any newly-scraped CSVs
+    # definitely land in the bucket before the GPU VM shuts down — otherwise
+    # the CPU VM would have no record of the new matches.
     if storage_sync.is_enabled():
-        print("[GPU_TRAIN] Pushing models + history to bucket...")
-        storage_sync.push_artifacts(["models", "history"])
+        print("[GPU_TRAIN] Pushing data + models + history to bucket...")
+        storage_sync.push_artifacts(["data", "models", "history"])
 
     # Tell the CPU VM training is done
     post_progress(7, 7, "Training complete", "Models uploaded to bucket", 1.0, status="complete")

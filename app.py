@@ -3024,13 +3024,14 @@ if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
             ).start()
 
         def _scheduled_model_sync():
-            """Pull latest models/history from bucket every 15 min so the CPU
-            VM's local disk always holds a recent copy (backup if bucket/GPU
-            VM ever has issues)."""
+            """Pull latest data + models + history from bucket every 15 min so
+            the CPU VM's local disk always holds a recent copy. Guarantees the
+            site can serve predictions with fresh scraped CSVs even if the GPU
+            VM has shut down."""
             try:
                 import storage_sync
                 if storage_sync.is_enabled():
-                    storage_sync.pull_artifacts(["models", "history"])
+                    storage_sync.pull_artifacts(["data", "models", "history"])
             except Exception as e:
                 print(f"[MODEL_SYNC] pull failed: {e}")
 
@@ -3115,8 +3116,10 @@ def admin_reload_models():
 
     try:
         import storage_sync
-        result = storage_sync.pull_artifacts(["models", "history", "encoders"])
-        # Rebuild in-memory models
+        # Pull everything so the CPU VM reflects whatever the GPU just trained
+        # on, including freshly scraped CSVs.
+        result = storage_sync.pull_artifacts(["data", "models", "history", "encoders"])
+        # Rebuild in-memory models + master_df from the new CSVs
         initialize_system()
         return jsonify({"status": "success", "pulled": result, "message": "models reloaded"})
     except Exception as e:
