@@ -27,3 +27,8 @@ google-cloud-storage
 
 # Background scheduler (daily scrape cron; activated via FOBO_SCHEDULE_DAILY)
 apscheduler
+
+# OpenAI chatbot — per-match reports + general picks assistant
+# API key read from OPENAI_API_KEY env var or a .env file next to app.py
+openai>=1.30
+python-dotenv

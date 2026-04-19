@@ -12,6 +12,13 @@ import shutil
 from torch.optim.lr_scheduler import CosineAnnealingLR
 import json
 
+# Load .env (if present) so OPENAI_API_KEY + others flow through os.environ
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:
+    pass
+
 _DIR = os.path.dirname(os.path.abspath(__file__))
 TRAINING_HISTORY_FILE = os.path.join(_DIR, 'training_history.json')
 
@@ -287,7 +294,19 @@ def generate_calibration_plot(calibration_data):
 
 
 
-def calculate_advanced_stats(home_lam, away_lam):
+def calculate_advanced_stats(home_lam, away_lam, rho=-0.10):
+    """
+    Build a Poisson score grid from (home_lam, away_lam), apply the Dixon-Coles
+    low-score correction (which the academic gold standard for football uses —
+    see the pipeline documentation), renormalise so the grid sums to 1.0, and
+    then derive W/D/L, Over 2.5, and BTTS Yes probabilities.
+
+    The Dixon-Coles correction τ adjusts four low-score cells:
+        τ(0,0) = 1 - lam*mu*rho       τ(1,1) = 1 - rho
+        τ(0,1) = 1 + lam*rho          τ(1,0) = 1 + mu*rho
+    rho = -0.10 matches Dixon & Coles (1997) for English football; it upweights
+    draws and downweights 1-0/0-1 the way real matches empirically behave.
+    """
     # Safety Check
     if not isinstance(home_lam, (int, float)) or not isinstance(away_lam, (int, float)) or \
        np.isnan(home_lam) or np.isnan(away_lam):
@@ -300,12 +319,27 @@ def calculate_advanced_stats(home_lam, away_lam):
         }
 
     max_goals = 10
-    prob_matrix = np.zeros((max_goals, max_goals))
-    for h in range(max_goals):
-        for a in range(max_goals):
-            prob_matrix[h, a] = poisson.pmf(h, home_lam) * poisson.pmf(a, away_lam)
+    # Vectorised Poisson outer product is equivalent to the nested loop but
+    # orders of magnitude faster — mattered because this function is hot.
+    h_range = np.arange(max_goals)
+    home_pmf = poisson.pmf(h_range, home_lam)
+    away_pmf = poisson.pmf(h_range, away_lam)
+    prob_matrix = np.outer(home_pmf, away_pmf)
 
-    prob_over_2_5 = np.sum(prob_matrix[np.add.outer(np.arange(max_goals), np.arange(max_goals)) > 2.5])
+    # Dixon-Coles low-score correction. Only 4 cells are adjusted.
+    lam, mu = float(home_lam), float(away_lam)
+    prob_matrix[0, 0] *= max(0.0, 1 - lam * mu * rho)
+    prob_matrix[0, 1] *= max(0.0, 1 + lam * rho)
+    prob_matrix[1, 0] *= max(0.0, 1 + mu * rho)
+    prob_matrix[1, 1] *= max(0.0, 1 - rho)
+
+    # Renormalise so truncation at max_goals and the DC correction don't
+    # leave residual mass (<0.2% in practice but we want clean percentages).
+    total = prob_matrix.sum()
+    if total > 0:
+        prob_matrix = prob_matrix / total
+
+    prob_over_2_5 = np.sum(prob_matrix[np.add.outer(h_range, h_range) > 2.5])
     prob_btts_yes = np.sum(prob_matrix[1:, 1:])
     prob_home_win = np.sum(np.tril(prob_matrix, -1))
     prob_draw = np.sum(np.diag(prob_matrix))
@@ -3151,6 +3185,128 @@ def admin_reload_models():
         # Rebuild in-memory models + master_df from the new CSVs
         initialize_system()
         return jsonify({"status": "success", "pulled": result, "message": "models reloaded"})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+# ──────────────────────────────────────────────────────────────
+#  AI CHATBOT — per-match report + general picks advisor
+# ──────────────────────────────────────────────────────────────
+_openai_client = None
+_openai_model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+
+
+def _get_openai_client():
+    global _openai_client
+    if _openai_client is not None:
+        return _openai_client
+    key = os.environ.get("OPENAI_API_KEY", "").strip()
+    if not key:
+        return None
+    try:
+        from openai import OpenAI
+        _openai_client = OpenAI(api_key=key)
+        return _openai_client
+    except Exception as e:
+        print(f"[CHAT] OpenAI client init failed: {e}")
+        return None
+
+
+def _format_match_for_llm(m):
+    """Compress a daily-schedule match dict into a concise context line for the LLM."""
+    home = m.get("home", "?")
+    away = m.get("away", "?")
+    league = m.get("league", "")
+    date = m.get("date", "")
+    rec = m.get("rl_label", m.get("rec_label", "N/A"))
+    conf = m.get("rl_conf", "?")
+    avg = m.get("avg_win", "-"), m.get("avg_draw", "-"), m.get("avg_loss", "-")
+    o25 = m.get("avg_o25", "-")
+    btts = m.get("avg_btts", "-")
+    xg = f"{m.get('avg_home_xg', '?')}-{m.get('avg_away_xg', '?')}"
+    odds = m.get("odds_used", [0, 0, 0])
+    return (
+        f"{home} vs {away} ({league}, {date}). "
+        f"Model probs 1/X/2: {avg[0]}/{avg[1]}/{avg[2]}%. "
+        f"Over2.5: {o25}%. BTTS: {btts}%. xG: {xg}. "
+        f"Bookmaker odds 1/X/2: {odds[0]}/{odds[1]}/{odds[2]}. "
+        f"RL agent says: {rec} (conf {conf}%)."
+    )
+
+
+@app.route('/api/chat/match_report', methods=['POST'])
+def chat_match_report():
+    """Generate a focused analytical report for a single match the user clicked."""
+    client = _get_openai_client()
+    if client is None:
+        return jsonify({"status": "error", "message": "OpenAI not configured. Add OPENAI_API_KEY to .env"}), 503
+    try:
+        match = request.get_json(silent=True) or {}
+        if not match.get("home") or not match.get("away"):
+            return jsonify({"status": "error", "message": "match payload missing home/away"}), 400
+
+        ctx = _format_match_for_llm(match)
+        resp = client.chat.completions.create(
+            model=_openai_model,
+            messages=[
+                {"role": "system", "content": (
+                    "You are a concise football betting analyst. Given one match with model probabilities, "
+                    "xG, BTTS, Over/Under 2.5, bookmaker odds, and RL agent recommendation, write a short "
+                    "report in two sections: WHY THESE NUMBERS (2-4 bullets explaining what's driving the "
+                    "model) and SUGGESTED BET (one recommended market with reasoning, or 'Pass' if no edge). "
+                    "Be honest about uncertainty. Output 120 words maximum. Reply in the same language as "
+                    "the user (if match has Korean-looking fields treat as Korean; otherwise English)."
+                )},
+                {"role": "user", "content": f"Match data: {ctx}"},
+            ],
+            temperature=0.3,
+            max_tokens=400,
+        )
+        text = resp.choices[0].message.content
+        return jsonify({"status": "success", "report": text})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"status": "error", "message": str(e)}), 500
+
+
+@app.route('/api/chat/ask', methods=['POST'])
+def chat_ask():
+    """Chatbot widget. The user may ask things like 'give me 3 picks most likely to
+    hit'. We provide the model only with the matches currently on the daily-schedule
+    endpoint to keep scope tight.
+    """
+    client = _get_openai_client()
+    if client is None:
+        return jsonify({"status": "error", "message": "OpenAI not configured. Add OPENAI_API_KEY to .env"}), 503
+    try:
+        body = request.get_json(silent=True) or {}
+        question = str(body.get("question", "")).strip()
+        matches = body.get("matches", [])
+        if not question:
+            return jsonify({"status": "error", "message": "question is required"}), 400
+        if not isinstance(matches, list) or not matches:
+            return jsonify({"status": "error", "message": "No daily-schedule matches loaded — open the Daily Schedule tab first."}), 400
+
+        match_lines = "\n".join(f"- {_format_match_for_llm(m)}" for m in matches[:50])
+        resp = client.chat.completions.create(
+            model=_openai_model,
+            messages=[
+                {"role": "system", "content": (
+                    "You are a football betting chatbot for FOBO AI. Answer ONLY using the match data "
+                    "provided below — do not reference matches outside this list. Be concise, honest, and "
+                    "cite probabilities when recommending. If asked for top picks, rank by expected value "
+                    "(model probability × odds - 1), favouring RL-approved non-PASS picks. When none of the "
+                    "matches offer positive EV, say so clearly. Reply in the user's language (Korean or English)."
+                )},
+                {"role": "system", "content": f"Today's matches:\n{match_lines}"},
+                {"role": "user", "content": question},
+            ],
+            temperature=0.4,
+            max_tokens=500,
+        )
+        text = resp.choices[0].message.content
+        return jsonify({"status": "success", "answer": text})
     except Exception as e:
         traceback.print_exc()
         return jsonify({"status": "error", "message": str(e)}), 500

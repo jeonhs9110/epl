@@ -1,13 +1,19 @@
 <!-- ─── SIDEBAR ──────────────────────────────────────────── -->
 <aside class="td-sidebar">
-    <div class="td-brand">
+    <div class="td-brand" onclick="goHome()" style="cursor:pointer;" title="Home">
         <img src="static/images/logo.png" alt="Training Day"
             onerror="this.outerHTML='<div class=\'td-brand-fallback\'>Training <span>Day</span></div>'">
     </div>
     <nav class="td-nav">
+        <div class="td-nav-section">Overview</div>
+
+        <button class="td-nav-link active" data-bs-target="#home" type="button">
+            <i class="bi bi-house-door"></i> Home
+        </button>
+
         <div class="td-nav-section">Predictions</div>
 
-        <button class="td-nav-link active" data-bs-target="#predict" type="button">
+        <button class="td-nav-link" data-bs-target="#predict" type="button">
             <i class="bi bi-magic"></i> Predict Match
         </button>
         <button class="td-nav-link" data-bs-target="#calendar" type="button">

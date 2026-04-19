@@ -79,6 +79,9 @@
                 const container = document.getElementById('dailyScheduleContainer');
                 container.innerHTML = ''; // Clear previous content
 
+                // Stash for the AI chatbot so it can answer "top picks today"
+                window.__dailyMatches = result.matches || [];
+
                 if (result.matches.length === 0) {
                     container.innerHTML = '<div class="alert alert-secondary text-center">No matches scheduled for this date (or scrape required).</div>';
                     document.getElementById('dailyExportBtns').style.display = 'none';
@@ -127,11 +130,17 @@
                         ? `<span class="badge" style="background:rgba(0,176,80,0.12);color:#00b050;font-size:0.65rem;">✅ Real Odds ${oddsUsed[0]}/${oddsUsed[1]}/${oddsUsed[2]}</span>`
                         : `<span class="badge" style="background:rgba(255,152,0,0.12);color:#f57f17;font-size:0.65rem;">⚙️ ELO Implied ${oddsUsed[0]}/${oddsUsed[1]}/${oddsUsed[2]}</span>`;
 
+                    const matchPayload = encodeURIComponent(JSON.stringify(m));
                     const cardHtml = `
                     <div class="card border mb-3 shadow-sm bg-white" style="page-break-inside: avoid;">
-                        <div class="card-header text-center bg-white border-bottom-0 pb-0 pt-4">
+                        <div class="card-header text-center bg-white border-bottom-0 pb-0 pt-4 position-relative">
+                            <button class="btn btn-sm btn-outline-primary position-absolute" style="top:12px; right:12px;"
+                                    onclick="generateMatchReport(this, '${matchPayload}')">
+                                <i class="bi bi-stars"></i> AI Report
+                            </button>
                             <h3 class="fw-bold text-dark">${m.home} vs ${m.away}</h3>
                             <p class="text-muted small">${m.league} • ${m.date || 'Today'} ${m.time && m.time !== '00:00' ? m.time : ''} &nbsp; ${oddsSrcBadge}</p>
+                            <div class="ai-report-slot" style="display:none;"></div>
                         </div>
                         <div class="card-body">
                             <div class="alert alert-${m.rl_color || 'secondary'} border-${m.rl_color || 'secondary'} mb-3 text-center shadow-sm bg-opacity-10">
@@ -1315,6 +1324,7 @@
 <script>
     (function () {
         const titles = {
+            '#home': ['FOBO AI', 'Pipeline architecture + design rationale'],
             '#predict': ['Match Predictor', 'Select teams to run a full AI analysis'],
             '#calendar': ['Daily Schedule', 'Browse all AI-predicted matches for today'],
             '#power': ['GNN Power Rankings', 'Visualising transitive strength learned by the graph network'],

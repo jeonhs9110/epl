@@ -11,8 +11,8 @@
             <div class="td-page-header">
                 <div class="d-flex justify-content-between align-items-start">
                     <div>
-                        <div class="td-page-title" id="pageTitle">Match Predictor</div>
-                        <div class="td-page-sub" id="pageSub">Select teams to run a full AI analysis</div>
+                        <div class="td-page-title" id="pageTitle">FOBO AI</div>
+                        <div class="td-page-sub" id="pageSub">Pipeline architecture + design rationale</div>
                     </div>
                     <div class="d-none d-md-flex align-items-center gap-2" style="padding-top:4px;">
                         <span class="stat-pill">
@@ -24,6 +24,7 @@
 
             <div class="td-content">
                 <div class="tab-content" id="myTabContent">
+                    {% include 'partials/tabs/home.html' %}
                     {% include 'partials/tabs/predict.html' %}
                     {% include 'partials/tabs/calendar.html' %}
                     {% include 'partials/tabs/power.html' %}
@@ -39,6 +40,7 @@
     </div>
 
     {% include 'partials/update_modal.html' %}
+    {% include 'partials/chatbot.html' %}
     {% include 'partials/scripts.html' %}
 </body>
 
