@@ -3053,6 +3053,51 @@ if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
         print(f"[SCHEDULER] Failed to start daily job: {_sched_err}")
 
 
+# --- ROUTE: admin training progress (GPU VM streams updates here) ---
+@app.route('/admin/training_progress', methods=['POST'])
+def admin_training_progress():
+    """Write GPU training progress into UPDATE_STATE so the frontend
+    Update modal displays it live. Token-protected.
+    """
+    expected = os.environ.get("FOBO_ADMIN_TOKEN", "")
+    if not expected:
+        return jsonify({"status": "error", "message": "admin endpoint disabled"}), 403
+    provided = request.headers.get("X-Admin-Token") or request.args.get("token", "")
+    if provided != expected:
+        return jsonify({"status": "error", "message": "invalid token"}), 401
+
+    data = request.get_json(silent=True) or {}
+    step = int(data.get("step", 0))
+    total = int(data.get("total_steps", 7))
+    step_name = str(data.get("step_name", ""))
+    sub_message = str(data.get("sub_message", ""))
+    sub_pct = float(data.get("sub_pct", 0.0))
+    status = str(data.get("status", "running"))
+
+    overall = 100.0 * (step - 1 + max(0.0, min(sub_pct, 1.0))) / max(total, 1)
+    with _update_lock:
+        UPDATE_STATE["running"] = (status == "running")
+        UPDATE_STATE["step"] = step
+        UPDATE_STATE["total_steps"] = total
+        UPDATE_STATE["step_name"] = step_name
+        UPDATE_STATE["sub_message"] = sub_message
+        UPDATE_STATE["sub_pct"] = round(sub_pct, 3)
+        UPDATE_STATE["overall_pct"] = round(overall, 1)
+        UPDATE_STATE["status"] = status
+        if not UPDATE_STATE.get("started_at") or status == "running" and step == 1:
+            UPDATE_STATE["started_at"] = _dt.now().isoformat()
+        if status in ("complete", "error"):
+            UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+            UPDATE_STATE["overall_pct"] = 100.0
+        entry = f"[{_dt.now().strftime('%H:%M:%S')}] [GPU] Step {step}/{total} — {step_name}"
+        if sub_message:
+            entry += f" — {sub_message}"
+        UPDATE_STATE["log"].append(entry)
+        if len(UPDATE_STATE["log"]) > 200:
+            UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
+    return jsonify({"status": "ok"})
+
+
 # --- ROUTE: admin reload models (GPU VM calls this after training) ---
 @app.route('/admin/reload_models', methods=['POST'])
 def admin_reload_models():

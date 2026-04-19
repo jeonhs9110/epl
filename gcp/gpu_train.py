@@ -64,11 +64,37 @@ def main():
     test_mode = os.environ.get("FOBO_TEST_MODE", "false").lower() == "true"
     print(f"[GPU_TRAIN] Running update pipeline (test_mode={test_mode})...")
 
+    cpu_url = os.environ.get("FOBO_CPU_URL", "").strip()
+    admin_token = os.environ.get("FOBO_ADMIN_TOKEN", "").strip()
+
+    def post_progress(step_idx, total_steps, step_name, sub_message, sub_pct, status="running"):
+        if not cpu_url or not admin_token:
+            return
+        try:
+            import urllib.request, json as _json
+            body = _json.dumps({
+                "step": step_idx, "total_steps": total_steps,
+                "step_name": step_name, "sub_message": sub_message,
+                "sub_pct": sub_pct, "status": status,
+            }).encode()
+            req = urllib.request.Request(
+                f"{cpu_url}/admin/training_progress",
+                data=body, method="POST",
+                headers={"X-Admin-Token": admin_token, "Content-Type": "application/json"},
+            )
+            urllib.request.urlopen(req, timeout=5).read()
+        except Exception as e:
+            # Non-fatal; keep training
+            print(f"[GPU_TRAIN] progress post failed: {e}")
+
     def cli_cb(step_idx, total_steps, step_name, sub_message="", sub_pct=0.0):
         overall = int(100 * (step_idx - 1 + sub_pct) / total_steps)
         print(f"  [{overall:3d}%] Step {step_idx}/{total_steps}: {step_name} — {sub_message}")
+        post_progress(step_idx, total_steps, step_name, sub_message, sub_pct, status="running")
 
     try:
+        # Tell the CPU VM a training run is starting
+        post_progress(0, 7, "Starting GPU training", "Pulling data from bucket...", 0.0, status="running")
         result = update_pipeline.run_update_pipeline(progress_cb=cli_cb, test_mode=test_mode)
         print(f"\n[GPU_TRAIN] Pipeline {result['status']}: {result['message']}")
         for s in result["steps"]:
@@ -76,6 +102,7 @@ def main():
     except Exception as e:
         traceback.print_exc()
         print(f"[GPU_TRAIN] FATAL: {e}")
+        post_progress(0, 7, "GPU training failed", str(e), 1.0, status="error")
         # Still try to push whatever we have
         if storage_sync.is_enabled():
             storage_sync.push_artifacts(["models", "history"])
@@ -88,6 +115,9 @@ def main():
     if storage_sync.is_enabled():
         print("[GPU_TRAIN] Pushing models + history to bucket...")
         storage_sync.push_artifacts(["models", "history"])
+
+    # Tell the CPU VM training is done
+    post_progress(7, 7, "Training complete", "Models uploaded to bucket", 1.0, status="complete")
 
     # Tell the CPU VM to pull fresh models immediately (backup + live reload).
     # Best-effort; CPU VM also polls the bucket every 15 min as a fallback.
