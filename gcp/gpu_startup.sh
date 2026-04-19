@@ -24,9 +24,24 @@ if [[ -z "$BUCKET" || -z "$REPO" ]]; then
   exit 1
 fi
 
-# 2. System deps (Deep Learning VM images have Python + CUDA preinstalled)
+# 2. System deps (Deep Learning VM images have Python + CUDA preinstalled).
+# Chrome + Xvfb are needed when running the full (non-test) pipeline, because
+# steps 1-3 use Selenium against Flashscore (which blocks --headless Chrome,
+# so we run real Chrome inside a virtual framebuffer).
 apt-get update -y
-apt-get install -y --no-install-recommends git python3-pip
+apt-get install -y --no-install-recommends \
+  git python3-pip wget gnupg ca-certificates curl unzip \
+  xvfb \
+  fonts-liberation libasound2 libatk-bridge2.0-0 libatk1.0-0 libcups2 \
+  libdbus-1-3 libdrm2 libgbm1 libgtk-3-0 libnspr4 libnss3 \
+  libx11-xcb1 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 xdg-utils
+
+# Install Google Chrome stable (chromedriver comes from webdriver-manager at runtime)
+if ! command -v google-chrome >/dev/null 2>&1; then
+  wget -q -O /tmp/chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  apt-get install -y /tmp/chrome.deb
+  rm -f /tmp/chrome.deb
+fi
 
 # 3. Checkout repo
 WORKDIR=/opt/fobo
@@ -57,6 +72,11 @@ export FOBO_SHUTDOWN_ON_EXIT=true
 # Optional: tell the CPU VM to reload its models as soon as training finishes.
 export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")
 export FOBO_ADMIN_TOKEN=$(curl -fsS -H "Metadata-Flavor: Google" "$META/admin-token" || echo "")
+
+# Start Xvfb on :99 so Selenium's Chrome has a display (Flashscore blocks true headless).
+Xvfb :99 -screen 0 1920x1080x24 -ac +extension RANDR +render -noreset &
+export DISPLAY=:99
+sleep 1
 
 python3 gcp/gpu_train.py
 
