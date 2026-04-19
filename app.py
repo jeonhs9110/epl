@@ -3054,6 +3054,35 @@ if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
         print(f"[SCHEDULER] Failed to start daily job: {_sched_err}")
 
 
+# --- ROUTE: admin training log (raw log lines from GPU VM stdout) ---
+@app.route('/admin/training_log', methods=['POST'])
+def admin_training_log():
+    """Append raw log lines (e.g. [Worker N], match-by-match scrape output)
+    from the GPU VM into UPDATE_STATE['log']. Token-protected."""
+    expected = os.environ.get("FOBO_ADMIN_TOKEN", "")
+    if not expected:
+        return jsonify({"status": "error", "message": "admin endpoint disabled"}), 403
+    provided = request.headers.get("X-Admin-Token") or request.args.get("token", "")
+    if provided != expected:
+        return jsonify({"status": "error", "message": "invalid token"}), 401
+
+    data = request.get_json(silent=True) or {}
+    lines = data.get("lines", [])
+    if not isinstance(lines, list):
+        return jsonify({"status": "error", "message": "lines must be list"}), 400
+
+    with _update_lock:
+        ts = _dt.now().strftime('%H:%M:%S')
+        for line in lines:
+            if not line:
+                continue
+            UPDATE_STATE["log"].append(f"[{ts}] [GPU] {str(line)[:400]}")
+        # Keep a larger rolling window for verbose output
+        if len(UPDATE_STATE["log"]) > 800:
+            UPDATE_STATE["log"] = UPDATE_STATE["log"][-800:]
+    return jsonify({"status": "ok", "received": len(lines)})
+
+
 # --- ROUTE: admin training progress (GPU VM streams updates here) ---
 @app.route('/admin/training_progress', methods=['POST'])
 def admin_training_progress():
@@ -3094,8 +3123,8 @@ def admin_training_progress():
         if sub_message:
             entry += f" — {sub_message}"
         UPDATE_STATE["log"].append(entry)
-        if len(UPDATE_STATE["log"]) > 200:
-            UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
+        if len(UPDATE_STATE["log"]) > 800:
+            UPDATE_STATE["log"] = UPDATE_STATE["log"][-800:]
     return jsonify({"status": "ok"})
 
 

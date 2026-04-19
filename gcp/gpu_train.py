@@ -18,13 +18,97 @@ Via startup:    gcloud compute instances create ... --metadata-from-file=startup
 
 import os
 import sys
+import time
+import json
+import queue
+import threading
 import traceback
+import urllib.request
 
 # Make sure we can import the project root when invoked as `python gcp/gpu_train.py`
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
+
+
+class _StreamingStdout:
+    """
+    Wraps sys.stdout so every print() also gets forwarded to the CPU VM's
+    /admin/training_log endpoint in small batches. Lets the user watch
+    Selenium worker output + per-match progress live in the Update modal.
+    """
+
+    def __init__(self, original, cpu_url, token, max_batch=30, flush_interval=1.2):
+        self.original = original
+        self.cpu_url = cpu_url.rstrip("/")
+        self.token = token
+        self.max_batch = max_batch
+        self.flush_interval = flush_interval
+        self._q = queue.Queue(maxsize=5000)
+        self._buf = ""
+        self._stop = threading.Event()
+        self._thr = threading.Thread(target=self._run, daemon=True)
+        self._thr.start()
+
+    def write(self, text):
+        try:
+            self.original.write(text)
+        except Exception:
+            pass
+        if not text:
+            return len(text) if text else 0
+        self._buf += text
+        while "\n" in self._buf:
+            line, self._buf = self._buf.split("\n", 1)
+            line = line.strip()
+            if line:
+                try:
+                    self._q.put_nowait(line)
+                except queue.Full:
+                    pass  # drop on overflow — training shouldn't block
+        return len(text)
+
+    def flush(self):
+        try:
+            self.original.flush()
+        except Exception:
+            pass
+
+    def _run(self):
+        while not self._stop.is_set():
+            lines = []
+            deadline = time.time() + self.flush_interval
+            while time.time() < deadline and len(lines) < self.max_batch:
+                remaining = max(0.05, deadline - time.time())
+                try:
+                    lines.append(self._q.get(timeout=remaining))
+                except queue.Empty:
+                    break
+            if lines:
+                self._post(lines)
+
+    def _post(self, lines):
+        try:
+            body = json.dumps({"lines": lines}).encode("utf-8")
+            req = urllib.request.Request(
+                f"{self.cpu_url}/admin/training_log",
+                data=body, method="POST",
+                headers={"X-Admin-Token": self.token, "Content-Type": "application/json"},
+            )
+            urllib.request.urlopen(req, timeout=4).read()
+        except Exception:
+            pass  # streaming is best-effort; never break training
+
+
+def _enable_log_streaming():
+    cpu_url = os.environ.get("FOBO_CPU_URL", "").strip()
+    token = os.environ.get("FOBO_ADMIN_TOKEN", "").strip()
+    if not cpu_url or not token:
+        return
+    sys.stdout = _StreamingStdout(sys.stdout, cpu_url, token)
+    sys.stderr = _StreamingStdout(sys.stderr, cpu_url, token)
+    print("[GPU_TRAIN] stdout streaming to CPU VM enabled.")
 
 
 def shutdown_vm():
@@ -48,6 +132,11 @@ def shutdown_vm():
 
 
 def main():
+    # Hook stdout/stderr to the CPU VM's /admin/training_log FIRST so every
+    # subsequent print — including Selenium worker output + per-match log
+    # lines from inside scrape_flashscore — shows up in the Update modal.
+    _enable_log_streaming()
+
     print("=" * 60)
     print("FOBO AI — GPU Training Job")
     print("=" * 60)
