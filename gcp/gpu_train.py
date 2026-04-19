@@ -111,24 +111,48 @@ def _enable_log_streaming():
     print("[GPU_TRAIN] stdout streaming to CPU VM enabled.")
 
 
+def _metadata_get(path):
+    """Fetch a value from the GCE metadata server (no auth needed from inside the VM)."""
+    import urllib.request
+    try:
+        req = urllib.request.Request(
+            f"http://metadata.google.internal/computeMetadata/v1/{path}",
+            headers={"Metadata-Flavor": "Google"},
+        )
+        return urllib.request.urlopen(req, timeout=3).read().decode().strip()
+    except Exception:
+        return ""
+
+
 def shutdown_vm():
-    """Best-effort self-shutdown via the Compute Engine metadata server."""
+    """Best-effort self-shutdown. Fetches instance name + zone from the metadata
+    server (the HOSTNAME env var is not reliably populated in every shell)."""
     import subprocess
     print("\n[GPU_TRAIN] Shutting down VM...")
-    try:
-        # Preferred: let the metadata service resolve the instance and zone
-        subprocess.run(
-            ["gcloud", "compute", "instances", "stop", os.environ.get("HOSTNAME", "self"),
-             "--zone", os.environ.get("FOBO_GCP_ZONE", "us-central1-a")],
-            check=False,
-            timeout=60,
-        )
-    except Exception as e:
-        print(f"[GPU_TRAIN] gcloud shutdown failed: {e}; falling back to `sudo shutdown`")
+
+    # 1. Resolve instance name + zone from the GCE metadata server.
+    instance = _metadata_get("instance/name") or os.environ.get("HOSTNAME", "")
+    zone_path = _metadata_get("instance/zone")   # e.g. "projects/123/zones/asia-northeast3-b"
+    zone = zone_path.split("/")[-1] if zone_path else os.environ.get("FOBO_GCP_ZONE", "us-central1-a")
+
+    print(f"[GPU_TRAIN]   instance={instance!r} zone={zone!r}")
+
+    if instance:
         try:
-            subprocess.run(["sudo", "shutdown", "-h", "now"], check=False, timeout=30)
-        except Exception as e2:
-            print(f"[GPU_TRAIN] shutdown failed: {e2}")
+            subprocess.run(
+                ["gcloud", "compute", "instances", "stop", instance, "--zone", zone],
+                check=False,
+                timeout=60,
+            )
+            return
+        except Exception as e:
+            print(f"[GPU_TRAIN] gcloud shutdown failed: {e}; falling back to `sudo shutdown`")
+
+    # 2. Fallback: pull the plug directly. Works even if gcloud/IAM is broken.
+    try:
+        subprocess.run(["sudo", "shutdown", "-h", "now"], check=False, timeout=30)
+    except Exception as e2:
+        print(f"[GPU_TRAIN] shutdown failed: {e2}")
 
 
 def main():
