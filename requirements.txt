@@ -24,3 +24,6 @@ lightgbm
 
 # Cloud (optional; only activates when FOBO_GCS_BUCKET is set)
 google-cloud-storage
+
+# Background scheduler (daily scrape cron; activated via FOBO_SCHEDULE_DAILY)
+apscheduler

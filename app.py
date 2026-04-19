@@ -1712,12 +1712,13 @@ def _update_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pc
             UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
 
 
-def _run_update_thread(test_mode):
+def _run_update_thread(test_mode, scrape_only=False):
     import update_pipeline
     try:
         result = update_pipeline.run_update_pipeline(
             progress_cb=_update_progress_cb,
             test_mode=test_mode,
+            scrape_only=scrape_only,
         )
         with _update_lock:
             UPDATE_STATE["status"] = "complete" if result["status"] == "success" else "error"
@@ -1747,25 +1748,28 @@ def update_mode_start():
         # Reset state
         req = request.get_json(silent=True) or {}
         test_mode = bool(req.get("test_mode", False))
+        scrape_only = bool(req.get("scrape_only", False))
+        total = 4 if scrape_only else 7
         UPDATE_STATE.update({
             "running": True,
             "test_mode": test_mode,
+            "scrape_only": scrape_only,
             "step": 0,
-            "total_steps": 7,
+            "total_steps": total,
             "step_name": "Starting...",
             "sub_message": "",
             "sub_pct": 0.0,
             "overall_pct": 0.0,
-            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode})"],
+            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode}, scrape_only={scrape_only})"],
             "status": "running",
             "started_at": _dt.now().isoformat(),
             "finished_at": None,
             "result": None,
         })
 
-    t = threading.Thread(target=_run_update_thread, args=(test_mode,), daemon=True)
+    t = threading.Thread(target=_run_update_thread, args=(test_mode, scrape_only), daemon=True)
     t.start()
-    return jsonify({"status": "success", "message": "Update started", "test_mode": test_mode})
+    return jsonify({"status": "success", "message": "Update started", "test_mode": test_mode, "scrape_only": scrape_only})
 
 
 @app.route('/update_mode/status', methods=['GET'])
@@ -2972,6 +2976,55 @@ def remove_bet_history():
          
     save_bet_history(new_history)
     return jsonify({'status': 'success', 'message': f'Removed {len(history) - len(new_history)} bets'})
+
+# --- DAILY SCRAPE SCHEDULER ---
+# Runs daily scrape-only pipeline at 02:00 UTC == 11:00 KST.
+# Activated via FOBO_SCHEDULE_DAILY=true (set on the CPU VM Docker container).
+# Stays off locally so dev laptops don't spontaneously scrape at 11am.
+if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
+    try:
+        from apscheduler.schedulers.background import BackgroundScheduler
+        from apscheduler.triggers.cron import CronTrigger
+
+        def _scheduled_daily_scrape():
+            with _update_lock:
+                if UPDATE_STATE.get("running"):
+                    print("[SCHEDULER] Skipping daily scrape — update already running.")
+                    return
+                UPDATE_STATE.update({
+                    "running": True,
+                    "test_mode": False,
+                    "scrape_only": True,
+                    "step": 0,
+                    "total_steps": 4,
+                    "step_name": "Starting daily scrape...",
+                    "sub_message": "",
+                    "sub_pct": 0.0,
+                    "overall_pct": 0.0,
+                    "log": [f"[{_dt.now().strftime('%H:%M:%S')}] SCHEDULED daily scrape started"],
+                    "status": "running",
+                    "started_at": _dt.now().isoformat(),
+                    "finished_at": None,
+                    "result": None,
+                })
+            threading.Thread(
+                target=_run_update_thread,
+                args=(False, True),  # test_mode=False, scrape_only=True
+                daemon=True,
+            ).start()
+
+        _scheduler = BackgroundScheduler(timezone="UTC")
+        _scheduler.add_job(
+            _scheduled_daily_scrape,
+            CronTrigger(hour=2, minute=0, timezone="UTC"),  # 11:00 KST
+            id="daily_scrape",
+            replace_existing=True,
+        )
+        _scheduler.start()
+        print("[SCHEDULER] Daily scrape job registered: 02:00 UTC (11:00 KST)")
+    except Exception as _sched_err:
+        print(f"[SCHEDULER] Failed to start daily job: {_sched_err}")
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, use_reloader=False)

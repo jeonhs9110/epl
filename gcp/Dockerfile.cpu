@@ -13,6 +13,7 @@ ENV PYTHONUNBUFFERED=1 \
     DEBIAN_FRONTEND=noninteractive \
     FOBO_CLOUD=true \
     FOBO_USE_SYSTEM_CHROME=true \
+    FOBO_SCHEDULE_DAILY=true \
     DISPLAY=:99
 
 # System packages: Chrome, chromedriver, Xvfb, fonts (so rendered pages look normal)

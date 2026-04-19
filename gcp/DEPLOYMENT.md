@@ -48,8 +48,9 @@ project root on your local machine.
 ```bash
 # IMPORTANT: must be a brand new project, separate from "AI-influencer"
 export PROJECT_ID="fobo-ai-$(whoami)-$(date +%s | tail -c 5)"
-export REGION="us-central1"
-export ZONE="us-central1-a"
+export REGION="asia-northeast3"
+export ZONE="asia-northeast3-b"
+# Seoul zones -b and -c have T4 GPUs; -a and -b have L4 GPUs.
 export BUCKET="${PROJECT_ID}-shared"
 export REPO_URL="https://github.com/jeonhs9110/epl.git"
 ```
@@ -192,6 +193,24 @@ are in `gs://$BUCKET/models/`.
 ```bash
 gcloud compute instances reset fobo-cpu --zone="$ZONE"
 ```
+
+---
+
+## Daily scrape schedule
+
+The CPU VM automatically runs a **scrape-only** update every day at
+**11:00 KST (02:00 UTC)**. It refreshes match results + upcoming fixtures
+and pushes the new CSVs to the bucket — but does NOT retrain models,
+because training belongs on the GPU VM.
+
+This is driven by `FOBO_SCHEDULE_DAILY=true` (set in `Dockerfile.cpu`),
+using APScheduler inside the Flask process. The job respects the same
+status machinery as the manual `/update_mode/start` button, so you can
+watch it run by opening the Update modal while it's in progress.
+
+To disable or change the time, edit the cron expression in `app.py`
+around the `FOBO_SCHEDULE_DAILY` block and rebuild the image. To trigger
+it manually, open the Update modal → check "Scrape Only" → Start.
 
 ---
 
