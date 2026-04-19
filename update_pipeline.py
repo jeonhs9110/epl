@@ -20,7 +20,6 @@ Progress is reported via an optional callback:
 
 import os
 import sys
-import subprocess
 import traceback
 
 TOTAL_STEPS = 7
@@ -36,6 +35,38 @@ def _report(cb, idx, name, msg="", sub_pct=0.0, total=None):
         cb(idx, total or TOTAL_STEPS, name, msg, sub_pct)
     except Exception:
         traceback.print_exc()
+
+
+def _run_streaming(cmd, cwd=None, env=None, prefix=""):
+    """
+    Like subprocess.run(..., check=True) but STREAMS the child's stdout
+    line-by-line to the parent's stdout, so per-epoch / per-match prints
+    from subprocesses flow through the stdout-wrapper in gpu_train.py and
+    land in the frontend terminal modal in real time.
+    """
+    import subprocess as sp
+    proc = sp.Popen(
+        cmd,
+        cwd=cwd,
+        env=env,
+        stdout=sp.PIPE,
+        stderr=sp.STDOUT,     # merge stderr so error output also streams
+        bufsize=1,            # line-buffered
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+    )
+    try:
+        for line in proc.stdout:
+            if line:
+                # Prepending a marker makes filtering cleaner on the viewer
+                sys.stdout.write(f"{prefix}{line}")
+                sys.stdout.flush()
+    finally:
+        rc = proc.wait()
+    if rc != 0:
+        raise sp.CalledProcessError(rc, cmd)
+    return rc
 
 
 def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
@@ -84,7 +115,7 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
             _report_tot(step, name, "SKIP: using existing old_matches/ CSVs", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
         elif os.path.exists(script_path):
-            subprocess.run([sys.executable, script_path], check=True, cwd=script_dir)
+            _run_streaming([sys.executable, script_path], cwd=script_dir, prefix="[old_matches] ")
             _report_tot(step, name, "Completed", 1.0)
             steps_log.append({"step": step, "name": name, "status": "ok"})
         else:
@@ -170,7 +201,7 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
         env = os.environ.copy()
         env["FOBO_TEST_MODE"] = "true" if test_mode else "false"
         dl_script = os.path.join(script_dir, "train_dl.py")
-        subprocess.run([sys.executable, dl_script], check=True, cwd=script_dir, env=env)
+        _run_streaming([sys.executable, dl_script], cwd=script_dir, env=env, prefix="[train_dl] ")
         # Mark DL as trained so hybrid/app don't re-run
         os.environ["FOBO_SKIP_DL_TRAIN"] = "true"
         _report_tot(step, name, "Completed", 1.0)
