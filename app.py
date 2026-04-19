@@ -472,11 +472,17 @@ def initialize_system():
         print("Main model retrained. Retraining RL Agent.")
         rl_needs_training = True
         
-    if rl_needs_training:
+    # Skip on-startup PPO training when running as the Flask server — it's
+    # slow on CPU (minutes to hours) and blocks the web port. The GPU VM
+    # owns training; it pushes a compatible ppo_agent.pth to the bucket.
+    if rl_needs_training and os.environ.get("FOBO_SKIP_TRAINING", "false").lower() == "true":
+        print("--- [SKIP] RL Agent missing/mismatched but FOBO_SKIP_TRAINING=true; will load once GPU VM pushes fresh weights.")
+        policy_agent = None
+    elif rl_needs_training:
         print("--- [TRAINING] RL Policy Agent (PPO) ---")
         # Use model_current (Best Loss) as the reference for RL training
         ppo_epochs = 5 if EPOCHS == 1 else 130
-        pm.train_ppo_agent(model_current, policy_agent, epochs=ppo_epochs) 
+        pm.train_ppo_agent(model_current, policy_agent, epochs=ppo_epochs)
         torch.save(policy_agent.state_dict(), policy_path)
         print("RL Agent trained and saved.")
     else:
@@ -484,11 +490,15 @@ def initialize_system():
              policy_agent.load_state_dict(torch.load(policy_path, map_location=DEVICE))
              policy_agent.eval()
              print("Loaded RL Policy Agent.")
-        except:
-             print("RL Agent load failed. Training fresh...")
-             ppo_epochs = 5 if EPOCHS == 1 else 100
-             pm.train_ppo_agent(model_current, policy_agent, epochs=ppo_epochs) # Fallback training
-             torch.save(policy_agent.state_dict(), policy_path)
+        except Exception as _rl_load_err:
+             if os.environ.get("FOBO_SKIP_TRAINING", "false").lower() == "true":
+                 print(f"RL Agent load failed ({_rl_load_err}); skipping fallback training (FOBO_SKIP_TRAINING=true).")
+                 policy_agent = None
+             else:
+                 print("RL Agent load failed. Training fresh...")
+                 ppo_epochs = 5 if EPOCHS == 1 else 100
+                 pm.train_ppo_agent(model_current, policy_agent, epochs=ppo_epochs) # Fallback training
+                 torch.save(policy_agent.state_dict(), policy_path)
     
     # 7. Load Hybrid Model (XGBoost)
     hybrid_path = os.path.join(_MODELS_DIR, 'xgb_classifier.json')
