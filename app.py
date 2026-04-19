@@ -3013,6 +3013,17 @@ if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
                 daemon=True,
             ).start()
 
+        def _scheduled_model_sync():
+            """Pull latest models/history from bucket every 15 min so the CPU
+            VM's local disk always holds a recent copy (backup if bucket/GPU
+            VM ever has issues)."""
+            try:
+                import storage_sync
+                if storage_sync.is_enabled():
+                    storage_sync.pull_artifacts(["models", "history"])
+            except Exception as e:
+                print(f"[MODEL_SYNC] pull failed: {e}")
+
         _scheduler = BackgroundScheduler(timezone="UTC")
         _scheduler.add_job(
             _scheduled_daily_scrape,
@@ -3020,10 +3031,42 @@ if os.environ.get("FOBO_SCHEDULE_DAILY", "false").lower() == "true":
             id="daily_scrape",
             replace_existing=True,
         )
+        _scheduler.add_job(
+            _scheduled_model_sync,
+            CronTrigger(minute="*/15", timezone="UTC"),
+            id="model_sync",
+            replace_existing=True,
+        )
         _scheduler.start()
-        print("[SCHEDULER] Daily scrape job registered: 02:00 UTC (11:00 KST)")
+        print("[SCHEDULER] Daily scrape: 02:00 UTC (11:00 KST) | Model sync: every 15 min")
     except Exception as _sched_err:
         print(f"[SCHEDULER] Failed to start daily job: {_sched_err}")
+
+
+# --- ROUTE: admin reload models (GPU VM calls this after training) ---
+@app.route('/admin/reload_models', methods=['POST'])
+def admin_reload_models():
+    """Pull latest models from GCS and reload Flask's in-memory models.
+
+    Protected by a shared token passed as `X-Admin-Token` header or `token`
+    query param — must match FOBO_ADMIN_TOKEN env var on the CPU VM.
+    """
+    expected = os.environ.get("FOBO_ADMIN_TOKEN", "")
+    if not expected:
+        return jsonify({"status": "error", "message": "admin endpoint disabled (no token set)"}), 403
+    provided = request.headers.get("X-Admin-Token") or request.args.get("token", "")
+    if provided != expected:
+        return jsonify({"status": "error", "message": "invalid token"}), 401
+
+    try:
+        import storage_sync
+        result = storage_sync.pull_artifacts(["models", "history", "encoders"])
+        # Rebuild in-memory models
+        initialize_system()
+        return jsonify({"status": "success", "pulled": result, "message": "models reloaded"})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"status": "error", "message": str(e)}), 500
 
 
 if __name__ == '__main__':

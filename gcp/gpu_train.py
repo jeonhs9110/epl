@@ -89,6 +89,23 @@ def main():
         print("[GPU_TRAIN] Pushing models + history to bucket...")
         storage_sync.push_artifacts(["models", "history"])
 
+    # Tell the CPU VM to pull fresh models immediately (backup + live reload).
+    # Best-effort; CPU VM also polls the bucket every 15 min as a fallback.
+    cpu_host = os.environ.get("FOBO_CPU_URL", "").strip()
+    admin_token = os.environ.get("FOBO_ADMIN_TOKEN", "").strip()
+    if cpu_host and admin_token:
+        try:
+            import urllib.request
+            req = urllib.request.Request(
+                f"{cpu_host}/admin/reload_models",
+                method="POST",
+                headers={"X-Admin-Token": admin_token},
+            )
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                print(f"[GPU_TRAIN] CPU reload response: {resp.status} {resp.read()[:200]}")
+        except Exception as e:
+            print(f"[GPU_TRAIN] CPU reload call failed (non-fatal, 15-min poll will catch up): {e}")
+
     if os.environ.get("FOBO_SHUTDOWN_ON_EXIT", "true").lower() == "true":
         shutdown_vm()
 

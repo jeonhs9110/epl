@@ -48,6 +48,8 @@ docker build -f gcp/Dockerfile.cpu -t fobo-cpu .
 
 # 3. Stop any previous container then run fresh
 docker rm -f fobo 2>/dev/null || true
+ADMIN_TOKEN=$(curl -fsS -H "Metadata-Flavor: Google" "$META/admin-token" 2>/dev/null || echo "")
+
 docker run -d \
   --name fobo \
   --restart unless-stopped \
@@ -55,6 +57,7 @@ docker run -d \
   -e FOBO_CLOUD=true \
   -e FOBO_GCS_BUCKET="$BUCKET" \
   -e FOBO_SKIP_TRAINING=true \
+  -e FOBO_ADMIN_TOKEN="$ADMIN_TOKEN" \
   fobo-cpu
 
 echo "[cpu_startup] $(date -u +%FT%TZ) container started"

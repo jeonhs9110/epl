@@ -52,6 +52,10 @@ export FOBO_GCP_ZONE="$ZONE"
 export FOBO_TEST_MODE="$TEST_MODE"
 export FOBO_SHUTDOWN_ON_EXIT=true
 
+# Optional: tell the CPU VM to reload its models as soon as training finishes.
+export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")
+export FOBO_ADMIN_TOKEN=$(curl -fsS -H "Metadata-Flavor: Google" "$META/admin-token" || echo "")
+
 python3 gcp/gpu_train.py
 
 echo "[gpu_startup] $(date -u +%FT%TZ) done"
