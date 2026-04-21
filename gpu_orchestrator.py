@@ -159,6 +159,23 @@ def build_gpu_instance_body(
     }
 
 
+def wait_for_operation(op_name, zone, timeout_s=180):
+    """Poll a zone-scoped Compute operation until DONE. Returns (ok, response)."""
+    deadline = time.time() + timeout_s
+    while time.time() < deadline:
+        status, resp = _ce_request("GET", f"/zones/{zone}/operations/{op_name}", timeout=10)
+        if status != 200:
+            return False, resp
+        op_status = resp.get("status")
+        if op_status == "DONE":
+            err = resp.get("error")
+            if err:
+                return False, {"error": err, "statusMessage": resp.get("statusMessage"), "httpErrorStatusCode": resp.get("httpErrorStatusCode")}
+            return True, resp
+        time.sleep(3)
+    return False, {"error": "timeout waiting for operation"}
+
+
 def spawn_gpu_vm(
     name="fobo-gpu",
     bucket_name=None,
@@ -171,6 +188,11 @@ def spawn_gpu_vm(
     """
     Create the GPU training VM, trying multiple zone/accelerator combinations
     if Spot capacity is unavailable.
+
+    Waits for the insert operation to fully resolve before returning — catches
+    async failures like ZONE_RESOURCE_POOL_EXHAUSTED that only surface after
+    the initial 200 OK response. Falls through to the next zone/accelerator
+    on stockout/quota errors.
 
     Returns dict: {"status": "ok"|"error", "instance": ..., "zone": ..., "message": ...}
     """
@@ -186,13 +208,12 @@ def spawn_gpu_vm(
         "asia-northeast3-a",
         "asia-northeast3-c",
     ]
-    # (accelerator, machine_type) pairs
     accelerators_to_try = accelerators_to_try or [
         ("nvidia-l4", "g2-standard-4"),
         ("nvidia-tesla-t4", "n1-standard-4"),
     ]
 
-    # If the VM already exists, return its details rather than failing
+    # If the VM already exists, return its details rather than failing.
     existing = get_instance(name, zones_to_try[0])
     if existing[0] == 200:
         return {
@@ -202,7 +223,7 @@ def spawn_gpu_vm(
             "message": "Instance already exists",
         }
 
-    last_err = None
+    attempts = []
     for zone in zones_to_try:
         for accel, mt in accelerators_to_try:
             body = build_gpu_instance_body(
@@ -215,31 +236,62 @@ def spawn_gpu_vm(
             status, resp = _ce_request(
                 "POST", f"/zones/{zone}/instances", body=body, timeout=60
             )
-            if status in (200, 201):
+            if status not in (200, 201):
+                err_str = json.dumps(resp)
+                attempts.append({"zone": zone, "accel": accel, "reason": "accept_failed", "err": err_str[:300]})
+                if any(s in err_str for s in ["STOCKOUT", "resource_availability", "Quota", "RESOURCE_POOL_EXHAUSTED"]):
+                    continue
+                # Non-retryable: bail immediately
+                return {"status": "error", "zone": zone, "message": err_str, "attempts": attempts}
+
+            # POST accepted — wait for the async insert operation to actually finish.
+            op_name = resp.get("name")
+            ok, op_resp = wait_for_operation(op_name, zone, timeout_s=180)
+            if ok:
                 return {
                     "status": "ok",
                     "zone": zone,
                     "accelerator": accel,
                     "machine_type": mt,
-                    "operation": resp,
+                    "operation": op_resp,
                     "message": f"Created {name} with {accel} in {zone}",
+                    "attempts": attempts,
                 }
-            last_err = resp
-            # Quota / stockout / capacity errors → try next combo
-            err_str = json.dumps(resp)
-            if any(s in err_str for s in ["STOCKOUT", "resource_availability", "Quota"]):
+            # Operation failed — typical async errors: ZONE_RESOURCE_POOL_EXHAUSTED, quota
+            err_str = json.dumps(op_resp)
+            attempts.append({"zone": zone, "accel": accel, "reason": "op_failed", "err": err_str[:300]})
+            if any(s in err_str for s in ["STOCKOUT", "RESOURCE_POOL_EXHAUSTED", "Quota", "resource_availability"]):
                 continue
-            # Other errors → bail
-            return {"status": "error", "zone": zone, "message": err_str}
+            return {"status": "error", "zone": zone, "message": err_str, "attempts": attempts}
 
     return {
         "status": "error",
-        "message": f"All zone/accelerator combos exhausted. Last error: {last_err}",
+        "message": "All zone/accelerator combos exhausted (all async failed)",
+        "attempts": attempts,
     }
 
 
-def wait_for_vm_gone(name="fobo-gpu", zone=DEFAULT_ZONE, timeout_s=7200):
-    """Poll until the GPU VM is deleted (or timeout). Returns True if gone."""
+def wait_for_vm_gone(name="fobo-gpu", zone=DEFAULT_ZONE, timeout_s=7200, appear_timeout_s=180):
+    """
+    Two-phase wait:
+      Phase 1: wait for the VM to APPEAR (handles async insert lag). Up to
+               appear_timeout_s. If it never appears, returns False.
+      Phase 2: wait for the VM to DISAPPEAR (i.e., training done + self-deleted).
+               Up to timeout_s.
+    """
+    # Phase 1: wait for VM to exist
+    deadline = time.time() + appear_timeout_s
+    appeared = False
+    while time.time() < deadline:
+        status, _resp = get_instance(name, zone)
+        if status == 200:
+            appeared = True
+            break
+        time.sleep(5)
+    if not appeared:
+        return False  # VM never showed up — something went wrong with provisioning
+
+    # Phase 2: wait for VM to be gone
     deadline = time.time() + timeout_s
     while time.time() < deadline:
         status, _resp = get_instance(name, zone)
