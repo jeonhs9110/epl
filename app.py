@@ -1756,14 +1756,27 @@ def _update_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pc
             UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
 
 
+import queue as _queue
+
+
 class _CpuStreamingStdout:
     """Tee sys.stdout so prints from scrape_flashscore.py / update_pipeline
-    show up line-by-line in the frontend Update-Mode terminal (same panel the
-    GPU uses via /admin/training_log — but we append directly to UPDATE_STATE
-    to avoid an HTTP round-trip back to ourselves)."""
+    show up line-by-line in the frontend Update-Mode terminal.
+
+    Important: does NOT acquire _update_lock per line. Lines are dropped into
+    a bounded Queue; a background flusher thread batches up to 60 lines at a
+    time and holds the lock ONCE per batch. This is the same pattern the GPU
+    side (gpu_train.py::_StreamingStdout) uses and avoids the thread-contention
+    deadlock the naive per-line approach caused (gunicorn thread pool starved
+    by thousands of lock acquisitions per minute from 6 Chrome workers)."""
+
     def __init__(self, original):
         self.original = original
         self.buffer = ""
+        self._q = _queue.Queue(maxsize=10000)
+        self._stop = threading.Event()
+        self._thr = threading.Thread(target=self._flush_loop, daemon=True)
+        self._thr.start()
 
     def write(self, text):
         try:
@@ -1777,11 +1790,10 @@ class _CpuStreamingStdout:
             line, self.buffer = self.buffer.split("\n", 1)
             line = line.strip()
             if line:
-                ts = _dt.now().strftime('%H:%M:%S')
-                with _update_lock:
-                    UPDATE_STATE["log"].append(f"[{ts}] [CPU] {line[:400]}")
-                    if len(UPDATE_STATE["log"]) > 800:
-                        UPDATE_STATE["log"] = UPDATE_STATE["log"][-800:]
+                try:
+                    self._q.put_nowait(line)
+                except _queue.Full:
+                    pass  # drop on overflow — never block the producer thread
         return len(text)
 
     def flush(self):
@@ -1790,32 +1802,67 @@ class _CpuStreamingStdout:
         except Exception:
             pass
 
+    def stop(self):
+        self._stop.set()
 
-def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=False):
+    def _flush_loop(self):
+        while not self._stop.is_set():
+            lines = []
+            # Wait up to 1 second to accumulate a batch
+            try:
+                first = self._q.get(timeout=1.0)
+                lines.append(first)
+            except _queue.Empty:
+                continue
+            # Drain whatever else is already queued, up to 60
+            for _ in range(60):
+                try:
+                    lines.append(self._q.get_nowait())
+                except _queue.Empty:
+                    break
+            if not lines:
+                continue
+            ts = _dt.now().strftime('%H:%M:%S')
+            entries = [f"[{ts}] [CPU] {ln[:400]}" for ln in lines]
+            try:
+                with _update_lock:
+                    UPDATE_STATE["log"].extend(entries)
+                    if len(UPDATE_STATE["log"]) > 800:
+                        UPDATE_STATE["log"] = UPDATE_STATE["log"][-800:]
+            except Exception:
+                pass  # never let the flusher kill the training thread
+
+
+def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=False, skip_cpu_scrape=False):
     """
     Full update flow:
-      1. Run update_pipeline in scrape-only mode on the CPU VM (steps 1-4).
-      2. If spawn_gpu_after_scrape: create a GPU VM (Spot L4/T4) which pulls the
-         freshly-pushed CSVs from the bucket, runs DL + Hybrid + Calibration + PPO
-         training, pushes new models back to the bucket, hits /admin/reload_models
-         on this CPU VM, and finally self-deletes.
-      3. This thread blocks until the GPU VM is gone (=training complete).
+      1. Run update_pipeline in scrape-only mode on the CPU VM (steps 1-4),
+         unless skip_cpu_scrape=True (in which case go straight to the GPU
+         phase — useful when data is already fresh in the bucket).
+      2. If spawn_gpu_after_scrape: create a GPU VM which pulls fresh CSVs from
+         the bucket, runs DL + Hybrid + Calibration + PPO training, pushes new
+         models back, hits /admin/reload_models on this CPU VM, self-deletes.
+      3. Thread blocks until the GPU VM is gone (= training complete).
     """
     import update_pipeline, sys as _sys
-    # Tee stdout while the pipeline is running so per-match / per-worker prints
-    # from the Selenium scraper stream into the frontend terminal modal.
     original_stdout = _sys.stdout
-    _sys.stdout = _CpuStreamingStdout(original_stdout)
+    _stream = _CpuStreamingStdout(original_stdout)
+    _sys.stdout = _stream
     try:
-        # Phase 1: always scrape locally on the CPU VM. If user wants full
-        # training too, we still do scrape-only here — training will happen on
-        # the GPU VM. This matches the "CPU never trains" safety rule.
-        cpu_scrape_only = True if spawn_gpu_after_scrape else scrape_only
-        result = update_pipeline.run_update_pipeline(
-            progress_cb=_update_progress_cb,
-            test_mode=test_mode,
-            scrape_only=cpu_scrape_only,
-        )
+        # Phase 1: scrape on CPU (unless caller asked to skip because data is fresh)
+        if skip_cpu_scrape:
+            with _update_lock:
+                UPDATE_STATE["log"].append(
+                    f"[{_dt.now().strftime('%H:%M:%S')}] SKIP CPU scrape — data already in bucket, jumping to GPU phase"
+                )
+            result = {"status": "success", "steps": [], "message": "scrape skipped"}
+        else:
+            cpu_scrape_only = True if spawn_gpu_after_scrape else scrape_only
+            result = update_pipeline.run_update_pipeline(
+                progress_cb=_update_progress_cb,
+                test_mode=test_mode,
+                scrape_only=cpu_scrape_only,
+            )
 
         if result["status"] != "success":
             with _update_lock:
@@ -1901,7 +1948,12 @@ def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=Fals
             UPDATE_STATE["finished_at"] = _dt.now().isoformat()
             UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FATAL: {e}")
     finally:
-        # Always restore original stdout so other Flask routes log normally.
+        # Always restore original stdout + stop the flusher thread so other
+        # Flask routes log normally.
+        try:
+            _stream.stop()
+        except Exception:
+            pass
         try:
             _sys.stdout = original_stdout
         except Exception:
@@ -1934,6 +1986,7 @@ def update_mode_start():
         req = request.get_json(silent=True) or {}
         test_mode = bool(req.get("test_mode", False))
         scrape_only = bool(req.get("scrape_only", False))
+        skip_cpu_scrape = bool(req.get("skip_cpu_scrape", False))
         # If training is requested but we're on a GPU-less host (CPU VM), hand off:
         # scrape locally, then spawn a GPU VM for steps 5-7. Handled in _run_update_thread.
         spawn_gpu_after_scrape = (not torch.cuda.is_available()) and (not scrape_only)
@@ -1943,13 +1996,14 @@ def update_mode_start():
             "test_mode": test_mode,
             "scrape_only": scrape_only,
             "spawn_gpu_after_scrape": spawn_gpu_after_scrape,
+            "skip_cpu_scrape": skip_cpu_scrape,
             "step": 0,
             "total_steps": total,
             "step_name": "Starting...",
             "sub_message": "",
             "sub_pct": 0.0,
             "overall_pct": 0.0,
-            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode}, scrape_only={scrape_only}, gpu_after={spawn_gpu_after_scrape})"],
+            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode}, scrape_only={scrape_only}, gpu_after={spawn_gpu_after_scrape}, skip_cpu_scrape={skip_cpu_scrape})"],
             "status": "running",
             "started_at": _dt.now().isoformat(),
             "finished_at": None,
@@ -1958,7 +2012,7 @@ def update_mode_start():
 
     t = threading.Thread(
         target=_run_update_thread,
-        args=(test_mode, scrape_only, spawn_gpu_after_scrape),
+        args=(test_mode, scrape_only, spawn_gpu_after_scrape, skip_cpu_scrape),
         daemon=True,
     )
     t.start()
@@ -1968,6 +2022,7 @@ def update_mode_start():
         "test_mode": test_mode,
         "scrape_only": scrape_only,
         "spawn_gpu_after_scrape": spawn_gpu_after_scrape,
+        "skip_cpu_scrape": skip_cpu_scrape,
     })
 
 
