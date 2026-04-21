@@ -1756,6 +1756,41 @@ def _update_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pc
             UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
 
 
+class _CpuStreamingStdout:
+    """Tee sys.stdout so prints from scrape_flashscore.py / update_pipeline
+    show up line-by-line in the frontend Update-Mode terminal (same panel the
+    GPU uses via /admin/training_log — but we append directly to UPDATE_STATE
+    to avoid an HTTP round-trip back to ourselves)."""
+    def __init__(self, original):
+        self.original = original
+        self.buffer = ""
+
+    def write(self, text):
+        try:
+            self.original.write(text)
+        except Exception:
+            pass
+        if not text:
+            return len(text) if text else 0
+        self.buffer += text
+        while "\n" in self.buffer:
+            line, self.buffer = self.buffer.split("\n", 1)
+            line = line.strip()
+            if line:
+                ts = _dt.now().strftime('%H:%M:%S')
+                with _update_lock:
+                    UPDATE_STATE["log"].append(f"[{ts}] [CPU] {line[:400]}")
+                    if len(UPDATE_STATE["log"]) > 800:
+                        UPDATE_STATE["log"] = UPDATE_STATE["log"][-800:]
+        return len(text)
+
+    def flush(self):
+        try:
+            self.original.flush()
+        except Exception:
+            pass
+
+
 def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=False):
     """
     Full update flow:
@@ -1766,7 +1801,11 @@ def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=Fals
          on this CPU VM, and finally self-deletes.
       3. This thread blocks until the GPU VM is gone (=training complete).
     """
-    import update_pipeline
+    import update_pipeline, sys as _sys
+    # Tee stdout while the pipeline is running so per-match / per-worker prints
+    # from the Selenium scraper stream into the frontend terminal modal.
+    original_stdout = _sys.stdout
+    _sys.stdout = _CpuStreamingStdout(original_stdout)
     try:
         # Phase 1: always scrape locally on the CPU VM. If user wants full
         # training too, we still do scrape-only here — training will happen on
@@ -1861,6 +1900,12 @@ def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=Fals
             UPDATE_STATE["running"] = False
             UPDATE_STATE["finished_at"] = _dt.now().isoformat()
             UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FATAL: {e}")
+    finally:
+        # Always restore original stdout so other Flask routes log normally.
+        try:
+            _sys.stdout = original_stdout
+        except Exception:
+            pass
 
 
 def request_host():
