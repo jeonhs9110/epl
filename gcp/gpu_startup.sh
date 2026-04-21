@@ -81,6 +81,11 @@ export FOBO_SKIP_DL_PPO=true
 # CPU VM scrapes first, then spawns this GPU VM. Don't re-scrape here.
 # Fresh CSVs are already in the bucket; storage_sync pulls them at boot.
 export FOBO_SKIP_SCRAPE=true
+# PPO-only mode: skip DL + hybrid, retrain PPO only. Used when a previous
+# training run succeeded through those stages but step 7 crashed, so we
+# can recover in ~25 min instead of ~55 min.
+export FOBO_PPO_ONLY=$(curl -fsS -H "Metadata-Flavor: Google" "$META/ppo-only" 2>/dev/null || echo "false")
+echo "[gpu_startup] FOBO_PPO_ONLY=$FOBO_PPO_ONLY"
 
 # Optional: tell the CPU VM to reload its models as soon as training finishes.
 export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")
