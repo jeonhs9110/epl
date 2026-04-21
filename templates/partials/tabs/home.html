@@ -102,32 +102,32 @@
                 </tr>
                 <tr>
                     <td>⑤</td>
-                    <td>PPO RL</td>
-                    <td><code>prediction_model.py</code></td>
-                    <td><span class="lang-en">Fine-tune decision agent with Kelly reward</span><span class="lang-ko" style="display:none;">Kelly 보상으로 의사결정 에이전트 파인튜닝</span></td>
-                    <td class="small">
-                        <span class="lang-en">Per match, outputs one of {Home, Draw, Away, Pass} plus a confidence score. Learns that 55% predicted home-win is only worth acting on when implied odds say under 55% — otherwise the agent correctly passes.</span>
-                        <span class="lang-ko" style="display:none;">경기마다 {홈, 무승부, 원정, 스킵} 중 하나와 확신도를 출력합니다. "모델 홈 승리 확률 55%"도 북메이커의 내재 확률이 55% 미만일 때만 가치가 있음을 학습합니다.</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td>⑥</td>
                     <td>Hybrid Ensemble</td>
                     <td><code>train_hybrid.py</code></td>
                     <td><span class="lang-en">XGBoost + LightGBM on DL embeddings</span><span class="lang-ko" style="display:none;">딥러닝 임베딩 위에 XGBoost + LightGBM 적용</span></td>
                     <td class="small">
-                        <span class="lang-en">Three models average their W/D/L probabilities. Trees catch sharp tabular cliffs (e.g. "no home goals in 3 matches") that the transformer blurs; the transformer catches long-range patterns trees can't. Diverse errors → better calibration.</span>
-                        <span class="lang-ko" style="display:none;">세 모델의 승/무/패 확률을 평균합니다. 트리는 "최근 3홈경기 무득점" 같은 날카로운 표 형태의 경계에 강하고, 트랜스포머는 장기 시계열에 강합니다. 오차 유형이 다르기 때문에 앙상블 보정이 개선됩니다.</span>
+                        <span class="lang-en">Three models average their W/D/L probabilities. Trees catch sharp tabular cliffs (e.g. "no home goals in 3 matches") that the transformer blurs; the transformer catches long-range patterns trees can't. Diverse errors → better joint estimate.</span>
+                        <span class="lang-ko" style="display:none;">세 모델의 승/무/패 확률을 평균합니다. 트리는 "최근 3홈경기 무득점" 같은 날카로운 표 형태의 경계에 강하고, 트랜스포머는 장기 시계열에 강합니다. 오차 유형이 다르기 때문에 합산 추정이 개선됩니다.</span>
                     </td>
                 </tr>
                 <tr>
-                    <td>⑦</td>
+                    <td>⑥</td>
                     <td>Calibration</td>
                     <td><code>train_hybrid.py</code></td>
                     <td><span class="lang-en">Platt/Sigmoid probability scaling</span><span class="lang-ko" style="display:none;">Platt/Sigmoid 확률 보정</span></td>
                     <td class="small">
-                        <span class="lang-en">XGBoost's raw "70%" often reflects less actual certainty. Platt scaling fits a logistic layer on held-out data so reported probabilities line up with real-world hit rate — essential for honest Kelly-Criterion position sizing.</span>
-                        <span class="lang-ko" style="display:none;">XGBoost의 원시 70%가 실제 신뢰도를 그대로 반영하지 않을 수 있습니다. Platt 스케일링이 검증 데이터로 로지스틱 층을 학습시켜 확률과 실제 적중률을 일치시킵니다 — Kelly 크기 산정의 전제 조건입니다.</span>
+                        <span class="lang-en">XGBoost's raw "70%" often reflects less actual certainty. Platt scaling fits a logistic layer on held-out data so reported probabilities line up with real-world hit rate — a hard prerequisite for step ⑦, because Kelly-Criterion sizing is meaningless on miscalibrated probabilities.</span>
+                        <span class="lang-ko" style="display:none;">XGBoost의 원시 70%가 실제 신뢰도를 그대로 반영하지 않을 수 있습니다. Platt 스케일링이 검증 데이터로 로지스틱 층을 학습시켜 확률과 실제 적중률을 일치시킵니다 — 확률이 보정되지 않으면 ⑦단계 Kelly 크기 산정 자체가 성립하지 않습니다.</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>⑦</td>
+                    <td>PPO RL<br><span class="small text-muted">Decision Agent</span></td>
+                    <td><code>prediction_model.py</code></td>
+                    <td><span class="lang-en">Fine-tune decision agent with Kelly reward</span><span class="lang-ko" style="display:none;">Kelly 보상으로 의사결정 에이전트 파인튜닝</span></td>
+                    <td class="small">
+                        <span class="lang-en">Trained <b>last</b>, on <b>calibrated ensemble outputs</b>. Per match, outputs one of {Home, Draw, Away, Pass} plus a confidence score. Learns that 55% predicted home-win is only worth acting on when implied odds say under 55% — otherwise the agent correctly passes. Training RL before calibration would feed it biased probabilities and bake that bias into the policy.</span>
+                        <span class="lang-ko" style="display:none;">앙상블·보정이 끝난 <b>보정 확률</b> 위에서 <b>마지막</b>에 학습됩니다. 경기마다 {홈·무승부·원정·스킵}과 확신도를 출력하며, "모델 홈 55%"도 북메이커의 내재 확률이 55% 미만일 때만 행동 가치가 있음을 학습합니다. 보정 전에 RL을 학습시키면 편향된 확률이 정책에 그대로 굳어집니다.</span>
                     </td>
                 </tr>
                 <tr>
@@ -252,19 +252,66 @@
         </table>
     </div>
 
-    <!-- 4. PPO RL -->
+    <!-- 4. Hybrid Ensemble + Calibration (moved ahead of RL — calibrated probs first) -->
     <div class="td-card">
-        <div class="td-card-label">④ <span class="lang-en">Reinforcement Learning — PPO Decision Agent</span><span class="lang-ko" style="display:none;">강화학습 — PPO 베팅 에이전트</span></div>
+        <div class="td-card-label">④ <span class="lang-en">Hybrid Ensemble + Calibration — XGBoost + LightGBM + Platt</span><span class="lang-ko" style="display:none;">하이브리드 앙상블 + 보정 — XGBoost + LightGBM + Platt</span></div>
         <p class="lang-en">
-            Prediction accuracy alone doesn't guarantee a positive decision. A 55% home-win
-            prediction is only worth acting on if the market's implied probability is
-            <em>under</em> 55%. The PPO agent learns this decision boundary directly from
-            simulated outcome feedback.
+            Neural networks and gradient-boosted trees make different kinds of errors.
+            The Transformer captures long-range temporal patterns and team-graph
+            interactions, while XGBoost/LightGBM excel at sharp tabular boundaries
+            ('team has not scored in 3 home games'). Averaging all three gives
+            a consistently tighter joint estimate than any single model.
         </p>
         <p class="lang-ko" style="display:none;">
-            예측 정확도만으로 수익이 보장되지 않습니다. 55% 홈 승리 예측도 북메이커의 내재 확률이
-            55% <em>미만</em>일 때만 수익성이 있습니다. PPO 에이전트는 시뮬레이션된 손익 피드백을
-            통해 이 의사결정 경계를 학습합니다.
+            신경망과 그래디언트 부스팅 트리는 오류 양상이 다릅니다. 트랜스포머는 장기 시계열
+            패턴과 팀 그래프 상호작용을 포착하고, XGBoost/LightGBM은 '홈 3경기 무득점' 같은
+            날카로운 표 형태의 경계에서 강합니다. 세 모델의 확률을 평균내면 단일 모델보다
+            일관되게 더 정밀한 합산 추정을 얻을 수 있습니다.
+        </p>
+        <p class="small lang-en">
+            XGBoost and LightGBM are trained on <em>2089-dim DL embeddings</em>, not raw data.
+            This is transfer learning — the trees inherit the Transformer's rich representations.
+            Platt scaling then calibrates XGBoost's raw probabilities (a predicted 70% often
+            reflects less certainty than stated) so that reported probabilities line up with
+            empirical hit rates.
+        </p>
+        <p class="small lang-ko" style="display:none;">
+            XGBoost·LightGBM은 원본이 아니라 <em>2089차원 딥러닝 임베딩</em>으로 학습합니다.
+            이는 전이학습으로, 트리 모델이 트랜스포머의 표현력을 물려받습니다. 이후 Platt 스케일링이
+            XGBoost의 원시 확률을 보정하여 표기 확률이 실제 적중률과 일치하도록 만듭니다.
+        </p>
+        <div class="alert alert-info small mt-3 mb-0" style="border-left: 4px solid var(--cyan);">
+            <b class="lang-en">Why calibration must come before RL:</b>
+            <b class="lang-ko" style="display:none;">왜 보정이 RL보다 먼저여야 하는가:</b>
+            <span class="lang-en">
+                the Kelly Criterion used in the next stage multiplies <em>probability × odds</em>
+                to decide position size. If the probabilities fed to Kelly are miscalibrated by
+                even 5–10 points, every bet sizing decision inherits that bias. Calibrated
+                probabilities are a non-negotiable prerequisite for the PPO stage below.
+            </span>
+            <span class="lang-ko" style="display:none;">
+                다음 단계의 Kelly 기준은 <em>확률 × 배당</em>을 곱해 포지션 크기를 산정합니다.
+                Kelly에 공급되는 확률이 5–10%p만 편향되어도 모든 베팅 크기 결정에 그 편향이
+                그대로 반영됩니다. 따라서 보정된 확률은 아래 PPO 단계의 <b>필수 전제 조건</b>입니다.
+            </span>
+        </div>
+    </div>
+
+    <!-- 5. PPO RL — moved AFTER calibration per correct order -->
+    <div class="td-card">
+        <div class="td-card-label">⑤ <span class="lang-en">Reinforcement Learning — PPO Decision Agent</span><span class="lang-ko" style="display:none;">강화학습 — PPO 의사결정 에이전트</span></div>
+        <p class="lang-en">
+            <b>Trained last, on calibrated ensemble probabilities.</b> Prediction accuracy
+            alone doesn't guarantee a positive decision — a 55% home-win prediction is only
+            worth acting on if the market's implied probability is <em>under</em> 55%. The
+            PPO agent learns this decision boundary directly from simulated outcome feedback,
+            using the calibrated probabilities from stage ④ as its state representation.
+        </p>
+        <p class="lang-ko" style="display:none;">
+            <b>앙상블·보정 이후 마지막으로 학습됩니다.</b> 예측 정확도만으로 수익이 보장되지
+            않습니다 — 55% 홈 승리 예측도 북메이커 내재 확률이 55% 미만일 때만 행동 가치가
+            있습니다. PPO 에이전트는 ④단계에서 보정된 확률을 상태 표현으로 받아, 시뮬레이션된
+            손익 피드백으로 이 의사결정 경계를 직접 학습합니다.
         </p>
 
         <h6 class="mt-3"><span class="lang-en">Why PPO?</span><span class="lang-ko" style="display:none;">왜 PPO인가?</span></h6>
@@ -289,77 +336,71 @@
         </p>
         <p class="small lang-ko" style="display:none;">
             에이전트는 경기마다 4가지 행동 중 하나를 선택합니다:
-            <b>0 홈 베팅</b>, <b>1 무승부 베팅</b>, <b>2 원정 베팅</b>, <b>3 베팅 스킵</b>.
-            보상은 장기 자본 성장을 최대화하는 수학적 최적 베팅 크기 공식인 Kelly 기준을 따릅니다:
+            <b>0 홈</b>, <b>1 무승부</b>, <b>2 원정</b>, <b>3 스킵</b>.
+            보상은 장기 성장을 최대화하는 수학적 최적 포지션 크기 공식인 Kelly 기준을 따릅니다:
         </p>
         <pre class="small bg-dark text-white p-2 rounded"><code>f* = (b·p − q) / b
-  b = odds − 1,  p = model win prob,  q = 1 − p</code></pre>
+  b = odds − 1,  p = calibrated model probability,  q = 1 − p</code></pre>
         <p class="small lang-en">
             If Kelly ≤ 0, expected value is negative and passing is rewarded. Correct picks
             earn odds-proportional reward (capped at 3× to prevent longshot-chasing behaviour).
             Incorrect picks incur a −2 penalty to discourage low-edge decisions.
         </p>
         <p class="small lang-ko" style="display:none;">
-            Kelly ≤ 0이면 기대값이 음수이므로 베팅 스킵에 보상을 주고, 베팅 성공 시에는 배당에
-            비례하는 보상(3배 한도, 장기 무리베팅 방지)을 줍니다. 실패 시 −2 페널티로 가치 없는
-            베팅을 억제합니다.
+            Kelly ≤ 0이면 기대값이 음수이므로 스킵에 보상을 주고, 정답 추천은 배당 비례 보상
+            (3배 한도, 장기 무리추천 방지)을 받습니다. 오답은 −2 페널티로 저가치 결정을
+            억제합니다.
         </p>
-    </div>
 
-    <!-- 5. Hybrid Ensemble -->
-    <div class="td-card">
-        <div class="td-card-label">⑤ <span class="lang-en">Hybrid Ensemble — XGBoost + LightGBM</span><span class="lang-ko" style="display:none;">하이브리드 앙상블 — XGBoost + LightGBM</span></div>
-        <p class="lang-en">
-            Neural networks and gradient-boosted trees make different kinds of errors.
-            The Transformer captures long-range temporal patterns and team-graph
-            interactions, while XGBoost/LightGBM excel at sharp tabular boundaries
-            ('team has not scored in 3 home games'). Averaging all three gives
-            consistently better calibration than any single model.
-        </p>
-        <p class="lang-ko" style="display:none;">
-            신경망과 그래디언트 부스팅 트리는 오류 양상이 다릅니다. 트랜스포머는 장기 시계열
-            패턴과 팀 그래프 상호작용을 포착하고, XGBoost/LightGBM은 '홈 3경기 무득점' 같은
-            날카로운 표 형태의 경계에서 강합니다. 세 모델의 확률을 평균내면 단일 모델보다
-            일관되게 더 잘 보정된 결과를 얻을 수 있습니다.
-        </p>
-        <p class="small lang-en">
-            XGBoost and LightGBM are trained on <em>2089-dim DL embeddings</em>, not raw data.
-            This is transfer learning — the trees inherit the Transformer's rich representations.
-            Platt scaling then calibrates XGBoost's raw probabilities (a predicted 70% often
-            reflects less certainty than stated) so that Kelly-Criterion sizing stays reliable.
-        </p>
-        <p class="small lang-ko" style="display:none;">
-            XGBoost·LightGBM은 원본이 아니라 <em>2089차원 딥러닝 임베딩</em>으로 학습합니다.
-            이는 전이학습으로, 트리 모델이 트랜스포머의 표현력을 물려받습니다. 이후 Platt 스케일링이
-            XGBoost의 원시 확률(예측된 70%가 실제로는 그보다 낮은 확신일 때가 많음)을 보정해
-            Kelly 크기 산정이 안정적으로 작동하게 합니다.
-        </p>
+        <div class="alert alert-warning small mt-3 mb-0" style="border-left: 4px solid var(--gold);">
+            <b class="lang-en">Note on ordering:</b>
+            <b class="lang-ko" style="display:none;">순서에 대한 보충:</b>
+            <span class="lang-en">
+                earlier versions of this project trained a "quick PPO" inside the DL-training
+                script, before the hybrid ensemble and calibration had run. The final, deployed
+                agent is trained <em>after</em> those stages as a separate step — that's the
+                one this page describes. Training RL on uncalibrated probabilities bakes the
+                calibration error directly into the policy, which is exactly the anti-pattern
+                the ordering above avoids.
+            </span>
+            <span class="lang-ko" style="display:none;">
+                초기 버전에서는 DL 학습 스크립트 내부에서 앙상블·보정 이전에 "임시 PPO"를 돌렸지만,
+                실제 배포되는 최종 에이전트는 그 이후 <em>별도 단계</em>로 학습됩니다 —
+                이 페이지가 설명하는 것이 바로 이 최종 에이전트입니다. 보정되지 않은 확률 위에
+                RL을 학습시키면 보정 오차가 정책에 그대로 박히며, 본 순서는 그 안티패턴을
+                피하기 위한 것입니다.
+            </span>
+        </div>
     </div>
 
     <!-- 6. Prediction pipeline -->
     <div class="td-card">
         <div class="td-card-label">⑥ <span class="lang-en">Prediction Pipeline (per request)</span><span class="lang-ko" style="display:none;">예측 파이프라인 (요청마다)</span></div>
+        <p class="small text-muted mb-2 lang-en">
+            The same DL → ensemble → calibration → PPO order from training applies at inference:
+        </p>
+        <p class="small text-muted mb-2 lang-ko" style="display:none;">
+            학습과 동일한 DL → 앙상블 → 보정 → PPO 순서가 추론 시에도 적용됩니다:
+        </p>
         <ol class="small lang-en">
             <li>Encode team names + league using saved LabelEncoders</li>
             <li>Retrieve recent match history sequences from the master DataFrame</li>
             <li>Build GNN adjacency matrix for the match context</li>
-            <li>Run LeagueAwareModel forward pass → λ_home, λ_away, ρ</li>
-            <li>Compute W/D/L probabilities analytically via Poisson integration</li>
-            <li>Extract 2080-dim feature vector → run XGBoost + calibrator + LightGBM</li>
-            <li>Average all model probabilities → ensemble W/D/L</li>
-            <li>Pass state to PPO agent → recommended action + Kelly fraction</li>
-            <li>Return JSON with probabilities, score, xG, BTTS, Over 2.5, and suggested pick</li>
+            <li><b>DL forward pass</b>: LeagueAwareModel → λ_home, λ_away, ρ → Dixon-Coles-corrected Poisson grid → raw W/D/L / Over 2.5 / BTTS probabilities</li>
+            <li><b>Ensemble</b>: extract 2080-dim DL embedding → run XGBoost + LightGBM → average all three models' W/D/L probabilities</li>
+            <li><b>Calibration</b>: pass the ensemble output through the saved Platt scaler so reported probability = empirical hit rate</li>
+            <li><b>PPO Decision</b>: feed the calibrated state to the PPO agent → action {Home, Draw, Away, Pass} + Kelly fraction</li>
+            <li>Return JSON with calibrated probabilities, projected score, xG, BTTS, Over 2.5, and the agent's suggested pick</li>
         </ol>
         <ol class="small lang-ko" style="display:none;">
             <li>저장된 LabelEncoder로 팀명·리그 인코딩</li>
             <li>마스터 DataFrame에서 최근 경기 기록 시퀀스 조회</li>
             <li>경기 맥락용 GNN 인접 행렬 구성</li>
-            <li>LeagueAwareModel 순전파 → λ_home, λ_away, ρ</li>
-            <li>Poisson 적분으로 승/무/패 확률 해석적 계산</li>
-            <li>2080차원 특징 벡터 추출 → XGBoost + 보정기 + LightGBM 실행</li>
-            <li>세 모델 확률 평균 → 최종 승/무/패</li>
-            <li>상태를 PPO 에이전트에 전달 → 베팅 행동 + Kelly 비율</li>
-            <li>확률·스코어·xG·BTTS·Over 2.5·베팅 제안을 JSON으로 반환</li>
+            <li><b>딥러닝 순전파</b>: LeagueAwareModel → λ_home, λ_away, ρ → Dixon-Coles 보정 Poisson 격자 → 원시 승/무/패·Over 2.5·BTTS 확률</li>
+            <li><b>앙상블</b>: 2080차원 DL 임베딩 추출 → XGBoost + LightGBM 실행 → 세 모델 W/D/L 확률 평균</li>
+            <li><b>보정</b>: 앙상블 출력을 저장된 Platt 스케일러에 통과시켜 표기 확률 = 실제 적중률이 되도록 맞춤</li>
+            <li><b>PPO 의사결정</b>: 보정된 상태를 PPO 에이전트에 전달 → 행동 {홈·무·원정·스킵} + Kelly 비율</li>
+            <li>보정된 확률, 예상 스코어, xG, BTTS, Over 2.5 및 에이전트 추천을 JSON으로 반환</li>
         </ol>
     </div>
 
