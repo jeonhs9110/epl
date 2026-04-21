@@ -216,10 +216,8 @@ def _ppo_only_train():
         num_leagues = len(le["le_league"].classes_)
         state_dict = ckpt
 
-    dl_model = LeagueAwareModel(
-        num_teams, num_leagues,
-        pm.EMBED_DIM, pm.LEAGUE_EMBED_DIM, pm.NUM_HEADS,
-    ).to(pm.DEVICE)
+    # LeagueAwareModel takes only (num_teams, num_leagues, dataset_adj=None)
+    dl_model = LeagueAwareModel(num_teams, num_leagues).to(pm.DEVICE)
     dl_model.load_state_dict(state_dict)
     dl_model.eval()
 

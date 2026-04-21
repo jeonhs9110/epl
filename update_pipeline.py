@@ -275,10 +275,10 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False, sk
             num_leagues = len(le["le_league"].classes_)
             state_dict = ckpt
 
-        dl_model = LeagueAwareModel(
-            num_teams, num_leagues,
-            pm.EMBED_DIM, pm.LEAGUE_EMBED_DIM, pm.NUM_HEADS,
-        ).to(pm.DEVICE)
+        # LeagueAwareModel.__init__ = (num_teams, num_leagues, dataset_adj=None).
+        # EMBED_DIM / LEAGUE_EMBED_DIM / NUM_HEADS are module-level constants
+        # inside prediction_model — not constructor args.
+        dl_model = LeagueAwareModel(num_teams, num_leagues).to(pm.DEVICE)
         dl_model.load_state_dict(state_dict)
         dl_model.eval()
 
