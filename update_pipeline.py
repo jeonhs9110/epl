@@ -257,11 +257,29 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False, sk
             raise FileNotFoundError("No trained DL model found for RL bootstrapping")
 
         ckpt = torch.load(model_path, map_location=pm.DEVICE, weights_only=False)
+        # train_dl.py saves a plain state_dict, not a wrapping checkpoint dict.
+        # Recover num_teams / num_leagues from the encoders.pkl that was used
+        # to build the dataset (same source app.py::initialize_system uses).
+        if isinstance(ckpt, dict) and "num_teams" in ckpt and "model_state_dict" in ckpt:
+            # Older format: wrapping dict
+            num_teams = ckpt["num_teams"]
+            num_leagues = ckpt["num_leagues"]
+            state_dict = ckpt["model_state_dict"]
+        else:
+            # Current format: bare state_dict. Pull team/league counts from encoders.
+            import pickle
+            encoders_path = os.path.join(script_dir, "encoders.pkl")
+            with open(encoders_path, "rb") as _f:
+                le = pickle.load(_f)
+            num_teams = len(le["le_team"].classes_)
+            num_leagues = len(le["le_league"].classes_)
+            state_dict = ckpt
+
         dl_model = LeagueAwareModel(
-            ckpt["num_teams"], ckpt["num_leagues"],
+            num_teams, num_leagues,
             pm.EMBED_DIM, pm.LEAGUE_EMBED_DIM, pm.NUM_HEADS,
         ).to(pm.DEVICE)
-        dl_model.load_state_dict(ckpt["model_state_dict"])
+        dl_model.load_state_dict(state_dict)
         dl_model.eval()
 
         ppo_epochs = 2 if test_mode else 20

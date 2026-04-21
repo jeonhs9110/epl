@@ -178,6 +178,65 @@ def shutdown_vm():
         print(f"[GPU_TRAIN] shutdown failed: {e2}")
 
 
+def _ppo_only_train():
+    """
+    Re-train only the PPO agent against the DL model already sitting in
+    models/FOBO_LEAGUE_AWARE_current.pth. Used when a full training run
+    succeeded through DL+hybrid but step 7 (PPO) failed — we don't want
+    to redo 25 min of DL training just to fix a 3 MB checkpoint.
+
+    Mirrors update_pipeline.run_update_pipeline step 7 logic, including
+    the encoders-based num_teams/num_leagues recovery path.
+    """
+    import pickle
+    import torch
+    import prediction_model as pm
+    from prediction_model import LeagueAwareModel
+
+    here = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(here, ".."))
+    models_dir = os.path.join(project_root, "models")
+
+    model_path = os.path.join(models_dir, "FOBO_LEAGUE_AWARE_current.pth")
+    if not os.path.exists(model_path):
+        model_path = os.path.join(models_dir, "FOBO_LEAGUE_AWARE_final.pth")
+    if not os.path.exists(model_path):
+        raise FileNotFoundError("No trained DL model found for PPO bootstrap")
+
+    ckpt = torch.load(model_path, map_location=pm.DEVICE, weights_only=False)
+    if isinstance(ckpt, dict) and "num_teams" in ckpt and "model_state_dict" in ckpt:
+        num_teams = ckpt["num_teams"]
+        num_leagues = ckpt["num_leagues"]
+        state_dict = ckpt["model_state_dict"]
+    else:
+        encoders_path = os.path.join(project_root, "encoders.pkl")
+        with open(encoders_path, "rb") as _f:
+            le = pickle.load(_f)
+        num_teams = len(le["le_team"].classes_)
+        num_leagues = len(le["le_league"].classes_)
+        state_dict = ckpt
+
+    dl_model = LeagueAwareModel(
+        num_teams, num_leagues,
+        pm.EMBED_DIM, pm.LEAGUE_EMBED_DIM, pm.NUM_HEADS,
+    ).to(pm.DEVICE)
+    dl_model.load_state_dict(state_dict)
+    dl_model.eval()
+
+    rl_state_dim = (pm.EMBED_DIM * 6) + pm.LEAGUE_EMBED_DIM + (pm.EMBED_DIM * 2)
+    agent = pm.PPOAgent(state_dim=rl_state_dim, action_dim=4, lr=0.0003, entropy_coef=0.15).to(pm.DEVICE)
+
+    ppo_epochs = 2 if os.environ.get("FOBO_TEST_MODE", "false").lower() == "true" else 20
+    print(f"[GPU_TRAIN] PPO-only: training for {ppo_epochs} epochs on calibrated-DL features...")
+    agent = pm.train_ppo_agent(dl_model, agent, epochs=ppo_epochs)
+
+    os.makedirs(models_dir, exist_ok=True)
+    ppo_path = os.path.join(models_dir, "ppo_agent.pth")
+    torch.save(agent.state_dict(), ppo_path)
+    sz = os.path.getsize(ppo_path)
+    print(f"[GPU_TRAIN] PPO agent saved to {ppo_path} ({sz/1024/1024:.1f} MB)")
+
+
 def main():
     # Hook stdout/stderr to the CPU VM's /admin/training_log FIRST so every
     # subsequent print — including Selenium worker output + per-match log
@@ -231,16 +290,32 @@ def main():
     # If the CPU VM has already scraped (the typical flow), skip steps 1-3 on the
     # GPU VM to save 30-40 minutes. Controlled by FOBO_SKIP_SCRAPE env var.
     skip_scrape = os.environ.get("FOBO_SKIP_SCRAPE", "false").lower() == "true"
-    print(f"[GPU_TRAIN] skip_scrape={skip_scrape}")
+    ppo_only = os.environ.get("FOBO_PPO_ONLY", "false").lower() == "true"
+    print(f"[GPU_TRAIN] skip_scrape={skip_scrape}  ppo_only={ppo_only}")
 
     try:
         # Tell the CPU VM a training run is starting
         post_progress(0, 7, "Starting GPU training", "Pulling data from bucket...", 0.0, status="running")
-        result = update_pipeline.run_update_pipeline(
-            progress_cb=cli_cb,
-            test_mode=test_mode,
-            skip_scrape=skip_scrape,
-        )
+
+        if ppo_only:
+            # Shortcut: re-train ONLY the PPO agent using the fresh DL/hybrid
+            # models already in the bucket. Used to recover from a failed
+            # step 7 without redoing DL (~25 min) or hybrid (~5 min).
+            print("[GPU_TRAIN] PPO-only mode: pulling models from bucket, training PPO, pushing back.")
+            if storage_sync.is_enabled():
+                storage_sync.pull_artifacts(["models", "encoders"])
+            _ppo_only_train()
+            if storage_sync.is_enabled():
+                print("[GPU_TRAIN] Pushing fresh ppo_agent.pth to bucket...")
+                storage_sync.push_artifacts(["models"])
+            post_progress(7, 7, "PPO-only training complete", "PPO agent pushed to bucket", 1.0, status="complete")
+            result = {"status": "success", "message": "PPO-only run complete", "steps": []}
+        else:
+            result = update_pipeline.run_update_pipeline(
+                progress_cb=cli_cb,
+                test_mode=test_mode,
+                skip_scrape=skip_scrape,
+            )
         print(f"\n[GPU_TRAIN] Pipeline {result['status']}: {result['message']}")
         for s in result["steps"]:
             print(f"  [{s['status']}] {s['name']}")
