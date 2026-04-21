@@ -1756,21 +1756,103 @@ def _update_progress_cb(step_idx, total_steps, step_name, sub_message="", sub_pc
             UPDATE_STATE["log"] = UPDATE_STATE["log"][-200:]
 
 
-def _run_update_thread(test_mode, scrape_only=False):
+def _run_update_thread(test_mode, scrape_only=False, spawn_gpu_after_scrape=False):
+    """
+    Full update flow:
+      1. Run update_pipeline in scrape-only mode on the CPU VM (steps 1-4).
+      2. If spawn_gpu_after_scrape: create a GPU VM (Spot L4/T4) which pulls the
+         freshly-pushed CSVs from the bucket, runs DL + Hybrid + Calibration + PPO
+         training, pushes new models back to the bucket, hits /admin/reload_models
+         on this CPU VM, and finally self-deletes.
+      3. This thread blocks until the GPU VM is gone (=training complete).
+    """
     import update_pipeline
     try:
+        # Phase 1: always scrape locally on the CPU VM. If user wants full
+        # training too, we still do scrape-only here — training will happen on
+        # the GPU VM. This matches the "CPU never trains" safety rule.
+        cpu_scrape_only = True if spawn_gpu_after_scrape else scrape_only
         result = update_pipeline.run_update_pipeline(
             progress_cb=_update_progress_cb,
             test_mode=test_mode,
-            scrape_only=scrape_only,
+            scrape_only=cpu_scrape_only,
         )
+
+        if result["status"] != "success":
+            with _update_lock:
+                UPDATE_STATE["status"] = "error"
+                UPDATE_STATE["result"] = result
+                UPDATE_STATE["running"] = False
+                UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+                UPDATE_STATE["log"].append(
+                    f"[{_dt.now().strftime('%H:%M:%S')}] Scrape phase failed, skipping GPU spawn"
+                )
+            return
+
+        # Phase 2: hand off to GPU VM if requested
+        if spawn_gpu_after_scrape:
+            import gpu_orchestrator
+            ts = _dt.now().strftime("%H:%M:%S")
+            with _update_lock:
+                UPDATE_STATE["step"] = 4
+                UPDATE_STATE["total_steps"] = 8  # 4 scrape + 4 GPU-side
+                UPDATE_STATE["step_name"] = "Spawning GPU VM"
+                UPDATE_STATE["sub_message"] = "Creating L4 Spot VM..."
+                UPDATE_STATE["overall_pct"] = 50.0
+                UPDATE_STATE["log"].append(f"[{ts}] Scrape phase complete. Spawning GPU VM...")
+
+            spawn = gpu_orchestrator.spawn_gpu_vm(
+                test_mode=test_mode,
+                admin_token=os.environ.get("FOBO_ADMIN_TOKEN", ""),
+                cpu_url=f"http://{request_host()}",
+            )
+            ts = _dt.now().strftime("%H:%M:%S")
+            if spawn["status"] != "ok":
+                with _update_lock:
+                    UPDATE_STATE["status"] = "error"
+                    UPDATE_STATE["result"] = spawn
+                    UPDATE_STATE["running"] = False
+                    UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+                    UPDATE_STATE["log"].append(f"[{ts}] GPU spawn failed: {spawn.get('message')}")
+                return
+
+            with _update_lock:
+                UPDATE_STATE["log"].append(
+                    f"[{ts}] {spawn.get('message', 'GPU VM creating')}"
+                )
+                UPDATE_STATE["step_name"] = "GPU VM booting + training"
+                UPDATE_STATE["sub_message"] = "GPU will stream per-line output here"
+
+            gpu_zone = spawn.get("zone", "asia-northeast3-b")
+            # Wait for the GPU VM to finish + self-delete (up to 3 hours)
+            gone = gpu_orchestrator.wait_for_vm_gone("fobo-gpu", zone=gpu_zone, timeout_s=10800)
+            ts = _dt.now().strftime("%H:%M:%S")
+            with _update_lock:
+                if gone:
+                    UPDATE_STATE["status"] = "complete"
+                    UPDATE_STATE["overall_pct"] = 100.0
+                    UPDATE_STATE["step"] = 8
+                    UPDATE_STATE["step_name"] = "Training complete"
+                    UPDATE_STATE["sub_message"] = "GPU VM self-deleted. Fresh models are on this CPU VM."
+                    UPDATE_STATE["log"].append(f"[{ts}] FINISHED: GPU training complete, VM deleted")
+                else:
+                    UPDATE_STATE["status"] = "error"
+                    UPDATE_STATE["log"].append(f"[{ts}] TIMEOUT waiting for GPU VM to terminate")
+                UPDATE_STATE["running"] = False
+                UPDATE_STATE["finished_at"] = _dt.now().isoformat()
+            return
+
+        # Phase-1-only run (pure scrape, no training): mark complete
         with _update_lock:
-            UPDATE_STATE["status"] = "complete" if result["status"] == "success" else "error"
+            UPDATE_STATE["status"] = "complete"
             UPDATE_STATE["result"] = result
             UPDATE_STATE["running"] = False
             UPDATE_STATE["finished_at"] = _dt.now().isoformat()
             UPDATE_STATE["overall_pct"] = 100.0
-            UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FINISHED: {result['status']}")
+            UPDATE_STATE["log"].append(
+                f"[{_dt.now().strftime('%H:%M:%S')}] FINISHED (scrape-only): {result['status']}"
+            )
+
     except Exception as e:
         traceback.print_exc()
         with _update_lock:
@@ -1779,6 +1861,20 @@ def _run_update_thread(test_mode, scrape_only=False):
             UPDATE_STATE["running"] = False
             UPDATE_STATE["finished_at"] = _dt.now().isoformat()
             UPDATE_STATE["log"].append(f"[{_dt.now().strftime('%H:%M:%S')}] FATAL: {e}")
+
+
+def request_host():
+    """Best-effort: return the CPU VM's public IP so the GPU can POST back."""
+    try:
+        import urllib.request
+        req = urllib.request.Request(
+            "http://metadata.google.internal/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip",
+            headers={"Metadata-Flavor": "Google"},
+        )
+        with urllib.request.urlopen(req, timeout=3) as resp:
+            return resp.read().decode().strip()
+    except Exception:
+        return "34.64.147.124"  # hardcoded fallback
 
 
 @app.route('/update_mode/start', methods=['POST'])
@@ -1793,35 +1889,41 @@ def update_mode_start():
         req = request.get_json(silent=True) or {}
         test_mode = bool(req.get("test_mode", False))
         scrape_only = bool(req.get("scrape_only", False))
-        # Hard guard: on CPU-only deployments (no CUDA), never allow training.
-        # Protects visitors/bots from kicking off a multi-hour CPU-locked job.
-        if not torch.cuda.is_available() and not scrape_only:
-            return jsonify({
-                "status": "error",
-                "message": "This VM has no GPU. Only scrape-only updates are allowed here. "
-                           "Set scrape_only=true. Full training runs on the admin-triggered GPU VM."
-            }), 403
+        # If training is requested but we're on a GPU-less host (CPU VM), hand off:
+        # scrape locally, then spawn a GPU VM for steps 5-7. Handled in _run_update_thread.
+        spawn_gpu_after_scrape = (not torch.cuda.is_available()) and (not scrape_only)
         total = 4 if scrape_only else 7
         UPDATE_STATE.update({
             "running": True,
             "test_mode": test_mode,
             "scrape_only": scrape_only,
+            "spawn_gpu_after_scrape": spawn_gpu_after_scrape,
             "step": 0,
             "total_steps": total,
             "step_name": "Starting...",
             "sub_message": "",
             "sub_pct": 0.0,
             "overall_pct": 0.0,
-            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode}, scrape_only={scrape_only})"],
+            "log": [f"[{_dt.now().strftime('%H:%M:%S')}] STARTED (test_mode={test_mode}, scrape_only={scrape_only}, gpu_after={spawn_gpu_after_scrape})"],
             "status": "running",
             "started_at": _dt.now().isoformat(),
             "finished_at": None,
             "result": None,
         })
 
-    t = threading.Thread(target=_run_update_thread, args=(test_mode, scrape_only), daemon=True)
+    t = threading.Thread(
+        target=_run_update_thread,
+        args=(test_mode, scrape_only, spawn_gpu_after_scrape),
+        daemon=True,
+    )
     t.start()
-    return jsonify({"status": "success", "message": "Update started", "test_mode": test_mode, "scrape_only": scrape_only})
+    return jsonify({
+        "status": "success",
+        "message": "Update started",
+        "test_mode": test_mode,
+        "scrape_only": scrape_only,
+        "spawn_gpu_after_scrape": spawn_gpu_after_scrape,
+    })
 
 
 @app.route('/update_mode/status', methods=['GET'])

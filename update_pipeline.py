@@ -69,7 +69,7 @@ def _run_streaming(cmd, cwd=None, env=None, prefix=""):
     return rc
 
 
-def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
+def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False, skip_scrape=False):
     """
     Execute the full update pipeline.
 
@@ -79,6 +79,9 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
         scrape_only: if True, run steps 1-4 only (refresh data, no training).
                      Used by the daily cron on the CPU VM — training stays on the
                      on-demand GPU VM.
+        skip_scrape: if True, skip steps 1-3 (data is already fresh in the bucket).
+                     Used by the GPU VM when invoked AFTER the CPU VM already scraped.
+                     Mutually exclusive with scrape_only.
 
     Returns:
         dict with keys: status ("success"|"error"), message, steps (list of per-step results)
@@ -111,6 +114,9 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
         if test_mode:
             _report_tot(step, name, "TEST MODE: skipped", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
+        elif skip_scrape:
+            _report_tot(step, name, "SKIP: CPU VM already scraped, GPU only trains", 1.0)
+            steps_log.append({"step": step, "name": name, "status": "skipped"})
         elif skip_historical:
             _report_tot(step, name, "SKIP: using existing old_matches/ CSVs", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
@@ -133,6 +139,9 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
     try:
         if test_mode:
             _report_tot(step, name, "TEST MODE: skipped", 1.0)
+            steps_log.append({"step": step, "name": name, "status": "skipped"})
+        elif skip_scrape:
+            _report_tot(step, name, "SKIP: CPU VM already scraped", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
         else:
             leagues = list(LEAGUE_URLS.items())
@@ -157,6 +166,9 @@ def run_update_pipeline(progress_cb=None, test_mode=False, scrape_only=False):
     try:
         if test_mode:
             _report_tot(step, name, "TEST MODE: skipped", 1.0)
+            steps_log.append({"step": step, "name": name, "status": "skipped"})
+        elif skip_scrape:
+            _report_tot(step, name, "SKIP: CPU VM already scraped upcoming", 1.0)
             steps_log.append({"step": step, "name": name, "status": "skipped"})
         else:
             ok = scrape_upcoming.scrape_fixtures(days=30)

@@ -75,6 +75,12 @@ export FOBO_XGB_CPU=true
 # in the repo already have odds filled in; no reason to burn 10+ min of
 # Selenium time re-fetching what we already have.
 export FOBO_SKIP_HISTORICAL_UPDATE=true
+# Also skip the DL-side "early" PPO — final PPO is trained on calibrated
+# ensemble outputs in update_pipeline step 7. Saves ~10-15 min.
+export FOBO_SKIP_DL_PPO=true
+# CPU VM scrapes first, then spawns this GPU VM. Don't re-scrape here.
+# Fresh CSVs are already in the bucket; storage_sync pulls them at boot.
+export FOBO_SKIP_SCRAPE=true
 
 # Optional: tell the CPU VM to reload its models as soon as training finishes.
 export FOBO_CPU_URL=$(curl -fsS -H "Metadata-Flavor: Google" "$META/cpu-url" || echo "")

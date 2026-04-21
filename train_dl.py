@@ -130,6 +130,15 @@ def train_deep_model():
     # ==========================================
     # 5. REINFORCEMENT LEARNING FINE-TUNING
     # ==========================================
+    # Skip the DL-side "early" PPO when the full pipeline will train PPO later
+    # on CALIBRATED ensemble outputs (update_pipeline step 7). Training PPO here,
+    # on uncalibrated DL probabilities, would bake calibration bias into a policy
+    # that just gets discarded by step 7 anyway — wasted 10-15 min of GPU time.
+    if os.environ.get('FOBO_SKIP_DL_PPO', 'false').lower() == 'true':
+        print("\n>> FOBO_SKIP_DL_PPO=true — skipping in-train_dl PPO.")
+        print(">> Final PPO will be trained post-calibration in update_pipeline step 7.")
+        return True
+
     print("\n" + "="*60)
     print("STARTING REINFORCEMENT LEARNING (PPO) FINE-TUNING")
     print("="*60)

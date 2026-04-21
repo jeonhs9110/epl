@@ -14,27 +14,40 @@
                 <!-- PRE-START: config panel -->
                 <div id="updateConfigPanel">
                     <p class="text-muted small mb-3">
-                        Refreshes match data for all 13 leagues using Selenium workers,
-                        then re-runs predictions with the <b>existing trained model</b>.
-                        No GPU training happens here — that's a separate, admin-triggered job.
+                        Two options — lightweight refresh (scrape only) or full retrain
+                        (scrape + spin up a GPU VM for training, auto-deletes itself when done).
                     </p>
-                    <div class="alert alert-info small py-2 mb-3">
-                        <i class="bi bi-info-circle"></i>
-                        This will:
-                        <ol class="mb-0 mt-1">
-                            <li>Re-scrape results for all 13 European leagues (only new matches)</li>
-                            <li>Re-scrape upcoming fixtures for the next 30 days</li>
-                            <li>Validate the updated CSVs</li>
-                            <li>Push everything to Cloud Storage for backup</li>
+
+                    <!-- FULL RETRAIN -->
+                    <div class="alert alert-success small py-2 mb-3" style="border-left: 4px solid var(--green);">
+                        <b><i class="bi bi-cpu"></i> Full Retrain</b> (recommended for weekly run)
+                        <ol class="mb-1 mt-1">
+                            <li>Scrape results for all 13 leagues (only new matches)</li>
+                            <li>Scrape upcoming fixtures for next 30 days</li>
+                            <li>Push fresh CSVs to Cloud Storage</li>
+                            <li><b>Create a GPU VM</b> (L4 Spot, asia-northeast3) automatically</li>
+                            <li>GPU trains DL + Hybrid + Calibration + PPO with real-time logs streaming here</li>
+                            <li>GPU pushes new models back to this CPU VM and <b>self-deletes</b></li>
                         </ol>
-                        <div class="mt-2 text-muted" style="font-size:0.75rem;">
-                            Approx. 20–40 min depending on how many new matches exist.
-                            Runs automatically every day at <b>11:00 KST</b> on the cloud deployment.
+                        <div class="text-muted" style="font-size:0.75rem;">
+                            ~2.5–3 hours total. Cost ≈ $0.40 per run. You can close this modal and come back — training continues regardless.
                         </div>
+                        <button class="btn btn-success w-100 mt-2" id="updateFullBtn" onclick="startUpdate(false)">
+                            <i class="bi bi-play-fill"></i> Run Full Retrain (scrape + train on GPU)
+                        </button>
                     </div>
-                    <button class="btn btn-primary w-100" id="updateStartBtn" onclick="startUpdate()">
-                        <i class="bi bi-cloud-download"></i> Scrape Fresh Match Data
-                    </button>
+
+                    <!-- SCRAPE ONLY -->
+                    <div class="alert alert-info small py-2 mb-0" style="border-left: 4px solid var(--cyan);">
+                        <b><i class="bi bi-cloud-download"></i> Scrape Only</b> — for daily data refresh
+                        <div class="text-muted" style="font-size:0.75rem;">
+                            Refreshes match data without retraining. Uses the existing model for predictions.
+                            Runs automatically every day at <b>11:00 KST</b>.
+                        </div>
+                        <button class="btn btn-outline-info w-100 mt-2" id="updateScrapeBtn" onclick="startUpdate(true)">
+                            <i class="bi bi-cloud-download"></i> Scrape Fresh Match Data Only
+                        </button>
+                    </div>
                 </div>
 
                 <!-- IN-PROGRESS: progress ring + log -->
@@ -111,15 +124,19 @@
         document.getElementById('updateModalClose').disabled = false;
     }
 
-    async function startUpdate() {
-        // CPU VM has no GPU — always force scrape-only (no training).
-        document.getElementById('updateStartBtn').disabled = true;
+    async function startUpdate(scrapeOnly) {
+        // scrapeOnly=true  → scrape locally, no GPU
+        // scrapeOnly=false → scrape locally, THEN spawn GPU VM for training
+        const fullBtn = document.getElementById('updateFullBtn');
+        const scrapeBtn = document.getElementById('updateScrapeBtn');
+        if (fullBtn) fullBtn.disabled = true;
+        if (scrapeBtn) scrapeBtn.disabled = true;
 
         try {
             const res = await fetch('/update_mode/start', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ test_mode: false, scrape_only: true })
+                body: JSON.stringify({ test_mode: false, scrape_only: !!scrapeOnly })
             });
             const result = await res.json();
             if (res.status === 409) {
@@ -130,14 +147,16 @@
             }
             if (result.status !== 'success') {
                 alert('Error starting update: ' + (result.message || 'unknown'));
-                document.getElementById('updateStartBtn').disabled = false;
+                if (fullBtn) fullBtn.disabled = false;
+                if (scrapeBtn) scrapeBtn.disabled = false;
                 return;
             }
             showUpdateProgress();
             beginUpdatePolling();
         } catch (e) {
             alert('Request failed: ' + e);
-            document.getElementById('updateStartBtn').disabled = false;
+            if (fullBtn) fullBtn.disabled = false;
+            if (scrapeBtn) scrapeBtn.disabled = false;
         }
     }
 

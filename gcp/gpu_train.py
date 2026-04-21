@@ -125,30 +125,53 @@ def _metadata_get(path):
 
 
 def shutdown_vm():
-    """Best-effort self-shutdown. Fetches instance name + zone from the metadata
-    server (the HOSTNAME env var is not reliably populated in every shell)."""
+    """Self-DELETE (not stop). User wants the GPU VM gone after training so there's
+    no lingering disk cost. Resolves instance name + zone from the GCE metadata
+    server (HOSTNAME is not reliably populated in every shell)."""
     import subprocess
-    print("\n[GPU_TRAIN] Shutting down VM...")
+    print("\n[GPU_TRAIN] Deleting self VM (training complete)...")
 
-    # 1. Resolve instance name + zone from the GCE metadata server.
     instance = _metadata_get("instance/name") or os.environ.get("HOSTNAME", "")
-    zone_path = _metadata_get("instance/zone")   # e.g. "projects/123/zones/asia-northeast3-b"
+    zone_path = _metadata_get("instance/zone")
     zone = zone_path.split("/")[-1] if zone_path else os.environ.get("FOBO_GCP_ZONE", "us-central1-a")
 
     print(f"[GPU_TRAIN]   instance={instance!r} zone={zone!r}")
 
+    # Preferred: gcloud delete (works on the DL VM image which has gcloud built in)
     if instance:
         try:
             subprocess.run(
-                ["gcloud", "compute", "instances", "stop", instance, "--zone", zone],
+                ["gcloud", "compute", "instances", "delete", instance,
+                 "--zone", zone, "--quiet"],
                 check=False,
-                timeout=60,
+                timeout=120,
             )
             return
         except Exception as e:
-            print(f"[GPU_TRAIN] gcloud shutdown failed: {e}; falling back to `sudo shutdown`")
+            print(f"[GPU_TRAIN] gcloud delete failed: {e}; trying REST API fallback")
 
-    # 2. Fallback: pull the plug directly. Works even if gcloud/IAM is broken.
+    # Fallback #1: Compute Engine REST API via the VM's metadata token
+    try:
+        import urllib.request, json as _json
+        token_req = urllib.request.Request(
+            "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/token",
+            headers={"Metadata-Flavor": "Google"},
+        )
+        with urllib.request.urlopen(token_req, timeout=5) as r:
+            token = _json.loads(r.read().decode())["access_token"]
+        project = _metadata_get("project/project-id")
+        del_req = urllib.request.Request(
+            f"https://compute.googleapis.com/compute/v1/projects/{project}/zones/{zone}/instances/{instance}",
+            method="DELETE",
+            headers={"Authorization": f"Bearer {token}"},
+        )
+        with urllib.request.urlopen(del_req, timeout=30) as r:
+            print(f"[GPU_TRAIN] REST delete ok: {r.status}")
+            return
+    except Exception as e:
+        print(f"[GPU_TRAIN] REST delete failed: {e}; last resort shutdown -h now")
+
+    # Fallback #2: pull the plug. VM stays as TERMINATED but at least stops billing.
     try:
         subprocess.run(["sudo", "shutdown", "-h", "now"], check=False, timeout=30)
     except Exception as e2:
@@ -205,10 +228,19 @@ def main():
         print(f"  [{overall:3d}%] Step {step_idx}/{total_steps}: {step_name} — {sub_message}")
         post_progress(step_idx, total_steps, step_name, sub_message, sub_pct, status="running")
 
+    # If the CPU VM has already scraped (the typical flow), skip steps 1-3 on the
+    # GPU VM to save 30-40 minutes. Controlled by FOBO_SKIP_SCRAPE env var.
+    skip_scrape = os.environ.get("FOBO_SKIP_SCRAPE", "false").lower() == "true"
+    print(f"[GPU_TRAIN] skip_scrape={skip_scrape}")
+
     try:
         # Tell the CPU VM a training run is starting
         post_progress(0, 7, "Starting GPU training", "Pulling data from bucket...", 0.0, status="running")
-        result = update_pipeline.run_update_pipeline(progress_cb=cli_cb, test_mode=test_mode)
+        result = update_pipeline.run_update_pipeline(
+            progress_cb=cli_cb,
+            test_mode=test_mode,
+            skip_scrape=skip_scrape,
+        )
         print(f"\n[GPU_TRAIN] Pipeline {result['status']}: {result['message']}")
         for s in result["steps"]:
             print(f"  [{s['status']}] {s['name']}")
