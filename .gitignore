@@ -13,3 +13,8 @@ desktop.ini
 # Logs & runtime
 *.log
 nohup.out
+
+# Local Claude Code session transcript — contains conversation history
+# including secrets (API keys) typed in chat. Never push.
+_claude_session/
+.vscode/
